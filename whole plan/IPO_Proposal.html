@@ -1,0 +1,124 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="source-sha256" content="2ea8c027a4d3505d5779b6bad7561e4660add007ed2fbb6ed0f044a13d1c0fb2"><title>공개 방법론에 기반한 IPO 검토 에이전트 평가 제안서</title><style>
+:root{--ink:#172235;--muted:#607087;--line:#dce4ee;--accent:#3652be;--surface:#f5f7fb}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}
+body{margin:0;background:var(--surface);color:var(--ink);font:16px/1.85 "Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif;word-break:keep-all;overflow-wrap:anywhere}
+.layout{display:grid;grid-template-columns:270px minmax(0,1fr);max-width:1550px;margin:auto;min-height:100vh}
+nav{position:sticky;top:0;align-self:start;height:100vh;overflow-y:auto;padding:32px 24px;border-right:1px solid var(--line);font-size:13px;background:#f5f7fb}
+.nav-title{font-size:12px;letter-spacing:1.6px;font-weight:800;color:var(--accent);margin-bottom:6px}
+nav .doc-label{font-size:19px;line-height:1.5;font-weight:800;margin-bottom:25px}
+nav a{display:block;padding:7px 0;color:#475569;text-decoration:none;line-height:1.55}nav a:hover{color:var(--accent)}
+main{min-width:0;background:white;padding:48px 58px 90px;max-width:1250px}
+h1{font-size:32px;line-height:1.4;letter-spacing:-1px;margin:0 0 24px;border-bottom:4px solid var(--accent);padding-bottom:25px}
+h2{font-size:24px;line-height:1.5;margin:54px 0 20px;padding-top:8px;border-bottom:1px solid var(--line);padding-bottom:12px}
+h3{font-size:19px;margin:30px 0 12px;line-height:1.6}p{margin:12px 0 18px}
+strong{font-weight:750}a{color:#294eae;text-underline-offset:3px}
+ul,ol{padding-left:26px;margin:13px 0 21px}li{margin:8px 0}li>p{margin:6px 0}
+blockquote{margin:24px 0;padding:18px 23px;background:#eef3ff;border-left:4px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}blockquote p:first-child{margin-top:0}
+.table-wrap{overflow-x:auto;margin:22px 0 27px;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.75;table-layout:auto}
+th{background:#eaf0fa;color:#223861;text-align:left;font-weight:750}th,td{padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top;min-width:110px}
+tbody tr:last-child td{border-bottom:0}tbody tr:nth-child(even){background:#fafbfd}
+pre{background:#111c2e;color:#e4edf7;border-radius:10px;padding:22px;overflow-x:auto;line-height:1.65;font-size:13px;white-space:pre}
+code{font:0.9em/1.7 Consolas,"Cascadia Code",monospace;background:#edf1f7;border-radius:4px;padding:2px 5px}pre code{padding:0;background:none;color:inherit}
+figure{margin:25px 0;border:1px solid var(--line);border-radius:12px;padding:22px;background:#fff}
+.flow-svg{display:block;width:100%;max-width:850px;margin:auto;height:auto}.node-label{font:20px "Malgun Gothic",sans-serif;fill:#1e293b}.edge-label{font:16px "Malgun Gothic",sans-serif;fill:#475569;paint-order:stroke;stroke:white;stroke-width:6px;stroke-linejoin:round}
+details{font-size:13px;color:var(--muted);margin-top:12px}summary{cursor:pointer}details pre{font-size:12px}
+.doc-meta{font-size:12px;color:var(--muted);padding-top:40px;border-top:1px solid var(--line);margin-top:50px}
+@media(max-width:1100px){.layout{grid-template-columns:225px minmax(0,1fr)}nav{padding:25px 18px}main{padding:35px 30px}h1{font-size:29px}th,td{padding:10px}}
+@media(max-width:760px){.layout{display:block}nav{position:relative;height:auto;max-height:260px;border-right:0;border-bottom:1px solid var(--line);padding:20px 24px}nav .doc-label{margin-bottom:14px}main{padding:30px 20px 60px}body{font-size:15px}h1{font-size:26px}h2{font-size:22px}table{min-width:680px}figure{padding:8px}.flow-svg{min-width:540px}figure{overflow-x:auto}pre{padding:16px}}
+@media print{body{background:white;font-size:10pt}.layout{display:block;max-width:none}nav{display:none}main{max-width:none;padding:0}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid;margin-top:28px}h3{break-after:avoid;font-size:13pt}a{color:inherit}table{font-size:9pt}tr{break-inside:avoid}pre{white-space:pre-wrap;background:#f0f3f7;color:#152235;break-inside:avoid}figure{break-inside:avoid;max-height:240mm}.flow-svg{max-height:220mm}details{display:none}.table-wrap{overflow:visible}p,li{orphans:3;widows:3}}
+</style></head><body><div class="layout"><nav aria-label="목차"><div class="nav-title">IPO AGENT EVALUATION</div><div class="doc-label">프로젝트 제안서</div><a href="#section-1">연구 목적</a><a href="#section-2">IPO 자료를 검토한다는 의미</a><a href="#section-3">실제 자료를 사용하며 범위를 한정하는 이유</a><a href="#section-4">공개 방법론으로 만드는 검토 기준</a><a href="#section-5">비교할 AI 시스템</a><a href="#section-6">연구 진행 방법</a><a href="#section-7">무엇을 측정할 것인가</a><a href="#section-8">자료의 시점과 연구 범위</a><a href="#section-9">일정과 기대 결과</a><a href="#section-10">참고자료</a></nav><main id="document-content"><h1 id="section-0">공개 방법론에 기반한 IPO 검토 에이전트 평가 제안서</h1>
+<p>버전 2.0  |  2026년 10월 27일</p>
+<h2 id="section-1">연구 목적</h2>
+<p>이 연구는 실제 기업이 공개한 IPO 자료를 AI가 얼마나 정확하게 검토하는지 평가하고, 오류를 줄이기 위해 어떤 계산 도구와 확인 절차가 필요한지 알아보려는 프로젝트다. IPO는 기업이 투자자에게 주식을 공개적으로 판매하면서 상장을 추진하는 과정이다. 이 과정에서 기업은 공모가격을 산정한 근거를 공개한다. 이를 담은 신고서와 투자설명서는 기업이 사업·재무·주식 발행 조건을 공개하는 공시 문서다. 우리는 그 자료를 AI에게 읽히고, 계산에 사용한 숫자와 가정을 확인하며, 추가로 조사할 사항을 고르게 한다.</p>
+<p>금융 업무에서 AI의 답변이 자연스럽다는 이유만으로 그 답을 믿기는 어렵다. 계산 결과가 맞아도 다른 기간의 이익을 사용했을 수 있고, 원문에 없는 내용을 근거처럼 설명했을 수도 있다. 따라서 이 연구는 보고서의 겉모습보다 실제 숫자, 출처, 판단의 연결을 확인한다. 검토 과정에서 발견한 오류에 대응하는 장치를 만들고, 개발에 사용하지 않은 기업 사례에서도 그 장치가 도움이 되는지 측정한다. 최종적으로 어떤 작업을 AI와 도구가 처리할 수 있으며, 어떤 상황에서 사람이 다시 확인해야 하는지를 제시한다.</p>
+<p>평가 기준 작성과 검토, 최종 채점은 팀의 평가 담당자 한 명이 맡는다. 담당자는 기업가치를 검토할 때 따르는 원칙과 확인 순서를 설명한 공개 자료를 실제 공시와 대조할 수 있도록 항목별 참고자료와 판정 예시가 붙은 기준표를 사용한다. 이 프로젝트가 측정하는 성능은 그 기준 아래에서 관찰한 검토 품질이다.</p>
+<h2 id="section-2">IPO 자료를 검토한다는 의미</h2>
+<p>기업이 투자자에게 주식을 판매하려면 판매가격을 정해야 한다. 이 가격을 공모가라고 한다. 공모가를 검토하는 과정에서는 회사의 이익, 비슷한 상장기업의 가격, 성장 가능성 등 여러 요소를 살펴본다. 한국거래소의 안내도 가치평가 방법과 비교기업 선정의 합리성을 검토 대상으로 설명한다. 최종 공모가격은 가치평가와 함께, 기관투자자들이 어느 가격에 얼마나 사려 하는지 조사하는 수요예측 등을 거쳐 정해진다.<a href="#r01">R01</a></p>
+<p>이 연구는 여러 가치평가 방법 가운데 실제로 발생한 이익을 이용하는 PER 방식에 집중한다. PER은 기업의 주식 가치가 이익의 몇 배인지 나타내는 수치다. 이를 설명하기 위해 가상의 기업을 생각해 보자. A회사가 비용과 세금을 빼고 한 해 동안 남긴 순이익이 10억 원이고, 비교 대상으로 삼은 기업들의 배수가 15배라면, 단순 계산으로 얻은 A회사 주식 전체의 평가액인 주주지분 평가액은 150억 원이다. 적용 주식수가 500만 주라면 한 주의 평가액은 3,000원이다. 이 숫자는 계산 구조를 설명하기 위한 가상 예시이며, 실제 거래의 적정가격을 제시한 것이 아니다.</p>
+<p>이 계산에는 숫자 이상의 판단이 들어간다. 10억 원이라는 이익이 일시적인 자산 매각 때문에 커진 것인지 확인해야 한다. 반기인 6개월의 이익을 두 배로 늘린 수치라면 하반기에도 같은 수준의 이익이 발생한다고 보는 가정이 들어간다. 15배라는 배수를 적용한 비교기업들이 A회사와 어떤 점에서 비슷하고 다른지도 설명해야 한다. 이러한 판단을 근거와 함께 재검토하는 것이 에이전트에게 맡길 업무다.</p>
+<p>검토 시점은 특정 신고서나 투자설명서가 공개된 이후로 정한다. 입력 자료에 확정 공모가격이 들어 있는 경우에도 공개된 산정 근거를 재검토하는 과제는 성립한다. 회사가 결정한 가격과 AI의 숫자가 같은지는 핵심 점수가 아니다. 우리는 그 가격을 산정하는 과정의 사실, 계산, 가정과 추가 확인사항을 평가한다. 상장 이후 주가가 올랐다는 사실만으로 검토가 타당했다고 결론 내리지 않는다.</p>
+<h2 id="section-3">실제 자료를 사용하며 범위를 한정하는 이유</h2>
+<p>실제 IPO 자료를 사용하면 연구자가 가상의 기업과 결과를 임의로 만드는 정도를 줄일 수 있다. 금융감독원 OpenDART는 개인에게도 공시 원문과 주요 재무정보를 제공한다. 신고서에는 적용 이익, 비교기업, 주식수, 산정 방식이 제시되어 있어 자료와 계산을 연결하기 좋다.<a href="#r02">R02</a></p>
+<p>초기 검토 후보는 HD현대마린솔루션, 멜콘, 디티에스의 공개 투자설명서다. 이 자료들에는 연간 실적에 기초한 PER, 반기 실적의 연환산, 이익 조정, 정정 전후 수치처럼 서로 다른 검토 요소가 있다. 현재 확인한 것은 관련 원문과 표에 접근할 수 있다는 점이다. 각 사례를 실험에 넣기 전에는 공시 접수번호, 공개일, 필요한 비교기업 자료와 계산을 추가로 확인한다.<a href="#r03">R03</a><a href="#r04">R04</a><a href="#r05">R05</a></p>
+<p>핵심 자료 범위는 국내 비금융 IPO 중 이미 발생한 실적을 이용한 PER 평가다. 연간 실적, 최근 12개월 실적, 중간실적의 연환산을 구분해 기록한다. 미래 이익의 예측이나 다른 평가방법을 중심으로 한 사례는 별도 확장 대상으로 둔다. 이렇게 범위를 좁혀야 여러 기업에 같은 검토 기준을 적용하고 시스템 간 결과를 비교할 수 있다.</p>
+<p>자료가 공개되었다고 모든 원천값을 무료로 확인할 수 있는 것은 아니다. 예를 들어 신고서에 인용된 해외 주가의 원래 데이터에 접근하지 못하면, 공시된 값을 이용한 재계산과 원천값의 독립 확인을 구별한다. 확인하지 못한 자료는 미확인 상태로 남긴다. 연구자가 필요한 값을 임의로 만들어 채우지 않는다.</p>
+<h2 id="section-4">공개 방법론으로 만드는 검토 기준</h2>
+<p>가치평가 판단에는 여러 타당한 답이 존재할 수 있다. 그래서 회사가 택한 방법이나 팀원의 선호를 하나의 정답으로 고정하기보다, 판단이 어떤 자료와 논리로 뒷받침되어야 하는지 정한다. CFA Institute의 공개 자료와 NYU Damodaran의 강의는 이익과 배수의 정의, 비교기업의 차이, 이익 조정 등을 검토할 출발점을 제공한다.<a href="#r17">R17</a><a href="#r18">R18</a></p>
+<p>예를 들어 비교기업을 검토할 때는 업종 이름만 확인하지 않는다. 성장, 위험, 이익 구조의 유사성과 차이를 실제 공시로 확인하고, 그 차이가 배수 비교에 어떤 제약을 주는지 설명하도록 한다. 근거가 충분하면 비교를 수용할 수 있고, 제한을 설명하며 조건부로 사용할 수도 있다. 필요한 정보가 없으면 그 정보를 구체적으로 요청하는 답도 인정한다.</p>
+<p>평가표는 각 항목에 방법론 출처, 실제 사례에서 읽을 위치, 확인할 내용, 충족과 미충족의 예시를 붙인다. 평가 담당자는 이 자료를 대조하면서 채점한다. “검토했다”는 표현을 썼는지만 세지 않고, 실제 사실에서 판단까지 논리가 이어지는지 확인한다. 원문과 방법론으로 결론을 정하기 어려운 항목은 불확정으로 표시하고 그 비중과 사유를 보고한다.</p>
+<p>검토 기준은 네 영역으로 구성한다. 첫째는 적용 이익이다. 이익의 기간과 범위, 연환산과 조정의 의미를 정확히 설명했는지 본다. 둘째는 비교기업이다. 기업 간 유사성과 차이가 판단에 연결되는지 확인한다. 셋째는 민감도다. 민감도 분석은 계산에 사용한 가정을 바꿨을 때 결과가 얼마나 달라지는지 확인하는 작업이다. 공개자료로 가능한 대안을 계산하고 그 영향을 설명했는지 본다. 넷째는 다음 행동이다. 지금 확인된 것과 남은 문제를 구분하고, 필요한 자료나 추가 검토를 구체적으로 요청했는지 평가한다.</p>
+<p>문헌의 원칙과 팀이 정하는 채점 규칙도 구별한다. 예를 들어 비교기업의 차이를 검토해야 한다는 것은 방법론의 원칙이다. 충족, 부분 충족, 미충족을 각각 어떻게 점수로 바꿀지는 팀의 운영규칙이다. 점수 체계는 최종 평가 전에 고정하고, 모든 시스템에 동일하게 적용한다.</p>
+<p>한 명의 담당자가 기준표를 작성하고 채점하므로, 결과에는 그 담당자의 해석이 영향을 줄 수 있다. 이를 관리하기 위해 모든 판정에 원문 위치와 방법론 근거를 남긴다. 담당자가 기준표를 다시 확인했을 때 판단이 달라진 항목도 기록한다. 이 절차는 기준을 더 투명하게 만들지만 전문가의 독립 검증을 대신했다고 표현하지 않는다.</p>
+<h2 id="section-5">비교할 AI 시스템</h2>
+<p>에이전트는 API로 호출하는 AI 모델에 문서 검색, 원문 열람, 계산 도구와 실행 규칙을 붙인 시스템이다. API는 프로그램이 모델에 요청을 보내고 답을 받는 연결 방식이다. 이 연구에서는 모델이 중간 결과를 보고 다음 행동을 고르는 과정까지 평가한다. 따라서 모델의 이름만으로 성능을 설명하기보다 모델과 도구, 실행 절차를 함께 기록한다.<a href="#r07">R07</a></p>
+<p>첫 번째 시스템 B는 정해진 절차를 따른다. 가치평가표를 조회하고, 필요한 숫자를 추출하고, 재계산하고, 검토표를 작성하는 순서가 고정되어 있다. 두 번째 시스템 A0는 같은 업무와 도구를 받지만, 중간 결과에 따라 무엇을 더 검색하고 계산할지 스스로 선택한다. 세 번째 시스템 A1은 A0의 실패를 분석한 뒤 확인 장치를 추가한 버전이다.</p>
+<p>예를 들어 A0가 정정 전 표의 숫자를 현재값으로 사용했다면, A1에는 정정 전후 구획을 대조하는 절차를 추가할 수 있다. 반올림 때문에 생긴 차이를 계산 오류로 경고했다면, 표시 정밀도를 확인하는 절차를 추가할 수 있다. 이러한 장치는 실제로 관찰한 실패에 대응하여 선택한다.</p>
+<p>세 시스템에는 같은 모델 버전, 공개자료, 공통 검토 방법서와 기본 도구를 제공한다. 최대 자원 예산과 출력 형식도 맞춘다. A1의 추가 검사와 재검토에 들어간 비용은 총비용에 포함한다. B와 A0도 정보 부족을 표시하거나 추가 사람 검토를 요청할 수 있다.</p>
+<h2 id="section-6">연구 진행 방법</h2>
+<p>첫 단계에서는 공개 방법론을 바탕으로 공통 검토 방법서와 평가표 초안을 만든다. 평가 담당자가 실제 IPO 한 건을 직접 검토하여 자료 정리, 기준표 작성, 보고서 채점에 걸리는 시간을 측정한다. 이후 초기 후보 3건으로 기준을 적용해 보면서 자료가 충분한지, 모호한 항목은 무엇인지, 실제 판단 과제가 남는지 확인한다.</p>
+<p>다음 단계에서는 사례를 개발용과 최종 평가용으로 나눈다. 개발용 사례는 시스템의 실수를 찾고 고치는 연습 자료다. 최종 평가용 사례는 수정을 마친 시스템이 새로운 기업에서도 같은 업무를 수행하는지 확인하는 자료다. 같은 기업을 계속 보며 고친 뒤 그 기업에서만 평가하면, 다른 기업에도 통하는 방법인지 알기 어렵기 때문에 둘을 구분한다.<a href="#r08">R08</a></p>
+<p>초기 목표는 개발용 기업 10개와 최종 평가용 기업 20개다. 처음 검토한 3건은 개발용 10개에 포함한다. 이 수량은 아직 확보가 끝난 데이터셋이나 통계적으로 충분하다고 증명된 표본을 뜻하지 않는다. 실제 적격 사례 수와 평가 담당자의 작업시간을 확인한 뒤 최종 규모를 확정한다.</p>
+<p>개발 단계에서는 B와 A0를 실행하고 실패를 분류한다. 자료를 찾지 못했는지, 숫자를 잘못 읽었는지, 계산이 틀렸는지, 근거에서 결론으로 넘어가는 논리가 부족했는지를 구별한다. 그 결과에 따라 A1을 만들고, 설정을 고정한 뒤 최종 평가를 시작한다.</p>
+<p>최종 평가에서는 기업 20개를 세 시스템에서 각각 두 번 실행한다. 따라서 실행은 120회이고, 서로 다른 기업은 20개다. 반복 실행은 같은 조건에서도 답이 바뀌는지 확인하기 위한 것이다. 분석에서는 같은 기업의 반복 결과를 먼저 묶고, 기업별로 시스템 간 차이를 비교한다. 최종 평가 결과를 본 뒤 수정한 시스템은 새 버전으로 기록한다.</p>
+<p>작업량이 계획보다 크면 개발 6개와 평가 12개로 줄이는 안을 먼저 검토한다. 같은 세 조건을 두 번씩 실행하면 최종 실행은 72회가 된다. 두 시스템만 비교해야 한다면 기본 에이전트 A0와 개선 에이전트 A1을 남겨 개선 전후를 확인한다. 축소 여부와 기준은 최종 평가 전에 정하며, 결과를 본 뒤 유리한 사례만 남기지 않는다.</p>
+<h2 id="section-7">무엇을 측정할 것인가</h2>
+<p>주요 평가는 사전에 정한 항목을 AI가 근거에 맞게 처리한 정도다. 숫자와 계산의 정확성, 원문의 지지 여부, 방법론을 실제 사실에 적용한 논리, 필요한 추가 확인사항을 나누어 본다. 시스템 조건명을 가린 보고서를 평가 담당자가 채점하고, 각 판정의 근거를 남긴다.</p>
+<p>Trust는 이 연구에서 어떤 조건에서 AI의 초안에 의존할 수 있는지 설명하는 문제다. 시스템이 중요한 미해결 사항이 없다고 제출한 보고서에 오류가 얼마나 남았는지, 전체 업무 중 얼마나 많은 부분을 그 상태로 처리했는지를 함께 측정한다. 어려운 문제를 모두 사람에게 넘기면 완료된 결과의 오류율이 낮아질 수 있으므로, 처리 범위와 남은 오류를 함께 봐야 한다.<a href="#r09">R09</a></p>
+<p>추가 검토 요청의 적절성도 평가한다. 원문을 다시 읽거나 계산 도구를 쓰면 해결할 수 있는 일을 불필요하게 넘겼는지, 반대로 근거가 부족한데 확인을 마쳤다고 단정했는지 확인한다. 숫자·출처·기간 등을 자동으로 대조하는 프로그램인 검사기가 실제 오류를 놓치거나 정상적인 판단을 잘못 경고한 경우도 기록한다.</p>
+<p>여기서 추가 사람 검토는 요청을 기록하는 단계다. 평가 담당자가 보고서를 채점하는 것과, 업무 담당자로서 AI의 요청을 받아 문제를 해결하는 것은 구분한다. 실제 후속 검토를 수행하지 않았다면 요청 이후 오류가 해결되었다고 가정하지 않는다. API 비용과 실행 시간도 함께 보고하여 품질 개선에 얼마나 자원이 필요했는지 설명한다.</p>
+<h2 id="section-8">자료의 시점과 연구 범위</h2>
+<p>기업마다 사용할 문서 버전과 공개 시점을 고정한다. 정정 전후 수치를 구분하고, 검토 시점 이후에 공개된 자료가 입력에 섞이지 않게 한다. 실험 실행 중에는 미리 정한 자료 저장소를 사용하고, 다른 시스템의 답이나 채점 기준표를 읽지 못하게 한다.</p>
+<p>과거 공개자료는 모델이 이미 학습했을 가능성이 있다. 사용할 모델의 버전과 확인 가능한 지식 기준일, 문서 공개일을 기록하고 최근 사례의 확보 가능성을 살펴본다. 그러나 과거와 최근 사례의 점수 차이만으로 학습 오염을 확인했다고 결론 내리지는 않는다. 이 연구의 결과는 선택한 자료와 검토 기준 아래에서 관찰한 성능으로 설명한다.<a href="#r11">R11</a></p>
+<h2 id="section-9">일정과 기대 결과</h2>
+<p>제안 일정은 6주다. 1주차에는 방법론 자료와 평가표를 정리하고, 실제 사례의 수와 사람의 작업시간을 확인한다. 2주차에는 자료를 정리하고 개발용과 평가용 사례를 구분하며 기본 도구를 만든다. 3주차에는 개발 사례에서 실패를 분석한다. 4주차에는 A1을 구성하고 평가 기준과 시스템 설정을 고정한다. 5주차에는 최종 실행과 채점을 진행하고, 6주차에는 결과와 업무 적용 범위를 정리한다.</p>
+<p>최종 결과물에는 자료 목록과 출처, 평가 기준표, 시스템 명세, 실패를 포함한 실행 기록, 기업별 비교 결과, 실패와 개선 장치를 연결한 표가 포함된다. 이를 바탕으로 자동 계산으로 보완할 작업, 근거를 붙여 보조할 판단, 사람의 추가 대조가 필요한 조건, 현재 자료로는 판단을 보류할 영역을 제시한다.</p>
+<p>프로젝트의 완성은 개선 에이전트가 항상 높은 점수를 받는지에 달려 있지 않다. 개선 장치의 효과가 작거나 고정 절차가 더 좋게 나오더라도, 어떤 실패가 발생했고 어떤 대응이 도움이 되었는지 새로운 기업에서 확인하면 결과가 남는다. 이 연구는 공개된 실무 방법론을 투명한 평가 기준으로 바꾸고, 실제 IPO 자료에서 AI의 성능과 추가 검토 조건을 근거로 설명하는 것을 목표로 한다.</p>
+<h2 id="section-10">참고자료</h2>
+<p>본문의 평가 방식·수량·점수는 연구 설계 제안이다. 아래 자료는 관련 업무와 방법론의 근거를 제공한다.</p>
+<p><a id="r01"></a>
+<strong>R01. 한국거래소. 『2025 유가증권시장 상장심사 가이드북』, 인쇄 176–177쪽.</strong><br/>
+https://kind.krx.co.kr/external/dst/guidebook/2025_KRX_guidebook.pdf<br/>
+사용: 산정방법·비교기업·사업 및 시장상황 검토라는 업무 근거. 한계: 코스닥·모든 과거 거래의 현행 규정집이나 최적가격 정답이 아니다.</p>
+<p><a id="r02"></a>
+<strong>R02. 금융감독원 OpenDART. 오픈API 소개.</strong><br/>
+https://opendart.fss.or.kr/intro/main.do<br/>
+사용: 개인의 공시 원문 XML·공시·재무정보 접근 가능성. 한계: 모든 분석 입력이 무료·완전 구조화되어 있다는 뜻은 아니다.</p>
+<p><a id="r03"></a>
+<strong>R03. HD현대마린솔루션. 2024-04-24 정정 투자설명서, 대신증권 공개본.</strong><br/>
+https://money2.daishin.com/html/Notice/2024/downloads/hdmarine0509_03.pdf<br/>
+사용: 실제 실적 PER, 비교기업·주식수·반올림 검토 예시. 인수인 의견과 주당 평가액 표 참조. 한계: 회사의 선택이 최적이라는 근거가 아니다. 해외 주가 원천의 독립 무료 재현은 추가 확인이 필요하다.</p>
+<p><a id="r04"></a>
+<strong>R04. 멜콘. 2026-09-29 정정 투자설명서, 대신증권 공개본.</strong><br/>
+https://money2.daishin.com/html/Notice/2026/downloads/melcon1015_04.pdf<br/>
+사용: 인쇄 370–371쪽 부근의 이익 조정·연환산·비교기업 이익 기간. 한계: 이미 공개된 설명의 복사를 새로운 발견으로 인정하지 않는다.</p>
+<p><a id="r05"></a>
+<strong>R05. 디티에스. 2026-10-12 정정 투자설명서, 대신증권 공개본.</strong><br/>
+https://money2.daishin.com/html/Notice/2026/downloads/dts1023_04.pdf<br/>
+사용: 적용 순이익 24,320백만원, PER 16.14배, 정정 전후 주식수 구획. 한계: 파일명에 있는 날짜를 공시일로 사용하지 않는다.</p>
+<p><a id="r07"></a>
+<strong>R07. Anthropic Engineering. “Demystifying evals for AI agents”, 2026-01-09.</strong><br/>
+https://www.anthropic.com/research/demystifying-evals-for-ai-agents<br/>
+사용: task/trial 구분, model+harness, 실행 기록, 복수 채점 방식. 한계: IPO 성능·표본 수·특정 기준값의 근거는 아니다.</p>
+<p><a id="r08"></a>
+<strong>R08. Kapoor, S. &amp; Narayanan, A. “Leakage and the Reproducibility Crisis in ML-based Science”, 2022 preprint.</strong><br/>
+https://arxiv.org/abs/2207.07048<br/>
+사용: 정보누출과 평가 재현성 문제. 기업·시점 분리는 이를 본 연구에 적용한 설계다.</p>
+<p><a id="r09"></a>
+<strong>R09. Geifman, Y. &amp; El-Yaniv, R. “SelectiveNet: A Deep Neural Network with an Integrated Reject Option”, ICML 2019.</strong><br/>
+https://proceedings.mlr.press/v97/geifman19a.html<br/>
+사용: 위험과 처리 범위를 함께 보는 개념. 한계: 금융 LLM 이관 규칙의 실증 근거가 아니다.</p>
+<p><a id="r11"></a>
+<strong>R11. Oren, Y. et al. “Proving Test Set Contamination in Black-Box Language Models”, ICLR 2024.</strong><br/>
+https://proceedings.iclr.cc/paper_files/paper/2024/hash/46e624c244cff669223d488defd4e835-Abstract-Conference.html<br/>
+사용: 공개 자료와 폐쇄형 모델의 사전학습 오염 가능성·검증 한계. 본 연구가 이 논문의 탐지법을 구현했다는 뜻은 아니다.</p>
+<p><a id="r17"></a>
+<strong>R17. CFA Institute. Market-Based Valuation: Price and Enterprise Value Multiples, 2026 공개 요약.</strong><br/>
+<a href="https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples">https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples</a><br/>
+찾을 부분: Summary의 trailing/forward P/E, normalizing EPS, central tendency. 사용: 이익 정의와 비교 논리. 전체 교재의 무료 공개를 뜻하지 않는다.</p>
+<p><a id="r18"></a>
+<strong>R18. Aswath Damodaran, NYU Stern. The Anatomy of a Multiple.</strong><br/>
+<a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/multintr.htm">https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/multintr.htm</a><br/>
+찾을 부분: Definitional, Descriptive, Analytical, Application Tests. 사용: 배수 측정·분포·기업 간 차이의 검토 질문. 점수표는 본 연구가 정한다.</p>
+</main></div></body></html>
