@@ -1,0 +1,10 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Editor locks and operating-system files
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini

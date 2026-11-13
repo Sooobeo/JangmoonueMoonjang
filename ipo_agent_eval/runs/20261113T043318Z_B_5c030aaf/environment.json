@@ -1,0 +1,11 @@
+{
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "openai": "2.33.0",
+    "httpx": "0.28.1",
+    "jsonschema": "4.26.0",
+    "tiktoken": "0.14.0",
+    "PyMuPDF": "1.28.0",
+    "python-dotenv": "1.2.4"
+  }
+}

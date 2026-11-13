@@ -1,0 +1,15 @@
+{
+  "ipo_eval\\__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+  "ipo_eval\\calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+  "ipo_eval\\corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+  "ipo_eval\\id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+  "ipo_eval\\runner.py": "95f94af3c7e67d90c88a44b2bca87d63824ab09bb1e507f6f2a186d8341e1d4b",
+  "ipo_eval\\schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+  "ipo_eval\\validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+  "prompts\\common.md": "c0dd747b3a92079d123bdcf056fb748e89275744fa858c6dad7a629c671ef426",
+  "config\\B.json": "5a4bfdcb93c545d84f3c3daa9e8a3b08769ee3dc1c718a5b6cb870e0333bccf0",
+  "data/public/chunks.jsonl": "3c1a055acb37e00a01ec33d7b0a3cdd7b5e09bbfc1ad31af4ac0703833414497",
+  "data/public/documents.jsonl": "c5b61b530e7b69d434fc5fb2c071b3b4966e4753598170f349ae988d50031931",
+  "data/public/case_manifest.jsonl": "1dca671e256cd4be14a61451632ef1bb9c01ea727028b44cbd5f0426cc7767f4",
+  "data/public/manual.md": "df86f3e827e3565672522c3f299aa1fb48d5bd8ad973e63349869c87c7220e3f"
+}

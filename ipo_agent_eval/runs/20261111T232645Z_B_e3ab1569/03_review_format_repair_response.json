@@ -1,0 +1,508 @@
+{
+  "id": "resp_0e0c4cbd8e0d96ca016af4fa30658087d2acf3d63ab28f0060",
+  "created_at": 1794439728.0,
+  "error": null,
+  "incomplete_details": {
+    "reason": "max_output_tokens"
+  },
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6.1-terra",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0e0c4cbd8e0d96ca016af4fa31300087d2a317d523f9e87b58",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9PpMjUAJmfFJ6HmaCfB_aMdZ36zAL-sq_9pqpk2xvhAwkvU02vQp3Pp4-P3Jh8qy-36stItNNJWgsogLXYS0lGL8kGWxEKlUZqWfNHP7mpBjxvnxlV5r9k5woKdqAqb-ff88bsJint_Hv_7uA0WcaAPzq8hwhiXmL6Q-Km1hu1DLgBcPav0j6mP2qVMWAhYZxwouCbuYOnf-ujbW2Rv6tQgXbgS04OQXCgZd73VbBjFkt0pPJhZdN7TKP136xQWQ0Hh97CfCdShaNdW3qQhkbe1jNvWDDUF89f5HNGZLMeIp33n2jCbmoIhQEXikvU5rzV_5v-xAxrY3dSgCRbT0kL9_ovp5-n2XEQS9RhidBL2Ui3acVi_BDjctEgU62Pq4J6MSyZ3pLf2AxxOCGJ6K0ZmgolS02oVa__2B3a_Nt2-Rh53IpCLKc4ykMdmJKaNmYGxjvpRHSqVE91NXZel04Glw8FBxlsM4iqnqhfCsvAoocl7nsYxgRfwC0ZOvogg6GBB2q4EFHflokvAqaLg1IO4RQL5NE63hyGHERfNUqCehGnzy1x2qkZVzLUBi8Pw3yDfoFbZbdeEGp1R6GQQyjvdGteDiUtJ07jC-qEBp3p7Or3Q_nJ12LNda6QjRK69uE5eHx_OtCcloviKRYu2Uqth4EUWFVxuWak1qiRkolDdIjB11jhuV7jUKuTpTurDGf93r6BgkvfLGoJdzU5PQolCU7pk98MUIGuy1G_zUqfRxE3BXR0o90BwUmHThdi0QRy9mDK8lnong5jHAY7gVfQ5TDB3y98cTr0cmyBI9BzNfDnSr8dpQAkAFRab9AhFut4zDVPnDDDLQiXap5JF4ksxxCWErX6uUfmLCuDejQgGJhBC0UJXgCbFx82EnuUyLqFV0yFD6reZTnldNnKi2cUsbfIWNcM7j3oj4mG943SKMY_Wdf97-T6v1vofJwFHs-GpjPoEmG_5FgeXR3gQxdDqeZxD4IsBJwPurIOoV4WjDYnU5BLYv0H6VKpUtCoqR1nRLmucnyRsxGBoFSFINLZVQFV3EyZgaqQypiI-Skw3LNUbEXDPS4azQ3WZCbD4WSHnUmEMbe2escUa7ZQzzr7paJ7Htfwcay_EsVIb6GDBNYFL3FK_BW8SUCn4gah52RXhAoyM5cBwYXybU5BB-dKd_FNjitfP8xkuRKD7KDDklOK0urqdoWg7svp1FSsSmbI6dcCj21LMzZvXV6JdwB1bIyQe5peXk0dBec6bh05q8YghsWRMKbT8FDweieaOfhGATPYOp6iwthRvfPomKiUE5u0nStQrxfdstVVg7RIGOAuZWknbfaS4PAHmSth1wbP4Yf9_0ENVvwOyA33sI3HojeOaWTqHxkEE800Ih47-lGFyBgaf0EOHDAVTvDJ3l6UOdk0s-6z7MrDUDsS0f6KzjKYVFogwOig3gMTFdB313-q0sifqHr78jWlnwxVlJsUaWwH-kUNmaoKeLmnx3JRz75I17ewawf9FsYxpRl8wEAwVLB10eBxQ2ATohfuOKCE3QveVp61gvVUy039ULaSGo9eHWxQ26t7rYyXG90Y-u6gRfixJMKoa5PY_550FGRR12KAB3tH9kQRm5uRkj_xMwHxb1l5dvJMiFXh86lc1vlsmhuorLZ_vUIg4MUcqpUvRMdFgSsD68VdV8hAGwqfDyC0j9bTvlpRgbeGE3j6WqjbzIbiULYcHNIiZthcxtynILzZ3M1V7uUlyppo2F7T1NZ4piIM5w8so93P2zNHzJyia96Ly7CqYQ6lTcOwhpPV7zMIijzZXiz9KYDuZG4cBH2G_zvc1q1_GZ1do1k4yeJO7Jz9r01umSJPQxZyhhLNba2VoksMsAKcmnfPHvOsaAWWf2dYyuTF0lDHroqffJ7TtsF0oC2_oPYgmrVdh4vNPAFU7WnS4rNlWobsyFH4OVhrHDjObool-ECJO5iuIkOmppgUTA93f29k5UhnEUwEa_p5qbdg_-04jI7-Kb8AbRT7QfvIukBTPjmifI52RVHzOp6pLyH_OuL7gw4wVafEBrlnF8BWK8YzCkCaEhzzyQKTM7kb4kglFOy_C2MVbdpQORt0ksaAhZ97QzuKygUm8X50lkPYbN_H2wr6RPRzb4oy7etVsqWaRyHYXY-NyibS9rOriEFlU0tC4uH_W0FbMVEvlTDYLQWlCxbn0kfte3RxqZFu-SyL9FKqcNXB7bnO9RKnJ-jX6Mc1qyGO9P_YzuSe55TOGgzfp8FuYAo_tCBqgTZxjWdpepMrevCv1aajXgMsKKgODBtDGrmu5FJYZYV3SCS9cx4DQbhXa-2NT_-ea3Q06qyyUruyK_1fqed740B6d5ZI72Y031q9yU-i1Mc800DZ3qRP7hMJDx0CkZQj0a6jTPwAmKJhqXlNYCYwgI8JOvXlAYGq53suGBauYjATVaQqjt3euzKLZ1K388klmKxT9aH-aWbf9Sk5uypExaMc18oH159aR8pzJVK9tLnK8FGkFB39B7YBlQG0L6n4XlBqwRnvifoAbZAa3aXVTp-E_nQaA315YeKc4AgHZ-Vk2fx-DRz6J6VXye0nAhpZEMT_7nXJVWlZsBRMtCctsm2Yl7uXNwlU8jR7BN0mCdSzj-6XyFdtSMi8dcNQfJcdF79rmpY7aROwZ0B3aE1ChOpXnZ6H1eJxZNGfr3NE39CegJCBQqUNuuzcTEP1ODcESBIve-62NeFY1qrh6gh8QldYwhUfGr4IlffPPbJUCMQ5xqw8yMd5BuyaugHcuRv-RMZV9U9RT-Day1rHGT6rUBl4tLy0U_F5DlqP5VuO-k_CkCF6GnCJl65YKxsFa6tPIhScotm_2zYIsVgGblMF2bERlL9UykF-2DMGCr59l1Jg3h2clSnkpaYKzIcN4Iebzl_KX0pDhJt63kTNjp0t8NYTElIkACB4uVtXHlzFvDxeDxeGjMNOHQKSgwNajUy4gB-Os6nSuMGyHEha8jwIEdedM63uPopI7K5gKwRUKc2DSU8N_n8byboQby1WX7aol4fbSYY4_NO0u5baZvUx8dSnxqXwKk-EKK-Da8wuledEPw8IIZGT4QAErxF7y9g-OJDrKmns3ohtivQrt1GxxNQ5sE9-w2wa1zRTYdCMxsH7ttH3zqkElyEQ1Gmg4p-ZIJXMUuC-9dC8PYO_KBUEvbShtD4_P9oC18A18t6mP3kSgXtkz9q3ZmDnlvvj25pYEMUjE3T86FjT_zFnPUE9OQL-M15xvvcJQ-NXMRt1-3ymi50MFe1i7uiY4DJMgn0sjAf2x0FCk6mYw4usX3p03XbMIIAuwhNUIS9YONMjRDIg_kNbbfObMFbg0c10h9qQDXwGhO_0BvrrsUbvxUII8qyPVHOm96Ft_GjymKcEpKzeVIhxAiPPdK0qrt4tMWL8Buy8u_wOhuSf18OZuwefzHYmiCy1IXqaE2Pff8VJVWhRlBpvWnuwBPm6LJAa4xR4KxSo3EMGMeZtQjix3Euwq4ZjPyzrcpT6e5KMiNdEAbY6mg8KlKwgDatJIC5t3xiECxaMG_IszpMIRRnUOJbzNbtkcOb7SHLb1fKOQI7W-GCAouLDjcqodBwbnm49uaQ-t0zZM3ebgEMnKIbY5OlRhQxMB1fLB7Pov3KIQpfbwlZHWm6Q_iD8EqU7cmekzHCOMtS1Rx96DhHlrqQaEVIvBc2syI7Z49e-UczalAJn038n6tHaIqy8S4IREJOBm-tNwvudVOp2r8wE5Hkxr15-pxy7ts3Wm-dtEWilHvOK68xzTye3oZI7tph0_BUGtirW4-T1tvXPJtJ6b8ocAu4jMV2S7m13xcvDdrjDaM2GbilEAslKjoY2gfRlTqJCWjVjq91jVqg7OW_OPRNF4-ITO4Eze2nH75Im5SSAARy0l2fa2s-pX7utvLfxbDgSshgyFmcL1Fq-l9SDbaEsaJRd0SuulNw3s57krNj_yE4TT95uq9SQtGc1uiUAgVTIH1_y5lCJCCoZxoghpFi0HNhtPqnzGSyc94K6D8SJlKE4VmMcMPGwTWC9TZXZv0d6w3gY4HctBjMiQhFGlxBvliIrZWSLNCWVFjB1_cCABMy8kVPYDhRWYAOSiO2Ar0S1_361CuNRln589uPbjNXLluLSUD_74Km9b-AElePgU-c72KAdSorrzPGsAqMGUKqCvg2oKej63Ce5Fqf18w4F1DAuSx-84c6E3kiWQ5xrQcK2u5GAKuw22AvbtOI7UsV1ZRjK3yht-ECR6x1Gjmym4vHm3gQar7RKAJUdbC-R6tmR5Hp7IQA7MDIpF27Yfpd4FvuO6RXU-BM8aVRHRu6BpSxHFp7BNy_qpuLDGMLEpy-eCFFu3ogR2kYIhB4EGMxchOW-OWG6Sr41BXnQVTMTdZL_xwutGt9V3eg_TZS6t5c6h_OtAfgdF2LfNEBThkuQIkzBrNa5TlV7gujJhyOvVfoya9bahFIc7CksIfF_hdkE5Bo8Pm2-w_i3RDw7VmuuPzu5c2AH5IQWtZbj2301KGjt35bfpGz_jtrlXvDsf5D9flpBFpHOWp5CHdXHFyhdGflyyymz_bmLw7yzDAyRiiIdRkQyWtqzjbsT59HeiCUGqMmU-qHNkj6gdZvRXp16q57drUMmK9z24YfPEadYBs84pVNN0eDzxJGHtDjQEzrJycbNS11jdVYc9vmKf-XkBN3KXdWiA_xzOXRT-XZjwQ1B_nO--sfsMISSpQHx4cHfeM6LrGFlhv_fsF7NfWMDY1BsE8rX1kr4pWs_WTFXXwBWnwffCl8yb_mgVkU0RB17UyvfSvTxJV90wT5fg1-Z3aSVNvUwjtO9HLFohzqahyHbwISvVuf0RTOnu11dfyaLD1I2v4_wFdqG5Ol6owKNEty936uX2Ie53U2mT9iMnl8S0_WEW9WJKCZx72uPWr6aBg4dxLMW8XUYs4tN_XaZvJC-beU_Pnw6dhCDI9CSGk6HC8tcfvOWencpQt_WgRObE0tDu4WeYS4-BUIyqk1Gegap1QEM2lVpjdrALUYoqunOcjjEyIGSAANf9UhldwoUOZJbvZcFxMX2bQ_46tMt5t6cMeUDNNww-_HSIYavKJelDmQe6pr4i6iOMM4cEl-9BeO3HQC8ZJ0Z2QVcXnXrrqJlqOVIQiS1fnDPmg4mCDUCCcwlfeFqJPRH1ppHaz-lCIWrx5srrc_ZYax5O2x3fkDzshpy6tK0cZV6CaDgMxs6rDCLNxiK0ctsHWZbinthYM0-s8fniLl8TawN6JJUuloeQ60bg6tsdH-iXhO0-bkC78daKaoYaLhmz-yQpAMgq_96s9aQYatyIDfaxBSDuOXigEsge0za6s5npYD33KtH-ExzGk-aInUHC3XdQt6bqdZYGROggJ_27c5Jxpif4D--Bh_vflKCFYkeSEnmLxdJ0oNJoVnPxRDv2B7gHyrx7c9Z76kzg2pnbAx2U16NCL7-9JmKaus95KkZu7TErC8ZVd8XNJZDUMRwjmupvRq6wGyw-ZxnGokgZEesNltcTANX8E29nnuMnQFPDKXqANgNMY3RQLoMoheL6GcUD8HNX5iu9E3-Y7eowppG60uSvTZvAZEYZqjXRysqJDZuhGVOIY5Jb26DJQ2EJlNLRcBUYOcja2OS4FKK3TjwGRt3CtUdprLb-ALvxNLXeTNZ50ERxQ0dsBAo5rUfmCkkwozNIW9SROyJSeqICoIartBX1FLaVtyD4pita5Y8KVPfAxVFz466ujB8xXTAm1BlvUH01ReiiEn5Pjlez2G0MNKiRxkvz-xbvhxdf-hdKxArUphM3XRX0IgncHjMyry3VsAo5sZ_aQBQnrswVXsi-2AMCkgH1m9A_Y15RwdWCOzXBvlAw3CfRJTedoIzmWi_zrRbuBZVLmyfR1_Q-sVorCTXM5ssySCv9JEXrBEfeNex1l3zYlZbtxOuckqQdjGbCCj6vwar1HSxMlqAbxy5Oz3sH8wghIEFyHxaOrPnNbyuHmtrZCuVv3H4bp0k3oJi4sJjrSur6DhWdMhlxdxQVAIO5qjgrRb86c886CkmFs0YTwUjLrbOZ2C_-FSnXgHfmiTjQjNDoiGBgejwfI-z4gmLSxF6zx9tevMrPLIFX2umCJrFtj90VqalJi7FzMrllXZObffzz-niCfz7q9FZvU1PWh-BuZL1qrMOhX1O7K7q79iwFqgGvK5aTL5IsugUdXHs-Vv-Fmk6ScjONP4-GY6qYbAxI4g3bpVoDgMwtYM2gJs_J_-o_-9cHwm3YR8zAa8DYjymxEISR3mzmhQ4EwgwHME_RGFBp6yamSkjH_aKBzlfOYzXW0hy4TCPwkxT7wkWe1sdb6Lgab95_wf6YN1SW53BK_rSQRYQhgjNlMVHsUu6MTe_fQ8Orm_PtKedsZO8bPgAO3ZbHmRDMwIKB8orR9_tOAG8QC00lJf4VJjjVX3gKtYoOGtPOEe01VyKb65V9xeBiXbi930yDbEaX4AWePlaT_qVMgf7TIvvUI8oMy5KBuBIydBzwiKCG21SSBE8GvD73Yk4Ur6dXak2R_cTcrVebmj38l-Bq9gYEgPylRc9eN2pZjZ-wFgPOjb8v28XSSlyHE2CHiNX9qHs4dgBOLt2BS-uHXlCgokJ-NP8ZRQW4aaJFVpRNSb_qTT4byDNEPbXzETvWvTLTKWs_Ovl5WBNM_sI3Aba8VlZvxRs8qfUKgMoXZHPKppQATSgoXqGXHgzUlO5LOcFKHEDOB6ydpuOtw3pyK_F_D4O-QJlh2V_Nou0qLtPZfPAC1LDj52x0Re3RdwUm5R2YTdUOi39jdG5xsQQxtwo_Jng7_qhyY7v86NhXG2VBLHRMl8KYW_U3cEPE6EuVrFsSTNe2MclhCwtowgDbbw3jx3QehUbHDtIYTYfrvJmYjk_5PJ6NuVORd42oa2IKBUfQfyAGeAjfn3SZSXDpCJOcRmEeCxraeXOSJFTBXH5hyIiA4QnMNThRS0dqzHX5NOEE42LftMBc8Skk5ACwXo0cYN34sIuf_Z0ZufQSaNnb0O8zsNjIgLVtZJdMLz3xdqHEjTrW7XnVDCkgTwTtS02BknJn2IwBDSEMYmKxCQAYUIUO15ncbgh7Bvb7niK_nVWgQM_RrTNWPAPixyWuKF62wDP4J08gzQh3bYsR_yrVxWOL_wa98jwXVdwjLjrZpjtdhdUdehroCAgi9aVhalj5E66VFrVj5XIjOAb2vSp0rItk7dYx76a49FzrVKRMljWjpz5gNMvu_7flTGi9aVluEi5JUxIvLgufOTvMdhqpxfKfyNM3yi6Dqs7RKoBnFLM4Xu7FfWAOJmgCeQDlrUTXe8LmSQ8wOp1SxreLJ6b0ACb0NQs70vtHHWooRrw3rVocuiaBRMlWx1KFmXfnxHnAFjhezooHEvCwgD8oxfJYgKT9-Q5TTyL1NxtRk1W2NsRljuEWuktVl2YGmtWucKwmjxUUyJ_yrfaO_pFNTYbf4MHkGE7aQSjTYOAq6TPz7CAmW5sHo2EtlazbeSCnM2Asw0uotBPfvLDeoOmKwUf8BDT0e05NJw5Vi1p_rQhx75y9S1BzpHYbCzLzquF0QwePmhE1hfoY4gm1Om7LPTV5lIybwSYP6_w44e7LvIWAyhp7Kbh22isuPORcuXnrw3L1R-9u5O51OlEh1-TrOQyAVsAwjgIpSRI8U-6O-3JOjgr2cn_t06lSSzOsPANxUufRxTuEHkK0P4Hi_NvcoeHOjTiHgnawibW3iMTcei1H9IAMmv3PwUs3vccGEkaSLqlGAw8rt0d4yc1JkSIhQY2qThUbpeyb1e0citicH8441Xegipaudrl_1JLkXlb53CV3oTRhxVJukgw69MjxFodYoBZUhsd1OVcguzWQsT2bdG05ovCZpbvyAbQf0EvDzwkPJS3dkFwTiDk14IcgZ3Bz04jr3N9xV5c0bl2jQcHzrnzNbB9OmX5ukK1aqfTH-pI6hgPnwJ6YiJ-KZcIruU-RIfFzPvSjJW57zPguoG5UJ8221QsartY7JtPO_71NSVxmeXskZZY98_pHvrLVkkXB709AOw4QAw_D5N_LVJ4TOisFPbV9zqIM4m8Ne6kaKLoZ6qENASY7UKft1CaTCtMYoBbE8y96biCfIqxOuDsh2KOlYK48Nhxi-o2P2k8bjciuUGokMAXbVVp0qpw_E1uaUOrJINEcTQ1GevJxdmx8X6FUOewjjehf3E4b17TqKMlCqrUiB3EeFCroEEOXh1AxWklMDzDz_lUaTSp-_2X9KIR3_gABf4uApO0OL7emx09nifGdq739Pjhw2P0G-4xMTrI_0Dry1HokbMO3Ca5yumoe6XJRAuZe6HPFWUTLZjYJxXXwvh3RyGK6aU09kJGamYxlgw1SrI2onUxYtOOuLu2VHt06LMBtLcnFgY7OPkzJIRPeeKsflJqWSrRqIKkjA5ltD1qRm7Flq3TkA5CTKM_sfM0viH98PUNxrau6gAVL2ePPKfSlZ7lg6msECEw7Ad9IID65aJd5jMx0zPOyv5o7z8wvBbJXerjbWKcu4xOZjcxgj2RAb73c=",
+      "status": null
+    },
+    {
+      "id": "msg_0e0c4cbd8e0d96ca016af4fa39a3b887d2aea6c7eb924cc0a6",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\n  \"scope\": {\n    \"document_ids\": [\"HDMS-PROS-01\"],\n    \"verification_limits\": [\n      \"기존 출력은 제공된 물리 페이지와 공시 인용값을 사용한 것으로 기록되어 있다. 비교기업의 사업보고서, 거래가격 및 환율 원자료는 독립적으로 확인하지 않았다.\",\n      \"이번 형식 수리에는 문서 원문이 별도로 제공되지 않아 기존 출력의 사실과 인용 위치를 재검증하지 않았다.\",\n      \"허용 문서의 공개 시각은 2024-04-24라는 날짜까지만 확인됐다. 자료 마감은 같은 날 23:59:59 KST다.\",\n      \"민감도는 주당 평가가액에 관한 계산이며 적정 공모가 예측이나 투자 승인이 아니다.\"\n    ]\n  },\n  \"judgments\": [\n    {\n      \"judgment_id\": \"J1\",\n      \"domain\": \"J1\",\n      \"conclusion\": \"2023년 온기 연결 지배주주순이익을 적용한 것은 비교기업의 온기 지배주주순이익 기준과 기간·귀속 범위가 맞아 조건부로 비교 가능하다. 표시 정밀도 때문에 공시 평가시가총액은 표시 배수만으로 정확히 재현되지 않는다.\",\n      \"disposition\": \"CONDITIONAL\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J1_EARNINGS\",\n          \"text\": \"공시 사실: 적용 이익은 151,116백만원이다. 연결재무정보의 2023년 1월 1일~12월 31일 지배기업 소유주 귀속 순이익은 151,116,175,331원이며 비지배지분 순이익은 없다. 비교기업에도 2023년 온기 지배주주순이익을 적용했다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0421\",\n              \"page\": 421,\n              \"claim_id\": \"R_J1_EARNINGS\",\n              \"locator\": \"요약 연결 재무정보, 2023년 당기순이익과 지배기업소유지분\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J1_EARNINGS\",\n              \"locator\": \"평가 시가총액 산출 내역 및 2023년 온기 기준 PER 산출\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_SHARES\",\n          \"text\": \"재계산: 공모 전 40,000,000주 + 신주 4,450,000주 + 희석가능 420,190주 = 44,870,190주다. 희석가능분은 주식매수선택권 13,510주와 우리사주매수선택권 잔여 406,680주다. 구주매출 4,450,000주는 기존 주식이므로 다시 더하지 않는다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0332\",\n              \"page\": 332,\n              \"claim_id\": \"R_J1_SHARES\",\n              \"locator\": \"주당 평가가액 산출 내역 및 희석가능주식수 주석\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_RECALC\",\n          \"text\": \"재계산: 표시 이익 151,116백만원 × 표시 PER 31.5배 = 4,760,154백만원이고, 이를 44,870,190주로 나누면 약 106,087원이다. 반면 공시 평가시가총액 4,761,293백만원을 나누면 106,112.61원으로 공시 평가가액 106,113원과 원 단위 반올림상 일치한다. 공시 시가총액을 표시 이익으로 역산한 배수는 약 31.50754배다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J1_RECALC\",\n              \"locator\": \"적용 순이익 및 2023년 온기 기준 PER 산출\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0332\",\n              \"page\": 332,\n              \"claim_id\": \"R_J1_RECALC\",\n              \"locator\": \"평가 시가총액 및 주당 평가가액 산출 내역\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_PRECISION\",\n          \"text\": \"재계산: 공시에 인용된 각 비교기업의 시가총액과 이익을 나눈 배수의 평균은 약 31.50755배이고, 이를 표시 이익과 주식수에 적용하면 약 106,112.66원이다. 표시 배수만 사용한 결과와의 차이는 미표시 정밀도로 설명 가능한 수준이나 실제 처리 규칙을 확인한 것은 아니다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J1_PRECISION\",\n              \"locator\": \"2023년 온기 기준 PER 산출, 각 사 기준시가총액과 지배주주순이익\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_METHOD\",\n          \"text\": \"공시는 PER 평가방법을 통한 상대가치 산출 방법을 제시한다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0330\",\n              \"page\": 330,\n              \"claim_id\": \"R_J1_METHOD\",\n              \"locator\": \"PER 평가방법을 통한 상대가치 산출, 산출 방법\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_ACCOUNTING_LIMIT\",\n          \"text\": \"공시는 PER 평가방법의 한계로 비교기업 간 회계기준 및 연결 대상 기준 차이를 설명한다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J1_ACCOUNTING_LIMIT\",\n              \"locator\": \"PER 평가방법의 한계점: 비교기업 간 회계기준 및 연결 대상 기준 차이\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_SEPARATE_EARNINGS\",\n          \"text\": \"공시의 2023년 별도 당기순이익은 143,474,006,953원이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0423\",\n              \"page\": 423,\n              \"claim_id\": \"R_J1_SEPARATE_EARNINGS\",\n              \"locator\": \"요약 별도 재무정보, 2023년 당기순이익\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0330\",\n          \"page\": 330,\n          \"claim_id\": \"R_J1_METHOD\",\n          \"locator\": \"PER 평가방법을 통한 상대가치 산출, 산출 방법\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0331\",\n          \"page\": 331,\n          \"claim_id\": \"R_J1_ACCOUNTING_LIMIT\",\n          \"locator\": \"PER 평가방법의 한계점: 비교기업 간 회계기준 및 연결 대상 기준 차이\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0423\",\n          \"page\": 423,\n          \"claim_id\": \"R_J1_SEPARATE_EARNINGS\",\n          \"locator\": \"요약 별도 재무정보, 2023년 당기순이익\"\n        }\n      ],\n      \"unknowns\": [\n        \"개별 비교기업의 독립 원자료와 공시 계산에 실제 사용된 미표시 자릿수·반올림 규칙은 확인하지 못했다.\",\n        \"확인한",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "incomplete",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": null,
+  "conversation": null,
+  "max_output_tokens": 2500,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "all_turns",
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "incomplete",
+  "text": {
+    "format": {
+      "name": "review_format_repair",
+      "schema_": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "type": "object",
+            "properties": {
+              "document_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "verification_limits": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "document_ids",
+              "verification_limits"
+            ],
+            "additionalProperties": false
+          },
+          "judgments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "judgment_id": {
+                  "type": "string"
+                },
+                "domain": {
+                  "type": "string",
+                  "enum": [
+                    "J1",
+                    "J2",
+                    "J3",
+                    "J4"
+                  ]
+                },
+                "conclusion": {
+                  "type": "string"
+                },
+                "disposition": {
+                  "type": "string",
+                  "enum": [
+                    "ACCEPT",
+                    "CONDITIONAL",
+                    "REQUEST_INFO",
+                    "ESCALATE"
+                  ]
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "evidence": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "doc_id": {
+                              "type": "string"
+                            },
+                            "chunk_id": {
+                              "type": "string"
+                            },
+                            "page": {
+                              "type": "integer"
+                            },
+                            "claim_id": {
+                              "type": "string"
+                            },
+                            "locator": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "doc_id",
+                            "chunk_id",
+                            "page",
+                            "claim_id",
+                            "locator"
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": [
+                      "claim_id",
+                      "text",
+                      "evidence"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "counter_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "unknowns": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "next_action": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "judgment_id",
+                "domain",
+                "conclusion",
+                "disposition",
+                "facts",
+                "evidence",
+                "counter_evidence",
+                "unknowns",
+                "next_action"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "requests": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "request_id": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "why_needed": {
+                  "type": "string"
+                },
+                "related_judgment_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blocking": {
+                  "type": "boolean"
+                },
+                "resolution_status": {
+                  "type": "string",
+                  "enum": [
+                    "OPEN",
+                    "RESOLVED"
+                  ]
+                },
+                "resolution_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "request_id",
+                "question",
+                "why_needed",
+                "related_judgment_ids",
+                "blocking",
+                "resolution_status",
+                "resolution_evidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "escalations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "escalation_id": {
+                  "type": "string"
+                },
+                "review_focus": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "why_needed": {
+                  "type": "string"
+                },
+                "related_judgment_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blocking": {
+                  "type": "boolean"
+                },
+                "resolution_status": {
+                  "type": "string",
+                  "enum": [
+                    "OPEN",
+                    "RESOLVED"
+                  ]
+                },
+                "resolution_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "escalation_id",
+                "review_focus",
+                "question",
+                "why_needed",
+                "related_judgment_ids",
+                "blocking",
+                "resolution_status",
+                "resolution_evidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "missing_inputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string"
+                },
+                "missing_reason": {
+                  "type": "string"
+                },
+                "request_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "field",
+                "missing_reason",
+                "request_id"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "memo": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "model_reported_status": {
+            "type": "string",
+            "enum": [
+              "READY",
+              "PENDING_INFO",
+              "HUMAN_REVIEW"
+            ]
+          }
+        },
+        "required": [
+          "scope",
+          "judgments",
+          "requests",
+          "escalations",
+          "missing_inputs",
+          "memo",
+          "model_reported_status"
+        ],
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 9857,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 9854
+    },
+    "output_tokens": 2500,
+    "output_tokens_details": {
+      "reasoning_tokens": 507
+    },
+    "total_tokens": 12357
+  },
+  "user": null,
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": false,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

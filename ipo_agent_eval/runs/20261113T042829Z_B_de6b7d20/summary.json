@@ -1,0 +1,22 @@
+{
+  "run_id": "20261113T042829Z_B_de6b7d20",
+  "condition": "B",
+  "mode": "PREFLIGHT",
+  "case_id": "DTS-DEV-01",
+  "config_version": "0.2.0-pilot",
+  "execution_status": "PREFLIGHT_COMPLETE",
+  "model": "gpt-6.1-terra",
+  "model_calls": 0,
+  "tool_calls": 10,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "format_repairs": 0,
+  "elapsed_seconds": 0.393,
+  "estimated_cost_usd_standard_uncached": 0.0,
+  "estimated_cost_krw_at_budget_fx": 0.0,
+  "cost_note": "Usage-based estimate, not an invoice. Cache writes, taxes and FX can differ. Failed requests may have unreported usage.",
+  "final_status": null,
+  "source_pages": 34,
+  "api_key_configured": true,
+  "actual_model_answer": false
+}

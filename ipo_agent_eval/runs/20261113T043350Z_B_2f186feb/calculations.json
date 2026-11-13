@@ -1,0 +1,754 @@
+{
+  "source_inputs": [
+    {
+      "field": "earnings_million_krw",
+      "claim_id": "X_EARNINGS",
+      "value": "6894",
+      "unit": "백만원",
+      "period": "2026년 반기 연환산",
+      "description": "반기 지배주주 순이익 4366백만원에서 세전 주식 처분이익 919백만원을 차감한 뒤 2배로 연환산한 적용 이익",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_EARNINGS",
+          "locator": "PER에 의한 멜콘의 평가가치, 주1"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "applied_per",
+      "claim_id": "X_PER",
+      "value": "26.18",
+      "unit": "배",
+      "period": "2026년 2분기 LTM",
+      "description": "HPSP와 워트의 PER 산술평균으로 공시된 적용 배수",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0370",
+          "page": 370,
+          "claim_id": "X_PER",
+          "locator": "2026년 2분기 기준 비교기업 PER 산출"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "reported_equity_million_krw",
+      "claim_id": "X_EQUITY",
+      "value": "180497",
+      "unit": "백만원",
+      "period": "2026년 반기 연환산 평가",
+      "description": "PER 평가가치 표의 기업가치 평가액",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_EQUITY",
+          "locator": "PER에 의한 멜콘의 평가가치, 기업가치 평가액"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "reported_price_krw",
+      "claim_id": "X_PRICE",
+      "value": "14173",
+      "unit": "원",
+      "period": "2026년 반기 연환산 평가",
+      "description": "할인 전 주당 평가가액. 확정공모가액 12300원과 구분됨",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0077",
+          "page": 77,
+          "claim_id": "X_PRICE",
+          "locator": "주14 정정 후 희망공모가액 결정 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "share_count",
+      "claim_id": "X_SHARES",
+      "value": "12735000",
+      "unit": "주",
+      "period": "공시된 주당 평가가액 산정 기준",
+      "description": "기발행주식, 공모 신주, 상장주선인 의무인수분과 주식매수선택권을 합한 평가 적용주식수",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_SHARES",
+          "locator": "PER에 의한 멜콘의 평가가치, 적용주식수 내역"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "existing_shares",
+      "claim_id": "X_EXISTING",
+      "value": "10000000",
+      "unit": "주",
+      "period": "증권신고서 제출일 현재 평가 기준",
+      "description": "기발행 보통주식수",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_EXISTING",
+          "locator": "적용주식수 내역, 기발행보통주식수"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "new_shares",
+      "claim_id": "X_NEW",
+      "value": "2500000",
+      "unit": "주",
+      "period": "IPO 공모",
+      "description": "공모 신주발행주식수. 표의 상장주선인 의무인수분 75000주는 별도임",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_NEW",
+          "locator": "적용주식수 내역, 공모 신주발행주식수"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "dilutive_shares",
+      "claim_id": "X_DILUTIVE",
+      "value": "160000",
+      "unit": "주",
+      "period": "공시된 주당 평가가액 산정 기준",
+      "description": "평가 적용주식수에 포함된 주식매수선택권. 상장주선인 의무인수분 75000주는 별도 항목임",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_DILUTIVE",
+          "locator": "적용주식수 내역, 주식매수선택권"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "secondary_sale_shares",
+      "claim_id": "X_SECONDARY",
+      "value": "0",
+      "unit": "주",
+      "period": "IPO 공모",
+      "description": "공모주식 2500000주가 전량 신주모집으로 기재되어 구주매출은 없음",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0389",
+          "page": 389,
+          "claim_id": "X_SECONDARY",
+          "locator": "리스크집행위원회 논의내용, 공모에 관한 사항"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[0].per",
+      "claim_id": "X_HPSP_PER",
+      "value": "34.92",
+      "unit": "배",
+      "period": "2026년 2분기 LTM",
+      "description": "비교기업 PER",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0370",
+          "page": 370,
+          "claim_id": "X_HPSP_PER",
+          "locator": "2026년 2분기 기준 비교기업 PER 산출"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[0].market_cap_million_krw",
+      "claim_id": "X_HPSP_CAP",
+      "value": null,
+      "unit": "백만원",
+      "period": "2026년 8월 14일 분석 기준",
+      "description": "PER 산출에 사용된 시가총액",
+      "evidence": [],
+      "missing_reason": "제공된 PER 산출표에는 기준주가와 상장주식수는 있으나 시가총액이 직접 기재되어 있지 않음"
+    },
+    {
+      "field": "peers[0].earnings_million_krw",
+      "claim_id": "X_HPSP_EARNINGS",
+      "value": "85727",
+      "unit": "백만원",
+      "period": "2025년 3분기~2026년 2분기",
+      "description": "비교기업 PER 산출 적용 당기순이익. 연결재무제표 작성 법인은 지배주주 귀속 기준",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0370",
+          "page": 370,
+          "claim_id": "X_HPSP_EARNINGS",
+          "locator": "2026년 2분기 기준 비교기업 PER 산출, 적용 당기순이익 및 주1"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[1].per",
+      "claim_id": "X_WORT_PER",
+      "value": "17.45",
+      "unit": "배",
+      "period": "2026년 2분기 LTM",
+      "description": "비교기업 PER",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0370",
+          "page": 370,
+          "claim_id": "X_WORT_PER",
+          "locator": "2026년 2분기 기준 비교기업 PER 산출"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[1].market_cap_million_krw",
+      "claim_id": "X_WORT_CAP",
+      "value": null,
+      "unit": "백만원",
+      "period": "2026년 8월 14일 분석 기준",
+      "description": "PER 산출에 사용된 시가총액",
+      "evidence": [],
+      "missing_reason": "제공된 PER 산출표에는 기준주가와 상장주식수는 있으나 시가총액이 직접 기재되어 있지 않음"
+    },
+    {
+      "field": "peers[1].earnings_million_krw",
+      "claim_id": "X_WORT_EARNINGS",
+      "value": "5098",
+      "unit": "백만원",
+      "period": "2025년 3분기~2026년 2분기",
+      "description": "비교기업 PER 산출 적용 당기순이익. 연결재무제표 작성 법인은 지배주주 귀속 기준",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0370",
+          "page": 370,
+          "claim_id": "X_WORT_EARNINGS",
+          "locator": "2026년 2분기 기준 비교기업 PER 산출, 적용 당기순이익 및 주1"
+        }
+      ],
+      "missing_reason": null
+    }
+  ],
+  "recalculation": {
+    "calculations": [
+      {
+        "id": "share_sum",
+        "label": "평가에 사용하는 주식수의 합계",
+        "formula": "existing_shares + new_shares + dilutive_shares; secondary_sale_shares is excluded",
+        "inputs": {
+          "existing_shares": "10000000",
+          "new_shares": "2500000",
+          "dilutive_shares": "160000",
+          "secondary_sale_shares": "0"
+        },
+        "result": "12660000",
+        "unit": "shares",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "share_count_difference",
+        "label": "주식수 합계와 공시 주식수의 차이",
+        "formula": "share_sum - share_count",
+        "inputs": {
+          "existing_shares": "10000000",
+          "new_shares": "2500000",
+          "dilutive_shares": "160000",
+          "secondary_sale_shares": "0",
+          "share_count": "12735000"
+        },
+        "result": "-75000",
+        "unit": "shares",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_reported_equity",
+        "label": "공시된 주식가치를 주식수로 나눈 가격",
+        "formula": "reported_equity_million_krw * 1000000 / share_count",
+        "inputs": {
+          "reported_equity_million_krw": "180497",
+          "share_count": "12735000"
+        },
+        "result": "14173.30192383195916764821358460934432666",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_displayed_per",
+        "label": "이익과 표시 배수로 다시 계산한 가격",
+        "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+        "inputs": {
+          "earnings_million_krw": "6894",
+          "applied_per": "26.18",
+          "share_count": "12735000"
+        },
+        "result": "14172.35335689045936395759717314487632509",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "reported_price_difference",
+        "label": "공시 가치에서 계산한 가격과 공시 가격의 차이",
+        "formula": "price_from_reported_equity - reported_price_krw",
+        "inputs": {
+          "reported_equity_million_krw": "180497",
+          "share_count": "12735000",
+          "reported_price_krw": "14173"
+        },
+        "result": "0.30192383195916764821358460934432666",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "displayed_price_difference",
+        "label": "표시 배수에서 계산한 가격과 공시 가격의 차이",
+        "formula": "price_from_displayed_per - reported_price_krw",
+        "inputs": {
+          "earnings_million_krw": "6894",
+          "applied_per": "26.18",
+          "share_count": "12735000",
+          "reported_price_krw": "14173"
+        },
+        "result": "-0.64664310954063604240282685512367491",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "implied_per",
+        "label": "공시된 주식가치에서 거꾸로 계산한 배수",
+        "formula": "reported_equity_million_krw / earnings_million_krw",
+        "inputs": {
+          "reported_equity_million_krw": "180497",
+          "earnings_million_krw": "6894"
+        },
+        "result": "26.18175224833188279663475485929794023789",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_displayed_mean",
+        "label": "비교기업의 표시 배수 평균",
+        "formula": "sum(peer.per) / count(peers)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": "26.185",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_displayed_median",
+        "label": "비교기업의 표시 배수 중앙값",
+        "formula": "median(peer.per)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": "26.185",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_1",
+        "label": "HPSP: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "HPSP",
+          "per": "34.92",
+          "market_cap_million_krw": null,
+          "earnings_million_krw": "85727"
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_2",
+        "label": "워트: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "워트",
+          "per": "17.45",
+          "market_cap_million_krw": null,
+          "earnings_million_krw": "5098"
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_mean",
+        "label": "개별 기업에서 다시 계산한 배수의 평균",
+        "formula": "mean(peer.market_cap_million_krw / peer.earnings_million_krw)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "일부 기업을 임의로 제외하지 않았습니다. HPSP.market_cap_million_krw: 입력값이 없습니다. / 워트.market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_recomputed_peer_mean",
+        "label": "다시 계산한 비교기업 평균 배수를 적용한 가격",
+        "formula": "earnings_million_krw * 1000000 * peer_recomputed_mean / share_count",
+        "inputs": {
+          "earnings_million_krw": "6894",
+          "share_count": "12735000",
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": null,
+        "unit": "KRW/share",
+        "status": "UNAVAILABLE",
+        "reason": "일부 기업을 임의로 제외하지 않았습니다. HPSP.market_cap_million_krw: 입력값이 없습니다. / 워트.market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      }
+    ],
+    "notes": [
+      "이 계산은 전달받은 숫자를 사용합니다. 숫자의 출처와 적용 여부는 별도로 확인해야 합니다.",
+      "구주매출은 기존 주식의 소유자가 바뀌는 거래이므로 주식수 합계에 더하지 않습니다.",
+      "표시된 배수나 금액의 반올림 때문에 차이가 날 수 있습니다. 차이만으로 공시 오류라고 판정하지 않습니다.",
+      "비교기업 값이 빠지거나 잘못되면 그 기업을 빼고 평균을 내지 않습니다."
+    ]
+  },
+  "sensitivity": {
+    "baseline": {
+      "id": "baseline",
+      "label": "공시에 표시된 적용 배수로 계산한 기준 가격",
+      "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+      "inputs": {
+        "earnings_million_krw": "6894",
+        "applied_per": "26.18",
+        "share_count": "12735000"
+      },
+      "result": "14172.35335689045936395759717314487632509",
+      "unit": "KRW/share",
+      "status": "OK",
+      "reason": null,
+      "precision": {
+        "decimal_digits": 40,
+        "rounding": "ROUND_HALF_EVEN",
+        "rounded_to_currency_unit": false
+      }
+    },
+    "scenarios": [
+      {
+        "id": "displayed_mean",
+        "label": "비교기업의 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "6894",
+          "applied_per": "26.18",
+          "share_count": "12735000",
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": "14175.06007067137809187279151943462897527",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": null,
+        "applied_per": "26.185",
+        "difference_krw": "2.70671378091872791519434628975265018",
+        "difference_percent": "0.01909854851031321619556913674560733386606",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "displayed_median",
+        "label": "비교기업의 표시 배수 중앙값을 적용",
+        "formula": "earnings_million_krw * 1000000 * median(peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "6894",
+          "applied_per": "26.18",
+          "share_count": "12735000",
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": "14175.06007067137809187279151943462897527",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": null,
+        "applied_per": "26.185",
+        "difference_krw": "2.70671378091872791519434628975265018",
+        "difference_percent": "0.01909854851031321619556913674560733386606",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_1",
+        "label": "HPSP 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "6894",
+          "applied_per": "26.18",
+          "share_count": "12735000",
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": "9446.431095406360424028268551236749116608",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "HPSP",
+        "applied_per": "17.45",
+        "difference_krw": "-4725.922261484098939929328621908127208482",
+        "difference_percent": "-33.34606569900687547746371275783040488923",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_2",
+        "label": "워트 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "6894",
+          "applied_per": "26.18",
+          "share_count": "12735000",
+          "peers": [
+            {
+              "name": "HPSP",
+              "per": "34.92",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "85727"
+            },
+            {
+              "name": "워트",
+              "per": "17.45",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "5098"
+            }
+          ]
+        },
+        "result": "18903.68904593639575971731448763250883392",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "워트",
+        "applied_per": "34.92",
+        "difference_krw": "4731.33568904593639575971731448763250883",
+        "difference_percent": "33.38426279602750190985485103132161955688",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      }
+    ],
+    "notes": [
+      "차이는 공시에 표시된 적용 배수로 재계산한 기준 가격에 대한 값입니다. 공시 가격 자체와 비교한 값이 아닙니다.",
+      "평균, 중앙값, 기업 한 곳을 제외한 평균은 계산 결과가 얼마나 달라지는지 보기 위한 가정입니다.",
+      "어느 기업을 제외하거나 어느 배수를 선택할지는 사업 특성과 근거를 검토한 뒤 판단해야 합니다."
+    ]
+  },
+  "precision_status": "PUBLIC_INPUT_RECALCULATION; original unrounded inputs not independently verified"
+}

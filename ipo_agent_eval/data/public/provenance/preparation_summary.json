@@ -1,0 +1,20 @@
+{
+  "case_id": "HDMS-DEV-01",
+  "document_count": 1,
+  "chunk_count": 638,
+  "empty_pages": [],
+  "unmapped_printed_pages": [
+    1,
+    2
+  ],
+  "is_pre_cutoff_verified": true,
+  "sha256": "9f563a7e2af8c39a96567e83268321b0a40cf334abe94e7377b00ca0351f31ab",
+  "version_checks": {
+    "sha256_matches": true,
+    "page_count_matches": true,
+    "pdf_correction_date": true,
+    "pdf_correction_reason": true,
+    "pdf_subscription_start": true,
+    "dart_receipt_verified": true
+  }
+}

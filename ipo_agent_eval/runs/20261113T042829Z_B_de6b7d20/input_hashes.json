@@ -1,0 +1,19 @@
+{
+  "ipo_eval\\__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+  "ipo_eval\\calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+  "ipo_eval\\cases.py": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+  "ipo_eval\\corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+  "ipo_eval\\id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+  "ipo_eval\\runner.py": "da5e8beaddfcb32df1e9c1d9018718a727f8fb0c45f49ec7f91a48781737da28",
+  "ipo_eval\\schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+  "ipo_eval\\validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+  "prompts\\common.md": "c0dd747b3a92079d123bdcf056fb748e89275744fa858c6dad7a629c671ef426",
+  "config\\B.json": "4aa88844946f20553d26ba7955550d1056b72b0e40d92594373dae45bb929e9b",
+  "config\\cases.json": "773b6d0e93eb2c56f6833545401c09077f846990db232b105b22aaa96e57a087",
+  "data/cases/DTS-DEV-01/public/chunks.jsonl": "494c70bec339e0c7e3e4706c30e1545c2186a1c17800aa6624890512b7468645",
+  "data/cases/DTS-DEV-01/public/documents.jsonl": "481762e50894b6c0191c88d2cf108cc9b7dfd8b766a22c3c72391e176ad55a57",
+  "data/cases/DTS-DEV-01/public/case_manifest.jsonl": "85b88cb00c8958221f03eca149778ace26b0ed9523c1f408f2c9777ceec86872",
+  "data/cases/DTS-DEV-01/public/manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+  "data/methods/IPO_PER_B_v0.2.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+  "data/cases/DTS-DEV-01/public/raw/DTS-PROS-01.pdf": "2a401607d5147d2e839ccd971ade3914cd4a0df2e6b49fb9cc84e6d6449fa4e4"
+}

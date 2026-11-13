@@ -1,0 +1,31 @@
+{
+  "case_id": "MELCON-DEV-01",
+  "created_at_utc": "2026-11-13T04:29:03.034735+00:00",
+  "pages": 600,
+  "pdf_sha256": "b205592c500bee617469fdfb35a85fef33685969383304986f00c92707713606",
+  "source_spec_sha256": "55ec2457d799f0f51f2e43732fe0b1527cc0d219b6082ed0a2f6e87553f2ca77",
+  "method_sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+  "empty_pages": [],
+  "unmapped_printed_pages": [
+    1,
+    2
+  ],
+  "prepared_file_sha256": {
+    "case_manifest.jsonl": "403ecb95a9cd05b414514846cd568c68548192d3b57a770dc0b952b1e315469c",
+    "documents.jsonl": "bd4522e1888b7065475bc0206cee878c47a6d522c2db69f72b248d8c376f0441",
+    "chunks.jsonl": "37a0ca3390b9a3ddd75059977fde49726bf7802a2174219a3b43605e11a9a58a",
+    "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+  },
+  "version_checks": {
+    "dart_title_matches": true,
+    "correction_history_checked": true,
+    "correction_date_matches_pdf": true,
+    "first_receipt_matches_pdf": true,
+    "subscription_dates_checked": true,
+    "latest_valid_pre_subscription": true,
+    "full_pdf_preserved": true,
+    "sha256_verified": true,
+    "physical_printed_pages_verified": true
+  },
+  "all_checks_passed": true
+}

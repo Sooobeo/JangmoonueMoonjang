@@ -1,0 +1,88 @@
+{
+  "case_id": "MELCON-DEV-01",
+  "doc_id": "MELCON-PROS-01",
+  "issuer_name": "멜콘",
+  "issuer_legal_name": "멜콘 주식회사",
+  "market": "KOSDAQ",
+  "receipt_no": "20260929000194",
+  "original_receipt_no": "20260914000034",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000194",
+  "source_url": "https://money2.daishin.com/html/Notice/2026/downloads/melcon1015_04.pdf",
+  "version_date": "2026-09-29",
+  "cutoff_at": "2026-09-29T23:59:59+09:00",
+  "general_subscription_start": "2026-10-01",
+  "expected_sha256": "b205592c500bee617469fdfb35a85fef33685969383304986f00c92707713606",
+  "expected_pages": 600,
+  "version_note": "2026-09-29 발행조건 확정에 따른 기재정정 투자설명서. DART 본문선택 이력은 2026-09-14 최초본과 2026-09-29 정정본이며 일반청약 시작일 2026-10-01 이전의 마지막 투자설명서로 확인. 공개일 정밀도 DATE. 최초 두 PDF쪽은 목차이며 인쇄 1쪽은 PDF 3쪽이다. 정정 전후 구획을 구분하고 현행 본문을 확인한다.",
+  "version_checks": {
+    "dart_title_matches": true,
+    "correction_history_checked": true,
+    "correction_date_matches_pdf": true,
+    "first_receipt_matches_pdf": true,
+    "subscription_dates_checked": true,
+    "latest_valid_pre_subscription": true,
+    "full_pdf_preserved": true,
+    "sha256_verified": true,
+    "physical_printed_pages_verified": true
+  },
+  "version_evidence": [
+    {
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000194",
+      "locator": "title 및 select#family 본문선택 목록",
+      "description": "멜콘/투자설명서/2026.09.29; 본문선택은 접수번호 20260929000194와 20260914000034 두 건이다."
+    },
+    {
+      "source_url": "https://money2.daishin.com/html/Notice/2026/downloads/melcon1015_04.pdf",
+      "page": 3,
+      "printed_page": 1,
+      "locator": "정정 신고 (보고)",
+      "description": "정정일 2026-09-29, 최초제출일 2026-09-14, 정정사유 발행조건 확정."
+    },
+    {
+      "source_url": "https://money2.daishin.com/html/Notice/2026/downloads/melcon1015_04.pdf",
+      "page": 98,
+      "printed_page": 96,
+      "locator": "투자설명서 표지",
+      "description": "법인명 멜콘 주식회사, 2026-09-29, 청약 2026-10-01~02. 정정표는 PDF3~97, 현행 투자설명서 표지는 PDF98부터이다."
+    },
+    {
+      "source_url": "https://money2.daishin.com/html/Notice/2026/downloads/melcon1015_04.pdf",
+      "page": 136,
+      "printed_page": 134,
+      "locator": "공모개요 주5 일반투자자 청약일",
+      "description": "일반투자자 청약일 2026-10-01~02 확인."
+    }
+  ],
+  "inspection_pages": [
+    3,
+    98
+  ],
+  "page_numbering": {
+    "physical_pages": 600,
+    "unnumbered_front_matter_pages": [
+      1,
+      2
+    ],
+    "printed_page_start": 1,
+    "printed_page_end": 598,
+    "printed_page_rule": "PDF physical page >= 3: printed page = physical page - 2; all 598 footers extracted and matched.",
+    "visual_checked_pairs": [
+      {
+        "physical": 3,
+        "printed": 1
+      },
+      {
+        "physical": 98,
+        "printed": 96
+      },
+      {
+        "physical": 370,
+        "printed": 368
+      },
+      {
+        "physical": 372,
+        "printed": 370
+      }
+    ]
+  }
+}

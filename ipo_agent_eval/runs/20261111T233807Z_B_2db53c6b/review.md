@@ -1,0 +1,5579 @@
+# HDMS B 검토 결과
+
+이 문서는 API가 제출한 검토 의견과 프로그램의 계산 결과를 옮긴 것이다. 정답 채점은 아직 하지 않았다.
+
+- 실행 ID: 20261111T233807Z_B_2db53c6b
+- 자료 마감: 2024-04-24T23:59:59+09:00
+- 프로그램이 정한 상태: READY
+- AI가 보고한 상태: READY
+
+## 확인 범위
+
+- 제공된 투자설명서 발췌 페이지만 확인했다. 추가 검색과 비교기업 원자료·Bloomberg의 독립 대조는 하지 않았다.
+- 공시 공개 시각은 2024년 4월 24일이라는 날짜까지만 확인되었다.
+- 계산은 공시에 표시된 숫자를 사용했다. 공시 산출에 실제 사용된 미반올림 입력과 처리 규칙은 확인되지 않았다.
+
+## 핵심 메모
+
+- 2023년 온기 지배주주순이익 기준은 발행사와 비교기업에 공시상 공통으로 적용됐다. HD한국조선해양 이익의 두 표 수치 차이는 미해결이다.
+- 발행사와 비교기업의 신조·제조 및 비해양 사업 차이를 감안해 31.5배는 조건부 참고치로 사용한다.
+- 공시 평가시가총액을 주식수로 나눈 값은 주당 약 106,113원이다. 표시 PER만 사용한 값은 약 106,087원이며, 차이만으로 오류라고 판정하지 않는다.
+- 중앙값 적용 및 HD한국조선해양 제외는 각각 표시배수 기준 대비 약 +1.43%, -5.29%인 계산상 가정이다.
+- 확정 공모가는 83,400원으로 할인 전 평가가액과 다르다. 원자료 독립 검증 없이 제공 페이지 범위에서만 검토를 마친다.
+
+## J1 · CONDITIONAL
+
+2023년 온기 연결 지배주주순이익을 적용한 선택은 비교기업 PER의 공시상 기간·귀속 기준과 일치하므로 비교 출발점으로 조건부 수용할 수 있다. 다만 비교기업 원자료 및 회계·연결 범위의 세부 일치 여부는 독립 확인하지 못했다.
+
+- 공시 적용 순이익은 151,116백만원이다. 발행사의 2023년 연결 지배기업 소유주 귀속 순이익은 151,116,175,331원이며 비지배지분 귀속 순이익은 없다. (HDMS-PROS-01 PDF 331쪽 · 평가 시가총액 산출 내역, 적용 순이익; HDMS-PROS-01 PDF 425쪽 · 연결 포괄손익계산서, 당기순이익의 귀속)
+- 비교회사 PER은 2023년 온기 지배주주지분 기준 순이익으로 산출했다고 공시한다. 발행사에 부분기간 연환산이나 조정이 적용됐다는 기재는 확인한 산정표에 없다. (HDMS-PROS-01 PDF 331쪽 · 2023년 온기 기준 PER 산출 및 주2; HDMS-PROS-01 PDF 298쪽 · 공모가 산정 요약표, 적용 재무수치)
+- 발행사의 2023년 별도 당기순이익은 143,474,006,953원으로 연결 적용 이익과 다르다. (HDMS-PROS-01 PDF 422쪽 · 나. 요약 별도 재무정보; HDMS-PROS-01 PDF 423쪽 · 요약 별도 재무정보, 2023년 당기순이익)
+- HD한국조선해양의 2023년 지배주주순이익은 PER 산출표에 221,682백만원, 요약 연결 재무정보에는 221,711백만원으로 기재되어 있다. (HDMS-PROS-01 PDF 331쪽 · 2023년 온기 기준 PER 산출, HD한국조선해양 지배주주순이익; HDMS-PROS-01 PDF 313쪽 · HD한국조선해양 최근 3개년 요약 연결 재무정보, 2023년 당기순이익 및 주1)
+
+판단을 뒷받침하는 원문:
+
+- HDMS-PROS-01 PDF 425쪽 · 연결 포괄손익계산서, 당기순이익의 귀속 (주장 R_J1_ISSUER)
+- HDMS-PROS-01 PDF 331쪽 · 2023년 온기 기준 PER 산출 및 주2 (주장 R_J1_PEER_PERIOD)
+
+반대 근거로 검토한 원문:
+
+- HDMS-PROS-01 PDF 313쪽 · 요약 연결 재무정보, 2023년 당기순이익 및 주1 (주장 R_J1_PEER_DIFFERENCE)
+- HDMS-PROS-01 PDF 229쪽 · PER 비교의 한계: 회계기준 및 연결 대상 기준 차이 (주장 J1)
+
+아직 확인하지 못한 점:
+
+- HD한국조선해양의 두 순이익 수치가 29백만원 차이 나는 원인과 어느 기초자료가 PER 산출에 실제 사용됐는지는 확인되지 않았다.
+- 각 비교기업의 회계기준, 연결 대상과 이익의 세부 조정 항목은 원자료로 직접 대조하지 못했다.
+
+다음 행동: 기간·귀속 기준의 일치 범위에서 활용하되, 두 이익 수치 차이의 설명과 당시 비교기업 기초자료를 확인할 수 있다면 추가 대조한다.
+
+## J2 · CONDITIONAL
+
+네 비교기업의 평균 PER은 공시가 설명한 산업·기능적 유사성을 반영한 참고치로 조건부 사용한다. 신조·제조 및 비해양 사업의 차이가 있어 발행사에 그대로 적용되는 유일한 정답으로 보기는 어렵다.
+
+- 최종 비교기업과 표시 PER은 HD한국조선해양 36.5배, ALFA LAVAL 25.6배, KONGSBERG 31.8배, WARTSILA 32.1배다. 공시 적용 배수는 산술평균 31.5배다. (HDMS-PROS-01 PDF 331쪽 · 2023년 온기 기준 PER 산출; HDMS-PROS-01 PDF 330쪽 · PER 평가방법을 통한 상대가치 산출, 산출 방법)
+- 발행사는 직접 주요 기자재를 제조하지 않고 유지·보수 등을 수행한다. 2023년 연결 매출의 하위 제품군은 AM솔루션 42%, 벙커링 41%, 친환경개조 12%, SDV 4%로 공시되어 있다. (HDMS-PROS-01 PDF 230쪽 · 비교기업 선정의 부적합 가능성, 발행사 제조 여부와 사업; HDMS-PROS-01 PDF 309쪽 · 사업 유사성, 2023년 연결 제품군별 매출 구성)
+- HD한국조선해양은 조선 매출 비중이 83.1%다. ALFA LAVAL은 해양 30.0%, 에너지 30.3%, 식품·수자원 39.7%이고, KONGSBERG는 Maritime 49.7%, Defence & Aerospace 39.3%다. WARTSILA는 Marine Power 42.2%, Marine Systems 8.2%, Energy 43.4%다. (HDMS-PROS-01 PDF 309쪽 · 사업 유사성 기준 3차 비교회사 선정 결과, ALFA LAVAL; HDMS-PROS-01 PDF 310쪽 · 사업 유사성 기준 3차 비교회사 선정 결과, HD한국조선해양·KONGSBERG·WARTSILA)
+- 공시는 업종·재무·사업·일반 유사성 기준으로 78개사에서 4개사를 선정했다. 3차 후보 중 순손실 기업과 PER 50배 이상 기업을 제외했다. (HDMS-PROS-01 PDF 229쪽 · 비교기업 선정 절차 및 결과 요약; HDMS-PROS-01 PDF 311쪽 · 일반 유사성 기준 4차 비교회사 선정 결과)
+
+판단을 뒷받침하는 원문:
+
+- HDMS-PROS-01 PDF 230쪽 · 비교기업의 공급망·유지보수 유사성 및 선정 이유 (주장 J2)
+- HDMS-PROS-01 PDF 331쪽 · 2023년 온기 기준 PER 산출 (주장 R_J2_PEERS)
+
+반대 근거로 검토한 원문:
+
+- HDMS-PROS-01 PDF 312쪽 · 비교기업의 신조·제조 및 자산구조 차이 (주장 J2)
+- HDMS-PROS-01 PDF 310쪽 · 비교회사별 매출 구성 (주장 R_J2_MIX)
+
+아직 확인하지 못한 점:
+
+- 사업 차이가 각 기업의 성장률·경기 민감도·수익성과 PER에 미치는 크기는 제공 페이지로 정량화할 수 없다.
+- 공시 인용 매출 구성과 시가총액은 각사 원자료로 독립 대조하지 못했다.
+
+다음 행동: 공시의 평균을 기준으로 사용하되, 특히 신조 중심인 HD한국조선해양을 제외한 경우와 중앙값을 함께 살펴 선택의 영향을 표시한다.
+
+## J3 · CONDITIONAL
+
+주식수와 공시 평가시가총액을 이용한 주당 평가가액은 재현된다. 표시 PER을 그대로 곱한 결과와의 작은 차이는 표시 정밀도와 양립 가능하지만 실제 처리 규칙을 확정할 수는 없다. 비교기업 선택에 따른 민감도는 별도로 해석해야 한다.
+
+- 공시 주식수는 공모 전 40,000,000주, 신주 4,450,000주, 구주매출 4,450,000주, 희석가능 420,190주다. 희석가능분은 주식매수선택권 13,510주와 우리사주매수선택권 잔여 406,680주로 구성된다. (HDMS-PROS-01 PDF 332쪽 · 주당 평가가액 산출 내역 및 희석가능주식수 주석)
+- 공시 평가시가총액은 4,761,293백만원, 주당 평가가액은 106,113원이다. (HDMS-PROS-01 PDF 332쪽 · 평가 시가총액 및 주당 평가가액 산출 내역)
+- 공시 적용 순이익은 151,116백만원이며 네 비교기업의 표시 PER은 각각 36.5, 25.6, 31.8, 32.1배다. (HDMS-PROS-01 PDF 331쪽 · 2023년 온기 기준 PER 산출 및 평가 시가총액 산출 내역)
+
+판단을 뒷받침하는 원문:
+
+- HDMS-PROS-01 PDF 332쪽 · 주당 평가가액 산출 내역 및 주석 (주장 R_J3_SHARES)
+- HDMS-PROS-01 PDF 331쪽 · 2023년 온기 기준 PER 산출 (주장 R_J3_INPUTS)
+
+반대 근거로 검토한 원문:
+
+- HDMS-PROS-01 PDF 332쪽 · 공시 평가시가총액과 주당 평가가액 (주장 R_J3_EQUITY)
+
+아직 확인하지 못한 점:
+
+- 실제 미반올림 비교기업 이익·시가총액과 배수 계산의 반올림 또는 절사 규칙은 확인되지 않았다.
+- 민감도는 비교기업의 사업 차이를 평가에 반영해야 할 적정 조정폭이나 적정 공모가를 뜻하지 않는다.
+
+다음 행동: 재계산: 40,000,000+4,450,000+420,190=44,870,190주다. 구주매출은 기존 주식이므로 추가하지 않는다. 4,761,293백만원을 주식수로 나누면 106,112.61원으로 공시 106,113원에 근접한다. 표시 31.5배를 그대로 곱하면 4,760,154백만원, 주당 106,087.23원이다. 공시 인용 시가총액과 이익으로 각 PER을 재계산한 평균은 약 31.50755배, 주당 약 106,112.66원으로 공시값에 근접하나 실제 처리 방식의 증명은 아니다. 민감도 가정으로 표시 PER 중앙값 31.95배는 107,602.76원으로 표시배수 기준 대비 +1,515.53원(+1.43%), 신조 비중이 높은 HD한국조선해양을 제외한 나머지 평균 약 29.83배는 100,474.15원으로 -5,613.08원(-5.29%)이다. 이 대안들은 할인 전 평가액의 계산상 비교다.
+
+## J4 · CONDITIONAL
+
+받은 페이지에 한정하면 공시 산식과 선택의 주요 한계를 검토할 수 있다. 이는 독립 원자료 검증이나 투자 승인, 적정 공모가 예측이 아니다.
+
+- 물리 41쪽에는 주9 정정 전 요약표가, 41~42쪽에는 정정 후 요약표가 이어진다. 정정 전에는 확정 공모가를 추후 결정한다고 했고, 정정 후에는 83,400원으로 명시했다. 이 정정 후 값은 본문에도 기재되어 있다. (HDMS-PROS-01 PDF 41쪽 · 주9 정정 전 공모가 산정 요약표 및 정정 후 표 시작; HDMS-PROS-01 PDF 42쪽 · 주9 정정 후 공모가 산정 요약표, 확정 공모가액; HDMS-PROS-01 PDF 298쪽 · 본문 공모가 산정 요약표 및 평가 결과)
+- 본문상 할인 전 주당 평가가액은 106,113원, 희망 공모가 밴드는 73,300~83,400원, 수요예측 결과를 반영한 확정 공모가는 83,400원이다. (HDMS-PROS-01 PDF 332쪽 · 희망공모가액 산출 내역 및 주1)
+
+판단을 뒷받침하는 원문:
+
+- HDMS-PROS-01 PDF 42쪽 · 주9 정정 후 공모가 산정 요약표 (주장 R_J4_VERSION)
+- HDMS-PROS-01 PDF 332쪽 · 희망공모가액 산출 내역 (주장 R_J4_PRICE)
+
+반대 근거로 검토한 원문:
+
+- HDMS-PROS-01 PDF 41쪽 · 주9 정정 전 표, 확정 공모가 추후 결정 문구 (주장 R_J4_VERSION)
+- HDMS-PROS-01 PDF 330쪽 · 비교회사 재무자료의 출처와 발행사 적용 주식수 (주장 J4)
+
+아직 확인하지 못한 점:
+
+- 공시의 실제 공개 시각은 날짜보다 세밀하게 확인되지 않았다.
+- 비교기업 원자료, 가격·환율 원시자료와 미반올림 계산 과정은 독립 검증하지 못했다.
+
+다음 행동: 정정 후 표와 본문을 현재값으로 사용한다. 아래 선택적 확인 요청은 기록만 하며, 답변을 받은 것으로 간주하지 않는다.
+
+## 추가 확인 요청
+
+```json
+{
+  "requests": [
+    {
+      "request_id": "REQ-01",
+      "question": "허용 공시에서 HD한국조선해양의 2023년 지배주주순이익 221,682백만원과 221,711백만원 차이를 설명하는 추가 페이지가 있는가?",
+      "why_needed": "PER 산출표와 요약 연결 재무정보의 숫자 차이 원인을 확인하기 위해서다. 현재 수치에 따른 제한적 검토 자체를 막지는 않는다.",
+      "related_judgment_ids": [
+        "J1",
+        "J2"
+      ],
+      "blocking": false,
+      "resolution_status": "OPEN",
+      "resolution_evidence": []
+    },
+    {
+      "request_id": "REQ-02",
+      "question": "허용 공시에 비교기업 PER 평균의 미반올림 입력과 평가시가총액 계산의 처리 규칙을 설명하는 추가 페이지가 있는가?",
+      "why_needed": "표시값으로 설명 가능한 근접 재현을 넘어 정확한 산출 과정을 확인하기 위해서다.",
+      "related_judgment_ids": [
+        "J3",
+        "J4"
+      ],
+      "blocking": false,
+      "resolution_status": "OPEN",
+      "resolution_evidence": []
+    }
+  ],
+  "escalations": []
+}
+```
+
+## 계산 기록
+
+```json
+[
+  {
+    "calc_id": "share_sum",
+    "label": "평가에 사용하는 주식수의 합계",
+    "formula": "existing_shares + new_shares + dilutive_shares; secondary_sale_shares is excluded",
+    "inputs": [
+      {
+        "field": "existing_shares",
+        "claim_id": "X_EXISTING_SHARES",
+        "value": "40000000",
+        "unit": "주",
+        "period": "공모 전",
+        "description": "공모 전 발행주식수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_EXISTING_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 전 발행주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "new_shares",
+        "claim_id": "X_NEW_SHARES",
+        "value": "4450000",
+        "unit": "주",
+        "period": "공모",
+        "description": "신주모집주식수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_NEW_SHARES",
+            "locator": "주당 평가가액 산출 내역, 신주모집주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "dilutive_shares",
+        "claim_id": "X_DILUTIVE_SHARES",
+        "value": "420190",
+        "unit": "주",
+        "period": "증권신고서 제출일 현재",
+        "description": "미전환 주식매수선택권 13510주와 우리사주매수선택권 잔여 406680주",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_DILUTIVE_SHARES",
+            "locator": "주당 평가가액 산출 내역, 희석가능주식수 및 주석"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "secondary_sale_shares",
+        "claim_id": "X_SECONDARY_SHARES",
+        "value": "4450000",
+        "unit": "주",
+        "period": "공모",
+        "description": "구주매출주식수. 공모 후 발행주식수에 신주처럼 추가하지 않음",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_SECONDARY_SHARES",
+            "locator": "주당 평가가액 산출 내역, 구주매출주식수 및 공모 후 발행주식수"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "44870190",
+    "unit": "shares",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_EXISTING_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 전 발행주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_NEW_SHARES",
+        "locator": "주당 평가가액 산출 내역, 신주모집주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_DILUTIVE_SHARES",
+        "locator": "주당 평가가액 산출 내역, 희석가능주식수 및 주석"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_SECONDARY_SHARES",
+        "locator": "주당 평가가액 산출 내역, 구주매출주식수 및 공모 후 발행주식수"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "share_count_difference",
+    "label": "주식수 합계와 공시 주식수의 차이",
+    "formula": "share_sum - share_count",
+    "inputs": [
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "existing_shares",
+        "claim_id": "X_EXISTING_SHARES",
+        "value": "40000000",
+        "unit": "주",
+        "period": "공모 전",
+        "description": "공모 전 발행주식수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_EXISTING_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 전 발행주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "new_shares",
+        "claim_id": "X_NEW_SHARES",
+        "value": "4450000",
+        "unit": "주",
+        "period": "공모",
+        "description": "신주모집주식수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_NEW_SHARES",
+            "locator": "주당 평가가액 산출 내역, 신주모집주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "dilutive_shares",
+        "claim_id": "X_DILUTIVE_SHARES",
+        "value": "420190",
+        "unit": "주",
+        "period": "증권신고서 제출일 현재",
+        "description": "미전환 주식매수선택권 13510주와 우리사주매수선택권 잔여 406680주",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_DILUTIVE_SHARES",
+            "locator": "주당 평가가액 산출 내역, 희석가능주식수 및 주석"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "secondary_sale_shares",
+        "claim_id": "X_SECONDARY_SHARES",
+        "value": "4450000",
+        "unit": "주",
+        "period": "공모",
+        "description": "구주매출주식수. 공모 후 발행주식수에 신주처럼 추가하지 않음",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_SECONDARY_SHARES",
+            "locator": "주당 평가가액 산출 내역, 구주매출주식수 및 공모 후 발행주식수"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "0",
+    "unit": "shares",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_EXISTING_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 전 발행주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_NEW_SHARES",
+        "locator": "주당 평가가액 산출 내역, 신주모집주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_DILUTIVE_SHARES",
+        "locator": "주당 평가가액 산출 내역, 희석가능주식수 및 주석"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_SECONDARY_SHARES",
+        "locator": "주당 평가가액 산출 내역, 구주매출주식수 및 공모 후 발행주식수"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "price_from_reported_equity",
+    "label": "공시된 주식가치를 주식수로 나눈 가격",
+    "formula": "reported_equity_million_krw * 1000000 / share_count",
+    "inputs": [
+      {
+        "field": "reported_equity_million_krw",
+        "claim_id": "X_REPORTED_EQUITY",
+        "value": "4761293",
+        "unit": "백만원",
+        "period": "2023년 온기 이익 기준 평가",
+        "description": "공시상 평가시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_REPORTED_EQUITY",
+            "locator": "평가 시가총액 산출 내역, 평가시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "106112.6106218850421627365518175875787466",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_REPORTED_EQUITY",
+        "locator": "평가 시가총액 산출 내역, 평가시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "price_from_displayed_per",
+    "label": "이익과 표시 배수로 다시 계산한 가격",
+    "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "106087.2262854246884178560420626701157272",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "reported_price_difference",
+    "label": "공시 가치에서 계산한 가격과 공시 가격의 차이",
+    "formula": "price_from_reported_equity - reported_price_krw",
+    "inputs": [
+      {
+        "field": "reported_equity_million_krw",
+        "claim_id": "X_REPORTED_EQUITY",
+        "value": "4761293",
+        "unit": "백만원",
+        "period": "2023년 온기 이익 기준 평가",
+        "description": "공시상 평가시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_REPORTED_EQUITY",
+            "locator": "평가 시가총액 산출 내역, 평가시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "reported_price_krw",
+        "claim_id": "X_REPORTED_VALUATION_PRICE",
+        "value": "106113",
+        "unit": "원",
+        "period": "공모가 산정 시",
+        "description": "공시상 할인 전 주당 평가가액. 확정 공모가액은 83400원으로 별도임",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_REPORTED_VALUATION_PRICE",
+            "locator": "주당 평가가액 산출 내역 및 희망공모가액 산출 내역"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "-0.3893781149578372634481824124212534",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_REPORTED_EQUITY",
+        "locator": "평가 시가총액 산출 내역, 평가시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_REPORTED_VALUATION_PRICE",
+        "locator": "주당 평가가액 산출 내역 및 희망공모가액 산출 내역"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "displayed_price_difference",
+    "label": "표시 배수에서 계산한 가격과 공시 가격의 차이",
+    "formula": "price_from_displayed_per - reported_price_krw",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "reported_price_krw",
+        "claim_id": "X_REPORTED_VALUATION_PRICE",
+        "value": "106113",
+        "unit": "원",
+        "period": "공모가 산정 시",
+        "description": "공시상 할인 전 주당 평가가액. 확정 공모가액은 83400원으로 별도임",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_REPORTED_VALUATION_PRICE",
+            "locator": "주당 평가가액 산출 내역 및 희망공모가액 산출 내역"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "-25.7737145753115821439579373298842728",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_REPORTED_VALUATION_PRICE",
+        "locator": "주당 평가가액 산출 내역 및 희망공모가액 산출 내역"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "implied_per",
+    "label": "공시된 주식가치에서 거꾸로 계산한 배수",
+    "formula": "reported_equity_million_krw / earnings_million_krw",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "reported_equity_million_krw",
+        "claim_id": "X_REPORTED_EQUITY",
+        "value": "4761293",
+        "unit": "백만원",
+        "period": "2023년 온기 이익 기준 평가",
+        "description": "공시상 평가시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_REPORTED_EQUITY",
+            "locator": "평가 시가총액 산출 내역, 평가시가총액"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "31.50753725614759522486037216442997432436",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_REPORTED_EQUITY",
+        "locator": "평가 시가총액 산출 내역, 평가시가총액"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "peer_displayed_mean",
+    "label": "비교기업의 표시 배수 평균",
+    "formula": "sum(peer.per) / count(peers)",
+    "inputs": [
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "31.5",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "peer_displayed_median",
+    "label": "비교기업의 표시 배수 중앙값",
+    "formula": "median(peer.per)",
+    "inputs": [
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "31.95",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "peer_recomputed_per_1",
+    "label": "HD한국조선해양: 시가총액과 이익으로 다시 계산한 배수",
+    "formula": "market_cap_million_krw / earnings_million_krw",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "36.51001885583854349924666865149177650869",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "peer_recomputed_per_2",
+    "label": "ALFA LAVAL AB: 시가총액과 이익으로 다시 계산한 배수",
+    "formula": "market_cap_million_krw / earnings_million_krw",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "25.63505631524233085435543498988109517922",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "peer_recomputed_per_3",
+    "label": "KONGSBERG GRUPPEN ASA: 시가총액과 이익으로 다시 계산한 배수",
+    "formula": "market_cap_million_krw / earnings_million_krw",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "31.75316196943680579762534911843560513145",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "peer_recomputed_per_4",
+    "label": "WARTSILA OYJ ABP: 시가총액과 이익으로 다시 계산한 배수",
+    "formula": "market_cap_million_krw / earnings_million_krw",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "32.13196552895686266050444639785149192961",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "peer_recomputed_mean",
+    "label": "개별 기업에서 다시 계산한 배수의 평균",
+    "formula": "mean(peer.market_cap_million_krw / peer.earnings_million_krw)",
+    "inputs": [
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "31.50755066736863570293297478941499218725",
+    "unit": "multiple",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "price_from_recomputed_peer_mean",
+    "label": "다시 계산한 비교기업 평균 배수를 적용한 가격",
+    "formula": "earnings_million_krw * 1000000 * peer_recomputed_mean / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "106112.6557888450829578483937393007687146",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "baseline",
+    "label": "공시에 표시된 적용 배수로 계산한 기준 가격",
+    "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "106087.2262854246884178560420626701157272",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": null,
+    "excluded_peer": null,
+    "difference_krw": null,
+    "difference_percent": null
+  },
+  {
+    "calc_id": "displayed_mean",
+    "label": "비교기업의 표시 배수 평균을 적용",
+    "formula": "earnings_million_krw * 1000000 * mean(peer.per) / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "106087.2262854246884178560420626701157272",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+    "excluded_peer": null,
+    "difference_krw": "0",
+    "difference_percent": "0"
+  },
+  {
+    "calc_id": "displayed_median",
+    "label": "비교기업의 표시 배수 중앙값을 적용",
+    "formula": "earnings_million_krw * 1000000 * median(peer.per) / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "107602.758089502183966682556949279688809",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+    "excluded_peer": null,
+    "difference_krw": "1515.5318040774955488265148866095730818",
+    "difference_percent": "1.428571428571428571428571428571428571412"
+  },
+  {
+    "calc_id": "exclude_peer_1",
+    "label": "HD한국조선해양 한 곳을 제외한 표시 배수 평균을 적용",
+    "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "100474.1455295821123110911721122642894982",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+    "excluded_peer": "HD한국조선해양",
+    "difference_krw": "-5613.080755842576106764869950405826229",
+    "difference_percent": "-5.291005291005291005291005291005291005336"
+  },
+  {
+    "calc_id": "exclude_peer_2",
+    "label": "ALFA LAVAL AB 한 곳을 제외한 표시 배수 평균을 적용",
+    "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "112710.6615773189282238385886041489906774",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+    "excluded_peer": "ALFA LAVAL AB",
+    "difference_krw": "6623.4352918942398059825465414788749502",
+    "difference_percent": "6.243386243386243386243386243386243386278"
+  },
+  {
+    "calc_id": "exclude_peer_3",
+    "label": "KONGSBERG GRUPPEN ASA 한 곳을 제외한 표시 배수 평균을 적용",
+    "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "105750.4414400741338514501498656457661534",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+    "excluded_peer": "KONGSBERG GRUPPEN ASA",
+    "difference_krw": "-336.7848453505545664058921970243495738",
+    "difference_percent": "-0.3174603174603174603174603174603174603767"
+  },
+  {
+    "calc_id": "exclude_peer_4",
+    "label": "WARTSILA OYJ ABP 한 곳을 제외한 표시 배수 평균을 적용",
+    "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+    "inputs": [
+      {
+        "field": "earnings_million_krw",
+        "claim_id": "X_ISSUER_EARNINGS",
+        "value": "151116",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "발행사의 연결 지배주주지분 기준 적용 순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "평가 시가총액 산출 내역, 적용 순이익"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0421",
+            "page": 421,
+            "claim_id": "X_ISSUER_EARNINGS",
+            "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "applied_per",
+        "claim_id": "X_APPLIED_PER",
+        "value": "31.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "최종 비교기업의 평균 PER 거래배수",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+          },
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_PER",
+            "locator": "평가 시가총액 산출 내역 주2"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "share_count",
+        "claim_id": "X_APPLIED_SHARES",
+        "value": "44870190",
+        "unit": "주",
+        "period": "공모 후 잠재주식수",
+        "description": "주당 평가가액 산정에 적용된 공모 후 발행주식수와 희석가능주식수의 합",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0332",
+            "page": 332,
+            "claim_id": "X_APPLIED_SHARES",
+            "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].per",
+        "claim_id": "X_HD_PER",
+        "value": "36.5",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_PER",
+            "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].market_cap_million_krw",
+        "claim_id": "X_HD_MARKET_CAP",
+        "value": "8093614",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[0].earnings_million_krw",
+        "claim_id": "X_HD_EARNINGS",
+        "value": "221682",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_HD_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].per",
+        "claim_id": "X_ALFA_PER",
+        "value": "25.6",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_PER",
+            "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].market_cap_million_krw",
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "value": "20837071",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[1].earnings_million_krw",
+        "claim_id": "X_ALFA_EARNINGS",
+        "value": "812835",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_ALFA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].per",
+        "claim_id": "X_KONGSBERG_PER",
+        "value": "31.8",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_PER",
+            "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].market_cap_million_krw",
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "value": "14757028",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[2].earnings_million_krw",
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "value": "464742",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_KONGSBERG_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].per",
+        "claim_id": "X_WARTSILA_PER",
+        "value": "32.1",
+        "unit": "배",
+        "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+        "description": "공시된 비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_PER",
+            "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].market_cap_million_krw",
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "value": "11916525",
+        "unit": "백만원",
+        "period": "2024년 3월 14일 평가기준",
+        "description": "공시된 기준시가총액",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_MARKET_CAP",
+            "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+          }
+        ],
+        "missing_reason": null
+      },
+      {
+        "field": "peers[3].earnings_million_krw",
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "value": "370862",
+        "unit": "백만원",
+        "period": "2023년 온기",
+        "description": "공시된 지배주주순이익",
+        "evidence": [
+          {
+            "doc_id": "HDMS-PROS-01",
+            "chunk_id": "HDMS-PROS-01-p0331",
+            "page": 331,
+            "claim_id": "X_WARTSILA_EARNINGS",
+            "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+          }
+        ],
+        "missing_reason": null
+      }
+    ],
+    "result": "105413.6565947235792850442576686214165797",
+    "unit": "KRW/share",
+    "status": "OK",
+    "precision_status": "PUBLIC_INPUT_RECALCULATION",
+    "precision": {
+      "decimal_digits": 40,
+      "rounding": "ROUND_HALF_EVEN",
+      "rounded_to_currency_unit": false
+    },
+    "evidence": [
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "평가 시가총액 산출 내역, 적용 순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0421",
+        "page": 421,
+        "claim_id": "X_ISSUER_EARNINGS",
+        "locator": "요약 연결 재무정보, 당기순이익과 지배기업소유지분"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_PER",
+        "locator": "평가 시가총액 산출 내역 주2"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0332",
+        "page": 332,
+        "claim_id": "X_APPLIED_SHARES",
+        "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_PER",
+        "locator": "2023년 온기 기준 PER 산출, HD한국조선해양"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_HD_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_PER",
+        "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_ALFA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_PER",
+        "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_KONGSBERG_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_PER",
+        "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_MARKET_CAP",
+        "locator": "2023년 온기 기준 PER 산출, 기준시가총액"
+      },
+      {
+        "doc_id": "HDMS-PROS-01",
+        "chunk_id": "HDMS-PROS-01-p0331",
+        "page": 331,
+        "claim_id": "X_WARTSILA_EARNINGS",
+        "locator": "2023년 온기 기준 PER 산출, 지배주주순이익"
+      }
+    ],
+    "missing_reason": null,
+    "related_request_ids": [],
+    "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+    "excluded_peer": "WARTSILA OYJ ABP",
+    "difference_krw": "-673.5696907011091328117843940486991475",
+    "difference_percent": "-0.6349206349206349206349206349206349206592"
+  }
+]
+```
+
+숫자의 단위·기간·원문 위치는 같은 폴더의 review.json 안 extracted_inputs에서 확인할 수 있다.

@@ -1,0 +1,22 @@
+# Python environments, caches, and package output
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Rebuildable document exports and visual inspection files
+/grading_exports/_qa/
+/grading_exports/*.docx
+/data/public/inspection/
+
+# Private grading data and links between anonymous IDs and runs
+/data/private/

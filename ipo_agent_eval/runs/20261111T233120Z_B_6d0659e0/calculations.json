@@ -1,0 +1,1132 @@
+{
+  "source_inputs": [
+    {
+      "field": "earnings_million_krw",
+      "claim_id": "X_EARNINGS",
+      "value": "151116",
+      "unit": "백만원",
+      "period": "2023년 온기",
+      "description": "PER 평가에 적용한 연결 지배주주지분 기준 순이익. 연결재무정보의 원 단위 금액은 151116175331원이다.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_EARNINGS",
+          "locator": "평가 시가총액 산출 내역, 적용 순이익"
+        },
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0421",
+          "page": 421,
+          "claim_id": "X_EARNINGS",
+          "locator": "요약 연결 재무정보, 2023년 지배기업소유지분 순이익"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "applied_per",
+      "claim_id": "X_APPLIED_PER",
+      "value": "31.5",
+      "unit": "배",
+      "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+      "description": "최종 비교기업의 PER 산술평균으로 공시에 표시된 적용 거래배수.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_APPLIED_PER",
+          "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+        },
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0330",
+          "page": 330,
+          "claim_id": "X_APPLIED_PER",
+          "locator": "PER 평가방법을 통한 상대가치 산출, 산출 방법"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "reported_equity_million_krw",
+      "claim_id": "X_EQUITY_VALUE",
+      "value": "4761293",
+      "unit": "백만원",
+      "period": "2023년 온기 이익 적용 평가",
+      "description": "공시에 기재된 PER 적용 평가시가총액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0332",
+          "page": 332,
+          "claim_id": "X_EQUITY_VALUE",
+          "locator": "평가 시가총액 산출 내역, 평가시가총액"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "reported_price_krw",
+      "claim_id": "X_ASSESSED_PRICE",
+      "value": "106113",
+      "unit": "원",
+      "period": "공모 후 잠재주식수 적용 평가",
+      "description": "공시의 주당 평가가액이며 확정 공모가액이 아니다. 확정 공모가액은 83400원이다.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0332",
+          "page": 332,
+          "claim_id": "X_ASSESSED_PRICE",
+          "locator": "주당 평가가액 산출 내역 및 희망공모가액 산출 내역"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "share_count",
+      "claim_id": "X_SHARE_COUNT",
+      "value": "44870190",
+      "unit": "주",
+      "period": "공모 후 잠재주식수",
+      "description": "공모 후 발행주식수와 희석가능주식수를 합한 주당 평가가액 분모.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0332",
+          "page": 332,
+          "claim_id": "X_SHARE_COUNT",
+          "locator": "주당 평가가액 산출 내역, 공모 후 잠재주식수"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "existing_shares",
+      "claim_id": "X_EXISTING_SHARES",
+      "value": "40000000",
+      "unit": "주",
+      "period": "공모 전",
+      "description": "공모 전 발행주식수.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0332",
+          "page": 332,
+          "claim_id": "X_EXISTING_SHARES",
+          "locator": "주당 평가가액 산출 내역, 공모 전 발행주식수"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "new_shares",
+      "claim_id": "X_NEW_SHARES",
+      "value": "4450000",
+      "unit": "주",
+      "period": "이번 공모",
+      "description": "신주모집주식수. 공모 후 발행주식수에 추가된다.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0332",
+          "page": 332,
+          "claim_id": "X_NEW_SHARES",
+          "locator": "주당 평가가액 산출 내역, 신주모집주식수"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "dilutive_shares",
+      "claim_id": "X_DILUTIVE_SHARES",
+      "value": "420190",
+      "unit": "주",
+      "period": "증권신고서 제출일 현재",
+      "description": "미전환 주식매수선택권 13510주와 우리사주매수선택권 잔여주식 406680주의 합.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0332",
+          "page": 332,
+          "claim_id": "X_DILUTIVE_SHARES",
+          "locator": "주당 평가가액 산출 내역, 희석가능주식수 및 주석"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "secondary_sale_shares",
+      "claim_id": "X_SECONDARY_SHARES",
+      "value": "4450000",
+      "unit": "주",
+      "period": "이번 공모",
+      "description": "구주매출주식수. 기존 발행주식의 매출이므로 공모 후 발행주식수에 별도로 더하지 않는다.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0332",
+          "page": 332,
+          "claim_id": "X_SECONDARY_SHARES",
+          "locator": "주당 평가가액 산출 내역, 구주매출주식수 및 공모 후 발행주식수 산식"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[0].per",
+      "claim_id": "X_PEER_HD_PER",
+      "value": "36.5",
+      "unit": "배",
+      "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+      "description": "공시에 표시된 비교기업 PER.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_HD_PER",
+          "locator": "2023년 온기 기준 PER 산출, HD한국조선해양 PER"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[0].market_cap_million_krw",
+      "claim_id": "X_PEER_HD_CAP",
+      "value": "8093614",
+      "unit": "백만원",
+      "period": "2024년 3월 14일 평가기준",
+      "description": "기준시가총액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_HD_CAP",
+          "locator": "2023년 온기 기준 PER 산출, HD한국조선해양 기준시가총액"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[0].earnings_million_krw",
+      "claim_id": "X_PEER_HD_EARNINGS",
+      "value": "221682",
+      "unit": "백만원",
+      "period": "2023년 온기",
+      "description": "PER 산출에 적용한 지배주주지분 기준 순이익.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_HD_EARNINGS",
+          "locator": "2023년 온기 기준 PER 산출, HD한국조선해양 지배주주순이익"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[1].per",
+      "claim_id": "X_PEER_ALFA_PER",
+      "value": "25.6",
+      "unit": "배",
+      "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+      "description": "공시에 표시된 비교기업 PER.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_ALFA_PER",
+          "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB PER"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[1].market_cap_million_krw",
+      "claim_id": "X_PEER_ALFA_CAP",
+      "value": "20837071",
+      "unit": "백만원",
+      "period": "2024년 3월 14일 평가기준",
+      "description": "공시 환율을 적용한 기준시가총액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_ALFA_CAP",
+          "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB 기준시가총액 및 주3"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[1].earnings_million_krw",
+      "claim_id": "X_PEER_ALFA_EARNINGS",
+      "value": "812835",
+      "unit": "백만원",
+      "period": "2023년 온기",
+      "description": "PER 산출에 적용한 지배주주지분 기준 순이익의 원화 환산액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_ALFA_EARNINGS",
+          "locator": "2023년 온기 기준 PER 산출, ALFA LAVAL AB 지배주주순이익 및 주2·주3"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[2].per",
+      "claim_id": "X_PEER_KONGSBERG_PER",
+      "value": "31.8",
+      "unit": "배",
+      "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+      "description": "공시에 표시된 비교기업 PER.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_KONGSBERG_PER",
+          "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA PER"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[2].market_cap_million_krw",
+      "claim_id": "X_PEER_KONGSBERG_CAP",
+      "value": "14757028",
+      "unit": "백만원",
+      "period": "2024년 3월 14일 평가기준",
+      "description": "공시 환율을 적용한 기준시가총액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_KONGSBERG_CAP",
+          "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA 기준시가총액 및 주3"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[2].earnings_million_krw",
+      "claim_id": "X_PEER_KONGSBERG_EARNINGS",
+      "value": "464742",
+      "unit": "백만원",
+      "period": "2023년 온기",
+      "description": "PER 산출에 적용한 지배주주지분 기준 순이익의 원화 환산액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_KONGSBERG_EARNINGS",
+          "locator": "2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA 지배주주순이익 및 주2·주3"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[3].per",
+      "claim_id": "X_PEER_WARTSILA_PER",
+      "value": "32.1",
+      "unit": "배",
+      "period": "2023년 온기 이익 및 2024년 3월 14일 평가기준",
+      "description": "공시에 표시된 비교기업 PER.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_WARTSILA_PER",
+          "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP PER"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[3].market_cap_million_krw",
+      "claim_id": "X_PEER_WARTSILA_CAP",
+      "value": "11916525",
+      "unit": "백만원",
+      "period": "2024년 3월 14일 평가기준",
+      "description": "공시 환율을 적용한 기준시가총액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_WARTSILA_CAP",
+          "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP 기준시가총액 및 주3"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[3].earnings_million_krw",
+      "claim_id": "X_PEER_WARTSILA_EARNINGS",
+      "value": "370862",
+      "unit": "백만원",
+      "period": "2023년 온기",
+      "description": "PER 산출에 적용한 지배주주지분 기준 순이익의 원화 환산액.",
+      "evidence": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "chunk_id": "HDMS-PROS-01-p0331",
+          "page": 331,
+          "claim_id": "X_PEER_WARTSILA_EARNINGS",
+          "locator": "2023년 온기 기준 PER 산출, WARTSILA OYJ ABP 지배주주순이익 및 주2·주3"
+        }
+      ],
+      "missing_reason": null
+    }
+  ],
+  "recalculation": {
+    "calculations": [
+      {
+        "id": "share_sum",
+        "label": "평가에 사용하는 주식수의 합계",
+        "formula": "existing_shares + new_shares + dilutive_shares; secondary_sale_shares is excluded",
+        "inputs": {
+          "existing_shares": "40000000",
+          "new_shares": "4450000",
+          "dilutive_shares": "420190",
+          "secondary_sale_shares": "4450000"
+        },
+        "result": "44870190",
+        "unit": "shares",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "share_count_difference",
+        "label": "주식수 합계와 공시 주식수의 차이",
+        "formula": "share_sum - share_count",
+        "inputs": {
+          "existing_shares": "40000000",
+          "new_shares": "4450000",
+          "dilutive_shares": "420190",
+          "secondary_sale_shares": "4450000",
+          "share_count": "44870190"
+        },
+        "result": "0",
+        "unit": "shares",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_reported_equity",
+        "label": "공시된 주식가치를 주식수로 나눈 가격",
+        "formula": "reported_equity_million_krw * 1000000 / share_count",
+        "inputs": {
+          "reported_equity_million_krw": "4761293",
+          "share_count": "44870190"
+        },
+        "result": "106112.6106218850421627365518175875787466",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_displayed_per",
+        "label": "이익과 표시 배수로 다시 계산한 가격",
+        "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190"
+        },
+        "result": "106087.2262854246884178560420626701157272",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "reported_price_difference",
+        "label": "공시 가치에서 계산한 가격과 공시 가격의 차이",
+        "formula": "price_from_reported_equity - reported_price_krw",
+        "inputs": {
+          "reported_equity_million_krw": "4761293",
+          "share_count": "44870190",
+          "reported_price_krw": "106113"
+        },
+        "result": "-0.3893781149578372634481824124212534",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "displayed_price_difference",
+        "label": "표시 배수에서 계산한 가격과 공시 가격의 차이",
+        "formula": "price_from_displayed_per - reported_price_krw",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190",
+          "reported_price_krw": "106113"
+        },
+        "result": "-25.7737145753115821439579373298842728",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "implied_per",
+        "label": "공시된 주식가치에서 거꾸로 계산한 배수",
+        "formula": "reported_equity_million_krw / earnings_million_krw",
+        "inputs": {
+          "reported_equity_million_krw": "4761293",
+          "earnings_million_krw": "151116"
+        },
+        "result": "31.50753725614759522486037216442997432436",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_displayed_mean",
+        "label": "비교기업의 표시 배수 평균",
+        "formula": "sum(peer.per) / count(peers)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "31.5",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_displayed_median",
+        "label": "비교기업의 표시 배수 중앙값",
+        "formula": "median(peer.per)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "31.95",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_1",
+        "label": "HD한국조선해양: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "HD한국조선해양",
+          "per": "36.5",
+          "market_cap_million_krw": "8093614",
+          "earnings_million_krw": "221682"
+        },
+        "result": "36.51001885583854349924666865149177650869",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_2",
+        "label": "ALFA LAVAL AB: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "ALFA LAVAL AB",
+          "per": "25.6",
+          "market_cap_million_krw": "20837071",
+          "earnings_million_krw": "812835"
+        },
+        "result": "25.63505631524233085435543498988109517922",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_3",
+        "label": "KONGSBERG GRUPPEN ASA: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "KONGSBERG GRUPPEN ASA",
+          "per": "31.8",
+          "market_cap_million_krw": "14757028",
+          "earnings_million_krw": "464742"
+        },
+        "result": "31.75316196943680579762534911843560513145",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_4",
+        "label": "WARTSILA OYJ ABP: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "WARTSILA OYJ ABP",
+          "per": "32.1",
+          "market_cap_million_krw": "11916525",
+          "earnings_million_krw": "370862"
+        },
+        "result": "32.13196552895686266050444639785149192961",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_mean",
+        "label": "개별 기업에서 다시 계산한 배수의 평균",
+        "formula": "mean(peer.market_cap_million_krw / peer.earnings_million_krw)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "31.50755066736863570293297478941499218725",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_recomputed_peer_mean",
+        "label": "다시 계산한 비교기업 평균 배수를 적용한 가격",
+        "formula": "earnings_million_krw * 1000000 * peer_recomputed_mean / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "share_count": "44870190",
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "106112.6557888450829578483937393007687146",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      }
+    ],
+    "notes": [
+      "이 계산은 전달받은 숫자를 사용합니다. 숫자의 출처와 적용 여부는 별도로 확인해야 합니다.",
+      "구주매출은 기존 주식의 소유자가 바뀌는 거래이므로 주식수 합계에 더하지 않습니다.",
+      "표시된 배수나 금액의 반올림 때문에 차이가 날 수 있습니다. 차이만으로 공시 오류라고 판정하지 않습니다.",
+      "비교기업 값이 빠지거나 잘못되면 그 기업을 빼고 평균을 내지 않습니다."
+    ]
+  },
+  "sensitivity": {
+    "baseline": {
+      "id": "baseline",
+      "label": "공시에 표시된 적용 배수로 계산한 기준 가격",
+      "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+      "inputs": {
+        "earnings_million_krw": "151116",
+        "applied_per": "31.5",
+        "share_count": "44870190"
+      },
+      "result": "106087.2262854246884178560420626701157272",
+      "unit": "KRW/share",
+      "status": "OK",
+      "reason": null,
+      "precision": {
+        "decimal_digits": 40,
+        "rounding": "ROUND_HALF_EVEN",
+        "rounded_to_currency_unit": false
+      }
+    },
+    "scenarios": [
+      {
+        "id": "displayed_mean",
+        "label": "비교기업의 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190",
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "106087.2262854246884178560420626701157272",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": null,
+        "applied_per": "31.5",
+        "difference_krw": "0",
+        "difference_percent": "0",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "displayed_median",
+        "label": "비교기업의 표시 배수 중앙값을 적용",
+        "formula": "earnings_million_krw * 1000000 * median(peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190",
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "107602.758089502183966682556949279688809",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": null,
+        "applied_per": "31.95",
+        "difference_krw": "1515.5318040774955488265148866095730818",
+        "difference_percent": "1.428571428571428571428571428571428571412",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_1",
+        "label": "HD한국조선해양 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190",
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "100474.1455295821123110911721122642894982",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "HD한국조선해양",
+        "applied_per": "29.83333333333333333333333333333333333333",
+        "difference_krw": "-5613.080755842576106764869950405826229",
+        "difference_percent": "-5.291005291005291005291005291005291005336",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_2",
+        "label": "ALFA LAVAL AB 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190",
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "112710.6615773189282238385886041489906774",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "ALFA LAVAL AB",
+        "applied_per": "33.46666666666666666666666666666666666667",
+        "difference_krw": "6623.4352918942398059825465414788749502",
+        "difference_percent": "6.243386243386243386243386243386243386278",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_3",
+        "label": "KONGSBERG GRUPPEN ASA 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190",
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "105750.4414400741338514501498656457661534",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "KONGSBERG GRUPPEN ASA",
+        "applied_per": "31.4",
+        "difference_krw": "-336.7848453505545664058921970243495738",
+        "difference_percent": "-0.3174603174603174603174603174603174603767",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_4",
+        "label": "WARTSILA OYJ ABP 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "151116",
+          "applied_per": "31.5",
+          "share_count": "44870190",
+          "peers": [
+            {
+              "name": "HD한국조선해양",
+              "per": "36.5",
+              "market_cap_million_krw": "8093614",
+              "earnings_million_krw": "221682"
+            },
+            {
+              "name": "ALFA LAVAL AB",
+              "per": "25.6",
+              "market_cap_million_krw": "20837071",
+              "earnings_million_krw": "812835"
+            },
+            {
+              "name": "KONGSBERG GRUPPEN ASA",
+              "per": "31.8",
+              "market_cap_million_krw": "14757028",
+              "earnings_million_krw": "464742"
+            },
+            {
+              "name": "WARTSILA OYJ ABP",
+              "per": "32.1",
+              "market_cap_million_krw": "11916525",
+              "earnings_million_krw": "370862"
+            }
+          ]
+        },
+        "result": "105413.6565947235792850442576686214165797",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "WARTSILA OYJ ABP",
+        "applied_per": "31.3",
+        "difference_krw": "-673.5696907011091328117843940486991475",
+        "difference_percent": "-0.6349206349206349206349206349206349206592",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      }
+    ],
+    "notes": [
+      "차이는 공시에 표시된 적용 배수로 재계산한 기준 가격에 대한 값입니다. 공시 가격 자체와 비교한 값이 아닙니다.",
+      "평균, 중앙값, 기업 한 곳을 제외한 평균은 계산 결과가 얼마나 달라지는지 보기 위한 가정입니다.",
+      "어느 기업을 제외하거나 어느 배수를 선택할지는 사업 특성과 근거를 검토한 뒤 판단해야 합니다."
+    ]
+  },
+  "precision_status": "PUBLIC_INPUT_RECALCULATION; original unrounded inputs not independently verified"
+}

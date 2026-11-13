@@ -1,0 +1,912 @@
+{
+  "source_inputs": [
+    {
+      "field": "earnings_million_krw",
+      "claim_id": "X_EARNINGS",
+      "value": "24320",
+      "unit": "백만원",
+      "period": "2026년 상반기 연환산",
+      "description": "1분기 순이익 2876백만원과 2분기 순이익 9284백만원의 합을 2배한 적용 당기순이익. 제공된 반기 재무현황은 발행사를 K-IFRS 별도 기준으로 표시한다.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0471",
+          "page": 471,
+          "claim_id": "X_EARNINGS",
+          "locator": "PER에 의한 평가가치 표, 주1"
+        },
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0483",
+          "page": 483,
+          "claim_id": "X_EARNINGS",
+          "locator": "동사 및 비교기업 2026년 반기 요약 재무현황"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "applied_per",
+      "claim_id": "X_APPLIED_PER",
+      "value": "16.14",
+      "unit": "배",
+      "period": "2026년 반기말 LTM 기준 비교기업 PER",
+      "description": "최종 비교기업 3개사의 PER 산술평균.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0469",
+          "page": 469,
+          "claim_id": "X_APPLIED_PER",
+          "locator": "2026년 반기 비교기업 PER 산출 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "reported_equity_million_krw",
+      "claim_id": "X_REPORTED_EQUITY",
+      "value": null,
+      "unit": "백만원",
+      "period": "정정 후 평가시가총액",
+      "description": "적용 이익과 PER을 곱한 주식 전체 평가액의 공시 기재값.",
+      "evidence": [],
+      "missing_reason": "제공된 페이지의 정정 후 평가표에 평가시가총액이 별도 항목으로 기재되어 있지 않다. 재계산값을 공시값으로 기입하지 않았다."
+    },
+    {
+      "field": "reported_price_krw",
+      "claim_id": "X_REPORTED_PRICE",
+      "value": "26380",
+      "unit": "원",
+      "period": "2026년 10월 12일 정정 후",
+      "description": "할인 적용 전 주당 평가가액. 수요예측 후 확정된 주당 공모가액 18500원과 구분된다.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0471",
+          "page": 471,
+          "claim_id": "X_REPORTED_PRICE",
+          "locator": "PER에 의한 디티에스의 평가가치 표"
+        },
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0111",
+          "page": 111,
+          "claim_id": "X_REPORTED_PRICE",
+          "locator": "정정 후 희망공모가액 산출내역 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "share_count",
+      "claim_id": "X_SHARES",
+      "value": "14881735",
+      "unit": "주",
+      "period": "정정 후 주당 평가가액 산정",
+      "description": "발행주식총수 12630528주, 신주모집 2228917주 및 상장주선인 추가인수분 22290주의 합. 주식매수선택권 400000주는 제외.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0471",
+          "page": 471,
+          "claim_id": "X_SHARES",
+          "locator": "적용 주식수 산정 표 및 주석"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "existing_shares",
+      "claim_id": "X_EXISTING",
+      "value": "12630528",
+      "unit": "주",
+      "period": "정정 후 적용 주식수 산정",
+      "description": "보통주 발행주식총수.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0471",
+          "page": 471,
+          "claim_id": "X_EXISTING",
+          "locator": "적용 주식수 산정 표의 발행주식총수"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "new_shares",
+      "claim_id": "X_NEW",
+      "value": "2228917",
+      "unit": "주",
+      "period": "정정 후 적용 주식수 산정",
+      "description": "공모 예정주식수 중 신주모집 주식수. 별도의 상장주선인 추가인수분 22290주도 적용 주식수에 포함된다.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0471",
+          "page": 471,
+          "claim_id": "X_NEW",
+          "locator": "적용 주식수 산정 표의 공모 예정주식수 및 상장주선인 추가인수분"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "dilutive_shares",
+      "claim_id": "X_DILUTIVE",
+      "value": "400000",
+      "unit": "주",
+      "period": "2028년 9월 행사기간",
+      "description": "임직원 주식매수선택권 수량. 행사기간을 이유로 정정 후 적용 주식수에서 제외되었다.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0471",
+          "page": 471,
+          "claim_id": "X_DILUTIVE",
+          "locator": "적용 주식수 산정 표 아래 주식매수선택권 주석"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "secondary_sale_shares",
+      "claim_id": "X_SECONDARY",
+      "value": null,
+      "unit": "주",
+      "period": "이번 공모",
+      "description": "기존 주주의 구주매출 주식수.",
+      "evidence": [],
+      "missing_reason": "제공된 페이지에서 구주매출 수량이나 구주매출이 없다는 명시를 확인하지 못했다."
+    },
+    {
+      "field": "peers[0].per",
+      "claim_id": "X_SNT_PER",
+      "value": "5.29",
+      "unit": "배",
+      "period": "2026년 반기말 LTM 기준",
+      "description": "정정 후 비교기업 PER.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0109",
+          "page": 109,
+          "claim_id": "X_SNT_PER",
+          "locator": "정정 후 2026년 반기 비교기업 PER 산출 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[0].market_cap_million_krw",
+      "claim_id": "X_SNT_MARKET_CAP",
+      "value": null,
+      "unit": "백만원",
+      "period": "비교기업 기준주가 적용 시점",
+      "description": "비교기업의 적용 시가총액 공시 기재값.",
+      "evidence": [],
+      "missing_reason": "제공된 최종 비교기업 PER 표에는 주식수와 기준주가는 있으나 시가총액이 별도로 기재되어 있지 않다."
+    },
+    {
+      "field": "peers[0].earnings_million_krw",
+      "claim_id": "X_SNT_EARNINGS",
+      "value": "109749",
+      "unit": "백만원",
+      "period": "2025년 하반기부터 2026년 상반기까지 LTM",
+      "description": "PER 표의 지배지분 당기순이익.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0109",
+          "page": 109,
+          "claim_id": "X_SNT_EARNINGS",
+          "locator": "정정 후 2026년 반기 비교기업 PER 산출 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[1].per",
+      "claim_id": "X_BHI_PER",
+      "value": "34.88",
+      "unit": "배",
+      "period": "2026년 반기말 LTM 기준",
+      "description": "정정 후 비교기업 PER.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0109",
+          "page": 109,
+          "claim_id": "X_BHI_PER",
+          "locator": "정정 후 2026년 반기 비교기업 PER 산출 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[1].market_cap_million_krw",
+      "claim_id": "X_BHI_MARKET_CAP",
+      "value": null,
+      "unit": "백만원",
+      "period": "비교기업 기준주가 적용 시점",
+      "description": "비교기업의 적용 시가총액 공시 기재값.",
+      "evidence": [],
+      "missing_reason": "제공된 최종 비교기업 PER 표에는 주식수와 기준주가는 있으나 시가총액이 별도로 기재되어 있지 않다."
+    },
+    {
+      "field": "peers[1].earnings_million_krw",
+      "claim_id": "X_BHI_EARNINGS",
+      "value": "52052",
+      "unit": "백만원",
+      "period": "2025년 하반기부터 2026년 상반기까지 LTM",
+      "description": "PER 표의 지배지분 당기순이익.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0109",
+          "page": 109,
+          "claim_id": "X_BHI_EARNINGS",
+          "locator": "정정 후 2026년 반기 비교기업 PER 산출 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[2].per",
+      "claim_id": "X_HANTEK_PER",
+      "value": "8.26",
+      "unit": "배",
+      "period": "2026년 반기말 LTM 기준",
+      "description": "정정 후 비교기업 PER.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0109",
+          "page": 109,
+          "claim_id": "X_HANTEK_PER",
+          "locator": "정정 후 2026년 반기 비교기업 PER 산출 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "field": "peers[2].market_cap_million_krw",
+      "claim_id": "X_HANTEK_MARKET_CAP",
+      "value": null,
+      "unit": "백만원",
+      "period": "비교기업 기준주가 적용 시점",
+      "description": "비교기업의 적용 시가총액 공시 기재값.",
+      "evidence": [],
+      "missing_reason": "제공된 최종 비교기업 PER 표에는 주식수와 기준주가는 있으나 시가총액이 별도로 기재되어 있지 않다."
+    },
+    {
+      "field": "peers[2].earnings_million_krw",
+      "claim_id": "X_HANTEK_EARNINGS",
+      "value": "32117",
+      "unit": "백만원",
+      "period": "2025년 하반기부터 2026년 상반기까지 LTM",
+      "description": "PER 표의 지배지분 당기순이익.",
+      "evidence": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "chunk_id": "DTS-PROS-01-p0109",
+          "page": 109,
+          "claim_id": "X_HANTEK_EARNINGS",
+          "locator": "정정 후 2026년 반기 비교기업 PER 산출 표"
+        }
+      ],
+      "missing_reason": null
+    }
+  ],
+  "recalculation": {
+    "calculations": [
+      {
+        "id": "share_sum",
+        "label": "평가에 사용하는 주식수의 합계",
+        "formula": "existing_shares + new_shares + dilutive_shares; secondary_sale_shares is excluded",
+        "inputs": {
+          "existing_shares": "12630528",
+          "new_shares": "2228917",
+          "dilutive_shares": "400000",
+          "secondary_sale_shares": null
+        },
+        "result": "15259445",
+        "unit": "shares",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "share_count_difference",
+        "label": "주식수 합계와 공시 주식수의 차이",
+        "formula": "share_sum - share_count",
+        "inputs": {
+          "existing_shares": "12630528",
+          "new_shares": "2228917",
+          "dilutive_shares": "400000",
+          "secondary_sale_shares": null,
+          "share_count": "14881735"
+        },
+        "result": "377710",
+        "unit": "shares",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_reported_equity",
+        "label": "공시된 주식가치를 주식수로 나눈 가격",
+        "formula": "reported_equity_million_krw * 1000000 / share_count",
+        "inputs": {
+          "reported_equity_million_krw": null,
+          "share_count": "14881735"
+        },
+        "result": null,
+        "unit": "KRW/share",
+        "status": "UNAVAILABLE",
+        "reason": "reported_equity_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_displayed_per",
+        "label": "이익과 표시 배수로 다시 계산한 가격",
+        "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "applied_per": "16.14",
+          "share_count": "14881735"
+        },
+        "result": "26376.27937871491462521003095405206449382",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "reported_price_difference",
+        "label": "공시 가치에서 계산한 가격과 공시 가격의 차이",
+        "formula": "price_from_reported_equity - reported_price_krw",
+        "inputs": {
+          "reported_equity_million_krw": null,
+          "share_count": "14881735",
+          "reported_price_krw": "26380"
+        },
+        "result": null,
+        "unit": "KRW/share",
+        "status": "UNAVAILABLE",
+        "reason": "reported_equity_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "displayed_price_difference",
+        "label": "표시 배수에서 계산한 가격과 공시 가격의 차이",
+        "formula": "price_from_displayed_per - reported_price_krw",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "applied_per": "16.14",
+          "share_count": "14881735",
+          "reported_price_krw": "26380"
+        },
+        "result": "-3.72062128508537478996904594793550618",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "implied_per",
+        "label": "공시된 주식가치에서 거꾸로 계산한 배수",
+        "formula": "reported_equity_million_krw / earnings_million_krw",
+        "inputs": {
+          "reported_equity_million_krw": null,
+          "earnings_million_krw": "24320"
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "reported_equity_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_displayed_mean",
+        "label": "비교기업의 표시 배수 평균",
+        "formula": "sum(peer.per) / count(peers)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": "16.14333333333333333333333333333333333333",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_displayed_median",
+        "label": "비교기업의 표시 배수 중앙값",
+        "formula": "median(peer.per)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": "8.26",
+        "unit": "multiple",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_1",
+        "label": "SNT에너지: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "SNT에너지",
+          "per": "5.29",
+          "market_cap_million_krw": null,
+          "earnings_million_krw": "109749"
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_2",
+        "label": "비에이치아이: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "비에이치아이",
+          "per": "34.88",
+          "market_cap_million_krw": null,
+          "earnings_million_krw": "52052"
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_per_3",
+        "label": "한텍: 시가총액과 이익으로 다시 계산한 배수",
+        "formula": "market_cap_million_krw / earnings_million_krw",
+        "inputs": {
+          "name": "한텍",
+          "per": "8.26",
+          "market_cap_million_krw": null,
+          "earnings_million_krw": "32117"
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "peer_recomputed_mean",
+        "label": "개별 기업에서 다시 계산한 배수의 평균",
+        "formula": "mean(peer.market_cap_million_krw / peer.earnings_million_krw)",
+        "inputs": {
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": null,
+        "unit": "multiple",
+        "status": "UNAVAILABLE",
+        "reason": "일부 기업을 임의로 제외하지 않았습니다. SNT에너지.market_cap_million_krw: 입력값이 없습니다. / 비에이치아이.market_cap_million_krw: 입력값이 없습니다. / 한텍.market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      },
+      {
+        "id": "price_from_recomputed_peer_mean",
+        "label": "다시 계산한 비교기업 평균 배수를 적용한 가격",
+        "formula": "earnings_million_krw * 1000000 * peer_recomputed_mean / share_count",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "share_count": "14881735",
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": null,
+        "unit": "KRW/share",
+        "status": "UNAVAILABLE",
+        "reason": "일부 기업을 임의로 제외하지 않았습니다. SNT에너지.market_cap_million_krw: 입력값이 없습니다. / 비에이치아이.market_cap_million_krw: 입력값이 없습니다. / 한텍.market_cap_million_krw: 입력값이 없습니다.",
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        }
+      }
+    ],
+    "notes": [
+      "이 계산은 전달받은 숫자를 사용합니다. 숫자의 출처와 적용 여부는 별도로 확인해야 합니다.",
+      "구주매출은 기존 주식의 소유자가 바뀌는 거래이므로 주식수 합계에 더하지 않습니다.",
+      "표시된 배수나 금액의 반올림 때문에 차이가 날 수 있습니다. 차이만으로 공시 오류라고 판정하지 않습니다.",
+      "비교기업 값이 빠지거나 잘못되면 그 기업을 빼고 평균을 내지 않습니다."
+    ]
+  },
+  "sensitivity": {
+    "baseline": {
+      "id": "baseline",
+      "label": "공시에 표시된 적용 배수로 계산한 기준 가격",
+      "formula": "earnings_million_krw * 1000000 * applied_per / share_count",
+      "inputs": {
+        "earnings_million_krw": "24320",
+        "applied_per": "16.14",
+        "share_count": "14881735"
+      },
+      "result": "26376.27937871491462521003095405206449382",
+      "unit": "KRW/share",
+      "status": "OK",
+      "reason": null,
+      "precision": {
+        "decimal_digits": 40,
+        "rounding": "ROUND_HALF_EVEN",
+        "rounded_to_currency_unit": false
+      }
+    },
+    "scenarios": [
+      {
+        "id": "displayed_mean",
+        "label": "비교기업의 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "applied_per": "16.14",
+          "share_count": "14881735",
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": "26381.72677222559511150189589229123261949",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": null,
+        "applied_per": "16.14333333333333333333333333333333333333",
+        "difference_krw": "5.44739351068048629186493823916812567",
+        "difference_percent": "0.02065262288310615448161916563403552251161",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "displayed_median",
+        "label": "비교기업의 표시 배수 중앙값을 적용",
+        "formula": "earnings_million_krw * 1000000 * median(peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "applied_per": "16.14",
+          "share_count": "14881735",
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": "13498.6411194662450312413169566586154101",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": null,
+        "applied_per": "8.26",
+        "difference_krw": "-12877.63825924866959396871399739344908372",
+        "difference_percent": "-48.82280049566294919454770755885997521684",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_1",
+        "label": "SNT에너지 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "applied_per": "16.14",
+          "share_count": "14881735",
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": "35250.08340761342679465801534565694121015",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "SNT에너지",
+        "applied_per": "21.57",
+        "difference_krw": "8873.80402889851216944798439160487671633",
+        "difference_percent": "33.64312267657992565055762081784386617103",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_2",
+        "label": "비에이치아이 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "applied_per": "16.14",
+          "share_count": "14881735",
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": "11071.82731045808838821548697110921542414",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "비에이치아이",
+        "applied_per": "6.775",
+        "difference_krw": "-15304.45206825682623699454398294284906968",
+        "difference_percent": "-58.02354399008674101610904584882280049567",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      },
+      {
+        "id": "exclude_peer_3",
+        "label": "한텍 한 곳을 제외한 표시 배수 평균을 적용",
+        "formula": "earnings_million_krw * 1000000 * mean(remaining peer.per) / share_count",
+        "inputs": {
+          "earnings_million_krw": "24320",
+          "applied_per": "16.14",
+          "share_count": "14881735",
+          "peers": [
+            {
+              "name": "SNT에너지",
+              "per": "5.29",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "109749"
+            },
+            {
+              "name": "비에이치아이",
+              "per": "34.88",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "52052"
+            },
+            {
+              "name": "한텍",
+              "per": "8.26",
+              "market_cap_million_krw": null,
+              "earnings_million_krw": "32117"
+            }
+          ]
+        },
+        "result": "32823.26959860527015163218536010754122419",
+        "unit": "KRW/share",
+        "status": "OK",
+        "reason": null,
+        "precision": {
+          "decimal_digits": 40,
+          "rounding": "ROUND_HALF_EVEN",
+          "rounded_to_currency_unit": false
+        },
+        "assumption": "계산상 대안이며 실제로 이 배수를 적용해야 한다는 뜻은 아닙니다.",
+        "excluded_peer": "한텍",
+        "applied_per": "20.085",
+        "difference_krw": "6446.99021989035552642215440605547673037",
+        "difference_percent": "24.44237918215613382899628252788104089221",
+        "comparison_status": "OK",
+        "comparison_reason": null
+      }
+    ],
+    "notes": [
+      "차이는 공시에 표시된 적용 배수로 재계산한 기준 가격에 대한 값입니다. 공시 가격 자체와 비교한 값이 아닙니다.",
+      "평균, 중앙값, 기업 한 곳을 제외한 평균은 계산 결과가 얼마나 달라지는지 보기 위한 가정입니다.",
+      "어느 기업을 제외하거나 어느 배수를 선택할지는 사업 특성과 근거를 검토한 뒤 판단해야 합니다."
+    ]
+  },
+  "precision_status": "PUBLIC_INPUT_RECALCULATION; original unrounded inputs not independently verified"
+}

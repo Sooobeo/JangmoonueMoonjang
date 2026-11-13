@@ -1,0 +1,518 @@
+{
+  "id": "resp_09f50da594ded23d016af6937130bc87d2a63f8515ec281641",
+  "created_at": 1794544497.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6.1-terra",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09f50da594ded23d016af69371fc0887d2982a7cce50d74fa2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9pPKxfj3XEB6GAvM6WWy3-Ls8ii2rbGP02Go6siPnlefSfgXeTBExlc_b2FMeS_QNVSfUYnLi9uW24uswGdnBg6wXKNId6xseeqlv-MnCU5BkxyjutSo6PwBFBtD1uRkiFjKiyyGXUuvLpGb8D-W5y9m2gQZ_BvlP_mJHzCLV3AhGLaeT34RsZAx5kyYMyY3pUr2tPCrlMFntAozUcybLBcR5kjRoG_qacr8eTzRjbg6c5SyAUT0U-tP0_cV4t1lrbnvEWVDH_rIaEPEfxSPdBNkxqWr6jn2eAPBGYOxd7DMRx3HJgQrRrcLsLZOFOFJSZDTn6OLFDwM9busiJ9vgZz7AADHU-sv9h66fAo5YS-zpqY4b0qjm8ak_sYbn8u4k4rcZVH7lKTZr3emHo2ubAnIub_Mrf7JRQPuJ8LCx01gpcRC_vL_WtS1_qBd8sLB7Xm19YAXnvgBDP7hYHBXaZ4XDKfVgS482NV777DZCuWmK0il4JsasYY-h0FbZE7fLRwPPviHjpNKpndcqqmurCrKe-2OnM-o8DEtZtVa-guIR2G263PffY8fCb-r9Nyxvt9Mfdi9UWOu10aj2H_FUyMBQxu-Zd4V6hIzyy4zkEgDRdFIwZ3jJeJP4jbDz6ExUcRcKJle-6SZwlj86p-iCr-EEFOqEvanDsZjPXzdqQC4sNcT48-Y7RMKABNE02cdydr3MCtdHzoBrncVlM39NYxEh-iLgluN8gx8lxwUSYO3ZwyP_Wz30LMLtJsl2rQY1ZGPB82t7je5olAiuuzyCtIjBC-de5yq_f8kgZyVCh7T6gyoMFTGIUeXD1zSx-DXzZvDghrx6tnVA35Cs6XS7xjbTX_bLWxzVXDac64er7fYEgf3UzpCjbDM3QBZjJEizZJAKvdRjHjSQ4L4eS4bNcbNsSGudEfmKzgyvSbuoOacT5pug4Jat-WJTE9SNpbAYSyO_GkZdbOXFx13vyxesNcl4oQa3wGDbbyEIbT4oOIs-gzTeJ6auh_z_ZdSbq-5-J5j0N_Xlr3X1d18qBdOxe-QzXCMD1QA78U3l-VFNnFJPkFG47OJhTxg6PAEyA7JfjLUjygOyRBU-ubJMbIdotKl4ej93zCNcqkGUtPNkz93-nHExboJsfUeh_mPYdYYxz3stTKlAT_MlIpUiShX-03to9esnoL-r4B1UvIF0cx5sznF9HQdgXfe-3Bxwpbo_Y950RTGGia9CiM5jqHeopO8tKGNkEWrNrXXYAa22kZ8WgmWeo-NfhKsrKF1IIbmuTETWxTJ1hZFjzwdOoH8X-6Uvr5NHocf8B7Xz831PLsG4t4fcq7wY4X42bQXdOxv5dSG6bFJCbGa2nDfq_jA5dLt9APQMOj7tzyCsLgFeadg64zEHJyK3HNd6llithrXJiIbb2hN9jvgvtQx1zIZwaooYmei82oP07xdjAmSNE5KyYygYJxkRWoEMNJup3xyYFvivJWK7UjxJZgG1GXgfAEzuXl-noAuAStTjH5DudwCnOQqoSDniQVpE_U7gA5dRs1zdMmM7uw-yFL0cdjLyLkm5yzEQGWmOxZeJeQ9g3aKKsEvk4cagJMsUFtcF2l_Mm9-2sP6zLg2V2GXiZ-ejzUo857Uj_WLDDt-n_f0rrCju_lO7IULSvNziTVWDfWAT_tVN43evng5xTARzuwyrLQ5S4qbegslHtBR1fDaX0iZYp08PZV_jq0-NHAMhJu6nOoh_CWxRkcx8rHEwgq7meOXVwpn3LwOMhDq1VcwJFNafORg70UuPLl201aTGUwHrNWu4iKIPA-uqGEm9SNRpOQKWQ4Ipm4Q4pOH63v8W7htqyfdWX5ZiYSaVLAi40lwbUa1-ECI_lVXWhWFU50jDkrbIyweADEejD5mM-uc5rBoqUExZC13wPUP-tZuWDV1HUz_Dl1qY_qa7PThAU52DB6th_XqX9nlTWTjoWWs7esi7G7qW2xx6Sp6xD2eh68zCTEZjNgcNECBxPpjaRGEAye_jvGoAqhQxzA9Emw-skO3dS0bsflbHN2cOF7aZ7vODC363_f3U7U7SjMcv-aqqlVjyt9j8tczy9uxFl2RNwjcNdzFYKMPoAJHSmUWlC-pJl7Bb38Xr-_WiHNzrAUG8_c9DbdqAWrOnlP4Z1TDQfFrumpBoScXc5av6C8RFbe4z60m_94byN8sZFBaKjAEfyXCrcD6liniPCdIt2EERa9ekfDxqcGDxfG7WtWixj5X5pNFyC1TcC64CadDMYBpDD4P3iPtqXQTeaxng3Hf6jutru-xcsYN5rlsF8mne7aWUfx2iyB-acj7I40V3Nsd1enMC23zJv-FXCfKvXo-DcD1CaU2UDhZC_PuAdDtbT3zm4MDiQx4r7U9No2ltlzpGHBxPvprWaByTZTyjkV-tBLHrPJYtgQUzJEl3oI_zEYl1TvQIi8tvPaVP7HYQR7GUwMt8SMqRmf2SHjJ22RaOeydmv1bmjG6a_iJJChzIRKF3PZUoUfvPfsaVMezWweGrghgv2HxrShB58szywOFmVYpl-9JrPL7OQi4AWUTydcvYSM6ggSdsoK4NhXjElQfpu-dBBDz5BzZZmpWnv6yRTkSIdqQKxNilIYGkZUVyEVMFQzJc2X9CdxYRmr_bRhsz7fdXc39ky7iYa6kmbPBUIRuL9od9WeM1Gp7MDcp3eZOKBOYf3LOfA7U_oHfCuJSPKPHu3awkdwYcDDc7OI7_29XNVfgprJaHyN-fPYVkPkxWYIAv_fTUMgmVU9ZK2eCvr82saJVALuhkKxRFVZrsnIZ3JGvGOl5pzf6TWTGD2V_QsTg57XHXW2pxupal2JrbaazF56O3N0NwpbC5KHZy43kIsnXAgcO3Ais8W8poIM69ejJdaYm7WpVHI7PHVPzpypxHGTOoQmhGmcLt2L6B0OKiYbEC4X9XI6nhPO8nZUHrMjG7DUk5Dskeml3PB2x5rq_QHRphhfVsgm8cDwGSCngDbAu-xz-JSBd-Thc-3S4NNMT9E4vYGlWZHhldGLnOkjO91_507zbyBwE6FZ0OsS8wz-fvmo3NNiWur84WxKiQXZOqZGdhLwH3g5BtBgfDZws-bxVICNSxIvjL1V9WUd9iO9KeoO588DILc3Ueny6kVc-MrlUMYxwCZ4oRM4coHuJyS4u-sjfN2MpiLtGXsnkCNYeCI8ik4Zd9gORx1bzZe38XJFfbQcLxo9i3dI4J4ujOFgzmB92J2fHAd8ju-DZq_W_v10NERthLqky8ljwbTXk5dvDJdLqhsXuYBK4OTe-MaZBLm55wyMr6mqbV_QNWx4CgOCqxGhOzihmkO5s7OHHOOcDqRsopeaDk2aNY0n2ERMiPaaT64p4560ieSyA7s-fkkrfiSL0ZPtmDNXCRvo0rO5gH76_nW6ES047rUEGzKTh33RcVhj1G6QXs0hMj2m87gieaxTj3qMa3GYfhIKuwmZ-aCv_8q-0fQ-Q9Gh9Xxpj6ocKDESwuFmTSYr6dwulEuBMQurZt0POm_7TiCBKrX4Gwv7PFjuJy59g44_wYGaA8VfIrN6829qq9aHAhJBFL0vJNqcGf_PC6_aFFehH_niTP5XIyNma0dTntvw-KAdzvBIhP_OkVoF1NuXqoFLr5Y4L73ekBp7REJkErmjp3oRZDz8EgdnxGmwhOlXX-Z13oLe0aBt0TwNbPAVhD2r0YDC_UgwoBjCZIvp_Plw0D0QgPD7c8O1nz3F4B_1LJNsKCs7hp81s7pV1pdNvuXlyPI6AiLRFb6RZdtNOG6rzmQdatl2d9nPg1AjgwUV3IBvgmJX42sKR4BzKQmiXHQNF5-4CiFf4Hu2sdUvN3vdPz0rf2ztPZHMN5r0wI_sINesdfHV_1AkHj2l2rUwS48KoNh48nP94OYq6UhPKk5zK-W7eVHkuUAXs08vhLdA0SutLGop-dIEtluBbXgXMAU_rTwPYb5_SJIvWr5icy2K3EywA_VYYVrjFkL0uU232DeOBiotglaGxYudUlWY0dB___BdUaTGjAM4kgGHzrP_NJGXmhdCjyxsvoclDLAUz6FhJeoki-fIcz5anT6QKx_MJH64vaIdGiA3K1RXEXKrVkYtgUdbPxS99Lfv1cZzWLjAIXf4WuZpajTS01V9xbZM2J8B1rQG6I73XBqm74xJJKDWTftivRzFurnnQ07tjDR3whDCOhNl0IPnTKMIuhdx4Z0fOv7g1VCV_gwvGChLXpggTQ5S4V0PWEBm1WBDQ5GEdqaoF7ii16xqS34BTQR1e26tSnHNpF2TkXo2jfdCx6wCMAngp9th_KpagboDNdRowXYvqPwNMcXt5pplV6ZEPS8A8Es0aMUrXw7ztEogghtUPA7gDqDrxfFIqPdVTZGo4BvzVYAIONdJ4XwvEoy6l7th_s_ZeS4ENqz40cSoc1xdqd6WXVTYidWjSvTK_NiI6r8BjPT8uSIQkOZjW7RThH0oankY-b8bZBdKOkHGcxEJl8_NvVe2_7YYeB_oqfm__Bja0uGhHJi4PWEmO2vGhhHQCLdbK2d-xqSmkuluB-GapHnczCVF97ZDXFR7_rQw-oM-0IzcLKbDlp2bYZGVEr83PZmITSYrkZHr3Mg59558GBffoc_rIBNgmiYbAU0wOdxon0NBX8w-9DhwTTwU4qWfzqRSJph52R7vVBnwAU1kaCLmnAksomyVjMFkpDcxVsxWrFo7Y13y2c0QClHrZJko_ekiwEWzDyyBll7wywUJUODkIweCHiG9wAzq1EXFcX2eRmYX6N1IFEVF7RFXk49ZFHcu6lDSqt1-mJolkymGcI1p0NuTpr-93xrqcI1dK2ju9pegaokBKfVFL-94PqlYJ9IlUjHrMl_xjatKuBtps1c0qZ-ieYCOfdJhAq_nyLCt18a30m2OhbyZZRqSg_ys8ifGMUiWQH2SfkjmJcuogxdjdefV-fZKexRhd2QtaksEkwvd8eJT2dLMw4POODPqGv94LRt3AvmyQ83Hnaq1Hnx6MEcWBznUI3XEHVYm2zxBVsV8WxHwAlq2O6ETJB2asstYStYGUoWfIgTI4m3OJd9adOYXaWNC6UeC-7uuto0VXyROrKJUeetQ60ByUG-CIb9YOoFaO4C1n2USLm48EM0KD71q8bPcfnucROlVCjo0hmcaFgjja6wSEdiFbLdH7Maa_CCj8GPal2G2FCneIlQo2jQTjIJXpypt1IU1A5MTDWUfPpdc3BSH-Q3U4-MNmsISsaTU3EHEQNDxmd-K2h6FIRfShT1QqWizOJwP_huj-ehKntUCHaiiPAL6aWp8WLkX0xbYmaRMeSmDMw-bmQkPkJ_PbHJkhBxQNvkLNWio06R3EXKRYHCCZspbGfY1fTcORmgGzGEotBgEbRnEj1BVJmICkbxQQq0W_PIpT4KUFCDJnncLL4Wdawx1ptJWpU3SEF__MoCaRXSU8-ZYgyCD9FtyB3MCwoOBqYiSPAK1UF7h5sVijXtG4q8ZoBdr8UrRKREYed34og7eiQ1mzagxuUB-GNzQP2R7y7Hfkc90_tRLJdiagaekfWfkfYQ8vK6t1F_1pIXK7CKkDjwqdMfy-C9q_LPN423s8Eu_741tQ53GRaJGZ9cjvHSP-gdAY1JbZS9RYzeLRLz7oGoqAx7ogNvwp1o2mKC-RXNC4hPPI6oY1b2L0K__xpOVf6PnhxEJCZIXwVK-0ViyuHP1IFIPwWbk6lxFYCASK4DM3lrUxMcZg5HsSYszf2JUUkUfadXJ-_q3936sVvtBZkMQzSoNpV6tjH1itXLKLcAsVOkoHseCzqC5BMrjOLLEaxjr4G8Ggol8WQMeK3sMvbXTgLNHurarLBaAVlohoU2zkqgnVIxPUZyNp1ifD-epXRt5pHcvFfk-9s8oDJjYQ4QhyCq0Esl7Bo-bPb08OS6vgQBHJpq5C7ZxmtnD10B6Zv9Cn-bc1t0z3Ho0W7VbxUHZg6HodDPnhVdgcjX0mCTsAmdSKe9B5vLkd1k13pzsX_1uIuRCD8hXyFG4abCpJd8p2YUXaBvKZI7KTnBOSMj9txZkJgcKxyY-eJf-e5ifwaHoz_sYGSDN1KQs77_MJtuvDuCdZHUh3fAm5LOrjxtgOiYe_QkpGmF5io6RfImIEaggMmJtK7XKODw6mlA7AQKwM-sZ0T3yeFTXnd6_mxM33-7F6RrV3aSZvT0HJqmRlt_GLj1r4PdCDWONOsQhpsfEptqjKFmapEyl_U5OLFaEJ3bJVKykGqDIgZMMchWjvXevlz9_4GU3eYmNDnYpj1JyS-nbWaXfC4QCkbJoZDdPgTG72Pit4uUHZCS0Wqh1APi8_tfN-REINd1EEyB0gqx1tQKOibp5jsmhPLp77dVCrfQU-7iifdYw9Itpi4eCnjuA8XvQ0n3Kc4M7dxz1dbsA66Tcu6Yj0D_avEq1qh_Vn9zIZdUVLRpmAgjv8hYwohr38XjdspTl9EveB9b7XY0quQECFcEiRWjwzZsulJ9VNU0s6PT8g3lDkjEL0tUH99UsA52_k38thNKqNTsq7mSw4q9VSvp2TW_HurBBMXlLtd7mf-gUTo8K_CjFutNQJztRVzNXz4t15bnlUWtAeTMrXugtg6uMSF-h3uh6AJRs3x9z2C0awccsXth4gigWv_eAu9YR5wbaHIRw9oy8remwzyrZUDSam2-qhViAQNmET3uzmhAaAwYf-vHyRKONLqcuDhS_H3MJqJU0l-7OQK-HqqqIKLJIy5CXrlVecvOiuXn9JI5Csj67WKKxKU8l00vW2hPfGpreUcDrdhMBf2eZOwOeIvJxsgkZyIM-9IaQoqqZyOkfzOxtevtvSB_a7hCrnKEXRbVw_u3DKq--0BVQC3Ns_WnZdhzI1eHGmnMf7zma9yV23tCQxQrNi2iiiKhD-OwOPvyQBPEF62QFiVeALHJcNQljD6IxzCDGKkMO_l0zNtZFRgicPM2uccRN191flrMc3G-UdhMmyhN29rgh5yKa_Y0YbijgOog8dS4Y0mwjgoChLRkEr4Zh_ql8EC1ETaaUWOa-oPQHI6oeU-2Jvlky_nGpNLeZOWYI_E6V-o719RZXM5z8bZt9itfVqjA_6k4cJaIS62uFkCcthDQn8CKt2tk9GpARt7x0YgG9jMO99BWJka7NC4Kj6P_mVrGenvHLD27XQ3YkdzFBJ37ea6D9r8TXvQNdXn75XMQ==",
+      "status": null
+    },
+    {
+      "id": "rs_09f50da594ded23d016af6937a050487d284dafcfed154707c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9pPKSaMEspfhz_PY_RzmMcdvM6PV0sWpfQZCxFxhYiDv4im5X45Ua6mkdEv8bENcW5K4P_J-LGH8QO39R8g5I5uC442Wa1WaihE_lzfk_CWiGOc1QB6WDKAp0bWIM0k3yAG0L-0xm_OrKM0Ej6PYozVsv44RUj6Xbr9w5khtmxSgLHdXD5MTU2gFkIDN2FofOwUumMxnY5uxyEwCxWD1Arqrur6csLviORNqBQLB_VWpbNl0KBXyzLCwW3L2MSkj7UElkP9eRNDMrTlXsrAb5golInRrK1fbDrzi4Ad8dHK-HCesc2qrgvKevIhcZp53XE4VnDhqttu9DftI-4mmWhH4DFosiuda0TUrH0fD6YC8KpdQyUq0oLIyh0aGy7ZTvXlaEixNawbNH4LAePx7TBttOH1EoVFvvd8JsOyOaNCnECdFq4biysTr-lJp0pApVvyI1SstZP-eqK8FbOrpceGlQeDVFyKKEt3KxpPiTEzIHIhmw-95q45pgbbBVbxSdcBJfr7I00UTyZuV11YjocmGabNVYzi1ie1T-L7poa3aBSS4TIUZyf2nlM3bEkyjJts4voZTrv2IKbs_pSX04qYs2xm0AmcXz-3YklWsTybigFaO5bR0IUZkx15s9ij8toJUWRDPMYxIkT-YLPebV_0Qu5B0V8q203hMR8QXCBVFpt8d82cRukSMYZcuYFU6cs9j2AdfN0-QMwhh8GhDEMhgpkY4BwjxhMhvEX6xoC9rkIqdfK3mot_Dr1-tBxOuoqVCybJMPYFJi8gJfYqubQoi4QH4cZy_9jLLjR5EGqMcXc4HBtPkYu6o0MihO2Upwu9zIieDi91R4290SClUmIrTzlz5_8wUWxibdCHx_6jPswuLNqsgCuyk1r7jD3ojcGATXrlakv0PkSxF1H62wvrdGS9J1_zIZbYJh64zWH5K39FKljRSMcY5mwmNEdmoZ_oi-p7twcTmxXIWQgm0Kat4-WUEjCgj_LcX-JBhssurIJ9HD-lFiBl2nu6qgui1MO8jgrVBO754Vy-_LBX96x8BC7CNt9Agxg0nlYAnybUQw8ShUrSmzQUU9rtxF1vtq9jvokEvLHJ6sYYDj3s8-gzLCsgds1n-HCF1n-jhlqbYMiQOjcx_ujoZ109v5j_IACoHXBGVfo-Jr-tq5r5H6suerEzGtTRTBdvw6OO3H7K4pPOiaHGIoyOJaizxF3tbGrPd04kc8mFjsDZXYax_Jg1PjXlkasLUt-DtVBZlNOLp-bD8EH774A7w1fOqbwpnoqsCFDbEN7BBBOs7vWj2kFak32kS6IqmH9uARpPADz_EAxu_TwJtzou5Dw0wXHwLHKT836QIMlOEbqVboHQz6PhfeK8Zciu2Z3ylJ6Fu9Rks7JkOKYTDVFnM195dP6aBy7m40ndorPf7FOd6RMGg0nmuin2pkA_tA1mP116m3Ye7t1BXGhPVPnLPyOTMSoMH_4BFeElatS24204BgCDe4yWl4o5UIyEfgCIh0LX-cxDlPDSzQYyQUh2XsOogzIQWfLT4ZzqxZcGMqf90XjEcn4HFwhynre4CWIdSpNRhyusJ12KEv7R3mviudgXwBD7ZmWJ4giivFtp4EycUdGAhAXo9Bzb4-XABIR_YQCBHreNdwVt1ZsPSLmR4ERyb_LxOjxwHRh68Bwq9IGGNCG9efwRjwFg04HzVor6O4-bghtLFfSDpiC_bkfhepLnDMyFXK8Qr0uaICfIsVN7GqwzNF7nm8BhkM4uovv3pkEHttpJUc-Gd0J0MvCx3Z19JhrA2Lbb6somqYucKTmU9NLjdiqYDDRdr8pfqOH2reF1eSLGrXeNRxHGHA7-XRTTJCL-cFSeJRcSdpJYWSi6wI_6Jet8HqxYNuMEoRr8lWRAh3fjxO_ycedDMJENFQP-UtNYgzIXXzqoX24G0HnoG92HQubdrh0UBWR4jdkA3x35GDfaBISUdFMZEiBnIzt2u8EV0ciigljVAMWgWLd2fnKNJB3b50Z_lDPC9W6yqyyUIU0r-r-r6-ECbdUtXmBLYd2gAqlUD6REsLV71aThOfL5-LmY0I99YlPu5NAO9DrFyAa46w_bH59ZBZgH4o0s3BryHjWekqjtSESC3FoVRSrTosHVgHyI8oFem6dAZr01zy89F6BH6THUvSQj-nmWfvy71mlZNpx35j1aVTtp1tz_NECOhHx6aOMrRvB4o4QijA8mJFBG1crZtLYGBA3P4Jc41mBkm2GubCh7_32XriXk80hByfSlsS3y9qd7tDliiz789uU5JaqwXgnOfsXrBMHZ5Xwli11t4uC9hJKO2dLJhE5wCXsYAQGaI5hSkXOnpw8hzXEJQrjsCKX78FCMyAPrPM3rkDg6t9eTUpO3Doqp6c8lDnRP66ETUikUwYQmBSc0Wfqj9kTn5pg6KLnSKgU4zxQGNHTSTbBaXSTjNBU2bZjpZOuMo5ckihEzskNAJLBSFVo8iMlRxy7hg-EzsG4AEM1LBe6-LacGS0E0o6FpQ7XeRM9mnvEQrRwF9JjhYTbA7tCeD6c2u4T7FewJclB81BztZuCcGipvaBBh7nvh_dsvJhtUvAfYu15P0Tgr2XppS3FsZWeP5aw5bQYCny4rm_Tt53z94oOPBXBJiUQVTEuGUFUW4DcbbcvOZhRDIO301tnOoofRx__2_WmNtVrCNvVmUG0YwCLSfMh32zHhEelMUKgdOmoLXa14veWJcP48fEHIC4YYMm4v2AqDXCtHCmryc1i8SyEjEDbaU3kq4KzpwJBCX-Ud728SgFz_WR8h7aJDqU1YlW42adooGU7lmVjNkLKOOlWj9Ulq3slwks3ZL-CgiGQs3b3ZTiOUawI7QmnTD5Ru9_h3-Zm__7MoX1a_9XhT4BLH-0IguQjO21PZ7IVmsh82Hg1DxSJYZ88C5OMUG7eupy2wQdUshicmlOHGsLdjp4KhpOmGztsPw_Y27GaToui_MgnGFL7YiYss3HtIzQqU4Myhlernk98vJSB2GEzB__zj35K1KLvwLTfpONvl6Czd3gYEG-7ygmSF9ndPeKQIGyrpjogA0ca4aVzxsoRE5dZPdG7oxyWi-Hsj2MOjQT59ivcbWAvhHi3q-3FdLY9COiEpYJVvbz9nGNxkL3AaR4krXG5PbGg4AP_peqUcbBKh1lagigE9GK-7gTi6-fzoxvWqoKJDO6BnKRPNVJiwdMPga1KWmMrwhE5UK3wH5K_53I0gDz3fY__8UteU9SKXIPJpV9wsQ-eHR4B1EUE16_k-1n0cE9gAlOqCEmvRmB6Ds_VW5wxdjhP2bjHylEGCnR-9VACWZzds2t1mEheeQJCaf0CN8ci8Pur5_fUt4txDoshGf4CarbPaHQzsvv4XTNSAmVY4Jhk5M-yus1VZPGzck-VAKhKNglMYoWMZmpNaJbsSyCbZa9jScix3Saum90XgLduTqSDdpEYcpLet8_EtJ0SsvtE0MjBqjUEHEMxLYZy8gXQr1Z9wbGH7PEAj705zJljzR-8fRLS8DpHOUUmh19M8H5xwL_Iiz6InFUXZun_reXNx8sulwiSbOOMp0kn_G3qj7wG5T-SJETnZz8LgUgf0qgv2In0F0xHWGHV-99Akc2dRRpJu6dvS_RcQUrB2nfmQJtvMYQWgVq6i1zxCf2VzBBsZgjwm9WfYDIiWUQVI1o1cVdFrrjWcNmdj_3QQ5dmjwN1Gt9KyQUOs94ufL8ZooPL0kCQzAjQa5ckIhaGj8MF7r6D7z1P-PlOmvIZ_sgWTwKE0xRSm0a5doMsJ84d_V3CWMfVr-g9fEIR4A_MxeId13KyclKU-g_uXEiF30Ii4RhJ6flkwSJyTGk2ETBt87SCeW3WWvK4W0Lwuv1z7UCZDxBPb6_aVhD2JTYEs_3AO-9HHDqL_seBOsy7sL3yNRT0jzPzfHv_v6N5XH2gBt5OXSC7VykZa_rxIoF-gB7rVYzF0UXHJLe-EIEAX83LYz8-wsBbzqfveX-JUkKqm3xADD5xQozJMrUylk7lIJc2v-v6qCjygU_L3zx2hnhcILKeZcFgAKvOFwCPI9nh_CjJcH02f3lgHaws-gmIxqwA8uc0m4f0I8",
+      "status": null
+    },
+    {
+      "id": "msg_09f50da594ded23d016af6937d7fe087d2b20a5816bd332663",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\n  \"scope\": {\n    \"document_ids\": [\"DTS-PROS-01\"],\n    \"verification_limits\": [\n      \"자료 마감은 2026-10-12 23:59:59 KST다. 제공된 메타데이터에 따라 10월 12일 정정본을 사용했으며, 공개 시각은 날짜까지만 확인되었다.\",\n      \"제공된 실제 페이지와 그 안의 인용값만 사례 근거로 사용했다. 비교기업의 독립 공시 원자료와 표시 전 원숫자는 직접 확인하지 못했다.\",\n      \"추가 검색은 수행하지 않았다. 정보 요청은 기록이며 실제 자료 확보를 뜻하지 않는다.\"\n    ]\n  },\n  \"judgments\": [\n    {\n      \"judgment_id\": \"J1\",\n      \"domain\": \"J1\",\n      \"conclusion\": \"반기 실적 연환산은 공시의 비경상 손익 관련 설명이 있는 선택이지만, 비교기업의 실제 최근 12개월 이익과 기간이 다르므로 조건부로 해석해야 한다. 귀속 범위도 발행사의 별도 기준과 비교기업의 연결 지배지분 기준이라는 차이가 있다.\",\n      \"disposition\": \"REQUEST_INFO\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J1_1\",\n          \"text\": \"공시: 디티에스의 2026년 1분기 순이익 2,876백만원과 2분기 9,284백만원을 합해 2배한 24,320백만원을 적용했다. 재무현황 비교표는 디티에스를 K-IFRS 별도, 세 비교기업을 K-IFRS 연결로 표시한다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0471\",\n              \"page\": 471,\n              \"claim_id\": \"R_J1_1\",\n              \"locator\": \"PER에 의한 평가가치 표 및 주1\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0483\",\n              \"page\": 483,\n              \"claim_id\": \"R_J1_1\",\n              \"locator\": \"2026년 반기 요약 재무현황의 회계기준과 당기순이익\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_2\",\n          \"text\": \"공시: 비교기업에는 2025년 하반기와 2026년 상반기를 합한 반기말 LTM 이익을 사용했고, 연결재무제표 작성법인은 지배지분 이익을 적용했다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0469\",\n              \"page\": 469,\n              \"claim_id\": \"R_J1_2\",\n              \"locator\": \"비교기업 PER 산출 표와 그 앞 문단\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0470\",\n              \"page\": 470,\n              \"claim_id\": \"R_J1_2\",\n              \"locator\": \"비교기업별 LTM 구성 표\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_3\",\n          \"text\": \"공시: 주관사는 발행사 LTM의 영업외비용과 수익 차이가 연환산보다 커 비경상 요인에 의한 왜곡이 생길 수 있고, 개별 비용 조정에는 자의성이 개입할 수 있다고 설명한다. 표시된 비용 초과액은 LTM 2,889백만원, 연환산 342백만원이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0471\",\n              \"page\": 471,\n              \"claim_id\": \"R_J1_3\",\n              \"locator\": \"평가가치 표 주3\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0472\",\n              \"page\": 472,\n              \"claim_id\": \"R_J1_3\",\n              \"locator\": \"주3 이어지는 설명 및 영업외손익 차이 표\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0471\",\n          \"page\": 471,\n          \"claim_id\": \"R_J1_1\",\n          \"locator\": \"평가가치 표 주1\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0469\",\n          \"page\": 469,\n          \"claim_id\": \"R_J1_2\",\n          \"locator\": \"비교기업 PER 산출 표\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0472\",\n          \"page\": 472,\n          \"claim_id\": \"R_J1_3\",\n          \"locator\": \"영업외손익 차이 표와 조정의 자의성 설명\"\n        }\n      ],\n      \"unknowns\": [\n        \"제공된 페이지에는 발행사의 LTM 순이익 수치가 이어서 나온다고만 되어 있어, 동기간 기준 평가액을 직접 계산할 수 없다.\",\n        \"반기 이익을 두 배하는 것은 하반기에 상반기와 같은 이익이 발생한다는 계산상 연환산이지 실제 연간 실적이 아니다. 2분기 이익이 1분기보다 큰 이유와 지속성은 이 자료만으로 판단하기 어렵다.\",\n        \"별도 이익과 연결 지배지분 이익의 차이가 비교 결과에 미치는 크기는 확인하지 못했다.\"\n      ],\n      \"next_action\": \"허용 투자설명서의 발행사 LTM 이익표와 관련 재무제표 페이지를 요청해 동기간 대안 및 귀속 범위를 확인한다.\"\n    },\n    {\n      \"judgment_id\": \"J2\",\n      \"domain\": \"J2\",\n      \"conclusion\": \"세 비교기업은 공시된 선정 기준과 사업 연관성에 비추어 참고할 수 있으나, 동질 기업으로 단정할 수 없다. 특히 비에이치아이의 높은 배수와 발전설비 중심 매출구성은 평균 해석에 조건을 붙여야 한다.\",\n      \"disposition\": \"REQUEST_INFO\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J2_1\",\n          \"text\": \"공시: 산업분류 74개사에서 플랜트·발전소 매출 비중 30% 이상 및 화공기기 제조·판매 기준으로 6개사를 추렸고, 수익성·감사의견·결산기 등 재무 및 일반 기준을 거쳐 SNT에너지, 비에이치아이, 한텍을 선정했다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0459\",\n              \"page\": 459,\n              \"claim_id\": \"R_J2_1\",\n              \"locator\": \"비교기업 선정 기준표\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0464\",\n              \"page\": 464,\n              \"claim_id\": \"R_J2_1\",\n              \"locator\": \"최종 비교회사 선정결과 요약\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J2_2\",\n          \"text\": \"공시: 디티에스는 발전 및 석유화학·정유 플랜트 등에 쓰이는 공랭식 열교환기를 생산한다. 비에이치아이의 2026년 반기 매출은 HRSG 65.4%, 보일러 21.6%이며, 한텍은 에너지사업부 90.82%, 탱크사업부 9.18%다. 한텍의 주력 열교환기는 수냉식이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0493\",\n              \"page\": 493,\n              \"claim_id\": \"R_J2_2\",\n              \"locator\": \"리스크집행위원회 산업과 사업 핵심기술\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0481\",\n              \"page\": 481,\n              \"claim_id\": \"R_J2_2\",\n              \"locator\": \"비에이치아이 매출구성\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0482\",\n              \"page\": 482,\n              \"claim_id\": \"R_J2_2\",\n              \"locator\": \"한텍 사업 차이 설명 및 매출구성\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J2_3\",\n          \"text\": \"공시: 세 회사의 표시 PER은 SNT에너지 5.29배, 비에이치아이 34.88배, 한텍 8.26배다. 주관사는 비에이치아이의 열관련 설비 및 고객·공급시장 유사성을 설명하며, 세 기업의 시장평가를 동일 비중으로 반영하려고 중앙값 대신 산술평균을 사용했다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0468\",\n              \"page\": 468,\n              \"claim_id\": \"R_J2_3\",\n              \"locator\": \"산술평균 적용 이유\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0469\",\n              \"page\": 469,\n              \"claim_id\": \"R_J2_3\",\n              \"locator\": \"비에이치아이 유사성 설명 및 비교기업 PER 표\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0481\",\n          \"page\": 481,\n          \"claim_id\": \"R_J2_2\",\n          \"locator\": \"비에이치아이 매출구성\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0482\",\n          \"page\": 482,\n          \"claim_id\": \"R_J2_2\",\n          \"locator\": \"한텍 제품 차이와 매출구성\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0469\",\n          \"page\": 469,\n          \"claim_id\": \"R_J2_3\",\n          \"locator\": \"비에이치아이 사업·고객 유사성 설명\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0467\",\n          \"page\": 467,\n          \"claim_id\": \"J2\",\n          \"locator\": \"PER 편차와 무관하게 선정요건을 적용했다는 설명\"\n        }\n      ],\n      \"unknowns\": [\n        \"제공 페이지에서 SNT에너지와 발행사의 세부 매출구성을 같은 기준으로 충분히 대조하지 못했다.\",\n        \"제품·고객·재무구조 차이는 성장과 위험 및 수익성에 영향을 줄 수 있지만, 그 차이가 PER 차이를 얼마나 설명하는지는 확인되지 않았다.\"\n      ],\n      \"next_action\": \"허용 문서의 발행사와 SNT에너지 사업·매출구성 페이지를 받아 비교 가능성을 보완하고, 평균과 중앙값을 함께 해석한다.\"\n    },\n    {\n      \"judgment_id\": \"J3\",\n      \"domain\": \"J3\",\n      \"conclusion\": \"표시 입력값을 이용한 기준 재계산은 약 26,376원이다. 중앙값 대안은 약 13,499원으로 48.8% 낮아 배수 선택에 민감하다. 이는 공모가 예측이나 특정 비교기업 제외 권고가 아니다.\",\n      \"disposition\": \"CONDITIONAL\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J3_1\",\n          \"text\": \"공시: 정정 후 평가 입력은 이익 24,320백만원, PER 16.14배, 주식수 14,881,735주이며 주당 평가가액은 26,380원이다. 확정 공모가는 별도인 18,500원이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0471\",\n              \"page\": 471,\n              \"claim_id\": \"R_J3_1\",\n              \"locator\": \"PER에 의한 평가가치 표\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0111\",\n              \"page\": 111,\n              \"claim_id\": \"R_J3_1\",\n              \"locator\": \"정정 후 희망공모가액 산출내역\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J3_2\",\n          \"text\": \"재계산: 24,320백만원 × 16.14 = 392,524.8백만원의 평가시가총액이며, 이를 14,881,735주로 나누면 26,376.28원이다. 공시 26,380원보다 3.72원 낮다. 표시 PER의 정밀도가 차이를 설명할 가능성이 있으나 실제 원숫자·처리 규칙은 미확인이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0471\",\n              \"page\": 471,\n              \"claim_id\": \"R_J3_2\",\n              \"locator\": \"평가가치 표의 이익, PER, 주식수 및 평가가액\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J3_3\",\n          \"text\": \"계산상 가정: 이익과 주식수는 고정하고 세 표시 PER의 중앙값 8.26배를 적용하면 13,498.64원이다. 표시 16.14배 기준 재계산값 대비 12,877.64원, 48.82% 하락한다. 표시 PER의 단순 평균 16.1433배를 그대로 사용하면 26,381.73원이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0469\",\n              \"page\": 469,\n              \"claim_id\": \"R_J3_3\",\n              \"locator\": \"비교기업별 표시 PER 및 평균\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0471\",\n              \"page\": 471,\n              \"claim_id\": \"R_J3_3\",\n              \"locator\": \"발행사 적용 이익 및 주식수\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J3_4\",\n          \"text\": \"계산상 가정: 발전설비 중심 매출과 상대적으로 높은 PER의 영향을 보기 위해 비에이치아이만 제외하면 나머지 표시 PER 평균은 6.775배, 주당 평가가액은 11,071.83원으로 기준보다 58.02% 낮다. 제외의 타당성을 입증하는 계산은 아니다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0469\",\n              \"page\": 469,\n              \"claim_id\": \"R_J3_4\",\n              \"locator\": \"비교기업별 표시 PER\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0481\",\n              \"page\": 481,\n              \"claim_id\": \"R_J3_4\",\n              \"locator\": \"비에이치아이 매출구성\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0471\",\n              \"page\": 471,\n              \"claim_id\": \"R_J3_4\",\n              \"locator\": \"적용 이익 및 주식수\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0469\",\n          \"page\": 469,\n          \"claim_id\": \"R_J3_3\",\n          \"locator\": \"비교기업 PER 표\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0471\",\n          \"page\": 471,\n          \"claim_id\": \"R_J3_2\",\n          \"locator\": \"PER 평가가치 표\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0468\",\n          \"page\": 468,\n          \"claim_id\": \"R_J2_3\",\n          \"locator\": \"중앙값은 나머지 기업의 PER 변화를 충분히 반영하지 못한다는 설명\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0469\",\n          \"page\": 469,\n          \"claim_id\": \"R_J2_3\",\n          \"locator\": \"비에이치아이의 제품 및 고객 유사성\"\n        }\n      ],\n      \"unknowns\": [\n        \"평가시가총액 392,524.8백만원은 표시값으로 계산한 값이며 별도 공시 기재값을 확인한 것이 아니다.\",\n        \"민감도는 할인 전 평가가액만 비교하며, 확정 공모가격을 다시 결정하는 계산이 아니다.\"\n      ],\n      \"next_action\": \"표시 전 배수와 반올림 규칙이 확인되면 차이를 재검증하되, 그 전에는 표시값 재계산 범위로 결과를 사용한다.\"\n    },\n    {\n      \"judgment_id\": \"J4\",\n      \"domain\": \"J4\",\n      \"conclusion\": \"정정 후 산식과 주식수는 제공 공시 인용값으로 상당 부분 재현된다. 다만 이익기간 비교와 사업 비교에 필요한 허용 원문 일부가 빠져 있어 최종 비교 적합성 판단은 추가 정보 대기다.\",\n      \"disposition\": \"REQUEST_INFO\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J4_1\",\n          \"text\": \"공시: 정정 전 표는 주식수 14,859,445주와 평가가액 26,419원이다. 정정 후에는 기존 12,630,528주와 신주 2,228,917주에 상장주선인 추가인수 22,290주를 더해 14,881,735주, 평가가액 26,380원을 제시한다. 2028년 9월 행사기간인 임직원 옵션 400,000주는 제외했다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0103\",\n              \"page\": 103,\n              \"claim_id\": \"R_J4_1\",\n              \"locator\": \"정정 전 평가가치 및 적용 주식수 표\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0110\",\n              \"page\": 110,\n              \"claim_id\": \"R_J4_1\",\n              \"locator\": \"정정 후 평가가치 및 적용 주식수 표\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J4_2\",\n          \"text\": \"공시: 정정 후 요약이 인쇄된 물리 100쪽에는 주당 평가가액 옆 산식의 번호가 맞지 않는다. 현행 본문 요약인 물리 454쪽은 이익 × PER ÷ 주식수로 표기한다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0100\",\n              \"page\": 100,\n              \"claim_id\": \"R_J4_2\",\n              \"locator\": \"정정 후 공모가 산정 요약표의 주당 평가가액 행\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0454\",\n              \"page\": 454,\n              \"claim_id\": \"R_J4_2\",\n              \"locator\": \"현행 본문 공모가 산정 요약표\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J4_3\",\n          \"text\": \"재계산: 비교기업 표의 기준주가 × 주식수로 계산한 시가총액은 SNT에너지 약 580,976.6백만원, 비에이치아이 약 1,815,468.0백만원, 한텍 약 265,128.0백만원이다. 이를 표시 LTM 이익으로 나눈 배수는 각각 약 5.293배, 34.879배, 8.255배로 표시 PER에 근접한다. 이는 공시 인용값의 재계산이지 원자료 직접 검증이 아니다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0469\",\n              \"page\": 469,\n              \"claim_id\": \"R_J4_3\",\n              \"locator\": \"비교기업 PER 표의 주식수, 기준주가 및 LTM 이익\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J4_4\",\n          \"text\": \"공시: 비교기업 PER 본표는 금액 단위를 백만원으로 표시하지만 회사별 LTM 구성표는 원으로 표시한다. 한텍 구성 표시값 17,013과 15,103의 합은 32,116인데 표의 합계는 32,117이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0469\",\n              \"page\": 469,\n              \"claim_id\": \"R_J4_4\",\n              \"locator\": \"비교기업 PER 본표 단위와 한텍 LTM 이익\"\n            },\n            {\n              \"doc_id\": \"DTS-PROS-01\",\n              \"chunk_id\": \"DTS-PROS-01-p0470\",\n              \"page\": 470,\n              \"claim_id\": \"R_J4_4\",\n              \"locator\": \"한텍 LTM 구성표 단위 및 구성값\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0110\",\n          \"page\": 110,\n          \"claim_id\": \"R_J4_1\",\n          \"locator\": \"정정 후 주식수 표\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0454\",\n          \"page\": 454,\n          \"claim_id\": \"R_J4_2\",\n          \"locator\": \"현행 본문 요약표\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0469\",\n          \"page\": 469,\n          \"claim_id\": \"R_J4_3\",\n          \"locator\": \"비교기업 PER 표\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0100\",\n          \"page\": 100,\n          \"claim_id\": \"R_J4_2\",\n          \"locator\": \"정정 후 요약표의 번호가 맞지 않는 산식\"\n        },\n        {\n          \"doc_id\": \"DTS-PROS-01\",\n          \"chunk_id\": \"DTS-PROS-01-p0470\",\n          \"page\": 470,\n          \"claim_id\": \"R_J4_4\",\n          \"locator\": \"LTM 구성표의 단위와 한텍 표시 합계\"\n        }\n      ],\n      \"unknowns\": [\n        \"LTM 구성표의 단위 불일치와 한텍 합계 차이의 원인은 표시 정밀도나 기재 문제일 수 있으나 확정할 수 없다.\",\n        \"구주매출 수량 또는 구주매출이 없다는 명시는 제공 페이지에서 확인되지 않는다. 구주매출이 있다면 기존 주식의 이전이므로 적용 주식수에 다시 더하지 않는다.\",\n        \"전달된 자동 계산의 15,259,445주는 제외된 옵션을 더하고 추가인수분을 빠뜨린 것이므로 공시 적용 주식수 검증에 사용하지 않는다.\",\n        \"정정 전 표는 변경 이력이고 정정 후 표와 현행 본문이 이번 검토의 적용값이다. 물리 99쪽의 희망밴드와 정정 후 확정가를 혼합하지 않는다.\"\n      ],\n      \"next_action\": \"우선 발행사 LTM 및 사업구성의 누락 페이지를 확보한다. 별도로 표시 전 숫자·단위와 공모 구성의 확인 가능 여부를 요청한다.\"\n    }\n  ],\n  \"requests\": [\n    {\n      \"request_id\": \"Q1\",\n      \"question\": \"허용된 DTS-PROS-01에서 2026년 반기말 디티에스 LTM 순이익표와 해당 기간·귀속 범위를 확인할 수 있는 재무제표 및 주석 페이지를 제공할 수 있는가?\",\n      \"why_needed\": \"연환산 이익을 비교기업과 동일한 실제 LTM 기간의 이익과 비교하고 별도·지배지분 범위를 판단하기 위해서다.\",\n      \"related_judgment_ids\": [\"J1\", \"J4\"],\n      \"blocking\": true,\n      \"resolution_status\": \"OPEN\",\n      \"resolution_evidence\": []\n    },\n    {\n      \"request_id\": \"Q2\",\n      \"question\": \"허용된 DTS-PROS-01에서 디티에스와 SNT에너지의 같은 시점 사업 및 매출구성 상세 페이지를 제공할 수 있는가?\",\n      \"why_needed\": \"세 비교기업의 제품·매출 차이를 균형 있게 평가하기 위해서다.\",\n      \"related_judgment_ids\": [\"J2\", \"J4\"],\n      \"blocking\": true,\n      \"resolution_status\": \"OPEN\",\n      \"resolution_evidence\": []\n    },\n    {\n      \"request_id\": \"Q3\",\n      \"question\": \"허용 문서에 정정 후 평가시가총액의 별도 공시값과 표시 전 입력값·반올림 규칙, 비교기업 LTM 구성표의 단위 및 한텍 합계 차이를 설명하는 페이지가 있는가?\",\n      \"why_needed\": \"표시값 재계산과 공시값의 미세한 차이 및 단위·정밀도 차이를 확인하기 위해서다. 없으면 해당 값은 미확인으로 유지한다.\",\n      \"related_judgment_ids\": [\"J3\", \"J4\"],\n      \"blocking\": false,\n      \"resolution_status\": \"OPEN\",\n      \"resolution_evidence\": []\n    },\n    {\n      \"request_id\": \"Q4\",\n      \"question\": \"허용 투자설명서에 이번 공모의 구주매출 수량 또는 구주매출이 없다는 명시가 있는 페이지를 제공할 수 있는가?\",\n      \"why_needed\": \"공모 구성의 완전성을 확인하기 위해서다. 구주매출은 존재하더라도 기존 발행주식에 중복 가산하지 않는다.\",\n      \"related_judgment_ids\": [\"J4\"],\n      \"blocking\": false,\n      \"resolution_status\": \"OPEN\",\n      \"resolution_evidence\": []\n    },\n    {\n      \"request_id\": \"Q5\",\n      \"question\": \"허용 투자설명서에 SNT에너지, 비에이치아이, 한텍의 적용 시가총액을 각각 별도 기재한 페이지가 있는가?\",\n      \"why_needed\": \"표의 주가와 주식수로 계산한 값과 별도 공시 기재값을 구분하기 위해서다. 별도 기재가 없어도 인용값을 이용한 재계산은 가능하다.\",\n      \"related_judgment_ids\": [\"J4\"],\n      \"blocking\": false,\n      \"resolution_status\": \"OPEN\",\n      \"resolution_evidence\": []\n    }\n  ],\n  \"escalations\": [],\n  \"missing_inputs\": [\n    {\n      \"field\": \"reported_equity_million_krw\",\n      \"missing_reason\": \"제공된 정정 후 평가표에 평가시가총액의 별도 기재값이 없다. 표시 입력값의 곱은 재계산값이다.\",\n      \"request_id\": \"Q3\"\n    },\n    {\n      \"field\": \"secondary_sale_shares\",\n      \"missing_reason\": \"제공 페이지에서 구주매출 수량이나 구주매출이 없다는 명시를 확인하지 못했다.\",\n      \"request_id\": \"Q4\"\n    },\n    {\n      \"field\": \"peers[0].market_cap_million_krw\",\n      \"missing_reason\": \"SNT에너지의 적용 시가총액 별도 기재값이 제공 표에 없다. 주가와 주식수로는 재계산할 수 있다.\",\n      \"request_id\": \"Q5\"\n    },\n    {\n      \"field\": \"peers[1].market_cap_million_krw\",\n      \"missing_reason\": \"비에이치아이의 적용 시가총액 별도 기재값이 제공 표에 없다. 주가와 주식수로는 재계산할 수 있다.\",\n      \"request_id\": \"Q5\"\n    },\n    {\n      \"field\": \"peers[2].market_cap_million_krw\",\n      \"missing_reason\": \"한텍의 적용 시가총액 별도 기재값이 제공 표에 없다. 주가와 주식수로는 재계산할 수 있다.\",\n      \"request_id\": \"Q5\"\n    }\n  ],\n  \"memo\": [\n    \"정정 후 할인 전 평가가액은 26,380원이며 수요예측 후 확정 공모가 18,500원과 다르다.\",\n    \"표시 입력값 재계산은 26,376.28원이다. 3.72원 차이는 표시 정밀도와 관련될 수 있으나 처리 규칙은 미확인이다.\",\n    \"발행사 반기 연환산 이익과 비교기업 LTM 이익의 기간이 다르다. 발행사 LTM 표와 귀속 범위 확인이 우선이다.\",\n    \"표시 PER 중앙값을 적용한 계산상 대안은 약 13,499원으로 기준보다 48.8% 낮다. 특정 배수나 적정 공모가에 대한 권고는 아니다.\",\n    \"비교기업 사업구성의 누락 페이지와 단위·정밀도 자료를 요청한다. 독립 원자료는 검증하지 못했다.\"\n  ],\n  \"model_reported_status\": \"PENDING_INFO\"\n}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1794544586.0,
+  "conversation": null,
+  "max_output_tokens": 8500,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "all_turns",
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "review",
+      "schema_": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "type": "object",
+            "properties": {
+              "document_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "verification_limits": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "document_ids",
+              "verification_limits"
+            ],
+            "additionalProperties": false
+          },
+          "judgments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "judgment_id": {
+                  "type": "string"
+                },
+                "domain": {
+                  "type": "string",
+                  "enum": [
+                    "J1",
+                    "J2",
+                    "J3",
+                    "J4"
+                  ]
+                },
+                "conclusion": {
+                  "type": "string"
+                },
+                "disposition": {
+                  "type": "string",
+                  "enum": [
+                    "ACCEPT",
+                    "CONDITIONAL",
+                    "REQUEST_INFO",
+                    "ESCALATE"
+                  ]
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "evidence": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "doc_id": {
+                              "type": "string"
+                            },
+                            "chunk_id": {
+                              "type": "string"
+                            },
+                            "page": {
+                              "type": "integer"
+                            },
+                            "claim_id": {
+                              "type": "string"
+                            },
+                            "locator": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "doc_id",
+                            "chunk_id",
+                            "page",
+                            "claim_id",
+                            "locator"
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": [
+                      "claim_id",
+                      "text",
+                      "evidence"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "counter_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "unknowns": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "next_action": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "judgment_id",
+                "domain",
+                "conclusion",
+                "disposition",
+                "facts",
+                "evidence",
+                "counter_evidence",
+                "unknowns",
+                "next_action"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "requests": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "request_id": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "why_needed": {
+                  "type": "string"
+                },
+                "related_judgment_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blocking": {
+                  "type": "boolean"
+                },
+                "resolution_status": {
+                  "type": "string",
+                  "enum": [
+                    "OPEN",
+                    "RESOLVED"
+                  ]
+                },
+                "resolution_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "request_id",
+                "question",
+                "why_needed",
+                "related_judgment_ids",
+                "blocking",
+                "resolution_status",
+                "resolution_evidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "escalations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "escalation_id": {
+                  "type": "string"
+                },
+                "review_focus": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "why_needed": {
+                  "type": "string"
+                },
+                "related_judgment_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blocking": {
+                  "type": "boolean"
+                },
+                "resolution_status": {
+                  "type": "string",
+                  "enum": [
+                    "OPEN",
+                    "RESOLVED"
+                  ]
+                },
+                "resolution_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "escalation_id",
+                "review_focus",
+                "question",
+                "why_needed",
+                "related_judgment_ids",
+                "blocking",
+                "resolution_status",
+                "resolution_evidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "missing_inputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string"
+                },
+                "missing_reason": {
+                  "type": "string"
+                },
+                "request_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "field",
+                "missing_reason",
+                "request_id"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "memo": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 5
+          },
+          "model_reported_status": {
+            "type": "string",
+            "enum": [
+              "READY",
+              "PENDING_INFO",
+              "HUMAN_REVIEW"
+            ]
+          }
+        },
+        "required": [
+          "scope",
+          "judgments",
+          "requests",
+          "escalations",
+          "missing_inputs",
+          "memo",
+          "model_reported_status"
+        ],
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 42233,
+    "input_tokens_details": {
+      "cached_tokens": 1363,
+      "cache_write_tokens": 40867
+    },
+    "output_tokens": 7990,
+    "output_tokens_details": {
+      "reasoning_tokens": 729
+    },
+    "total_tokens": 50223
+  },
+  "user": null,
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "input_transformations": [],
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": false,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

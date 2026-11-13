@@ -1,0 +1,46 @@
+{
+  "condition": "B",
+  "version": "0.1.0-pilot",
+  "model": "gpt-6.1-terra",
+  "reasoning_effort": "medium",
+  "max_model_calls": 16,
+  "max_tool_calls": 40,
+  "input_tokens_target_max": 120000,
+  "output_tokens_max": 16000,
+  "wall_seconds_max": 600,
+  "extraction_output_max": 5000,
+  "review_output_max": 5500,
+  "format_repair_output_max": 5500,
+  "max_format_repairs": 1,
+  "format_repair_input_reserve": 16000,
+  "max_run_usd": 0.3,
+  "budget_fx_krw_per_usd": 1400,
+  "price_input_per_million_usd": 1.0,
+  "price_output_per_million_usd": 5.0,
+  "price_checked_on": "2026-11-12",
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+  "search_top_k": 3,
+  "read_neighbor_pages": 1,
+  "fixed_queries": [
+    {
+      "stage": "earnings",
+      "query": "적용 당기순이익 지배기업 소유주 귀속 연결 2023"
+    },
+    {
+      "stage": "peers",
+      "query": "비교기업 적용 PER 시가총액 당기순이익 평균"
+    },
+    {
+      "stage": "shares",
+      "query": "적용주식수 기발행 신주모집 주식매수선택권 주당 평가가액"
+    },
+    {
+      "stage": "business",
+      "query": "비교회사 주요 사업 매출구성 매출비중 제품"
+    },
+    {
+      "stage": "valuation",
+      "query": "주당 평가가액 평가 시가총액 적용 PER 할인율"
+    }
+  ]
+}

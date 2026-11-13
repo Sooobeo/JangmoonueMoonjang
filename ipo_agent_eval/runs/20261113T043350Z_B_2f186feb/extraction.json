@@ -1,0 +1,261 @@
+{
+  "values": {
+    "earnings_million_krw": {
+      "claim_id": "X_EARNINGS",
+      "value": "6894",
+      "unit": "백만원",
+      "period": "2026년 반기 연환산",
+      "description": "반기 지배주주 순이익 4366백만원에서 세전 주식 처분이익 919백만원을 차감한 뒤 2배로 연환산한 적용 이익",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_EARNINGS",
+          "locator": "PER에 의한 멜콘의 평가가치, 주1"
+        }
+      ],
+      "missing_reason": null
+    },
+    "applied_per": {
+      "claim_id": "X_PER",
+      "value": "26.18",
+      "unit": "배",
+      "period": "2026년 2분기 LTM",
+      "description": "HPSP와 워트의 PER 산술평균으로 공시된 적용 배수",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0370",
+          "page": 370,
+          "claim_id": "X_PER",
+          "locator": "2026년 2분기 기준 비교기업 PER 산출"
+        }
+      ],
+      "missing_reason": null
+    },
+    "reported_equity_million_krw": {
+      "claim_id": "X_EQUITY",
+      "value": "180497",
+      "unit": "백만원",
+      "period": "2026년 반기 연환산 평가",
+      "description": "PER 평가가치 표의 기업가치 평가액",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_EQUITY",
+          "locator": "PER에 의한 멜콘의 평가가치, 기업가치 평가액"
+        }
+      ],
+      "missing_reason": null
+    },
+    "reported_price_krw": {
+      "claim_id": "X_PRICE",
+      "value": "14173",
+      "unit": "원",
+      "period": "2026년 반기 연환산 평가",
+      "description": "할인 전 주당 평가가액. 확정공모가액 12300원과 구분됨",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0077",
+          "page": 77,
+          "claim_id": "X_PRICE",
+          "locator": "주14 정정 후 희망공모가액 결정 표"
+        }
+      ],
+      "missing_reason": null
+    },
+    "share_count": {
+      "claim_id": "X_SHARES",
+      "value": "12735000",
+      "unit": "주",
+      "period": "공시된 주당 평가가액 산정 기준",
+      "description": "기발행주식, 공모 신주, 상장주선인 의무인수분과 주식매수선택권을 합한 평가 적용주식수",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_SHARES",
+          "locator": "PER에 의한 멜콘의 평가가치, 적용주식수 내역"
+        }
+      ],
+      "missing_reason": null
+    },
+    "existing_shares": {
+      "claim_id": "X_EXISTING",
+      "value": "10000000",
+      "unit": "주",
+      "period": "증권신고서 제출일 현재 평가 기준",
+      "description": "기발행 보통주식수",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_EXISTING",
+          "locator": "적용주식수 내역, 기발행보통주식수"
+        }
+      ],
+      "missing_reason": null
+    },
+    "new_shares": {
+      "claim_id": "X_NEW",
+      "value": "2500000",
+      "unit": "주",
+      "period": "IPO 공모",
+      "description": "공모 신주발행주식수. 표의 상장주선인 의무인수분 75000주는 별도임",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_NEW",
+          "locator": "적용주식수 내역, 공모 신주발행주식수"
+        }
+      ],
+      "missing_reason": null
+    },
+    "dilutive_shares": {
+      "claim_id": "X_DILUTIVE",
+      "value": "160000",
+      "unit": "주",
+      "period": "공시된 주당 평가가액 산정 기준",
+      "description": "평가 적용주식수에 포함된 주식매수선택권. 상장주선인 의무인수분 75000주는 별도 항목임",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0372",
+          "page": 372,
+          "claim_id": "X_DILUTIVE",
+          "locator": "적용주식수 내역, 주식매수선택권"
+        }
+      ],
+      "missing_reason": null
+    },
+    "secondary_sale_shares": {
+      "claim_id": "X_SECONDARY",
+      "value": "0",
+      "unit": "주",
+      "period": "IPO 공모",
+      "description": "공모주식 2500000주가 전량 신주모집으로 기재되어 구주매출은 없음",
+      "evidence": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "chunk_id": "MELCON-PROS-01-p0389",
+          "page": 389,
+          "claim_id": "X_SECONDARY",
+          "locator": "리스크집행위원회 논의내용, 공모에 관한 사항"
+        }
+      ],
+      "missing_reason": null
+    }
+  },
+  "peers": [
+    {
+      "name": "HPSP",
+      "per": {
+        "claim_id": "X_HPSP_PER",
+        "value": "34.92",
+        "unit": "배",
+        "period": "2026년 2분기 LTM",
+        "description": "비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "MELCON-PROS-01",
+            "chunk_id": "MELCON-PROS-01-p0370",
+            "page": 370,
+            "claim_id": "X_HPSP_PER",
+            "locator": "2026년 2분기 기준 비교기업 PER 산출"
+          }
+        ],
+        "missing_reason": null
+      },
+      "market_cap_million_krw": {
+        "claim_id": "X_HPSP_CAP",
+        "value": null,
+        "unit": "백만원",
+        "period": "2026년 8월 14일 분석 기준",
+        "description": "PER 산출에 사용된 시가총액",
+        "evidence": [],
+        "missing_reason": "제공된 PER 산출표에는 기준주가와 상장주식수는 있으나 시가총액이 직접 기재되어 있지 않음"
+      },
+      "earnings_million_krw": {
+        "claim_id": "X_HPSP_EARNINGS",
+        "value": "85727",
+        "unit": "백만원",
+        "period": "2025년 3분기~2026년 2분기",
+        "description": "비교기업 PER 산출 적용 당기순이익. 연결재무제표 작성 법인은 지배주주 귀속 기준",
+        "evidence": [
+          {
+            "doc_id": "MELCON-PROS-01",
+            "chunk_id": "MELCON-PROS-01-p0370",
+            "page": 370,
+            "claim_id": "X_HPSP_EARNINGS",
+            "locator": "2026년 2분기 기준 비교기업 PER 산출, 적용 당기순이익 및 주1"
+          }
+        ],
+        "missing_reason": null
+      }
+    },
+    {
+      "name": "워트",
+      "per": {
+        "claim_id": "X_WORT_PER",
+        "value": "17.45",
+        "unit": "배",
+        "period": "2026년 2분기 LTM",
+        "description": "비교기업 PER",
+        "evidence": [
+          {
+            "doc_id": "MELCON-PROS-01",
+            "chunk_id": "MELCON-PROS-01-p0370",
+            "page": 370,
+            "claim_id": "X_WORT_PER",
+            "locator": "2026년 2분기 기준 비교기업 PER 산출"
+          }
+        ],
+        "missing_reason": null
+      },
+      "market_cap_million_krw": {
+        "claim_id": "X_WORT_CAP",
+        "value": null,
+        "unit": "백만원",
+        "period": "2026년 8월 14일 분석 기준",
+        "description": "PER 산출에 사용된 시가총액",
+        "evidence": [],
+        "missing_reason": "제공된 PER 산출표에는 기준주가와 상장주식수는 있으나 시가총액이 직접 기재되어 있지 않음"
+      },
+      "earnings_million_krw": {
+        "claim_id": "X_WORT_EARNINGS",
+        "value": "5098",
+        "unit": "백만원",
+        "period": "2025년 3분기~2026년 2분기",
+        "description": "비교기업 PER 산출 적용 당기순이익. 연결재무제표 작성 법인은 지배주주 귀속 기준",
+        "evidence": [
+          {
+            "doc_id": "MELCON-PROS-01",
+            "chunk_id": "MELCON-PROS-01-p0370",
+            "page": 370,
+            "claim_id": "X_WORT_EARNINGS",
+            "locator": "2026년 2분기 기준 비교기업 PER 산출, 적용 당기순이익 및 주1"
+          }
+        ],
+        "missing_reason": null
+      }
+    }
+  ],
+  "document_version_notes": [
+    "물리 71쪽 주13 정정 전 요약표는 희망공모가액 10700~12300원을 제시한다. 물리 72쪽 정정 후에는 주당 평가가액 14173원은 유지되고 확정공모가액은 12300원으로 기재된다.",
+    "물리 70쪽 주12는 상장주선인 추가 의무인수로 상장예정주식수가 변동되었다고 설명한다. 물리 126쪽에는 상장예정주식수 12600000주가 기재된 반면, 물리 372쪽 평가표의 적용주식수는 기존 의무인수분 75000주와 선택권을 포함한 12735000주로 유지되어 있다. 평가표 주식수와 정정 후 상장예정주식수를 같은 값으로 취급하지 않았다."
+  ],
+  "extraction_limits": [
+    "비교기업 시가총액은 제공된 표에서 직접 확인되지 않아 계산값으로 대체하지 않았다.",
+    "비교기업의 독립 원자료는 제공되지 않았으므로 이익과 PER은 투자설명서 인용값을 추출했다.",
+    "비교기업 PER 표의 머리말에는 천원이 표시되지만 적용 당기순이익 각 행에는 백만원이 명시되어 있어 백만원 값을 사용했다.",
+    "표시된 개별 PER의 산술평균은 26.185배이며 공시는 적용 PER을 26.18배로 표시한다. 원래 정밀도와 처리 규칙은 제공된 표만으로 확정할 수 없다."
+  ]
+}

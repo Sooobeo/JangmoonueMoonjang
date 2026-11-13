@@ -1,0 +1,9 @@
+{
+  "purpose": "After the failed Responses request, check authentication without generating model output",
+  "endpoint": "GET https://api.openai.com/v1/models",
+  "http_status": 401,
+  "error_code": "invalid_api_key",
+  "error_type": "invalid_request_error",
+  "requested_model_listed": null,
+  "credential_value_recorded": false
+}

@@ -1,0 +1,1013 @@
+{
+  "id": "resp_03e91cdac2b8bc70016af4f9bb174087d28de1047ea351a43a",
+  "created_at": 1794439611.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6.1-terra",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03e91cdac2b8bc70016af4f9bc9fb087d2b7499a81388b40cf",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9Pnqp-rxDh2uNstcrisOrX4PvsjukVZdjTf12Wo8tjAVs9qgWMTJ_5084L3uyJC6UFplp8iHrjCaVqD0ksBxKxiIZCnbDvW3D6aej2qFUAgLzarNxOV4BwTNXNFspOoUHYDZ4Oc-zq0eTG-b9H-It_fDxxnJmjg0HF_b41FmHeHDiMY7r8rwJAzbqj5xJW39FMNb9IyHKyiZDroO5xPDnoVNotR-ufS91ITkACp5IkN5hUJ70VSexBgdziZtUzezcmRQnHQm9sGCmK7P1Gd9E9a46e1J2dvsl1CvNNvgqnws9PL_Uk8uX_q_N4HZV_yjob1Jcre5RKKzaQ8pfEnxSw1my3rnzBh0Vgrbvc4pZpXNEBRkRVZmMrRVNpzrJBKsNgufaw82lWurMNZHKRU3CnHTT5ej0n5G24OPHVpFVfTbN_akY_BU1BajaJReacypexUFKJlKyt7MR80tZKkKpE8GY8xK5tnu82VJEsqB-TWNZV_cbDCp3XI7Tjekxevwkrzdz8Jp0Aa7qHglymfpk4mjykvE1uQbNKTLHqjMOx9ytd9PQOFZbuF1x7dybNE-fBggvokk9j3SqPzxxEJVmr8wj-Ywg9BPv-trNSGiC85m8Rwwg1P_Z9xZJIpCQiHr1GE5nNuoW-d3vTidJIZjdacul9suaef6870F3zUnXzoq_cSfL2SGFWcqtcp_6xZVCgoy3DGS-fg8vW5pEBXNf2T8R5fsQ6piFi3xTSU55cRz6Dhr43C84BOaEpzd3vjlEvUZzysHKAn0svjsB_8O1-N5N4imP215SWlQgpucywpFdspBsYnh_ZNn6TdKEq2ylOrToX9HhRLzo7yGNfHbjwLX1W2yKLhM4_sg1yUmesl6YDcGasNzl5rhTf2RJ62hZ5F2a5hz327mshW6ZnztQYEk7Q3hzCbUbkSa1AhZDdnt3qtkg2q5WJ23v-pYWo05yYC_0Vj2uXNjPxc9vndU6pQJ20NnEqrD6U7r0QPQQMPuC3GtVcV1OpvsCdF0dE7JKrtZrDL_48Jh1QJki8KjrUdlGDQX_1guguqelUl_YkYTN7B0Y4uaDj3IDSNeelDHuI7f3y6-IUCKxK5Bh74PAGym-WbpwMUM6DGUhzOk9fecEwKaEe46bTwCDxVuCOCvmdxkN5JnrBzTx3KtnX69BAkM4MpkHhwveZSBWrkV1KIbmn_4nB7VNjHiUn0RZuDVN6PtyTLG3iRCMaSeP-Qo0_xzjouLi6zHGjWFQ4WpRJxk-b5ZE_qZl9Sgv5okNDJw-UD_8QR_Cg6NChZMCO54WSRaxM2gqgrlSYW-2kYzCtkTmw494QlD6BDkllTjdXxW88tbf7huWd5E3yYH5poXV2CVK8MpEtB8n8v8OqaqZaohOzi0RIBz-wF1iUgqn9WN45KXbGSxmDvnwZayNTDBb--4x7oHdMicmPclhFuaEHTZNJ8sb51CFYGEAt84rmQz_c3JbUKc7nbsoyWW3Utmg7scu1RKxUADtfsPNQAj8p6v4zbXrwcBvG4UDEs4b6Ua2G2lUZTh7CG-qrh797tL4_ZXxajbvRahT2jqCbygnQjdQgch9iAftyrbRoLd4toSg5aOLdUeT0tDgRMz0JDo5tgXHH_W4ThFB-AnTFu8XTHtRUK2dsYOGXh05nPkV1v5dSibRwLh6yCqqM6hZMw2yM2S7waeWf9OVm0VAnb9WiwDUMymYMTVE66Ruq6GRoY-FVBTBKXTYLfBUjQ6YSztztoECQ11AYoDy_Itf8SecjFJTuEg3hLOptWrS15IKyeQzqFB8fxh-Z4xMBKeJPxqGUTfu8J_5W2sDC83rAByWAdigzOc2HH5AP66p8CxwwhFAuepAu--zFuGcyeXWmVCutTNWRnf6EX6toorbb5PZj3f0W2DJMMIULtzmdU-A0Ct5GQPt0JqvRKd8IMr7rY44SpU5hALwIH1Xd0tUdcAXbv5XNohssewXLN6HarPK8o2_AI2Rsr32xY2s1LyU21l3H0a3twOXyqv7ovRCsPTQmAjLkBQUvvftrwPgr8sWP1D30ci802DwSnmYf9yWEy-XRoaq8u-SZhBE0BnEuk6SIfrVcAv_YW2aNrkYruaM2UXHKEtXPEv-SMhrTuXSBVrNLiUflppgn63wP7IfuRZ6387tjOf6Dw13oCnKO5_uRSRYUosWVWFHgnhBn2dfniEMih2wBP--HCyJ47C1HlglN5TWvu2TaSBboB51AxQtVHVu_abVFog6q7HBmPG-R0V0G2yWqy5XSXOMgX-YgQ_VmRIfJBFcyW0qXPe3ldfpY9liJpEv1Y07KhpHfI3gcjkwEWkPHJmlHmApdEDZUnncyttbjo3ZOJ45Aqf3nngNRivZAq4era8LZTTi6MAnEeQpdHWGM4_DOEqdsF5Ly9jl8y0kz4yOJ3ZvuFNf2QnQ4pwTxUxJwCqqMCOHbzqNEG1cko53ELyeDjd_vkGEUkFM9vIizCrVubKivSLjg2xfgA55sI1WnX7ZPuUzQjOh4p0836KNTM1vuzlSRkoghwnvIno1Gi1aLNwoLSYvjBmoHnMaCYdBBa661IAtG48RWk9p7ANDoTBvb853HFgmF8JwY20FddaAuf46KeZWVkLhnT04PUMvUbKp9UzjU88ttkefNXadfRkKlZLWz_q2rDOhuQ6ibP5D75LrBj8wFr_Qw79nSD1Z4WXAsGEDttEiTP4mK_sUAC8w9LsVA8ejj43-09nSObaPhlb8efld1rHD9qaKLh6MegGsEfOtg5PwtRy02QsVfv5FXCnqaWHsGkHRtNSnNbUY7Ci35RTUJkcSj9fCUA0jADW8bJU28cQa0KqhxCXIw==",
+      "status": null
+    },
+    {
+      "id": "msg_03e91cdac2b8bc70016af4f9be225087d28e48d87cdcfe7528",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\n  \"values\": {\n    \"earnings_million_krw\": {\n      \"claim_id\": \"X_EARNINGS\",\n      \"value\": \"151116\",\n      \"unit\": \"백만원\",\n      \"period\": \"2023년 온기\",\n      \"description\": \"연결 지배주주지분 기준 순이익 실적치\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0331\",\n          \"page\": 331,\n          \"claim_id\": \"X_EARNINGS\",\n          \"locator\": \"평가 시가총액 산출 내역, 적용 순이익\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0421\",\n          \"page\": 421,\n          \"claim_id\": \"X_EARNINGS\",\n          \"locator\": \"요약 연결 재무정보, 당기순이익 및 지배기업소유지분\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"applied_per\": {\n      \"claim_id\": \"X_APPLIED_PER\",\n      \"value\": \"31.5\",\n      \"unit\": \"배\",\n      \"period\": \"2023년 온기 이익, 2024년 3월 14일 평가기준\",\n      \"description\": \"최종 비교회사 4개사의 산술평균 PER\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0331\",\n          \"page\": 331,\n          \"claim_id\": \"X_APPLIED_PER\",\n          \"locator\": \"2023년 온기 기준 PER 산출, 적용 PER 거래배수\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0330\",\n          \"page\": 330,\n          \"claim_id\": \"X_APPLIED_PER\",\n          \"locator\": \"PER 평가방법을 통한 상대가치 산출, 산출 방법\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"reported_equity_million_krw\": {\n      \"claim_id\": \"X_EQUITY\",\n      \"value\": \"4761293\",\n      \"unit\": \"백만원\",\n      \"period\": \"2023년 온기 이익 및 2024년 3월 14일 기준 비교기업 배수\",\n      \"description\": \"공시상 PER 적용 평가시가총액\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"X_EQUITY\",\n          \"locator\": \"평가 시가총액 산출 내역, 평가시가총액\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"reported_price_krw\": {\n      \"claim_id\": \"X_PRICE\",\n      \"value\": \"106113\",\n      \"unit\": \"원\",\n      \"period\": \"공모가격 산정 시\",\n      \"description\": \"할인 전 주당 평가가액. 확정 공모가액 83400원과 구분\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"X_PRICE\",\n          \"locator\": \"주당 평가가액 산출 내역 및 희망공모가액 산출 내역\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"share_count\": {\n      \"claim_id\": \"X_SHARE_COUNT\",\n      \"value\": \"44870190\",\n      \"unit\": \"주\",\n      \"period\": \"공모 후 잠재주식수\",\n      \"description\": \"주당 평가가액 산정에 적용한 공모 후 발행주식수와 희석가능주식수의 합\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"X_SHARE_COUNT\",\n          \"locator\": \"주당 평가가액 산출 내역, 공모 후 잠재주식수\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"existing_shares\": {\n      \"claim_id\": \"X_EXISTING_SHARES\",\n      \"value\": \"40000000\",\n      \"unit\": \"주\",\n      \"period\": \"공모 전\",\n      \"description\": \"공모 전 발행주식수\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"X_EXISTING_SHARES\",\n          \"locator\": \"주당 평가가액 산출 내역, 공모 전 발행주식수\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"new_shares\": {\n      \"claim_id\": \"X_NEW_SHARES\",\n      \"value\": \"4450000\",\n      \"unit\": \"주\",\n      \"period\": \"공모 시\",\n      \"description\": \"신주모집주식수\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"X_NEW_SHARES\",\n          \"locator\": \"주당 평가가액 산출 내역, 신주모집주식수\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"dilutive_shares\": {\n      \"claim_id\": \"X_DILUTIVE_SHARES\",\n      \"value\": \"420190\",\n      \"unit\": \"주\",\n      \"period\": \"증권신고서 제출일 현재\",\n      \"description\": \"미전환 주식매수선택권 13510주와 우리사주매수선택권 잔여주식 406680주의 합\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"X_DILUTIVE_SHARES\",\n          \"locator\": \"주당 평가가액 산출 내역, 희석가능주식수 및 주석\"\n        }\n      ],\n      \"missing_reason\": null\n    },\n    \"secondary_sale_shares\": {\n      \"claim_id\": \"X_SECONDARY_SHARES\",\n      \"value\": \"4450000\",\n      \"unit\": \"주\",\n      \"period\": \"공모 시\",\n      \"description\": \"구주매출주식수. 기존 발행주식의 매출이므로 공모 후 발행주식수에 추가하지 않음\",\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"X_SECONDARY_SHARES\",\n          \"locator\": \"주당 평가가액 산출 내역, 구주매출주식수 및 공모 후 발행주식수\"\n        }\n      ],\n      \"missing_reason\": null\n    }\n  },\n  \"peers\": [\n    {\n      \"name\": \"HD한국조선해양\",\n      \"per\": {\n        \"claim_id\": \"X_PEER_HD_PER\",\n        \"value\": \"36.5\",\n        \"unit\": \"배\",\n        \"period\": \"2023년 온기 이익, 2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 비교회사 PER\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_HD_PER\",\n            \"locator\": \"2023년 온기 기준 PER 산출, HD한국조선해양 PER\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"market_cap_million_krw\": {\n        \"claim_id\": \"X_PEER_HD_CAP\",\n        \"value\": \"8093614\",\n        \"unit\": \"백만원\",\n        \"period\": \"2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 기준시가총액\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_HD_CAP\",\n            \"locator\": \"2023년 온기 기준 PER 산출, HD한국조선해양 기준시가총액\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"earnings_million_krw\": {\n        \"claim_id\": \"X_PEER_HD_EARNINGS\",\n        \"value\": \"221682\",\n        \"unit\": \"백만원\",\n        \"period\": \"2023년 온기\",\n        \"description\": \"PER 산출에 적용한 지배주주순이익\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_HD_EARNINGS\",\n            \"locator\": \"2023년 온기 기준 PER 산출, HD한국조선해양 지배주주순이익\"\n          }\n        ],\n        \"missing_reason\": null\n      }\n    },\n    {\n      \"name\": \"ALFA LAVAL AB\",\n      \"per\": {\n        \"claim_id\": \"X_PEER_ALFA_PER\",\n        \"value\": \"25.6\",\n        \"unit\": \"배\",\n        \"period\": \"2023년 온기 이익, 2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 비교회사 PER\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_ALFA_PER\",\n            \"locator\": \"2023년 온기 기준 PER 산출, ALFA LAVAL AB PER\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"market_cap_million_krw\": {\n        \"claim_id\": \"X_PEER_ALFA_CAP\",\n        \"value\": \"20837071\",\n        \"unit\": \"백만원\",\n        \"period\": \"2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 기준시가총액\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_ALFA_CAP\",\n            \"locator\": \"2023년 온기 기준 PER 산출, ALFA LAVAL AB 기준시가총액\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"earnings_million_krw\": {\n        \"claim_id\": \"X_PEER_ALFA_EARNINGS\",\n        \"value\": \"812835\",\n        \"unit\": \"백만원\",\n        \"period\": \"2023년 온기\",\n        \"description\": \"PER 산출에 적용한 지배주주순이익\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_ALFA_EARNINGS\",\n            \"locator\": \"2023년 온기 기준 PER 산출, ALFA LAVAL AB 지배주주순이익\"\n          }\n        ],\n        \"missing_reason\": null\n      }\n    },\n    {\n      \"name\": \"KONGSBERG GRUPPEN ASA\",\n      \"per\": {\n        \"claim_id\": \"X_PEER_KONGSBERG_PER\",\n        \"value\": \"31.8\",\n        \"unit\": \"배\",\n        \"period\": \"2023년 온기 이익, 2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 비교회사 PER\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_KONGSBERG_PER\",\n            \"locator\": \"2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA PER\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"market_cap_million_krw\": {\n        \"claim_id\": \"X_PEER_KONGSBERG_CAP\",\n        \"value\": \"14757028\",\n        \"unit\": \"백만원\",\n        \"period\": \"2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 기준시가총액\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_KONGSBERG_CAP\",\n            \"locator\": \"2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA 기준시가총액\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"earnings_million_krw\": {\n        \"claim_id\": \"X_PEER_KONGSBERG_EARNINGS\",\n        \"value\": \"464742\",\n        \"unit\": \"백만원\",\n        \"period\": \"2023년 온기\",\n        \"description\": \"PER 산출에 적용한 지배주주순이익\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_KONGSBERG_EARNINGS\",\n            \"locator\": \"2023년 온기 기준 PER 산출, KONGSBERG GRUPPEN ASA 지배주주순이익\"\n          }\n        ],\n        \"missing_reason\": null\n      }\n    },\n    {\n      \"name\": \"WARTSILA OYJ ABP\",\n      \"per\": {\n        \"claim_id\": \"X_PEER_WARTSILA_PER\",\n        \"value\": \"32.1\",\n        \"unit\": \"배\",\n        \"period\": \"2023년 온기 이익, 2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 비교회사 PER\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_WARTSILA_PER\",\n            \"locator\": \"2023년 온기 기준 PER 산출, WARTSILA OYJ ABP PER\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"market_cap_million_krw\": {\n        \"claim_id\": \"X_PEER_WARTSILA_CAP\",\n        \"value\": \"11916525\",\n        \"unit\": \"백만원\",\n        \"period\": \"2024년 3월 14일 평가기준\",\n        \"description\": \"공시상 기준시가총액\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_WARTSILA_CAP\",\n            \"locator\": \"2023년 온기 기준 PER 산출, WARTSILA OYJ ABP 기준시가총액\"\n          }\n        ],\n        \"missing_reason\": null\n      },\n      \"earnings_million_krw\": {\n        \"claim_id\": \"X_PEER_WARTSILA_EARNINGS\",\n        \"value\": \"370862\",\n        \"unit\": \"백만원\",\n        \"period\": \"2023년 온기\",\n        \"description\": \"PER 산출에 적용한 지배주주순이익\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0331\",\n            \"page\": 331,\n            \"claim_id\": \"X_PEER_WARTSILA_EARNINGS\",\n            \"locator\": \"2023년 온기 기준 PER 산출, WARTSILA OYJ ABP 지배주주순이익\"\n          }\n        ],\n        \"missing_reason\": null\n      }\n    }\n  ],\n  \"document_version_notes\": [\n    \"허용 문서는 2024-04-24 정정 투자설명서이며 실제 공개 시각은 날짜까지만 확인되었다.\",\n    \"물리 페이지 41의 주9 정정 전 요약표는 확정 공모가를 결정 예정으로 표시한다. 물리 페이지 41~42의 정정 후 요약표와 물리 페이지 298 본문은 확정 공모가 83400원을 표시한다. 적용 이익, PER, 적용 주식수 및 주당 평가가액은 정정 전후 요약표에서 동일하다.\"\n  ],\n  \"extraction_limits\": [\n    \"표시 PER과 금액은 공시의 표시 정밀도 그대로 추출했다. 독립된 비교기업 원자료를 직접 확인한 것은 아니다.\",\n    \"물리 페이지 421의 연결 지배기업소유지분 순이익은 151116175331원이며, 평가표에는 백만원 단위로 151116이 표시된다.\"\n  ]\n}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1794439658.0,
+  "conversation": null,
+  "max_output_tokens": 5000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "all_turns",
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "extract",
+      "schema_": {
+        "type": "object",
+        "properties": {
+          "values": {
+            "type": "object",
+            "properties": {
+              "earnings_million_krw": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "applied_per": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "reported_equity_million_krw": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "reported_price_krw": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "share_count": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "existing_shares": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "new_shares": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "dilutive_shares": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              },
+              "secondary_sale_shares": {
+                "type": "object",
+                "properties": {
+                  "claim_id": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "doc_id": {
+                          "type": "string"
+                        },
+                        "chunk_id": {
+                          "type": "string"
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "claim_id": {
+                          "type": "string"
+                        },
+                        "locator": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "doc_id",
+                        "chunk_id",
+                        "page",
+                        "claim_id",
+                        "locator"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "claim_id",
+                  "value",
+                  "unit",
+                  "period",
+                  "description",
+                  "evidence",
+                  "missing_reason"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "earnings_million_krw",
+              "applied_per",
+              "reported_equity_million_krw",
+              "reported_price_krw",
+              "share_count",
+              "existing_shares",
+              "new_shares",
+              "dilutive_shares",
+              "secondary_sale_shares"
+            ],
+            "additionalProperties": false
+          },
+          "peers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "per": {
+                  "type": "object",
+                  "properties": {
+                    "claim_id": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "period": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "doc_id": {
+                            "type": "string"
+                          },
+                          "chunk_id": {
+                            "type": "string"
+                          },
+                          "page": {
+                            "type": "integer"
+                          },
+                          "claim_id": {
+                            "type": "string"
+                          },
+                          "locator": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "doc_id",
+                          "chunk_id",
+                          "page",
+                          "claim_id",
+                          "locator"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "missing_reason": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "claim_id",
+                    "value",
+                    "unit",
+                    "period",
+                    "description",
+                    "evidence",
+                    "missing_reason"
+                  ],
+                  "additionalProperties": false
+                },
+                "market_cap_million_krw": {
+                  "type": "object",
+                  "properties": {
+                    "claim_id": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "period": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "doc_id": {
+                            "type": "string"
+                          },
+                          "chunk_id": {
+                            "type": "string"
+                          },
+                          "page": {
+                            "type": "integer"
+                          },
+                          "claim_id": {
+                            "type": "string"
+                          },
+                          "locator": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "doc_id",
+                          "chunk_id",
+                          "page",
+                          "claim_id",
+                          "locator"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "missing_reason": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "claim_id",
+                    "value",
+                    "unit",
+                    "period",
+                    "description",
+                    "evidence",
+                    "missing_reason"
+                  ],
+                  "additionalProperties": false
+                },
+                "earnings_million_krw": {
+                  "type": "object",
+                  "properties": {
+                    "claim_id": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "period": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "doc_id": {
+                            "type": "string"
+                          },
+                          "chunk_id": {
+                            "type": "string"
+                          },
+                          "page": {
+                            "type": "integer"
+                          },
+                          "claim_id": {
+                            "type": "string"
+                          },
+                          "locator": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "doc_id",
+                          "chunk_id",
+                          "page",
+                          "claim_id",
+                          "locator"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "missing_reason": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "claim_id",
+                    "value",
+                    "unit",
+                    "period",
+                    "description",
+                    "evidence",
+                    "missing_reason"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "name",
+                "per",
+                "market_cap_million_krw",
+                "earnings_million_krw"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "document_version_notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "extraction_limits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "values",
+          "peers",
+          "document_version_notes",
+          "extraction_limits"
+        ],
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 41385,
+    "input_tokens_details": {
+      "cached_tokens": 41382,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 4150,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 45535
+  },
+  "user": null,
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": false,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

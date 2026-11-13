@@ -1,0 +1,517 @@
+{
+  "id": "resp_064a01d76574b41d016af4fc9228e487d29540d579880aac53",
+  "created_at": 1794440338.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6.1-terra",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_064a01d76574b41d016af4fc92e56887d2bea236a46b2edf5e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9PzaWTvuqSq7AXXt76UJ2u7ry_yHmHWo5ZXddv_budL9Q3SfydzsBizYbmUGRE4iQjOwzIjnHqAi2pmmejvHckWw1mu4qLQr0e8Ze9-n5shZOdevXF6aVIrIg039EF6mQkBlnCCNCGEhw78MEpafVFpUKa3Ff0okFXO4XG-oPbEPHPzq76J2HsVehb3jiE-iKLxBaQXlVYr7SyADu0xyWmHDYFOHeAMZnlMl-CUXjodCwHBBts_Bp9-kW-esDUWxc4jzVLhSOiBfS5ewC6fw_ps-3OSRDmOWhdcBVk7qOU4zQTOQBTqAnoSGZrSHySyutnw8xjS0aLJTMBihQnuZ2UVn84rI7yQhLbqXLU_3aSJkNxp2zEqOsTg2u0TGhpZgC8sdPtzBu5uOrJqEDOABUK2CzNiCPr9PgtRvgzQ7IU0dOHOepXNEdxg3129s8xGwsrr00hnUe8D_vhrqI6BqxCQQS7GaOYOqaXmBYhvsF6cIRxt4rox4fZQH8fqConipxIaeUQRujQFTEpMWsK9Ih_0DEdql20cdrTt2EjjsEmp0_6HdS-teaTsSd1kZba7YPcIMhMN8Uz51qu9CPR6S9aw8Jbgh0Ph5kUWuuN2WSSqht7y72aMdz-hCK2CH8IgYSZ3584GbYbWuXuTi9cnBalNIJ_9D2MYbXnleiRDRovB8YN1AXIb5og15kxvsWGoe0KFUCX5G5hnskb-pxlLEh3aQPJaWO0sYSJ1E3t9zJNwXP7LwNaf02zhpc-OmcALxkd7FyeAF11X3zwPKyeWaJvD1Av4Gns3jp6ag5FY3_R9TzCgSe84DF4NYOEDzteApS2XJ5PIeVXJE_A8fG5uUZeG-_xlTnPwSvT7AJWeCt7Exl4JqcBjgPHUvXrxTYiXmB77sW-u2LG1oIcOCLyqUdmXceT8hNKkMnOaHxFe3qKtgAUUrcYdlPzCQTf076GB57vNTJMCHu47MBc_WBoLcPD4Cr700k2KxqnXAU_CN-8RR3mN6J0xIw4zl8szjTTASLF6ZGsN_U8vVp1fp4NstxUCLzB6uHg7krTDZX2k_hEUmUlS6VWflcnblTMIeYSPGA9MPKwR2aMljinZRoSNH-a75CBC4e5TX8UT1-6SOnvs6_fzGZc83Ax1i2Cddi460YMMNdA4QmiMMBkvIPwi_wNS0BcvJVXqZYiJGjqejmNO4jVg1uhRU0QN3Ymgp4O2WT4DP_qGkywJ5OIGUkqIOsR7BfUjc7ygiJeyqecmkRAmUhH1k2jj7XjsDB2ierMxzjPh0voLl9s5kmRTCGO4RKNcVbVpgxQJSAaj8OfJlZ2eWCg4zcU7rkqLf6OFvmNppPaJ80bJoT69XpoI9ATznZDOqpokrmNceBKm1tl__mzKH1d1H2Wk7NW7BrrVdr6iy_wvjVEYvfgms-0prxx7S4uCquYYvd5_2RTLoIaX1ffCFKDGlK9Pzg2f2-kvjnjX5On8yGhIjbBKzB2DLUmvgStGzFg7XLuC2owGV1-AK-35d4LdB99wYLKFUJ0NFk3g8M9qZohnTfkCkknTM3Nc6MEyvvu_wHnAHEl3IA7F_6qxvyzaMgNiP6Z7w3taGHkkyn3_JZDwHDyRZd_olVEif_AUsacsb2HKafIV4d7W8wyglGK9WEO7iyCZFk3Hh_GUsm2JooTzsNA5wtobZcEZbbxDTADUoq2EfXGZi-frRMJw7rOMr_IKK3eSkbo-l2TFuJRT1fruxQuj79d_4TCnIJ_95qbsEAMenYQ6badhUkq7-9d8G6ecmlZmRDCYuc74TQ-AnCl1tWSdDneG2WSfz-t04dECEVFj65k2Vbe35KgftWtcPuLsKbwvVGQTG62RcxqRc2naJZaW1sqCN4-sw4Hyo9Rn0FZSHhP5PeT3oQNFHOSquFTY1mY1_IqcGi_swrEpzlRMo-IJ7zbUHLbYihfUk-QkYtdLWpdC3x1UPiAHwWpaB_lRLqlNuSY6nx105u2B9EJjhu7YwATPS2213J9NrmE-NxiPcH1ScrWAKVG_u7CJ4tUjJ2xpq8l3txpeQHczKrKAReahHhX9XTkVpBftB9wmgtOK8tTjr7KsW6DNsUWEdw4D8Y-cWmWyyP5e5bx9Wy19rhRAaSB_SwlwIl-qOSWObXt7ZBVH7o36-peaEj9UEl9ZLbwCAkSpdcNQOMKI1eYm1GbCjoSLZgAecuI6UDBPdhulGvhYdKZ1bZAsCdmk_8C2Iln8Jn58jbEB6fXpjXJ0nPdS4AFrxdqy-fQ7KHXGAGOL6fNf89bAJQL6IRvaUxq5n_7-xFJdKP7rs4cozwxvPFkbRtjrkllq4pKU-kp2PJsoFZBLDuyJEObdjcVoOYTKKo9HAvYaBWjLnDgTFnz4XMK3l_IkR99AZw1MrPwOTF0rH1hJZnxjhEpzlkE4y21KxbmOE99ivKPEXf81xQ554hdHy4a96jclokb5_7R5BEbmAiRSLbx5K1p7_V5YUMBAno32nShIaUn-8dHrLs2vo8wo83Gb-Fu4VvXaf9bnWvWjBjZmx0aFEd0ZAu8QtSlvNc0zhvlf2sg8ETNSZH6dC3HBODIfwqBK0SFTBR5LA93Ojc6To5acEtfnmxjEgsFw7vrm-KM7i1T0D9OP-CY-vbnv4lTZXNnIJntxYiFF5fRkCKr5zl_Vi47WM2ZdQpdk_nYBfBj-c01AzildcLZucY-Ys7v1V2Y6MqhWzfkHmSyGbY_91kQVusx8qyq6eAnSf9vlom_0E-HdtmQRlwr_6jkhbWXlAgVlo_xBxO2qXFK43v90D8Z467ELntS4cJ4yhmKksYD1W09xW7K-qoB-RhIZ3fYX1b1shUs1xmet91-kxWgrXHb3LWBERim9Y2bldMfSwvTi7O07NNwEdS6ySGZH9zkzjJD5Ty6S38cMsX2bXayRk2ldz8OJVLotJKioh18VIin5TSuzlylyAVf3ijm-PJUorxTiEwCdzlvs0bSPTsDJvT5zhJ7ttxGh9Uxb2xd3QnY_uh5plDFCE2p4yDTIfJA1eAqC5PbKGXksOJ028UTY6gjDRJdHMertdTRf6VuLrCANmvGBQi7NgtsL581TkWL8iNyH3GGyRDDrNWaxtdvIudIQ6jbSaRs4WQr19DOA5NU5BLjGClrONU0Wpgfb4oNzE95T1xe1K3FQPIUEn9fscBZi0Gcp5DXCWeR1FqC4by_TrP8ej7QstK1BdL6Y0jnN7SB7-cSKAgxTgG57NCYu-XI-5HNmWMspFnSfSXhXzLGCwsPatvVNzLNGvqXbTH9zSUNHcSU7f1kGn-KHz6uvY-5FvUj5m6zylXOnv3Uuzo2HB9aYbXPnLoBd5PziLu4jPFxaeLb7AS5htLcCl_HliKfI-9ehqwpnE5q8AuY_nxUdI85SoYzFZMiDuFMixX6kz0WBJOgMe__-wuNYvADI0JOR2G-h4ZfIPSTL6r1VrIXvcRNqV9ui6_lErqEjfR60vFTFd4d4skugHXLfqkplen4pVgIz0ywqZj7LVYRfiEPLaThm1OlWHjCBZlj1pVDi4XlSSKAAFMR2IyxKyZyXeagOPhJkOL4LOZsZ2QbB9CWfI6Qg4zkZWOuEbR6biImVUTLXFcapuW71LDBJUF-TGAClKlaiXuMbKTYG64CXqjaYIohJiNqtafZ3Tfw9Pxc55yrBSsiClDyA-kxaKatanB0s6b1b85JsXErZekGDGoKI42OChCceqWpWZ_oHgJDTPHrY6EISJsEsavfuj20SlgBYuQhORShawtls4JVrWEJnNbjiH1N_q2tn-4W3IhRpUADmiYUaUFHfHrP58llIipngx6zt0dM5Q0REIa5h_t4_XU6QJXsNktBXoL6J7sud3FUHRfFpRePut3Qn8u3Ws5Qp-CMiC_ZW8UYx-epC6gCFp60txgpGAAKLCRRtIXWQwwyfM7FdUGqdTbIfF-8OEyIOWydWHYAOye_d7TquLTctMhj6fI4J_Hf3SoLGtWY85BV0R45-vb3CwWFadrcmTTedVv22N513H66BD7j6-ankGbKAQ17TFrG4SOlIomQVOj3Fu9xyvMvGjzM56DEWzrvArDEJ-i4RkvsczjWDDETuwPmB1A9-ds-NuKVztiP5K41zvbSQ-IyC16yKzxQu9SE4eQC5XbqRt1E_--K1Y7f-qX5a3WXUlE-GK2a2BJUHoZq1rLwiWqOey2PPwASF020DHS8u37DSR_AcuxVxGwrRyv-XwnTlAbFF6vggxSniCDPXJoMw4riJF3elrgo7-PS5LkwPcwY2syaJksFCJTpCuPJrPzBs7uEXobbzmIF68GaopKOar1Jy66s7yjZREE4o8UhEoSRbU2Hvl5s-6g18f5UytOccgNlK-o5qGLNPOJwwKE34hcDUJ6UVuMlAD3JHDJqSmCx66Hvr-9cN7207oXMR5y8eE5CVATPGYjp297adKxg2iEbxfVzQFpuy_7ZCN-u4mSZElWZS2sHchnpGHvqa566Ti4KklKjE__GoobgQY-m49pVmQTjrCT288aVQMiya4GdC1wRNsKuLKyLvv8oOw43y7_88UUCzMdBX8BcogOo-Gpl2W-DFJ9g_JWg-VEsfQkwwOSYSusKToT-TfwpgJRfr-PoUZVdXAckLd5wQWrQmmhG9OhlAH5ZOAYD2dGkh1jTHIb30B4SZVGqe62ybkXd7Mza57Oaz_8Xh9kGJQXSs2K1JrLuyL1VTzTIF2Nw_bbacGOGaOB5zWomnGxswswn1DuI-06crp0Vzw-hWPZLrFuouURktbwkvJ9UiTYxiSFfxCv8t-Kh5qKa0uDpy2Oe-fq1H700QonUzjoxV_6ZQawdHdPuLobbc8TBMTVF5Vx2YQX81Q_sQ9k1BVwaIiz2omM_ddEoyXfEYBbGEdZguM0tvG4GjQhAbjmaGN0kGL3m5rfeVUUB5x2TsNELtaXbMiJid9Zw0QDXes8QBQkl1kmiKQ5r1_qeUaGhnYcocxSaZQE48ZpbpAlzYkibn3swP5N3o_yJbLYMKMy0xWEOVFLcWwfyjtnNO8oi2_kLBOsgMU9HNoNpxkchV4wa9de9ViwPMc87fTa1LeXqM26dttQkWBeoVRFwL4TnFs_ldRYHOwBH-Ke2_pLA2SQExAMT-7u1XdunsEAajW3PXzt63TIE2dvsK6_LBIdbYiBEZV6ssiVILv3c-D7_YIP_O9Hs2-4vkP8M9mjlxLr_W1Gjpwz362CM4pFH9anyoRe5ozhSpiJ0wC10YagBLeTfyB1-ue4cyMpS6WyO7oQlzAQ05QzC8RplAew4GdDXh7Ypt0bjXlr2-44GgphkOe8u9eUdscP2Ax10PgXpD6s5NbmElrJb40B-ww1UYBdwvMbsMsGRCuBjVZCp1TrOaOuNo6p-6KTk2H75fwybDSRrquo5J3j1YzmpnPojDtiurEmetlHoT-dH6BV0Sl3SaOzBNha6DIiitYVeX6tYBre_cLAzR6qyM-06LXW-WAXhx6V2xmxV3EbJC6wCWgVadT1gt6TsmM3i77d7xRgo9EblNeKBasqcX2M-xB2RFhx1XRrYPCXwymFJL3H486iOfzKHAowoeKn_VTwVnEKADIsYGuXKIET_sp0gE9s2Vkd9kzYoWnmLXe_OKVOuchtx-qLC2ECaocpaA1FHxPpYODU9KhlWCXv9hUMugP2PQP9w1V0k28PW1FfHB6SObzWVz8PFPBR2z855D3N3CUy_i3uGVnKt6ujby-Zeqw-2dBogvr-1shZId0s-3uhOIv7LGiAB1ohhItz4i-xoyw0Jv6OJzSsSKFSPIvLms_I07vV6cl6F8XbcDA-nTytNBdP455zP_Txyiby_7tnSUrRNwpc2LAEbNV1UU-dIPwWuBE85HafD1Oy_PNyqB8JS2MYFhQtgxG4xEMWgF_rbEcL3jGOCAirmObmrrNbvpBizJUdBh6UU-MZHjoKDuXQDUA_cP5onaInOe6_chR3O_3IrdkroqWRztdqi3ohFquwNu3m16RWWmtb7pRN2RFz4Vn2xFhUXPf_nPlO9fj00Or9UbRMPPxRoBwB5Ew1OHXNBSTDErB62HUqhtvK7Jv0fXZBoGjtxQgQHq_7iNHvSZX6uPyLLinQFGG8VaH5ysConsZW8cLmUQMYPRcSj-RU6Iz8gGYNX7R9OhQtL14b42Dsm96MyXwkQ3FGv0ZHu_a4Ary7JE5zDzqAMLDcLmcMYVFXixcAlIMhHdS2e2NgfqhHj_DmLoeI6rHsYg0i4hNQDKN0OT360ODr6PX23nlf-FxcT5bco0ZhMh2lqxS0mwgFQ0ZncGzSPhLgpSQ9ADk1Kh1T9ib4X46T14If7mV7XO0amRtdq05JCxYoZAPnsQ0TC8kK5CVKAx2kRvFPtDdGSAjYnMdO0yUTxgE27ocvnmNyu662g_1tHrTEFfrGEiSEL1CoMfLY7L7KZdR_SJLig-o1h1YUdu3dcBHDBDL3xZJXWQXx81xNMO1JyOfNuUj77UYZRrplvehxANEA5Cmwtr7ORwFK_YIyYzZEReNIN3QH0ZHiOad9Ce-J-PG0qM6-R6n5Rg36HRkeJfA4NEOcpSkGHcGIfZo8lkbfeR498XhZVsfXwZY0m7C0FUJqVhtw7sOWm_NKsXtFeG2pz4z3gWNMJCGq9-u2xas6PjaGQiNWIbGX4ZwJUF0IUWIQWrLAZLO3Flw_GhBcMXF9b2IR17clFNoUcmtZXnAzv0NyrSqvvcWya2d1vohWuOaqdOSbdZ160uUuc-W2mSH611TCNIyOuZadrnpYIHH3l3YgsxpGwUCuPgSqVgf5GcGDc9eH_3zJOkmYihcHSm9FueGSTm67J6aWsCMfisahrN6samvzGVYoRaXqqR03DSfkHz_a9XTEsAcHTr75ntJuVvZIDNNZtLTdkmdRO6HLkEVJWLX9LJTTFvlr9M_X3kggPMIQ23hSWrz82H9GWNVfC-8qWy4jmULViOhFRjpLPmoMtO2MzTRu6tFTsx11zCSqzsqI6JsLf1PL8fcduGwkIUjcbgxCIXo7cZN3HM8WVNm_SSH4ctWUEuxZ7vZGWEhwlqAblpvuxhJS80D_p_2bCuQH4wAniQvUeMm_LrNFMQRj7eaNa7MRtMoO7g7avVfwK5kCFTIOnK4qbJ1DRzfmM97ryeE0yK_XNWkQdeGiAberd-6CwSHCmF13rwCpi7h2cNtxXHVvHON5g3xbnf4BCd7tA1ci6VZWPxvsRTOTpXp8XAHniG9xR_HP2OjB1VwdAsU1YBu4qQJYJyHmKPFBK--8prK0FOHh-8Zn0yfE9MbJqWsh5958tvVkZwhRzxseN3voLQwLibCwopME4zuUEHgIXESdYcg1_TcK-Up6KR3UR7g1G8vaQOh_7hAGebV14kq-Un8bl-iamak_r2949i_5u2xUz7Irdq1RHKtesJkQyPeTe84RhbsHCbh6oVILHM960kNJAVTSAauRc3S1zthg8EitBzA4qy8MoecruweReEDLHlhmFJG-ZxlrbZC59XjhOlNe4CnIM_YhOOb84sDiEGGWxkTsyWDmxzW-qe4f6wx00YZRgwva5xFDsXXrQvs-fUcHqfuN2iqdLPQrhbsz_04eXjVEShpOUWLa1DLjdm0VrdGMUjrl7H4xatdGpjQ1RnQqhulXK71H-lAzFRrXK62QV04j0l6HRT3iBcMbpS0jp4i0riVNTNCrsxVx0kMjWdlwLSnDfZcrSfU4KrR9aWx66ywoaP_pFRLxh1Gk3Uvh3M27j3MCCCymqV58DtyQGLcpEfGPlu1tqbBRh7clWhj843gKtWTNQXy9cFHHE4xj_HdelLp8MaV4gtakbWza1zjuq4kGNasb0PWH8UJdykYcqvSX-4jdgFbg15xs4Am_jGVLOvGhfo03jUbElQch8cqhcyEu4zXXDsK9gCFpmyQDkm0YEypEYxju-QgmenfMVU08JALVBfwUaBG6VHtmGhFF6WVyr8UEIyekVgw4fbqUz2_NYeSHxr31mnOIu-wgxyw4ANHQKyPx1HKD9SkKVZk-SIPsLyRFkWOtYk9enyqJPr8xYJpzbRN1uLPV-lMZthbmKOir-jCiNJs__iWcn-SmAIhdYYOweJPnAgXzITfQvj_X9yDovhgQC_img1ugSR3bQJa2nd5nT6Il-sLFBxT8t0hpWuILD_7GBsGxZgRtNMp8WVV8szBkCYpGmgkfxemo3l7lrAo8kiUYWLtubSvb4hJ8nowwAZYbRfR458Aiq8VJY0ebsSN7r11XDxNivMoWOz5xcntQGH4l-xnYP4ukNh7IcNFGTdEmyPlRwYNptXW3tFQdtFkroKxDWyTwSZ8Qwc8KBo1piaZkHSbyYD2XSoJ6URWZo6vDETRQ0NsMmbjBhjVNf-xfEyZyhCfLfpM90h1Ra4iPum9SVcAXlhb7IkjXPYPOpmqnuOzB_hILvXZrAk7Sll75v4aMN0j1YSWdRMaspwylNAXz7gwhhMX5ooSpXCuxrOpJaUVxpwCsE7bhGO28_jd44gzYGFQtinfDUPPuBsa",
+      "status": null
+    },
+    {
+      "id": "rs_064a01d76574b41d016af4fc9bb32887d2887627218e747539",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9Pzai4sekfdvqkA9RTRg4ery9D1Kf6rVlYOmgwlBCdm1PL0XKGkqQAPqbLeiBjtsXPv36POL-UWWfsdzFH3iAiY_ImbuYlUPhCCN9v7g5ctXp6-dOrqJM0GWxm41Nea_pHtjsBrGEZAkMC9f5onwG5JzFwlV3wJA4QWts_XvbgTsb9dXk9jZ7TqZ1epV_UTUtBFWOhenFFPIqiSdTxoGy3Pa2hnoQNiKvJMfwiR3NMjldmbP7t0OtIj13DBLgXYaCl-Zpzj-BBXoHdd_OUxm458sqYU1mquwPB51MQHCgb4yosr33t5vJX7y8dWJao7kMsxmh-kQQH2_pXJZaxhhRpoOokb3hZShg4NihyIiHWn5xnWBavMRyg-YTbOTVmW12Ij5zeRJRDdR2lHWKpugrp0J97swCwizvQnL51dNrQpX313fZaPUeusdB9SOQerEEFe-0YFD2dE4uLYYDe6gyYeb7PSLXTL6_Bcae1F3LIq1ni8PjNOo3dcUMokWyQvZcG0nNEPnJZUn0PcjL4xoPHKmTIVeY9Oeom9NWHbxJfodbfGHT5bIPcD_t-oKXUyyWjflDtuoZGX3PTzGjg67-txthWsC_dZBfQq87OHHOZdaCRkCm_wSleN4WfgZ04LH7EGzbSWAP3DuXQ7NPXKp4lLZcmM33f4pwGhqPXDufu_diwng1DsrSkO_Uij50sr10Tawc3y_X7bFdKD2mIskuYGY8MY2GqAutgSVWYovXwdBoq8FVrJA4kfK6_hRM_hUtAg4ui_AmhYqSZ87oH19urAoof23kG5B_THsyyA2dWyltEXQzDEc7k_8-rO5OVQaht_C5RGCpHyaXAsf-S2BGO5oSDCBK1rQHRRSeYkvhnNhKuJPSaS1z8f7Y55R4-nHoUrTCOz6SBkG1yl0kdLk3YZ5AQU2ZBL8uqSpKS4ZqfdQt_p2SzNLdgloJ9SvRDrcS9RxVoXKYu_x_75o-OPYT9BXr1lZLEcmud3X-f5bqiCXQ-fZgHmSOW5HfTiUJ_GU-eLPI1K6eOT0kZCEBYgCSJKDniD4Fc8AXmd2dyK-A-nlxcdRcpNRXndgfwEkuPCJtBUhN9Uopfq6Ms4VnVL1WBiPFJM7RZuHavYY-Z2tFimH6LCAHwGUI9ywga5JVfqdFngMuvnTylAIcqujP4r3Fkgc2K9AD371EDBmMj4WkyCyFi4qrz2z5-KMgEC6mYt0HK3eB5dTUXTOcKcH6prR9HrHwg_w0myYig0XnFsmUgEKd5n8NecqbsfBlRDnGB_h9QaxWG3XExkDVPggig6aYgxItdVql7WXMrax9I3N16ilMgEDYiom_7xSSH7VCDTvMbLQpdeldo28ahr8AtvhMdP5h8WaQeDelBAeerTLY1ukTfDJIf00bPHgyrokcK0oJh3dEPAgd4H64UtmHPFmyVXX1ufo5c3hNojxsNmqsCNy0xHVznmuOfzkBv1uI9tHY-j1pV1IzytInIX5OiQnFHo5z6qq3x9KcDBgbxRCQXLqAGn01XWyE0Edj8fwWmEM7be7f4_dCz44pKlVWOAEuSEv09UZrMLur0TsZeR6UyQW8wZdKErO1N8tF5ENXtMOuDWsvCCh_mriCDmshCu2kN5F68_2k6FmfIWAKGItgxM810AM-2Sk2g86dMLTNCEHVDrYzasRq7UjPXnx0V69CYsOm2a6Z7WMk1iSlK3e9q6IU_ONrtFyUvBQgnfYQ3jnvtL1djsXbYLNC5luXuzYpA3wt65UN671VpIi1NEHl3Lgu-yUvNmDHNr4RUQwpaTgrJVL4VbXZ2pB01j7NQyFtxWN0B_R7tGUjW3N8GhF7YMqJ7DBIq5ZYBbY0Rw7gBmzXSdixH9dCh-7VDfF_o43itSxO4HoeP-K9kTka93nEguhFqV5nglsoMefN8aGN8VFEId7oqoeSxGvreO-pFBfTHLm5w_JjOlV-DFivCXj9kCguhG5n1DHOwGkuXCQVM5YcyUkJlASgdnNftQaYG-57ZO8toUepi1Z9hM_Dt2e7RNPeu8Z7s-jPSclxti3Fm6CbUFxE-r-ujJ00epOndKEW0Tq0HTdI3YWqGYu5ITcbsy4JbmxYSREge7JVazX8TURgaBabFRrr8xLju9nFNI4q6rM5pEfWEK8lb-vHkwM4lJrTA0nKkq_kfy20Rf3Dt5w5j0pB2dVqeQroiXmz_RLZ04yt8J85XVzPIrtWRqh_M5MdMLYRg6FLpYA9uQb2SvjkoDXDO5Vjpkz0GVmw8iu-bkQ7-h5on_X7y-HNrv_OWoOJahCqAhCxsz_MBTSD5vok1kIRaOb-14Ep2cRdJKfSPrA8AmcicDQgMaVrNcrXNgDaGNUqtOrnj-KvLzXGcE4umrbyhtVe4w3I8MhoudNCrD8aAAWBUk5sm73hkquaqbcY-d5w2Ue942UN0klN4qV4ci2CRMHoH1qP0iqX0YIoLk7onxyFG9XHs6sS9D4T11SCNn83sMqP-lrHQ5N5rOQdFt2uOVtHMD7yJ7mFJT6WwSQtYKqITz8GC43mfiJro5WCOGwp2OtrXv7KQjUO5kgsjKkQqQ0Ejr3Bj7Y7V7dDRUxDKfpWD9oYDa_P6KFnJvs7KrWmNr6YctmeraYHEyhPJFq982lDyEBSPacK9hOQIlsbKCjJdorlZmCdghdlUf3DADq43oZG80oYQfBO2OgEnWRZLV5gTlWUFvHqFC9VzovH9E4YJUNEsUAdR8LKdxojtOBHm5fk-EyKb8N40ZwJ-Sn35c0vwVZLMTgOFECt47959XIydEV8bQIevSHHMVMyABZlBvgeErkAQHbPKXkxXx5IbIPZPgTjIm2BIs5ss_wS2t0v5XANcE90fIjJ9LXaiU46PwG_JIw61EZUnjDRcyFZZf4XVUXryjrneyhXUZ0eZGgkAZ9zr3vYuodMXpamAtAmpY5nCHExsRGzPj0sKggPhCm3BmCj9gINxcLQzbrvtolf-qGzOe8INkCwMpDaCCDhCYGg7VW6HWsL-RrWv8hMYJnhm_vZKScRelcUiwMFnaa_mSTlaJLSYeo-LPSfQeiIYq9cf9VYf_E78o1UuNyYyLbRsErEMRaIME-k0AVgxXgb8yPy9_nD6bPao8YHqNPI2zds6rOjZiFNE15DkBTbNsxAa3cICOr3ApQkW0kcRUBgdvG6_dOYgkkgmjucXImCF_fGhZvM8BBViEANTxXo93qmyF0BjW0bc2cEBu1xxwLh8TZfBl0-TbaZ96zBS9QvWvKtranVzOcslSBOfe2Idy2paNUcTjhcAP2QWsRpNqHQpD_8YA5gUWajE9h6sp_weG2TdvNoD1OFFln4lE5030QfryuIP0AxdCL8ExFuyDKRUxKIROUB0Gh_Dby6rHwd6DZpNzYWBYCpuZ8WZOP_zjX7dyWy2u1ENDmMgA1lAppee5ocH-AYxsMBUSiJAI=",
+      "status": null
+    },
+    {
+      "id": "msg_064a01d76574b41d016af4fc9e4a2c87d2a290aa0ab6981bc2",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\n  \"scope\": {\n    \"document_ids\": [\"HDMS-PROS-01\"],\n    \"verification_limits\": [\n      \"제공된 투자설명서 발췌 페이지만 확인했다. 추가 검색과 비교기업 원자료·Bloomberg의 독립 대조는 하지 않았다.\",\n      \"공시 공개 시각은 2024년 4월 24일이라는 날짜까지만 확인되었다.\",\n      \"계산은 공시에 표시된 숫자를 사용했다. 공시 산출에 실제 사용된 미반올림 입력과 처리 규칙은 확인되지 않았다.\"\n    ]\n  },\n  \"judgments\": [\n    {\n      \"judgment_id\": \"J1\",\n      \"domain\": \"J1\",\n      \"conclusion\": \"2023년 온기 연결 지배주주순이익을 적용한 선택은 비교기업 PER의 공시상 기간·귀속 기준과 일치하므로 비교 출발점으로 조건부 수용할 수 있다. 다만 비교기업 원자료 및 회계·연결 범위의 세부 일치 여부는 독립 확인하지 못했다.\",\n      \"disposition\": \"CONDITIONAL\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J1_ISSUER\",\n          \"text\": \"공시 적용 순이익은 151,116백만원이다. 발행사의 2023년 연결 지배기업 소유주 귀속 순이익은 151,116,175,331원이며 비지배지분 귀속 순이익은 없다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J1_ISSUER\",\n              \"locator\": \"평가 시가총액 산출 내역, 적용 순이익\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0425\",\n              \"page\": 425,\n              \"claim_id\": \"R_J1_ISSUER\",\n              \"locator\": \"연결 포괄손익계산서, 당기순이익의 귀속\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_PEER_PERIOD\",\n          \"text\": \"비교회사 PER은 2023년 온기 지배주주지분 기준 순이익으로 산출했다고 공시한다. 발행사에 부분기간 연환산이나 조정이 적용됐다는 기재는 확인한 산정표에 없다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J1_PEER_PERIOD\",\n              \"locator\": \"2023년 온기 기준 PER 산출 및 주2\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0298\",\n              \"page\": 298,\n              \"claim_id\": \"R_J1_PEER_PERIOD\",\n              \"locator\": \"공모가 산정 요약표, 적용 재무수치\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_SEPARATE\",\n          \"text\": \"발행사의 2023년 별도 당기순이익은 143,474,006,953원으로 연결 적용 이익과 다르다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0422\",\n              \"page\": 422,\n              \"claim_id\": \"R_J1_SEPARATE\",\n              \"locator\": \"나. 요약 별도 재무정보\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0423\",\n              \"page\": 423,\n              \"claim_id\": \"R_J1_SEPARATE\",\n              \"locator\": \"요약 별도 재무정보, 2023년 당기순이익\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J1_PEER_DIFFERENCE\",\n          \"text\": \"HD한국조선해양의 2023년 지배주주순이익은 PER 산출표에 221,682백만원, 요약 연결 재무정보에는 221,711백만원으로 기재되어 있다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J1_PEER_DIFFERENCE\",\n              \"locator\": \"2023년 온기 기준 PER 산출, HD한국조선해양 지배주주순이익\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0313\",\n              \"page\": 313,\n              \"claim_id\": \"R_J1_PEER_DIFFERENCE\",\n              \"locator\": \"HD한국조선해양 최근 3개년 요약 연결 재무정보, 2023년 당기순이익 및 주1\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0425\",\n          \"page\": 425,\n          \"claim_id\": \"R_J1_ISSUER\",\n          \"locator\": \"연결 포괄손익계산서, 당기순이익의 귀속\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0331\",\n          \"page\": 331,\n          \"claim_id\": \"R_J1_PEER_PERIOD\",\n          \"locator\": \"2023년 온기 기준 PER 산출 및 주2\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0313\",\n          \"page\": 313,\n          \"claim_id\": \"R_J1_PEER_DIFFERENCE\",\n          \"locator\": \"요약 연결 재무정보, 2023년 당기순이익 및 주1\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0229\",\n          \"page\": 229,\n          \"claim_id\": \"J1\",\n          \"locator\": \"PER 비교의 한계: 회계기준 및 연결 대상 기준 차이\"\n        }\n      ],\n      \"unknowns\": [\n        \"HD한국조선해양의 두 순이익 수치가 29백만원 차이 나는 원인과 어느 기초자료가 PER 산출에 실제 사용됐는지는 확인되지 않았다.\",\n        \"각 비교기업의 회계기준, 연결 대상과 이익의 세부 조정 항목은 원자료로 직접 대조하지 못했다.\"\n      ],\n      \"next_action\": \"기간·귀속 기준의 일치 범위에서 활용하되, 두 이익 수치 차이의 설명과 당시 비교기업 기초자료를 확인할 수 있다면 추가 대조한다.\"\n    },\n    {\n      \"judgment_id\": \"J2\",\n      \"domain\": \"J2\",\n      \"conclusion\": \"네 비교기업의 평균 PER은 공시가 설명한 산업·기능적 유사성을 반영한 참고치로 조건부 사용한다. 신조·제조 및 비해양 사업의 차이가 있어 발행사에 그대로 적용되는 유일한 정답으로 보기는 어렵다.\",\n      \"disposition\": \"CONDITIONAL\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J2_PEERS\",\n          \"text\": \"최종 비교기업과 표시 PER은 HD한국조선해양 36.5배, ALFA LAVAL 25.6배, KONGSBERG 31.8배, WARTSILA 32.1배다. 공시 적용 배수는 산술평균 31.5배다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J2_PEERS\",\n              \"locator\": \"2023년 온기 기준 PER 산출\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0330\",\n              \"page\": 330,\n              \"claim_id\": \"R_J2_PEERS\",\n              \"locator\": \"PER 평가방법을 통한 상대가치 산출, 산출 방법\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J2_ISSUER_BUSINESS\",\n          \"text\": \"발행사는 직접 주요 기자재를 제조하지 않고 유지·보수 등을 수행한다. 2023년 연결 매출의 하위 제품군은 AM솔루션 42%, 벙커링 41%, 친환경개조 12%, SDV 4%로 공시되어 있다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0230\",\n              \"page\": 230,\n              \"claim_id\": \"R_J2_ISSUER_BUSINESS\",\n              \"locator\": \"비교기업 선정의 부적합 가능성, 발행사 제조 여부와 사업\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0309\",\n              \"page\": 309,\n              \"claim_id\": \"R_J2_ISSUER_BUSINESS\",\n              \"locator\": \"사업 유사성, 2023년 연결 제품군별 매출 구성\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J2_MIX\",\n          \"text\": \"HD한국조선해양은 조선 매출 비중이 83.1%다. ALFA LAVAL은 해양 30.0%, 에너지 30.3%, 식품·수자원 39.7%이고, KONGSBERG는 Maritime 49.7%, Defence & Aerospace 39.3%다. WARTSILA는 Marine Power 42.2%, Marine Systems 8.2%, Energy 43.4%다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0309\",\n              \"page\": 309,\n              \"claim_id\": \"R_J2_MIX\",\n              \"locator\": \"사업 유사성 기준 3차 비교회사 선정 결과, ALFA LAVAL\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0310\",\n              \"page\": 310,\n              \"claim_id\": \"R_J2_MIX\",\n              \"locator\": \"사업 유사성 기준 3차 비교회사 선정 결과, HD한국조선해양·KONGSBERG·WARTSILA\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J2_SELECTION\",\n          \"text\": \"공시는 업종·재무·사업·일반 유사성 기준으로 78개사에서 4개사를 선정했다. 3차 후보 중 순손실 기업과 PER 50배 이상 기업을 제외했다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0229\",\n              \"page\": 229,\n              \"claim_id\": \"R_J2_SELECTION\",\n              \"locator\": \"비교기업 선정 절차 및 결과 요약\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0311\",\n              \"page\": 311,\n              \"claim_id\": \"R_J2_SELECTION\",\n              \"locator\": \"일반 유사성 기준 4차 비교회사 선정 결과\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0230\",\n          \"page\": 230,\n          \"claim_id\": \"J2\",\n          \"locator\": \"비교기업의 공급망·유지보수 유사성 및 선정 이유\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0331\",\n          \"page\": 331,\n          \"claim_id\": \"R_J2_PEERS\",\n          \"locator\": \"2023년 온기 기준 PER 산출\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0312\",\n          \"page\": 312,\n          \"claim_id\": \"J2\",\n          \"locator\": \"비교기업의 신조·제조 및 자산구조 차이\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0310\",\n          \"page\": 310,\n          \"claim_id\": \"R_J2_MIX\",\n          \"locator\": \"비교회사별 매출 구성\"\n        }\n      ],\n      \"unknowns\": [\n        \"사업 차이가 각 기업의 성장률·경기 민감도·수익성과 PER에 미치는 크기는 제공 페이지로 정량화할 수 없다.\",\n        \"공시 인용 매출 구성과 시가총액은 각사 원자료로 독립 대조하지 못했다.\"\n      ],\n      \"next_action\": \"공시의 평균을 기준으로 사용하되, 특히 신조 중심인 HD한국조선해양을 제외한 경우와 중앙값을 함께 살펴 선택의 영향을 표시한다.\"\n    },\n    {\n      \"judgment_id\": \"J3\",\n      \"domain\": \"J3\",\n      \"conclusion\": \"주식수와 공시 평가시가총액을 이용한 주당 평가가액은 재현된다. 표시 PER을 그대로 곱한 결과와의 작은 차이는 표시 정밀도와 양립 가능하지만 실제 처리 규칙을 확정할 수는 없다. 비교기업 선택에 따른 민감도는 별도로 해석해야 한다.\",\n      \"disposition\": \"CONDITIONAL\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J3_SHARES\",\n          \"text\": \"공시 주식수는 공모 전 40,000,000주, 신주 4,450,000주, 구주매출 4,450,000주, 희석가능 420,190주다. 희석가능분은 주식매수선택권 13,510주와 우리사주매수선택권 잔여 406,680주로 구성된다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0332\",\n              \"page\": 332,\n              \"claim_id\": \"R_J3_SHARES\",\n              \"locator\": \"주당 평가가액 산출 내역 및 희석가능주식수 주석\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J3_EQUITY\",\n          \"text\": \"공시 평가시가총액은 4,761,293백만원, 주당 평가가액은 106,113원이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0332\",\n              \"page\": 332,\n              \"claim_id\": \"R_J3_EQUITY\",\n              \"locator\": \"평가 시가총액 및 주당 평가가액 산출 내역\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J3_INPUTS\",\n          \"text\": \"공시 적용 순이익은 151,116백만원이며 네 비교기업의 표시 PER은 각각 36.5, 25.6, 31.8, 32.1배다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0331\",\n              \"page\": 331,\n              \"claim_id\": \"R_J3_INPUTS\",\n              \"locator\": \"2023년 온기 기준 PER 산출 및 평가 시가총액 산출 내역\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"R_J3_SHARES\",\n          \"locator\": \"주당 평가가액 산출 내역 및 주석\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0331\",\n          \"page\": 331,\n          \"claim_id\": \"R_J3_INPUTS\",\n          \"locator\": \"2023년 온기 기준 PER 산출\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"R_J3_EQUITY\",\n          \"locator\": \"공시 평가시가총액과 주당 평가가액\"\n        }\n      ],\n      \"unknowns\": [\n        \"실제 미반올림 비교기업 이익·시가총액과 배수 계산의 반올림 또는 절사 규칙은 확인되지 않았다.\",\n        \"민감도는 비교기업의 사업 차이를 평가에 반영해야 할 적정 조정폭이나 적정 공모가를 뜻하지 않는다.\"\n      ],\n      \"next_action\": \"재계산: 40,000,000+4,450,000+420,190=44,870,190주다. 구주매출은 기존 주식이므로 추가하지 않는다. 4,761,293백만원을 주식수로 나누면 106,112.61원으로 공시 106,113원에 근접한다. 표시 31.5배를 그대로 곱하면 4,760,154백만원, 주당 106,087.23원이다. 공시 인용 시가총액과 이익으로 각 PER을 재계산한 평균은 약 31.50755배, 주당 약 106,112.66원으로 공시값에 근접하나 실제 처리 방식의 증명은 아니다. 민감도 가정으로 표시 PER 중앙값 31.95배는 107,602.76원으로 표시배수 기준 대비 +1,515.53원(+1.43%), 신조 비중이 높은 HD한국조선해양을 제외한 나머지 평균 약 29.83배는 100,474.15원으로 -5,613.08원(-5.29%)이다. 이 대안들은 할인 전 평가액의 계산상 비교다.\"\n    },\n    {\n      \"judgment_id\": \"J4\",\n      \"domain\": \"J4\",\n      \"conclusion\": \"받은 페이지에 한정하면 공시 산식과 선택의 주요 한계를 검토할 수 있다. 이는 독립 원자료 검증이나 투자 승인, 적정 공모가 예측이 아니다.\",\n      \"disposition\": \"CONDITIONAL\",\n      \"facts\": [\n        {\n          \"claim_id\": \"R_J4_VERSION\",\n          \"text\": \"물리 41쪽에는 주9 정정 전 요약표가, 41~42쪽에는 정정 후 요약표가 이어진다. 정정 전에는 확정 공모가를 추후 결정한다고 했고, 정정 후에는 83,400원으로 명시했다. 이 정정 후 값은 본문에도 기재되어 있다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0041\",\n              \"page\": 41,\n              \"claim_id\": \"R_J4_VERSION\",\n              \"locator\": \"주9 정정 전 공모가 산정 요약표 및 정정 후 표 시작\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0042\",\n              \"page\": 42,\n              \"claim_id\": \"R_J4_VERSION\",\n              \"locator\": \"주9 정정 후 공모가 산정 요약표, 확정 공모가액\"\n            },\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0298\",\n              \"page\": 298,\n              \"claim_id\": \"R_J4_VERSION\",\n              \"locator\": \"본문 공모가 산정 요약표 및 평가 결과\"\n            }\n          ]\n        },\n        {\n          \"claim_id\": \"R_J4_PRICE\",\n          \"text\": \"본문상 할인 전 주당 평가가액은 106,113원, 희망 공모가 밴드는 73,300~83,400원, 수요예측 결과를 반영한 확정 공모가는 83,400원이다.\",\n          \"evidence\": [\n            {\n              \"doc_id\": \"HDMS-PROS-01\",\n              \"chunk_id\": \"HDMS-PROS-01-p0332\",\n              \"page\": 332,\n              \"claim_id\": \"R_J4_PRICE\",\n              \"locator\": \"희망공모가액 산출 내역 및 주1\"\n            }\n          ]\n        }\n      ],\n      \"evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0042\",\n          \"page\": 42,\n          \"claim_id\": \"R_J4_VERSION\",\n          \"locator\": \"주9 정정 후 공모가 산정 요약표\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0332\",\n          \"page\": 332,\n          \"claim_id\": \"R_J4_PRICE\",\n          \"locator\": \"희망공모가액 산출 내역\"\n        }\n      ],\n      \"counter_evidence\": [\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0041\",\n          \"page\": 41,\n          \"claim_id\": \"R_J4_VERSION\",\n          \"locator\": \"주9 정정 전 표, 확정 공모가 추후 결정 문구\"\n        },\n        {\n          \"doc_id\": \"HDMS-PROS-01\",\n          \"chunk_id\": \"HDMS-PROS-01-p0330\",\n          \"page\": 330,\n          \"claim_id\": \"J4\",\n          \"locator\": \"비교회사 재무자료의 출처와 발행사 적용 주식수\"\n        }\n      ],\n      \"unknowns\": [\n        \"공시의 실제 공개 시각은 날짜보다 세밀하게 확인되지 않았다.\",\n        \"비교기업 원자료, 가격·환율 원시자료와 미반올림 계산 과정은 독립 검증하지 못했다.\"\n      ],\n      \"next_action\": \"정정 후 표와 본문을 현재값으로 사용한다. 아래 선택적 확인 요청은 기록만 하며, 답변을 받은 것으로 간주하지 않는다.\"\n    }\n  ],\n  \"requests\": [\n    {\n      \"request_id\": \"REQ-01\",\n      \"question\": \"허용 공시에서 HD한국조선해양의 2023년 지배주주순이익 221,682백만원과 221,711백만원 차이를 설명하는 추가 페이지가 있는가?\",\n      \"why_needed\": \"PER 산출표와 요약 연결 재무정보의 숫자 차이 원인을 확인하기 위해서다. 현재 수치에 따른 제한적 검토 자체를 막지는 않는다.\",\n      \"related_judgment_ids\": [\"J1\", \"J2\"],\n      \"blocking\": false,\n      \"resolution_status\": \"OPEN\",\n      \"resolution_evidence\": []\n    },\n    {\n      \"request_id\": \"REQ-02\",\n      \"question\": \"허용 공시에 비교기업 PER 평균의 미반올림 입력과 평가시가총액 계산의 처리 규칙을 설명하는 추가 페이지가 있는가?\",\n      \"why_needed\": \"표시값으로 설명 가능한 근접 재현을 넘어 정확한 산출 과정을 확인하기 위해서다.\",\n      \"related_judgment_ids\": [\"J3\", \"J4\"],\n      \"blocking\": false,\n      \"resolution_status\": \"OPEN\",\n      \"resolution_evidence\": []\n    }\n  ],\n  \"escalations\": [],\n  \"missing_inputs\": [],\n  \"memo\": [\n    \"2023년 온기 지배주주순이익 기준은 발행사와 비교기업에 공시상 공통으로 적용됐다. HD한국조선해양 이익의 두 표 수치 차이는 미해결이다.\",\n    \"발행사와 비교기업의 신조·제조 및 비해양 사업 차이를 감안해 31.5배는 조건부 참고치로 사용한다.\",\n    \"공시 평가시가총액을 주식수로 나눈 값은 주당 약 106,113원이다. 표시 PER만 사용한 값은 약 106,087원이며, 차이만으로 오류라고 판정하지 않는다.\",\n    \"중앙값 적용 및 HD한국조선해양 제외는 각각 표시배수 기준 대비 약 +1.43%, -5.29%인 계산상 가정이다.\",\n    \"확정 공모가는 83,400원으로 할인 전 평가가액과 다르다. 원자료 독립 검증 없이 제공 페이지 범위에서만 검토를 마친다.\"\n  ],\n  \"model_reported_status\": \"READY\"\n}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1794440410.0,
+  "conversation": null,
+  "max_output_tokens": 8500,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "all_turns",
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "review",
+      "schema_": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "type": "object",
+            "properties": {
+              "document_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "verification_limits": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "document_ids",
+              "verification_limits"
+            ],
+            "additionalProperties": false
+          },
+          "judgments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "judgment_id": {
+                  "type": "string"
+                },
+                "domain": {
+                  "type": "string",
+                  "enum": [
+                    "J1",
+                    "J2",
+                    "J3",
+                    "J4"
+                  ]
+                },
+                "conclusion": {
+                  "type": "string"
+                },
+                "disposition": {
+                  "type": "string",
+                  "enum": [
+                    "ACCEPT",
+                    "CONDITIONAL",
+                    "REQUEST_INFO",
+                    "ESCALATE"
+                  ]
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "evidence": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "doc_id": {
+                              "type": "string"
+                            },
+                            "chunk_id": {
+                              "type": "string"
+                            },
+                            "page": {
+                              "type": "integer"
+                            },
+                            "claim_id": {
+                              "type": "string"
+                            },
+                            "locator": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "doc_id",
+                            "chunk_id",
+                            "page",
+                            "claim_id",
+                            "locator"
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": [
+                      "claim_id",
+                      "text",
+                      "evidence"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "counter_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "unknowns": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "next_action": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "judgment_id",
+                "domain",
+                "conclusion",
+                "disposition",
+                "facts",
+                "evidence",
+                "counter_evidence",
+                "unknowns",
+                "next_action"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "requests": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "request_id": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "why_needed": {
+                  "type": "string"
+                },
+                "related_judgment_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blocking": {
+                  "type": "boolean"
+                },
+                "resolution_status": {
+                  "type": "string",
+                  "enum": [
+                    "OPEN",
+                    "RESOLVED"
+                  ]
+                },
+                "resolution_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "request_id",
+                "question",
+                "why_needed",
+                "related_judgment_ids",
+                "blocking",
+                "resolution_status",
+                "resolution_evidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "escalations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "escalation_id": {
+                  "type": "string"
+                },
+                "review_focus": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "why_needed": {
+                  "type": "string"
+                },
+                "related_judgment_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blocking": {
+                  "type": "boolean"
+                },
+                "resolution_status": {
+                  "type": "string",
+                  "enum": [
+                    "OPEN",
+                    "RESOLVED"
+                  ]
+                },
+                "resolution_evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "doc_id": {
+                        "type": "string"
+                      },
+                      "chunk_id": {
+                        "type": "string"
+                      },
+                      "page": {
+                        "type": "integer"
+                      },
+                      "claim_id": {
+                        "type": "string"
+                      },
+                      "locator": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "doc_id",
+                      "chunk_id",
+                      "page",
+                      "claim_id",
+                      "locator"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "escalation_id",
+                "review_focus",
+                "question",
+                "why_needed",
+                "related_judgment_ids",
+                "blocking",
+                "resolution_status",
+                "resolution_evidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "missing_inputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string"
+                },
+                "missing_reason": {
+                  "type": "string"
+                },
+                "request_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "field",
+                "missing_reason",
+                "request_id"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "memo": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 5
+          },
+          "model_reported_status": {
+            "type": "string",
+            "enum": [
+              "READY",
+              "PENDING_INFO",
+              "HUMAN_REVIEW"
+            ]
+          }
+        },
+        "required": [
+          "scope",
+          "judgments",
+          "requests",
+          "escalations",
+          "missing_inputs",
+          "memo",
+          "model_reported_status"
+        ],
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 51885,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 51882
+    },
+    "output_tokens": 6520,
+    "output_tokens_details": {
+      "reasoning_tokens": 675
+    },
+    "total_tokens": 58405
+  },
+  "user": null,
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": false,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

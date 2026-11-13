@@ -1,0 +1,542 @@
+{
+  "pricing_checked_on": "2026-11-12",
+  "model": "gpt-6.1-terra",
+  "service_tier": "Standard",
+  "rates_usd_per_million_tokens": {
+    "ordinary_input": "1",
+    "cached_input": "0.05",
+    "cache_write_30m": "1.25",
+    "cache_write_12h": "2.5",
+    "output": "5"
+  },
+  "budget_fx_krw_per_usd": "1400",
+  "is_invoice": false,
+  "pricing_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+    "https://developers.openai.com/api/docs/guides/prompt-caching"
+  ],
+  "token_totals": {
+    "input_tokens": 442236,
+    "ordinary_input_tokens": 33,
+    "cached_input_tokens": 84067,
+    "cache_write_30m_tokens": 358136,
+    "cache_write_12h_tokens": 0,
+    "output_tokens": 50086,
+    "reasoning_tokens": 3070
+  },
+  "known_usage_cost_usd": "0.70233635",
+  "known_usage_cost_krw": "983.27",
+  "groups": {
+    "submitted": {
+      "run_count": 1,
+      "known_usage_cost_usd": "0.1695610",
+      "known_usage_cost_krw": "237.39"
+    },
+    "failed_with_usage": {
+      "run_count": 4,
+      "known_usage_cost_usd": "0.53277535",
+      "known_usage_cost_krw": "745.89"
+    }
+  },
+  "requests_without_usage": 1,
+  "all_model_requests_have_usage": false,
+  "note": "Estimate from saved usage and published rates; excludes tax and actual exchange-rate differences. Unknown request usage is not assigned zero cost.",
+  "runs": [
+    {
+      "run_id": "20261111T230824Z_B_2da20d05",
+      "execution_status": "PREFLIGHT_COMPLETE",
+      "model_calls": 0,
+      "responses_with_usage": 0,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 0,
+        "ordinary_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "known_usage_cost_usd": "0",
+      "known_usage_cost_krw": "0.00",
+      "usage_missing_response_files": [],
+      "responses": [],
+      "note": "No model request was made in this record"
+    },
+    {
+      "run_id": "20261111T231054Z_B_232f70d8",
+      "execution_status": "NOT_STARTED_MISSING_API_KEY",
+      "model_calls": 0,
+      "responses_with_usage": 0,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 0,
+        "ordinary_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "known_usage_cost_usd": "0",
+      "known_usage_cost_krw": "0.00",
+      "usage_missing_response_files": [],
+      "responses": [],
+      "note": "No model request was made in this record"
+    },
+    {
+      "run_id": "20261111T231218Z_B_6f5f669b",
+      "execution_status": "NOT_STARTED_MISSING_API_KEY",
+      "model_calls": 0,
+      "responses_with_usage": 0,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 0,
+        "ordinary_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "known_usage_cost_usd": "0",
+      "known_usage_cost_krw": "0.00",
+      "usage_missing_response_files": [],
+      "responses": [],
+      "note": "No model request was made in this record"
+    },
+    {
+      "run_id": "20261111T231303Z_B_acd171ef",
+      "execution_status": "NOT_STARTED_MISSING_API_KEY",
+      "model_calls": 0,
+      "responses_with_usage": 0,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 0,
+        "ordinary_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "known_usage_cost_usd": "0",
+      "known_usage_cost_krw": "0.00",
+      "usage_missing_response_files": [],
+      "responses": [],
+      "note": "No model request was made in this record"
+    },
+    {
+      "run_id": "20261111T231436Z_B_958b44a6",
+      "execution_status": "NOT_STARTED_MISSING_API_KEY",
+      "model_calls": 0,
+      "responses_with_usage": 0,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 0,
+        "ordinary_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "known_usage_cost_usd": "0",
+      "known_usage_cost_krw": "0.00",
+      "usage_missing_response_files": [],
+      "responses": [],
+      "note": "No model request was made in this record"
+    },
+    {
+      "run_id": "20261111T231508Z_B_8f5f6f03",
+      "execution_status": "FAILED",
+      "model_calls": 1,
+      "responses_with_usage": 0,
+      "requests_without_usage": 1,
+      "all_model_requests_have_usage": false,
+      "token_totals": {
+        "input_tokens": 0,
+        "ordinary_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "known_usage_cost_usd": null,
+      "known_usage_cost_krw": null,
+      "usage_missing_response_files": [],
+      "responses": [],
+      "note": "Some requests have no usage; do not interpret missing usage as a zero bill"
+    },
+    {
+      "run_id": "20261111T232308Z_B_b3fe2173",
+      "execution_status": "FAILED",
+      "model_calls": 2,
+      "responses_with_usage": 2,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 97369,
+        "ordinary_input_tokens": 6,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 97363,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 9939,
+        "reasoning_tokens": 563
+      },
+      "known_usage_cost_usd": "0.17140475",
+      "known_usage_cost_krw": "239.97",
+      "usage_missing_response_files": [],
+      "responses": [
+        {
+          "response_file": "01_extract_response.json",
+          "response_id": "resp_06d2421510e87928016af4f8e267fc87d292de90046a0d6194",
+          "response_status": "completed",
+          "input_tokens": 41385,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 41382,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4439,
+          "reasoning_tokens": 179,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.0517275",
+            "cache_write_12h": "0.0",
+            "output": "0.022195"
+          },
+          "estimated_cost_usd": "0.0739255",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        },
+        {
+          "response_file": "02_review_response.json",
+          "response_id": "resp_068cc76ae097bfb1016af4f91641d487d281775c0f425c7200",
+          "response_status": "incomplete",
+          "input_tokens": 55984,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 55981,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5500,
+          "reasoning_tokens": 384,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.06997625",
+            "cache_write_12h": "0.0",
+            "output": "0.0275"
+          },
+          "estimated_cost_usd": "0.09747925",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        }
+      ],
+      "note": "All declared model calls have saved usage, including incomplete responses"
+    },
+    {
+      "run_id": "20261111T232645Z_B_e3ab1569",
+      "execution_status": "FAILED",
+      "model_calls": 3,
+      "responses_with_usage": 3,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 106924,
+        "ordinary_input_tokens": 9,
+        "cached_input_tokens": 42581,
+        "cache_write_30m_tokens": 64334,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 12672,
+        "reasoning_tokens": 1058
+      },
+      "known_usage_cost_usd": "0.14591555",
+      "known_usage_cost_krw": "204.28",
+      "usage_missing_response_files": [],
+      "responses": [
+        {
+          "response_file": "01_extract_response.json",
+          "response_id": "resp_03e91cdac2b8bc70016af4f9bb174087d28de1047ea351a43a",
+          "response_status": "completed",
+          "input_tokens": 41385,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 41382,
+          "cache_write_30m_tokens": 0,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4150,
+          "reasoning_tokens": 98,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.0020691",
+            "cache_write_30m": "0.00",
+            "cache_write_12h": "0.0",
+            "output": "0.02075"
+          },
+          "estimated_cost_usd": "0.0228221",
+          "notes": []
+        },
+        {
+          "response_file": "02_review_response.json",
+          "response_id": "resp_0951c19582fb9caf016af4f9ebaae487d280dae0f098f79e12",
+          "response_status": "completed",
+          "input_tokens": 55682,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 1199,
+          "cache_write_30m_tokens": 54480,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 6022,
+          "reasoning_tokens": 453,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00005995",
+            "cache_write_30m": "0.0681",
+            "cache_write_12h": "0.0",
+            "output": "0.03011"
+          },
+          "estimated_cost_usd": "0.09827295",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        },
+        {
+          "response_file": "03_review_format_repair_response.json",
+          "response_id": "resp_0e0c4cbd8e0d96ca016af4fa30658087d2acf3d63ab28f0060",
+          "response_status": "incomplete",
+          "input_tokens": 9857,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 9854,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 2500,
+          "reasoning_tokens": 507,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.0123175",
+            "cache_write_12h": "0.0",
+            "output": "0.0125"
+          },
+          "estimated_cost_usd": "0.0248205",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        }
+      ],
+      "note": "All declared model calls have saved usage, including incomplete responses"
+    },
+    {
+      "run_id": "20261111T233120Z_B_6d0659e0",
+      "execution_status": "FAILED",
+      "model_calls": 1,
+      "responses_with_usage": 1,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 41489,
+        "ordinary_input_tokens": 3,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 41486,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 4292,
+        "reasoning_tokens": 60
+      },
+      "known_usage_cost_usd": "0.0733205",
+      "known_usage_cost_krw": "102.65",
+      "usage_missing_response_files": [],
+      "responses": [
+        {
+          "response_file": "01_extract_response.json",
+          "response_id": "resp_006d71a1b5b8e1e1016af4facc5a2887d28531e4be239c8329",
+          "response_status": "completed",
+          "input_tokens": 41489,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 41486,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4292,
+          "reasoning_tokens": 60,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.0518575",
+            "cache_write_12h": "0.0",
+            "output": "0.02146"
+          },
+          "estimated_cost_usd": "0.0733205",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        }
+      ],
+      "note": "All declared model calls have saved usage, including incomplete responses"
+    },
+    {
+      "run_id": "20261111T233411Z_B_c1ca9cc8",
+      "execution_status": "FAILED",
+      "model_calls": 3,
+      "responses_with_usage": 3,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 103020,
+        "ordinary_input_tokens": 9,
+        "cached_input_tokens": 41486,
+        "cache_write_30m_tokens": 61525,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 12629,
+        "reasoning_tokens": 658
+      },
+      "known_usage_cost_usd": "0.14213455",
+      "known_usage_cost_krw": "198.99",
+      "usage_missing_response_files": [],
+      "responses": [
+        {
+          "response_file": "01_extract_response.json",
+          "response_id": "resp_0e069ad6fb0a3549016af4fb76f57487d2a9ca13ea11ddc8ae",
+          "response_status": "completed",
+          "input_tokens": 41489,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 41486,
+          "cache_write_30m_tokens": 0,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 3938,
+          "reasoning_tokens": 175,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.0020743",
+            "cache_write_30m": "0.00",
+            "cache_write_12h": "0.0",
+            "output": "0.01969"
+          },
+          "estimated_cost_usd": "0.0217673",
+          "notes": []
+        },
+        {
+          "response_file": "02_review_response.json",
+          "response_id": "resp_0f01f320571425e5016af4fba5223c87d282d66f2954c21fee",
+          "response_status": "completed",
+          "input_tokens": 51830,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 51827,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 6191,
+          "reasoning_tokens": 442,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.06478375",
+            "cache_write_12h": "0.0",
+            "output": "0.030955"
+          },
+          "estimated_cost_usd": "0.09574175",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        },
+        {
+          "response_file": "03_review_format_repair_response.json",
+          "response_id": "resp_0265aee935082b7f016af4fbebdea887d29a7b74d127fc0a1a",
+          "response_status": "incomplete",
+          "input_tokens": 9701,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 9698,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 2500,
+          "reasoning_tokens": 41,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.0121225",
+            "cache_write_12h": "0.0",
+            "output": "0.0125"
+          },
+          "estimated_cost_usd": "0.0246255",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        }
+      ],
+      "note": "All declared model calls have saved usage, including incomplete responses"
+    },
+    {
+      "run_id": "20261111T233807Z_B_2db53c6b",
+      "execution_status": "SUBMITTED",
+      "model_calls": 2,
+      "responses_with_usage": 2,
+      "requests_without_usage": 0,
+      "all_model_requests_have_usage": true,
+      "token_totals": {
+        "input_tokens": 93434,
+        "ordinary_input_tokens": 6,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 93428,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 10554,
+        "reasoning_tokens": 731
+      },
+      "known_usage_cost_usd": "0.1695610",
+      "known_usage_cost_krw": "237.39",
+      "usage_missing_response_files": [],
+      "responses": [
+        {
+          "response_file": "01_extract_response.json",
+          "response_id": "resp_05cc61387244aaf9016af4fc635f0087d2ac57d688f24f5c90",
+          "response_status": "completed",
+          "input_tokens": 41549,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 41546,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4034,
+          "reasoning_tokens": 56,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.0519325",
+            "cache_write_12h": "0.0",
+            "output": "0.02017"
+          },
+          "estimated_cost_usd": "0.0721055",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        },
+        {
+          "response_file": "02_review_response.json",
+          "response_id": "resp_064a01d76574b41d016af4fc9228e487d29540d579880aac53",
+          "response_status": "completed",
+          "input_tokens": 51885,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 51882,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 6520,
+          "reasoning_tokens": 675,
+          "cost_components_usd": {
+            "ordinary_input": "0.000003",
+            "cached_input": "0.00",
+            "cache_write_30m": "0.0648525",
+            "cache_write_12h": "0.0",
+            "output": "0.0326"
+          },
+          "estimated_cost_usd": "0.0974555",
+          "notes": [
+            "TTL breakdown absent; used request TTL or API default 30m"
+          ]
+        }
+      ],
+      "note": "All declared model calls have saved usage, including incomplete responses"
+    }
+  ]
+}

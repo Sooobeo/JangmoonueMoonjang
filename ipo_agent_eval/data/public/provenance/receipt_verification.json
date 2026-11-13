@@ -1,0 +1,22 @@
+{
+  "retrieved_at": "2026-11-11T23:06:15.313623+00:00",
+  "receipt_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240424000222",
+  "correction_body_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240424000222&dcmNo=9913887&eleId=1&offset=686&length=302117&dtd=dart4.xsd",
+  "receipt_response_sha256": "905d831c8b21d60606b017fb4fce3905242962858a2dc0e38c842d6913da2293",
+  "correction_body_response_sha256": "ef28ce8e9d1569ddd68dfb8237f732f5f60260c090b70c12471a46a39e7e880e",
+  "title": "HD현대마린솔루션/투자설명서/2024.04.24",
+  "historical_receipts": {
+    "rcpNo=20240424000222": "2024.04.24 [정정] 투자설명서",
+    "rcpNo=20240417000055": "2024.04.17 투자설명서"
+  },
+  "correction_heading_excerpt": "정 정 신 고 (보고) 2024년 04월 24일 1. 정정대상 공시서류 : 투자설명서 2. 정정대상 공시서류의 최초제출일 : 2023년 04월 17일 3. 정정사유 : 공모가액 확정에 따른 기재사항 정정 4. 정정사항 금번 정정에 따른 변동사항은 투자자의 편의를 위해 \"굵은 빨간색\" 으로 표시하였습니다. 항 목 정 정 전 정 정 후 공통정정사항 - 모집(매출)가액(예정): 73,300원 ~ 83,400원 - 모집(매출)총액(예정): 652,370,000,000원",
+  "checks": {
+    "receipt_title_matches": true,
+    "corrected_receipt_in_history": true,
+    "original_receipt_in_history": true,
+    "correction_date_in_body": true,
+    "correction_type_in_body": true
+  },
+  "all_checks_passed": true,
+  "note": "현재 접수 화면의 다른 관련 공시 링크는 보관한 발췌와 검색 자료에서 제외했다. 공개 시각은 날짜까지만 확인했다."
+}

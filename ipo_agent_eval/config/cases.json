@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0-pilot",
+  "cases": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "public_directory": "data/public",
+      "manual_version": "original HDMS input snapshot; retained without edits"
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "public_directory": "data/cases/MELCON-DEV-01/public",
+      "manual_version": "IPO_PER_B_v0.2",
+      "manual_source": "data/methods/IPO_PER_B_v0.2.md"
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "public_directory": "data/cases/DTS-DEV-01/public",
+      "manual_version": "IPO_PER_B_v0.2",
+      "manual_source": "data/methods/IPO_PER_B_v0.2.md"
+    }
+  ]
+}

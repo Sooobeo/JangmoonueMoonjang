@@ -1,0 +1,31 @@
+{
+  "registration": {
+    "case_id": "DTS-DEV-01",
+    "public_directory": "data/cases/DTS-DEV-01/public",
+    "manual_version": "IPO_PER_B_v0.2",
+    "manual_source": "data/methods/IPO_PER_B_v0.2.md",
+    "registry_version": "0.2.0-pilot"
+  },
+  "metadata": {
+    "case": {
+      "case_id": "DTS-DEV-01",
+      "issuer_name": "디티에스",
+      "cutoff_at": "2026-10-12T23:59:59+09:00",
+      "allowed_doc_ids": [
+        "DTS-PROS-01"
+      ]
+    },
+    "documents": [
+      {
+        "doc_id": "DTS-PROS-01",
+        "title": "디티에스 정정 투자설명서",
+        "source_url": "https://money2.daishin.com/html/Notice/2026/downloads/dts1023_04.pdf",
+        "sha256": "2a401607d5147d2e839ccd971ade3914cd4a0df2e6b49fb9cc84e6d6449fa4e4",
+        "pages": 719,
+        "available_at": "2026-10-12",
+        "cutoff_status": "BEFORE",
+        "version_note": "DART 본문 선택 이력은 2026-10-08 최초 투자설명서와 2026-10-12 정정 투자설명서를 표시한다. 10-12 정정 사유는 발행조건 확정이며 표지의 일반청약 시작일은 10-13이다. 따라서 청약 직전 마지막 유효 투자설명서로 10-12본을 채택했다. DART 정정서·표지와 대신증권 PDF를 대조했다. PDF 파일명 날짜나 서버 수정시각을 공시일로 사용하지 않았다. 공개 시각은 날짜까지만 확인했다."
+      }
+    ]
+  }
+}
