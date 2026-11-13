@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-13T09:54:10.752453+00:00",
+  "client_date": "2026-11-13",
+  "reason": "D0 third review found phase1 source rubrics/manual outside initial project-directory inventory. Supplement captured before modifying any phase1 file. Original manifest remains unchanged.",
+  "entries": [
+    {
+      "path": "phase1/DTS_DEV_01_채점기준표.md",
+      "category": "immutable_evidence",
+      "bytes": 15456,
+      "sha256": "9638022b40d77b58488e74c9b46101fb41102c6f5af88c3bea017362ea2ca59d"
+    },
+    {
+      "path": "phase1/HDMS_DEV_01_채점기준표.md",
+      "category": "immutable_evidence",
+      "bytes": 38066,
+      "sha256": "65417472ccb94bcc7dc7ded8da93fba927457b5fe4eb33c65595fa74714408db"
+    },
+    {
+      "path": "phase1/IPO_PER_검토방법서.md",
+      "category": "immutable_evidence",
+      "bytes": 8653,
+      "sha256": "df86f3e827e3565672522c3f299aa1fb48d5bd8ad973e63349869c87c7220e3f"
+    },
+    {
+      "path": "phase1/MELCON_DEV_01_채점기준표.md",
+      "category": "immutable_evidence",
+      "bytes": 17105,
+      "sha256": "a79c861d75e8384466454691e20a0f826a09ef81f1259f600c19781806437037"
+    }
+  ]
+}

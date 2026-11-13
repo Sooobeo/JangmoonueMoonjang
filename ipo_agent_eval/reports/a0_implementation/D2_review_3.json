@@ -1,0 +1,13 @@
+{
+  "stage": "D2", "pass": 3, "reviewer": "root",
+  "focus": "계산식·선택 충돌·파생 근거와 실패 관찰의 연결",
+  "checks": [
+    "직접 시가총액과 파생값이 공존하면 선택 없이 덮어쓰지 않음",
+    "Decimal 40자리 계산 및 기존 평균·중앙값·한 기업 제외 민감도 재사용",
+    "계산 ID는 입력 snapshot에 종속, 과거 snapshot과 산출물은 불변",
+    "원입력 ID와 근거는 내부 파생 시총/PER를 거쳐 후속 가격까지 전파"
+  ],
+  "findings": [{"issue": "UNAVAILABLE 사유만 있고 부족 ID/역할이 드러나지 않음", "resolution": "missing_input_ids, required_fields, selection_required를 추가하고 알려진 null 의존성 전파 검증"}],
+  "verification": "구현자 수정 후 D1+D2 48개, 기존 계산+D2 57개 통과; 독립 2차 계산 16개 통과. 최종 통합 테스트에서 재확인 예정.",
+  "result": "PASS_AFTER_REPAIR"
+}

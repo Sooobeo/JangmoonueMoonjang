@@ -1,0 +1,243 @@
+{
+  "batch": "DIAG_v041",
+  "version": "0.4.1-dev",
+  "planned_runs": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    }
+  ],
+  "live": true,
+  "protocol": "One paired development attempt per condition; all failures retained; no outcome-based retries",
+  "model": "gpt-6.1-terra",
+  "reasoning_effort": "medium",
+  "maximum_planned_run_cost_usd": 5.0,
+  "source_snapshot": "reports\\failure_remediation\\DIAG_v041_source",
+  "source_hashes": {
+    "ipo_eval/agent_loop.py": "725675de7b51192516f6f5cc43935484a2485722c546a318e8bf6b296457fee2",
+    "ipo_eval/budget.py": "f6bb999f4266a2dc09b135a73310031b8a08d485cc08d93718281fd3c7263c51",
+    "ipo_eval/calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+    "ipo_eval/calculations_v2.py": "83732c887e5f79d82420e235cf6835e7ccaffb283e5da07d82ed178573b6d2de",
+    "ipo_eval/cases.py": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+    "ipo_eval/corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+    "ipo_eval/format_patch.py": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f",
+    "ipo_eval/id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+    "ipo_eval/provenance.py": "07863eb7f0444684a8cd164ec8ae6c970f5113ef9799c0f6ecec1b7ebea29896",
+    "ipo_eval/response_input.py": "6cce4438e9f510e4139cda970b90f86bd4b3ed3fab1269077bfd5f19eafbe04c",
+    "ipo_eval/runner.py": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+    "ipo_eval/runner_v2.py": "47656a184ab32444fa2545f7f2489affb58e69bb0a183adfd699bdb77e9b46ec",
+    "ipo_eval/runtime_v2.py": "70c03f58ae5a3c78fe28cef72613236d07d95a02d2c6bba9bff2244797cc63b8",
+    "ipo_eval/schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+    "ipo_eval/schemas_v2.py": "31f89b9113814ec5469b4b30b54958fd39cf0bf1c18dee68f213f29a8a4d7acd",
+    "ipo_eval/tool_gateway.py": "e65b0e67359ae088ec2f03fa250de11ae49a139906abeaa888deab39c8c41bc5",
+    "ipo_eval/validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+    "ipo_eval/validation_v2.py": "72ace679946468800fef46e32a4d48e9b82db86efefa549a21a1364c57e43be1",
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "ipo_eval/__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+    "config/A0.json": "441943c09c5f708dc661a8fc74700802b2cb0ed4cb608226ab3e27ca02b2024a",
+    "config/B.json": "dee18a9553320ef85fb44de837569c11e8dbbc339b0cf646238267bd657c7900",
+    "config/B_v1.json": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+    "config/cases.json": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+    "prompts/A0.md": "6756f19bf0fad1c18486c79d9a29cf0699d25f1c5ba1dd393b52021714d67010",
+    "prompts/common.md": "21f22adf7c1e130aff95fb1cba26f3e1a59ab2fc5ea085a4bc92ce0b4ca3fa7a",
+    "prompts/v2_contract.md": "a2988cf888a52d2dc6bf98576e825b71ceb6097d75e740a163ea6a197f958efa",
+    "scripts/run_development_comparison.py": "fec442f41b71ea05143ff5f0eaef6a1992f0a58ff1baa86382ee3004cb8fe484",
+    "pyproject.toml": "9520a6c3c709e7abd581cbc114d5d602fe959604c5af90f93b27b65b917ed36d"
+  },
+  "new_gold_hashes_before_answers": {
+    "data/cases/ALT-DEV-01/private/gold.json": "47d6734f9324fc09727289604b46c1f65401725987e4f53e11f56ce77ac156d5",
+    "data/cases/MILLIE-DEV-01/private/gold.json": "705bbdc1d92320bd3e75998c83bb1d9437f57880ebcda976b3c9a9bb55dd87fb",
+    "data/cases/SHINSUNGST-DEV-01/private/gold.json": "3f9192c4da55cfe5ea86f1fe3ee0909720afa4a7de3d4e79ec2aa3fe9597f87c"
+  },
+  "roster_sha256": "1e5d111e60a70980d124d27f7b904ea39bf99314cae14da8def19f6f64caf1ae",
+  "diagnostic_subset": true,
+  "execution_workers": 2,
+  "launch_policy": "Verify frozen source hashes and STOP before every live run; record unexecuted items separately. Active API calls finish and remain recorded.",
+  "preflights": [
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111428Z_B_684f82fc",
+      "summary": {
+        "run_id": "20261113T111428Z_B_684f82fc",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.948,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 43,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111429Z_A0_62d85bc7",
+      "summary": {
+        "run_id": "20261113T111429Z_A0_62d85bc7",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.234,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111429Z_B_eb421ae4",
+      "summary": {
+        "run_id": "20261113T111429Z_B_eb421ae4",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.404,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 28,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111430Z_A0_35454ad3",
+      "summary": {
+        "run_id": "20261113T111430Z_A0_35454ad3",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.17,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    }
+  ],
+  "final_evaluation_requested": false
+}

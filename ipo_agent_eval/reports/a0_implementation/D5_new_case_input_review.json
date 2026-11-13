@@ -1,0 +1,60 @@
+{
+  "reviewer": "root",
+  "review": "independent public-input and gold lock validation before model answers",
+  "cases": [
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "documents": [
+        {
+          "doc_id": "SHINSUNGST-PROS-01",
+          "sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+          "pages": 430,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "private_gold_sha256": "3f9192c4da55cfe5ea86f1fe3ee0909720afa4a7de3d4e79ec2aa3fe9597f87c",
+      "checks": [
+        "PDF SHA256 and complete physical-page coverage",
+        "same public method bytes",
+        "gold hash refers to registered PDF",
+        "gold locked before answers and labelled AI-prepared/not human-verified"
+      ]
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "documents": [
+        {
+          "doc_id": "ALT-PROS-01",
+          "sha256": "f9a14394dafa92b9e42b2b4253a4628c4a60ab02929408ab7b924524c78d816a",
+          "pages": 471,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "private_gold_sha256": "47d6734f9324fc09727289604b46c1f65401725987e4f53e11f56ce77ac156d5",
+      "checks": [
+        "PDF SHA256 and complete physical-page coverage",
+        "same public method bytes",
+        "gold hash refers to registered PDF",
+        "gold locked before answers and labelled AI-prepared/not human-verified"
+      ]
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "documents": [
+        {
+          "doc_id": "MILLIE-PROS-01",
+          "sha256": "051fdb0d03214ba2a9bf05f395b5679cac9df503bdbbd21ddc6333d22b142173",
+          "pages": 490,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "private_gold_sha256": "705bbdc1d92320bd3e75998c83bb1d9437f57880ebcda976b3c9a9bb55dd87fb",
+      "checks": [
+        "PDF SHA256 and complete physical-page coverage",
+        "same public method bytes",
+        "gold hash refers to registered PDF",
+        "gold locked before answers and labelled AI-prepared/not human-verified"
+      ]
+    }
+  ]
+}

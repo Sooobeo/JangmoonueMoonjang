@@ -1,0 +1,36 @@
+{
+  "review": "v041 dynamic missing-field enum independent regression review 2",
+  "reviewer": "contracts",
+  "checked_at_utc": "2026-11-13T11:14:05.937895+00:00",
+  "status": "PASS_AFTER_REPAIR",
+  "production_changes_by_reviewer": false,
+  "test": "tests/test_remediation_integration.py::test_dynamic_missing_field_enum_does_not_restrict_unrelated_review_strings",
+  "result": "1 passed, 11 deselected in 4.13s; repeated with 4 analyzer checks: 5 passed in 2.54s",
+  "checked_unrelated_strings": [
+    "scope.document_ids.items",
+    "scope.verification_limits.items",
+    "judgments.conclusion",
+    "judgments.next_action",
+    "judgments.judgment_id",
+    "judgments.facts.text",
+    "judgments.facts.claim_id",
+    "judgments.evidence.doc_id",
+    "judgments.evidence.chunk_id",
+    "judgments.evidence.claim_id",
+    "judgments.evidence.locator",
+    "missing_inputs.missing_reason",
+    "missing_inputs.request_id",
+    "requests.question"
+  ],
+  "checks": [
+    "Nonempty unresolved field enum is on a distinct leaf object only.",
+    "Unrelated scalar strings have no generated missing-field enum.",
+    "Mutation of one returned schema does not affect a later schema.",
+    "Original v040 saved review/repair request each has 40 contaminated unrelated paths; original FAILED remains preserved."
+  ],
+  "files": {
+    "ipo_eval\\tool_gateway.py": "e65b0e67359ae088ec2f03fa250de11ae49a139906abeaa888deab39c8c41bc5",
+    "tests\\test_remediation_integration.py": "591aac4359161117246a9e472fd5282257b05cf23b6fb14520cf6fae8055cb96"
+  },
+  "v040_evidence": "DIAG_v040_analysis.json runs[ALT B].infrastructure_findings"
+}

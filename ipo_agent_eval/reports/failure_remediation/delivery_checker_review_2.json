@@ -1,0 +1,47 @@
+{
+  "review": "delivery checker review 2",
+  "reviewer": "preservation_review",
+  "checked_at_utc": "2026-11-13T11:27:12.649243+00:00",
+  "status": "PASS_OFFLINE_AFTER_REPAIR_FINAL_BATCH_PENDING",
+  "scope": "Independent initial code review; root-authorized checker implementation and self-verification after findings; further cross-review requested. No production source changes or API calls.",
+  "hashes": {
+    "check_delivery.py": "c4c86afae3fc103d92e53649b09980d01441fc354a5c0396b341d06e5b5343d1",
+    "test_check_delivery.py": "aa0b2a6f5fd68826067b29f0c0b781c649ad5e68787473c81bcf932a6be890ca",
+    "delivery_checker_review_2.md": "a18ffe458db0d06c9fed98f98a02e86ab87885c1fe5ad5832f14e87fa3dc6410"
+  },
+  "tests": {
+    "command": "python -X utf8 -m pytest reports/failure_remediation/test_check_delivery.py -q",
+    "result": "22 passed in 12.51s",
+    "prior_result": "17 passed in 10.70s"
+  },
+  "live_artifact_read_only_check": {
+    "label": "DIAG_v041",
+    "audited_runs": 4,
+    "run_level_failures": [],
+    "preservation_passed": true,
+    "overall_passed": false,
+    "expected_failure": "Expected exactly six fresh B/A0 pairs",
+    "accepted_commit_and_sync_recheck": "4 runs passed after the cross-review fix"
+  },
+  "final_target": "FIX_v043_RUNNING",
+  "final_execution_review": "NOT_STARTED_PENDING_COMPLETE_BATCH",
+  "checker_output_in_review_manifest": false,
+  "resolved_initial_findings": [
+    "Missing directory silently skipped",
+    "Duplicate run folders/IDs and row-summary identity not checked",
+    "Current successful evaluation and sensitivity not separately required",
+    "Cross-review by contracts: require exactly one accepted current COMMIT, SUBMITTED transition and final-phase ledger sync, not just summary status"
+  ],
+  "limitations": [
+    "Coordinate/contract auditing does not prove source semantic entailment",
+    "Known cost and unknown usage reservations are estimates, not invoice evidence",
+    "No final batch or overall acceptance is claimed"
+  ],
+  "updated_at_utc": "2026-11-13T11:52:49.891374+00:00",
+  "independent_cross_review": {
+    "reviewer": "contracts",
+    "result": "20 passed in 11.48s; COMMIT and ledger findings resolved",
+    "followup": "Probe/raw-cost preservation additions rechecked in the final 20-test run"
+  },
+  "supplemental_preservation_files": 661
+}

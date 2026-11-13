@@ -1,0 +1,14 @@
+{
+  "review": "Compact claim patch extension implementer review 1",
+  "status": "PASS_OFFLINE",
+  "tests": "32 patch unit tests plus 11 integration tests passed",
+  "scope": "Only evidence ev[].claim may be relinked; declarations c recognized only in values/derivations under matching target schema.",
+  "negative_tests": [
+    "c declaration change",
+    "chunk/at change",
+    "new/untrusted extra claim ID",
+    "numerical calculation replacement"
+  ],
+  "independent_review": "preservation_review separately reviews format_patch/wire; root third review follows",
+  "source_hash": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f"
+}

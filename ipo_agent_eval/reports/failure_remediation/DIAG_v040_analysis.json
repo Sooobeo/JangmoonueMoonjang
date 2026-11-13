@@ -1,0 +1,2693 @@
+{
+  "label": "DIAG_v040",
+  "generated_at_utc": "2026-11-13T11:12:50.744310+00:00",
+  "registry_complete": true,
+  "all_planned_terminal_observed": true,
+  "counts": {
+    "planned": 4,
+    "actual_started": 4,
+    "api_started": 4,
+    "explicit_not_started": 0,
+    "not_yet_observed": 0,
+    "ambiguous_unlisted": 0,
+    "by_status": {
+      "FAILED": 2,
+      "SUBMITTED": 2
+    }
+  },
+  "conditions": {
+    "A0": {
+      "planned": 2,
+      "actual_started": 2,
+      "api_started": 2,
+      "observed_statuses": {
+        "SUBMITTED": 2
+      },
+      "registered_records": 89,
+      "registered_facts": 45,
+      "fact_count_unobserved_runs": 0,
+      "real_model_tool_choices": {
+        "search_corpus": 13,
+        "read_source": 8,
+        "REGISTER_BATCH": 2,
+        "submit_review": 2,
+        "EVALUATE": 1
+      },
+      "calculation_status_counts": {
+        "UNAVAILABLE": 8,
+        "OK": 7,
+        "INVALID": 4
+      },
+      "submitted_calculation_use_counts": {
+        "USE": 3,
+        "REJECT": 3
+      },
+      "token_totals": {
+        "input_tokens": 632727,
+        "ordinary_input_tokens": 336,
+        "cached_input_tokens": 450546,
+        "cache_write_30m_tokens": 181845,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 17598,
+        "reasoning_tokens": 1111
+      },
+      "known_usage_cost_usd": "0.33815955",
+      "requests_without_usage": 0
+    },
+    "B": {
+      "planned": 2,
+      "actual_started": 2,
+      "api_started": 2,
+      "observed_statuses": {
+        "FAILED": 2
+      },
+      "registered_records": 90,
+      "registered_facts": 42,
+      "fact_count_unobserved_runs": 0,
+      "real_model_tool_choices": {},
+      "calculation_status_counts": {
+        "UNAVAILABLE": 11,
+        "INVALID": 19,
+        "OK": 2
+      },
+      "submitted_calculation_use_counts": {},
+      "token_totals": {
+        "input_tokens": 153713,
+        "ordinary_input_tokens": 15,
+        "cached_input_tokens": 3906,
+        "cache_write_30m_tokens": 149792,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 19086,
+        "reasoning_tokens": 3096
+      },
+      "known_usage_cost_usd": "0.28288030",
+      "requests_without_usage": 0
+    }
+  },
+  "costs": {
+    "known_usage_cost_usd": "0.62103985",
+    "requests_without_usage": 0,
+    "unpriced_usage_requests": 0,
+    "batch_total_estimate_usd": "0.62103985",
+    "invoice_cost_usd": null
+  },
+  "runs": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": "20261113T110630Z_B_5147fc4b",
+      "directory": "runs/20261113T110630Z_B_5147fc4b",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "INVALID_RECORD:Usability does not match its selected fact",
+      "terminal": true,
+      "elapsed_seconds": 69.882,
+      "registration": {
+        "input_snapshot_id": "X_EMPTY",
+        "record_count": 0,
+        "records_by_kind": {},
+        "fact_count": 0,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "program_fixed": {
+          "search_corpus": 8,
+          "read_source": 8,
+          "REGISTER_BATCH": 2
+        }
+      },
+      "real_model_tool_choices": {},
+      "calculations": {
+        "count": 0,
+        "by_kind_status": {},
+        "by_status": {},
+        "rows": []
+      },
+      "submitted_calculation_uses": null,
+      "submitted_use_counts": null,
+      "tool_errors": [
+        {
+          "call_id": "B_register",
+          "tool": "calculate",
+          "error_code": "INVALID_RECORD",
+          "message": "Usability does not match its selected fact"
+        },
+        {
+          "call_id": "B_register_repaired",
+          "tool": "calculate",
+          "error_code": "INVALID_RECORD",
+          "message": "Usability does not match its selected fact"
+        }
+      ],
+      "usage_cost": {
+        "model_calls": 2,
+        "responses_with_usage": 2,
+        "priced_responses": 2,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.10728350",
+        "total_cost_estimate_usd": "0.10728350",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 63052,
+          "ordinary_input_tokens": 6,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 63046,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5694,
+          "reasoning_tokens": 690
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T110630Z_B_5147fc4b/01_extract_response.json",
+            "response_id": "resp_05862bd02204b037016af6ef3a345c87d2aa5d480eb2e98517",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 55982,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 55979
+              },
+              "output_tokens": 5658,
+              "output_tokens_details": {
+                "reasoning_tokens": 668
+              },
+              "total_tokens": 61640
+            },
+            "estimated_cost_usd": "0.09826675",
+            "input_tokens": 55982,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 55979,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5658,
+            "reasoning_tokens": 668,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.06997375",
+              "cache_write_12h": "0.0",
+              "output": "0.02829"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_B_5147fc4b/02_format_repair_response.json",
+            "response_id": "resp_047da40461ce5c63016af6ef7aac8c87d2bd2a11908e172652",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 7070,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 7067
+              },
+              "output_tokens": 36,
+              "output_tokens_details": {
+                "reasoning_tokens": 22
+              },
+              "total_tokens": 7106
+            },
+            "estimated_cost_usd": "0.00901675",
+            "input_tokens": 7070,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 7067,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 36,
+            "reasoning_tokens": 22,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.00883375",
+              "cache_write_12h": "0.0",
+              "output": "0.00018"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {},
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.0-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 400000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 0.75,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T110630Z_B_5147fc4b/summary.json",
+        "runs/20261113T110630Z_B_5147fc4b/events.jsonl",
+        "runs/20261113T110630Z_B_5147fc4b/snapshots.json",
+        "runs/20261113T110630Z_B_5147fc4b/extraction.json",
+        "runs/20261113T110630Z_B_5147fc4b/calculations.json"
+      ]
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": "20261113T110630Z_A0_30c1b28b",
+      "directory": "runs/20261113T110630Z_A0_30c1b28b",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "terminal": true,
+      "elapsed_seconds": 136.132,
+      "registration": {
+        "input_snapshot_id": "X_d6a2f394cf87f4fa1acfd870",
+        "record_count": 48,
+        "records_by_kind": {
+          "CONTEXT": 9,
+          "VALUE": 18,
+          "SHARE_COMPONENT": 5,
+          "PEER": 2,
+          "DERIVATION": 6,
+          "SELECTION": 7,
+          "COVERAGE": 1
+        },
+        "fact_count": 24,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "model": {
+          "search_corpus": 8,
+          "read_source": 4,
+          "REGISTER_BATCH": 1,
+          "submit_review": 1
+        },
+        "program_commit": {
+          "request_information": 1,
+          "escalate": 1
+        }
+      },
+      "real_model_tool_choices": {
+        "search_corpus": 8,
+        "read_source": 4,
+        "REGISTER_BATCH": 1,
+        "submit_review": 1
+      },
+      "calculations": {
+        "count": 0,
+        "by_kind_status": {},
+        "by_status": {},
+        "rows": []
+      },
+      "submitted_calculation_uses": [],
+      "submitted_use_counts": {},
+      "tool_errors": [],
+      "usage_cost": {
+        "model_calls": 14,
+        "responses_with_usage": 14,
+        "priced_responses": 14,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.17340535",
+        "total_cost_estimate_usd": "0.17340535",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 319422,
+          "ordinary_input_tokens": 171,
+          "cached_input_tokens": 225037,
+          "cache_write_30m_tokens": 94214,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 8843,
+          "reasoning_tokens": 468
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/01_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef3a4c8487d280f07f569bcd9536",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 8010,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 8007
+              },
+              "output_tokens": 66,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 8076
+            },
+            "estimated_cost_usd": "0.01034175",
+            "input_tokens": 8010,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 8007,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 66,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.01000875",
+              "cache_write_12h": "0.0",
+              "output": "0.00033"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/02_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef3d459c87d2a1cd554bba5ccde0",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 8824,
+              "input_tokens_details": {
+                "cached_tokens": 8007,
+                "cache_write_tokens": 814
+              },
+              "output_tokens": 55,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 8879
+            },
+            "estimated_cost_usd": "0.00169585",
+            "input_tokens": 8824,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 8007,
+            "cache_write_30m_tokens": 814,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 55,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00040035",
+              "cache_write_30m": "0.0010175",
+              "cache_write_12h": "0.0",
+              "output": "0.000275"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/03_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef404fe487d292fbe61fb6f697da",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 9290,
+              "input_tokens_details": {
+                "cached_tokens": 8821,
+                "cache_write_tokens": 466
+              },
+              "output_tokens": 54,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 9344
+            },
+            "estimated_cost_usd": "0.00129655",
+            "input_tokens": 9290,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 8821,
+            "cache_write_30m_tokens": 466,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 54,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00044105",
+              "cache_write_30m": "0.0005825",
+              "cache_write_12h": "0.0",
+              "output": "0.00027"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/04_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef42a8d487d2a7d05f8d51155a0b",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 9760,
+              "input_tokens_details": {
+                "cached_tokens": 9287,
+                "cache_write_tokens": 470
+              },
+              "output_tokens": 45,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 9805
+            },
+            "estimated_cost_usd": "0.00127985",
+            "input_tokens": 9760,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 9287,
+            "cache_write_30m_tokens": 470,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00046435",
+              "cache_write_30m": "0.0005875",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/05_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef456a0c87d2a670d9aa02c12663",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 17172,
+              "input_tokens_details": {
+                "cached_tokens": 9757,
+                "cache_write_tokens": 7412
+              },
+              "output_tokens": 64,
+              "output_tokens_details": {
+                "reasoning_tokens": 9
+              },
+              "total_tokens": 17236
+            },
+            "estimated_cost_usd": "0.01007585",
+            "input_tokens": 17172,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 9757,
+            "cache_write_30m_tokens": 7412,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 64,
+            "reasoning_tokens": 9,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00048785",
+              "cache_write_30m": "0.009265",
+              "cache_write_12h": "0.0",
+              "output": "0.00032"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/06_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef4ac93487d2b88a223f132df5db",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 17647,
+              "input_tokens_details": {
+                "cached_tokens": 17169,
+                "cache_write_tokens": 475
+              },
+              "output_tokens": 52,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 17699
+            },
+            "estimated_cost_usd": "0.00171520",
+            "input_tokens": 17647,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 17169,
+            "cache_write_30m_tokens": 475,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 52,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00085845",
+              "cache_write_30m": "0.00059375",
+              "cache_write_12h": "0.0",
+              "output": "0.00026"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/07_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef4cda2487d2ad349b9f43739c7c",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 18601,
+              "input_tokens_details": {
+                "cached_tokens": 17644,
+                "cache_write_tokens": 954
+              },
+              "output_tokens": 34,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 18635
+            },
+            "estimated_cost_usd": "0.0022477",
+            "input_tokens": 18601,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 17644,
+            "cache_write_30m_tokens": 954,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 34,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0008822",
+              "cache_write_30m": "0.0011925",
+              "cache_write_12h": "0.0",
+              "output": "0.00017"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/08_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef523aa087d2a0e98056ae168065",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 22217,
+              "input_tokens_details": {
+                "cached_tokens": 18598,
+                "cache_write_tokens": 3616
+              },
+              "output_tokens": 80,
+              "output_tokens_details": {
+                "reasoning_tokens": 20
+              },
+              "total_tokens": 22297
+            },
+            "estimated_cost_usd": "0.0058529",
+            "input_tokens": 22217,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 18598,
+            "cache_write_30m_tokens": 3616,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 80,
+            "reasoning_tokens": 20,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0009299",
+              "cache_write_30m": "0.00452",
+              "cache_write_12h": "0.0",
+              "output": "0.0004"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/09_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef5508e087d2aae5a7c470c0f5ea",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 23205,
+              "input_tokens_details": {
+                "cached_tokens": 22214,
+                "cache_write_tokens": 988
+              },
+              "output_tokens": 62,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 23267
+            },
+            "estimated_cost_usd": "0.0026587",
+            "input_tokens": 23205,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 22214,
+            "cache_write_30m_tokens": 988,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 62,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0011107",
+              "cache_write_30m": "0.001235",
+              "cache_write_12h": "0.0",
+              "output": "0.00031"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/10_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef57ad3c87d28d6539116c0d4aaa",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 24173,
+              "input_tokens_details": {
+                "cached_tokens": 23202,
+                "cache_write_tokens": 968
+              },
+              "output_tokens": 56,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 24229
+            },
+            "estimated_cost_usd": "0.0026531",
+            "input_tokens": 24173,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 23202,
+            "cache_write_30m_tokens": 968,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 56,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0011601",
+              "cache_write_30m": "0.00121",
+              "cache_write_12h": "0.0",
+              "output": "0.00028"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/11_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef5a256487d288fecae5ff4e264b",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 32645,
+              "input_tokens_details": {
+                "cached_tokens": 24170,
+                "cache_write_tokens": 8472
+              },
+              "output_tokens": 79,
+              "output_tokens_details": {
+                "reasoning_tokens": 19
+              },
+              "total_tokens": 32724
+            },
+            "estimated_cost_usd": "0.0121965",
+            "input_tokens": 32645,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 24170,
+            "cache_write_30m_tokens": 8472,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 79,
+            "reasoning_tokens": 19,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0012085",
+              "cache_write_30m": "0.01059",
+              "cache_write_12h": "0.0",
+              "output": "0.000395"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/12_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef5d365887d2999bed76762bd5a9",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 33529,
+              "input_tokens_details": {
+                "cached_tokens": 32642,
+                "cache_write_tokens": 884
+              },
+              "output_tokens": 56,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 33585
+            },
+            "estimated_cost_usd": "0.0030201",
+            "input_tokens": 33529,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 32642,
+            "cache_write_30m_tokens": 884,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 56,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0016321",
+              "cache_write_30m": "0.001105",
+              "cache_write_12h": "0.0",
+              "output": "0.00028"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/13_explore_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef5fe8e887d2b88c7af1b487b682",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 45611,
+              "input_tokens_details": {
+                "cached_tokens": 33526,
+                "cache_write_tokens": 12082
+              },
+              "output_tokens": 3442,
+              "output_tokens_details": {
+                "reasoning_tokens": 160
+              },
+              "total_tokens": 49053
+            },
+            "estimated_cost_usd": "0.0339918",
+            "input_tokens": 45611,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 33526,
+            "cache_write_30m_tokens": 12082,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 3442,
+            "reasoning_tokens": 160,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0016763",
+              "cache_write_30m": "0.0151025",
+              "cache_write_12h": "0.0",
+              "output": "0.01721"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110630Z_A0_30c1b28b/14_finalize_response.json",
+            "response_id": "resp_0823d6bbb8a23bae016af6ef88fb1887d2820d9211bc77eb76",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 48738,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 48606
+              },
+              "output_tokens": 4698,
+              "output_tokens_details": {
+                "reasoning_tokens": 260
+              },
+              "total_tokens": 53436
+            },
+            "estimated_cost_usd": "0.0843795",
+            "input_tokens": 48738,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 48606,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 4698,
+            "reasoning_tokens": 260,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.0607575",
+              "cache_write_12h": "0.0",
+              "output": "0.02349"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {
+          "search_corpus": 8,
+          "read_source": 4,
+          "REGISTER_BATCH": 1,
+          "submit_review": 1
+        },
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.0-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 400000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 0.75,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T110630Z_A0_30c1b28b/summary.json",
+        "runs/20261113T110630Z_A0_30c1b28b/events.jsonl",
+        "runs/20261113T110630Z_A0_30c1b28b/snapshots.json",
+        "runs/20261113T110630Z_A0_30c1b28b/extraction.json",
+        "runs/20261113T110630Z_A0_30c1b28b/calculations.json",
+        "runs/20261113T110630Z_A0_30c1b28b/review.json"
+      ]
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": "20261113T110740Z_B_31fd7dc2",
+      "directory": "runs/20261113T110740Z_B_31fd7dc2",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "ISOLATION_VIOLATION:The execution was terminated after an isolation violation",
+      "terminal": true,
+      "elapsed_seconds": 162.714,
+      "registration": {
+        "input_snapshot_id": "X_fea528bf3448019912c6c0b9",
+        "record_count": 90,
+        "records_by_kind": {
+          "CONTEXT": 14,
+          "VALUE": 36,
+          "SHARE_COMPONENT": 4,
+          "PEER": 4,
+          "DERIVATION": 6,
+          "SELECTION": 25,
+          "COVERAGE": 1
+        },
+        "fact_count": 42,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "program_fixed": {
+          "search_corpus": 8,
+          "read_source": 8,
+          "REGISTER_BATCH": 1,
+          "EVALUATE": 1,
+          "sensitivity": 1,
+          "submit_review": 1
+        },
+        "program_commit": {
+          "submit_review": 1
+        }
+      },
+      "real_model_tool_choices": {},
+      "calculations": {
+        "count": 32,
+        "by_kind_status": {
+          "share_sum": {
+            "UNAVAILABLE": 1
+          },
+          "share_count_difference": {
+            "UNAVAILABLE": 1
+          },
+          "peer_market_cap": {
+            "UNAVAILABLE": 4
+          },
+          "peer_recomputed_per": {
+            "INVALID": 4
+          },
+          "peer_displayed_mean": {
+            "OK": 1
+          },
+          "peer_displayed_median": {
+            "OK": 1
+          },
+          "peer_recomputed_mean": {
+            "UNAVAILABLE": 1
+          },
+          "price_from_reported_equity": {
+            "INVALID": 1
+          },
+          "price_from_displayed_per": {
+            "INVALID": 1
+          },
+          "reported_price_difference": {
+            "UNAVAILABLE": 1
+          },
+          "displayed_price_difference": {
+            "UNAVAILABLE": 1
+          },
+          "implied_per": {
+            "INVALID": 1
+          },
+          "price_from_recomputed_peer_mean": {
+            "UNAVAILABLE": 1
+          },
+          "derivation_d1": {
+            "UNAVAILABLE": 1
+          },
+          "derivation_d2": {
+            "INVALID": 1
+          },
+          "derivation_d3": {
+            "INVALID": 1
+          },
+          "derivation_d4": {
+            "INVALID": 1
+          },
+          "derivation_d5": {
+            "INVALID": 1
+          },
+          "derivation_d6": {
+            "INVALID": 1
+          },
+          "sensitivity_baseline": {
+            "INVALID": 1
+          },
+          "sensitivity_displayed_mean": {
+            "INVALID": 1
+          },
+          "sensitivity_displayed_median": {
+            "INVALID": 1
+          },
+          "sensitivity_exclude_peer_1": {
+            "INVALID": 1
+          },
+          "sensitivity_exclude_peer_2": {
+            "INVALID": 1
+          },
+          "sensitivity_exclude_peer_3": {
+            "INVALID": 1
+          },
+          "sensitivity_exclude_peer_4": {
+            "INVALID": 1
+          }
+        },
+        "by_status": {
+          "UNAVAILABLE": 11,
+          "INVALID": 19,
+          "OK": 2
+        },
+        "rows": [
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_share_sum_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Coverage or denominator treatment/quantity is incomplete"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_share_count_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_market_cap_f64551fc",
+            "kind": null,
+            "entity_id": "p1",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_recomputed_per_f64551fc",
+            "kind": null,
+            "entity_id": "p1",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_market_cap_3946ca64",
+            "kind": null,
+            "entity_id": "p2",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_recomputed_per_3946ca64",
+            "kind": null,
+            "entity_id": "p2",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_market_cap_43bb00d0",
+            "kind": null,
+            "entity_id": "p3",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_recomputed_per_43bb00d0",
+            "kind": null,
+            "entity_id": "p3",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_market_cap_ab71fc4c",
+            "kind": null,
+            "entity_id": "p4",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_recomputed_per_ab71fc4c",
+            "kind": null,
+            "entity_id": "p4",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "18.025",
+            "reason": null
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "17.6",
+            "reason": null
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_peer_recomputed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "No peer was silently dropped. Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_price_from_reported_equity_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_price_from_displayed_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_reported_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_displayed_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_implied_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_price_from_recomputed_peer_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required issuer or peer inputs are unavailable"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_derivation_d1_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Share denominator coverage is incomplete or unresolved"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_derivation_d2_f64551fc",
+            "kind": null,
+            "entity_id": "p1",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_derivation_d3_3946ca64",
+            "kind": null,
+            "entity_id": "p2",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_derivation_d4_43bb00d0",
+            "kind": null,
+            "entity_id": "p3",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_derivation_d5_ab71fc4c",
+            "kind": null,
+            "entity_id": "p4",
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_derivation_d6_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_sensitivity_baseline_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_sensitivity_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_sensitivity_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_sensitivity_exclude_peer_1_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_sensitivity_exclude_peer_2_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_sensitivity_exclude_peer_3_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_fea528bf3448019912c6c0b9_sensitivity_exclude_peer_4_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          }
+        ]
+      },
+      "submitted_calculation_uses": null,
+      "submitted_use_counts": null,
+      "tool_errors": [
+        {
+          "call_id": "B_commit",
+          "tool": "submit_review",
+          "error_code": "ISOLATION_VIOLATION",
+          "message": "Document is outside the registered public case"
+        },
+        {
+          "call_id": "B_commit_repaired",
+          "tool": "submit_review",
+          "error_code": "ISOLATION_VIOLATION",
+          "message": "The execution was terminated after an isolation violation"
+        }
+      ],
+      "usage_cost": {
+        "model_calls": 3,
+        "responses_with_usage": 3,
+        "priced_responses": 3,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.17559680",
+        "total_cost_estimate_usd": "0.17559680",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 90661,
+          "ordinary_input_tokens": 9,
+          "cached_input_tokens": 3906,
+          "cache_write_30m_tokens": 86746,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 13392,
+          "reasoning_tokens": 2406
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T110740Z_B_31fd7dc2/01_extract_response.json",
+            "response_id": "resp_0ad6b604a3b303a5016af6ef7e43e487d2af93f44f7101e0fb",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 33237,
+              "input_tokens_details": {
+                "cached_tokens": 3906,
+                "cache_write_tokens": 29328
+              },
+              "output_tokens": 8224,
+              "output_tokens_details": {
+                "reasoning_tokens": 800
+              },
+              "total_tokens": 41461
+            },
+            "estimated_cost_usd": "0.0779783",
+            "input_tokens": 33237,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 3906,
+            "cache_write_30m_tokens": 29328,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 8224,
+            "reasoning_tokens": 800,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0001953",
+              "cache_write_30m": "0.03666",
+              "cache_write_12h": "0.0",
+              "output": "0.04112"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110740Z_B_31fd7dc2/02_review_response.json",
+            "response_id": "resp_04e16890af28ed6c016af6efdf87fc87d28f10c1fd22ee9d3f",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 49724,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 49721
+              },
+              "output_tokens": 5083,
+              "output_tokens_details": {
+                "reasoning_tokens": 1535
+              },
+              "total_tokens": 54807
+            },
+            "estimated_cost_usd": "0.08756925",
+            "input_tokens": 49724,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 49721,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5083,
+            "reasoning_tokens": 1535,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.06215125",
+              "cache_write_12h": "0.0",
+              "output": "0.025415"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110740Z_B_31fd7dc2/03_format_repair_response.json",
+            "response_id": "resp_0f7232507db1b2dd016af6f01ce1b887d2b0d74044a2c38a0e",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 7700,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 7697
+              },
+              "output_tokens": 85,
+              "output_tokens_details": {
+                "reasoning_tokens": 71
+              },
+              "total_tokens": 7785
+            },
+            "estimated_cost_usd": "0.01004925",
+            "input_tokens": 7700,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 7697,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 85,
+            "reasoning_tokens": 71,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.00962125",
+              "cache_write_12h": "0.0",
+              "output": "0.000425"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {},
+        "request_schema_issues": [
+          {
+            "request_file": "runs/20261113T110740Z_B_31fd7dc2/02_review_request.json",
+            "issue": "DYNAMIC_SCHEMA_SHARED_STRING_ENUM_CONTAMINATION",
+            "schema_location": "text.format.schema",
+            "missing_input_field_enum": [
+              "p1.reference_price_krw",
+              "p1.reference_shares",
+              "p2.reference_price_krw",
+              "p2.reference_shares",
+              "p3.reference_price_krw",
+              "p3.reference_shares",
+              "p4.reference_price_krw",
+              "p4.reference_shares"
+            ],
+            "unrelated_string_paths": [
+              "/properties/scope/properties/document_ids/items",
+              "/properties/scope/properties/verification_limits/items",
+              "/properties/judgments/items/properties/judgment_id",
+              "/properties/judgments/items/properties/conclusion",
+              "/properties/judgments/items/properties/facts/items/properties/claim_id",
+              "/properties/judgments/items/properties/facts/items/properties/text",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/doc_id",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/chunk_id",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/claim_id",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/locator",
+              "/properties/judgments/items/properties/evidence/items/properties/doc_id",
+              "/properties/judgments/items/properties/evidence/items/properties/chunk_id",
+              "/properties/judgments/items/properties/evidence/items/properties/claim_id",
+              "/properties/judgments/items/properties/evidence/items/properties/locator",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/doc_id",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/chunk_id",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/claim_id",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/locator",
+              "/properties/judgments/items/properties/unknowns/items",
+              "/properties/judgments/items/properties/next_action",
+              "/properties/requests/items/properties/request_id",
+              "/properties/requests/items/properties/question",
+              "/properties/requests/items/properties/why_needed",
+              "/properties/requests/items/properties/related_judgment_ids/items",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/doc_id",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/chunk_id",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/claim_id",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/locator",
+              "/properties/escalations/items/properties/escalation_id",
+              "/properties/escalations/items/properties/review_focus",
+              "/properties/escalations/items/properties/question",
+              "/properties/escalations/items/properties/why_needed",
+              "/properties/escalations/items/properties/related_judgment_ids/items",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/doc_id",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/chunk_id",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/claim_id",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/locator",
+              "/properties/missing_inputs/items/properties/missing_reason",
+              "/properties/missing_inputs/items/properties/request_id",
+              "/properties/memo/items"
+            ],
+            "interpretation": "Executor-generated schema forces unrelated source IDs/prose to missing-input names. Preserve the failure, but do not attribute these forced values to independent model source fabrication."
+          },
+          {
+            "request_file": "runs/20261113T110740Z_B_31fd7dc2/03_format_repair_request.json",
+            "issue": "DYNAMIC_SCHEMA_SHARED_STRING_ENUM_CONTAMINATION",
+            "schema_location": "format_patch.target_schema",
+            "missing_input_field_enum": [
+              "p1.reference_price_krw",
+              "p1.reference_shares",
+              "p2.reference_price_krw",
+              "p2.reference_shares",
+              "p3.reference_price_krw",
+              "p3.reference_shares",
+              "p4.reference_price_krw",
+              "p4.reference_shares"
+            ],
+            "unrelated_string_paths": [
+              "/properties/scope/properties/document_ids/items",
+              "/properties/scope/properties/verification_limits/items",
+              "/properties/judgments/items/properties/judgment_id",
+              "/properties/judgments/items/properties/conclusion",
+              "/properties/judgments/items/properties/facts/items/properties/claim_id",
+              "/properties/judgments/items/properties/facts/items/properties/text",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/doc_id",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/chunk_id",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/claim_id",
+              "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/locator",
+              "/properties/judgments/items/properties/evidence/items/properties/doc_id",
+              "/properties/judgments/items/properties/evidence/items/properties/chunk_id",
+              "/properties/judgments/items/properties/evidence/items/properties/claim_id",
+              "/properties/judgments/items/properties/evidence/items/properties/locator",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/doc_id",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/chunk_id",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/claim_id",
+              "/properties/judgments/items/properties/counter_evidence/items/properties/locator",
+              "/properties/judgments/items/properties/unknowns/items",
+              "/properties/judgments/items/properties/next_action",
+              "/properties/requests/items/properties/request_id",
+              "/properties/requests/items/properties/question",
+              "/properties/requests/items/properties/why_needed",
+              "/properties/requests/items/properties/related_judgment_ids/items",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/doc_id",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/chunk_id",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/claim_id",
+              "/properties/requests/items/properties/resolution_evidence/items/properties/locator",
+              "/properties/escalations/items/properties/escalation_id",
+              "/properties/escalations/items/properties/review_focus",
+              "/properties/escalations/items/properties/question",
+              "/properties/escalations/items/properties/why_needed",
+              "/properties/escalations/items/properties/related_judgment_ids/items",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/doc_id",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/chunk_id",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/claim_id",
+              "/properties/escalations/items/properties/resolution_evidence/items/properties/locator",
+              "/properties/missing_inputs/items/properties/missing_reason",
+              "/properties/missing_inputs/items/properties/request_id",
+              "/properties/memo/items"
+            ],
+            "interpretation": "Executor-generated schema forces unrelated source IDs/prose to missing-input names. Preserve the failure, but do not attribute these forced values to independent model source fabrication."
+          }
+        ],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [
+        {
+          "request_file": "runs/20261113T110740Z_B_31fd7dc2/02_review_request.json",
+          "issue": "DYNAMIC_SCHEMA_SHARED_STRING_ENUM_CONTAMINATION",
+          "schema_location": "text.format.schema",
+          "missing_input_field_enum": [
+            "p1.reference_price_krw",
+            "p1.reference_shares",
+            "p2.reference_price_krw",
+            "p2.reference_shares",
+            "p3.reference_price_krw",
+            "p3.reference_shares",
+            "p4.reference_price_krw",
+            "p4.reference_shares"
+          ],
+          "unrelated_string_paths": [
+            "/properties/scope/properties/document_ids/items",
+            "/properties/scope/properties/verification_limits/items",
+            "/properties/judgments/items/properties/judgment_id",
+            "/properties/judgments/items/properties/conclusion",
+            "/properties/judgments/items/properties/facts/items/properties/claim_id",
+            "/properties/judgments/items/properties/facts/items/properties/text",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/doc_id",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/chunk_id",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/claim_id",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/locator",
+            "/properties/judgments/items/properties/evidence/items/properties/doc_id",
+            "/properties/judgments/items/properties/evidence/items/properties/chunk_id",
+            "/properties/judgments/items/properties/evidence/items/properties/claim_id",
+            "/properties/judgments/items/properties/evidence/items/properties/locator",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/doc_id",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/chunk_id",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/claim_id",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/locator",
+            "/properties/judgments/items/properties/unknowns/items",
+            "/properties/judgments/items/properties/next_action",
+            "/properties/requests/items/properties/request_id",
+            "/properties/requests/items/properties/question",
+            "/properties/requests/items/properties/why_needed",
+            "/properties/requests/items/properties/related_judgment_ids/items",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/doc_id",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/chunk_id",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/claim_id",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/locator",
+            "/properties/escalations/items/properties/escalation_id",
+            "/properties/escalations/items/properties/review_focus",
+            "/properties/escalations/items/properties/question",
+            "/properties/escalations/items/properties/why_needed",
+            "/properties/escalations/items/properties/related_judgment_ids/items",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/doc_id",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/chunk_id",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/claim_id",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/locator",
+            "/properties/missing_inputs/items/properties/missing_reason",
+            "/properties/missing_inputs/items/properties/request_id",
+            "/properties/memo/items"
+          ],
+          "interpretation": "Executor-generated schema forces unrelated source IDs/prose to missing-input names. Preserve the failure, but do not attribute these forced values to independent model source fabrication."
+        },
+        {
+          "request_file": "runs/20261113T110740Z_B_31fd7dc2/03_format_repair_request.json",
+          "issue": "DYNAMIC_SCHEMA_SHARED_STRING_ENUM_CONTAMINATION",
+          "schema_location": "format_patch.target_schema",
+          "missing_input_field_enum": [
+            "p1.reference_price_krw",
+            "p1.reference_shares",
+            "p2.reference_price_krw",
+            "p2.reference_shares",
+            "p3.reference_price_krw",
+            "p3.reference_shares",
+            "p4.reference_price_krw",
+            "p4.reference_shares"
+          ],
+          "unrelated_string_paths": [
+            "/properties/scope/properties/document_ids/items",
+            "/properties/scope/properties/verification_limits/items",
+            "/properties/judgments/items/properties/judgment_id",
+            "/properties/judgments/items/properties/conclusion",
+            "/properties/judgments/items/properties/facts/items/properties/claim_id",
+            "/properties/judgments/items/properties/facts/items/properties/text",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/doc_id",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/chunk_id",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/claim_id",
+            "/properties/judgments/items/properties/facts/items/properties/evidence/items/properties/locator",
+            "/properties/judgments/items/properties/evidence/items/properties/doc_id",
+            "/properties/judgments/items/properties/evidence/items/properties/chunk_id",
+            "/properties/judgments/items/properties/evidence/items/properties/claim_id",
+            "/properties/judgments/items/properties/evidence/items/properties/locator",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/doc_id",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/chunk_id",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/claim_id",
+            "/properties/judgments/items/properties/counter_evidence/items/properties/locator",
+            "/properties/judgments/items/properties/unknowns/items",
+            "/properties/judgments/items/properties/next_action",
+            "/properties/requests/items/properties/request_id",
+            "/properties/requests/items/properties/question",
+            "/properties/requests/items/properties/why_needed",
+            "/properties/requests/items/properties/related_judgment_ids/items",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/doc_id",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/chunk_id",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/claim_id",
+            "/properties/requests/items/properties/resolution_evidence/items/properties/locator",
+            "/properties/escalations/items/properties/escalation_id",
+            "/properties/escalations/items/properties/review_focus",
+            "/properties/escalations/items/properties/question",
+            "/properties/escalations/items/properties/why_needed",
+            "/properties/escalations/items/properties/related_judgment_ids/items",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/doc_id",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/chunk_id",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/claim_id",
+            "/properties/escalations/items/properties/resolution_evidence/items/properties/locator",
+            "/properties/missing_inputs/items/properties/missing_reason",
+            "/properties/missing_inputs/items/properties/request_id",
+            "/properties/memo/items"
+          ],
+          "interpretation": "Executor-generated schema forces unrelated source IDs/prose to missing-input names. Preserve the failure, but do not attribute these forced values to independent model source fabrication."
+        }
+      ],
+      "run_config": {
+        "version": "0.4.0-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 400000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 0.75,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T110740Z_B_31fd7dc2/summary.json",
+        "runs/20261113T110740Z_B_31fd7dc2/events.jsonl",
+        "runs/20261113T110740Z_B_31fd7dc2/snapshots.json",
+        "runs/20261113T110740Z_B_31fd7dc2/extraction.json",
+        "runs/20261113T110740Z_B_31fd7dc2/calculations.json"
+      ]
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": "20261113T110846Z_A0_775083d3",
+      "directory": "runs/20261113T110846Z_A0_775083d3",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "terminal": true,
+      "elapsed_seconds": 128.651,
+      "registration": {
+        "input_snapshot_id": "X_17d7ebe9d7298badf47cb5d6",
+        "record_count": 41,
+        "records_by_kind": {
+          "CONTEXT": 6,
+          "VALUE": 21,
+          "SHARE_COMPONENT": 4,
+          "PEER": 4,
+          "SELECTION": 5,
+          "COVERAGE": 1
+        },
+        "fact_count": 21,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "model": {
+          "search_corpus": 5,
+          "read_source": 4,
+          "REGISTER_BATCH": 1,
+          "EVALUATE": 1,
+          "submit_review": 1
+        },
+        "program_commit": {
+          "request_information": 1,
+          "escalate": 1
+        }
+      },
+      "real_model_tool_choices": {
+        "search_corpus": 5,
+        "read_source": 4,
+        "REGISTER_BATCH": 1,
+        "EVALUATE": 1,
+        "submit_review": 1
+      },
+      "calculations": {
+        "count": 19,
+        "by_kind_status": {
+          "share_sum": {
+            "UNAVAILABLE": 1
+          },
+          "share_count_difference": {
+            "UNAVAILABLE": 1
+          },
+          "peer_market_cap": {
+            "UNAVAILABLE": 4
+          },
+          "peer_recomputed_per": {
+            "OK": 4
+          },
+          "peer_displayed_mean": {
+            "OK": 1
+          },
+          "peer_displayed_median": {
+            "OK": 1
+          },
+          "peer_recomputed_mean": {
+            "OK": 1
+          },
+          "price_from_reported_equity": {
+            "INVALID": 1
+          },
+          "price_from_displayed_per": {
+            "INVALID": 1
+          },
+          "reported_price_difference": {
+            "UNAVAILABLE": 1
+          },
+          "displayed_price_difference": {
+            "UNAVAILABLE": 1
+          },
+          "implied_per": {
+            "INVALID": 1
+          },
+          "price_from_recomputed_peer_mean": {
+            "INVALID": 1
+          }
+        },
+        "by_status": {
+          "UNAVAILABLE": 8,
+          "OK": 7,
+          "INVALID": 4
+        },
+        "rows": [
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_share_sum_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Coverage or denominator treatment/quantity is incomplete"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_share_count_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_market_cap_f64551fc",
+            "kind": null,
+            "entity_id": "p1",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_recomputed_per_f64551fc",
+            "kind": null,
+            "entity_id": "p1",
+            "status": "OK",
+            "result": "13.76859609037826859609037826859609037827",
+            "reason": null
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_market_cap_3946ca64",
+            "kind": null,
+            "entity_id": "p2",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_recomputed_per_3946ca64",
+            "kind": null,
+            "entity_id": "p2",
+            "status": "OK",
+            "result": "25.76064060020199105468186408887606406002",
+            "reason": null
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_market_cap_43bb00d0",
+            "kind": null,
+            "entity_id": "p3",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_recomputed_per_43bb00d0",
+            "kind": null,
+            "entity_id": "p3",
+            "status": "OK",
+            "result": "11.07833682295962608125541949537888881839",
+            "reason": null
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_market_cap_ab71fc4c",
+            "kind": null,
+            "entity_id": "p4",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_recomputed_per_ab71fc4c",
+            "kind": null,
+            "entity_id": "p4",
+            "status": "OK",
+            "result": "21.4311889250814332247557003257328990228",
+            "reason": null
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "18.025",
+            "reason": null
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "17.6",
+            "reason": null
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_recomputed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "18.00969060965532973919584054464598556987",
+            "reason": null
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_price_from_reported_equity_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_price_from_displayed_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_reported_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_displayed_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_implied_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          },
+          {
+            "calc_id": "C_17d7ebe9d7298badf47cb5d6_price_from_recomputed_peer_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "INVALID",
+            "result": null,
+            "reason": "Declared input contexts are incompatible: scope"
+          }
+        ]
+      },
+      "submitted_calculation_uses": [
+        {
+          "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_displayed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "18.025",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "공시 표시 네 PER의 산술평균",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_displayed_median_535c6f8e",
+          "use": "USE",
+          "stated_value": "17.6",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "공시 표시 PER의 중앙값; 주당가액 민감도는 별도 미실행",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_17d7ebe9d7298badf47cb5d6_peer_recomputed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "18.00969060965532973919584054464598556987",
+          "related_judgment_ids": [
+            "J2"
+          ],
+          "reason": "공시 시가총액과 이익으로 재계산한 평균; 독립 검증 아님",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_17d7ebe9d7298badf47cb5d6_share_sum_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "coverage INCOMPLETE로 공식 합계는 미산출; 부분합만 반환",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_17d7ebe9d7298badf47cb5d6_price_from_reported_equity_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "입력 scope 불일치로 INVALID",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_17d7ebe9d7298badf47cb5d6_price_from_displayed_per_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "입력 scope 불일치로 INVALID",
+          "replacement_id": null,
+          "unresolved": true
+        }
+      ],
+      "submitted_use_counts": {
+        "USE": 3,
+        "REJECT": 3
+      },
+      "tool_errors": [],
+      "usage_cost": {
+        "model_calls": 12,
+        "responses_with_usage": 12,
+        "priced_responses": 12,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.16475420",
+        "total_cost_estimate_usd": "0.16475420",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 313305,
+          "ordinary_input_tokens": 165,
+          "cached_input_tokens": 225509,
+          "cache_write_30m_tokens": 87631,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 8755,
+          "reasoning_tokens": 643
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/01_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efc01ad887d28716c804eda39447",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 7962,
+              "input_tokens_details": {
+                "cached_tokens": 5273,
+                "cache_write_tokens": 2686
+              },
+              "output_tokens": 63,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 8025
+            },
+            "estimated_cost_usd": "0.00393915",
+            "input_tokens": 7962,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 5273,
+            "cache_write_30m_tokens": 2686,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00026365",
+              "cache_write_30m": "0.0033575",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/02_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efc2425887d2b852eb48401cd08a",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 8900,
+              "input_tokens_details": {
+                "cached_tokens": 7959,
+                "cache_write_tokens": 938
+              },
+              "output_tokens": 32,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 8932
+            },
+            "estimated_cost_usd": "0.00173345",
+            "input_tokens": 8900,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7959,
+            "cache_write_30m_tokens": 938,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 32,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00039795",
+              "cache_write_30m": "0.0011725",
+              "cache_write_12h": "0.0",
+              "output": "0.00016"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/03_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efc4498487d282a1c59179f2fbf4",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 13202,
+              "input_tokens_details": {
+                "cached_tokens": 8897,
+                "cache_write_tokens": 4302
+              },
+              "output_tokens": 50,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 13252
+            },
+            "estimated_cost_usd": "0.00607535",
+            "input_tokens": 13202,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 8897,
+            "cache_write_30m_tokens": 4302,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 50,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00044485",
+              "cache_write_30m": "0.0053775",
+              "cache_write_12h": "0.0",
+              "output": "0.00025"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/04_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efc6de9887d2815fca7152f6c3f5",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 19156,
+              "input_tokens_details": {
+                "cached_tokens": 13199,
+                "cache_write_tokens": 5954
+              },
+              "output_tokens": 101,
+              "output_tokens_details": {
+                "reasoning_tokens": 32
+              },
+              "total_tokens": 19257
+            },
+            "estimated_cost_usd": "0.00861045",
+            "input_tokens": 19156,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 13199,
+            "cache_write_30m_tokens": 5954,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 101,
+            "reasoning_tokens": 32,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00065995",
+              "cache_write_30m": "0.0074425",
+              "cache_write_12h": "0.0",
+              "output": "0.000505"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/05_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efcaaaa487d2999bf9ce29ab5db7",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 19989,
+              "input_tokens_details": {
+                "cached_tokens": 19153,
+                "cache_write_tokens": 833
+              },
+              "output_tokens": 32,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 20021
+            },
+            "estimated_cost_usd": "0.00216190",
+            "input_tokens": 19989,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 19153,
+            "cache_write_30m_tokens": 833,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 32,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00095765",
+              "cache_write_30m": "0.00104125",
+              "cache_write_12h": "0.0",
+              "output": "0.00016"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/06_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efced9d087d2ad009ec46bec2fd6",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 23245,
+              "input_tokens_details": {
+                "cached_tokens": 19986,
+                "cache_write_tokens": 3256
+              },
+              "output_tokens": 64,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 23309
+            },
+            "estimated_cost_usd": "0.0053923",
+            "input_tokens": 23245,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 19986,
+            "cache_write_30m_tokens": 3256,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 64,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0009993",
+              "cache_write_30m": "0.00407",
+              "cache_write_12h": "0.0",
+              "output": "0.00032"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/07_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efd1dc3887d295c8c770f42de328",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 24152,
+              "input_tokens_details": {
+                "cached_tokens": 23242,
+                "cache_write_tokens": 907
+              },
+              "output_tokens": 55,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 24207
+            },
+            "estimated_cost_usd": "0.00257385",
+            "input_tokens": 24152,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 23242,
+            "cache_write_30m_tokens": 907,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 55,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0011621",
+              "cache_write_30m": "0.00113375",
+              "cache_write_12h": "0.0",
+              "output": "0.000275"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/08_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6efd411e887d2b0d4e90b09eb7032",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 25105,
+              "input_tokens_details": {
+                "cached_tokens": 24149,
+                "cache_write_tokens": 953
+              },
+              "output_tokens": 3096,
+              "output_tokens_details": {
+                "reasoning_tokens": 68
+              },
+              "total_tokens": 28201
+            },
+            "estimated_cost_usd": "0.01788170",
+            "input_tokens": 25105,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 24149,
+            "cache_write_30m_tokens": 953,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 3096,
+            "reasoning_tokens": 68,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00120745",
+              "cache_write_30m": "0.00119125",
+              "cache_write_12h": "0.0",
+              "output": "0.01548"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/09_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6eff83da087d28f69d11dc45abb19",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 28815,
+              "input_tokens_details": {
+                "cached_tokens": 25102,
+                "cache_write_tokens": 3710
+              },
+              "output_tokens": 50,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 28865
+            },
+            "estimated_cost_usd": "0.0061456",
+            "input_tokens": 28815,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 25102,
+            "cache_write_30m_tokens": 3710,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 50,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0012551",
+              "cache_write_30m": "0.0046375",
+              "cache_write_12h": "0.0",
+              "output": "0.00025"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/10_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6effb9c4c87d2bf945f8c241bd3af",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 45955,
+              "input_tokens_details": {
+                "cached_tokens": 28812,
+                "cache_write_tokens": 17140
+              },
+              "output_tokens": 230,
+              "output_tokens_details": {
+                "reasoning_tokens": 162
+              },
+              "total_tokens": 46185
+            },
+            "estimated_cost_usd": "0.0240186",
+            "input_tokens": 45955,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 28812,
+            "cache_write_30m_tokens": 17140,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 230,
+            "reasoning_tokens": 162,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0014406",
+              "cache_write_30m": "0.021425",
+              "cache_write_12h": "0.0",
+              "output": "0.00115"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/11_explore_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6f001b1c087d2b3c23fee7716d04f",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 47572,
+              "input_tokens_details": {
+                "cached_tokens": 45952,
+                "cache_write_tokens": 1617
+              },
+              "output_tokens": 53,
+              "output_tokens_details": {
+                "reasoning_tokens": 19
+              },
+              "total_tokens": 47625
+            },
+            "estimated_cost_usd": "0.00458685",
+            "input_tokens": 47572,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 45952,
+            "cache_write_30m_tokens": 1617,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 53,
+            "reasoning_tokens": 19,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0022976",
+              "cache_write_30m": "0.00202125",
+              "cache_write_12h": "0.0",
+              "output": "0.000265"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T110846Z_A0_775083d3/12_finalize_response.json",
+            "response_id": "resp_0191a91a5abee5de016af6f005504087d28f4fe0a1bbfb07f3",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 49252,
+              "input_tokens_details": {
+                "cached_tokens": 3785,
+                "cache_write_tokens": 45335
+              },
+              "output_tokens": 4929,
+              "output_tokens_details": {
+                "reasoning_tokens": 362
+              },
+              "total_tokens": 54181
+            },
+            "estimated_cost_usd": "0.08163500",
+            "input_tokens": 49252,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 3785,
+            "cache_write_30m_tokens": 45335,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 4929,
+            "reasoning_tokens": 362,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.00018925",
+              "cache_write_30m": "0.05666875",
+              "cache_write_12h": "0.0",
+              "output": "0.024645"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {
+          "search_corpus": 5,
+          "read_source": 4,
+          "REGISTER_BATCH": 1,
+          "EVALUATE": 1,
+          "submit_review": 1
+        },
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.0-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 400000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 0.75,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T110846Z_A0_775083d3/summary.json",
+        "runs/20261113T110846Z_A0_775083d3/events.jsonl",
+        "runs/20261113T110846Z_A0_775083d3/snapshots.json",
+        "runs/20261113T110846Z_A0_775083d3/extraction.json",
+        "runs/20261113T110846Z_A0_775083d3/calculations.json",
+        "runs/20261113T110846Z_A0_775083d3/review.json"
+      ]
+    }
+  ],
+  "ambiguous_unlisted_runs": [],
+  "v032_matched_reference": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102638Z_B_667bfd52",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.02781875"
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102737Z_A0_775cc567",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.07164695"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103324Z_B_332eb41f",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.06303355"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.08993870"
+    }
+  ],
+  "configuration_changes_vs_v032": {
+    "dynamic_submission_contract": {
+      "v032": null,
+      "current": true
+    },
+    "exploration_output_max": {
+      "v032": 1000,
+      "current": 3500
+    },
+    "extraction_output_max": {
+      "v032": 5000,
+      "current": 9000
+    },
+    "format_repair_contract": {
+      "v032": null,
+      "current": "patch_v1"
+    },
+    "format_repair_output_max": {
+      "v032": 2500,
+      "current": 1500
+    },
+    "input_tokens_target_max": {
+      "v032": 160000,
+      "current": 400000
+    },
+    "max_model_calls": {
+      "v032": 16,
+      "current": 24
+    },
+    "max_run_usd": {
+      "v032": 0.3,
+      "current": 0.75
+    },
+    "max_transient_api_retries": {
+      "v032": null,
+      "current": 1
+    },
+    "output_tokens_max": {
+      "v032": 16000,
+      "current": 24000
+    },
+    "review_output_max": {
+      "v032": 8500,
+      "current": 10000
+    },
+    "version": {
+      "v032": "0.3.2-dev",
+      "current": "0.4.0-dev"
+    },
+    "wall_seconds_max": {
+      "v032": 600,
+      "current": 900
+    },
+    "wire_contract": {
+      "v032": null,
+      "current": "compact_v1"
+    }
+  },
+  "quality_grading_performed": false,
+  "read_issues": [],
+  "inputs": {
+    "plan": "reports/failure_remediation/DIAG_v040_plan.json",
+    "runs": "reports/failure_remediation/DIAG_v040_runs.json",
+    "plan_sha256": "9ece90985110a24996fda2c74bf273e17f561ebea0dafaed11892390b4234618"
+  },
+  "limits": [
+    "Read-only artifact analysis; no correctness grading or model/API request.",
+    "actual_started counts observed LIVE execution attempts, excluding NOT_STARTED/PREFLIGHT statuses; api_started separately requires an actual saved model-call attempt.",
+    "NOT_YET_OBSERVED is not proof that a run was never started; active discovery requires matching LIVE/time/frozen input hashes.",
+    "Saved model function calls are counted separately from program-fixed and repaired tool invocations.",
+    "Partial analysis is a point-in-time view; missing usage and in-flight responses are not free.",
+    "v032 and this batch differ in common token/call/cost/time budgets, transport, repair, observations and retry policy. This is not an isolated intervention effect.",
+    "Submitted status and registered/calculated counts do not establish source correctness or A0 superiority."
+  ]
+}

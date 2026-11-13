@@ -1,0 +1,122 @@
+{
+  "review": "implementation review 2, v0.4.1 follow-up",
+  "reviewer": "preservation_review",
+  "checked_at_utc": "2026-11-13T11:15:14.120634+00:00",
+  "status": "PASS_OFFLINE_AFTER_REPAIR",
+  "version": "0.4.1-dev",
+  "scope": "Independent delta review of root changes; tests and new reports edited only, no production source or API calls.",
+  "prior_review": {
+    "file": "reports/failure_remediation/implementation_review_2.json",
+    "exists": true,
+    "sha256": "210b0346414583046582e098ddee0a479a877632ce04bdd4323f9decccbda1f5"
+  },
+  "changed_production_files_from_v040": [
+    "ipo_eval/runner_v2.py",
+    "ipo_eval/tool_gateway.py",
+    "config/A0.json",
+    "config/B.json",
+    "prompts/v2_contract.md",
+    "pyproject.toml"
+  ],
+  "source_hashes": {
+    "ipo_eval/agent_loop.py": "725675de7b51192516f6f5cc43935484a2485722c546a318e8bf6b296457fee2",
+    "ipo_eval/budget.py": "f6bb999f4266a2dc09b135a73310031b8a08d485cc08d93718281fd3c7263c51",
+    "ipo_eval/calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+    "ipo_eval/calculations_v2.py": "83732c887e5f79d82420e235cf6835e7ccaffb283e5da07d82ed178573b6d2de",
+    "ipo_eval/cases.py": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+    "ipo_eval/corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+    "ipo_eval/format_patch.py": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f",
+    "ipo_eval/id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+    "ipo_eval/provenance.py": "07863eb7f0444684a8cd164ec8ae6c970f5113ef9799c0f6ecec1b7ebea29896",
+    "ipo_eval/response_input.py": "6cce4438e9f510e4139cda970b90f86bd4b3ed3fab1269077bfd5f19eafbe04c",
+    "ipo_eval/runner.py": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+    "ipo_eval/runner_v2.py": "47656a184ab32444fa2545f7f2489affb58e69bb0a183adfd699bdb77e9b46ec",
+    "ipo_eval/runtime_v2.py": "70c03f58ae5a3c78fe28cef72613236d07d95a02d2c6bba9bff2244797cc63b8",
+    "ipo_eval/schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+    "ipo_eval/schemas_v2.py": "31f89b9113814ec5469b4b30b54958fd39cf0bf1c18dee68f213f29a8a4d7acd",
+    "ipo_eval/tool_gateway.py": "e65b0e67359ae088ec2f03fa250de11ae49a139906abeaa888deab39c8c41bc5",
+    "ipo_eval/validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+    "ipo_eval/validation_v2.py": "72ace679946468800fef46e32a4d48e9b82db86efefa549a21a1364c57e43be1",
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "ipo_eval/__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+    "config/A0.json": "441943c09c5f708dc661a8fc74700802b2cb0ed4cb608226ab3e27ca02b2024a",
+    "config/B.json": "dee18a9553320ef85fb44de837569c11e8dbbc339b0cf646238267bd657c7900",
+    "config/B_v1.json": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+    "config/cases.json": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+    "prompts/A0.md": "6756f19bf0fad1c18486c79d9a29cf0699d25f1c5ba1dd393b52021714d67010",
+    "prompts/common.md": "21f22adf7c1e130aff95fb1cba26f3e1a59ab2fc5ea085a4bc92ce0b4ca3fa7a",
+    "prompts/v2_contract.md": "a2988cf888a52d2dc6bf98576e825b71ceb6097d75e740a163ea6a197f958efa",
+    "scripts/run_development_comparison.py": "fec442f41b71ea05143ff5f0eaef6a1992f0a58ff1baa86382ee3004cb8fe484",
+    "pyproject.toml": "9520a6c3c709e7abd581cbc114d5d602fe959604c5af90f93b27b65b917ed36d"
+  },
+  "tests": [
+    {
+      "command": "python -X utf8 -m pytest tests/test_remediation_independent_review.py tests/test_remediation_integration.py tests/test_format_patch.py tests/test_wire_contract.py tests/test_runtime_transient_retry.py -q",
+      "result": "99 passed in 10.26s",
+      "xfail": 0
+    },
+    {
+      "command": "python -X utf8 -m pytest tests/test_remediation_independent_review.py tests/test_remediation_integration.py::test_dynamic_missing_field_enum_does_not_restrict_unrelated_review_strings -q",
+      "result": "7 passed in 3.74s",
+      "note": "Includes the subsequently added synthetic prompt registration test; not a separate seven-test suite to add to the earlier count."
+    }
+  ],
+  "test_file_sha256": "4970c7587b7a4a3b86edd34cff7b70c8cb9f28a85154532d1d09625510e82671",
+  "findings": [
+    {
+      "id": "IR2-02",
+      "status": "RESOLVED_V041",
+      "resolution": "B REGISTER and COMMIT fatal errors now call _required immediately. Two formerly strict-xfail tests now pass: model calls exactly 1/2, zero format repairs, FAILED/null final status and no accepted review."
+    },
+    {
+      "id": "V041-SCHEMA-ALIAS",
+      "status": "RESOLVED_INDEPENDENTLY_VERIFIED",
+      "resolution": "Dynamic missing_inputs.field enum replaces its leaf dictionary. It no longer mutates the aliased shared string schema used for prose/doc/claim/source fields. Exact unresolved-field validation stays active.",
+      "evidence": {
+        "file": "reports/failure_remediation/alias_regression_review_2.json",
+        "exists": true,
+        "sha256": "1ffe13fc818ca65409d567a1d62becaa6f7263322d3701fab5a3089335c076a8"
+      }
+    },
+    {
+      "id": "MANIFEST-READABILITY-01",
+      "status": "RESOLVED_V041",
+      "resolution": "Root implementation review rewritten as readable UTF-8 Korean; replacement count zero."
+    },
+    {
+      "id": "MANIFEST-DIAG1-SIGNOFF",
+      "status": "RESOLVED_V041",
+      "resolution": "Root diagnosis_1.md explicitly records diagnosis scope and uncertainty."
+    }
+  ],
+  "checks": {
+    "B_A0_condition_only_config_difference": true,
+    "input_cap": 800000,
+    "per_run_dollar_cap": 1.25,
+    "same_model_and_reasoning": true,
+    "prompt_explains_existing_contract_not_fact_or_action_selection": true,
+    "same_context_labels_only_when_source_bases_are_actually_same": true,
+    "derived_output_not_duplicated_as_null_value": true,
+    "synthetic_example_registers_market_cap_100_million": true,
+    "no_programmatic_A0_registration_or_calculation_added": true,
+    "known_and_unknown_usage_accounting_unchanged": true
+  },
+  "documents": {
+    "implementation_review_1.md": {
+      "hangul_characters": 549,
+      "replacement_characters": 0,
+      "sha256": "9cda3c22fdaba9e717534b558bfe1ac734e0385dd9ef563b16692279ca5415fe"
+    },
+    "diagnosis_1.md": {
+      "hangul_characters": 402,
+      "replacement_characters": 0,
+      "sha256": "973cc6614a9ae7a113affecade7d42f70c0d42bc718919efa8d14a16aa4e14e5"
+    }
+  },
+  "limits": [
+    "Offline contract and orchestration checks do not establish real model completion or answer correctness.",
+    "v0.4.1 changes both contract explanation and input/cost caps; results cannot be presented as same-condition v032 improvement or one-factor causal evidence.",
+    "DIAG_v041 remains diagnostic; final twelve-run frozen batch, three execution reviews and three overall reviews are pending.",
+    "Final preservation verification is deferred until the final delivery checkpoint; prior source snapshots/reports are not rewritten here."
+  ]
+}

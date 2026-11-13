@@ -1,0 +1,38 @@
+{
+  "batch": "FIX_v043",
+  "report_status": "IN_PROGRESS",
+  "scope": "Six A0 development executions in FIX_v043 only. PriorDIAG/FIX batches separately preserved.",
+  "reviewer": "Codex AI-assisted nonblind review; not human-finalized. Reviewer previously authored prompt and driver portions.",
+  "policy": {
+    "mandatory_failed": "Protocol11.1: attempted FAILED mandatory F/K/J omissions score0; unexecuted or not-yet-observed=null.",
+    "methodology_rate": "Count(J==2)/4, not sum(J)/8.",
+    "source_appropriateness": "Valid final judgments[].facts only; actual read location and semantic support. FULL/submitted_claims; no claim denominator for absent valid final.",
+    "partial_sum": "K1 accepts an accurately labelled component sum explicitly presented in a valid final; completeness judged separately.",
+    "numeric_comparison": "K3 accepts precise final numeric comparison of equivalent routes with a truthful unconfirmed precision explanation; log-only arithmetic without final interpretation receives no automatic credit.",
+    "calculation_use": "USE must reference existing OK calculation from final snapshot and exact Decimal result. Registration and tool calls alone do not establish valid arithmetic.",
+    "handoff": "Requests and escalations assessed individually. Internal retrieval/calculation gaps are separate from unavailable external facts.",
+    "paired_limit": "B F/J may be unassessed; do not treat A0-only F/J as a full paired quality comparison."
+  },
+  "planned_A0": [
+    "HDMS-DEV-01",
+    "MELCON-DEV-01",
+    "DTS-DEV-01",
+    "SHINSUNGST-DEV-01",
+    "ALT-DEV-01",
+    "MILLIE-DEV-01"
+  ],
+  "runs": [],
+  "pending_A0": [
+    "HDMS-DEV-01",
+    "MELCON-DEV-01",
+    "DTS-DEV-01",
+    "SHINSUNGST-DEV-01",
+    "ALT-DEV-01",
+    "MILLIE-DEV-01"
+  ],
+  "caveats": [
+    "Runtime submission, numeric availability and semantic accuracy are separate outcomes.",
+    "Frozen private gold and source corpus are used only for grading, never transmitted to the tested model.",
+    "No production code/config/prompt/run/source/gold edits or model API calls by this reviewer during frozen batch."
+  ]
+}

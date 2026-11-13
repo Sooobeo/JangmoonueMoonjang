@@ -1,0 +1,90 @@
+{
+  "review": "final_review_2 read-only cross-check",
+  "test_scenarios_mapped": 20,
+  "test_references_resolve": 36,
+  "reported_full_regression": {
+    "command": "python -X utf8 -m pytest -q",
+    "passed": 284,
+    "elapsed_seconds": 16.17,
+    "version": "0.3.2-dev"
+  },
+  "test_execution_by_this_review": false,
+  "original_design_body_preserved": true,
+  "preservation_entries_rechecked": 702,
+  "preservation_categories": {
+    "versioned_source": 27,
+    "immutable_evidence": 667,
+    "versioned_design": 8
+  },
+  "frozen_source_hashes_checked": 27,
+  "common_B_A0_configuration_equal_except_condition": true,
+  "public_corpora": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "public_directory": "data/public",
+      "documents": 1,
+      "chunks": 638,
+      "registered_public_case_isolated": true
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "public_directory": "data/cases/MELCON-DEV-01/public",
+      "documents": 1,
+      "chunks": 600,
+      "registered_public_case_isolated": true
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "public_directory": "data/cases/DTS-DEV-01/public",
+      "documents": 1,
+      "chunks": 719,
+      "registered_public_case_isolated": true
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "public_directory": "data/cases/SHINSUNGST-DEV-01/public",
+      "documents": 1,
+      "chunks": 430,
+      "registered_public_case_isolated": true
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "public_directory": "data/cases/ALT-DEV-01/public",
+      "documents": 1,
+      "chunks": 471,
+      "registered_public_case_isolated": true
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "public_directory": "data/cases/MILLIE-DEV-01/public",
+      "documents": 1,
+      "chunks": 490,
+      "registered_public_case_isolated": true
+    }
+  ],
+  "unresolved_document_links_at_check_time": [
+    {
+      "file": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\reports\\a0_implementation\\implementation_report.md",
+      "target": "final_review_1.md"
+    },
+    {
+      "file": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\reports\\a0_implementation\\implementation_report.md",
+      "target": "final_review_2.md"
+    },
+    {
+      "file": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\reports\\a0_implementation\\implementation_report.md",
+      "target": "final_review_3.md"
+    }
+  ],
+  "final_aggregate_recheck": {
+    "started_attempts": 18,
+    "paired_attempts": 12,
+    "saved_response_usages_reconciled": 78,
+    "paired_known_usage_cost_usd": "0.80509405",
+    "all_started_known_usage_cost_usd": "1.09106735",
+    "unknown_usage_requests": 3,
+    "invoice_cost_usd": null,
+    "operator_interruption_label_corrected_without_source_mutation": true
+  },
+  "document_link_note": "At the initial check final_review_1/2/3 were expected closing artifacts; no other document link was unresolved. Overall third-review completion remains the root closing step."
+}

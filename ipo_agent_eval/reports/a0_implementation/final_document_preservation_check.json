@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-11-13T10:45:23.835464+00:00",
+  "manifest_sha256": "ab21733c283cc4b3a7cc94d0d26a282b4792e587c7975c62b88b229229e2457e",
+  "git_head_at_capture": "1102edaa9bc27307500662e40fa6fffd3ef33234",
+  "total_entries": 702,
+  "supplements": [
+    {
+      "path": "preservation_supplement_phase1.json",
+      "sha256": "5bafe317fefa7c9b0c8296ec133d32ac1505050a9f0c5b837c41c2b85b1f8d4a",
+      "entry_count": 4
+    }
+  ],
+  "counts_by_category": {
+    "versioned_source": 27,
+    "immutable_evidence": 667,
+    "versioned_design": 8
+  },
+  "passed": true,
+  "violations": [],
+  "versioned_working_files_changed": [
+    {
+      "path": "ipo_agent_eval/README.md",
+      "before": "99af23208206f98189462b33f1cb7c1a680c576b9068d15b38196488af598b2f",
+      "after": "aedd9704852e4c963ea4a2ff3616c5c1b9c824ab6bd9d0056cff5518b0c66e72",
+      "reason": "changed"
+    },
+    {
+      "path": "ipo_agent_eval/config/B.json",
+      "before": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+      "after": "33e5deefe2f851c05a35e0f69a40be727d946507e87f31c62e35d1ad310a15fa",
+      "reason": "changed"
+    },
+    {
+      "path": "ipo_agent_eval/config/cases.json",
+      "before": "773b6d0e93eb2c56f6833545401c09077f846990db232b105b22aaa96e57a087",
+      "after": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+      "reason": "changed"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/runner.py",
+      "before": "da5e8beaddfcb32df1e9c1d9018718a727f8fb0c45f49ec7f91a48781737da28",
+      "after": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+      "reason": "changed"
+    },
+    {
+      "path": "ipo_agent_eval/pyproject.toml",
+      "before": "a4c2a709d247464d4337c23f4e9a50323ee487608ddad27e8f0e87d07cc06510",
+      "after": "9bb9485b9cf529c693ded423d2a6bbacbed08cbf8446fb7f3564c835bfa537d3",
+      "reason": "changed"
+    },
+    {
+      "path": "ipo_agent_eval/tests/test_workflow.py",
+      "before": "c83cf99e17f849cda0bbdc39584e0e6b3fc2babc1189dba941203662aa4a2fc8",
+      "after": "cccf00b100479519c29da3fa86c47e711527297ca340272879cd00178fbcd05e",
+      "reason": "changed"
+    },
+    {
+      "path": "whole plan/IPO_파일럿보완_A0_상세설계.md",
+      "before": "08d56f5b80ce0d3814f8cc72e4a515a34cbc9a5cfb5c98bb743d3606bfcf1d1f",
+      "after": "74c4f6e7eeaf8487ebb4dcc8e4cee8736848a33640d2374a75cf37ebb4604934",
+      "reason": "changed"
+    }
+  ],
+  "new_files_policy": "New files are outside the frozen baseline and allowed."
+}

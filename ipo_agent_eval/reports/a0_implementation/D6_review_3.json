@@ -1,0 +1,164 @@
+{
+  "stage": "D6",
+  "review_pass": 3,
+  "reviewer": "case_roster agent; independent of handoff author, previously prepared/graded new cases",
+  "reviewed_on": "2026-11-13",
+  "status": "PASS_AFTER_REPAIR",
+  "scope": "Read-only review of handoff against raw completed D5_v032 runs, private gold grading records and configured cost assumptions. No code/run/source edits.",
+  "reviewed_artifacts_sha256": {
+    "reports/a0_implementation/D6_failure_handoff.json": "14fdec40b3453fb85f2fdf9d570bb7486f43f4ffc5c6266ce4c79e9b35654041",
+    "reports/a0_implementation/D6_failure_handoff.md": "a3e4cd53cc53b02be2cad292c2146e6f73f24ec9ce4c9d31cee7b6dd494d18d4",
+    "scripts/build_a0_handoff.py": "01fbd60eacf7684026e94d362d48480e006da68289759c9d79739c7dec7a80df"
+  },
+  "checks": {
+    "record_count": 25,
+    "distinct_runs": 12,
+    "candidate_count": 3,
+    "raw_identity_tools_pages_snapshots_calculations_and_grade_metric_comparisons": {
+      "records_checked": 25,
+      "mismatches": []
+    },
+    "evidence_files_exist": true,
+    "all_candidate_evidence_is_actual_A0": true,
+    "bidirectional_candidate_failure_links": true,
+    "new_A0_chain": {
+      "cases": [
+        "SHINSUNGST-DEV-01",
+        "ALT-DEV-01",
+        "MILLIE-DEV-01"
+      ],
+      "observed": "INPUT_RESERVATION finalization with X_EMPTY and no calculations; COMMIT missing_inputs/UNRESOLVED mismatch; one2500token format repair incomplete.",
+      "run_ids": [
+        "20261113T103143Z_A0_9bdd2148",
+        "20261113T103423Z_A0_cc00c4a1",
+        "20261113T103701Z_A0_d0d960a0"
+      ],
+      "event_lines": [
+        [
+          40,
+          46
+        ],
+        [
+          40,
+          46
+        ],
+        [
+          45,
+          51
+        ]
+      ],
+      "result": "PASS"
+    },
+    "B_whitespace": {
+      "ALT": {
+        "total_characters": 26339,
+        "trailing_whitespace": 22372
+      },
+      "MILLIE": {
+        "total_characters": 232404,
+        "trailing_whitespace": 227869
+      },
+      "result": "PASS: raw counts match; no root cause or guaranteed fix claimed"
+    },
+    "score_boundary": "PASS: missing mandatory0 vs unobserved semantic-error/false-completion/hold null; 25 records explicitly not25 failed runs",
+    "cost": {
+      "model_calls_planning_range": [
+        0,
+        3
+      ],
+      "tools_planning_range": [
+        0,
+        3
+      ],
+      "assumed_input_tokens_per_call": 16000,
+      "assumed_output_tokens_per_call": 1000,
+      "standard_usd_per_call": "0.021",
+      "cache_write_ceiling_usd_per_call": "0.025",
+      "three_call_nominal_usd": "0.063",
+      "three_call_cache_write_assumption_usd": "0.075",
+      "result": "PASS_AS_UNMEASURED_ASSUMPTION",
+      "limit": "3 extra calls are not guaranteed feasible under160k cumulative input; replacing existing searches and respecting common caps is required. A1 effect/cost unmeasured."
+    }
+  },
+  "findings": [
+    {
+      "id": "D6-R3-01",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "location": "D6_failure_handoff.json D6-007/D6-010 observation.grading_observations; scripts/build_a0_handoff.py available_work branch",
+      "issue": "Both grading_observations arrays are empty because source builder reads failure_observations, while valid submitted-run request judgments are stored in request_assessments/content_observations. A1-C3 loses the specific request anchors.",
+      "actual_evidence": {
+        "MELCON": "review.json requests/R1 asks to register already read source inputs and run calculations; request_assessments/R1 true, R2 and E1 false.",
+        "DTS": "review.json requests/R1 asks for within-corpus locations and R2 asks for registration/calculations; request_assessments/R1 and R2 true, E1 false."
+      },
+      "requested_fix": "Carry specific request_id, per-request judgment/reason, source pages and review.json pointer into D6-007/010. Preserve justified E1 and avoid classifying the whole HUMAN_REVIEW as unnecessary.",
+      "resolution": "D6-007/010 now include request_assessments and content_observations with six concrete review pointers; R1/R2/E1 IDs resolve to raw submitted reviews, justified E1 remains false."
+    },
+    {
+      "id": "D6-R3-02",
+      "severity": "LOW",
+      "status": "RESOLVED",
+      "location": "D6-002 observation.interpretation; scripts/build_a0_handoff.py failed-row common description",
+      "issue": "API_ERROR:InternalServerError row inherits text referring to an observed output-limit stop although that run ended on server error.",
+      "requested_fix": "Choose interpretation by actual failure reason; for API failure retain server-error/usage uncertainty and do not imply token truncation.",
+      "resolution": "D6-002 interpretation now names server/API error and unknown usage; no output-limit assertion remains."
+    }
+  ],
+  "conclusion": "PASS_AFTER_REPAIR. Both findings were corrected and independently rechecked.25 records match12 raw runs; three A1 candidates link to actual A0 evidence. Added cost remains a planning assumption, with no implementation/effect claim.",
+  "initial_status": "NEEDS_REPORT_REPAIR",
+  "initial_reviewed_artifacts_sha256": {
+    "reports/a0_implementation/D6_failure_handoff.json": "14fdec40b3453fb85f2fdf9d570bb7486f43f4ffc5c6266ce4c79e9b35654041",
+    "reports/a0_implementation/D6_failure_handoff.md": "a3e4cd53cc53b02be2cad292c2146e6f73f24ec9ce4c9d31cee7b6dd494d18d4",
+    "scripts/build_a0_handoff.py": "01fbd60eacf7684026e94d362d48480e006da68289759c9d79739c7dec7a80df"
+  },
+  "recheck": {
+    "all25_raw_trace_comparisons": "PASS",
+    "six_request_pointers": [
+      {
+        "failure_id": "D6-007",
+        "request_id": "R1",
+        "unnecessary_blocking_deferral": true,
+        "review_pointer": "runs/20261113T102737Z_A0_775cc567/review.json#/requests/0",
+        "raw_id_match": true
+      },
+      {
+        "failure_id": "D6-007",
+        "request_id": "R2",
+        "unnecessary_blocking_deferral": false,
+        "review_pointer": "runs/20261113T102737Z_A0_775cc567/review.json#/requests/1",
+        "raw_id_match": true
+      },
+      {
+        "failure_id": "D6-007",
+        "request_id": "E1",
+        "unnecessary_blocking_deferral": false,
+        "review_pointer": "runs/20261113T102737Z_A0_775cc567/review.json#/escalations/0",
+        "raw_id_match": true
+      },
+      {
+        "failure_id": "D6-010",
+        "request_id": "R1",
+        "unnecessary_blocking_deferral": true,
+        "review_pointer": "runs/20261113T102939Z_A0_9536c596/review.json#/requests/0",
+        "raw_id_match": true
+      },
+      {
+        "failure_id": "D6-010",
+        "request_id": "R2",
+        "unnecessary_blocking_deferral": true,
+        "review_pointer": "runs/20261113T102939Z_A0_9536c596/review.json#/requests/1",
+        "raw_id_match": true
+      },
+      {
+        "failure_id": "D6-010",
+        "request_id": "E1",
+        "unnecessary_blocking_deferral": false,
+        "review_pointer": "runs/20261113T102939Z_A0_9536c596/review.json#/escalations/0",
+        "raw_id_match": true
+      }
+    ],
+    "C3_phase_boundary": "EXPLORING checkpoint explicitly specified; no query/calculation restart after FINALIZING/COMMIT; detection remains an unimplemented proposal.",
+    "new_case_raw_artifact_hashes": "UNCHANGED",
+    "open_findings": 0
+  }
+}

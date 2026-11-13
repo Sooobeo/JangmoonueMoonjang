@@ -1,0 +1,42 @@
+{
+  "review": "final_review_3",
+  "reviewer": "root",
+  "checked_at_utc": "2026-11-13T10:50:46.756576+00:00",
+  "status": "PASS",
+  "open_findings": [],
+  "delivery_check": {
+    "passed": true,
+    "issues": [],
+    "stage_review_records": 21,
+    "overall_review_records": 3,
+    "frozen_runtime_files_checked": 27,
+    "test_scenarios": 20,
+    "regression_passed": 284,
+    "local_links_checked": 55,
+    "paid_requests_made_by_this_check": 0,
+    "notes": [
+      "Assertions additionally verify all 12 paired outcomes, grading denominators, costs and candidate links.",
+      "This closes delivery evidence; it does not make the failed experimental runs successful."
+    ]
+  },
+  "preservation": {
+    "entries": 702,
+    "violations": [],
+    "evidence": "final_completion_preservation_check.json"
+  },
+  "review_1_findings_closed": [
+    "standard_uncached estimate distinguished from cache-write budget ceiling",
+    "operator-interrupted attempt no longer reported as RUNNING"
+  ],
+  "review_2_findings_closed": [
+    "cost wording corrected and rechecked"
+  ],
+  "final_document_status": "D0-D6 plus three overall reviews complete",
+  "scope_limits": [
+    "12 experiments:2 submitted,10 failed; all registered calculation counts0",
+    "A1 and held-out evaluation not run; human finalized grading not complete",
+    "Known usage costs only; missing usage is not zero"
+  ],
+  "paid_calls_during_review": 0,
+  "delivery_bootstrap_note": "The first link check ran before its own output file existed; after creating that report, the complete link check passed."
+}

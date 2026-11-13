@@ -1,0 +1,37 @@
+{
+  "version": "0.4.2-dev",
+  "review_number": 1,
+  "status": "PASS_AFTER_TEST_FIXTURE_REPAIR",
+  "scope": "Exact economic role SELECTION priority over disclosed/derived aliases",
+  "observed_failure": {
+    "run_id": "20261113T112431Z_B_3b8035d8",
+    "execution_status": "SUBMITTED",
+    "calculation_limitation": "Reported and derived share selections coexist; no canonical share_count selection, so prices and sensitivity unavailable. Code inspection additionally showed adding canonical selection would still be treated as ambiguous."
+  },
+  "change": "_selected first honors an explicit exact field/entity SELECTION, including selected_fact_id null (no fallback); only absent exact selection uses prior unique alias selection and fact fallback. No selection or input is generated. Shared prompt documents share_count role separately from reported/derived roles.",
+  "tests": {
+    "command": "python -m pytest tests/test_calculations_v2.py tests/test_contracts_v2.py tests/test_calculation_use_wire.py tests/test_remediation_integration.py tests/test_format_patch.py -q",
+    "passed": 114,
+    "elapsed_seconds": 5.26,
+    "new_role_tests": 4,
+    "coverage": [
+      "exact reported choice over both alias choices",
+      "exact derived choice over both alias choices",
+      "explicit UNRESOLVED not overridden by usable aliases",
+      "absent exact selection remains ambiguous",
+      "snapshot reproducibility and both original facts preserved",
+      "sensitivity uses exact role choice"
+    ]
+  },
+  "first_test_run": "Four new tests initially failed due synthetic coverage evidence default C_F not declared; fixed only fixture to cite its C_EX. All checks then passed.",
+  "source_hashes": {
+    "ipo_eval\\calculations_v2.py": "316654d5b66ff364838afcd532e002a7547bcf4fcd231debdd0f20b576df8684",
+    "prompts\\v2_contract.md": "904458fb3881eedf2088c69d0ebb68170272d0cea6e1af369744afb48037161c",
+    "tests\\test_calculations_v2.py": "acf4147d526dacd2134949688ced38dc5724116962ba5fc49a43a43f272b850f"
+  },
+  "limitations": [
+    "Does not automatically add a canonical share_count choice.",
+    "Business adequacy remains the model/human decision.",
+    "Original failed/incomplete execution artifacts are unmodified; only fresh runs use this correction."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "purpose": "Private grader reference only; not model input and not a replacement for submitted calculations",
+  "decimal_precision": 40,
+  "results": {
+    "HDMS-DEV-01": {
+      "shares": 44870190,
+      "reported_equity_based_price": "106112.6106218850421627365518175875787466",
+      "displayed_per_price": "106087.2262854246884178560420626701157272",
+      "median_price": "107602.7580895021839666825569492796888090",
+      "exclude_korea_shipbuilding_price": "100474.1455295821123110911721122642894982"
+    },
+    "MELCON-DEV-01": {
+      "shares": 12735000,
+      "reported_equity_based_price": "14173.30192383195916764821358460934432666",
+      "displayed_per_price": "14172.35335689045936395759717314487632509",
+      "displayed_per_price_delta_from_reported": "0.64664310954063604240282685512367491"
+    },
+    "DTS-DEV-01": {
+      "shares": 14881735,
+      "displayed_per_price": "26376.27937871491462521003095405206449382",
+      "median_price": "13498.64111946624503124131695665861541010",
+      "recomputed_per_mean": "16.14223893130539521989033232721966442966",
+      "recomputed_per_price": "26379.93828067407541847324133899590598336"
+    }
+  }
+}

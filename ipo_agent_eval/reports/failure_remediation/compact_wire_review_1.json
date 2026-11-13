@@ -1,0 +1,38 @@
+{
+  "review": "compact transport implementation review 1",
+  "reviewer": "contracts implementer self-review",
+  "checked_at_utc": "2026-11-13T10:59:13.769537+00:00",
+  "status": "PASS_OFFLINE_LIVE_EFFECT_UNVERIFIED",
+  "checks": {
+    "original_contract_unchanged": true,
+    "all_seven_payload_mappings_complete": true,
+    "no_root_or_nested_anyOf": true,
+    "required_and_additionalProperties_rules_preserved": true,
+    "all_model_selected_semantics_explicit": true,
+    "actual_read_coordinates_only": true,
+    "same_snapshot_and_calculation_for_roundtrip": true,
+    "invalid_values_not_repaired": true,
+    "raw_inputs_not_mutated": true,
+    "targeted_and_contract_regression": "71 passed in 4.01s",
+    "new_targeted_tests": 23
+  },
+  "files": [
+    "ipo_eval/wire_contract.py",
+    "tests/test_wire_contract.py"
+  ],
+  "source_hashes": {
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "tests/test_wire_contract.py": "60ea84d75da93a738852bcf988f14dd3cc3ddd5481a50d71e066b7d4aca934f3"
+  },
+  "diagnosis": "Four B outputs consume the limit while emitting records. ALT/MILLIE additionally show long whitespace immediately after the first VALUE evidence array. Existing nested anyOf is officially supported, so these observations do not prove a logically impossible schema.",
+  "mechanism": "Kind-specific arrays remove union branches and record wrappers; shorter keys and actual-read-coordinate expansion remove redundant output. Nullable value bookkeeping precedes evidence.",
+  "limits": [
+    "No model API request by this agent. Live whitespace and completion effects remain unverified.",
+    "Complete saved record prefixes are used only to measure serialization size; no truncated extraction is accepted, repaired, or used as a new answer.",
+    "Observed prefix savings are 10.1%-23.2% with both forms minified; this does not establish a complete six-case extraction will fit the old 5000-token budget.",
+    "Record list interleaving changes to fixed kind groups; all payloads, IDs, within-kind order, notes and the registered immutable snapshot identity are preserved.",
+    "Adapter does not establish economic truth. Existing gateway/registration still performs semantic validation."
+  ],
+  "official_reference": "https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses",
+  "official_reference_observation": "Structured Outputs supports nested anyOf; root must be an object, every field required, additionalProperties false. Incomplete responses still require application handling."
+}

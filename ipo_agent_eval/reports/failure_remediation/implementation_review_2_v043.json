@@ -1,0 +1,80 @@
+{
+  "review": "implementation review 2 v0.4.3 follow-up",
+  "reviewer": "preservation_review",
+  "checked_at_utc": "2026-11-13T11:49:30.184315+00:00",
+  "status": "PASS_OFFLINE_AFTER_REPAIR",
+  "source_hashes": {
+    "config/A0.json": "cb42c88d2c962b857ab061cba76c8b4bb31517dfd21bb54c49b007ca6cbadeeb",
+    "config/B.json": "98edc0aa835a1ce17422f32b4050324c3435493951574679fd8245e5aec20f60",
+    "config/B_v1.json": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+    "config/cases.json": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+    "ipo_eval/__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+    "ipo_eval/agent_loop.py": "725675de7b51192516f6f5cc43935484a2485722c546a318e8bf6b296457fee2",
+    "ipo_eval/budget.py": "f6bb999f4266a2dc09b135a73310031b8a08d485cc08d93718281fd3c7263c51",
+    "ipo_eval/calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+    "ipo_eval/calculations_v2.py": "316654d5b66ff364838afcd532e002a7547bcf4fcd231debdd0f20b576df8684",
+    "ipo_eval/cases.py": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+    "ipo_eval/corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+    "ipo_eval/format_patch.py": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f",
+    "ipo_eval/id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+    "ipo_eval/provenance.py": "07863eb7f0444684a8cd164ec8ae6c970f5113ef9799c0f6ecec1b7ebea29896",
+    "ipo_eval/response_input.py": "6cce4438e9f510e4139cda970b90f86bd4b3ed3fab1269077bfd5f19eafbe04c",
+    "ipo_eval/runner.py": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+    "ipo_eval/runner_v2.py": "00aea7f6b48688af417eaf287fab48708ce4169dc4f5110a16eefaa0cc436e5b",
+    "ipo_eval/runtime_v2.py": "70c03f58ae5a3c78fe28cef72613236d07d95a02d2c6bba9bff2244797cc63b8",
+    "ipo_eval/schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+    "ipo_eval/schemas_v2.py": "31f89b9113814ec5469b4b30b54958fd39cf0bf1c18dee68f213f29a8a4d7acd",
+    "ipo_eval/tool_gateway.py": "18bc9f0cfc14026c46ea31090136e3b3c5e3facc02b057134ed484e240f4c914",
+    "ipo_eval/validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+    "ipo_eval/validation_v2.py": "72ace679946468800fef46e32a4d48e9b82db86efefa549a21a1364c57e43be1",
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "ipo_eval/wire_contract_v2.py": "9eb7719ad7ac9ba141c6dd0dfcfa41f880736909b9c2f049653ad00950fa9f32",
+    "prompts/A0.md": "6756f19bf0fad1c18486c79d9a29cf0699d25f1c5ba1dd393b52021714d67010",
+    "prompts/common.md": "21f22adf7c1e130aff95fb1cba26f3e1a59ab2fc5ea085a4bc92ce0b4ca3fa7a",
+    "prompts/v2_contract.md": "4aa466c0dada727e7d2f85b8314c127bdeee4c476f14c9cbbe73e0626c63fc3e",
+    "pyproject.toml": "470c5073ea703fae38e68a782f3e2d17baaa99d01f06f588ef225d32e2f4c6ac",
+    "scripts/run_development_comparison.py": "fec442f41b71ea05143ff5f0eaef6a1992f0a58ff1baa86382ee3004cb8fe484"
+  },
+  "changes_from_v042": [
+    "config/A0.json",
+    "config/B.json",
+    "ipo_eval/runner_v2.py",
+    "ipo_eval/tool_gateway.py",
+    "ipo_eval/wire_contract_v2.py",
+    "prompts/v2_contract.md",
+    "pyproject.toml"
+  ],
+  "tests": {
+    "result": "103 passed in 12.46s",
+    "scope": "wire2, group/namespace preservation, both-wire runners, fatal boundary and patch",
+    "earlier_overlapping_result": "61 passed in 0.96s"
+  },
+  "independent_tests": {
+    "tests/test_v043_preservation_review.py": "ba0f96f248ab34c76bed5e1b27e3b992ba6ca236406858fb5254795f457539d2",
+    "tests/test_remediation_independent_review.py": "acafcc8c45db3574ff38962dccb43da908e2697abe504e934e3f55a25a1123cf"
+  },
+  "checks": {
+    "logical_v2_snapshot_and_calculation_lossless": true,
+    "exact_tuple_dedup_only": true,
+    "unused_group_raw_only_scope_disclosed": true,
+    "no_group_context_or_fact_declaration_patch": true,
+    "claim_namespace_disjoint_and_alias_safe": true,
+    "no_posthoc_claim_rename": true,
+    "actual_B_final_budget_rejection_before_second_API": true,
+    "both_wire_fatal_register_commit_boundary": true
+  },
+  "fixture_repairs": [
+    "Updated inherited mock review signature and prefix pattern expectation",
+    "Applied foreign chunk mutation to actual generated v1/v2 response rather than a v1 fixture overwritten by v2 adaptation"
+  ],
+  "production_source_edits_by_reviewer": false,
+  "API_calls": 0,
+  "final_target": "FIX_v043",
+  "final_execution_acceptance": false,
+  "limitations": [
+    "No guarantee of actual model numeric completion or financial/methodological correctness",
+    "Unused group names and arbitrary raw wire identity are not the logical-v2 roundtrip guarantee",
+    "The 3x B final-input allowance is an estimate, with actual request budget recheck before transmission",
+    "Stopped attempts and previous source/report artifacts are unchanged"
+  ]
+}

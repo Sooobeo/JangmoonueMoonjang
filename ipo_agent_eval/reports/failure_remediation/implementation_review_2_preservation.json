@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-11-13T11:08:52.763531+00:00",
+  "passed": true,
+  "manifest_sha256": "6e1d056cfa772a8e43e3f67fe19f3519a2ebf94164ae51ef315e2c0a99b2dfff",
+  "entry_count": 1914,
+  "snapshot_count": 67,
+  "immutable_count": 1847,
+  "violations": [],
+  "versioned_source_changes": [
+    "ipo_agent_eval/config/A0.json",
+    "ipo_agent_eval/config/B.json",
+    "ipo_agent_eval/ipo_eval/agent_loop.py",
+    "ipo_agent_eval/ipo_eval/budget.py",
+    "ipo_agent_eval/ipo_eval/runner_v2.py",
+    "ipo_agent_eval/ipo_eval/runtime_v2.py",
+    "ipo_agent_eval/ipo_eval/tool_gateway.py",
+    "ipo_agent_eval/prompts/A0.md",
+    "ipo_agent_eval/prompts/common.md",
+    "ipo_agent_eval/prompts/v2_contract.md",
+    "ipo_agent_eval/pyproject.toml",
+    "ipo_agent_eval/scripts/run_development_comparison.py",
+    "ipo_agent_eval/tests/test_agent_loop_v2.py"
+  ]
+}

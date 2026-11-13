@@ -1,0 +1,403 @@
+{
+  "checked_at_utc": "2026-11-13T10:18:55.173479+00:00",
+  "batch": "D5_v031",
+  "audit": "Independent review 2: stopped batch accounting and preservation",
+  "passed_accounting_and_preservation": true,
+  "development_comparison_complete": false,
+  "planned_runs": 12,
+  "terminal_failed_runs": 3,
+  "interrupted_runs": 1,
+  "not_started_runs": 8,
+  "completed_run_audit": {
+    "checked_at_utc": "2026-11-13T10:18:54.681468+00:00",
+    "batch": "D5_v031",
+    "review": "D5 independent review 2",
+    "partial": true,
+    "planned_count": 12,
+    "observed_count": 3,
+    "passed": true,
+    "issues": [],
+    "outcome_counts": {
+      "FAILED": 3
+    },
+    "raw_usage_known_cost_usd": 0.207489,
+    "unknown_usage_run_count": 1,
+    "runs": [
+      {
+        "run_id": "20261113T101337Z_B_003d69b7",
+        "case_id": "HDMS-DEV-01",
+        "condition": "B",
+        "execution_status": "FAILED",
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 45585,
+        "output_tokens": 5000,
+        "known_cost_usd": 0.070585,
+        "usage_unknown": false,
+        "actual_read_pages": 34,
+        "evidence_locations_checked": 0,
+        "snapshot_count": 1,
+        "calculation_count": 0,
+        "ledger_versions": 0,
+        "actor_counts": {
+          "program_fixed": 16
+        },
+        "source_hashes_match_frozen_batch": true,
+        "passed": true,
+        "issues": []
+      },
+      {
+        "run_id": "20261113T101439Z_A0_46ef2e9a",
+        "case_id": "HDMS-DEV-01",
+        "condition": "A0",
+        "execution_status": "FAILED",
+        "failure_reason": "API_ERROR:BadRequestError",
+        "model_calls": 6,
+        "tool_calls": 5,
+        "input_tokens": 54156,
+        "output_tokens": 286,
+        "known_cost_usd": 0.055586,
+        "usage_unknown": true,
+        "actual_read_pages": 8,
+        "evidence_locations_checked": 0,
+        "snapshot_count": 1,
+        "calculation_count": 0,
+        "ledger_versions": 0,
+        "actor_counts": {
+          "model": 5
+        },
+        "source_hashes_match_frozen_batch": true,
+        "passed": true,
+        "issues": []
+      },
+      {
+        "run_id": "20261113T101456Z_B_36bffaa3",
+        "case_id": "MELCON-DEV-01",
+        "condition": "B",
+        "execution_status": "FAILED",
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 56318,
+        "output_tokens": 5000,
+        "known_cost_usd": 0.081318,
+        "usage_unknown": false,
+        "actual_read_pages": 43,
+        "evidence_locations_checked": 0,
+        "snapshot_count": 1,
+        "calculation_count": 0,
+        "ledger_versions": 0,
+        "actor_counts": {
+          "program_fixed": 16
+        },
+        "source_hashes_match_frozen_batch": true,
+        "passed": true,
+        "issues": []
+      }
+    ],
+    "original_preservation": {
+      "checked_at_utc": "2026-11-13T10:18:54.375440+00:00",
+      "manifest_sha256": "ab21733c283cc4b3a7cc94d0d26a282b4792e587c7975c62b88b229229e2457e",
+      "git_head_at_capture": "1102edaa9bc27307500662e40fa6fffd3ef33234",
+      "total_entries": 702,
+      "supplements": [
+        {
+          "path": "preservation_supplement_phase1.json",
+          "sha256": "5bafe317fefa7c9b0c8296ec133d32ac1505050a9f0c5b837c41c2b85b1f8d4a",
+          "entry_count": 4
+        }
+      ],
+      "counts_by_category": {
+        "versioned_source": 27,
+        "immutable_evidence": 667,
+        "versioned_design": 8
+      },
+      "passed": true,
+      "violations": [],
+      "versioned_working_files_changed": [
+        {
+          "path": "ipo_agent_eval/README.md",
+          "before": "99af23208206f98189462b33f1cb7c1a680c576b9068d15b38196488af598b2f",
+          "after": "868f822f148f21f78af31eb5481c53eb7e28d8948a658e6a6686c067d86585bc",
+          "reason": "changed"
+        },
+        {
+          "path": "ipo_agent_eval/config/B.json",
+          "before": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+          "after": "2aa84370f69100c495eabd1453034a01e0353b822576c14235b441ae4e22cfba",
+          "reason": "changed"
+        },
+        {
+          "path": "ipo_agent_eval/config/cases.json",
+          "before": "773b6d0e93eb2c56f6833545401c09077f846990db232b105b22aaa96e57a087",
+          "after": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+          "reason": "changed"
+        },
+        {
+          "path": "ipo_agent_eval/ipo_eval/runner.py",
+          "before": "da5e8beaddfcb32df1e9c1d9018718a727f8fb0c45f49ec7f91a48781737da28",
+          "after": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+          "reason": "changed"
+        },
+        {
+          "path": "ipo_agent_eval/pyproject.toml",
+          "before": "a4c2a709d247464d4337c23f4e9a50323ee487608ddad27e8f0e87d07cc06510",
+          "after": "5bb8d6133699760920f9159a3b365c87eab69a64e84538ada71cee36e99209bb",
+          "reason": "changed"
+        },
+        {
+          "path": "ipo_agent_eval/tests/test_workflow.py",
+          "before": "c83cf99e17f849cda0bbdc39584e0e6b3fc2babc1189dba941203662aa4a2fc8",
+          "after": "cccf00b100479519c29da3fa86c47e711527297ca340272879cd00178fbcd05e",
+          "reason": "changed"
+        },
+        {
+          "path": "whole plan/IPO_파일럿보완_A0_상세설계.md",
+          "before": "08d56f5b80ce0d3814f8cc72e4a515a34cbc9a5cfb5c98bb743d3606bfcf1d1f",
+          "after": "cdb145e7f5622458228c93b4aea3718911aa7bed2e22ecaf8dcc9f264b91dc12",
+          "reason": "changed"
+        }
+      ],
+      "new_files_policy": "New files are outside the frozen baseline and allowed."
+    },
+    "limits": [
+      "Checks records, source isolation, arithmetic references and accounting; does not grade financial judgment.",
+      "Known-usage costs are the configured uncached estimate, not an invoice.",
+      "Connectivity smoke is separate from the planned development batch."
+    ]
+  },
+  "interrupted_run": {
+    "run_id": "20261113T101554Z_A0_500c648e",
+    "case_id": "MELCON-DEV-01",
+    "condition": "A0",
+    "execution_status": "INTERRUPTED_BY_OPERATOR",
+    "status_source": "separate audit; original run has no summary",
+    "reason": "Parent investigator reported stopping verified batch process PID 31608 after a common API-history serialization defect was observed; no terminal outcome was written for this run.",
+    "model_calls_started": 10,
+    "responses_saved": 9,
+    "unanswered_request_files": [
+      "10_format_repair_request.json"
+    ],
+    "input_tokens": 134089,
+    "output_tokens": 4283,
+    "known_usage_cost_usd_standard_uncached": 0.155504,
+    "estimated_total_cost_usd_standard_uncached": null,
+    "usage_unknown": true,
+    "tool_calls": 11,
+    "actor_counts": {
+      "model": 9,
+      "program_commit": 2
+    },
+    "actual_read_pages": 13,
+    "evidence_locations_checked": 24,
+    "synchronized_ledger_from_events": {
+      "request_information": {
+        "registered_ids": [
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "active_records": [
+          {
+            "request_id": "R1",
+            "question": "공시된 발행사 이익, 비교기업 배수, 평가 분모 및 구성요소를 현행 기준으로 등록하고 기준 재계산과 민감도를 실행할 수 있는가?",
+            "why_needed": "현재 빈 스냅샷에는 계산 가능한 입력이 없고 산술 및 민감도 검증이 미완료다.",
+            "related_judgment_ids": [
+              "J1",
+              "J3",
+              "J4"
+            ],
+            "blocking": true,
+            "resolution_status": "OPEN",
+            "resolution_evidence": [],
+            "version": 1,
+            "change_reason": null
+          },
+          {
+            "request_id": "R2",
+            "question": "허용 자료에서 주식 처분이익의 원 단위 금액과 세효과, 비교기업의 동일 기준 조정 여부 및 기초 주가·실적을 확인할 수 있는가?",
+            "why_needed": "918/919백만원 표기 차이, 세전·세후 조정과 기업 간 비교 가능성을 확인해야 한다.",
+            "related_judgment_ids": [
+              "J1",
+              "J2",
+              "J4"
+            ],
+            "blocking": true,
+            "resolution_status": "OPEN",
+            "resolution_evidence": [],
+            "version": 1,
+            "change_reason": null
+          },
+          {
+            "request_id": "R3",
+            "question": "워트의 사업·매출 구성과 공모의 구주매출 여부를 허용 공시의 현행 본문에서 확인할 수 있는가?",
+            "why_needed": "비교사업의 차이와 적용 분모 구성의 완전성을 판단해야 한다.",
+            "related_judgment_ids": [
+              "J2",
+              "J4"
+            ],
+            "blocking": true,
+            "resolution_status": "OPEN",
+            "resolution_evidence": [],
+            "version": 1,
+            "change_reason": null
+          }
+        ],
+        "new_versions": 3,
+        "external_messages_sent": 0
+      },
+      "escalate": {
+        "registered_ids": [],
+        "active_records": [],
+        "new_versions": 0,
+        "external_messages_sent": 0
+      }
+    },
+    "last_saved_event": {
+      "elapsed_seconds": 67.121,
+      "event": "model_call_started",
+      "phase": "FINALIZING",
+      "stage": "format_repair",
+      "input_tokens_estimated": 8988,
+      "estimator": "o200k_base + 800; estimate, not guarantee",
+      "max_output_tokens": 2500
+    },
+    "last_attempted_submission_errors": [
+      "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+    ],
+    "final_status": null,
+    "review_present": false,
+    "snapshot_state_note": "No calculate/REGISTER_BATCH call is recorded; saved final snapshots/extraction/ledger files are absent because process termination bypassed final persistence. Source reads and synchronized requests are retained in events/context.",
+    "issues": []
+  },
+  "not_started": [
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    }
+  ],
+  "all_attempts_known_usage_cost_usd_standard_uncached": 0.362993,
+  "all_attempts_total_cost_usd_standard_uncached": null,
+  "unknown_usage_attempt_count": 2,
+  "artifact_hashes": {
+    "reports/a0_implementation/D5_v031_plan.json": "dfd938fdce7f69f887a9bf3fa1632ddbe737ceecd57ffc54a31f25cdc4fb4f6e",
+    "reports/a0_implementation/D5_v031_runs.json": "6e55b8eb129f357232a6dbbd2e8845c9d36eae36c9732f4c7d18a987e97e09ac",
+    "runs/20261113T101337Z_B_003d69b7/01_extract_request.json": "eb3c21e9a42c7ebcbcab3cedc09014ce48083bb7ef63c4e8f5e1893bb2ce9c0d",
+    "runs/20261113T101337Z_B_003d69b7/01_extract_response.json": "4c89a6f015a19a1400219cb4f26cdb7cc3e068e110daa668ccf2b8abc676d347",
+    "runs/20261113T101337Z_B_003d69b7/calculations.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "runs/20261113T101337Z_B_003d69b7/case_selection.json": "cec797e1d1dddcc7d0f1f12f564d7468f45bbe0846c53157b6748a44c05de335",
+    "runs/20261113T101337Z_B_003d69b7/config.json": "46739d79e422c0e99db61a1f5937552dc3b9b92af128ee06f54ab98e1852b7ce",
+    "runs/20261113T101337Z_B_003d69b7/environment.json": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060",
+    "runs/20261113T101337Z_B_003d69b7/events.jsonl": "45c239e7c521813018bfb5e88e45932af34adc70c64f088d8d6152179a2fad49",
+    "runs/20261113T101337Z_B_003d69b7/extraction.json": "b746fa80601e48cbd086f526c4fa57b4fe942c4c2ae05715976b1c5361cc8d34",
+    "runs/20261113T101337Z_B_003d69b7/input_hashes.json": "0f870ff6aba4fe40ff95a9a71c458b2329cf1a224664c980ccd9c18245b52835",
+    "runs/20261113T101337Z_B_003d69b7/preflight_budget.json": "a49fe989d324e0e0631c1562e18cad5be9b1261a69e069ce3d15c6d262270d8b",
+    "runs/20261113T101337Z_B_003d69b7/request_ledger.json": "48d156f06317c0dce1d2e06e36610df2be7e9aeec63fe9b0774958e1dbf849c2",
+    "runs/20261113T101337Z_B_003d69b7/retrieval_history.json": "e190e1717fe2068a1a31fccb2ef58065d4298de17f916b9508f2b0173a8e2307",
+    "runs/20261113T101337Z_B_003d69b7/snapshots.json": "052e845c72e4f614d9b5caf011bece7a9c62a0b1510a641bc49d75ff26787b79",
+    "runs/20261113T101337Z_B_003d69b7/source_packet.json": "8f16859aef8fa77aa4d818550a4757250361b7504ea162ba14acfe383771c23a",
+    "runs/20261113T101337Z_B_003d69b7/summary.json": "55500980199ec73defb218d9e0c405bebf6289d17799b2a613bc65ebf56fc8a4",
+    "runs/20261113T101439Z_A0_46ef2e9a/01_explore_request.json": "c1c8db2f632686ae1c8c453a118230d58be16379e5369263aaf7e66c5c378553",
+    "runs/20261113T101439Z_A0_46ef2e9a/01_explore_response.json": "eaafaf7209b0a0417e5571923c33e8915a3b6db0009d33b5f4f98c6a23538466",
+    "runs/20261113T101439Z_A0_46ef2e9a/02_explore_request.json": "926228d7ea54ed894e0c58b956f0dfaa16600ea67d11e5d7c7c1c00c021345ff",
+    "runs/20261113T101439Z_A0_46ef2e9a/02_explore_response.json": "7614050597b64f6843e6f9615c3e3f8696450efb63ae6f08df808d1d63dcd1d9",
+    "runs/20261113T101439Z_A0_46ef2e9a/03_explore_request.json": "1de0faba0223dffbf85fa9fadc11f13663004b24e52cb9cbad6b497c786655a1",
+    "runs/20261113T101439Z_A0_46ef2e9a/03_explore_response.json": "966aa82f8d71ac8da0dd01f88d02f59fce42e0172122bfd8805ebcbbda3a2424",
+    "runs/20261113T101439Z_A0_46ef2e9a/04_explore_request.json": "16197a5ceec477d52da0aee0eca7c9f92cafa58826143f916a1ff940256f3a7d",
+    "runs/20261113T101439Z_A0_46ef2e9a/04_explore_response.json": "5e59369873c5e1942bfe75b5aa619b5ac750f46746fc533fa741e00694e9c606",
+    "runs/20261113T101439Z_A0_46ef2e9a/05_explore_request.json": "ef6bb7fb7a9b14c983ece46662d52d15626b0edb94400cf377b18afa63fa0c84",
+    "runs/20261113T101439Z_A0_46ef2e9a/05_explore_response.json": "cac0ea20f96f4dedddc071542d446416fb242e272cb3bb2c69addd2195b81087",
+    "runs/20261113T101439Z_A0_46ef2e9a/06_explore_request.json": "d4b1782becc9a06397497dcc277ac1431121f4d9e17d7f4f9266ba8157f2dac5",
+    "runs/20261113T101439Z_A0_46ef2e9a/calculations.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "runs/20261113T101439Z_A0_46ef2e9a/case_selection.json": "cec797e1d1dddcc7d0f1f12f564d7468f45bbe0846c53157b6748a44c05de335",
+    "runs/20261113T101439Z_A0_46ef2e9a/config.json": "beca644189c75e6e415dc82ecfbf57e58ff794a3681ce0fa59c8e8cfc2e499d0",
+    "runs/20261113T101439Z_A0_46ef2e9a/context.json": "49e5c8a7dcd0685d0822ec3f87632762e29aac9423c960f0e0dd3c433a63aabd",
+    "runs/20261113T101439Z_A0_46ef2e9a/environment.json": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060",
+    "runs/20261113T101439Z_A0_46ef2e9a/events.jsonl": "ae3a8764e2bf5c2e8a677138631dd473c4483e7dc0d1da869d09754ce61186d8",
+    "runs/20261113T101439Z_A0_46ef2e9a/extraction.json": "b746fa80601e48cbd086f526c4fa57b4fe942c4c2ae05715976b1c5361cc8d34",
+    "runs/20261113T101439Z_A0_46ef2e9a/input_hashes.json": "0f870ff6aba4fe40ff95a9a71c458b2329cf1a224664c980ccd9c18245b52835",
+    "runs/20261113T101439Z_A0_46ef2e9a/request_ledger.json": "48d156f06317c0dce1d2e06e36610df2be7e9aeec63fe9b0774958e1dbf849c2",
+    "runs/20261113T101439Z_A0_46ef2e9a/retrieval_history.json": "2892015e6f19461f7c49165d6f8667d7dd1f5f96c9353ee8b43b4bf4c5c4a1b1",
+    "runs/20261113T101439Z_A0_46ef2e9a/snapshots.json": "052e845c72e4f614d9b5caf011bece7a9c62a0b1510a641bc49d75ff26787b79",
+    "runs/20261113T101439Z_A0_46ef2e9a/source_packet.json": "de8e7de3c301c8402224ff43ec71fc4c21697703b737be077e7359f2e08a2658",
+    "runs/20261113T101439Z_A0_46ef2e9a/summary.json": "8c070dedf9184d1da08c78c846279f203d8b295538ba83c21d59f4628d3da3b5",
+    "runs/20261113T101456Z_B_36bffaa3/01_extract_request.json": "5c2b08e5e7d4932180d3d7daaa2a4d426221fa3ad0fc21453ad086cdbd521a76",
+    "runs/20261113T101456Z_B_36bffaa3/01_extract_response.json": "c1ce3d81e735c8341890b408eabe892b294219031173dcf0b0db8b7bb34d3f66",
+    "runs/20261113T101456Z_B_36bffaa3/calculations.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "runs/20261113T101456Z_B_36bffaa3/case_selection.json": "ad9aa02293f9c4520fe8247ee645294f4ac7f0749f4a1ec1ace77935b07f5c15",
+    "runs/20261113T101456Z_B_36bffaa3/config.json": "01cce3735c06525c5549c7fb61541b15ca76a98b1416752227a2b74c25c456d8",
+    "runs/20261113T101456Z_B_36bffaa3/environment.json": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060",
+    "runs/20261113T101456Z_B_36bffaa3/events.jsonl": "1b59d0e7026f9c4f6e2a72c2159bd32f4ebadce5337ffdf4456046ba6a99d7a4",
+    "runs/20261113T101456Z_B_36bffaa3/extraction.json": "b746fa80601e48cbd086f526c4fa57b4fe942c4c2ae05715976b1c5361cc8d34",
+    "runs/20261113T101456Z_B_36bffaa3/input_hashes.json": "1ad661361f109f79ec1abebbb891f4dcf2cf3b09ac75e17e621e28311260b407",
+    "runs/20261113T101456Z_B_36bffaa3/preflight_budget.json": "32e5081387cd252d96e5eab02a089804fafebb1cf636514250508bd39e7673ce",
+    "runs/20261113T101456Z_B_36bffaa3/request_ledger.json": "48d156f06317c0dce1d2e06e36610df2be7e9aeec63fe9b0774958e1dbf849c2",
+    "runs/20261113T101456Z_B_36bffaa3/retrieval_history.json": "de933945893c9a64ba6bbb9b5baf3e55167094c6b069343801b0755f06fa69c2",
+    "runs/20261113T101456Z_B_36bffaa3/snapshots.json": "052e845c72e4f614d9b5caf011bece7a9c62a0b1510a641bc49d75ff26787b79",
+    "runs/20261113T101456Z_B_36bffaa3/source_packet.json": "c3aacace9874a31155fc237d6da4d0cdb31a014d412a5232ed6672b6a912c095",
+    "runs/20261113T101456Z_B_36bffaa3/summary.json": "de2c6c6ed27f646e542c40a8fa99ccebc73f1785b28e77f578bdb386e47ba311",
+    "runs/20261113T101554Z_A0_500c648e/01_explore_request.json": "f294051785478fabed2d25bad2726f1e7b57ae0053ead3ad4718b68ab466ad75",
+    "runs/20261113T101554Z_A0_500c648e/01_explore_response.json": "433f79dfc805332dad4f93a9f53f88055241b187c7e67ab7406bca67947ab304",
+    "runs/20261113T101554Z_A0_500c648e/02_explore_request.json": "f42c8113d891a1a5e1807377e33126e9f92e2d99651a98784697862167893b45",
+    "runs/20261113T101554Z_A0_500c648e/02_explore_response.json": "6867332122f84152ce13fea8b5ef74d34984b645acdfe59407126ff6a40765b8",
+    "runs/20261113T101554Z_A0_500c648e/03_explore_request.json": "1ae3e111e2eef1e4cd3f406dea955b1828236869d2f6254590fcfb4f181dccd2",
+    "runs/20261113T101554Z_A0_500c648e/03_explore_response.json": "954dcb845db25a38028aab7bb9e5121a8c9f0407148b7ca67092b69a94b0f83f",
+    "runs/20261113T101554Z_A0_500c648e/04_explore_request.json": "1b3c63a1bffd22930cbebe4fb12fcd5a9f7504630c7b421a88679346f6b5505f",
+    "runs/20261113T101554Z_A0_500c648e/04_explore_response.json": "622d966e52bc81fafe5dd978b68cbd5dfa7e01ffd9832c1b19b978fd6c701b8b",
+    "runs/20261113T101554Z_A0_500c648e/05_explore_request.json": "0e4d743e0ee56b6d8cca64588fd8bdab478279f07fd12c47ea4af0443ca2dc01",
+    "runs/20261113T101554Z_A0_500c648e/05_explore_response.json": "773536d038981e2c5408eae055c25aae9efcb4260876ed38f79c5198edc3c54b",
+    "runs/20261113T101554Z_A0_500c648e/06_explore_request.json": "9bea7a5f71ef955d30157f97fe0ab48eb88f7beaea82b57cde863de105b61f30",
+    "runs/20261113T101554Z_A0_500c648e/06_explore_response.json": "8de58bb152a7c09c8a55338c843c08c4cbdae71077dfe377216a85308bb60ef4",
+    "runs/20261113T101554Z_A0_500c648e/07_explore_request.json": "f95016efcbd1174ed4058c6702427ab326d7b8ba2a2dc8ff5567027727f4028f",
+    "runs/20261113T101554Z_A0_500c648e/07_explore_response.json": "e267dfa5bc3f486682b67da5077544ee92f949451d15fe92a37ab64d0493f0c7",
+    "runs/20261113T101554Z_A0_500c648e/08_explore_request.json": "7f3f69480d7092629ee508e5f42ce9144bafd29054225e8ed2e3b14da89ca7f3",
+    "runs/20261113T101554Z_A0_500c648e/08_explore_response.json": "7a230ab435423addf711ba08c3cf1cdf701e4c23c8e5e794b73b1d0df4a02d18",
+    "runs/20261113T101554Z_A0_500c648e/09_finalize_request.json": "2fda1d580d92a3d9cfc252fe66c9e75bf781a98307987d412e22e60565f13527",
+    "runs/20261113T101554Z_A0_500c648e/09_finalize_response.json": "5c41812aa2f0316255825a0e4ffd5165609e9cf8f32595749b3e4117e814fb71",
+    "runs/20261113T101554Z_A0_500c648e/10_format_repair_request.json": "13ca7e3157ccbcc223c6cd0450851619798757a8fcc782658e76d375b9a2f754",
+    "runs/20261113T101554Z_A0_500c648e/case_selection.json": "ad9aa02293f9c4520fe8247ee645294f4ac7f0749f4a1ec1ace77935b07f5c15",
+    "runs/20261113T101554Z_A0_500c648e/config.json": "0bbb161e8ee586341d812663555a005668c431290ff58b1d41ac8904c9f87261",
+    "runs/20261113T101554Z_A0_500c648e/context.json": "4abee6fb1b89f8728d758ca6fcb8dd90704c3cb6f65f4f389e7f47a381c511c7",
+    "runs/20261113T101554Z_A0_500c648e/environment.json": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060",
+    "runs/20261113T101554Z_A0_500c648e/events.jsonl": "47791622d8c28e30ed659337ea49b45fe5667fede4f7df8f2254989d9eab4671",
+    "runs/20261113T101554Z_A0_500c648e/input_hashes.json": "1ad661361f109f79ec1abebbb891f4dcf2cf3b09ac75e17e621e28311260b407"
+  },
+  "interpretation": "These attempts remain part of development history. Interrupted and unstarted runs are neither successful outcomes nor zero-cost attempts. A corrected version requires its own predeclared paired batch and cannot replace this history."
+}

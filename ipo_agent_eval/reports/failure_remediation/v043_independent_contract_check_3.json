@@ -1,0 +1,17 @@
+{
+  "group_roundtrip_record_snapshot_calculations": true,
+  "incompatible_model_group_preserves_INVALID": true,
+  "invalid_derivable_selection_atomic_rejection": true,
+  "raw_objects_unchanged": true,
+  "namespace_existing_prefixes": [
+    "REVIEW_",
+    "REVIEW2_"
+  ],
+  "chosen_namespace": "REVIEW3_",
+  "other_gateway_namespace": "REVIEW_",
+  "evidence_claim_ids_unrestricted": true,
+  "global_schema_unchanged": true,
+  "live_API_calls": 0,
+  "final_namespace_pattern": "^REVIEW3_[A-Za-z0-9_-]+$",
+  "suffix_nonempty_ascii_and_total_length160_checked": true
+}

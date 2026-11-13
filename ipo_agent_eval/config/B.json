@@ -1,26 +1,26 @@
 {
   "condition": "B",
-  "version": "0.2.1-pilot",
-  "change_note": "Registered case selection and case-labelled reports; generic earnings search removes the HDMS-specific year. New cases use IPO_PER_B_v0.2; the original HDMS manual and historical runs remain unchanged. Historical v0.1.4 results are not represented as reruns under v0.2.0. Before new live answers, the cumulative input target increases from 120000 to 160000 because full-page MELCON retrieval plus extraction, calculations and repair reservation exceeds the previous planning target. Fixed searches, dollar/output/time/call caps remain unchanged. Pilot adjustment permitted by protocol section 8.6; historical results retain their original settings.",
+  "version": "0.4.3-dev",
+  "change_note": "v042 interrupted results retained. Factor model-declared context comparison fields into batch-local groups with exact lossless expansion to extraction_v2; no semantic normalization or automatic group/fact selection. Reserve a disjoint namespace for new final-review fact IDs before generation. Keep v042 model, reasoning, public input, strict arithmetic/validation and every resource cap. Freeze a new full six-company paired batch.",
   "model": "gpt-6.1-terra",
   "reasoning_effort": "medium",
-  "max_model_calls": 16,
+  "max_model_calls": 24,
   "max_tool_calls": 40,
-  "input_tokens_target_max": 160000,
-  "output_tokens_max": 16000,
-  "wall_seconds_max": 600,
-  "extraction_output_max": 5000,
-  "review_output_max": 8500,
-  "format_repair_output_max": 2500,
+  "input_tokens_target_max": 800000,
+  "output_tokens_max": 24000,
+  "wall_seconds_max": 900,
+  "extraction_output_max": 9000,
+  "review_output_max": 10000,
+  "format_repair_output_max": 1500,
   "max_format_repairs": 1,
   "format_repair_input_reserve": 16000,
-  "max_run_usd": 0.3,
+  "max_run_usd": 1.25,
   "budget_fx_krw_per_usd": 1400,
   "price_input_per_million_usd": 1.0,
   "price_output_per_million_usd": 5.0,
   "price_checked_on": "2026-11-13",
   "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
-  "search_top_k": 3,
+  "search_top_k": 2,
   "read_neighbor_pages": 1,
   "fixed_queries": [
     {
@@ -42,6 +42,30 @@
     {
       "stage": "valuation",
       "query": "주당 평가가액 평가 시가총액 적용 PER 할인율"
+    },
+    {
+      "stage": "share_components",
+      "query": "인수인 의무인수 추가인수 주식매수선택권 구주매출"
+    },
+    {
+      "stage": "peer_inputs",
+      "query": "기준주가 종가 평균주가 발행주식수 시가총액"
+    },
+    {
+      "stage": "earnings_context",
+      "query": "최근 12개월 연환산 금융수익 금융비용 매출구성"
     }
-  ]
+  ],
+  "exploration_output_max": 9000,
+  "finalization_seconds_reserve": 120,
+  "repair_seconds_reserve": 60,
+  "max_read_pages": 9,
+  "extraction_contract": "extraction_v2",
+  "review_contract": "review_v2",
+  "repeat": 1,
+  "search_top_k_max": 2,
+  "wire_contract": "compact_v2",
+  "format_repair_contract": "patch_v1",
+  "dynamic_submission_contract": true,
+  "max_transient_api_retries": 1
 }

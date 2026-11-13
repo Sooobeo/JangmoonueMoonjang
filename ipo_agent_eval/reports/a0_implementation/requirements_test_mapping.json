@@ -1,0 +1,89 @@
+{
+  "purpose": "Detailed-design T01-T20 verification map; empirical model results are reported separately.",
+  "latest_full_regression": {
+    "command": "python -X utf8 -m pytest -q",
+    "passed": 284,
+    "elapsed_seconds": 16.17,
+    "version": "0.3.2-dev"
+  },
+  "scenarios": {
+    "T01": [
+      "tests/test_calculations_v2.py::test_T01_T02_pilot_arithmetic"
+    ],
+    "T02": [
+      "tests/test_calculations_v2.py::test_T01_T02_pilot_arithmetic"
+    ],
+    "T03": [
+      "tests/test_calculations_v2.py::test_T03_option_inclusion_follows_caller_declaration"
+    ],
+    "T04": [
+      "tests/test_calculations_v2.py::test_T04_null_exclusion_and_incomplete_denominators",
+      "tests/test_contracts_v2.py::test_zero_unavailable_and_not_applicable_remain_distinct"
+    ],
+    "T05": [
+      "tests/test_contracts_v2.py::test_share_components_reject_duplicate_facts_and_mixed_basis",
+      "tests/test_contracts_v2.py::test_missing_inputs_and_incompatible_dates_preserve_unavailable_or_invalid"
+    ],
+    "T06": [
+      "tests/test_calculations_v2.py::test_T06_T09_cap_and_per_derive_from_raw_inputs_without_missing_direct_value_block"
+    ],
+    "T07": [
+      "tests/test_calculations_v2.py::test_T07_mismatching_reference_dates_do_not_produce_cap_or_per",
+      "tests/test_contracts_v2.py::test_missing_inputs_and_incompatible_dates_preserve_unavailable_or_invalid"
+    ],
+    "T08": [
+      "tests/test_calculations_v2.py::test_T08_direct_and_derived_disagreement_is_retained_and_requires_selection"
+    ],
+    "T09": [
+      "tests/test_gateway_v2.py::test_missing_direct_value_with_usable_derivation_does_not_force_external_request"
+    ],
+    "T10": [
+      "tests/test_contracts_v2.py::test_unknown_and_cyclic_derivation_inputs_are_rejected_atomically",
+      "tests/test_calculations_v2.py::test_T10_calculation_ids_are_immutable_per_snapshot_and_inputs_do_not_change",
+      "tests/test_gateway_v2.py::test_calculation_use_checks_decimal_value_and_snapshot_but_allows_explicit_rejection"
+    ],
+    "T11": [
+      "tests/test_gateway_v2.py::test_search_hit_is_not_read_evidence_and_failed_registration_is_atomic",
+      "tests/test_gateway_v2.py::test_isolation_violations_are_fatal_and_return_no_material",
+      "tests/test_gateway_v2.py::test_other_case_chunk_and_malformed_doc_id_are_handled_before_access"
+    ],
+    "T12": [
+      "tests/test_gateway_v2.py::test_full_pages_are_deduplicated_and_repeat_reads_are_counted",
+      "tests/test_gateway_v2.py::test_oversized_read_is_explicit_and_does_not_mark_pages_read"
+    ],
+    "T13": [
+      "tests/test_budget_v2.py::test_t13_t14_exploration_never_spends_finalization_reserve",
+      "tests/test_agent_loop_v2.py::test_T13_budget_forces_only_finalization_without_an_exploration_call"
+    ],
+    "T14": [
+      "tests/test_budget_v2.py::test_current_history_and_future_observation_are_reserved_for_final_input",
+      "tests/test_d4_independent_review.py::test_registration_repair_preserves_the_still_pending_finalization"
+    ],
+    "T15": [
+      "tests/test_agent_loop_v2.py::test_T15_full_autonomous_path_preserves_reasoning_and_call_ids"
+    ],
+    "T16": [
+      "tests/test_runtime_v2.py::test_t16_distinct_api_failure_states",
+      "tests/test_runtime_v2.py::test_unknown_usage_is_never_reported_as_zero_total_cost",
+      "tests/test_agent_loop_v2.py::test_shared_format_repair_cannot_reread_or_change_facts",
+      "tests/test_agent_loop_v2.py::test_T16_tool_free_finish_is_a_preserved_failure",
+      "tests/test_agent_loop_v2.py::test_T16_registration_and_final_review_share_one_repair"
+    ],
+    "T17": [
+      "tests/test_gateway_v2.py::test_content_status_is_separate_from_execution_and_semantics_are_not_corrected",
+      "tests/test_d3_independent_review.py::test_omitting_prior_open_request_does_not_erase_blocking_state"
+    ],
+    "T18": [
+      "tests/test_agent_loop_v2.py::test_T18_fresh_context_for_every_repetition",
+      "tests/test_gateway_v2.py::test_new_gateway_has_no_previous_context_or_ledger"
+    ],
+    "T19": [
+      "tests/test_gateway_v2.py::test_calculation_use_checks_decimal_value_and_snapshot_but_allows_explicit_rejection"
+    ],
+    "T20": [
+      "tests/test_gateway_v2.py::test_content_status_is_separate_from_execution_and_semantics_are_not_corrected"
+    ]
+  },
+  "post_live_transport_regression": "tests/test_response_input_v2.py",
+  "scope_note": "Automated arithmetic, contract, isolation and control-flow checks do not establish financial judgment accuracy, A0 superiority, or A1 effectiveness."
+}

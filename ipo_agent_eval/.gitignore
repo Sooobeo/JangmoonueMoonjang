@@ -17,6 +17,18 @@ dist/
 /grading_exports/_qa/
 /grading_exports/*.docx
 /data/public/inspection/
+/_qa/
+
+# Local API execution records; retain raw evidence on disk, outside Git
+/runs/
+
+# Generated source snapshots, downloaded screening documents, and duplicate reports
+/reports/**/*_source/
+/reports/a0_implementation/case_roster_sources/
+/reports/failure_fixes/
+/reports/*_verification.json
+/reports/**/*_STOP
 
 # Private grading data and links between anonymous IDs and runs
 /data/private/
+/data/cases/*/private/

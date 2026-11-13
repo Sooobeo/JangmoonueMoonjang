@@ -1,0 +1,7 @@
+{
+  "readme_local_links_missing": [],
+  "design_v1_body_preserved": true,
+  "package_version": "0.3.1.dev0",
+  "cli_checked": "--condition {B,A0}, --case-id, --repeat, --live",
+  "status_claim": "D0-D4 reviewed; D5 in progress; D6 and final three reviews pending"
+}

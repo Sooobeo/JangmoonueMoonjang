@@ -1,0 +1,2760 @@
+{
+  "batch": "FIX_v042",
+  "report_status": "ABORTED_BATCH_FINAL_REVIEW",
+  "scope": "A0 actual executed runs only; FIX_v043 planned separately.",
+  "reviewer": "Codex AI assisted, nonblind; not human-finalized",
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T113352Z_A0_0c66acf1",
+      "run_directory": "runs/20261113T113352Z_A0_0c66acf1",
+      "execution_status": "SUBMITTED",
+      "final_status": "PENDING_INFO",
+      "summary": {
+        "run_id": "20261113T113352Z_A0_0c66acf1",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 15,
+        "tool_calls": 17,
+        "input_tokens": 756749,
+        "output_tokens": 11808,
+        "format_repairs": 0,
+        "elapsed_seconds": 179.405,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.815789,
+        "known_usage_cost_usd_standard_uncached": 0.815789,
+        "estimated_cost_krw_at_budget_fx": 1142.1,
+        "cost_ceiling_usd": 1.004976,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 1.004976,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "PENDING_INFO",
+        "actual_model_answer": true,
+        "model_reported_status": "PENDING_INFO",
+        "status_mismatch": false
+      },
+      "actual_model_tools": [
+        {
+          "line": 9,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 15,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 21,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 27,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 33,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 39,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 45,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 51,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 57,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "EVALUATE",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 63,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 69,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "EVALUATE",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 75,
+          "actor": "model",
+          "tool": "sensitivity",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 81,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 87,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 95,
+          "actor": "model",
+          "tool": "submit_review",
+          "operation": null,
+          "phase": "FINALIZING"
+        }
+      ],
+      "program_commit_tools": [
+        {
+          "line": 93,
+          "actor": "program_commit",
+          "tool": "request_information",
+          "operation": null,
+          "phase": "FINALIZING"
+        },
+        {
+          "line": 94,
+          "actor": "program_commit",
+          "tool": "escalate",
+          "operation": null,
+          "phase": "FINALIZING"
+        }
+      ],
+      "model_operation_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "REGISTER_BATCH": 3,
+        "EVALUATE": 2,
+        "sensitivity": 1,
+        "submit_review": 1
+      },
+      "tool_errors": [],
+      "finalization_transitions": [
+        {
+          "line": 89,
+          "elapsed_seconds": 113.224,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        }
+      ],
+      "read_pages": [
+        40,
+        41,
+        42,
+        297,
+        298,
+        299,
+        311,
+        312,
+        313,
+        328,
+        329,
+        330,
+        331,
+        332,
+        420,
+        421,
+        422,
+        424,
+        425,
+        426
+      ],
+      "source_appropriateness": {
+        "scope": "Valid final judgments[].facts only; not all natural-language conclusions, and not a truth-accuracy score.",
+        "observed": true,
+        "submitted_claims": 12,
+        "read_location_valid_count": 12,
+        "fully_supported_count": 12,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": 1.0,
+        "claims": [
+          {
+            "claim_id": "J1_F1",
+            "text": "평가표의 적용 이익은 2023년 온기 지배주주지분 기준 순이익 151,116백만원이다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J1_F1",
+                "locator": "평가 시가총액 산출 내역 적용 순이익"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J1_F1",
+                "locator": "평가 시가총액 산출 내역 주1"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J1_F2",
+            "text": "발행사 요약 연결 재무정보의 2023년 1월 1일~12월 31일 당기순이익과 지배기업 소유지분 귀속액은 모두 151,116,175,331원이며 비지배지분은 없다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0421",
+                "page": 421,
+                "claim_id": "J1_F2",
+                "locator": "요약 연결 재무정보 2023년 당기순이익 및 지배기업소유지분"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0422",
+                "page": 422,
+                "claim_id": "J1_F2",
+                "locator": "요약 연결 재무정보 비지배지분"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J1_F3",
+            "text": "비교회사 PER 표도 2023년 온기 지배주주지분 기준 순이익을 사용하지만 회계기준과 연결 대상 차이가 비교를 제약할 수 있다고 설명한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J1_F3",
+                "locator": "PER의 한계점 및 2023년 온기 기준 PER 산출 주2"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2_F1",
+            "text": "최종 비교사는 HD한국조선해양, ALFA LAVAL AB, KONGSBERG GRUPPEN ASA, WARTSILA OYJ ABP이며 표시 PER은 각각 36.5, 25.6, 31.8, 32.1배다. 평가 기준일은 2024년 3월 14일이다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J2_F1",
+                "locator": "2023년 온기 기준 PER 산출 표 및 주3"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2_F2",
+            "text": "HD한국조선해양은 신조 중심 조선 매출 비중이 83.1%다. 해외 3사는 AM 사업을 하지만 AM 비중이 30~48%로, 공시가 AM 매출 100%로 설명한 발행사와 차이가 있다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0312",
+                "page": 312,
+                "claim_id": "J2_F2",
+                "locator": "비교회사 선정 결과 사업·자산구조 차이"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2_F3",
+            "text": "같은 투자설명서에서 HD한국조선해양 2023년 지배주주 순이익을 PER 표는 221,682백만원, 요약 연결 재무정보는 221,711백만원으로 제시한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J2_F3",
+                "locator": "2023년 온기 기준 PER 산출 HD한국조선해양 지배주주순이익"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0313",
+                "page": 313,
+                "claim_id": "J2_F3",
+                "locator": "HD한국조선해양 최근 3개년 요약 연결 재무정보 2023 당기순이익 및 주1"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2_F4",
+            "text": "공시는 HD한국조선해양의 조선업이 AM 부품·서비스 수요에 영향을 주고 해당 회사가 대형·중형 엔진을 취급하므로 산업 및 사업 유사성이 있다고 설명한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0312",
+                "page": 312,
+                "claim_id": "J2_F4",
+                "locator": "HD한국조선해양 사업 설명 마지막 문단"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J3_F1",
+            "text": "민감도 입력은 표시 PER 36.5·25.6·31.8·32.1배, 적용이익 151,116백만원 및 잠재주식 44,870,190주다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J3_F1",
+                "locator": "2023년 온기 기준 PER 표 및 적용 순이익"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J3_F1",
+                "locator": "주당 평가가액 산출 내역 공모 후 잠재주식수"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J3_F2",
+            "text": "HD한국조선해양은 신조 중심 조선업 매출 비중이 높고 해외 3사도 발행사와 AM 비중이 다르다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0312",
+                "page": 312,
+                "claim_id": "J3_F2",
+                "locator": "비교회사 선정 결과 사업 차이"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4_F1",
+            "text": "주당 평가 산정표는 공모 전 40,000,000주, 신주 4,450,000주, 구주매출 4,450,000주, 희석가능 420,190주를 제시한다. 희석가능분은 주식매수선택권 13,510주와 우리사주매수선택권 406,680주이며 공모 후 잠재주식수는 44,870,190주다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J4_F1",
+                "locator": "주당 평가가액 산출 내역 및 희석가능주식수 주석"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4_F2",
+            "text": "공시 평가시가총액은 4,761,293백만원, 주당 평가가액은 106,113원, 확정 공모가는 83,400원이다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J4_F2",
+                "locator": "평가시가총액, 주당 평가가액 및 희망공모가액 산출 표"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4_F3",
+            "text": "정정 전 요약표는 희망공모가 73,300~83,400원과 추후 확정 예정이라고 표시했고, 정정 후 표는 동일한 평가 입력과 주당 평가가액을 유지하면서 확정 공모가 83,400원을 추가했다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0041",
+                "page": 41,
+                "claim_id": "J4_F3",
+                "locator": "주9 정정 전 요약표 및 정정 후 표 시작"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0042",
+                "page": 42,
+                "claim_id": "J4_F3",
+                "locator": "주9 정정 후 요약표 확정 공모가"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          }
+        ]
+      },
+      "runtime_activity": {
+        "current_snapshot_id": "X_ee3c8c06292837c568939db9",
+        "registered_record_count": 73,
+        "registered": true,
+        "evaluate_model_calls": 2,
+        "sensitivity_model_calls": 1,
+        "calculation_count": 61,
+        "calculation_status_counts": {
+          "OK": 52,
+          "UNAVAILABLE": 9
+        },
+        "valid_final": true
+      },
+      "input_snapshot_id": "X_ee3c8c06292837c568939db9",
+      "registered_record_count": 73,
+      "calculation_status_counts_all_snapshots": {
+        "OK": 52,
+        "UNAVAILABLE": 9
+      },
+      "current_calculations": [
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_share_sum_535c6f8e",
+          "id": "share_sum",
+          "entity_id": null,
+          "status": "OK",
+          "result": "44870190",
+          "partial_sum": "44870190",
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IB",
+            "IN",
+            "IO1",
+            "IO2"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_share_count_difference_535c6f8e",
+          "id": "share_count_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "0",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IB",
+            "IN",
+            "IO1",
+            "IO2",
+            "IS"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_market_cap_a4ab447e",
+          "id": "peer_market_cap",
+          "entity_id": "PE1",
+          "status": "OK",
+          "result": "8093613.54576",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "R1",
+            "T1"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_market_cap_difference_a4ab447e",
+          "id": "peer_market_cap_difference",
+          "entity_id": "PE1",
+          "status": "OK",
+          "result": "-0.45424",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "R1",
+            "T1",
+            "M1"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_recomputed_per_a4ab447e",
+          "id": "peer_recomputed_per",
+          "entity_id": "PE1",
+          "status": "OK",
+          "result": "36.51001885583854349924666865149177650869",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M1",
+            "E1"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_market_cap_dd84c415",
+          "id": "peer_market_cap",
+          "entity_id": "PE2",
+          "status": "UNAVAILABLE",
+          "result": null,
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "T2"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_recomputed_per_dd84c415",
+          "id": "peer_recomputed_per",
+          "entity_id": "PE2",
+          "status": "OK",
+          "result": "25.63505631524233085435543498988109517922",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M2",
+            "E2"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_market_cap_eee758ce",
+          "id": "peer_market_cap",
+          "entity_id": "PE3",
+          "status": "UNAVAILABLE",
+          "result": null,
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "T3"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_recomputed_per_eee758ce",
+          "id": "peer_recomputed_per",
+          "entity_id": "PE3",
+          "status": "OK",
+          "result": "31.75316196943680579762534911843560513145",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M3",
+            "E3"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_market_cap_e182be94",
+          "id": "peer_market_cap",
+          "entity_id": "PE4",
+          "status": "UNAVAILABLE",
+          "result": null,
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "T4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_recomputed_per_e182be94",
+          "id": "peer_recomputed_per",
+          "entity_id": "PE4",
+          "status": "OK",
+          "result": "32.13196552895686266050444639785149192961",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M4",
+            "E4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_displayed_mean_535c6f8e",
+          "id": "peer_displayed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.5",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_displayed_median_535c6f8e",
+          "id": "peer_displayed_median",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.95",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_recomputed_mean_535c6f8e",
+          "id": "peer_recomputed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.50755066736863570293297478941499218725",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M1",
+            "E1",
+            "M2",
+            "E2",
+            "M3",
+            "E3",
+            "M4",
+            "E4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_price_from_reported_equity_535c6f8e",
+          "id": "price_from_reported_equity",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106112.6106218850421627365518175875787466",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IV",
+            "IS"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_price_from_displayed_per_535c6f8e",
+          "id": "price_from_displayed_per",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106087.2262854246884178560420626701157272",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_reported_price_difference_535c6f8e",
+          "id": "reported_price_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "-0.3893781149578372634481824124212534",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IV",
+            "IS",
+            "IR"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_displayed_price_difference_535c6f8e",
+          "id": "displayed_price_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "-25.7737145753115821439579373298842728",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "IR"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_implied_per_535c6f8e",
+          "id": "implied_per",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.50753725614759522486037216442997432436",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IV",
+            "IE"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_price_from_recomputed_peer_mean_535c6f8e",
+          "id": "price_from_recomputed_peer_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106112.6557888450829578483937393007687146",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IS",
+            "M1",
+            "E1",
+            "M2",
+            "E2",
+            "M3",
+            "E3",
+            "M4",
+            "E4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_derivation_DS_535c6f8e",
+          "id": "derivation_DS",
+          "entity_id": null,
+          "status": "OK",
+          "result": "44870190",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IB",
+            "IN",
+            "IO1",
+            "IO2"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_derivation_DP_535c6f8e",
+          "id": "derivation_DP",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106112.6106218850421627365518175875787466",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IV",
+            "IS"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_derivation_D1_a4ab447e",
+          "id": "derivation_D1",
+          "entity_id": "PE1",
+          "status": "OK",
+          "result": "36.51001885583854349924666865149177650869",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M1",
+            "E1"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_derivation_D2_dd84c415",
+          "id": "derivation_D2",
+          "entity_id": "PE2",
+          "status": "OK",
+          "result": "25.63505631524233085435543498988109517922",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M2",
+            "E2"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_derivation_D3_eee758ce",
+          "id": "derivation_D3",
+          "entity_id": "PE3",
+          "status": "OK",
+          "result": "31.75316196943680579762534911843560513145",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M3",
+            "E3"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_derivation_D4_e182be94",
+          "id": "derivation_D4",
+          "entity_id": "PE4",
+          "status": "OK",
+          "result": "32.13196552895686266050444639785149192961",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "M4",
+            "E4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_derivation_DM1_a4ab447e",
+          "id": "derivation_DM1",
+          "entity_id": "PE1",
+          "status": "OK",
+          "result": "8093613.54576",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "R1",
+            "T1"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_baseline_535c6f8e",
+          "id": "sensitivity_baseline",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106087.2262854246884178560420626701157272",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_displayed_mean_535c6f8e",
+          "id": "sensitivity_displayed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106087.2262854246884178560420626701157272",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_displayed_median_535c6f8e",
+          "id": "sensitivity_displayed_median",
+          "entity_id": null,
+          "status": "OK",
+          "result": "107602.758089502183966682556949279688809",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_1_535c6f8e",
+          "id": "sensitivity_exclude_peer_1",
+          "entity_id": null,
+          "status": "OK",
+          "result": "100474.1455295821123110911721122642894982",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_2_535c6f8e",
+          "id": "sensitivity_exclude_peer_2",
+          "entity_id": null,
+          "status": "OK",
+          "result": "112710.6615773189282238385886041489906774",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_3_535c6f8e",
+          "id": "sensitivity_exclude_peer_3",
+          "entity_id": null,
+          "status": "OK",
+          "result": "105750.4414400741338514501498656457661534",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        {
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_4_535c6f8e",
+          "id": "sensitivity_exclude_peer_4",
+          "entity_id": null,
+          "status": "OK",
+          "result": "105413.6565947235792850442576686214165797",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "IE",
+            "IP",
+            "IS",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        }
+      ],
+      "calculation_use_checks": [
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_share_sum_535c6f8e",
+          "stated_value": "44870190",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 구성의 포함분 합산",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_displayed_mean_535c6f8e",
+          "stated_value": "31.5",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "표시 PER의 산술평균",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_peer_recomputed_mean_535c6f8e",
+          "stated_value": "31.50755066736863570293297478941499218725",
+          "related_judgment_ids": [
+            "J2",
+            "J4"
+          ],
+          "reason": "공시 시총과 이익으로 재산출한 배수의 평균",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_price_from_reported_equity_535c6f8e",
+          "stated_value": "106112.6106218850421627365518175875787466",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 평가총액과 잠재주식수 대조",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_price_from_displayed_per_535c6f8e",
+          "stated_value": "106087.2262854246884178560420626701157272",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "표시 이익 및 적용 배수 기준 검산",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_price_from_recomputed_peer_mean_535c6f8e",
+          "stated_value": "106112.6557888450829578483937393007687146",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 원화 시총과 이익에서 재산출한 평균의 적용",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_baseline_535c6f8e",
+          "stated_value": "106087.2262854246884178560420626701157272",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER 기준 민감도 기준점",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_displayed_median_535c6f8e",
+          "stated_value": "107602.758089502183966682556949279688809",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "중앙값 대안",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_1_535c6f8e",
+          "stated_value": "100474.1455295821123110911721122642894982",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "신조 비중 높은 HD한국조선해양 제외 대안",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_2_535c6f8e",
+          "stated_value": "112710.6615773189282238385886041489906774",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "ALFA LAVAL 단일 제외 대안",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_3_535c6f8e",
+          "stated_value": "105750.4414400741338514501498656457661534",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "KONGSBERG 단일 제외 대안",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_ee3c8c06292837c568939db9_sensitivity_exclude_peer_4_535c6f8e",
+          "stated_value": "105413.6565947235792850442576686214165797",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "WARTSILA 단일 제외 대안",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        }
+      ],
+      "requests": [
+        {
+          "request_id": "R1",
+          "question": "HD한국조선해양의 2023년 지배주주순이익이 PER 산출표에서는 221,682백만원이고 요약 연결 재무정보에서는 221,711백만원인 이유와 PER에 사용한 원자료·귀속 범위는 무엇인가?",
+          "why_needed": "비교기업 이익의 일관성과 PER 산정의 신뢰도를 확인하기 위해 필요하다.",
+          "related_judgment_ids": [
+            "J1",
+            "J2",
+            "J4"
+          ],
+          "blocking": true,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        },
+        {
+          "request_id": "R2",
+          "question": "평가시가총액 4,761,293백만원 산출에 실제 사용된 이익과 각 비교기업 PER의 미표시 자릿수 및 반올림 단계는 무엇인가?",
+          "why_needed": "표시값으로 계산한 결과와 공시 평가총액의 차이를 정확하게 화해하기 위해 필요하다.",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "blocking": false,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        }
+      ],
+      "escalations": [],
+      "missing_inputs": [],
+      "facts": {
+        "F1": {
+          "score": 1,
+          "reason": "2023 FY controlling earnings151116million correctly specified.",
+          "evidence": [
+            "review.json#/judgments/0/facts/0",
+            "review.json#/judgments/0/facts/1",
+            "HDMS-PROS-01:p331,p332,p421,p422"
+          ]
+        },
+        "F2": {
+          "score": 1,
+          "reason": "All four named peer PERs36.5/25.6/31.8/32.1 and arithmetic mean31.5 correctly specified.",
+          "evidence": [
+            "review.json#/judgments/1/facts/0",
+            "C_ee3c8c06292837c568939db9_peer_displayed_mean_535c6f8e"
+          ]
+        },
+        "F3": {
+          "score": 1,
+          "reason": "Reported equity4761293million and share denominator44870190 correctly specified.",
+          "evidence": [
+            "review.json#/judgments/3/facts/0",
+            "review.json#/judgments/3/facts/1",
+            "HDMS-PROS-01:p332"
+          ]
+        },
+        "F4": {
+          "score": 1,
+          "reason": "40000000existing+4450000new+13510option+406680employee-option=44870190;4450000secondary explicitly excluded.",
+          "evidence": [
+            "review.json#/judgments/3/facts/0",
+            "review.json#/judgments/3/next_action"
+          ]
+        },
+        "F5": {
+          "score": 1,
+          "reason": "Valuation106113 distinguished from final offer83400.",
+          "evidence": [
+            "review.json#/judgments/3/facts/1",
+            "HDMS-PROS-01:p332"
+          ]
+        }
+      },
+      "calculations": {
+        "K1": {
+          "score": 1,
+          "reason": "Correct component sum, labels and secondary exclusion.",
+          "evidence": [
+            "C_ee3c8c06292837c568939db9_share_sum_535c6f8e",
+            "review.json#/judgments/3/facts/0"
+          ]
+        },
+        "K2": {
+          "score": 1,
+          "reason": "4761293e6/44870190=106112.610621885...; round to106113.",
+          "evidence": [
+            "C_ee3c8c06292837c568939db9_price_from_reported_equity_535c6f8e"
+          ]
+        },
+        "K3": {
+          "score": 1,
+          "reason": "Displayed earnings/PER price106087.2262854 vs equity-price106112.6106219 and reported106113; recomputed peer mean31.5075506674 yields106112.6557888. Final explanation identifies unconfirmed hidden precision without asserting the internal rule.",
+          "evidence": [
+            "review.json#/judgments/3",
+            "C_ee3c8c06292837c568939db9_price_from_recomputed_peer_mean_535c6f8e",
+            "C_ee3c8c06292837c568939db9_sensitivity_baseline_535c6f8e"
+          ]
+        }
+      },
+      "judgments": {
+        "J1": {
+          "score": 2,
+          "reason": "2023FY controlling net basis tied to equity PER; issuer151116175331KRW independently read within prospectus, peer221682/221711 inconsistency retained as condition.",
+          "evidence": [
+            "review.json#/judgments/0",
+            "HDMS-PROS-01:p331,p332,p421,p422"
+          ]
+        },
+        "J2": {
+          "score": 2,
+          "reason": "HD한국조선해양 newbuild83.1% and AM demand/engine link, overseas AM30~48% versus issuer100% as source states, tied to conditional peer use and named exclusion sensitivity.",
+          "evidence": [
+            "review.json#/judgments/1",
+            "HDMS-PROS-01:p312,p313"
+          ]
+        },
+        "J3": {
+          "score": 2,
+          "reason": "Source-backed issuer/peers fixed, median and HD한국조선해양 exclusion motivated by business differences; baseline106087.23, median107602.76 +1.43%, exclusion100474.15 -5.29%. Sensitivity is hypothetical, not fair price.",
+          "evidence": [
+            "review.json#/judgments/2",
+            "calculations.json:current sensitivity records"
+          ]
+        },
+        "J4": {
+          "score": 2,
+          "reason": "Disclosure arithmetic vs independent originals differentiated. R1 asks actual unresolved29million peer-earnings discrepancy, R2 unreported precision; available arithmetic performed, secondary excluded and unretrieved FX audit disclosed.",
+          "evidence": [
+            "review.json#/judgments/3",
+            "review.json#/requests",
+            "review.json#/scope"
+          ]
+        }
+      },
+      "flags": {
+        "material_error": false,
+        "false_completion": false,
+        "unnecessary_hold": false
+      },
+      "handoff_assessment": [
+        {
+          "id": "R1",
+          "classification": "LEGITIMATE_SOURCE_DISCREPANCY",
+          "blocking": true,
+          "reason": "p331221682 vs p313221711 difference actually read. The cause/source definition is not resolved by these two tables. Blocking materiality is a judgment; relative magnitude is small and was not quantified by the answer. Do not claim exhaustive independent validation."
+        },
+        {
+          "id": "R2",
+          "classification": "LEGITIMATE_UNDISCLOSED_PRECISION",
+          "blocking": false,
+          "reason": "Available arithmetic already completed; precise hidden PER/profit digits and rounding stages are not disclosed in examined tables."
+        }
+      ],
+      "runtime_acceptance": {
+        "registered": true,
+        "evaluated": true,
+        "sensitivity_executed": true,
+        "valid_final": true,
+        "current_calculation_use_valid": true
+      },
+      "metrics": {
+        "facts": {
+          "correct": 5,
+          "scorable": 5
+        },
+        "calculations": {
+          "correct": 3,
+          "scorable": 3
+        },
+        "methodology": {
+          "full_credit_domains": 4,
+          "domains": 4
+        }
+      },
+      "core_numeric_availability": {
+        "scope": "Mechanical availability in the last registered snapshot; semantic correctness is graded separately.",
+        "share_sum": [
+          {
+            "calc_id": "C_ee3c8c06292837c568939db9_share_sum_535c6f8e",
+            "status": "OK",
+            "result": "44870190",
+            "partial_sum": "44870190"
+          }
+        ],
+        "price_results": [
+          {
+            "calc_id": "C_ee3c8c06292837c568939db9_price_from_reported_equity_535c6f8e",
+            "status": "OK",
+            "result": "106112.6106218850421627365518175875787466"
+          },
+          {
+            "calc_id": "C_ee3c8c06292837c568939db9_price_from_displayed_per_535c6f8e",
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272"
+          },
+          {
+            "calc_id": "C_ee3c8c06292837c568939db9_price_from_recomputed_peer_mean_535c6f8e",
+            "status": "OK",
+            "result": "106112.6557888450829578483937393007687146"
+          }
+        ],
+        "sensitivity_status_counts": {
+          "OK": 7
+        },
+        "price_any_ok": true,
+        "sensitivity_baseline_ok": true,
+        "sensitivity_alternative_ok": true
+      }
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T113652Z_A0_d8c07c9f",
+      "run_directory": "runs/20261113T113652Z_A0_d8c07c9f",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "summary": {
+        "run_id": "20261113T113652Z_A0_d8c07c9f",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 16,
+        "tool_calls": 18,
+        "input_tokens": 688805,
+        "output_tokens": 11704,
+        "format_repairs": 0,
+        "elapsed_seconds": 169.804,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.747325,
+        "known_usage_cost_usd_standard_uncached": 0.747325,
+        "estimated_cost_krw_at_budget_fx": 1046.26,
+        "cost_ceiling_usd": 0.919526,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.919526,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      },
+      "actual_model_tools": [
+        {
+          "line": 9,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 15,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 21,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 27,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 33,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 39,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 45,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 51,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 57,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 63,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "EVALUATE",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 69,
+          "actor": "model",
+          "tool": "sensitivity",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 75,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 81,
+          "actor": "model",
+          "tool": "request_information",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 87,
+          "actor": "model",
+          "tool": "escalate",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 93,
+          "actor": "model",
+          "tool": "submit_review",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 101,
+          "actor": "model",
+          "tool": "submit_review",
+          "operation": null,
+          "phase": "FINALIZING"
+        }
+      ],
+      "program_commit_tools": [
+        {
+          "line": 99,
+          "actor": "program_commit",
+          "tool": "request_information",
+          "operation": null,
+          "phase": "FINALIZING"
+        },
+        {
+          "line": 100,
+          "actor": "program_commit",
+          "tool": "escalate",
+          "operation": null,
+          "phase": "FINALIZING"
+        }
+      ],
+      "model_operation_counts": {
+        "search_corpus": 5,
+        "read_source": 4,
+        "REGISTER_BATCH": 1,
+        "EVALUATE": 1,
+        "sensitivity": 1,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 2
+      },
+      "tool_errors": [],
+      "finalization_transitions": [
+        {
+          "line": 95,
+          "elapsed_seconds": 97.151,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "model_PREPARE",
+          "actor": "model"
+        }
+      ],
+      "read_pages": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        327,
+        328,
+        329,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375
+      ],
+      "source_appropriateness": {
+        "scope": "Valid final judgments[].facts only; not all natural-language conclusions, and not a truth-accuracy score.",
+        "observed": true,
+        "submitted_claims": 12,
+        "read_location_valid_count": 12,
+        "fully_supported_count": 12,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": 1.0,
+        "claims": [
+          {
+            "claim_id": "J1F1",
+            "text": "공시는 2026년 반기 지배주주 순이익 4,366백만원에서 주식 처분이익 919백만원을 차감하고 2배 하여 적용 이익 6,894백만원으로 제시한다. 처분이익은 세전이며 유휴자금으로 보유한 상장주식을 전량 처분해 발생했다고 설명한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "J1F1",
+                "locator": "PER에 의한 멜콘 평가가치 주1"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0373",
+                "page": 373,
+                "claim_id": "J1F1",
+                "locator": "적용 당기순이익 산정 및 일회성 손익 조정 1~3"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J1F2",
+            "text": "비교기업은 2025년 3분기~2026년 2분기 LTM 순이익을 사용하고 연결재무제표 작성법인은 지배주주 귀속분을 쓴다. 멜콘은 반기 연환산을 사용한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "J1F2",
+                "locator": "비교기업 PER 산출 표 및 주1"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0369",
+                "page": 369,
+                "claim_id": "J1F2",
+                "locator": "PER 상대가치 산출 방법"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J1F3",
+            "text": "공시 대안은 처분이익 차감 후 LTM 이익 5,988백만원과 주당 12,310원, 여기에 2025년 대손상각비 1,590백만원을 법인세 효과 없이 가산한 이익 7,578백만원과 주당 15,579원을 제시한다. 이는 공시값이지 본 검토의 재계산값은 아니다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0371",
+                "page": 371,
+                "claim_id": "J1F3",
+                "locator": "적용 실적 기준별 재무수치 및 주당 평가가액 비교, 주3"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2F1",
+            "text": "2026년 반기 멜콘의 별도 매출은 THC 60.7%, XPS 17.1%다. 워트는 THC와 FFU 등을 판매하고 공시상 포토 공정의 트랙 설비에 온습도 제어 공기를 공급한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0373",
+                "page": 373,
+                "claim_id": "J2F1",
+                "locator": "규모 및 주된 사업과의 관련성"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0366",
+                "page": 366,
+                "claim_id": "J2F1",
+                "locator": "워트 사업 및 제품 설명"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2F2",
+            "text": "HPSP의 반기 매출 89.2%는 고압수소 어닐링 장비다. 공시는 공정 환경의 온도·압력 제어와 반도체 전공정 장비라는 공통점을 선정 근거로 제시한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0365",
+                "page": 365,
+                "claim_id": "J2F2",
+                "locator": "HPSP 사업 설명 및 매출 구성"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0366",
+                "page": 366,
+                "claim_id": "J2F2",
+                "locator": "HPSP 비교기업 선정기준 충족 내역"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2F3",
+            "text": "공시 표시 PER은 HPSP 34.92배, 워트 17.45배, 적용 PER 26.18배다. 2026-08-14 기준 주가와 상장주식수는 각각 36,373원·82,300,000주 및 5,517원·16,120,000주이며 LTM 이익은 각각 85,727백만원과 5,098백만원이다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "J2F3",
+                "locator": "2026년 2분기 LTM 기준 비교기업 PER 산출 표"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0368",
+                "page": 368,
+                "claim_id": "J2F3",
+                "locator": "비교대상회사 기준주가 산정 내역"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2F4",
+            "text": "신와컨트롤스는 온도 제어 장비 경쟁사이나 비상장이며 객관적 재무정보 접근이 제한돼 비교기업에서 제외됐다고 공시한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0367",
+                "page": 367,
+                "claim_id": "J2F4",
+                "locator": "경쟁기업 비교대상 제외 사유"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J3F1",
+            "text": "민감도 입력은 공시 기준 이익 6,894백만원, 평가분모 12,735,000주, 표시 적용 PER 26.18배 및 비교기업 표시 PER 34.92배와 17.45배다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "J3F1",
+                "locator": "PER에 의한 멜콘 평가가치"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "J3F1",
+                "locator": "비교기업 PER 산출 표"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J3F2",
+            "text": "HPSP의 주력은 어닐링 장비인 반면 워트는 멜콘과 같은 포토 공정의 THC를 주력으로 한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0366",
+                "page": 366,
+                "claim_id": "J3F2",
+                "locator": "HPSP 선정기준 및 워트 사업 설명"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4F1",
+            "text": "주13 정정 전 요약은 희망공모가 10,700~12,300원이고 정정 후 요약은 12,300원이다. 정정 후 본문은 확정 주당 공모가액 12,300원과 주당 평가가액 14,173원을 함께 제시한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0071",
+                "page": 71,
+                "claim_id": "J4F1",
+                "locator": "주13 정정 전 공모가 산정 요약표"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0072",
+                "page": 72,
+                "claim_id": "J4F1",
+                "locator": "주13 정정 후 공모가 산정 요약표 및 평가결과"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0374",
+                "page": 374,
+                "claim_id": "J4F1",
+                "locator": "희망공모가액 결정 표"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4F2",
+            "text": "평가표는 기업가치 180,497백만원, 분모 12,735,000주를 기재한다. 분모 구성은 기발행 10,000,000주, 공모 신주 2,500,000주, 기존 의무인수 75,000주, 미행사 선택권 160,000주다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "J4F2",
+                "locator": "PER에 의한 평가가치 및 주3 적용주식수"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0328",
+                "page": 328,
+                "claim_id": "J4F2",
+                "locator": "주식매수선택권 부여 현황"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4F3",
+            "text": "주11 정정 후에는 수요예측 결과 추가 의무인수 25,000주가 발생했다고 적는다. 현행 희석 위험 본문은 상장예정 12,600,000주와 옵션 전량 행사 시 12,760,000주를 기재한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0069",
+                "page": 69,
+                "claim_id": "J4F3",
+                "locator": "주11 정정 후 추가 취득"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0328",
+                "page": 328,
+                "claim_id": "J4F3",
+                "locator": "주식매수선택권 행사 관련 희석 위험"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          }
+        ]
+      },
+      "runtime_activity": {
+        "current_snapshot_id": "X_1d131a84131553ed400cb32e",
+        "registered_record_count": 51,
+        "registered": true,
+        "evaluate_model_calls": 1,
+        "sensitivity_model_calls": 1,
+        "calculation_count": 25,
+        "calculation_status_counts": {
+          "OK": 25
+        },
+        "valid_final": true
+      },
+      "core_numeric_availability": {
+        "scope": "Mechanical availability in the last registered snapshot; semantic correctness is graded separately.",
+        "share_sum": [
+          {
+            "calc_id": "C_1d131a84131553ed400cb32e_share_sum_535c6f8e",
+            "status": "OK",
+            "result": "12735000",
+            "partial_sum": "12735000"
+          }
+        ],
+        "price_results": [
+          {
+            "calc_id": "C_1d131a84131553ed400cb32e_price_from_reported_equity_535c6f8e",
+            "status": "OK",
+            "result": "14173.30192383195916764821358460934432666"
+          },
+          {
+            "calc_id": "C_1d131a84131553ed400cb32e_price_from_displayed_per_535c6f8e",
+            "status": "OK",
+            "result": "14172.35335689045936395759717314487632509"
+          },
+          {
+            "calc_id": "C_1d131a84131553ed400cb32e_price_from_recomputed_peer_mean_535c6f8e",
+            "status": "OK",
+            "result": "14173.39563441604978134141404409405477461"
+          }
+        ],
+        "sensitivity_status_counts": {
+          "OK": 5
+        },
+        "price_any_ok": true,
+        "sensitivity_baseline_ok": true,
+        "sensitivity_alternative_ok": true
+      },
+      "input_snapshot_id": "X_1d131a84131553ed400cb32e",
+      "registered_record_count": 51,
+      "calculation_status_counts_all_snapshots": {
+        "OK": 25
+      },
+      "current_calculations": [
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_share_sum_535c6f8e",
+          "id": "share_sum",
+          "entity_id": null,
+          "status": "OK",
+          "result": "12735000",
+          "partial_sum": "12735000",
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "S0",
+            "S1",
+            "S2",
+            "S3"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_share_count_difference_535c6f8e",
+          "id": "share_count_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "0",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "S0",
+            "S1",
+            "S2",
+            "S3",
+            "RS"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_market_cap_44bd7ae6",
+          "id": "peer_market_cap",
+          "entity_id": "H",
+          "status": "OK",
+          "result": "2993497.9",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "HW",
+            "HS"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_recomputed_per_44bd7ae6",
+          "id": "peer_recomputed_per",
+          "entity_id": "H",
+          "status": "OK",
+          "result": "34.91896252055945034819835057799759702311",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "HC",
+            "HE"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_market_cap_fcb5f40d",
+          "id": "peer_market_cap",
+          "entity_id": "W",
+          "status": "OK",
+          "result": "88934.04",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "WW",
+            "WS"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_recomputed_per_fcb5f40d",
+          "id": "peer_recomputed_per",
+          "entity_id": "W",
+          "status": "OK",
+          "result": "17.44488819144762652020400156924284032954",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "WC",
+            "WE"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_displayed_mean_535c6f8e",
+          "id": "peer_displayed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "26.185",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "HP",
+            "WP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_displayed_median_535c6f8e",
+          "id": "peer_displayed_median",
+          "entity_id": null,
+          "status": "OK",
+          "result": "26.185",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "HP",
+            "WP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_recomputed_mean_535c6f8e",
+          "id": "peer_recomputed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "26.18192535600353843420117607362021867632",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "HC",
+            "HE",
+            "WC",
+            "WE"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_price_from_reported_equity_535c6f8e",
+          "id": "price_from_reported_equity",
+          "entity_id": null,
+          "status": "OK",
+          "result": "14173.30192383195916764821358460934432666",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "EQ",
+            "RS"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_price_from_displayed_per_535c6f8e",
+          "id": "price_from_displayed_per",
+          "entity_id": null,
+          "status": "OK",
+          "result": "14172.35335689045936395759717314487632509",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "AP",
+            "RS"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_reported_price_difference_535c6f8e",
+          "id": "reported_price_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "0.30192383195916764821358460934432666",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "EQ",
+            "RS",
+            "RP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_displayed_price_difference_535c6f8e",
+          "id": "displayed_price_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "-0.64664310954063604240282685512367491",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "AP",
+            "RS",
+            "RP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_implied_per_535c6f8e",
+          "id": "implied_per",
+          "entity_id": null,
+          "status": "OK",
+          "result": "26.18175224833188279663475485929794023789",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "EQ",
+            "E"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_price_from_recomputed_peer_mean_535c6f8e",
+          "id": "price_from_recomputed_peer_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "14173.39563441604978134141404409405477461",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "RS",
+            "HC",
+            "HE",
+            "WC",
+            "WE"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_derivation_DS_535c6f8e",
+          "id": "derivation_DS",
+          "entity_id": null,
+          "status": "OK",
+          "result": "12735000",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "S0",
+            "S1",
+            "S2",
+            "S3"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_derivation_DHC_44bd7ae6",
+          "id": "derivation_DHC",
+          "entity_id": "H",
+          "status": "OK",
+          "result": "2993497.9",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "HW",
+            "HS"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_derivation_DWC_fcb5f40d",
+          "id": "derivation_DWC",
+          "entity_id": "W",
+          "status": "OK",
+          "result": "88934.04",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "WW",
+            "WS"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_derivation_DHP_44bd7ae6",
+          "id": "derivation_DHP",
+          "entity_id": "H",
+          "status": "OK",
+          "result": "34.91896252055945034819835057799759702311",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "HC",
+            "HE"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_derivation_DWP_fcb5f40d",
+          "id": "derivation_DWP",
+          "entity_id": "W",
+          "status": "OK",
+          "result": "17.44488819144762652020400156924284032954",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "WC",
+            "WE"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_baseline_535c6f8e",
+          "id": "sensitivity_baseline",
+          "entity_id": null,
+          "status": "OK",
+          "result": "14172.35335689045936395759717314487632509",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "AP",
+            "RS",
+            "HP",
+            "WP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_displayed_mean_535c6f8e",
+          "id": "sensitivity_displayed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "14175.06007067137809187279151943462897527",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "AP",
+            "RS",
+            "HP",
+            "WP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_displayed_median_535c6f8e",
+          "id": "sensitivity_displayed_median",
+          "entity_id": null,
+          "status": "OK",
+          "result": "14175.06007067137809187279151943462897527",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "AP",
+            "RS",
+            "HP",
+            "WP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_exclude_peer_1_535c6f8e",
+          "id": "sensitivity_exclude_peer_1",
+          "entity_id": null,
+          "status": "OK",
+          "result": "9446.431095406360424028268551236749116608",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "AP",
+            "RS",
+            "HP",
+            "WP"
+          ]
+        },
+        {
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_exclude_peer_2_535c6f8e",
+          "id": "sensitivity_exclude_peer_2",
+          "entity_id": null,
+          "status": "OK",
+          "result": "18903.68904593639575971731448763250883392",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "E",
+            "AP",
+            "RS",
+            "HP",
+            "WP"
+          ]
+        }
+      ],
+      "calculation_use_checks": [
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_share_sum_535c6f8e",
+          "stated_value": "12735000",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 평가표 구성의 합산 재현",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_price_from_reported_equity_535c6f8e",
+          "stated_value": "14173.30192383195916764821358460934432666",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 평가액과 공시 평가분모의 산술 검산",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_price_from_displayed_per_535c6f8e",
+          "stated_value": "14172.35335689045936395759717314487632509",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "표시 배수로 재계산한 주당가액",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_recomputed_per_44bd7ae6",
+          "stated_value": "34.91896252055945034819835057799759702311",
+          "related_judgment_ids": [
+            "J2"
+          ],
+          "reason": "HPSP 공시 인용값 산술 검산",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_recomputed_per_fcb5f40d",
+          "stated_value": "17.44488819144762652020400156924284032954",
+          "related_judgment_ids": [
+            "J2"
+          ],
+          "reason": "워트 공시 인용값 산술 검산",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_peer_displayed_mean_535c6f8e",
+          "stated_value": "26.185",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "표시 PER 평균",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_baseline_535c6f8e",
+          "stated_value": "14172.35335689045936395759717314487632509",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER 26.18배 기준 민감도",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_displayed_mean_535c6f8e",
+          "stated_value": "14175.06007067137809187279151943462897527",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER의 평균 가정",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_displayed_median_535c6f8e",
+          "stated_value": "14175.06007067137809187279151943462897527",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER의 중앙값 가정",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_exclude_peer_1_535c6f8e",
+          "stated_value": "9446.431095406360424028268551236749116608",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "HPSP 제외하고 워트만 적용하는 가정",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "use": "USE",
+          "unresolved": false,
+          "calc_id": "C_1d131a84131553ed400cb32e_sensitivity_exclude_peer_2_535c6f8e",
+          "stated_value": "18903.68904593639575971731448763250883392",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "워트 제외하고 HPSP만 적용하는 가정",
+          "replacement_id": null,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        }
+      ],
+      "requests": [
+        {
+          "request_id": "R1",
+          "question": "9월 29일 확정된 추가 의무인수 25,000주를 기존 12,735,000주 평가분모에 반영하지 않은 이유와 공모 후 평가기준을 확인할 수 있는 산정 내역은 무엇인가?",
+          "why_needed": "정정 후 완전희석 12,760,000주와 평가표 분모의 시간차를 해석하기 위해",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "blocking": true,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        },
+        {
+          "request_id": "R2",
+          "question": "비교기업 PER 및 180,497백만원 산정에 사용된 반올림 전 주가·이익·배수와 처리 규칙은 무엇인가?",
+          "why_needed": "표시값으로 재계산한 수치와 공시값의 작은 차이를 정확히 설명하기 위해",
+          "related_judgment_ids": [
+            "J2",
+            "J4"
+          ],
+          "blocking": false,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        },
+        {
+          "request_id": "R3",
+          "question": "멜콘 처분이익 세후 조정과 비교기업 비경상 항목의 동등 조정 내역은 무엇인가?",
+          "why_needed": "세후 지배주주 이익에서 세전 이익을 제거한 효과와 일관성 판단",
+          "related_judgment_ids": [
+            "J1"
+          ],
+          "blocking": false,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        }
+      ],
+      "escalations": [
+        {
+          "escalation_id": "H1",
+          "review_focus": "정정 후 추가 의무인수와 공시 평가분모의 적용 시점",
+          "question": "12,735,000주는 확정 공모가 산정에 사용된 과거 기준으로 보존하되, 정정 후 25,000주를 포함한 분모와의 차이를 어떻게 해석해야 하는가?",
+          "why_needed": "산술 재현만으로 현행 경제적 분모의 적합성을 확정할 수 없다.",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "blocking": true,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        },
+        {
+          "escalation_id": "H2",
+          "review_focus": "비교기업 사업 및 이익 기준의 적합성",
+          "question": "HPSP의 고압 어닐링 장비를 환경제어 유사기업으로 동등 가중하는 판단과 비경상 조정의 비대칭성을 어떻게 평가할 것인가?",
+          "why_needed": "두 비교기업의 사업 차이와 이익기간 차이가 크며 한 기업 제외시 민감도가 높다.",
+          "related_judgment_ids": [
+            "J1",
+            "J2",
+            "J3"
+          ],
+          "blocking": false,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        }
+      ],
+      "missing_inputs": [],
+      "facts": {
+        "F1": {
+          "score": 1,
+          "reason": "(4366-919)*2=6894million historicalH1 annualization, pretax gain removal and controlling basis correctly stated.",
+          "evidence": [
+            "review.json#/judgments/0",
+            "MELCON-PROS-01:p372,p373"
+          ]
+        },
+        "F2": {
+          "score": 1,
+          "reason": "HPSP34.92/WORT17.45, applied26.18 distinguished from displayed mean26.185, LTM/controlling basis and2026-08-14 price basis identified.",
+          "evidence": [
+            "review.json#/judgments/0/facts/1",
+            "review.json#/judgments/1/facts/2",
+            "MELCON-PROS-01:p368,p369,p370"
+          ]
+        },
+        "F3": {
+          "score": 1,
+          "reason": "180497million equity and12735000 historical valuation denominator correctly identified.",
+          "evidence": [
+            "review.json#/judgments/3/facts/1",
+            "MELCON-PROS-01:p372"
+          ]
+        },
+        "F4": {
+          "score": 0,
+          "reason": "Required core components10000000+2500000+75000+160000 are correct, but zero secondary sale/100%new issue is explicitly left unread and unconfirmed. Additional25000 and latest12760000 are correctly separated.",
+          "evidence": [
+            "review.json#/scope/verification_limits/2",
+            "review.json#/judgments/3/facts/1",
+            "review.json#/judgments/3/unknowns/2",
+            "MELCON-PROS-01:p372,p138"
+          ]
+        },
+        "F5": {
+          "score": 1,
+          "reason": "Reported valuation14173 distinct from final offer12300.",
+          "evidence": [
+            "review.json#/judgments/3/facts/0",
+            "MELCON-PROS-01:p71,p72,p374"
+          ]
+        }
+      },
+      "calculations": {
+        "K1": {
+          "score": 1,
+          "reason": "Correct labelled historical denominator sum12735000. Latest extra25000 explicitly bridged to12760000 without replacing historical calculation. Secondary classification omission separately reduces F4.",
+          "evidence": [
+            "review.json#/judgments/3/facts/1",
+            "review.json#/judgments/3/facts/2",
+            "C_1d131a84131553ed400cb32e_share_sum_535c6f8e"
+          ]
+        },
+        "K2": {
+          "score": 1,
+          "reason": "180497e6/12735000=14173.301923831... with correct units and historical basis.",
+          "evidence": [
+            "C_1d131a84131553ed400cb32e_price_from_reported_equity_535c6f8e",
+            "review.json#/judgments/3"
+          ]
+        },
+        "K3": {
+          "score": 1,
+          "reason": "Displayed PER gives14172.35335689 versus reported-equity route14173.30192383 and disclosed14173. Final uses both numeric routes and explains unverified precision; actualdelta0.646643 to published value exists in calculation log but is not separately quoted in final. Equivalent numeric comparison is accepted consistently.",
+          "evidence": [
+            "review.json#/judgments/3/unknowns/0",
+            "C_1d131a84131553ed400cb32e_price_from_displayed_per_535c6f8e",
+            "C_1d131a84131553ed400cb32e_price_from_reported_equity_535c6f8e",
+            "C_1d131a84131553ed400cb32e_displayed_price_difference_535c6f8e"
+          ]
+        }
+      },
+      "judgments": {
+        "J1": {
+          "score": 2,
+          "reason": "IssuerH1 annualization vs peersLTM and pretax removal from aftertax net explicitly linked to conditional comparison, LTM5988 already disposal-adjusted correctly explained.",
+          "evidence": [
+            "review.json#/judgments/0",
+            "MELCON-PROS-01:p369,p370,p371,p373"
+          ]
+        },
+        "J2": {
+          "score": 2,
+          "reason": "Named WORT same-photo THC vs HPSP annealing89.2%, shared front-end/environment mechanism and functional difference tied to equal-weight judgment.",
+          "evidence": [
+            "review.json#/judgments/1",
+            "MELCON-PROS-01:p365,p366,p367,p373"
+          ]
+        },
+        "J3": {
+          "score": 2,
+          "reason": "Fixed historical earnings/shares; mean=median disclosed as two-peer identity; WORT-only/HPSP-only justified by business differences and correctly quantified9446.43/18903.69, about-33.35/+33.38%.",
+          "evidence": [
+            "review.json#/judgments/2",
+            "C_1d131a84131553ed400cb32e_sensitivity_exclude_peer_1_535c6f8e",
+            "C_1d131a84131553ed400cb32e_sensitivity_exclude_peer_2_535c6f8e"
+          ]
+        },
+        "J4": {
+          "score": 2,
+          "reason": "Historical replication vs current dilution and independent originals distinguished; actual extra25000 occurrence read; R1/H1 concern timing and valuation interpretation, R2 precision, R3 tax/comparability. Remaining secondary retrieval/current denominator scenario openly unfinished.",
+          "evidence": [
+            "review.json#/judgments/3",
+            "review.json#/requests",
+            "review.json#/escalations",
+            "MELCON-PROS-01:p69,p328,p372,p373"
+          ]
+        }
+      },
+      "flags": {
+        "material_error": false,
+        "false_completion": false,
+        "unnecessary_hold": false
+      },
+      "handoff_assessment": [
+        {
+          "id": "R1/H1",
+          "classification": "LEGITIMATE_TIME_BASIS_JUDGMENT",
+          "blocking": true,
+          "reason": "Unlike priorDIAG, actual extra25000 occurrence and12760000 fully diluted total were read(p69,p328). Asks why historical12735000 valuation basis retained, not whether extra issuance exists. Updated price scenario remains internally computable and unfinished, explicitly disclosed."
+        },
+        {
+          "id": "R2",
+          "classification": "LEGITIMATE_UNDISCLOSED_PRECISION",
+          "blocking": false,
+          "reason": "Original price/share/profit arithmetic already performed; exact hidden digits/rounding stages are not disclosed."
+        },
+        {
+          "id": "R3/H2",
+          "classification": "LEGITIMATE_TAX_AND_COMPARABILITY_JUDGMENT",
+          "blocking": false,
+          "reason": "p373 pretax removal policy is read and recognized; asks after-tax amount/peer equivalent adjustments, not re-requests the already available policy explanation."
+        },
+        {
+          "id": "secondary_sale_internal_gap",
+          "classification": "INTERNAL_RETRIEVAL_INCOMPLETE_NOT_EXTERNAL_REQUEST",
+          "blocking": false,
+          "reason": "Source p138 explicitly states100%newissue, but those pages were not read. Answer openly defers own additional reading; F4 omission0. No claim this is externally unavailable."
+        }
+      ],
+      "runtime_acceptance": {
+        "registered": true,
+        "evaluated": true,
+        "sensitivity_executed": true,
+        "valid_final": true,
+        "current_calculation_use_valid": true
+      },
+      "metrics": {
+        "facts": {
+          "correct": 4,
+          "scorable": 5
+        },
+        "calculations": {
+          "correct": 3,
+          "scorable": 3
+        },
+        "methodology": {
+          "full_credit_domains": 4,
+          "domains": 4
+        }
+      }
+    }
+  ],
+  "pending_active_A0": [],
+  "policy": "Protocol11.1 failed mandatory omission0; notexecutednull. Partial sum scoring requires explicit labelled correct final answer and is separate from coverage.",
+  "caveats": [
+    "Runtime success is separate from semantic accuracy. B F/J unassessed cannot be used in a paired F/J comparison."
+  ],
+  "batch_disposition_counts": {
+    "SUBMITTED": 3,
+    "FAILED": 1,
+    "NOT_STARTED_STOP_REQUESTED": 8
+  },
+  "unexecuted_A0": [
+    {
+      "case_id": "DTS-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    }
+  ]
+}

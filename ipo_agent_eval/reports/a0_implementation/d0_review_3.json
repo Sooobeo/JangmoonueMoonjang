@@ -1,0 +1,36 @@
+{
+  "phase": "D0",
+  "review_pass": 3,
+  "reviewer": "case_roster",
+  "focus": "Independent preservation scope, secret exclusion, and reproducibility review",
+  "result": "PASS_AFTER_REPAIR",
+  "evidence": [
+    "preservation_manifest.json: 698 unique paths, 663 immutable evidence files, 27 source and 8 design snapshots",
+    "All 35 original source/design copies match their recorded SHA256",
+    "No manifest path is an .env file or a .key/.pem/.pfx/.p12 file",
+    "All three existing source PDFs and 171 existing run files are inventoried",
+    "preservation_supplement_phase1.json adds the three phase1 grading criteria and the shared review method",
+    "d0_review_3_hash_check.json: 702 total entries, 667 immutable evidence files, zero preservation violations"
+  ],
+  "findings": [
+    {
+      "id": "D0-R3-01",
+      "severity": "medium",
+      "finding": "Original manifest did not cover phase1 grading criteria; build_r001_grade.py reads the HDMS criteria from phase1.",
+      "resolution": "The preservation reviewer added a separately timestamped immutable supplement and updated the verifier to check it, retaining the original manifest.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "D0-R3-02",
+      "severity": "none",
+      "finding": "The tool rendering appeared to corrupt Korean git-status paths.",
+      "resolution": "Reading the actual UTF-8 JSON yielded zero U+FFFD characters and the correct Unicode code points. This was a display issue, not corruption of the record.",
+      "status": "DISMISSED_WITH_EVIDENCE"
+    }
+  ],
+  "limitations": [
+    "SHA256 preservation proves byte identity, not the factual correctness of historical gold or scores.",
+    "Secrets are excluded by filename/extension and no secret values were read or included in this review.",
+    "New files are intentionally outside the original baseline; their provenance must be recorded as new-version artifacts."
+  ]
+}

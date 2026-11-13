@@ -1,0 +1,31 @@
+﻿{
+    "checks":  [
+                   "v1 schemas/validation/calculations는 수정하지 않음. 기존 모의 추출 읽기 회귀 통과",
+                   "7종 레코드 strict schema와 원자적 등록, 모든 snapshot deep copy, record version 증가",
+                   "공시값 0과 UNAVAILABLE/NOT_APPLICABLE null 분리, 단위·주식 정수 검증",
+                   "실제 읽은 페이지 evidence만 허용; 파생 의존성 미등록·순환 거부",
+                   "허용식만 Decimal 40자리 계산, 원입력 evidence를 재귀 전파; 임의 DERIVED 주장 수치 거부",
+                   "주식 구성 중복/공모후 basis 혼입/issuer-peer 혼합 거부, coverage 미완료는 derived share null",
+                   "직접값 부재+유효 파생 선택은 DERIVABLE로 보존",
+                   "REVIEW_V2 계산 사용·배제와 snapshot, 미확인 분류, 요청 원장 버전/변경사유 계약"
+               ],
+    "tests":  {
+                  "command":  "python -m pytest -q tests/test_contracts_v2.py",
+                  "regression_passed_before_last_three_tests":  129,
+                  "regression_command":  "python -m pytest -q tests/test_contracts_v2.py tests/test_workflow.py tests/test_calculations.py tests/test_id_repairs.py",
+                  "passed":  28
+              },
+    "pass":  1,
+    "corrections":  [
+                        "독립검토에서 DERIVED/None 누락 경로와 PER 같은 단위 역할 역전 발견, 필수 연결·역할 검사와 재현 테스트 추가",
+                        "root 검토에서 entity 일치·issuer 컴포넌트 경계 발견, INVALID/거부 경로와 재현 테스트 추가"
+                    ],
+    "reviewer":  "contracts implementation self-review",
+    "scope":  "설계 6절 계약·v1 호환·근거와 스냅샷 불변조건",
+    "limitations":  [
+                        "의미적 공시 판정은 하지 않음. 선언된 CONTEXT 정합성과 허용 산술만 검사",
+                        "D2 계산 묶음 및 D3 제출 검증은 다음 단계"
+                    ],
+    "status":  "PASS",
+    "stage":  "D1"
+}

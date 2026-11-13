@@ -1,0 +1,22 @@
+{
+  "case_id": "MILLIE-DEV-01",
+  "pages": 490,
+  "pdf_sha256": "051fdb0d03214ba2a9bf05f395b5679cac9df503bdbbd21ddc6333d22b142173",
+  "source_spec_sha256": "90b8b926837bc49dc01d04b84f3bb5ce87eb41f362311785b22612cec5af3da1",
+  "empty_pages": [],
+  "prepared_file_sha256": {
+    "case_manifest.jsonl": "f512cfe7c3971680a72271a2b9973e50a980bd0514b29857ed1fb9f2811039d4",
+    "documents.jsonl": "de5695d6f622a913ad8d60f821d90c0888b9603c6998f67618fa2e507825295f",
+    "chunks.jsonl": "1b9873ec30f6c36477e6c71c5e715880b56b9d7753fbac9286e783fd2d347565",
+    "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+  },
+  "version_checks": {
+    "receipt_date_matches_correction_front_matter": true,
+    "original_receipt_matches_version_history": true,
+    "last_prospectus_before_cutoff_in_dart_version_list": true,
+    "source_precedes_general_subscription": true,
+    "issuer_identity_and_nonfinancial_business_verified": true,
+    "historical_earnings_per_primary_method_verified": true
+  },
+  "all_checks_passed": true
+}

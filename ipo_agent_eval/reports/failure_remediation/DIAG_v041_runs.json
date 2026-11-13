@@ -1,0 +1,231 @@
+{
+  "batch": "DIAG_v041",
+  "complete": true,
+  "runs": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111430Z_B_3281abe6",
+      "summary": {
+        "run_id": "20261113T111430Z_B_3281abe6",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 2,
+        "tool_calls": 22,
+        "input_tokens": 124911,
+        "output_tokens": 14577,
+        "format_repairs": 0,
+        "elapsed_seconds": 168.741,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.197796,
+        "known_usage_cost_usd_standard_uncached": 0.197796,
+        "estimated_cost_krw_at_budget_fx": 276.91,
+        "cost_ceiling_usd": 0.229024,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.229024,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      }
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111430Z_A0_2a9c2a1c",
+      "summary": {
+        "run_id": "20261113T111430Z_A0_2a9c2a1c",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 17,
+        "tool_calls": 19,
+        "input_tokens": 730921,
+        "output_tokens": 11301,
+        "format_repairs": 0,
+        "elapsed_seconds": 170.87,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.787426,
+        "known_usage_cost_usd_standard_uncached": 0.787426,
+        "estimated_cost_krw_at_budget_fx": 1102.4,
+        "cost_ceiling_usd": 0.970156,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.970156,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      }
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111719Z_B_33614eb2",
+      "summary": {
+        "run_id": "20261113T111719Z_B_33614eb2",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 2,
+        "tool_calls": 22,
+        "input_tokens": 81279,
+        "output_tokens": 13343,
+        "format_repairs": 0,
+        "elapsed_seconds": 153.031,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.147994,
+        "known_usage_cost_usd_standard_uncached": 0.147994,
+        "estimated_cost_krw_at_budget_fx": 207.19,
+        "cost_ceiling_usd": 0.168314,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.168314,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      }
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T111721Z_A0_4b26cbd9",
+      "summary": {
+        "run_id": "20261113T111721Z_A0_4b26cbd9",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 17,
+        "tool_calls": 19,
+        "input_tokens": 728665,
+        "output_tokens": 10828,
+        "format_repairs": 0,
+        "elapsed_seconds": 164.509,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.782805,
+        "known_usage_cost_usd_standard_uncached": 0.782805,
+        "estimated_cost_krw_at_budget_fx": 1095.93,
+        "cost_ceiling_usd": 0.964971,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.964971,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      }
+    }
+  ],
+  "stopped_between_runs": false,
+  "unexecuted_planned_runs": [],
+  "remaining_planned_runs": []
+}

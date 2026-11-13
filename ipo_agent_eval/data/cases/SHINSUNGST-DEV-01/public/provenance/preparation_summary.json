@@ -1,0 +1,22 @@
+{
+  "case_id": "SHINSUNGST-DEV-01",
+  "pages": 430,
+  "pdf_sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+  "source_spec_sha256": "ddc902ac26d8c097db98edff7f1d1a9beaad409682a2942fa2a090ee1f6424b1",
+  "empty_pages": [],
+  "prepared_file_sha256": {
+    "case_manifest.jsonl": "03bdd00b0c4a590e8466e967fa4ca6675534352a26eed574c2a27575415f6daf",
+    "documents.jsonl": "391afed2a72f4d372b6d0513e090f29c2f34862a592795c7294a0b52b4be0310",
+    "chunks.jsonl": "1343f8a7772bf6db922103ffe824d3491c385a4e6b3af317391e7023368325ef",
+    "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+  },
+  "version_checks": {
+    "receipt_date_matches_correction_front_matter": true,
+    "original_receipt_matches_version_history": true,
+    "last_prospectus_before_cutoff_in_dart_version_list": true,
+    "source_precedes_general_subscription": true,
+    "issuer_identity_and_nonfinancial_business_verified": true,
+    "historical_earnings_per_primary_method_verified": true
+  },
+  "all_checks_passed": true
+}

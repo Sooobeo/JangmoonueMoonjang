@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "issues": [],
+  "stage_review_records": 21,
+  "overall_review_records": 3,
+  "frozen_runtime_files_checked": 27,
+  "test_scenarios": 20,
+  "regression_passed": 284,
+  "local_links_checked": 55,
+  "paid_requests_made_by_this_check": 0,
+  "notes": [
+    "Assertions additionally verify all 12 paired outcomes, grading denominators, costs and candidate links.",
+    "This closes delivery evidence; it does not make the failed experimental runs successful."
+  ]
+}

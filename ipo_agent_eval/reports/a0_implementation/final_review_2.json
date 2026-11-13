@@ -1,0 +1,59 @@
+{
+  "checked_at_utc": "2026-11-13T10:49:17.363229+00:00",
+  "review": "Overall final review 2 after D0-D6",
+  "reviewer": "contracts agent; AI independent cross-review, not independent human grading",
+  "status": "PASS_AFTER_REPAIR",
+  "unresolved_findings": [],
+  "findings": [
+    {
+      "id": "FINAL-R2-01",
+      "severity": "LOW",
+      "location": "implementation_report.md cost paragraph; D5_review_3.md",
+      "problem": "The standard-uncached reporting estimate was described as a conservative budget figure, although cache-write cost can exceed it.",
+      "status": "RESOLVED",
+      "resolution": "Latest documents distinguish the standard-uncached reporting basis from the 1.25x-input cache-write budget ceiling and actual invoices. Confirmed DTS B standard $0.062756 < cache-aware $0.06888105; no score or cost value was changed."
+    }
+  ],
+  "checks": {
+    "D0_D6_three_reviews_present_and_closed": true,
+    "original_design_body_preserved": true,
+    "README_design_report_current_results_consistent": true,
+    "CLI_matches_documentation": "Explicit B/A0 selects v2; CLI default B; Python execute(condition omitted) preserves v1; repeat is a positive run label.",
+    "code_contracts": "Seven strict record types; atomic immutable snapshots; actual-read provenance; allowed Decimal derivations; explicit selection; missing dependency and calculation-use validation.",
+    "budget_and_state": "B/A0 share configuration; final and repair reservations protect remaining work; FINALIZING/COMMIT disallow renewed exploration; one shared structural repair cannot change semantics.",
+    "isolation": "Registered public BEFORE corpora only; other cases/private/gold excluded; public-path redirection blocked; six public corpora checked.",
+    "test_coverage": "T01-T20 and 36 actual test function references resolved by AST; recorded full regression 284 passed. No tests or runtime rerun by this review.",
+    "preservation": "702 baseline entries and 27 frozen source hashes independently rechecked; no evidence or source mutation.",
+    "actual_results": "12 paired attempts; 2 submitted and 10 failed; B F0/30 K0/18 Jfull0/24; A0 F7/30 K0/18 Jfull3/24.",
+    "failure_and_source_denominators": "FAILED mandatory scores remain zero; unobserved content flags null. Source support is only submitted structured claims: FULL20/21, qualified1; failed source denominator0/rate null.",
+    "costs": {
+      "started_attempts": 18,
+      "paired_attempts": 12,
+      "saved_response_usages_reconciled": 78,
+      "paired_known_usage_cost_usd": "0.80509405",
+      "all_started_known_usage_cost_usd": "1.09106735",
+      "unknown_usage_requests": 3,
+      "invoice_cost_usd": null,
+      "operator_interruption_label_corrected_without_source_mutation": true
+    },
+    "operator_interruption": "Auxiliary root-stopped attempt correctly marked INTERRUPTED_BY_OPERATOR with absent summary explicit and source evidence linked; not pooled into paired quality scores.",
+    "data_split": "Six development cases; twelve evaluation candidates with preparation incomplete, no evaluation answers; three excluded. Forced development assignment and seeded candidate ordering are disclosed.",
+    "D6_handoff": "25 overlapping observations, three traceable A1 proposals, common fixes separated. EXPLORING-only intervention; no post-COMMIT factual repair. A1 costs and effectiveness remain unmeasured assumptions."
+  },
+  "evidence": "reports/a0_implementation/final_review_2_crosscheck.json",
+  "reviewed_hashes": {
+    "README.md": "fc9dc602acd5b07d06a9e7075f9d4ab1f1e0c0a3c415e018bd0d3a01516f5231",
+    "reports/a0_implementation/implementation_report.md": "03df4179b059f5a6ac392b91b7b56b576d9c82a03fb0caf7364121873db53461",
+    "reports/a0_implementation/D5_comparison_summary.json": "26cdf85446f89f61e2c7cc79afa545c57d444547c6ae2dfb7e3264488ee0074b",
+    "reports/a0_implementation/all_attempt_costs.json": "851e2e1710ae4700639982c4f84ed469f71fd38bdd79563ad54873f61770ace3",
+    "reports/a0_implementation/D6_failure_handoff.json": "14fdec40b3453fb85f2fdf9d570bb7486f43f4ffc5c6266ce4c79e9b35654041",
+    "reports/a0_implementation/requirements_test_mapping.json": "6bf8285c04f101da864c7f43e4f955f1f43df6c27a1645218c03513aecc1c5df",
+    "../whole plan/IPO_파일럿보완_A0_상세설계.md": "74c4f6e7eeaf8487ebb4dcc8e4cee8736848a33640d2374a75cf37ebb4604934"
+  },
+  "boundaries": [
+    "No source/runtime/API execution or source changes were performed during this review.",
+    "Human blinded grading, human work-time measurement, A1 implementation, and final evaluation are not completed by this review.",
+    "Root overall third review and its final status-text update remain the closing step."
+  ],
+  "conclusion": "Overall second review passes after the cost-description repair. No unresolved findings prevent the root final third review."
+}

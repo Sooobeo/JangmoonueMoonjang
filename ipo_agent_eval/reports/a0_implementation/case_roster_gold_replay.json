@@ -1,0 +1,98 @@
+{
+  "review_date": "2026-11-13",
+  "status": "PASS_AUTOMATED_SOURCE_LINKS_AND_DECIMAL_CHECKS",
+  "cases": [
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "gold_path": "data/cases/SHINSUNGST-DEV-01/private/gold.json",
+      "gold_sha256": "3f9192c4da55cfe5ea86f1fe3ee0909720afa4a7de3d4e79ec2aa3fe9597f87c",
+      "evidence_references_checked": 24,
+      "unique_evidence_pages": [
+        237,
+        240,
+        241,
+        244,
+        245
+      ],
+      "share_sum_pass": true,
+      "computed": {
+        "share_component_sum": "9046771",
+        "earnings_krw": "14669632980",
+        "eps_krw": "1621.532476062453664406891696495909977162",
+        "displayed_inputs_equity_krw": "319797998964.0",
+        "displayed_inputs_price_krw": "35349.40797816148988407023898361083750213",
+        "difference_from_disclosed_price_krw": "-10.59202183851011592976101638916249787",
+        "displayed_peer_mean": "21.75",
+        "peer_per_from_source_cap_and_earnings": {
+          "신흥에스이씨": "12.75744497269708116841111536829720045309",
+          "상신이디피": "11.40578876198620442287992109838437634755",
+          "삼기이브이": "45.06889952582146220963528816245077414227",
+          "영화테크": "17.72535984650163646888936642301057012206"
+        }
+      },
+      "human_review_status": "NOT_YET_REVIEWED"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "gold_path": "data/cases/ALT-DEV-01/private/gold.json",
+      "gold_sha256": "47d6734f9324fc09727289604b46c1f65401725987e4f53e11f56ce77ac156d5",
+      "evidence_references_checked": 22,
+      "unique_evidence_pages": [
+        243,
+        246,
+        251,
+        252
+      ],
+      "share_sum_pass": true,
+      "computed": {
+        "share_component_sum": "8960259",
+        "earnings_krw": "13508336854",
+        "eps_krw": "1507.583302446949357155858999165091098371",
+        "displayed_inputs_equity_krw": "243150063372.0",
+        "displayed_inputs_price_krw": "27136.49944404508842880546198497163977068",
+        "difference_from_disclosed_price_krw": "-9.50055595491157119453801502836022932",
+        "displayed_peer_mean": "18.025",
+        "disclosed_equity_based_price_krw": "27145.62097457227519874146495095733281817",
+        "displayed_equity_minus_disclosed_krw": "-81731276.0",
+        "peer_per_from_source_cap_and_earnings": {
+          "LB세미콘": "13.76859609037826859609037826859609037827",
+          "LB루셈": "25.76064060020199105468186408887606406002",
+          "두산테스나": "11.07833682295962608125541949537888881839",
+          "네패스아크": "21.43118892508143322475570032573289902280"
+        }
+      },
+      "human_review_status": "NOT_YET_REVIEWED"
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "gold_path": "data/cases/MILLIE-DEV-01/private/gold.json",
+      "gold_sha256": "705bbdc1d92320bd3e75998c83bb1d9437f57880ebcda976b3c9a9bb55dd87fb",
+      "evidence_references_checked": 24,
+      "unique_evidence_pages": [
+        285,
+        288,
+        292,
+        293,
+        294
+      ],
+      "share_sum_pass": true,
+      "computed": {
+        "share_component_sum": "8422810",
+        "earnings_krw": "10255482000",
+        "eps_krw": "1217.584392857015651546217948641842805430",
+        "displayed_inputs_equity_krw": "313304975100.00",
+        "displayed_inputs_price_krw": "37197.20320178182815473695833100829770587",
+        "difference_from_disclosed_price_krw": "4.20320178182815473695833100829770587",
+        "displayed_peer_mean": "30.55",
+        "disclosed_equity_based_price_krw": "37193.08829238698249159128604349379838795",
+        "displayed_equity_minus_disclosed_krw": "34659100.00",
+        "peer_per_from_source_cap_and_earnings": {
+          "미스터블루": "17.73747257008741751558579702877006530227",
+          "예스24": "43.35577402033964803998391098485195068329"
+        }
+      },
+      "human_review_status": "NOT_YET_REVIEWED"
+    }
+  ],
+  "limits": "AI-prepared criteria, no human scoring adjudication; no model response used; check findings do not prove full accounting/source independence."
+}

@@ -1,0 +1,181 @@
+{
+  "checked_at_utc": "2026-11-13T10:13:45.345067+00:00",
+  "stage": "D5 pre-run independent review 2",
+  "passed": true,
+  "problems": [],
+  "shared_config_differences": {
+    "condition": {
+      "B": "B",
+      "A0": "A0"
+    }
+  },
+  "config_hashes": {
+    "B": "2aa84370f69100c495eabd1453034a01e0353b822576c14235b441ae4e22cfba",
+    "A0": "cbad660bfc0a6b3ce95338f0fca9f9c302f622a9ad4108f4872dd8e16e4c90c3"
+  },
+  "roster_sha256": "1e5d111e60a70980d124d27f7b904ea39bf99314cae14da8def19f6f64caf1ae",
+  "registered_development_cases": [
+    "ALT-DEV-01",
+    "DTS-DEV-01",
+    "HDMS-DEV-01",
+    "MELCON-DEV-01",
+    "MILLIE-DEV-01",
+    "SHINSUNGST-DEV-01"
+  ],
+  "evaluation_candidate_cases": [
+    "APR-EVAL-01",
+    "ECOEYE-EVAL-01",
+    "GIGAVIS-EVAL-01",
+    "HANSSAK-EVAL-01",
+    "INSWAVE-EVAL-01",
+    "JEONJIN-EVAL-01",
+    "MANYO-EVAL-01",
+    "PHILENERGY-EVAL-01",
+    "SANIL-EVAL-01",
+    "SLSBIO-EVAL-01",
+    "SYSTEEL-EVAL-01",
+    "TRUEN-EVAL-01"
+  ],
+  "evaluation_live_allowed": false,
+  "corpora_and_gold": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "public_directory": "data/public",
+      "public_inputs_match_roster": true,
+      "verified_documents": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "sha256": "9f563a7e2af8c39a96567e83268321b0a40cf334abe94e7377b00ca0351f31ab",
+          "pages": 638,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "source_pages": 638,
+      "manual_sha256": "df86f3e827e3565672522c3f299aa1fb48d5bd8ad973e63349869c87c7220e3f",
+      "gold": {
+        "preservation_reference": "D0 original and phase1 supplemental preservation manifests"
+      }
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "public_directory": "data/cases/MELCON-DEV-01/public",
+      "public_inputs_match_roster": true,
+      "verified_documents": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "sha256": "b205592c500bee617469fdfb35a85fef33685969383304986f00c92707713606",
+          "pages": 600,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "source_pages": 600,
+      "manual_sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+      "gold": {
+        "preservation_reference": "D0 original and phase1 supplemental preservation manifests"
+      }
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "public_directory": "data/cases/DTS-DEV-01/public",
+      "public_inputs_match_roster": true,
+      "verified_documents": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "sha256": "2a401607d5147d2e839ccd971ade3914cd4a0df2e6b49fb9cc84e6d6449fa4e4",
+          "pages": 719,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "source_pages": 719,
+      "manual_sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+      "gold": {
+        "preservation_reference": "D0 original and phase1 supplemental preservation manifests"
+      }
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "public_directory": "data/cases/SHINSUNGST-DEV-01/public",
+      "public_inputs_match_roster": true,
+      "verified_documents": [
+        {
+          "doc_id": "SHINSUNGST-PROS-01",
+          "sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+          "pages": 430,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "source_pages": 430,
+      "manual_sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+      "gold": {
+        "path": "data/cases/SHINSUNGST-DEV-01/private/gold.json",
+        "sha256": "3f9192c4da55cfe5ea86f1fe3ee0909720afa4a7de3d4e79ec2aa3fe9597f87c",
+        "matches_roster": true,
+        "locked_before_model_answer": true,
+        "private_do_not_include_in_model_input": true,
+        "grading_status": "RUBRIC_PREPARED_NO_MODEL_RESPONSE_REVIEWED",
+        "human_review_status": "NOT_YET_REVIEWED",
+        "outside_public_directory": true
+      }
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "public_directory": "data/cases/ALT-DEV-01/public",
+      "public_inputs_match_roster": true,
+      "verified_documents": [
+        {
+          "doc_id": "ALT-PROS-01",
+          "sha256": "f9a14394dafa92b9e42b2b4253a4628c4a60ab02929408ab7b924524c78d816a",
+          "pages": 471,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "source_pages": 471,
+      "manual_sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+      "gold": {
+        "path": "data/cases/ALT-DEV-01/private/gold.json",
+        "sha256": "47d6734f9324fc09727289604b46c1f65401725987e4f53e11f56ce77ac156d5",
+        "matches_roster": true,
+        "locked_before_model_answer": true,
+        "private_do_not_include_in_model_input": true,
+        "grading_status": "RUBRIC_PREPARED_NO_MODEL_RESPONSE_REVIEWED",
+        "human_review_status": "NOT_YET_REVIEWED",
+        "outside_public_directory": true
+      }
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "public_directory": "data/cases/MILLIE-DEV-01/public",
+      "public_inputs_match_roster": true,
+      "verified_documents": [
+        {
+          "doc_id": "MILLIE-PROS-01",
+          "sha256": "051fdb0d03214ba2a9bf05f395b5679cac9df503bdbbd21ddc6333d22b142173",
+          "pages": 490,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "source_pages": 490,
+      "manual_sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad",
+      "gold": {
+        "path": "data/cases/MILLIE-DEV-01/private/gold.json",
+        "sha256": "705bbdc1d92320bd3e75998c83bb1d9437f57880ebcda976b3c9a9bb55dd87fb",
+        "matches_roster": true,
+        "locked_before_model_answer": true,
+        "private_do_not_include_in_model_input": true,
+        "grading_status": "RUBRIC_PREPARED_NO_MODEL_RESPONSE_REVIEWED",
+        "human_review_status": "NOT_YET_REVIEWED",
+        "outside_public_directory": true
+      }
+    }
+  ],
+  "preflight_count": 12,
+  "completed_v03_live_runs_at_check": [
+    "20261113T101226Z_A0_1dcb1488"
+  ],
+  "limits": [
+    "Read-only hash, registration, corpus and configuration audit; no model requests.",
+    "Rubrics are AI-prepared and not independently human-adjudicated.",
+    "Evaluation candidates require W12 source/gold/protocol freeze before model execution.",
+    "HDMS retains its historical manual; both policies use the same manual within each case."
+  ]
+}

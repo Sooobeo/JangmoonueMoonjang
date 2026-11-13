@@ -1,0 +1,28 @@
+﻿{
+    "stage":  "D2",
+    "pass":  1,
+    "limitations":  [
+                        "공통 계산기는 모델의 원문 독해·coverage 선언·선택 타당성을 자동 채점하지 않음",
+                        "등록된 DERIVATION과 계산 중 파생 중간값을 원입력 ID로 추적하며 evaluation 자체는 snapshot을 바꾸지 않음",
+                        "D3에서 calc_id/snapshot/USE 값 일치를 검증 예정"
+                    ],
+    "status":  "PASS",
+    "scope":  "설계 6.2~6.4 및 T01~T10, 기존 민감도",
+    "reviewer":  "contracts/calculations implementation self-review",
+    "tests":  {
+                  "calculation_tests":  16,
+                  "command":  "python -m pytest -q tests/test_contracts_v2.py tests/test_calculations_v2.py",
+                  "passed":  45
+              },
+    "checks":  [
+                   "멜콘 주식수 12735000, DTS 주식수14881735 및 옵션 INCLUDE/EXCLUDE 변경 검증",
+                   "coverage INCOMPLETE/UNRESOLVED/필수수량 null은 완전합계 null과 partial_sum; EXCLUDE 구주 null은 산술 차단 안함",
+                   "원입력 기준주가20000*주식수5000000=시총100000백만원, 이익10000이면 PER10",
+                   "직접시총90000과 파생100000 동시 보존, 차이10000 기록, 명시 선택 전 PER UNAVAILABLE",
+                   "불변 input_snapshot_id 기반 calc_id, 옛 스냅샷 재계산 재현, 계산이 등록 상태를 변경하지 않음",
+                   "원입력 fact ID·full inputs·직접 피연산자 ID·원문 evidence를 계산마다 보존",
+                   "Decimal precision40과 기존 sensitivity 평균/중앙값/한 기업 제외 계산 유지",
+                   "미확인 비교기업을 평균에서 몰래 제거하지 않음, 음수 이익은 INVALID로 보존",
+                   "미등록 수식 및 대안 거부"
+               ]
+}

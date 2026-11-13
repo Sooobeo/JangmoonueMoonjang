@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="IPO 공시 검토 연구의 목적, B·A0·A1 시스템과 평가 구조, 전체 연구 흐름 안의 현재 위치와 남은 일입니다.">
+<title>IPO 검토 에이전트 — 전체 구조와 현재 위치</title>
+<style>
+:root{--bg:#f4f5f7;--paper:#fff;--ink:#192639;--muted:#596779;--line:#dde3eb;--blue:#284bb7;--blue-soft:#edf2ff;--green:#216955;--green-soft:#edf7f2;--amber:#875719;--amber-soft:#fff5e5;--nav:224px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:32px}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.8 "Malgun Gothic","Apple SD Gothic Neo",sans-serif;word-break:keep-all;overflow-wrap:anywhere}a{color:var(--blue);text-underline-offset:4px}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #5986ee;outline-offset:4px}a:hover{color:#133081}button:hover{filter:brightness(.97)}.skip{position:absolute;left:10px;top:-80px;z-index:10;background:white;padding:10px}.skip:focus{top:10px}.layout{max-width:1450px;margin:0 auto;display:grid;grid-template-columns:var(--nav) minmax(0,1fr)}.sidebar{position:sticky;top:0;height:100vh;padding:38px 24px;border-right:1px solid var(--line);display:flex;flex-direction:column}.brand{font-size:11px;letter-spacing:2px;color:var(--blue);font-weight:800}.brand-name{font-size:22px;font-weight:800;line-height:1.45;letter-spacing:-.8px;margin:10px 0 24px}.sidebar nav a{display:flex;gap:12px;text-decoration:none;color:var(--muted);padding:10px 0;font-size:13px}.sidebar nav a:hover{color:var(--blue)}.sidebar nav span{font-size:11px;color:#8793a3;font-variant-numeric:tabular-nums}.side-bottom{margin-top:auto;padding-top:26px;font-size:12px;color:var(--muted)}.side-bottom strong{display:block;color:var(--ink)}main{min-width:0;background:var(--paper);padding:48px 56px 36px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:20px;color:var(--muted);font-size:12px;margin-bottom:32px}.actions{display:flex;gap:8px}.button{border:1px solid var(--line);background:white;color:var(--ink);border-radius:7px;padding:7px 12px;font-size:12px}.eyebrow{font-size:12px;letter-spacing:.08em;color:var(--blue);font-weight:800}.hero h1{font-size:clamp(30px,3.3vw,43px);line-height:1.4;letter-spacing:-1.8px;margin:12px 0 20px;max-width:850px}.hero h1 span{color:var(--blue)}.lead{font-size:17px;color:var(--muted);max-width:780px;margin:0 0 26px}.status-line{padding:14px 18px;background:var(--blue-soft);border-left:3px solid var(--blue);border-radius:0 7px 7px 0;font-size:14px}.status-line b{color:var(--blue)}.journey{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;margin:30px 0 26px;border:1px solid var(--line);border-radius:10px;overflow:hidden}.journey div{padding:15px 10px;border-right:1px solid var(--line);font-size:12px;line-height:1.6;text-align:center}.journey div:last-child{border:0}.journey small{display:block;font-size:10px;margin-bottom:5px;color:var(--muted)}.journey .done{background:var(--green-soft);color:var(--green)}.journey .now{background:var(--blue);color:#fff;font-weight:700}.journey .now small{color:#e0e8ff}.journey .later{color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:24px 0 18px}.stat{padding:8px 0 8px 17px;border-left:2px solid var(--line)}.stat strong{display:block;font-size:29px;line-height:1.5;letter-spacing:-1px}.stat span{font-size:12px;color:var(--muted)}.fine{font-size:12px;color:var(--muted);line-height:1.8}.section{margin-top:62px;scroll-margin-top:28px}.section-top{display:flex;gap:18px;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:24px}.number{font-size:12px;font-weight:800;color:var(--blue)}h2{font-size:25px;line-height:1.45;letter-spacing:-.8px;margin:0}h3{font-size:17px;line-height:1.6;margin:0 0 9px}p{margin:8px 0 15px}.section-intro{color:var(--muted);margin-bottom:22px}.done-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px 30px}.done-item{position:relative;padding-left:26px}.done-item:before{content:'✓';position:absolute;left:0;top:0;color:var(--green);font-weight:800}.done-item p{font-size:14px;color:var(--muted);margin:0}.tag{display:inline-flex;align-items:center;padding:3px 9px;border-radius:5px;font-size:11px;font-weight:700;white-space:nowrap}.tag.green{background:var(--green-soft);color:var(--green)}.tag.blue{background:var(--blue-soft);color:var(--blue)}.tag.amber{background:var(--amber-soft);color:var(--amber)}.tag.gray{background:#f0f2f5;color:var(--muted)}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:20px 0 12px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:16px 15px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#f7f8fb;font-size:12px;color:var(--muted);font-weight:700;white-space:nowrap}tr:last-child td{border-bottom:0}td strong{font-size:16px}.score{font-variant-numeric:tabular-nums;white-space:nowrap}.score.warn{color:var(--amber);font-weight:800}.sub{display:block;font-size:11px;color:var(--muted);margin-top:5px}.state{white-space:nowrap;font-size:12px}.notice{padding:16px 20px;border-radius:8px;background:var(--amber-soft);font-size:14px;color:#67471f;margin:20px 0}.notice p:last-child{margin-bottom:0}.note{font-size:13px;color:var(--muted)}.case-details{border-bottom:1px solid var(--line);padding:15px 0}.case-details summary{font-size:14px;font-weight:700;cursor:pointer}.case-details .inside{padding:12px 0 0 20px;color:var(--muted);font-size:14px}.inside a{font-size:12px}.inside strong{color:var(--ink)}.method-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}.method{border:1px solid var(--line);border-radius:9px;padding:19px}.method.active{border-color:#aabbea;background:#f9faff}.method-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.method-title b{font-size:23px}.method p{font-size:13px;color:var(--muted);margin:6px 0}.priority{border:1px solid #b7c6ee;border-radius:12px;background:#f8faff;padding:25px 28px}.priority-label{font-size:11px;font-weight:800;color:var(--blue);margin-bottom:8px}.priority h3{font-size:21px}.priority p{color:var(--muted);font-size:14px}.example{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;margin:20px 0}.example div{padding:14px 18px;background:#fff;border:1px solid var(--line);border-radius:7px}.example small{display:block;color:var(--muted);font-size:11px}.example strong{display:block;font-size:21px;letter-spacing:-.4px}.example .arrow{color:var(--blue);font-size:21px}.accept{border-top:1px solid #d9e2f4;padding-top:15px;font-size:13px}.next-two{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}.next-two p{font-size:14px;color:var(--muted)}.next-two h3{font-size:16px}.roadmap{margin-top:24px}.road-step{display:grid;grid-template-columns:45px 1fr;gap:14px;position:relative;padding-bottom:22px}.road-step:not(:last-child):before{content:'';position:absolute;left:17px;top:36px;bottom:0;border-left:1px solid var(--line)}.step-index{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:50%;border:1px solid var(--line);font-size:12px;font-weight:800;background:#fff;color:var(--muted)}.road-step:first-child .step-index{background:var(--blue);color:#fff;border-color:var(--blue)}.road-step details{border-bottom:1px solid var(--line);padding:4px 0 20px}.road-step summary{cursor:pointer;list-style:none;display:flex;gap:12px;justify-content:space-between;align-items:baseline}.road-step summary::-webkit-details-marker{display:none}.road-step summary:after{content:'+';font-size:20px;color:var(--muted)}.road-step details[open] summary:after{content:'−'}.step-title{font-size:16px;font-weight:700}.step-code{font-size:11px;color:var(--muted);margin-right:10px;font-weight:400}.road-step details>p{font-size:14px;color:var(--muted);margin-top:13px}.deliver{font-size:13px;background:#f6f7fa;padding:12px 15px;border-radius:7px}.deliver b{color:var(--blue);font-size:11px;margin-right:8px}.scope-box{background:#f4f6fb;border:1px solid var(--line);border-radius:12px;padding:25px 28px;margin:30px 0}.scope-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.scope-head h3{margin:0}.segments{display:flex;background:white;padding:4px;border:1px solid var(--line);border-radius:8px;gap:3px}.segments button{border:0;background:transparent;padding:7px 13px;font-size:12px;border-radius:5px;color:var(--muted);white-space:nowrap}.segments button[aria-pressed=true]{background:var(--blue);color:white}.scope-values{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin:25px 0 15px}.scope-values strong{font-size:31px;line-height:1.5}.scope-values span{display:block;font-size:12px;color:var(--muted)}.formula{font-size:14px;border-top:1px solid var(--line);padding-top:15px}.finish{border-top:3px solid var(--blue);padding:22px 0 0;margin-top:25px}.finish h3{font-size:20px}.finish p{font-size:14px;color:var(--muted)}.evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.evidence-grid article{border-top:2px solid var(--green);padding-top:16px}.evidence-grid h3{font-size:16px}.evidence-grid p{font-size:13px;color:var(--muted)}.evidence-grid strong{color:var(--ink)}.sources{display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;margin-top:22px}.sources a{font-size:13px;text-decoration:none;padding-bottom:9px;border-bottom:1px solid var(--line)}.sources a:after{content:' ↗';font-size:11px}.owner{margin-top:24px;padding:18px 20px;background:#f6f7fa;border-radius:7px;font-size:13px;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:50px;padding-top:20px;font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:15px}.screen-only{}@media(min-width:1350px){main{padding-left:64px;padding-right:64px}}
+@media(max-width:1050px){:root{--nav:188px}main{padding:38px 30px}.sidebar{padding:32px 20px}.hero h1{font-size:33px}.stats{gap:10px}.stat{padding-left:12px}.stat strong{font-size:25px}.scope-head{align-items:flex-start;flex-direction:column}.journey div{padding:13px 6px}}
+@media(max-width:760px){html{scroll-padding-top:24px}.layout{display:block}.sidebar{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:17px 22px;display:block}.brand-name,.side-bottom{display:none}.sidebar nav{display:flex;overflow-x:auto;gap:22px;margin-top:9px;white-space:nowrap}.sidebar nav a{font-size:12px;padding:3px 0}.sidebar nav span{display:none}main{padding:26px 22px 24px}.topbar{margin-bottom:27px;gap:12px;flex-wrap:wrap}.hero h1{font-size:30px;letter-spacing:-1.2px}.lead{font-size:15px}.journey{grid-template-columns:repeat(3,minmax(0,1fr));margin:25px 0}.journey div:nth-child(3){border-right:0}.journey div:nth-child(-n+3){border-bottom:1px solid var(--line)}.stats{grid-template-columns:repeat(2,1fr);gap:15px}.stat strong{font-size:27px}.section{margin-top:45px}.section-top{gap:12px}h2{font-size:23px}.done-grid,.method-grid,.next-two,.evidence-grid,.sources{grid-template-columns:1fr}.done-grid{gap:22px}.method{padding:17px 20px}.priority,.scope-box{padding:21px 18px}.example{gap:7px}.example div{padding:12px 10px}.example strong{font-size:18px}.example .arrow{font-size:18px}.scope-values{gap:12px}.scope-values strong{font-size:27px}.scope-values span{font-size:11px}.step-title{font-size:15px}.step-code{display:block;margin:0 0 4px}.road-step{gap:8px;grid-template-columns:38px 1fr}.road-step summary{align-items:center}.table-wrap table{min-width:625px}.evidence-grid{gap:22px}.owner{padding:16px}footer{display:block}footer span{display:block;margin:5px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{@page{size:A4;margin:15mm}.sidebar,.topbar .actions,.segments,.screen-only,.skip{display:none!important}.layout{display:block}body,main{background:white}main{padding:0}body{font-size:10pt;line-height:1.65}.hero h1{font-size:26pt}.lead{font-size:12pt}.section{margin-top:25px}.section-top{break-after:avoid}h2{font-size:18pt}.stats strong{font-size:21pt}.journey{margin:18px 0}.priority,.scope-box,.done-item,.method,.evidence-grid article,.road-step,.case-details{break-inside:avoid}.table-wrap{overflow:visible}th,td{padding:10px;font-size:10pt}.table-wrap table{min-width:0}.sources a{font-size:9pt}.road-step summary:after{display:none}a{color:var(--ink)}footer{margin-top:20px}.notice,.status-line,.journey,.scope-box,.tag{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@media print{.section{margin-top:22px}.section-top{padding-bottom:10px;margin-bottom:18px}.case-details{padding:10px 0}.inside,.priority p,.next-two p,.road-step details>p,.finish p{font-size:10pt;line-height:1.6}.road-step{padding-bottom:14px}.road-step details{padding-bottom:12px}.scope-box{padding:18px 22px;margin:20px 0}.sources{break-inside:avoid}.section-intro{margin-bottom:16px}}
+.project-scope{display:grid;grid-template-columns:1fr 1fr;gap:26px;padding:22px 25px;background:#f6f8fc;border:1px solid var(--line);border-radius:10px}.project-scope span,.research-questions article>span{display:block;color:var(--blue);font-size:11px;font-weight:800;margin-bottom:6px}.project-scope strong{display:block;font-size:17px}.project-scope p{font-size:13px;color:var(--muted);margin:5px 0 0}.research-questions{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin:25px 0}.research-questions article{border-top:2px solid var(--blue);padding-top:14px}.research-questions p{font-size:14px;margin:0}.project-outcome{background:var(--green-soft);color:var(--green);padding:15px 20px;border-radius:8px;font-size:13px}.project-outcome b{display:block;margin-bottom:3px}.system-flow{display:grid;grid-template-columns:1fr 22px 1.2fr 22px 1fr;gap:10px;align-items:stretch}.system-flow article{border:1px solid var(--line);border-radius:10px;padding:19px 17px;background:#fafbfc}.system-flow .flow-core{background:var(--blue-soft);border-color:#b6c7ef}.flow-label{font-size:11px;font-weight:800;color:var(--blue);margin-bottom:7px;display:block}.system-flow h3{font-size:16px}.system-flow p{font-size:12px;color:var(--muted);margin:0;line-height:1.9}.flow-arrow{align-self:center;color:var(--blue);font-size:23px;text-align:center}.evaluation-flow{display:grid;grid-template-columns:1.15fr 1fr;gap:25px;padding:22px 24px;border:1px solid #c5ddd3;border-left:4px solid var(--green);border-radius:8px;background:#f7fbf9}.evaluation-flow .flow-label{color:var(--green)}.evaluation-flow h3{font-size:16px}.evaluation-flow p{font-size:12px;color:var(--muted);margin-bottom:0}.evaluation-items{display:grid;grid-template-columns:1fr 1fr;gap:9px;align-content:center}.evaluation-items span{font-size:12px;padding:11px 10px;background:#fff;border:1px solid #d8e6df;border-radius:5px;text-align:center}.lifecycle-heading{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin:34px 0 15px}.lifecycle-heading h3{margin:0;font-size:19px}.lifecycle-heading>span{font-size:12px;color:var(--muted)}.lifecycle{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.lifecycle li{border:1px solid var(--line);border-radius:8px;padding:15px 18px;background:#fff}.lifecycle li>span{font-size:11px;font-weight:800;color:var(--blue);display:block;margin-bottom:5px}.lifecycle strong{display:block;font-size:15px}.lifecycle small{font-size:11px;color:var(--muted);display:block;margin-top:4px}.asset-map{margin-top:24px;border:1px solid var(--line);border-radius:8px;padding:15px 19px}.asset-map summary{cursor:pointer;font-weight:700;font-size:13px}.asset-map dl{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin:17px 0 4px}.asset-map dl>div{font-size:12px}.asset-map dt{font-weight:700}.asset-map dd{margin:4px 0 0;color:var(--muted)}.asset-map code{display:block;font:11px/1.8 Consolas,monospace;color:var(--blue);overflow-wrap:anywhere}.position-box{background:var(--blue-soft);border:1px solid #bacaf0;border-radius:12px;padding:25px 28px}.position-box h3{font-size:23px;letter-spacing:-.65px;line-height:1.65;margin:13px 0 12px}.position-box p{font-size:14px;color:var(--muted)}.position-status{display:grid;grid-template-columns:1fr 1fr;gap:15px;border-top:1px solid #d0dcf3;padding-top:15px;font-size:12px}.position-status b{display:block;margin-bottom:4px;color:var(--blue)}.acquired-title{font-size:19px;margin:28px 0 23px}
+@media(max-width:1050px){.system-flow{gap:6px;grid-template-columns:1fr 15px 1.1fr 15px 1fr}.system-flow article{padding:16px 12px}.system-flow h3{font-size:15px}.evaluation-flow{grid-template-columns:1fr}.lifecycle{grid-template-columns:repeat(2,minmax(0,1fr))}.position-box h3{font-size:22px}}
+@media(max-width:760px){.project-scope,.research-questions,.position-status,.asset-map dl{grid-template-columns:1fr;gap:20px}.project-scope{padding:20px}.project-scope>div+div{border-top:1px solid var(--line);padding-top:17px}.project-outcome{padding:15px 17px}.system-flow{grid-template-columns:1fr;gap:8px}.system-flow article{padding:19px 20px}.system-flow h3{font-size:17px}.system-flow p{font-size:13px}.flow-arrow{transform:rotate(90deg);font-size:23px;line-height:1.2}.evaluation-flow{padding:20px 18px;gap:17px}.evaluation-items span{font-size:11px}.lifecycle-heading{align-items:flex-start;flex-direction:column;gap:4px}.lifecycle{gap:10px}.lifecycle li{padding:13px 12px}.lifecycle strong{font-size:13px}.lifecycle small{font-size:11px}.position-box{padding:22px 19px}.position-box h3{font-size:21px}.position-status{gap:12px}.asset-map{padding:15px}.asset-map dl{gap:15px}.research-questions br{display:none}}
+@media print{.project-scope,.research-questions article,.system-flow,.evaluation-flow,.lifecycle,.position-box,.asset-map{break-inside:avoid}.project-scope,.project-outcome,.system-flow article,.evaluation-flow,.position-box{-webkit-print-color-adjust:exact;print-color-adjust:exact}.project-scope{padding:16px 20px}.research-questions{margin:18px 0}.project-outcome{margin-bottom:0}.lifecycle-heading{break-after:avoid;margin-top:24px}.lifecycle{grid-template-columns:repeat(3,minmax(0,1fr))}.lifecycle li{padding:12px 14px}.position-box{padding:20px 23px}.position-box h3{font-size:17pt}.position-box p{font-size:10pt}.position-status{font-size:9pt}.acquired-title{break-after:avoid;margin-top:24px}.asset-map dl{grid-template-columns:1fr 1fr}.asset-map code{font-size:8pt}.system-flow p,.evaluation-flow p{font-size:9pt}.evaluation-flow{grid-template-columns:1.15fr 1fr}.evaluation-items span{font-size:8pt}.lifecycle small{font-size:8pt}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="layout">
+<aside class="sidebar">
+  <div class="brand">IPO RESEARCH</div><div class="brand-name">전체 구조와<br>현재 위치</div>
+  <nav aria-label="문서 목차">
+    <a href="#project"><span>01</span>연구 목적과 질문</a><a href="#architecture"><span>02</span>전체 프로젝트 구조</a><a href="#overview"><span>03</span>현재 위치·완료한 일</a><a href="#results"><span>04</span>파일럿 결과</a><a href="#next"><span>05</span>바로 다음 작업</a><a href="#remaining"><span>06</span>끝까지 남은 일</a><a href="#evidence"><span>07</span>검증과 근거</a>
+  </nav>
+  <div class="side-bottom"><strong>2026.11.13 기준</strong>담당 규리 · Codex 지원<br>개발용 파일럿 진행 기록</div>
+</aside>
+<main id="main">
+  <div class="topbar"><span>PROJECT OVERVIEW · 2026년 11월 13일</span><div class="actions"><button class="button" id="expand" type="button" aria-expanded="false">상세 모두 펼치기</button><button class="button" id="print" type="button">인쇄 / PDF 저장</button></div></div>
+  <section class="hero" id="project" aria-labelledby="title">
+    <div class="eyebrow">먼저, 이 프로젝트는 무엇인가</div>
+    <h1 id="title">IPO 공시를 검토하는 AI,<br><span>어떤 절차가 더 정확한가?</span></h1>
+    <p class="lead">실제 기업의 IPO 공시를 AI가 읽고, 숫자를 다시 계산하고, 판단의 근거와 남은 확인사항을 설명하게 합니다. <strong>같은 모델에 서로 다른 업무 절차를 붙여</strong> 검토 품질·남은 오류·비용이 어떻게 달라지는지 비교하는 연구입니다.</p>
+    <div class="project-scope"><div><span>검토할 자료</span><strong>국내 비금융 IPO의 실적 PER 공시</strong><p>이미 발생한 이익을 사용한 투자설명서와 관련 공개자료</p></div><div><span>맡길 업무</span><strong>숫자 → 계산 → 판단 → 다음 행동</strong><p>공개된 가격 산정 근거를 다시 확인하고, 확인 범위를 밝히기</p></div></div>
+    <div class="research-questions"><article><span>질문 1 · A0와 B 비교</span><p>AI가 다음 검색과 계산을 스스로 고르면,<br><strong>정해진 순서보다 검토가 좋아지는가?</strong></p></article><article><span>질문 2 · A1과 A0 비교</span><p>실제로 발견한 오류를 확인하고 재검토하면,<br><strong>처음 보는 기업에서도 도움이 되는가?</strong></p></article></div>
+    <p class="project-outcome"><b>최종적으로 얻을 답</b> &nbsp;어떤 검토를 AI와 도구에 맡길 수 있고, 어디서 추가 자료나 사람의 확인이 필요한지 근거로 설명합니다.</p>
+  </section>
+
+  <section class="section" id="architecture" aria-labelledby="architecture-title">
+    <div class="section-top"><span class="number">02</span><h2 id="architecture-title">전체 프로젝트는 이렇게 구성됩니다</h2></div>
+    <p class="section-intro">구조는 <strong>검토 시스템을 만드는 부분</strong>과 <strong>그 결과를 평가하는 부분</strong>으로 나뉩니다. 공통 자료와 도구 위에서 B·A0·A1을 비교하고, 결과는 별도의 기준표로 채점합니다.</p>
+    <div class="system-flow" aria-label="시스템 구조: 공개 입력, 공통 도구와 세 가지 절차, 검토 결과">
+      <article><div class="flow-label">입력</div><h3>시점이 고정된 공시</h3><p>문서 버전·자료 마감<br>기업별 허용 원문<br>공통 검토 방법서</p></article>
+      <span class="flow-arrow" aria-hidden="true">→</span>
+      <article class="flow-core"><div class="flow-label">검토 시스템</div><h3>같은 모델 + 공통 도구</h3><p>검색 · 원문 열람 · 계산<br>같은 출력 형식과 자원 상한<br><strong>진행 방식만 B / A0 / A1로 비교</strong></p></article>
+      <span class="flow-arrow" aria-hidden="true">→</span>
+      <article><div class="flow-label">출력</div><h3>근거가 붙은 검토 초안</h3><p>추출한 사실과 계산표<br>판단·근거·미확인 사항<br>자료·사람 검토 요청과 상태</p></article>
+    </div>
+    <div class="method-grid" aria-label="프로젝트에서 비교하는 세 가지 검토 방식">
+      <article class="method"><div class="method-title"><b>B</b><span class="tag gray">기준선</span></div><h3>순서를 프로그램이 결정</h3><p>정해진 검색·추출·계산·검토 순서를 따릅니다. 고정 절차만으로 어느 정도 할 수 있는지 봅니다.</p></article>
+      <article class="method"><div class="method-title"><b>A0</b><span class="tag blue">자율 선택</span></div><h3>다음 행동을 AI가 결정</h3><p>중간 결과를 보고 무엇을 더 읽고 계산할지 고릅니다. 행동 선택의 자유가 주는 차이를 봅니다.</p></article>
+      <article class="method"><div class="method-title"><b>A1</b><span class="tag blue">실패 기반 개선</span></div><h3>A0에 확인·재검토 추가</h3><p>개발 중 관찰한 실패에 대응하는 검사를 붙입니다. 개선 효과와 추가 비용을 함께 봅니다.</p></article>
+    </div>
+    <div class="evaluation-flow"><div><span class="flow-label">별도의 평가 과정</span><h3>검토 결과 + 사례별 채점 기준표</h3><p>기준표의 답은 모델에 제공하지 않습니다. 가능한 범위에서 조건명을 가린 결과를 같은 기준으로 채점합니다.</p></div><div class="evaluation-items"><span>사실·계산의 정확성</span><span>근거와 판단의 연결</span><span>완료·보류·남은 오류</span><span>API 비용·실행 시간</span></div></div>
+    <p class="note">예를 들어 이익의 기간이 맞는지, 비교기업의 사업 차이가 배수 선택에 반영됐는지, 가정을 바꾸면 결과가 얼마나 달라지는지를 봅니다. 완료라고 제출한 답에 오류가 남았는지, 불필요하게 검토를 미뤘는지도 함께 평가합니다.</p>
+    <div class="lifecycle-heading"><h3>연구 전체의 진행 순서</h3><span>개발 → 고정 → 새로운 기업에서 평가</span></div>
+    <ol class="lifecycle" aria-label="전체 연구의 여섯 단계">
+      <li><span>01</span><strong>문제·기준 설계</strong><small>검토 범위와 채점 규칙</small></li>
+      <li><span>02</span><strong>3기업 파일럿</strong><small>자료·B 실행·채점 시험</small></li>
+      <li><span>03</span><strong>사례 확장·B/A0</strong><small>개발·평가 분리, 실패 수집</small></li>
+      <li><span>04</span><strong>A1 개발</strong><small>실패에 맞춘 검사·재검토</small></li>
+      <li><span>05</span><strong>새 기업 본 평가</strong><small>설정 고정 후 세 방식 반복</small></li>
+      <li><span>06</span><strong>분석·최종 보고</strong><small>품질·오류·보류·비용 비교</small></li>
+    </ol>
+    <p class="note">개발 기업에서 문제를 찾고 고친 뒤, 설정을 고정하고 보지 않은 평가 기업에서 효과를 확인합니다. 마지막에는 결과표·실행 기록·분석 코드·한계를 담은 보고서를 남깁니다.</p>
+    <details class="asset-map"><summary>문서·코드·자료는 어디에 연결되어 있나</summary><dl>
+      <div><dt>연구를 정하는 문서</dt><dd><code>whole plan/</code>제안서·설계서·프로토콜·할 일 목록이 목적과 비교 규칙을 정합니다.</dd></div>
+      <div><dt>실제로 실행하는 프로그램</dt><dd><code>ipo_agent_eval/ipo_eval/ · config/ · prompts/</code>검토 순서·도구·설정·지시문입니다. 현재 B를 구현했고 A0·A1은 개발 예정입니다.</dd></div>
+      <div><dt>입력과 정답 근거</dt><dd><code>ipo_agent_eval/data/</code>공개 입력과 공통 방법서를 준비하고, 채점 기준표는 모델 입력과 분리합니다.</dd></div>
+      <div><dt>무슨 일이 있었는지 남기는 기록</dt><dd><code>ipo_agent_eval/runs/ · reports/ · tests/</code>실제 요청·답변·계산·사용량, 채점과 검증 결과, 회귀 검사를 보관합니다.</dd></div>
+    </dl></details>
+  </section>
+
+  <section class="section current-section" id="overview" aria-labelledby="overview-title">
+    <div class="section-top"><span class="number">03</span><h2 id="overview-title">이 전체 흐름에서, 우리는 여기까지 왔습니다</h2></div>
+    <div class="position-box"><span class="tag blue">현재 위치 · 02단계 완료 후 보완</span><h3>3기업 파일럿을 마쳤습니다.<br>사례를 늘려 본격 개발하기 전에 공통 기능을 고칩니다.</h3><p>위 흐름의 <strong>① 문제·기준 설계와 ② B 기반의 3기업 시험</strong>까지 진행했습니다. 다음은 발견한 계산·검색 문제를 보완하고, <strong>③ 추가 사례 모집과 B/A0 개발</strong>로 넘어가는 일입니다.</p><div class="position-status"><span><b>완료</b> B 구현·세 기업 답변·AI 보조 채점</span><span><b>남음</b> A0·A1 개발·새 기업 본 평가·최종 보고</span></div></div>
+    <div class="stats">
+<div class="stat"><strong>3개 기업</strong><span>실제 B 답변·AI 보조 채점 확보</span></div>
+<div class="stat"><strong>1개 방식</strong><span>B 구현 · A0/A1 개발은 남음</span></div>
+<div class="stat"><strong>3차 검증</strong><span>원문 → 숫자 → 구현·실행 기록</span></div>
+<div class="stat"><strong>약 1,455원</strong><span>확인된 누적 API 비용 견적</span></div>
+</div>
+    <p class="fine">비용은 기존 개발 실패 포함 983.27원 + 새 두 실행 471.68원입니다. 예산용 환율 1달러=1,400원으로 계산했으며 청구서 금액은 아닙니다. 사용량이 없는 과거 인증 실패 요청 1건은 별도 미확인입니다.</p>
+    <h3 class="acquired-title">현재 단계에서 확보한 것</h3>
+    <div class="done-grid">
+<article class="done-item"><h3>연구 방법과 채점 기준을 만들었습니다</h3><p>연구 제안서·설계서·실험 프로토콜, 공통 검토 방법서와 기업별 기준표를 준비했습니다. 사실·계산·판단을 나누어 평가합니다.</p></article>
+<article class="done-item"><h3>실제로 작동하는 B 프로그램을 만들었습니다</h3><p>공시 검색 → 숫자 추출 → 계산 → 검토 → 제출을 연결했습니다. 사례 선택, 원본 요청·응답, 실패·비용·상태 기록도 갖췄습니다.</p></article>
+<article class="done-item"><h3>세 기업의 원문과 입력을 준비했습니다</h3><p>HDMS에 이어 멜콘 600쪽·디티에스 719쪽을 확보했습니다. 공시 버전과 자료 마감을 확인하고 기업별 입력을 분리했습니다.</p></article>
+<article class="done-item"><h3>실제 답변을 받고 채점했습니다</h3><p>세 기업에서 유효한 B 답변을 확보했습니다. 새 두 기업은 답변 전에 기준표와 설정을 고정했으며, AI 보조 채점 후 별도 AI 재검토를 거쳤습니다.</p></article>
+</div>
+    <p class="note" style="margin-top:24px">실험 응답 모델은 GPT-6.1 Terra이며, Codex는 프로그램 제작과 자료 정리·검증을 지원했습니다. 현재 채점은 AI 보조와 별도 AI 재검토입니다. 독립된 사람 채점과 최종 평가용 기준·설정 고정은 아직 남아 있습니다.</p>
+  </section>
+
+  <section class="section" id="results" aria-labelledby="results-title">
+    <div class="section-top"><span class="number">04</span><h2 id="results-title">여기까지 진행한 파일럿의 결과</h2></div>
+    <p class="section-intro">핵심 판단을 설명하는 능력은 확인했습니다. 동시에, 최종 답변에 남은 오류와 못 찾은 사실도 확인했습니다.</p>
+    <div class="table-wrap" role="region" aria-label="3개 기업 파일럿 채점 결과" tabindex="0">
+      <table><thead><tr><th scope="col">기업</th><th scope="col">사실</th><th scope="col">계산</th><th scope="col">J1~J4 판단</th><th scope="col">검토 상태</th></tr></thead><tbody>
+        <tr data-case="HDMS-DEV-01"><td><strong>HD현대마린솔루션</strong><span class="sub">기존 실행 · 0.1.4-pilot</span></td><td class="score">5 / 5</td><td class="score">3 / 3</td><td class="score">각 2점 / 2점</td><td class="state">READY<span class="sub">완료를 막는 요청 없음</span></td></tr>
+        <tr data-case="MELCON-DEV-01"><td><strong>멜콘</strong><span class="sub">신규 실행 · 0.2.1-pilot</span></td><td class="score">5 / 5</td><td class="score warn">2 / 3</td><td class="score">각 2점 / 2점</td><td class="state">PENDING_INFO<span class="sub">추가 정보 확인 필요</span></td></tr>
+        <tr data-case="DTS-DEV-01"><td><strong>디티에스</strong><span class="sub">신규 실행 · 0.2.1-pilot</span></td><td class="score warn">4 / 5</td><td class="score">3 / 3</td><td class="score">각 2점 / 2점</td><td class="state">PENDING_INFO<span class="sub">추가 정보 확인 필요</span></td></tr>
+      </tbody></table>
+    </div>
+    <p class="fine">J1 적용 이익 · J2 비교기업 · J3 대안 계산의 영향 · J4 확인 범위와 다음 행동. 세 답변 모두 제출 자체는 성공했습니다.</p>
+    <div class="notice"><strong>“방법론 충족률 100%”는 전체 정답률 100%가 아닙니다.</strong><p>이는 네 판단 항목이 모두 2점이라는 뜻입니다. 사실·계산 점수는 별도입니다. READY도 정답을 보증하지 않으며, 추가 정보 대기 상태와 점수는 서로 다른 기록입니다.</p></div>
+    <details class="case-details"><summary>멜콘: 말로 쓴 구성과 자동 계산 결과가 달랐습니다</summary><div class="inside"><p>서술에서는 의무인수 75,000주를 포함한 네 항목을 정확히 적었습니다. 하지만 자동 합계는 이 75,000주를 빠뜨렸고, 최종 답변에서 충돌을 해소하지 않았습니다. 그래서 사실은 5/5, 계산은 2/3입니다.</p><p>프로그램이 만든 계산행의 문제와 모델의 사실 독해를 구별해 기록했습니다.</p><a href="../ipo_agent_eval/reports/MELCON_R001_대행채점.md">멜콘 채점 근거</a> · <a href="../ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/review.md">실제 답변</a></div></details>
+    <details class="case-details"><summary>디티에스: 잘못된 자동 합계는 배제했지만, 구주매출 0주를 확인하지 못했습니다</summary><div class="inside"><p>자동 계산은 제외해야 할 옵션을 더하고 추가인수를 빠뜨렸습니다. 모델은 그 결과를 사용하지 않겠다고 명시하고 올바른 합계를 제시했으므로 계산 K1을 인정했습니다. 계산 첨부 자체는 여전히 보완해야 합니다.</p><p>전체 공시에는 구주매출이 없는 근거가 있지만 실제 전달된 34쪽에서 찾지 못해 미확인으로 남겼습니다. 이 사실 누락으로 사실 점수는 4/5입니다.</p><a href="../ipo_agent_eval/reports/DTS_R001_대행채점.md">디티에스 채점 근거</a> · <a href="../ipo_agent_eval/runs/20261113T043411Z_B_011e790c/review.md">실제 답변</a></div></details>
+    <details class="case-details"><summary>이 세 기업의 점수로 아직 말할 수 없는 것</summary><div class="inside"><p>세 기업은 시스템을 개발하면서 본 사례입니다. 최종 평가용으로 다시 쓰지 않습니다. HDMS는 이전 설정, 새 두 기업은 변경된 설정이므로 현재 점수표는 동일 조건의 통제 비교가 아닙니다.</p><p>현재 채점은 AI 보조와 별도 AI 재검토입니다. 독립된 사람 채점이나 조건명을 가린 최종 채점까지 끝났다고 집계하지 않습니다.</p><a href="../ipo_agent_eval/reports/3기업_파일럿_확장_검증기록.md">범위·한계와 전체 결과</a></div></details>
+  </section>
+
+  <section class="section" id="next" aria-labelledby="next-title">
+    <div class="section-top"><span class="number">05</span><h2 id="next-title">바로 다음에는 무엇을 하나</h2></div>
+    <article class="priority"><div class="priority-label">먼저 고칠 것 · 아직 미구현</div><h3>주식수 구성과 계산 결과를 일치시킵니다.</h3><p>의무인수·추가인수·옵션을 따로 기록하고, 평가 주식수에 포함되는지 표시해야 합니다. 서술과 자동 합계가 다르면 제출 전에 확인하도록 고칩니다.</p><div class="example"><div><small>멜콘 자동 합계 · 누락 있음</small><strong>12,660,000주</strong></div><span class="arrow" aria-hidden="true">→</span><div><small>의무인수 75,000주 포함</small><strong>12,735,000주</strong></div></div><div class="accept"><strong>완료 기준:</strong> 두 기업에서 발견한 누락·잘못된 포함이 재발하지 않고, 다른 합성 사례에서도 구성 합계와 적용 분모가 맞는지 확인합니다.</div></article>
+    <div class="next-two">
+      <article><span class="tag blue">그다음 1</span><h3 style="margin-top:10px">공시값과 계산값을 구분해 전달</h3><p>표에 시가총액이 직접 없어도 주가×주식수로 계산할 수 있습니다. 이런 파생값을 출처와 함께 계산기에 전달해 불필요한 미계산을 줄입니다.</p></article>
+      <article><span class="tag blue">그다음 2</span><h3 style="margin-top:10px">못 찾은 공시 쪽을 다시 열기</h3><p>전체 문서에 있지만 첫 검색에서 빠진 자료를 추가 열람하는 규칙을 설계합니다. 실제로 없는 자료와 검색에서 놓친 자료를 구별합니다.</p></article>
+    </div>
+    <p class="note">보완은 새 버전과 새 실행에서 검증합니다. 이미 받은 R001 답변과 점수는 그대로 보존합니다. 공통 계산기 수정은 세 방식에 공통으로 적용하고, A1의 추가 재검토 절차와 구분합니다.</p>
+  </section>
+
+  <section class="section" id="remaining" aria-labelledby="remaining-title">
+    <div class="section-top"><span class="number">06</span><h2 id="remaining-title">최종 보고서까지 남은 일</h2></div>
+    <p class="section-intro">현재 다음 작업은 공통 기능 보완입니다. 그 뒤에는 원래 계획의 W09~W14가 남아 있습니다. 각 단계를 열면 넘어가기 전에 갖춰야 할 결과를 볼 수 있습니다.</p>
+    <div class="roadmap">
+      <article class="road-step"><div class="step-index">1</div><details open><summary><span class="step-title"><span class="step-code">파일럿 후 보완</span>현재 발견한 계산·검색 문제 해결</span></summary><p>위 세 가지 보완을 구현하고 개발 사례에서 새 버전을 검증합니다. 수정 전후 답변과 비용, 남은 문제를 함께 기록합니다.</p><div class="deliver"><b>완료 기준</b>수정 코드, 회귀 검증, 새 개발 실행과 비교 기록</div></details></article>
+      <article class="road-step"><div class="step-index">2</div><details><summary><span class="step-title"><span class="step-code">W09 · 모집과 배정</span>추가 기업을 모으고 개발용·평가용 분리</span></summary><p>국내 비금융 IPO 중 과거 실적 PER 사례를 같은 기준으로 모집합니다. 포함·제외 이유와 공시 버전을 남기고, 이미 분석한 세 기업은 개발용으로 고정합니다. 적격 사례 수와 실제 작업량을 보고 기본안 또는 축소안을 확정합니다.</p><div class="deliver"><b>완료 기준</b>후보·제외 목록, 개발/평가 배정표, 기업별 원문과 기준표</div></details></article>
+      <article class="road-step"><div class="step-index">3</div><details><summary><span class="step-title"><span class="step-code">W10 · A0 개발</span>AI가 다음 행동을 고르게 하고 실패 수집</span></summary><p>B와 같은 자료·도구·예산 안에서 검색·열람·계산·제출을 모델이 선택하게 합니다. 개발 사례에서 B와 A0를 실행해 어떤 단계에서 왜 실패했는지 기록합니다.</p><div class="deliver"><b>완료 기준</b>A0 실행기, B/A0 개발 결과, 근거가 연결된 실패 목록</div></details></article>
+      <article class="road-step"><div class="step-index">4</div><details><summary><span class="step-title"><span class="step-code">W11 · A1 개발</span>관찰된 실패에 맞춘 확인·재검토 추가</span></summary><p>정정 전 숫자 혼동, 단위·산식 오류, 근거 부족 등 실제로 관찰한 실패에 대응합니다. 오류를 놓친 경우와 정상 답변을 잘못 막은 경우도 함께 확인합니다.</p><div class="deliver"><b>완료 기준</b>A1 코드, 실패와 개선 절차의 연결표, 수정 전후 답변·비용</div></details></article>
+      <article class="road-step"><div class="step-index">5</div><details><summary><span class="step-title"><span class="step-code">W12 · 최종 사전 고정</span>모델·자료·기준·예산과 분석 방법 확정</span></summary><p>평가 기업의 답변을 보기 전에 기준표와 실행 규칙을 준비합니다. 버전·해시·실패 처리·반복 횟수를 고정하고 정답이나 다른 답변이 입력에 섞이지 않는지 확인합니다. 현재 입력 목표가 바뀐 만큼 전체 예산도 다시 산정합니다.</p><div class="deliver"><b>완료 기준</b>사전등록 기록, 고정 버전 목록, 최종 실행 목록과 예산</div></details></article>
+      <article class="road-step"><div class="step-index">6</div><details><summary><span class="step-title"><span class="step-code">W13 · 최종 실행과 채점</span>새 기업에서 세 방식을 반복 비교</span></summary><p>기본안은 20기업×3방식×2회로 120회입니다. 실행 순서를 섞고 매번 새 입력으로 시작합니다. 모든 예정 실행의 답변 또는 실패 기록을 보존하고, 조건명을 가린 채점 사본을 만듭니다.</p><div class="deliver"><b>완료 기준</b>예정 실행 전체 기록, 채점 사본, 항목별 점수와 이유</div></details></article>
+      <article class="road-step"><div class="step-index">7</div><details><summary><span class="step-title"><span class="step-code">W14 · 분석과 보고</span>점수·오류·보류·비용을 함께 비교</span></summary><p>같은 기업의 반복 결과를 묶어 B↔A0↔A1의 차이를 분석합니다. 평균 점수뿐 아니라 잘못된 완료, 불필요한 보류, 실패, 비용·시간과 결과의 불확실성을 함께 설명합니다. A1이 더 좋아지지 않아도 그대로 보고합니다.</p><div class="deliver"><b>완료 기준</b>비교 결과표, 분석 코드, 실패·개선 연결표, 최종 보고서</div></details></article>
+    </div>
+    <div class="scope-box">
+      <div class="scope-head"><div><h3>앞으로의 규모는 얼마나 되나</h3><span class="fine">기존 계획안 비교 · 최종 규모는 아직 확정 전</span></div><div class="segments" role="group" aria-label="연구 규모 계획안 선택"><button type="button" data-plan="base" aria-pressed="true">기본안</button><button type="button" data-plan="small" aria-pressed="false">축소안</button></div></div>
+      <div id="scope-output" aria-live="polite" aria-atomic="true">
+        <div class="scope-values"><div><strong id="dev-more">7</strong>곳<span>추가 개발 기업</span></div><div><strong id="eval-more">20</strong>곳<span>새 평가 기업</span></div><div><strong id="eval-runs">120</strong>회<span>최종 평가 실행</span></div></div>
+        <div class="formula" id="scope-formula">개발 10기업 = 현재 3 + 추가 7 · 최종 평가 20기업 × 3방식 × 2회 = 120회</div>
+      </div>
+      <p class="fine">개발용 추가 실행·재시험은 최종 평가 횟수와 별도입니다. 기본안은 총 30기업, 축소안은 총 18기업이며 현재 세 기업은 개발용 수에 포함됩니다. 기존 전체 실험비 목표는 약 10만원입니다.</p>
+    </div>
+    <div class="owner"><strong>아직 정해야 할 운영 사항</strong><br>최종 규모, 채점 담당과 검토 방식, 실제 사람 작업시간 측정 방법을 확정해야 합니다. 현재 기록은 AI 작업의 경과 시간입니다. 이를 사람의 작업시간으로 합산하지 않았으며, 독립된 사람 검토도 완료로 표시하지 않았습니다.</div>
+    <div class="finish"><div class="eyebrow">어디까지 하면 끝인가</div><h3>새 평가 기업에서 비교를 마치고, 재현 가능한 최종 보고서를 남기는 것</h3><p>평가용 자료와 기준표, 세 방식의 실행 기록, 점수와 오류·비용 비교, 한계를 설명한 보고서가 모두 갖춰지면 핵심 연구가 끝납니다. 후속 공시나 앞으로 새로 상장할 기업의 관찰은 선택 확장으로 남습니다.</p></div>
+  </section>
+
+  <section class="section" id="evidence" aria-labelledby="evidence-title">
+    <div class="section-top"><span class="number">07</span><h2 id="evidence-title">무엇으로 확인했나</h2></div>
+    <p class="section-intro">아래 숫자는 11월 13일 파일럿 검증 기록입니다. 입력과 실행의 검증 통과 여부, 실제 답변 점수는 별개로 관리했습니다.</p>
+    <div class="evidence-grid">
+      <article><span class="tag green">1차 · 원문</span><h3 style="margin-top:10px">공시와 입력 대조</h3><p>접수·정정 이력과 표·주석을 확인했습니다. 새 문서 <strong>1,319쪽</strong>을 전수 대조했고, 기존 파일 <strong>122개</strong>의 해시를 보존했습니다.</p></article>
+      <article><span class="tag green">2차 · 숫자</span><h3 style="margin-top:10px">독립 계산과 채점</h3><p>답변 전 숫자 검사 <strong>227/227</strong>을 통과했습니다. 답변 후에는 고정 기준으로 채점하고 별도 AI가 재검토했습니다.</p></article>
+      <article><span class="tag green">3차 · 구현·실행</span><h3 style="margin-top:10px">격리·사용량·보존 검사</h3><p>회귀 테스트 <strong>146/146</strong>, 실행 후 검사 <strong>318/318</strong>을 통과했습니다. 기준표·코드·입력 <strong>28개</strong> 동결 파일도 유지됐습니다.</p></article>
+    </div>
+    <details class="case-details"><summary>실행 설정과 비용을 자세히 보면</summary><div class="inside"><p>새 두 실행은 각각 모델 호출 2회, 형식수정 0회입니다. 멜콘은 125.526초·263.35원, 디티에스는 134.389초·208.33원으로 합계 471.68원입니다. 캐시를 반영한 API 사용량 견적입니다.</p><p>새 답변 전에 원문 크기를 보고 입력 목표를 12만→16만 토큰으로 바꿨습니다. 실제 입력 사용량은 멜콘 107,917, 디티에스 76,091토큰이었습니다. 실행당 0.30달러·출력 1.6만 토큰·600초 제한은 유지했습니다.</p><a href="../ipo_agent_eval/reports/pilot_multicase_budget_change.md">설정 변경 근거</a> · <a href="../ipo_agent_eval/reports/사용비용.md">기존 HDMS 개발비 집계</a></div></details>
+    <div class="sources" aria-label="세부 기록과 원래 계획">
+      <a href="IPO_파일럿보완_A0_상세설계.html">지금부터 구현할 파일럿 보완·A0 상세설계</a>
+      <a href="../ipo_agent_eval/reports/3기업_파일럿_확장_검증기록.md">3기업 실행·채점·검증 종합 기록</a>
+      <a href="IPO_당장할일.md">갱신된 당장 할 일 목록</a>
+      <a href="../ipo_agent_eval/reports/R001_대행채점_검증기록.md">HDMS 기존 채점 검증</a>
+      <a href="../ipo_agent_eval/data/private/pilot_expansion_20261113/final_grade_adoption.json">새 두 기업의 최종 채점 채택</a>
+      <a href="IPO_후속작업_상세계획.md">W09~W14 상세계획 · 향후 규칙</a>
+      <a href="IPO_Experiment_Protocol.html">실험 프로토콜</a>
+      <a href="IPO_Project_Design.html">연구 설계서</a>
+      <a href="IPO_Proposal.html">연구 목적과 제안서</a>
+      <a href="../ipo_agent_eval/README.md">현재 프로그램과 실행 방법</a>
+    </div>
+    <p class="fine">진행 상태는 최신 실행·채점 기록을 우선했습니다. 11월 12일 상세계획의 과거 진행표에는 아직 첫 HDMS 실행까지만 표시되어 있습니다. 이 HTML은 새 실험을 수행하지 않고 현재 기록과 앞으로의 계획을 정리한 문서입니다.</p>
+  </section>
+  <footer><span>IPO 검토 에이전트 · 진행 브리핑<br>담당 규리 / 자료 정리와 구현·검증 지원 Codex</span><span>내용 기준 2026.11.13<br>원본 실행·기준표 보존 · 독립 사람 채점 미완료</span></footer>
+</main>
+</div>
+<script>
+(() => {
+  const details = [...document.querySelectorAll('details')];
+  const expand = document.getElementById('expand');
+  function syncExpand(){const all=details.every(d=>d.open);expand.textContent=all?'상세 모두 접기':'상세 모두 펼치기';expand.setAttribute('aria-expanded',String(all));}
+  expand.addEventListener('click',()=>{const next=!details.every(d=>d.open);details.forEach(d=>d.open=next);syncExpand();});
+  details.forEach(d=>d.addEventListener('toggle',syncExpand));
+  const plans={base:{dev:10,extra:7,evaluation:20,runs:120},small:{dev:6,extra:3,evaluation:12,runs:72}};
+  document.querySelectorAll('[data-plan]').forEach(button=>button.addEventListener('click',()=>{
+    const value=plans[button.dataset.plan];
+    document.querySelectorAll('[data-plan]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+    document.getElementById('dev-more').textContent=value.extra;
+    document.getElementById('eval-more').textContent=value.evaluation;
+    document.getElementById('eval-runs').textContent=value.runs;
+    document.getElementById('scope-formula').textContent=`개발 ${value.dev}기업 = 현재 3 + 추가 ${value.extra} · 최종 평가 ${value.evaluation}기업 × 3방식 × 2회 = ${value.runs}회`;
+  }));
+  let previousOpen=[];
+  window.addEventListener('beforeprint',()=>{previousOpen=details.map(d=>d.open);details.forEach(d=>d.open=true);});
+  window.addEventListener('afterprint',()=>{details.forEach((d,i)=>d.open=previousOpen[i]??false);syncExpand();});
+  document.getElementById('print').addEventListener('click',()=>window.print());
+})();
+</script>
+</body>
+</html>

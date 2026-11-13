@@ -283,9 +283,13 @@ def render_report(report):
     return "\n".join(lines)
 
 
-def execute(live=False, root=ROOT, case_id=DEFAULT_CASE_ID):
+def execute(live=False, root=ROOT, case_id=DEFAULT_CASE_ID, condition=None, repeat=1):
+    if condition is not None:
+        from .runner_v2 import execute_v2
+        return execute_v2(live=live, root=root, case_id=case_id, condition=condition, repeat=repeat)
     root = Path(root).resolve()
-    config = json.loads((root / "config" / "B.json").read_text(encoding="utf-8"))
+    legacy_config = root / "config" / "B_v1.json"
+    config = json.loads((legacy_config if legacy_config.exists() else root / "config" / "B.json").read_text(encoding="utf-8"))
     config["case_id"] = case_id
     run = Run(config, live, base_directory=root / "runs")
     try:
@@ -357,11 +361,15 @@ def execute(live=False, root=ROOT, case_id=DEFAULT_CASE_ID):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run the fixed B pilot; default is a free local preflight.")
+    parser = argparse.ArgumentParser(description="Run B/A0 v2 development comparison; default is a free local preflight.")
     parser.add_argument("--live", action="store_true", help="Use the configured API key to obtain a real Terra review")
     parser.add_argument("--case-id", default=DEFAULT_CASE_ID, help="Select a case registered in config/cases.json (default: HDMS-DEV-01)")
+    parser.add_argument("--condition", choices=("B", "A0"), default="B", help="B: fixed program policy; A0: model-selected tools")
+    parser.add_argument("--repeat", type=int, default=1, help="Positive repetition label; each invocation receives a fresh run ID")
     args = parser.parse_args()
-    directory, summary = execute(live=args.live, case_id=args.case_id)
+    if args.repeat < 1:
+        parser.error("--repeat must be positive")
+    directory, summary = execute(live=args.live, case_id=args.case_id, condition=args.condition, repeat=args.repeat)
     print(dumps({"directory": str(directory), **summary}))
     return 0 if summary["execution_status"] in ("SUBMITTED", "PREFLIGHT_COMPLETE") else 2
 

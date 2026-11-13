@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-11-13T10:55:54.930393+00:00",
+  "passed": true,
+  "manifest_sha256": "6e1d056cfa772a8e43e3f67fe19f3519a2ebf94164ae51ef315e2c0a99b2dfff",
+  "entry_count": 1914,
+  "snapshot_count": 67,
+  "immutable_count": 1847,
+  "violations": [],
+  "versioned_source_changes": []
+}

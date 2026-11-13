@@ -1,0 +1,1220 @@
+{
+  "batch": "DIAG_v041",
+  "reviewer": "case_roster AI assisted unblinded diagnostic review; not human grading",
+  "scope": "Two A0 diagnostic executions; not final FIX_v041 F/K/J scores",
+  "workflow_result": "Both SUBMITTED with actual registration/EVALUATE/sensitivity and current-snapshot calculation references; ALT denominator completeness remains limited",
+  "production_changed": false,
+  "private_gold_sent_to_model": false,
+  "runs": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "run_id": "20261113T111430Z_A0_2a9c2a1c",
+      "snapshot": "X_8f3475919eb28cefe1ff177b",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "registered_record_count": 51,
+      "tool_operations": [
+        {
+          "event_line": 9,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 15,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 21,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 27,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 33,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 39,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 45,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 51,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 57,
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "actor": "model"
+        },
+        {
+          "event_line": 63,
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "actor": "model"
+        },
+        {
+          "event_line": 69,
+          "tool": "calculate",
+          "operation": "EVALUATE",
+          "actor": "model"
+        },
+        {
+          "event_line": 75,
+          "tool": "sensitivity",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 81,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 87,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 93,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 99,
+          "tool": "escalate",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 105,
+          "tool": "request_information",
+          "operation": null,
+          "actor": "program_commit"
+        },
+        {
+          "event_line": 106,
+          "tool": "escalate",
+          "operation": null,
+          "actor": "program_commit"
+        },
+        {
+          "event_line": 107,
+          "tool": "submit_review",
+          "operation": null,
+          "actor": "model"
+        }
+      ],
+      "finalization": [
+        {
+          "event_line": 101,
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        }
+      ],
+      "calculation_status_counts": {
+        "OK": 26
+      },
+      "calculation_use_checks": [
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_share_sum_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 평가표 네 구성의 합"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_peer_recomputed_per_44bd7ae6",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 인용 주가·주식수·백만원 이익으로 HPSP PER 검산"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_peer_recomputed_per_fcb5f40d",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 인용 수치로 워트 PER 검산; 표시 정밀도 유의"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_price_from_displayed_per_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "표시된 PER과 이익·분모를 그대로 사용한 검산"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_price_from_reported_equity_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 평가가치를 공시 분모로 나눈 검산"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_peer_recomputed_mean_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 인용 입력으로 재계산한 비교기업 PER 평균"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_baseline_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "민감도의 표시 적용 PER 기준 가격"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_displayed_mean_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "두 표시 PER의 산술평균 대안"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_displayed_median_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "두 표시 PER의 중앙값 대안"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_exclude_peer_1_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "HPSP 제외, 워트의 표시 PER만 적용한 대안"
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_exclude_peer_2_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "워트 제외, HPSP의 표시 PER만 적용한 대안"
+        }
+      ],
+      "independent_source_arithmetic_checks": [
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_price_from_reported_equity_535c6f8e",
+          "source_based_expected": "14173.30192383195916764821358460934432666",
+          "actual": "14173.30192383195916764821358460934432666",
+          "pass": true
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_price_from_displayed_per_535c6f8e",
+          "source_based_expected": "14172.35335689045936395759717314487632509",
+          "actual": "14172.35335689045936395759717314487632509",
+          "pass": true
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_baseline_535c6f8e",
+          "source_based_expected": "14172.35335689045936395759717314487632509",
+          "actual": "14172.35335689045936395759717314487632509",
+          "pass": true
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_displayed_mean_535c6f8e",
+          "source_based_expected": "14175.06007067137809187279151943462897527",
+          "actual": "14175.06007067137809187279151943462897527",
+          "pass": true
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_displayed_median_535c6f8e",
+          "source_based_expected": "14175.06007067137809187279151943462897527",
+          "actual": "14175.06007067137809187279151943462897527",
+          "pass": true
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_exclude_peer_1_535c6f8e",
+          "source_based_expected": "9446.431095406360424028268551236749116608",
+          "actual": "9446.431095406360424028268551236749116608",
+          "pass": true
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_sensitivity_exclude_peer_2_535c6f8e",
+          "source_based_expected": "18903.68904593639575971731448763250883392",
+          "actual": "18903.68904593639575971731448763250883392",
+          "pass": true
+        },
+        {
+          "calc_id": "C_8f3475919eb28cefe1ff177b_share_sum_535c6f8e",
+          "source_based_expected": "12735000",
+          "actual": "12735000",
+          "pass": true,
+          "scope": "full declared sum"
+        }
+      ],
+      "source_appropriateness": {
+        "scope": "Structured judgment facts; FULL/submitted document semantic support, not all conclusions or correctness score",
+        "submitted_claims": 13,
+        "read_location_valid_count": 13,
+        "fully_supported_count": 12,
+        "qualified_count": 1,
+        "unsupported_count": 0,
+        "support_rate": 0.9230769230769231,
+        "claims": [
+          {
+            "claim_id": "J1_F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0373",
+                "page": 373,
+                "claim_id": "J1_F1",
+                "locator": "2026년 반기 적용 당기순이익 산정 내역 및 세전 차감 설명"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1_F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "J1_F2",
+                "locator": "2026년 2분기 기준 비교기업 PER 산출 표와 주1"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1_F3",
+            "status": "QUALIFIED",
+            "read_location_valid": true,
+            "reason": "5988 already deducts disposal gain1270 from7258; unadjusted means no1590 loan-loss addback only. The word unadjusted is too broad.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0371",
+                "page": 371,
+                "claim_id": "J1_F3",
+                "locator": "적용 실적 기준별 재무수치 및 주당 평가가액 비교와 주3"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2_F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "J2_F1",
+                "locator": "비교기업 PER 산출 표"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0368",
+                "page": 368,
+                "claim_id": "J2_F1",
+                "locator": "비교대상회사 기준주가 산정 내역"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2_F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0366",
+                "page": 366,
+                "claim_id": "J2_F2",
+                "locator": "워트 사업 설명 및 HPSP 선정기준 충족 내역"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0363",
+                "page": 363,
+                "claim_id": "J2_F2",
+                "locator": "동사와 HPSP의 주요 차이점"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2_F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0361",
+                "page": 361,
+                "claim_id": "J2_F3",
+                "locator": "3차 비교기업 선정 사업별 매출비중"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0366",
+                "page": 366,
+                "claim_id": "J2_F3",
+                "locator": "HPSP의 비교기업 선정기준 충족 내역 3차②"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2_F4",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0362",
+                "page": 362,
+                "claim_id": "J2_F4",
+                "locator": "4차 비교기업 선정 표 주2"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "J2_F4",
+                "locator": "2026년 2분기 기준 비교기업 PER 산출 표 및 주1"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3_F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "J3_F1",
+                "locator": "PER에 의한 멜콘의 평가가치 표 및 적용주식수 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3_F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "J3_F2",
+                "locator": "2026년 2분기 기준 비교기업 PER 산출 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4_F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "J4_F1",
+                "locator": "적용주식수 구성 및 합계"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0138",
+                "page": 138,
+                "claim_id": "J4_F1",
+                "locator": "2. 공모방법, 신주모집 100%"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4_F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "J4_F2",
+                "locator": "PER에 의한 멜콘의 평가가치"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0374",
+                "page": 374,
+                "claim_id": "J4_F2",
+                "locator": "희망공모가액 결정 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4_F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0003",
+                "page": 3,
+                "claim_id": "J4_F3",
+                "locator": "정정신고 정정사유 및 공통정정사항 전후 표"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0374",
+                "page": 374,
+                "claim_id": "J4_F3",
+                "locator": "희망공모가액 결정 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4_F4",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0009",
+                "page": 9,
+                "claim_id": "J4_F4",
+                "locator": "정정 후 공모개요 주11, 의무취득 25,000주 및 조건"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "J4_F4",
+                "locator": "평가 분모 네 구성 및 합계"
+              }
+            ]
+          }
+        ]
+      },
+      "false_completion": false,
+      "internal_arithmetic_deferral_to_information_request": false,
+      "request_assessments": [
+        {
+          "id": "H1",
+          "review_pointer": "/escalations/0",
+          "classification": "LEGITIMATE_HUMAN_INTERPRETATION",
+          "unnecessary_hold_scope": false,
+          "reason": "Period, pre-tax/after-tax adjustment and peer business comparability are substantive judgments."
+        },
+        {
+          "id": "H2",
+          "review_pointer": "/escalations/1",
+          "classification": "MIXED_IN_CORPUS_NOT_READ_AND_HUMAN_INTERPRETATION",
+          "unnecessary_hold_scope": "Occurrence subquestion only",
+          "reason": "p9 conditional wording was read; allowed p324 says threshold actually fell short and extra25000 is required, p328 gives12600000/12760000. These pages were not read. Treatment of historical valuation denominator remains legitimate judgment."
+        }
+      ],
+      "semantic_limits": [
+        "Broad unadjusted LTM label",
+        "Unread confirmed extra25000 source; historical denominator reproduced"
+      ],
+      "summary": {
+        "run_id": "20261113T111430Z_A0_2a9c2a1c",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 17,
+        "tool_calls": 19,
+        "input_tokens": 730921,
+        "output_tokens": 11301,
+        "format_repairs": 0,
+        "elapsed_seconds": 170.87,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.787426,
+        "known_usage_cost_usd_standard_uncached": 0.787426,
+        "estimated_cost_krw_at_budget_fx": 1102.4,
+        "cost_ceiling_usd": 0.970156,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.970156,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      },
+      "artifact_sha256": {
+        "summary.json": "bb4968fc8183fbb4149ce4e9d2a1c683611375efdb3f595c1175dd077d9ac817",
+        "review.json": "c7bde77cc243577baf029d69fe337c7f6683115306926df5a44c8b679ebbab09",
+        "extraction.json": "8ebc9c56e6ce1d9d9279b301dd60e9a1c4b6666fb13407bb67dc8f26d0a839aa",
+        "calculations.json": "139268d6b66dc40e808ffb102584fa62a5d238dca502afdbf0c386ce98142303",
+        "events.jsonl": "795b21563df1f53efd6e1e7aae958f5ecbdfe0b05132acf0173be25e3d4b4871",
+        "source_packet.json": "fb4bb7a5f73b9ddb34987c9b2edcbdf1674445266f157e23aca68c02a99a2367"
+      }
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "run_id": "20261113T111721Z_A0_4b26cbd9",
+      "snapshot": "X_71022974317fcc98895c4138",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "registered_record_count": 51,
+      "tool_operations": [
+        {
+          "event_line": 9,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 15,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 21,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 27,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 33,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 39,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 45,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 51,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 57,
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "actor": "model"
+        },
+        {
+          "event_line": 63,
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "actor": "model"
+        },
+        {
+          "event_line": 69,
+          "tool": "calculate",
+          "operation": "EVALUATE",
+          "actor": "model"
+        },
+        {
+          "event_line": 75,
+          "tool": "sensitivity",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 81,
+          "tool": "search_corpus",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 87,
+          "tool": "read_source",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 93,
+          "tool": "request_information",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 99,
+          "tool": "escalate",
+          "operation": null,
+          "actor": "model"
+        },
+        {
+          "event_line": 105,
+          "tool": "request_information",
+          "operation": null,
+          "actor": "program_commit"
+        },
+        {
+          "event_line": 106,
+          "tool": "escalate",
+          "operation": null,
+          "actor": "program_commit"
+        },
+        {
+          "event_line": 107,
+          "tool": "submit_review",
+          "operation": null,
+          "actor": "model"
+        }
+      ],
+      "finalization": [
+        {
+          "event_line": 101,
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        }
+      ],
+      "calculation_status_counts": {
+        "UNAVAILABLE": 7,
+        "OK": 25
+      },
+      "calculation_use_checks": [
+        {
+          "calc_id": "C_71022974317fcc98895c4138_price_from_reported_equity_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 평가액과 공시 분모로 주당가액 검산"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_price_from_displayed_per_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "표시 18.0배 기준 가격"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_implied_per_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 평가액과 이익의 역산 배수"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_peer_displayed_mean_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "공시 표시 PER 네 개의 단순평균"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_displayed_mean_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "표시 PER 평균 적용 대안"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_displayed_median_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "표시 PER 중앙값 대안"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_exclude_peer_2_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "COF 비중이 큰 LB루셈 제외 가정"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_exclude_peer_3_535c6f8e",
+          "use": "USE",
+          "current_snapshot": true,
+          "tool_status": "OK",
+          "stated_value_matches": true,
+          "reason": "두산테스나 1개사 제외 민감도"
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_share_sum_535c6f8e",
+          "use": "REJECT",
+          "current_snapshot": true,
+          "tool_status": "UNAVAILABLE",
+          "stated_value_matches": null,
+          "reason": "부분합만 존재하며 전체 희석권리 검토 미완료로 공식 결과는 UNAVAILABLE"
+        }
+      ],
+      "independent_source_arithmetic_checks": [
+        {
+          "calc_id": "C_71022974317fcc98895c4138_price_from_reported_equity_535c6f8e",
+          "source_based_expected": "27145.62097457227519874146495095733281817",
+          "actual": "27145.62097457227519874146495095733281817",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_price_from_displayed_per_535c6f8e",
+          "source_based_expected": "27136.49944404508842880546198497163977068",
+          "actual": "27136.49944404508842880546198497163977068",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_baseline_535c6f8e",
+          "source_based_expected": "27136.49944404508842880546198497163977068",
+          "actual": "27136.49944404508842880546198497163977068",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_displayed_mean_535c6f8e",
+          "source_based_expected": "27174.18902660626216273435845995076704814",
+          "actual": "27174.18902660626216273435845995076704814",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_displayed_median_535c6f8e",
+          "source_based_expected": "26533.46612306630868594311838530560333133",
+          "actual": "26533.46612306630868594311838530560333133",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_exclude_peer_1_535c6f8e",
+          "source_based_expected": "29297.36884421904917406219321710827034501",
+          "actual": "29297.36884421904917406219321710827034501",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_exclude_peer_2_535c6f8e",
+          "source_based_expected": "23267.03563443125174543875722044790595152",
+          "actual": "23267.03563443125174543875722044790595152",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_exclude_peer_3_535c6f8e",
+          "source_based_expected": "30654.19381642130359550246631635685233354",
+          "actual": "30654.19381642130359550246631635685233354",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_sensitivity_exclude_peer_4_535c6f8e",
+          "source_based_expected": "25478.15781135344413593401708589003956247",
+          "actual": "25478.15781135344413593401708589003956247",
+          "pass": true
+        },
+        {
+          "calc_id": "C_71022974317fcc98895c4138_share_sum_535c6f8e",
+          "source_based_expected": "8960259",
+          "actual": "8960259",
+          "pass": true,
+          "scope": "partial_sum only; coverage still incomplete"
+        }
+      ],
+      "source_appropriateness": {
+        "scope": "Structured judgment facts; FULL/submitted document semantic support, not all conclusions or correctness score",
+        "submitted_claims": 11,
+        "read_location_valid_count": 11,
+        "fully_supported_count": 10,
+        "qualified_count": 1,
+        "unsupported_count": 0,
+        "support_rate": 0.9090909090909091,
+        "claims": [
+          {
+            "claim_id": "J1F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J1F1",
+                "locator": "주당 평가가액 산출 결과 A~C"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J1F2",
+                "locator": "주당 평가가액 산출 결과 주1"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0252",
+                "page": 252,
+                "claim_id": "J1F2",
+                "locator": "대상기간 회사 실적"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0247",
+                "page": 247,
+                "claim_id": "J1F3",
+                "locator": "재무 유사성 TTM 당기순이익 지배 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0245",
+                "page": 245,
+                "claim_id": "J2F1",
+                "locator": "유사기업 선정 기준 요약 2~4차"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J2F1",
+                "locator": "유사기업 PER 산출 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0137",
+                "page": 137,
+                "claim_id": "J2F2",
+                "locator": "최근 3개년 재무현황"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0246",
+                "page": 246,
+                "claim_id": "J2F2",
+                "locator": "유사기업 선정 내역 사업 및 2022년 매출 구성"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0247",
+                "page": 247,
+                "claim_id": "J2F3",
+                "locator": "일반 유사성 선정 내역 두산테스나 시가총액"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0249",
+                "page": 249,
+                "claim_id": "J2F3",
+                "locator": "기준시가총액 두산테스나 1개월 평균 및 최솟값"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J2F3",
+                "locator": "유사기업 PER 표 두산테스나 기준 시가총액"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J3F1",
+                "locator": "주당 평가가액 산출 결과"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J3F2",
+                "locator": "유사기업 PER 산출 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J4F1",
+                "locator": "주당 평가가액 산출 결과"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4F2",
+            "status": "QUALIFIED",
+            "read_location_valid": true,
+            "reason": "Document supports all four components and total; tool partial_sum clause is supported by calculation registry, not by document alone. No false arithmetic claim.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0252",
+                "page": 252,
+                "claim_id": "J4F2",
+                "locator": "공모 후 주주구성 및 주2"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "Actually read document supports the stated disclosed numbers and context.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0003",
+                "page": 3,
+                "claim_id": "J4F3",
+                "locator": "정정사항 공통 정정사항 정정 전·후"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0252",
+                "page": 252,
+                "claim_id": "J4F3",
+                "locator": "희망공모가액 산출내역 및 주1"
+              }
+            ]
+          }
+        ]
+      },
+      "false_completion": false,
+      "internal_arithmetic_deferral_to_information_request": false,
+      "request_assessments": [
+        {
+          "id": "R1",
+          "review_pointer": "/requests/0",
+          "classification": "LEGITIMATE_SOURCE_DISCREPANCY_FOLLOWUP",
+          "blocking": false,
+          "unnecessary_hold_scope": false,
+          "reason": "Real523157/523817 table discrepancy and undisclosed precision; no blocking final information hold."
+        },
+        {
+          "id": "R2",
+          "review_pointer": "/requests/1",
+          "classification": "IN_CORPUS_NOT_READ",
+          "blocking": false,
+          "unnecessary_hold_scope": false,
+          "reason": "p455 options none; p18/67 no secondary sale. Not read; remains retrieval task, explicitly nonblocking. Full dilution completeness not claimed."
+        },
+        {
+          "id": "H1",
+          "review_pointer": "/escalations/0",
+          "classification": "LEGITIMATE_HUMAN_INTERPRETATION",
+          "unnecessary_hold_scope": false,
+          "reason": "Tax/attribution mixture and peer business differences need judgment."
+        }
+      ],
+      "semantic_limits": [
+        "COVERAGE INCOMPLETE; source sum only partial result",
+        "Options and secondary-sale source pages unread; requests nonblocking"
+      ],
+      "summary": {
+        "run_id": "20261113T111721Z_A0_4b26cbd9",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 17,
+        "tool_calls": 19,
+        "input_tokens": 728665,
+        "output_tokens": 10828,
+        "format_repairs": 0,
+        "elapsed_seconds": 164.509,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.782805,
+        "known_usage_cost_usd_standard_uncached": 0.782805,
+        "estimated_cost_krw_at_budget_fx": 1095.93,
+        "cost_ceiling_usd": 0.964971,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.964971,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      },
+      "artifact_sha256": {
+        "summary.json": "68c9ca5266476f59b16825ddfe34630388219b15f8d2a04d3307dfcba151b385",
+        "review.json": "8fb3feb5209a402919302980a84fa42c373b6f698ec3b69b9c183e7c69d2fa4d",
+        "extraction.json": "1ea5886b04061eb1efb237e216993ded1bc591254bdb79f4c1aa4046548913df",
+        "calculations.json": "6e9f8ba27dde94275cc1cc51f809ca18d0d3a4bf8292619ba5fafedb9d8e7efc",
+        "events.jsonl": "9df646b85caeaa125419de9d068b8045f53a3bb7e830bc0a73970203b51371ec",
+        "source_packet.json": "a0f5204c45d510c2b9823c9d9fdab293f4ee3a981a227ecd8bbbbb1d5ea64323"
+      }
+    }
+  ]
+}

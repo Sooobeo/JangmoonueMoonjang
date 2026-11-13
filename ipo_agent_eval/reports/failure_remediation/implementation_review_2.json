@@ -1,0 +1,94 @@
+{
+  "review": "implementation review 2",
+  "reviewer": "preservation_review",
+  "checked_at_utc": "2026-11-13T11:08:52.769187+00:00",
+  "status": "PASS_WITH_PENDING_B_FATAL_SHORT_CIRCUIT",
+  "ownership_disclosure": "Independent review of contracts wire/compact patch changes and root integration. Original patch implementation and runtime retry were authored by this reviewer, so those checks are implementer self-review rather than fully independent authorship.",
+  "source_hashes": {
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "ipo_eval/format_patch.py": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f",
+    "ipo_eval/runtime_v2.py": "70c03f58ae5a3c78fe28cef72613236d07d95a02d2c6bba9bff2244797cc63b8",
+    "ipo_eval/budget.py": "f6bb999f4266a2dc09b135a73310031b8a08d485cc08d93718281fd3c7263c51",
+    "ipo_eval/agent_loop.py": "725675de7b51192516f6f5cc43935484a2485722c546a318e8bf6b296457fee2",
+    "ipo_eval/runner_v2.py": "667a79c9ac74e0196ed626fe247b2bf662a5af26b204e7898754db1af8b0c43c",
+    "ipo_eval/tool_gateway.py": "2cba5f7b87d1023f0a1b2d8790e0b4fa21054c94051d9d4234423b3075cc5f75",
+    "ipo_eval/validation_v2.py": "72ace679946468800fef46e32a4d48e9b82db86efefa549a21a1364c57e43be1",
+    "config/B.json": "7da4486c71f15cc6e7cc9638d8db1db5272a6e8f2a2a682c47273f66e80b3917",
+    "config/A0.json": "d6d2614ed3afe9ff5889f070b85a25298336f05431fdd67e287f712f5a9a795d",
+    "prompts/A0.md": "6756f19bf0fad1c18486c79d9a29cf0699d25f1c5ba1dd393b52021714d67010",
+    "prompts/common.md": "21f22adf7c1e130aff95fb1cba26f3e1a59ab2fc5ea085a4bc92ce0b4ca3fa7a",
+    "prompts/v2_contract.md": "bbd897873755bca57baaa56c90cb14d60935c87ee372f070127a989fb69dd22f",
+    "tests/test_remediation_independent_review.py": "d10d7f3846a47c7b9558b96c7b143b23305f32e4311a1ce8da9122f3f0130afb",
+    "tests/test_remediation_integration.py": "8f6776d92ff268f8dc1c2166c3ce839cadd31fc96ee204daa492a95ef1b4983b",
+    "tests/test_wire_contract.py": "60ea84d75da93a738852bcf988f14dd3cc3ddd5481a50d71e066b7d4aca934f3",
+    "tests/test_format_patch.py": "1829d59e19828c607f7b4ce3e2bcd302c47edb49514f8aaea2bdae38249a08b5",
+    "tests/test_runtime_transient_retry.py": "8375e76ce12d08f25efc7ca6159a8d17604318303937748c45e42de415a90d48"
+  },
+  "config_differences_excluding_condition": [],
+  "tests": [
+    {
+      "scope": "compact wire, patch, root integration, runtime retry, independent boundary",
+      "result": "96 passed in 8.48s"
+    },
+    {
+      "scope": "independent boundary plus known B termination defect",
+      "result": "3 passed, 2 xfailed in 4.78s"
+    }
+  ],
+  "checks": {
+    "seven_kinds_lossless_aliases": true,
+    "actual_read_coordinates_only": true,
+    "same_snapshot_calculation_roundtrip": true,
+    "raw_wire_and_context_retained": true,
+    "schema_authorized_atomic_patch": true,
+    "numeric_text_status_source_list_preserved": true,
+    "neutral_state_no_automatic_A0_workflow": true,
+    "observation_envelope_state_growth_reserved": true,
+    "dynamic_missing_schema_with_original_semantic_validation": true,
+    "unknown_usage_separate_reserved_not_zero": true,
+    "single_same_request_server_retry_budget_recheck": true,
+    "B_A0_common_config_equal": true,
+    "prior_artifacts_and_source_snapshots_preserved": true
+  },
+  "findings": [
+    {
+      "id": "IR2-01",
+      "status": "RESOLVED_BEFORE_DIAG_FREEZE",
+      "description": "Compact foreign chunk originally returned only UNREAD_EVIDENCE; root now rejects it as fatal ISOLATION_VIOLATION. Same corpus unread evidence remains recoverable. Three independent tests verify counted attempt, atomicity and fatal persistence."
+    },
+    {
+      "id": "IR2-02",
+      "status": "PENDING_V041",
+      "description": "B fixed runner invokes one format repair after fatal REGISTER/COMMIT isolation error. No data is read and no review is accepted after the fatal error, but one avoidable model call is attempted. This also existed in old B flow. Root deferred correction until DIAG_v040 ends so frozen production source is unchanged. Two strict-xfail reproductions record the defect."
+    }
+  ],
+  "preservation": {
+    "checked_at_utc": "2026-11-13T11:08:52.763531+00:00",
+    "passed": true,
+    "manifest_sha256": "6e1d056cfa772a8e43e3f67fe19f3519a2ebf94164ae51ef315e2c0a99b2dfff",
+    "entry_count": 1914,
+    "snapshot_count": 67,
+    "immutable_count": 1847,
+    "violations": [],
+    "versioned_source_changes": [
+      "ipo_agent_eval/config/A0.json",
+      "ipo_agent_eval/config/B.json",
+      "ipo_agent_eval/ipo_eval/agent_loop.py",
+      "ipo_agent_eval/ipo_eval/budget.py",
+      "ipo_agent_eval/ipo_eval/runner_v2.py",
+      "ipo_agent_eval/ipo_eval/runtime_v2.py",
+      "ipo_agent_eval/ipo_eval/tool_gateway.py",
+      "ipo_agent_eval/prompts/A0.md",
+      "ipo_agent_eval/prompts/common.md",
+      "ipo_agent_eval/prompts/v2_contract.md",
+      "ipo_agent_eval/pyproject.toml",
+      "ipo_agent_eval/scripts/run_development_comparison.py",
+      "ipo_agent_eval/tests/test_agent_loop_v2.py"
+    ]
+  },
+  "limitations": [
+    "Mock-provider tests demonstrate orchestration and constraints, not autonomous model business completion.",
+    "No API was called by this reviewer.",
+    "Implementation review is not final acceptance until IR2-02 and actual paired-run criteria are satisfied."
+  ]
+}

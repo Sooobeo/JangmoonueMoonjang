@@ -1,0 +1,16 @@
+{
+  "batch": "FIX_v041",
+  "reason": "MELCON A0 response 10 exhausted the 3500-token per-exploration-response cap while producing its first REGISTER_BATCH. The response is incomplete and must not be registered or repaired into a fabricated completed answer.",
+  "failed_run_id": "20261113T112328Z_A0_1bc17cbe",
+  "action": "STOP file created after observing this failure; active requests finish with their original frozen source and all unstarted planned runs are recorded as NOT_STARTED_STOP_REQUESTED.",
+  "next_version": "0.4.2-dev",
+  "additional_failure_observed_while_active_requests_finished": {
+    "run_id": "20261113T112309Z_B_df4ace2b",
+    "case_id": "MELCON-DEV-01",
+    "condition": "B",
+    "reason": "Completed review emitted USE with unresolved=true on seven calculation uses. The unchanged semantic validator rejected this combination; a no-op format patch did not alter decisions.",
+    "planned_common_contract_fix": "Expose the existing calculation-use invariants as separate strict USE, REJECT-with-replacement and REJECT-unresolved schema branches before generation. Clarify that business uncertainties are reported separately. Do not rewrite an existing model decision or automatically change true to false."
+  },
+  "proposed_change": "Raise the common exploration_output_max from 3500 to 9000, matching the existing B extraction cap. Preserve the 24000 cumulative output cap, 800000 cumulative input cap, 1.25 USD cap and all other resource limits. Re-freeze and rerun the full six-company paired batch; keep every v041 attempt.",
+  "scoring": "Actual failed submissions remain failures. Runs never started are not failed answers and must not receive zero scores. This interrupted batch is not the final twelve-attempt comparison."
+}

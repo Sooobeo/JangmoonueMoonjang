@@ -1,0 +1,514 @@
+{
+  "schema_version": "failure_remediation_review_manifest_v1",
+  "created_at_utc": "2026-11-13T11:11:53.640592+00:00",
+  "status": "PAUSED_BY_USER",
+  "requirements": {
+    "diagnosis_reviews": 3,
+    "implementation_reviews": 3,
+    "final_batch_execution_reviews": 3,
+    "overall_reviews": 3,
+    "total_required": 12
+  },
+  "acceptance_complete": false,
+  "policy": [
+    "A report's existence does not mean final acceptance; pending reviews and open findings stay explicit.",
+    "Reviews of v0.4.0 diagnostic source require a version-specific follow-up after v0.4.1 changes before the final paired batch.",
+    "DIAG_v040 is four diagnostic attempts, not the final six-company paired batch and not final execution acceptance.",
+    "The completed D0-D6 and three overall reviews in the prior immutable manifest remain separate and are never rewritten or counted as remediation reviews.",
+    "Reviewers disclose authored components; cross-review is not represented as fully independent authorship where it is not.",
+    "Final completion requires all twelve review slots, resolved required findings, final frozen source/results, and a fresh preservation check."
+  ],
+  "prior_completed_manifest": {
+    "file": "reports/a0_implementation/review_manifest.json",
+    "exists": true,
+    "sha256": "9c9e83496f79a5e393e7be9f63920634c4197f91abab0cf9c9f9c74ab79b1d93",
+    "policy": "IMMUTABLE; 21 stage and 3 overall reviews from the completed original task"
+  },
+  "baseline_manifest": {
+    "file": "reports/failure_remediation/baseline_manifest.json",
+    "exists": true,
+    "sha256": "6e1d056cfa772a8e43e3f67fe19f3519a2ebf94164ae51ef315e2c0a99b2dfff"
+  },
+  "diagnostic_plan": {
+    "file": "reports/failure_remediation/DIAG_v040_plan.json",
+    "exists": true,
+    "sha256": "9ece90985110a24996fda2c74bf273e17f561ebea0dafaed11892390b4234618",
+    "role": "diagnostic_only",
+    "final_batch_denominator": false
+  },
+  "final_batch": {
+    "plan_file": "reports/failure_remediation/FIX_v043_plan.json",
+    "results_file": "reports/failure_remediation/FIX_v043_runs.json",
+    "source_snapshot": "reports/failure_remediation/FIX_v043_source",
+    "expected_companies": 6,
+    "conditions": [
+      "B",
+      "A0"
+    ],
+    "expected_attempts": 12,
+    "status": "STOPPED_BY_USER",
+    "label": "FIX_v043",
+    "frozen_plan": {
+      "file": "reports/failure_remediation/FIX_v043_plan.json",
+      "exists": true,
+      "sha256": "52c7dd0040413c28fbfd4792e1750f33cacb847e9536d9b509ec91aeada6c1ac"
+    },
+    "version": "0.4.3-dev",
+    "operator_stop": {
+      "file": "reports/failure_remediation/FIX_v043_user_stop.json",
+      "exists": true,
+      "sha256": "f63133adfe8374c3f633861af641fe4abd2c1b5989f2937827fa821f673beaea"
+    }
+  },
+  "stages": {
+    "diagnosis": {
+      "status": "THREE_REVIEWS_RECORDED",
+      "reviews": [
+        {
+          "review_id": "diagnosis_1",
+          "ordinal": 1,
+          "reviewer": "root; compact contract diagnosis evidence by contracts",
+          "status": "COMPLETED_ROOT_DIAGNOSIS_REVIEW",
+          "final_acceptance": false,
+          "artifacts": [
+            {
+              "file": "reports/failure_remediation/diagnosis_1.md",
+              "exists": true,
+              "sha256": "973cc6614a9ae7a113affecade7d42f70c0d42bc718919efa8d14a16aa4e14e5"
+            },
+            {
+              "file": "reports/failure_remediation/compact_wire_diagnosis.json",
+              "exists": true,
+              "sha256": "f46a3b362cd31124bc47f864ad429ce3447f579bbd5702f806dd87b10f14a03c"
+            },
+            {
+              "file": "reports/failure_remediation/compact_wire_review_1.json",
+              "exists": true,
+              "sha256": "ce543f41a05f4f01dcde577213a313350129bbd3a8ff54e31de970c1f14ef18a"
+            },
+            {
+              "file": "reports/failure_remediation/compact_wire_review_1.md",
+              "exists": true,
+              "sha256": "a0b04b50c08b81f13e63b82e51254c6ee8cd28e3b0ce9806bc38a339d854f4ea"
+            }
+          ],
+          "planned_primary_report": "reports/failure_remediation/diagnosis_1.md",
+          "scope": "Observed v032 failures, compact transport causes and proposed correction boundary",
+          "review_complete": true
+        },
+        {
+          "review_id": "diagnosis_2",
+          "ordinal": 2,
+          "reviewer": "preservation_review",
+          "status": "COMPLETED_PASS_DIAGNOSIS_ONLY",
+          "final_acceptance": false,
+          "artifacts": [
+            {
+              "file": "reports/failure_remediation/diagnosis_2.json",
+              "exists": true,
+              "sha256": "9e1bfa0afebf838b7b157d59f7d3c98a9cbb706a08d1e6084b528604b5607624"
+            },
+            {
+              "file": "reports/failure_remediation/diagnosis_2.md",
+              "exists": true,
+              "sha256": "ed506676d9691b008e9587b55a0f7d85fe748c8643a9dd020ac0d102dcf653cc"
+            }
+          ],
+          "scope": "Original A0 input/schema/history estimates, empty snapshots, missing_inputs and repair-size mismatch",
+          "review_complete": true
+        },
+        {
+          "review_id": "diagnosis_3",
+          "ordinal": 3,
+          "reviewer": "case_roster",
+          "status": "COMPLETED_DIAGNOSIS_AND_BOUNDARY_REVIEW",
+          "final_acceptance": false,
+          "artifacts": [
+            {
+              "file": "reports/failure_remediation/diagnosis_3.md",
+              "exists": true,
+              "sha256": "9b382e63d4b753f12c23561f9fda934cd6334b3d35caf82a785dabf3f8a8d67e"
+            }
+          ],
+          "scope": "Original failure path, test limitations, A0/A1 boundary and live acceptance requirements",
+          "review_complete": true
+        }
+      ]
+    },
+    "implementation": {
+      "status": "V043_THREE_OFFLINE_REVIEWS_RECORDED",
+      "reviews": [
+        {
+          "review_id": "implementation_1",
+          "ordinal": 1,
+          "reviewer": "root",
+          "status": "V043_ROOT_PASS",
+          "final_acceptance": false,
+          "artifacts": [
+            {
+              "file": "reports/failure_remediation/implementation_review_1.md",
+              "exists": true,
+              "sha256": "9faa770adc7ef1e97fece465fbfcbde8ae496ddf2d4d52b5abf2f96f178e550b"
+            }
+          ],
+          "readable": true,
+          "readability_evidence": {
+            "hangul_characters": 1639,
+            "replacement_characters": 0,
+            "sha256": "9faa770adc7ef1e97fece465fbfcbde8ae496ddf2d4d52b5abf2f96f178e550b"
+          },
+          "required_followup": "Final live batch acceptance and overall reviews remain pending.",
+          "review_complete": true
+        },
+        {
+          "review_id": "implementation_2",
+          "ordinal": 2,
+          "reviewer": "preservation_review",
+          "status": "V043_PASS_OFFLINE_AFTER_REPAIR",
+          "final_acceptance": false,
+          "artifacts": [
+            {
+              "file": "reports/failure_remediation/implementation_review_2_v043.json",
+              "exists": true,
+              "sha256": "b5a00f1d0b966233061ba4b55442a99d09acfa6a6a55daf8e8fcbc2d536a3f74"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_2_v043.md",
+              "exists": true,
+              "sha256": "56490ce8bea2bf23e12c25eb77372bdf59fd33251ca5b81d64715c04a637aeca"
+            }
+          ],
+          "open_findings": [],
+          "ownership_disclosure": "Original patch/runtime implementer; independent compact extension and root integration reviewer.",
+          "required_followup": "Final live batch acceptance and overall reviews remain pending.",
+          "review_complete": true,
+          "historical_artifacts": [
+            {
+              "file": "reports/failure_remediation/implementation_review_2.json",
+              "exists": true,
+              "sha256": "210b0346414583046582e098ddee0a479a877632ce04bdd4323f9decccbda1f5"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_2.md",
+              "exists": true,
+              "sha256": "06e0400976000a22916d11a8cc6a519a8b49218cb5bfb34b175b72f48783c648"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_2_preservation.json",
+              "exists": true,
+              "sha256": "6f9e2d9aab4831db04d8a41f769a1d9585c303214e52b97d2d01303646b84d2c"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_2_v041.json",
+              "exists": true,
+              "sha256": "a77993f4e40121fa2d07c5038acf895cd283c347f71ecc4108e6abd1d5a45cba"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_2_v041.md",
+              "exists": true,
+              "sha256": "6313c07f4594220cc53c043d5b04697d32191f074de694c233eb7d310503d21b"
+            },
+            {
+              "file": "reports/failure_remediation/alias_regression_review_2.json",
+              "exists": true,
+              "sha256": "1ffe13fc818ca65409d567a1d62becaa6f7263322d3701fab5a3089335c076a8"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_2_v042.json",
+              "exists": true,
+              "sha256": "da96a2367723008cb6483ecf26e5810d15839477395a2e0729ee89fc0ac5a4c4"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_2_v042.md",
+              "exists": true,
+              "sha256": "8f284164d5cc8eab55fc466cd439d5145332e080e805b19600f093dfb8c3c338"
+            }
+          ]
+        },
+        {
+          "review_id": "implementation_3",
+          "ordinal": 3,
+          "reviewer": "case_roster",
+          "status": "V043_PASS_AFTER_INDEPENDENT_CONTRACT_REVIEW",
+          "final_acceptance": false,
+          "artifacts": [
+            {
+              "file": "reports/failure_remediation/implementation_review_3_v043.md",
+              "exists": true,
+              "sha256": "6cd2ef0687b443b880bc5b10f56a0c4c7e4b09af31357f36fcdbf6ec6df92e8c"
+            },
+            {
+              "file": "reports/failure_remediation/v043_independent_contract_check_3.json",
+              "exists": true,
+              "sha256": "c2dcc741cac8d1971b896f972af6c7b969ad4894507bb9ebfaf3ac6588186c18"
+            }
+          ],
+          "ownership_disclosure": "Independent integration reviewer; authored common prompts and approved driver fixes are disclosed.",
+          "required_followup": "Final live batch acceptance and overall reviews remain pending.",
+          "review_complete": true,
+          "historical_artifacts": [
+            {
+              "file": "reports/failure_remediation/implementation_review_3.md",
+              "exists": true,
+              "sha256": "8a81d79349bb89e8380736e689e8022cb856d5e03b11648581287c118e065495"
+            },
+            {
+              "file": "reports/failure_remediation/implementation_review_3_v042.md",
+              "exists": true,
+              "sha256": "6a125b3751edb936cbdc81330659b26584268dc0eed581ddb69fcc094f036627"
+            },
+            {
+              "file": "reports/failure_remediation/v042_role_selection_review_3.json",
+              "exists": true,
+              "sha256": "454d6937e0ea9e4aa459f7be75b92ca2dba7fc30ec518f5e7e8c405f5f5cda4d"
+            }
+          ]
+        }
+      ],
+      "supplemental_evidence_not_extra_required_slots": [
+        {
+          "file": "reports/failure_remediation/integration_review_2.json",
+          "exists": true,
+          "sha256": "02240d0078cd52fcde4a3f5af3b3344c1899c73f956c51dba16f9f82ca14307e"
+        },
+        {
+          "file": "reports/failure_remediation/integration_review_2.md",
+          "exists": true,
+          "sha256": "b33de343b40ccea25aa481bbe0013c42833a51eda91ee2f42b9f34e774c0f435"
+        },
+        {
+          "file": "reports/failure_remediation/compact_patch_review_1.json",
+          "exists": true,
+          "sha256": "c84ec53eb0194adfd70735bd237b58f3942b9966fbccf6aee1901898c11a3ae0"
+        }
+      ],
+      "supplemental_v042_evidence": [
+        {
+          "file": "reports/failure_remediation/calculation_use_wire_review_1_v042.json",
+          "exists": true,
+          "sha256": "24e7741a4ad1ec1970561f90b11061bb2160c4987304c7d8b848bc3d9093cee9"
+        },
+        {
+          "file": "reports/failure_remediation/selection_priority_review_1_v042.json",
+          "exists": true,
+          "sha256": "3b72deead85cfa4a8502ebbcd03f8230ae8a32fec11d60bcf178b901935fbe2d"
+        },
+        {
+          "file": "reports/failure_remediation/schema_probe_v042.json",
+          "exists": true,
+          "sha256": "6567403cd912ed85abf9804284b8c9a1023f429d95d5b7e67d683399ab3399fd"
+        }
+      ],
+      "last_reviewed_version": "0.4.3-dev",
+      "next_target_version": null,
+      "reviewed_source_matches_frozen_plan": true,
+      "supplemental_v043_evidence": [
+        {
+          "file": "reports/failure_remediation/context_groups_claim_namespace_review_1_v043.json",
+          "exists": true,
+          "sha256": "654006e9defc34ebc459ba7fa03ecfadea26a14e7df2c2ba9f8deffe722c363a"
+        },
+        {
+          "file": "reports/failure_remediation/context_groups_claim_namespace_review_1_v043.md",
+          "exists": true,
+          "sha256": "35ed004309f3e2649be8dc01eaa7faa098a9c49cc690851114fd374f4a697823"
+        }
+      ]
+    },
+    "execution": {
+      "status": "NOT_STARTED_AWAITING_FINAL_PAIRED_BATCH",
+      "required_scope": "Final twelve attempted or explicitly unstarted dispositions, frozen source, semantic work completion, grading, raw usage/cost/unknowns, actor/evidence/snapshot/ledger and preservation.",
+      "reviews": [
+        {
+          "review_id": "execution_1",
+          "ordinal": 1,
+          "reviewer": "root",
+          "status": "NOT_STARTED",
+          "final_acceptance": false,
+          "artifacts": [],
+          "planned_primary_report": "reports/failure_remediation/execution_review_1.json",
+          "prerequisite": "Final frozen twelve-run batch and its artifacts must exist; DIAG is separate."
+        },
+        {
+          "review_id": "execution_2",
+          "ordinal": 2,
+          "reviewer": "preservation_review",
+          "status": "NOT_STARTED",
+          "final_acceptance": false,
+          "artifacts": [],
+          "planned_primary_report": "reports/failure_remediation/execution_review_2.json",
+          "prerequisite": "Final frozen twelve-run batch and its artifacts must exist; DIAG is separate."
+        },
+        {
+          "review_id": "execution_3",
+          "ordinal": 3,
+          "reviewer": "case_roster or separately assigned cross-reviewer",
+          "status": "NOT_STARTED",
+          "final_acceptance": false,
+          "artifacts": [],
+          "planned_primary_report": "reports/failure_remediation/execution_review_3.json",
+          "prerequisite": "Final frozen twelve-run batch and its artifacts must exist; DIAG is separate."
+        }
+      ]
+    },
+    "overall": {
+      "status": "NOT_STARTED_AWAITING_ALL_STAGE_REVIEWS_AND_DELIVERABLES",
+      "required_scope": "Design coverage, source/tests, run and grade evidence, truthful completion limits, costs, documentation links, all review findings and final preservation.",
+      "reviews": [
+        {
+          "review_id": "overall_1",
+          "ordinal": 1,
+          "reviewer": "preservation_review",
+          "status": "NOT_STARTED",
+          "final_acceptance": false,
+          "artifacts": [],
+          "planned_primary_report": "reports/failure_remediation/overall_review_1.json",
+          "prerequisite": "All stage reviews and final reports must be complete; review cannot be inferred from a plan."
+        },
+        {
+          "review_id": "overall_2",
+          "ordinal": 2,
+          "reviewer": "To be assigned by root",
+          "status": "NOT_STARTED",
+          "final_acceptance": false,
+          "artifacts": [],
+          "planned_primary_report": "reports/failure_remediation/overall_review_2.json",
+          "prerequisite": "All stage reviews and final reports must be complete; review cannot be inferred from a plan."
+        },
+        {
+          "review_id": "overall_3",
+          "ordinal": 3,
+          "reviewer": "To be assigned by root",
+          "status": "NOT_STARTED",
+          "final_acceptance": false,
+          "artifacts": [],
+          "planned_primary_report": "reports/failure_remediation/overall_review_3.json",
+          "prerequisite": "All stage reviews and final reports must be complete; review cannot be inferred from a plan."
+        }
+      ]
+    }
+  },
+  "open_required_findings": [],
+  "final_preservation": {
+    "status": "NOT_PERFORMED_FINAL_CHECK_REQUIRED",
+    "artifact": null,
+    "prior_implementation_check": {
+      "file": "reports/failure_remediation/implementation_review_2_preservation.json",
+      "exists": true,
+      "sha256": "6f9e2d9aab4831db04d8a41f769a1d9585c303214e52b97d2d01303646b84d2c"
+    }
+  },
+  "planned_updates": "Root updates this new manifest after actual follow-up reviews and final artifacts. Existing reports remain time-scoped evidence; v0.4.1 corrections should be new supplemental reports rather than silently changing v0.4.0 findings.",
+  "updated_at_utc": "2026-11-13T11:52:49.891374+00:00",
+  "initial_manifest_snapshot": {
+    "file": "reports/failure_remediation/review_manifest_initial.json",
+    "exists": true,
+    "sha256": "5c72d03502b3d56d12c05b225d39fc75f7a7f18bc289a6a830bb5671476fd583"
+  },
+  "resolved_findings": [
+    {
+      "id": "IR2-02",
+      "status": "RESOLVED_V041",
+      "description": "B invokes unnecessary repair after fatal isolation; information and submission remain blocked.",
+      "evidence": "tests/test_remediation_independent_review.py::test_b_fatal_isolation_stops_before_any_format_repair_api",
+      "current_reproductions": "register and commit: two strict xfails; production source untouched during DIAG",
+      "resolution_evidence": {
+        "file": "reports/failure_remediation/implementation_review_2_v041.json",
+        "exists": true,
+        "sha256": "a77993f4e40121fa2d07c5038acf895cd283c347f71ecc4108e6abd1d5a45cba"
+      }
+    },
+    {
+      "id": "MANIFEST-READABILITY-01",
+      "status": "RESOLVED_V041",
+      "description": "implementation_review_1.md contains literal question marks instead of Korean; UTF-8 source rewrite requested.",
+      "resolution_evidence": {
+        "file": "reports/failure_remediation/implementation_review_2_v041.json",
+        "exists": true,
+        "sha256": "a77993f4e40121fa2d07c5038acf895cd283c347f71ecc4108e6abd1d5a45cba"
+      }
+    },
+    {
+      "id": "MANIFEST-DIAG1-SIGNOFF",
+      "status": "RESOLVED_V041",
+      "description": "Compact diagnosis evidence exists; separate root diagnosis-1 scope/signoff record requested.",
+      "resolution_evidence": {
+        "file": "reports/failure_remediation/implementation_review_2_v041.json",
+        "exists": true,
+        "sha256": "a77993f4e40121fa2d07c5038acf895cd283c347f71ecc4108e6abd1d5a45cba"
+      }
+    }
+  ],
+  "update_history": [
+    {
+      "at_utc": "2026-11-13T11:15:14.120634+00:00",
+      "reviewer": "preservation_review",
+      "change": "Recorded root diagnosis/readability repairs and v041 implementation review2; resolved required findings; final execution/overall/final preservation remain pending."
+    },
+    {
+      "at_utc": "2026-11-13T11:16:25.923236+00:00",
+      "reviewer": "preservation_review",
+      "change": "case_roster confirmed completed v041 review3; current hash and offline review status recorded. Reviewed source hashes match DIAG_v041 frozen plan."
+    },
+    {
+      "at_utc": "2026-11-13T11:35:23.433351+00:00",
+      "reviewer": "preservation_review",
+      "change": "Recorded all three v042 offline implementation reviews; locked 489 prior-attempt files plus 8 compatibility-probe files; final execution/overall/final preservation remain pending."
+    },
+    {
+      "at_utc": "2026-11-13T11:43:06.604123+00:00",
+      "reviewer": "preservation_review",
+      "change": "FIX_v042 stopped with 3 submissions/1 failure/8 unstarted; 164 raw files additionally locked. Final target moves to v043; all execution/overall/final-preservation review slots stay pending."
+    },
+    {
+      "at_utc": "2026-11-13T11:52:49.891374+00:00",
+      "reviewer": "preservation_review",
+      "change": "Recorded all three v043 offline implementation reviews and exact 30-file reviewed/frozen/working source equality. FIX_v043 final paired batch is running; execution/overall/final-preservation acceptance remains pending."
+    }
+  ],
+  "diagnostic_plans": [
+    {
+      "file": "reports/failure_remediation/DIAG_v040_plan.json",
+      "exists": true,
+      "sha256": "9ece90985110a24996fda2c74bf273e17f561ebea0dafaed11892390b4234618",
+      "role": "diagnostic_only",
+      "final_batch_denominator": false
+    },
+    {
+      "file": "reports/failure_remediation/DIAG_v041_plan.json",
+      "exists": true,
+      "sha256": "c53db408acb56e0c450e5cd68903a49ac9298867564c317e6043134260c55525",
+      "role": "diagnostic_only",
+      "final_batch_denominator": false
+    }
+  ],
+  "intermediate_attempt_preservation": {
+    "file": "reports/failure_remediation/intermediate_attempts_manifest.json",
+    "exists": true,
+    "sha256": "9c20a68e33153298a8cebeb36ecf046c25b84a9ee954939bac24360faa9283db"
+  },
+  "compatibility_probe_preservation": {
+    "file": "reports/failure_remediation/compatibility_probe_preservation.json",
+    "exists": true,
+    "sha256": "d240875c57a803a92f20eba949f063f81b984efb81c8f1b274187029e2aa85b6"
+  },
+  "additional_stopped_attempt_preservation": [
+    {
+      "file": "reports/failure_remediation/FIX_v042_interrupted_preservation.json",
+      "exists": true,
+      "sha256": "76ca67c364ba7db7d3bc1d206ee672a96ffd5272dc150e6d70ca1f594765242a"
+    }
+  ],
+  "stopped_batch_audits": [
+    {
+      "file": "reports/failure_remediation/FIX_v042_interrupted_review_2.json",
+      "exists": true,
+      "sha256": "998a78faa596029d4a5372b758918b2b381e91f42a8582bbff7290d66769b34a"
+    },
+    {
+      "file": "reports/failure_remediation/FIX_v042_interrupted_review_2.md",
+      "exists": true,
+      "sha256": "0ac7f1b3f1d481f19328e85030f57dc6d7dd9fb85a9db97d1e283da8f4be7506"
+    }
+  ]
+}

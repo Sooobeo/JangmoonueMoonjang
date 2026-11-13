@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0-pilot",
+  "version": "0.3.1-dev",
   "cases": [
     {
       "case_id": "HDMS-DEV-01",
@@ -17,6 +17,27 @@
       "public_directory": "data/cases/DTS-DEV-01/public",
       "manual_version": "IPO_PER_B_v0.2",
       "manual_source": "data/methods/IPO_PER_B_v0.2.md"
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "public_directory": "data/cases/SHINSUNGST-DEV-01/public",
+      "manual_version": "IPO_PER_B_v0.2",
+      "manual_source": "data/methods/IPO_PER_B_v0.2.md",
+      "cohort": "DEVELOPMENT"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "public_directory": "data/cases/ALT-DEV-01/public",
+      "manual_version": "IPO_PER_B_v0.2",
+      "manual_source": "data/methods/IPO_PER_B_v0.2.md",
+      "cohort": "DEVELOPMENT"
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "public_directory": "data/cases/MILLIE-DEV-01/public",
+      "manual_version": "IPO_PER_B_v0.2",
+      "manual_source": "data/methods/IPO_PER_B_v0.2.md",
+      "cohort": "DEVELOPMENT"
     }
   ]
 }

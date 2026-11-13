@@ -1,0 +1,48 @@
+{
+  "captured_at_utc": "2026-11-13T11:34:03.251525+00:00",
+  "policy": "Immutable schema compatibility probe evidence; separate development cost, excluded from paired company outcomes.",
+  "run_id": "20261113T113241Z_B_043cd48d",
+  "entry_count": 8,
+  "entries": [
+    {
+      "path": "reports/failure_remediation/schema_probe_v042.json",
+      "sha256": "6567403cd912ed85abf9804284b8c9a1023f429d95d5b7e67d683399ab3399fd",
+      "bytes": 1810
+    },
+    {
+      "path": "reports/failure_remediation/schema_probe_v042.py",
+      "sha256": "7360aa47242557df9818d03c78fa1995741ef6403feb3fdfe9087ffccdd19932",
+      "bytes": 2766
+    },
+    {
+      "path": "runs/20261113T113241Z_B_043cd48d/01_schema_compatibility_request.json",
+      "sha256": "977a91ad1257629ebcf50a4485660c079f4066e56b98593ad34cf3a95e49fdca",
+      "bytes": 6678
+    },
+    {
+      "path": "runs/20261113T113241Z_B_043cd48d/01_schema_compatibility_response.json",
+      "sha256": "1ef529a7e650792ee35053d4ff469b63321693d920b27731bbe2b8d342514d8a",
+      "bytes": 8713
+    },
+    {
+      "path": "runs/20261113T113241Z_B_043cd48d/config.json",
+      "sha256": "493bbdf28b96737dfdf2442524c174ee397fde054eb6b5e777d80e4dc441a9eb",
+      "bytes": 2822
+    },
+    {
+      "path": "runs/20261113T113241Z_B_043cd48d/environment.json",
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060",
+      "bytes": 286
+    },
+    {
+      "path": "runs/20261113T113241Z_B_043cd48d/events.jsonl",
+      "sha256": "8ffd75b7df64b4157755ebe99acf50e3275d641c2fb16c09d5b8cb3f480044ca",
+      "bytes": 1616
+    },
+    {
+      "path": "runs/20261113T113241Z_B_043cd48d/summary.json",
+      "sha256": "e34448f827f1f564ef0512d0ae5795164fdae2d82f4a666c9c27a529b4698c45",
+      "bytes": 1185
+    }
+  ]
+}

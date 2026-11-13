@@ -1,0 +1,166 @@
+{
+  "batch": "FIX_v043",
+  "complete": false,
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115106Z_B_2517ee1e",
+      "summary": {
+        "run_id": "20261113T115106Z_B_2517ee1e",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 2,
+        "tool_calls": 22,
+        "input_tokens": 110732,
+        "output_tokens": 14788,
+        "format_repairs": 0,
+        "elapsed_seconds": 169.28,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.184672,
+        "known_usage_cost_usd_standard_uncached": 0.184672,
+        "estimated_cost_krw_at_budget_fx": 258.54,
+        "cost_ceiling_usd": 0.212355,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.212355,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "PENDING_INFO",
+        "actual_model_answer": true,
+        "model_reported_status": "PENDING_INFO",
+        "status_mismatch": false
+      }
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115106Z_A0_6aec2588",
+      "summary": {
+        "run_id": "20261113T115106Z_A0_6aec2588",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 12,
+        "tool_calls": 14,
+        "input_tokens": 713664,
+        "output_tokens": 11674,
+        "format_repairs": 0,
+        "elapsed_seconds": 161.418,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.772034,
+        "known_usage_cost_usd_standard_uncached": 0.772034,
+        "estimated_cost_krw_at_budget_fx": 1080.85,
+        "cost_ceiling_usd": 0.95045,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.95045,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "PENDING_INFO",
+        "actual_model_answer": true,
+        "model_reported_status": "PENDING_INFO",
+        "status_mismatch": false
+      }
+    }
+  ],
+  "stopped_between_runs": false,
+  "unexecuted_planned_runs": [],
+  "remaining_planned_runs": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    }
+  ]
+}

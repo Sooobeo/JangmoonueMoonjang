@@ -1,0 +1,11 @@
+{
+  "stage": "D3", "pass": 2, "reviewer": "root",
+  "focus": "도구·예산·실제 입력 크기 통합 검증",
+  "findings": [
+    {"issue": "JSON Schema의 정수 판정만으로 float 1.0이 통과할 수 있음", "resolution": "Python type is int 검사와 bool/float/음수 경계 테스트"},
+    {"issue": "확대 조회 멜콘 54쪽의 최종화 예약 포함 188922 입력 추정", "resolution": "실제 답변 전 공통 검색 top_k 상한 2로 조정, 0.3.1-dev. 초기 차단 실행 보존"}
+  ],
+  "verification": ["D3_preflights_v031.json: 개발6기업 × B/A0 총12개 PREFLIGHT_COMPLETE", "원문 페이지를 자르지 않고 공통 검색 반환 한도를 적용", "기존/신규 포함 전체 pytest 273 passed in 10.81s"],
+  "result": "PASS_AFTER_REPAIR",
+  "limitations": "사전 토큰 추정은 실제 반환 usage와 다를 수 있어 매 호출 전후 다시 검사함"
+}

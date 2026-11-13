@@ -1,0 +1,554 @@
+{
+  "HDMS-DEV-01": {
+    "review_status": "REVIEWED_WITH_LIMITATIONS",
+    "K": {
+      "K1": {
+        "score": 1,
+        "reason": "40,000,000+4,450,000+13,510+406,680=44,870,190주. 구주4,450,000주 제외, 두 옵션 포함을 최종 답변이 설명하고 실제 share_sum을 USE했다.",
+        "independent_value": "44870190"
+      },
+      "K2": {
+        "score": 1,
+        "reason": "공시 평가액4,761,293백만원/44,870,190주=106,112.6106원. 최종 USE와 독립 Decimal40 계산 일치.",
+        "independent_value": "106112.6106218850421627365518175875787466"
+      },
+      "K3": {
+        "score": 1,
+        "reason": "151,116백만원×31.5/44,870,190=106,087.2263원; 공시값 대비 -25.7737원을 제시하고 정밀도는 미확인으로 구분한다.",
+        "independent_value": "106087.2262854246884178560420626701157272"
+      }
+    },
+    "scores": {
+      "F": null,
+      "K": [
+        1,
+        1,
+        1
+      ],
+      "J": null,
+      "calculation_rate": 1.0,
+      "reason": "Submitted run focused review; full F/J not graded."
+    },
+    "source_appropriateness": {
+      "scope": "Submitted judgments[].facts only; source-reading location validation is separate from semantic support; not overall conclusion correctness.",
+      "submitted_claims": 9,
+      "read_location_valid_count": 9,
+      "fully_supported_count": 9,
+      "qualified_count": 0,
+      "unsupported_count": 0,
+      "support_rate": 1.0,
+      "claims": [
+        {
+          "claim_id": "J1-F1",
+          "status": "FULL",
+          "reason": "p331 적용 이익과 p424~425 기간·연결 지배귀속 원단위 금액 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J1-F1",
+              "locator": "평가 시가총액 산출 내역, 적용 순이익"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0424",
+              "page": 424,
+              "claim_id": "J1-F1",
+              "locator": "연결 포괄손익계산서, 2023년 기간 및 연결 범위"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0425",
+              "page": 425,
+              "claim_id": "J1-F1",
+              "locator": "연결 포괄손익계산서, 당기순이익의 귀속"
+            }
+          ]
+        },
+        {
+          "claim_id": "J1-F2",
+          "status": "FULL",
+          "reason": "p331 온기 지배주주순이익 주석과 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J1-F2",
+              "locator": "2023년 온기 기준 PER 산출 및 주2"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2-F1",
+          "status": "FULL",
+          "reason": "p311 선정기업, p330 가격기준, p331 네 PER 모두 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0311",
+              "page": 311,
+              "claim_id": "J2-F1",
+              "locator": "최종 비교회사 선정결과 요약"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0330",
+              "page": 330,
+              "claim_id": "J2-F1",
+              "locator": "비교회사 기준시가총액 산정내역 및 주1"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J2-F1",
+              "locator": "2023년 온기 기준 PER 산출"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2-F2",
+          "status": "FULL",
+          "reason": "p309 세부 매출구성과 p312 신조83.1%·해외기업 장비 제조 차이에 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0309",
+              "page": 309,
+              "claim_id": "J2-F2",
+              "locator": "사업 유사성, 발행사 2023년 매출 구성"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0312",
+              "page": 312,
+              "claim_id": "J2-F2",
+              "locator": "최종 비교기업 사업구조 및 자산규모 차이"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2-F3",
+          "status": "FULL",
+          "reason": "p330 기준주가·주식수·백만원 시가총액에 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0330",
+              "page": 330,
+              "claim_id": "J2-F3",
+              "locator": "비교회사 기준시가총액 산정내역, HD한국조선해양"
+            }
+          ]
+        },
+        {
+          "claim_id": "J3-F1",
+          "status": "FULL",
+          "reason": "p331~332 평가 입력과 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J3-F1",
+              "locator": "평가 시가총액 산출 내역"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0332",
+              "page": 332,
+              "claim_id": "J3-F1",
+              "locator": "주당 평가가액 산출 내역"
+            }
+          ]
+        },
+        {
+          "claim_id": "J3-F2",
+          "status": "FULL",
+          "reason": "p332 공모 전/신주/구주/두 선택권 수량 및 구주 제외에 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0332",
+              "page": 332,
+              "claim_id": "J3-F2",
+              "locator": "주당 평가가액 산출 내역 및 희석가능주식수 주석"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4-F1",
+          "status": "FULL",
+          "reason": "p41 정정 전, p42 정정 후, p332 본문을 구분하며 현재 가격·평가액 일치.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0041",
+              "page": 41,
+              "claim_id": "J4-F1",
+              "locator": "주9 정정 전 공모가 산정 요약표 및 정정 후 표 시작"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0042",
+              "page": 42,
+              "claim_id": "J4-F1",
+              "locator": "주9 정정 후 공모가 산정 요약표"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0332",
+              "page": 332,
+              "claim_id": "J4-F1",
+              "locator": "평가 시가총액, 주당 평가가액 및 확정 공모가액 표"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4-F2",
+          "status": "FULL",
+          "reason": "p330 실제 현지통화·환율이 있고 추출/계산 기록에서도 세 원화 가격 선택이 UNRESOLVED임을 별도 확인.",
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0330",
+              "page": 330,
+              "claim_id": "J4-F2",
+              "locator": "비교회사 기준시가총액 산정내역 및 환율 주3"
+            }
+          ]
+        }
+      ]
+    },
+    "context_assessment": {
+      "forced_incomparable_context_observed": false,
+      "reason": "FY2023 controlling earnings, valuation-source snapshot, peer entities and market-date source preserved. Peer consolidation comparability remains explicitly unverified."
+    },
+    "remaining_limitations": [
+      "해외3개사 현지통화 기준주가와 환율은 p330에 있으나 허용 DERIVATION에 환율 변환이 없어 원화 기준주가가 UNRESOLVED다. R1은 자료 부재가 아니라 계약 표현 한계를 지적하며 blocking으로 남겼다. 현재 공통 계약의 지원 범위 문제로 분리하며 계산 산술 실패나 모델 허위 출처로 분류하지 않는다.",
+      "공시 숫자 재계산은 독립 가격·환율·재무원천 대조가 아니다. 비표시 이익/PER/반올림 규칙과 HD한국조선해양 이익 차이의 독립 확인은 완료하지 않았다.",
+      "최종 F/J 전체 채점 미수행. 필요 이상의 보류 여부는 검토 목표(기존 공시 재현 대 전체 원자료 검증)에 따라 추가 인간 판단이 필요하다."
+    ]
+  },
+  "DTS-DEV-01": {
+    "review_status": "REVIEWED_WITH_INCOMPLETE_CALCULATIONS",
+    "K": {
+      "K1": {
+        "score": 1,
+        "reason": "12,630,528+2,228,917+22,290=14,881,735주, 옵션400,000주 제외를 설명하며 실제 share_sum USE."
+      },
+      "K2": {
+        "score": 0,
+        "reason": "공시 분모와 파생 분모가 함께 등록되었으나 share_count 명시 선택이 없어 주당가액이 UNAVAILABLE. 최종 답변도 재현 미완료를 명시."
+      },
+      "K3": {
+        "score": 0,
+        "reason": "표시PER 주당계산·차이 및 주당 민감도가 UNAVAILABLE로 미제출. 평균/중앙값 PER 자체 계산만으로 K3를 인정하지 않음."
+      }
+    },
+    "scores": {
+      "F": null,
+      "K": [
+        1,
+        0,
+        0
+      ],
+      "J": null,
+      "calculation_rate": 0.3333333333333333,
+      "reason": "Submitted focused review; full F/J not graded."
+    },
+    "source_appropriateness": {
+      "scope": "Submitted judgments[].facts only, not all narrative uncertainties or full financial conclusions.",
+      "submitted_claims": 13,
+      "read_location_valid_count": 13,
+      "fully_supported_count": 13,
+      "qualified_count": 0,
+      "unsupported_count": 0,
+      "support_rate": 1.0,
+      "claims": [
+        {
+          "claim_id": "J1F1",
+          "status": "FULL",
+          "reason": "p471 분기 2,876+9,284를 두 배 한24,320과 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0471",
+              "page": 471,
+              "claim_id": "J1F1",
+              "locator": "평가가치 표 주1 적용 당기순이익"
+            }
+          ]
+        },
+        {
+          "claim_id": "J1F2",
+          "status": "FULL",
+          "reason": "p483 별도/연결 및 지배기업지분 주석과 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0483",
+              "page": 483,
+              "claim_id": "J1F2",
+              "locator": "2026년 반기 요약 재무현황 및 주1"
+            }
+          ]
+        },
+        {
+          "claim_id": "J1F3",
+          "status": "FULL",
+          "reason": "p109/470 기간과 지배순이익 합산 설명에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0109",
+              "page": 109,
+              "claim_id": "J1F3",
+              "locator": "정정 후 비교기업 PER 표 및 주2"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0470",
+              "page": 470,
+              "claim_id": "J1F3",
+              "locator": "비교기업별 LTM 순이익 내역"
+            }
+          ]
+        },
+        {
+          "claim_id": "J1F4",
+          "status": "FULL",
+          "reason": "p471~472 선택 이유 및 영업외 비용-수익 차이2,889/342와 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0471",
+              "page": 471,
+              "claim_id": "J1F4",
+              "locator": "주3 이익기간 선택 사유"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0472",
+              "page": 472,
+              "claim_id": "J1F4",
+              "locator": "영업외손익 차이 표 및 설명"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2F1",
+          "status": "FULL",
+          "reason": "p109 정정 후3기업·개별PER·평균에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0109",
+              "page": 109,
+              "claim_id": "J2F1",
+              "locator": "정정 후 비교기업 PER 산출 표"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2F2",
+          "status": "FULL",
+          "reason": "p464~465 가격 기간/최소값과 p109 주식수 주석에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0464",
+              "page": 464,
+              "claim_id": "J2F2",
+              "locator": "비교기업 기준주가 분석기준일"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0465",
+              "page": 465,
+              "claim_id": "J2F2",
+              "locator": "기준주가 산식 및 표"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0109",
+              "page": 109,
+              "claim_id": "J2F2",
+              "locator": "정정 후 PER 표 및 주1"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2F3",
+          "status": "FULL",
+          "reason": "p479/480/482 회사별 제품·매출비중을 정확히 구분.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0479",
+              "page": 479,
+              "claim_id": "J2F3",
+              "locator": "SNT에너지 사업 유사성 및 매출구성"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0480",
+              "page": 480,
+              "claim_id": "J2F3",
+              "locator": "비에이치아이 사업 유사성"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0482",
+              "page": 482,
+              "claim_id": "J2F3",
+              "locator": "한텍 제품 차이 및 매출구성"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2F4",
+          "status": "FULL",
+          "reason": "p468~469 산술평균 이유 및 BHI 제품·고객 유사성에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0468",
+              "page": 468,
+              "claim_id": "J2F4",
+              "locator": "산술평균 선택 이유"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0469",
+              "page": 469,
+              "claim_id": "J2F4",
+              "locator": "비에이치아이 선정 근거"
+            }
+          ]
+        },
+        {
+          "claim_id": "J3F1",
+          "status": "FULL",
+          "reason": "p471 기존/신주/추가인수 및 옵션40만주2028년행사 제외에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0471",
+              "page": 471,
+              "claim_id": "J3F1",
+              "locator": "평가가치 표 주2 적용주식수 및 선택권 주석"
+            }
+          ]
+        },
+        {
+          "claim_id": "J3F2",
+          "status": "FULL",
+          "reason": "p468 중앙값 관련 주관사 설명에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0468",
+              "page": 468,
+              "claim_id": "J3F2",
+              "locator": "중앙값과 산술평균 설명"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4F1",
+          "status": "FULL",
+          "reason": "p103 정정 전과 p110 정정 후 수량·평가액을 구분.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0103",
+              "page": 103,
+              "claim_id": "J4F1",
+              "locator": "주20 정정 전 평가가치 및 주식수 표"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0110",
+              "page": 110,
+              "claim_id": "J4F1",
+              "locator": "주20 정정 후 평가가치 및 주식수 표"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4F2",
+          "status": "FULL",
+          "reason": "p454/111 평가가액과 공모가 구분에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0454",
+              "page": 454,
+              "claim_id": "J4F2",
+              "locator": "현재 본문 공모가 산정 요약표"
+            },
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0111",
+              "page": 111,
+              "claim_id": "J4F2",
+              "locator": "정정 후 희망공모가액 산출내역"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4F3",
+          "status": "FULL",
+          "reason": "p111 주관적 선택과 미래 적정가격 아님 설명에 일치.",
+          "evidence": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "chunk_id": "DTS-PROS-01-p0111",
+              "page": 111,
+              "claim_id": "J4F3",
+              "locator": "평가가액 한계 설명"
+            }
+          ]
+        }
+      ]
+    },
+    "remaining_limitations": [
+      "실제 분모 수치와 합계는 있으나 share_count 역할을 명시 선택하지 않아 K2/K3와 모든 주당 민감도가 불가했다. B 고정흐름의 최종 단계에서 등록/재계산 요청으로 넘겼으며 SUBMITTED를 산술 완료로 해석하면 안 된다.",
+      "후속 코드 대조에서 명시 share_count 선택을 추가해도 기존 공시/파생 alias 선택과 함께 세어 모호함을 반환하는 실행기 우선순위 결함을 발견했다. v042는 정확한 역할 선택을 우선 존중하도록 수정했으며 원본 DTS 답변·점수는 소급 변경하지 않았다.",
+      "평가시가총액 직접 공시값은 표에 없으며, 이익×배수의 파생값과 직접값을 구별해야 한다. 직접값 미발견을 모든 주당 계산의 필수 외부자료 부재로 확대해서는 안 된다.",
+      "발행사 LTM 표는 p472 다음에 있다고 예고되지만 읽은 p473에 실제 표가 없다. 답변의 단순 다음 페이지 미제공 설명은 부정확하며, 이미 있는 재무수치로 가능한 근사 검토도 미실행했다.",
+      "기간·별도/연결 차이는 실제로 남아 있고 답변은 이를 억지로 통일하지 않았다."
+    ]
+  },
+  "MELCON-DEV-01": {
+    "review_status": "REVIEWED_FAILURE",
+    "failure_observations": [
+      {
+        "classification": "FINAL_CALCULATION_USE_CONTRACT_CONTRADICTION",
+        "reason": "완결 review 응답이 USE7개에 unresolved=true를 선언. INVALID_REVIEW 후 empty format patch가 의미를 바꾸지 않아 다시 거부. 등록61 records/25 facts 및 EVALUATE/sensitivity는 실제 수행.",
+        "evidence": [
+          "02_review_response.json",
+          "format_patch.json",
+          "summary.json",
+          "events.jsonl"
+        ]
+      }
+    ],
+    "source_appropriateness": {
+      "scope": "No accepted submitted factual claims; raw draft is diagnostic evidence only.",
+      "submitted_claims": 0,
+      "read_location_valid_count": 0,
+      "fully_supported_count": 0,
+      "qualified_count": 0,
+      "unsupported_count": 0,
+      "support_rate": null,
+      "claims": []
+    },
+    "remaining_limitations": [
+      "원본 FAILED/final_status null 유지. raw 초안이 존재해도 프로토콜11.1 미제출필수 F/K/J는0이며 최종 내용 오류/잘못된 완료/불필요보류는 미관찰 null."
+    ]
+  }
+}

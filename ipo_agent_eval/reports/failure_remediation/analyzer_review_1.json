@@ -1,0 +1,23 @@
+{
+  "review": "Saved-run report analyzer review 1",
+  "status": "PASS",
+  "tests": "4 analyzer tests + 1 independent schema-alias regression passed (5 passed, 11 deselected in 2.54s)",
+  "checks": [
+    "Only report output paths are written; frozen application/runs/gold not modified.",
+    "Explicit NOT_STARTED, live RUNNING and not-yet-observed entries remain distinct.",
+    "Active discovery requires planned identity, LIVE event, time window and matching frozen input hashes; ambiguity is explicit.",
+    "Real model function choices are separate from actor-tagged gateway calls and program-fixed steps.",
+    "Registration/calculations can be recovered from successful events before final artifacts exist.",
+    "Missing/in-flight/unpriced usage prevents a final total; raw usage and pricing components retained.",
+    "v032 matched rows and frozen configuration differences are shown without causal or quality claims.",
+    "Saved API request schema alias contamination is explicitly attributed to executor-generated constraints, while original failure status and logs remain unchanged."
+  ],
+  "completed_actual_runs_cost_crosschecked": [
+    "20261113T110630Z_B_5147fc4b",
+    "20261113T110630Z_A0_30c1b28b",
+    "20261113T110740Z_B_31fd7dc2"
+  ],
+  "script_sha256": "e0901cd02aea26c58d42f8ceda76291b652e0c25a38eba8f175197788164b59d",
+  "live_effect_claimed": false,
+  "grading_performed": false
+}

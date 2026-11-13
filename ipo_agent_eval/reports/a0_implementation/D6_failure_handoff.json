@@ -1,0 +1,3096 @@
+{
+  "stage": "D6",
+  "batch": "D5_v032",
+  "A1_implemented": false,
+  "failure_records": [
+    {
+      "failure_id": "D6-001",
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102248Z_B_73727ba7",
+      "classification": "OUTPUT_LIMIT_OBSERVED",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "kind": "TRUNCATED_MODEL_RESPONSE",
+            "file": "runs/20261113T102248Z_B_73727ba7/01_extract_response.json",
+            "status": "incomplete",
+            "incomplete_details": {
+              "reason": "max_output_tokens"
+            },
+            "usage": {
+              "input_tokens": 45585,
+              "input_tokens_details": {
+                "cached_tokens": 45582,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 5000,
+              "output_tokens_details": {
+                "reasoning_tokens": 628
+              },
+              "total_tokens": 50585
+            },
+            "partial_text_characters": 13313,
+            "partial_text_tail": "ct_id\": \"F-SECONDARY\",\n        \"kind\": \"SECONDARY_SALE\",\n        \"denominator_treatment\": \"EXCLUDE\",\n        \"treatment_reason\": \"구주매출은 기존 주식의 매각이며 공모 후 발행주식수 산식에 증가분으로 더하지 않는다.\",\n        \"treatment_evidence\": [\n          {\n            \"doc_id\": \"HDMS-PROS-01\",\n            \"chunk_id\": \"HDMS-PROS-01-p0332\",\n            \"page\": 332,\n            \"claim_id\": \"CL",
+            "interpretation": "응답이 출력 상한에서 절단되어 계약 등록·최종 검토까지 도달하지 못했다. 부분 텍스트는 실패 진단 근거로만 보존한다."
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "pages": [
+        40,
+        41,
+        42,
+        227,
+        228,
+        229,
+        232,
+        233,
+        234,
+        235,
+        297,
+        298,
+        299,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        329,
+        330,
+        331,
+        332,
+        333,
+        363,
+        364,
+        365,
+        423,
+        424,
+        425,
+        426,
+        527,
+        528,
+        529
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T102248Z_B_73727ba7/events.jsonl",
+        "runs/20261113T102248Z_B_73727ba7/summary.json",
+        "runs/20261113T102248Z_B_73727ba7/snapshots.json",
+        "runs/20261113T102248Z_B_73727ba7/calculations.json",
+        "runs/20261113T102248Z_B_73727ba7/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102248Z_B_73727ba7",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0.0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0.0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-002",
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102350Z_A0_9b919d3e",
+      "classification": "PLATFORM_FAILURE",
+      "failure_type": "API_ERROR:InternalServerError",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [],
+        "interpretation": "서버/API 오류로 종료했다. 오류 요청의 불명 사용량은0으로 합산하지 않는다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 7,
+        "read_source": 1,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        40,
+        41,
+        42,
+        297,
+        298,
+        299
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_QjZXkX5jAwR5HJd5X3D6w7Jx",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T102350Z_A0_9b919d3e/events.jsonl",
+        "runs/20261113T102350Z_A0_9b919d3e/summary.json",
+        "runs/20261113T102350Z_A0_9b919d3e/snapshots.json",
+        "runs/20261113T102350Z_A0_9b919d3e/calculations.json",
+        "runs/20261113T102350Z_A0_9b919d3e/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102350Z_A0_9b919d3e",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0.0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0.0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-003",
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102350Z_A0_9b919d3e",
+      "classification": "A0_OBSERVED",
+      "failure_type": "NO_REGISTERED_CALCULATION_BEFORE_FINALIZATION",
+      "observation": {
+        "detail": "검색·열람 이후에도 수치 등록과 계산 없이 초기 snapshot으로 최종화했다.",
+        "finalizing_reasons": [
+          "INPUT_RESERVATION"
+        ],
+        "calculate_calls": 0
+      },
+      "score_impact": {
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0.0
+        },
+        "methodology": {
+          "full_credit_domains": 0,
+          "domains": 4,
+          "rate": 0.0
+        },
+        "interpretation": "계산 호출의 거부를 뜻하지 않는다. 실제 수행하지 않은 계산을 완료로 채점하지 않는다."
+      },
+      "tool_counts": {
+        "search_corpus": 7,
+        "read_source": 1,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        40,
+        41,
+        42,
+        297,
+        298,
+        299
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_QjZXkX5jAwR5HJd5X3D6w7Jx",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T102350Z_A0_9b919d3e/events.jsonl",
+        "runs/20261113T102350Z_A0_9b919d3e/summary.json",
+        "runs/20261113T102350Z_A0_9b919d3e/snapshots.json",
+        "runs/20261113T102350Z_A0_9b919d3e/calculations.json",
+        "runs/20261113T102350Z_A0_9b919d3e/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102350Z_A0_9b919d3e",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0.0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0.0
+          }
+        }
+      },
+      "A1_candidate_group": "registration",
+      "A1_candidate_ids": [
+        "A1-C1"
+      ],
+      "expected_recheck": [
+        "PREPARE 전 실제 읽은 핵심 원입력을 작은 묶음으로 등록하고 EVALUATE/민감도로 이어갈지 모델이 다시 계획하게 한다. 추가 검색 일부를 대체한다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-004",
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102350Z_A0_9b919d3e",
+      "classification": "A0_OBSERVED",
+      "failure_type": "UNRESOLVED_DECLARATION_MISMATCH",
+      "observation": "최종 missing_inputs가 snapshot에 선언한 UNRESOLVED 업무 의존성 집합과 달라 기계 검증에서 거절됐다.",
+      "score_impact": "계약 위반의 관찰이며 자연어 판단의 정답 여부를 자동 판정한 것이 아니다. 실패 실행의 필수 미제출은 0점.",
+      "tool_counts": {
+        "search_corpus": 7,
+        "read_source": 1,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        40,
+        41,
+        42,
+        297,
+        298,
+        299
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_QjZXkX5jAwR5HJd5X3D6w7Jx",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T102350Z_A0_9b919d3e/events.jsonl",
+        "runs/20261113T102350Z_A0_9b919d3e/summary.json",
+        "runs/20261113T102350Z_A0_9b919d3e/snapshots.json",
+        "runs/20261113T102350Z_A0_9b919d3e/calculations.json",
+        "runs/20261113T102350Z_A0_9b919d3e/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102350Z_A0_9b919d3e",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0.0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0.0
+          }
+        }
+      },
+      "A1_candidate_group": "declaration",
+      "A1_candidate_ids": [
+        "A1-C2"
+      ],
+      "expected_recheck": [
+        "탐색 단계에서 필요한 의존성 선언을 확인하고 최종화 입력에 현재 snapshot의 선언 집합을 명시하는 방안을 설계한다. COMMIT 후 탐색을 재개하거나 사실을 자동 수정하지 않는다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-005",
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102638Z_B_667bfd52",
+      "classification": "OUTPUT_LIMIT_OBSERVED",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "kind": "TRUNCATED_MODEL_RESPONSE",
+            "file": "runs/20261113T102638Z_B_667bfd52/01_extract_response.json",
+            "status": "incomplete",
+            "incomplete_details": {
+              "reason": "max_output_tokens"
+            },
+            "usage": {
+              "input_tokens": 56318,
+              "input_tokens_details": {
+                "cached_tokens": 56315,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 5000,
+              "output_tokens_details": {
+                "reasoning_tokens": 817
+              },
+              "total_tokens": 61318
+            },
+            "partial_text_characters": 12733,
+            "partial_text_tail": ",\n        \"value\": \"12600000\",\n        \"context_id\": \"ctx_listing_shares\",\n        \"origin\": \"DISCLOSED\",\n        \"evidence\": [\n          {\n            \"doc_id\": \"MELCON-PROS-01\",\n            \"chunk_id\": \"MELCON-PROS-01-p0126\",\n            \"page\": 126,\n            \"claim_id\": \"c_listing\",\n            \"locator\": \"상장 이후 유통물량 출회 위험, 상장예정주식수\"\n          }\n       ",
+            "interpretation": "응답이 출력 상한에서 절단되어 계약 등록·최종 검토까지 도달하지 못했다. 부분 텍스트는 실패 진단 근거로만 보존한다."
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "pages": [
+        3,
+        4,
+        5,
+        66,
+        67,
+        68,
+        70,
+        71,
+        72,
+        76,
+        77,
+        78,
+        126,
+        127,
+        128,
+        266,
+        267,
+        268,
+        329,
+        330,
+        331,
+        356,
+        357,
+        358,
+        363,
+        364,
+        365,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        388,
+        389,
+        390,
+        490,
+        491,
+        492,
+        555,
+        556,
+        557
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T102638Z_B_667bfd52/events.jsonl",
+        "runs/20261113T102638Z_B_667bfd52/summary.json",
+        "runs/20261113T102638Z_B_667bfd52/snapshots.json",
+        "runs/20261113T102638Z_B_667bfd52/calculations.json",
+        "runs/20261113T102638Z_B_667bfd52/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102638Z_B_667bfd52",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0.0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0.0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-006",
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102737Z_A0_775cc567",
+      "classification": "A0_OBSERVED",
+      "failure_type": "NO_REGISTERED_CALCULATION_BEFORE_FINALIZATION",
+      "observation": {
+        "detail": "검색·열람 이후에도 수치 등록과 계산 없이 초기 snapshot으로 최종화했다.",
+        "finalizing_reasons": [
+          "INPUT_RESERVATION"
+        ],
+        "calculate_calls": 0
+      },
+      "score_impact": {
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0.0
+        },
+        "methodology": {
+          "full_credit_domains": 2,
+          "domains": 4,
+          "rate": 0.5
+        },
+        "interpretation": "계산 호출의 거부를 뜻하지 않는다. 실제 수행하지 않은 계산을 완료로 채점하지 않는다."
+      },
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        71,
+        72,
+        73,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+        "runs/20261113T102737Z_A0_775cc567/summary.json",
+        "runs/20261113T102737Z_A0_775cc567/snapshots.json",
+        "runs/20261113T102737Z_A0_775cc567/calculations.json",
+        "runs/20261113T102737Z_A0_775cc567/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102737Z_A0_775cc567",
+        "metrics": {
+          "facts": {
+            "correct": 4,
+            "scorable": 5,
+            "rate": 0.8
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 2,
+            "domains": 4,
+            "rate": 0.5
+          }
+        }
+      },
+      "A1_candidate_group": "registration",
+      "A1_candidate_ids": [
+        "A1-C1"
+      ],
+      "expected_recheck": [
+        "PREPARE 전 실제 읽은 핵심 원입력을 작은 묶음으로 등록하고 EVALUATE/민감도로 이어갈지 모델이 다시 계획하게 한다. 추가 검색 일부를 대체한다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-007",
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102737Z_A0_775cc567",
+      "classification": "A0_OBSERVED",
+      "failure_type": "AVAILABLE_WORK_DEFERRED",
+      "observation": {
+        "detail": "채점에서 코퍼스 안의 가능한 작업을 남겨 blocking 요청으로 넘긴 항목이 관찰됐다.",
+        "request_assessments": [
+          {
+            "id": "R1",
+            "unnecessary_blocking_deferral": true,
+            "reason": "읽은 p370~372의 입력을 등록하고 계산하는 도구 작업을 후속 요청으로 넘겼다. 외부 추가정보가 있어야 가능한 작업은 아니다. INPUT_RESERVATION에 따른 탐색 종료가 관찰됐고 실제 등록·계산 도구 거부는 관찰되지 않았다.",
+            "evidence": [
+              "runs/20261113T102737Z_A0_775cc567/review.json#/requests/0",
+              "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+              "runs/20261113T102737Z_A0_775cc567/source_packet.json"
+            ],
+            "review_pointer": "runs/20261113T102737Z_A0_775cc567/review.json#/requests/0"
+          },
+          {
+            "id": "R2",
+            "unnecessary_blocking_deferral": false,
+            "reason": "비경상손익·세효과의 추가 확인 목적은 타당하지만 회사·기간·원공시/세금 항목이 덜 구체적이다. nonblocking 요청이다.",
+            "evidence": [],
+            "review_pointer": "runs/20261113T102737Z_A0_775cc567/review.json#/requests/1"
+          },
+          {
+            "id": "E1",
+            "unnecessary_blocking_deferral": false,
+            "reason": "HPSP의 제품 역할·수익성 차이와 높은 PER의 동등 가중이라는 남은 판단을 특정한 타당한 이관이다. 최종 HUMAN_REVIEW 전체를 불필요 보류로 판정하지 않는다.",
+            "evidence": [],
+            "review_pointer": "runs/20261113T102737Z_A0_775cc567/review.json#/escalations/0"
+          }
+        ],
+        "content_observations": [
+          {
+            "id": "MELCON_A0_EARNINGS_LABEL",
+            "severity": "MINOR_LABEL_AMBIGUITY",
+            "material_error": false,
+            "file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "json_pointer": "/judgments/0/facts/2/text",
+            "answer_quote": "미조정 LTM 적용이익 5,988백만원",
+            "source_doc_id": "MELCON-PROS-01",
+            "physical_pages": [
+              371
+            ],
+            "source_correction": "5,988은 LTM 당기순이익 7,258에서 주식 처분이익 1,270을 차감한 값이며 대손 1,590을 가산하기 전이다. 대손 미조정이라고 한정해야 한다.",
+            "judgment_impact": "본문 전체는 반기 주식손익 차감·기간차·대손 가산을 구분한다. 핵심 비교 결론을 바꾸는 오류로 분류하지 않았으며 J1 2점은 유지한다."
+          }
+        ],
+        "grading_reference_file": "reports/a0_implementation/D5_original_case_grading.json",
+        "scope": "개별 요청 판정을 전체 HUMAN_REVIEW의 부당성으로 확대하지 않는다."
+      },
+      "score_impact": {
+        "facts": {
+          "correct": 4,
+          "scorable": 5,
+          "rate": 0.8
+        },
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0.0
+        },
+        "methodology": {
+          "full_credit_domains": 2,
+          "domains": 4,
+          "rate": 0.5
+        }
+      },
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        71,
+        72,
+        73,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+        "runs/20261113T102737Z_A0_775cc567/summary.json",
+        "runs/20261113T102737Z_A0_775cc567/snapshots.json",
+        "runs/20261113T102737Z_A0_775cc567/calculations.json",
+        "runs/20261113T102737Z_A0_775cc567/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102737Z_A0_775cc567",
+        "metrics": {
+          "facts": {
+            "correct": 4,
+            "scorable": 5,
+            "rate": 0.8
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 2,
+            "domains": 4,
+            "rate": 0.5
+          }
+        }
+      },
+      "A1_candidate_group": "available_work",
+      "A1_candidate_ids": [
+        "A1-C3"
+      ],
+      "expected_recheck": [
+        "EXPLORING에서 남은 내부 작업을 현재 예약 예산으로 수행할 수 있는지 재계획한다. 외부 독립 자료 요청·사람 판단과 분리하고 예산이 막으면 BUDGET_LIMIT을 명시한다. FINALIZING/COMMIT에 진입한 뒤에는 조회·계산을 재개하지 않는다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-008",
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102840Z_B_bef29a8c",
+      "classification": "OUTPUT_LIMIT_OBSERVED",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "kind": "TRUNCATED_MODEL_RESPONSE",
+            "file": "runs/20261113T102840Z_B_bef29a8c/01_extract_response.json",
+            "status": "incomplete",
+            "incomplete_details": {
+              "reason": "max_output_tokens"
+            },
+            "usage": {
+              "input_tokens": 37756,
+              "input_tokens_details": {
+                "cached_tokens": 2761,
+                "cache_write_tokens": 34992
+              },
+              "output_tokens": 5000,
+              "output_tokens_details": {
+                "reasoning_tokens": 270
+              },
+              "total_tokens": 42756
+            },
+            "partial_text_characters": 14979,
+            "partial_text_tail": "    \"payload\": {\n        \"fact_id\": \"option\",\n        \"kind\": \"OPTION\",\n        \"denominator_treatment\": \"EXCLUDE\",\n        \"treatment_reason\": \"공시는 2028년 9월 행사기간임을 이유로 적용주식수에서 제외.\",\n        \"treatment_evidence\": [\n          {\n            \"doc_id\": \"DTS-PROS-01\",\n            \"chunk_id\": \"DTS-PROS-01-p0471\",\n            \"page\": 471,\n            \"claim_id\": \"c",
+            "interpretation": "응답이 출력 상한에서 절단되어 계약 등록·최종 검토까지 도달하지 못했다. 부분 텍스트는 실패 진단 근거로만 보존한다."
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "pages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        107,
+        108,
+        109,
+        110,
+        111,
+        453,
+        454,
+        455,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        493,
+        494,
+        495
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T102840Z_B_bef29a8c/events.jsonl",
+        "runs/20261113T102840Z_B_bef29a8c/summary.json",
+        "runs/20261113T102840Z_B_bef29a8c/snapshots.json",
+        "runs/20261113T102840Z_B_bef29a8c/calculations.json",
+        "runs/20261113T102840Z_B_bef29a8c/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102840Z_B_bef29a8c",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0.0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0.0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-009",
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102939Z_A0_9536c596",
+      "classification": "A0_OBSERVED",
+      "failure_type": "NO_REGISTERED_CALCULATION_BEFORE_FINALIZATION",
+      "observation": {
+        "detail": "검색·열람 이후에도 수치 등록과 계산 없이 초기 snapshot으로 최종화했다.",
+        "finalizing_reasons": [
+          "INPUT_RESERVATION"
+        ],
+        "calculate_calls": 0
+      },
+      "score_impact": {
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0.0
+        },
+        "methodology": {
+          "full_credit_domains": 1,
+          "domains": 4,
+          "rate": 0.25
+        },
+        "interpretation": "계산 호출의 거부를 뜻하지 않는다. 실제 수행하지 않은 계산을 완료로 채점하지 않는다."
+      },
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+        "runs/20261113T102939Z_A0_9536c596/summary.json",
+        "runs/20261113T102939Z_A0_9536c596/snapshots.json",
+        "runs/20261113T102939Z_A0_9536c596/calculations.json",
+        "runs/20261113T102939Z_A0_9536c596/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102939Z_A0_9536c596",
+        "metrics": {
+          "facts": {
+            "correct": 3,
+            "scorable": 5,
+            "rate": 0.6
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 1,
+            "domains": 4,
+            "rate": 0.25
+          }
+        }
+      },
+      "A1_candidate_group": "registration",
+      "A1_candidate_ids": [
+        "A1-C1"
+      ],
+      "expected_recheck": [
+        "PREPARE 전 실제 읽은 핵심 원입력을 작은 묶음으로 등록하고 EVALUATE/민감도로 이어갈지 모델이 다시 계획하게 한다. 추가 검색 일부를 대체한다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-010",
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102939Z_A0_9536c596",
+      "classification": "A0_OBSERVED",
+      "failure_type": "AVAILABLE_WORK_DEFERRED",
+      "observation": {
+        "detail": "채점에서 코퍼스 안의 가능한 작업을 남겨 blocking 요청으로 넘긴 항목이 관찰됐다.",
+        "request_assessments": [
+          {
+            "id": "R1",
+            "unnecessary_blocking_deferral": true,
+            "reason": "원문 위치 조회 대상은 이미 허용 코퍼스 안에 있다. 별도 범위는 p549, 반기·온기 이익은 p594/597, 공모구조는 p8/110 등에서 가능한 후속 열람이다. 외부 정보 부재와 구분해야 한다.",
+            "source_pages": [
+              8,
+              110,
+              549,
+              594,
+              597
+            ],
+            "evidence": [],
+            "review_pointer": "runs/20261113T102939Z_A0_9536c596/review.json#/requests/0"
+          },
+          {
+            "id": "R2",
+            "unnecessary_blocking_deferral": true,
+            "reason": "이미 열람한 p469/471의 입력을 등록해 기준 산식·민감도를 실행할 수 있다. INPUT_RESERVATION 탐색 종료 이전 등록·계산 호출은 0회이며 실제 계산 도구 거부로 기록하지 않는다.",
+            "source_pages": [
+              469,
+              471
+            ],
+            "evidence": [],
+            "review_pointer": "runs/20261113T102939Z_A0_9536c596/review.json#/requests/1"
+          },
+          {
+            "id": "E1",
+            "unnecessary_blocking_deferral": false,
+            "reason": "반기 연환산과 LTM의 비교 적합성·비경상성·계절성은 근거를 붙인 남은 방법론 판단이므로 이관 자체는 정당하다.",
+            "evidence": [],
+            "review_pointer": "runs/20261113T102939Z_A0_9536c596/review.json#/escalations/0"
+          }
+        ],
+        "content_observations": [],
+        "grading_reference_file": "reports/a0_implementation/D5_original_case_grading.json",
+        "scope": "개별 요청 판정을 전체 HUMAN_REVIEW의 부당성으로 확대하지 않는다."
+      },
+      "score_impact": {
+        "facts": {
+          "correct": 3,
+          "scorable": 5,
+          "rate": 0.6
+        },
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0.0
+        },
+        "methodology": {
+          "full_credit_domains": 1,
+          "domains": 4,
+          "rate": 0.25
+        }
+      },
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+        "runs/20261113T102939Z_A0_9536c596/summary.json",
+        "runs/20261113T102939Z_A0_9536c596/snapshots.json",
+        "runs/20261113T102939Z_A0_9536c596/calculations.json",
+        "runs/20261113T102939Z_A0_9536c596/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T102939Z_A0_9536c596",
+        "metrics": {
+          "facts": {
+            "correct": 3,
+            "scorable": 5,
+            "rate": 0.6
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0.0
+          },
+          "methodology": {
+            "full_credit_domains": 1,
+            "domains": 4,
+            "rate": 0.25
+          }
+        }
+      },
+      "A1_candidate_group": "available_work",
+      "A1_candidate_ids": [
+        "A1-C3"
+      ],
+      "expected_recheck": [
+        "EXPLORING에서 남은 내부 작업을 현재 예약 예산으로 수행할 수 있는지 재계획한다. 외부 독립 자료 요청·사람 판단과 분리하고 예산이 막으면 BUDGET_LIMIT을 명시한다. FINALIZING/COMMIT에 진입한 뒤에는 조회·계산을 재개하지 않는다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-011",
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103045Z_B_25ff9e77",
+      "classification": "OUTPUT_LIMIT_OBSERVED",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+            "stage": "EXTRACTION",
+            "mandatory_zero_basis": "protocol11.1",
+            "evidence": [
+              {
+                "file": "runs/20261113T103045Z_B_25ff9e77/summary.json",
+                "pointer": "/failure_reason"
+              },
+              {
+                "file": "runs/20261113T103045Z_B_25ff9e77/extraction.json",
+                "pointer": "/input_snapshot_id"
+              },
+              {
+                "file": "runs/20261113T103045Z_B_25ff9e77/calculations.json",
+                "pointer": ""
+              },
+              {
+                "file": "runs/20261113T103045Z_B_25ff9e77/01_extract_response.json",
+                "pointer": "/status"
+              }
+            ]
+          },
+          {
+            "observation": "01_extract_response에는 issuer_earnings14669.632980백만원, issuer_per21.8, reported_shares9046771 등과 공시분모/확정분모 구분을 시도한 부분 JSON이 있다. 5000출력토큰에서 peer 수치 레코드 도중 끊겼으며 등록된 extraction은 X_EMPTY, calculations는빈배열이다. 부분 내용을 제출 답변으로 승격하거나 F/K/J 정답으로 채점하지 않았다.",
+            "partial_record_ids": [
+              "issuer_earnings",
+              "issuer_per",
+              "issuer_reported_shares",
+              "mandatory_old",
+              "mandatory_final",
+              "sh_earnings"
+            ],
+            "evidence": [
+              {
+                "file": "runs/20261113T103045Z_B_25ff9e77/01_extract_response.json",
+                "pointer": "/output/1/content/0/text"
+              },
+              {
+                "file": "runs/20261113T103045Z_B_25ff9e77/01_extract_response.json",
+                "pointer": "/usage/output_tokens"
+              }
+            ]
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "pages": [
+        13,
+        14,
+        15,
+        33,
+        34,
+        35,
+        132,
+        133,
+        134,
+        185,
+        186,
+        187,
+        188,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        254,
+        255,
+        256,
+        303,
+        304,
+        305,
+        342,
+        343,
+        344
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T103045Z_B_25ff9e77/events.jsonl",
+        "runs/20261113T103045Z_B_25ff9e77/summary.json",
+        "runs/20261113T103045Z_B_25ff9e77/snapshots.json",
+        "runs/20261113T103045Z_B_25ff9e77/calculations.json",
+        "runs/20261113T103045Z_B_25ff9e77/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103045Z_B_25ff9e77",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-012",
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103143Z_A0_9bdd2148",
+      "classification": "EXECUTION_FAILURE",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+            "last_model_stage": "09_format_repair_response.json",
+            "mandatory_zero_basis": "protocol11.1",
+            "evidence": [
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/summary.json",
+                "pointer": "/failure_reason"
+              },
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/extraction.json",
+                "pointer": "/input_snapshot_id"
+              },
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/calculations.json",
+                "pointer": ""
+              },
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/09_format_repair_response.json",
+                "pointer": "/status"
+              }
+            ]
+          },
+          {
+            "observation": {
+              "elapsed_seconds": 20.126,
+              "event": "state_transition",
+              "phase": "FINALIZING",
+              "from": "EXPLORING",
+              "to": "FINALIZING",
+              "reason": "INPUT_RESERVATION",
+              "actor": "program_commit"
+            },
+            "evidence": [
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+                "line": 40
+              }
+            ]
+          },
+          {
+            "observation": {
+              "elapsed_seconds": 71.034,
+              "event": "tool_call",
+              "phase": "FINALIZING",
+              "tool": "submit_review",
+              "actor": "model",
+              "call_id": "call_4FlYeTBWHXMJDm2PDLMsedeQ",
+              "error_type": "GatewayError",
+              "error": "missing_inputs must name each declared UNRESOLVED business dependency exactly once",
+              "tool_calls": 10
+            },
+            "evidence": [
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+                "line": 46
+              }
+            ]
+          },
+          {
+            "observation": "7회 탐색 후 INPUT_RESERVATION으로 최종화했다. 등록 스냅샷 X_EMPTY/계산결과0 상태로08_finalize가 COMMIT을 시도했으나 missing_inputs와 등록된 UNRESOLVED 의존성의 대응 검사에서 거부됐다.09_format_repair가2500토큰에서 끊겨 최종 미제출로 종료했다.",
+            "interpretation": "검색을 반복한 뒤 등록·계산 전에 입력 예약이 소진되고, 최종 요청 연결 형식 및 수선 출력 예산이 연쇄적으로 실패했다. 유효 답변의 불필요한 보류 점수로 분류하지 않는다.",
+            "call_id": "call_4FlYeTBWHXMJDm2PDLMsedeQ",
+            "evidence": [
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+                "line": 40
+              },
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+                "line": 46
+              },
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/09_format_repair_response.json",
+                "pointer": "/incomplete_details"
+              },
+              {
+                "file": "runs/20261113T103143Z_A0_9bdd2148/extraction.json",
+                "pointer": "/input_snapshot_id"
+              }
+            ]
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        235,
+        236,
+        237,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_4FlYeTBWHXMJDm2PDLMsedeQ",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+        "runs/20261113T103143Z_A0_9bdd2148/summary.json",
+        "runs/20261113T103143Z_A0_9bdd2148/snapshots.json",
+        "runs/20261113T103143Z_A0_9bdd2148/calculations.json",
+        "runs/20261113T103143Z_A0_9bdd2148/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103143Z_A0_9bdd2148",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-013",
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103143Z_A0_9bdd2148",
+      "classification": "COMMON_REPAIR_LIMIT",
+      "failure_type": "FORMAT_REPAIR_OUTPUT_LIMIT",
+      "observation": "공통 형식 수정 1회가 2500 출력토큰 상한에서 절단됐다. 긴 최종 JSON의 재작성 가능성과 예약 상한을 구별해야 한다.",
+      "score_impact": "최종 미제출 필수항목0. 추가 무상/숨은 재시도를 하지 않았다.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        235,
+        236,
+        237,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_4FlYeTBWHXMJDm2PDLMsedeQ",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+        "runs/20261113T103143Z_A0_9bdd2148/summary.json",
+        "runs/20261113T103143Z_A0_9bdd2148/snapshots.json",
+        "runs/20261113T103143Z_A0_9bdd2148/calculations.json",
+        "runs/20261113T103143Z_A0_9bdd2148/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103143Z_A0_9bdd2148",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-014",
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103143Z_A0_9bdd2148",
+      "classification": "A0_OBSERVED",
+      "failure_type": "NO_REGISTERED_CALCULATION_BEFORE_FINALIZATION",
+      "observation": {
+        "detail": "검색·열람 이후에도 수치 등록과 계산 없이 초기 snapshot으로 최종화했다.",
+        "finalizing_reasons": [
+          "INPUT_RESERVATION"
+        ],
+        "calculate_calls": 0
+      },
+      "score_impact": {
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0
+        },
+        "methodology": {
+          "full_credit_domains": 0,
+          "domains": 4,
+          "rate": 0
+        },
+        "interpretation": "계산 호출의 거부를 뜻하지 않는다. 실제 수행하지 않은 계산을 완료로 채점하지 않는다."
+      },
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        235,
+        236,
+        237,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_4FlYeTBWHXMJDm2PDLMsedeQ",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+        "runs/20261113T103143Z_A0_9bdd2148/summary.json",
+        "runs/20261113T103143Z_A0_9bdd2148/snapshots.json",
+        "runs/20261113T103143Z_A0_9bdd2148/calculations.json",
+        "runs/20261113T103143Z_A0_9bdd2148/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103143Z_A0_9bdd2148",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": "registration",
+      "A1_candidate_ids": [
+        "A1-C1"
+      ],
+      "expected_recheck": [
+        "PREPARE 전 실제 읽은 핵심 원입력을 작은 묶음으로 등록하고 EVALUATE/민감도로 이어갈지 모델이 다시 계획하게 한다. 추가 검색 일부를 대체한다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-015",
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103143Z_A0_9bdd2148",
+      "classification": "A0_OBSERVED",
+      "failure_type": "UNRESOLVED_DECLARATION_MISMATCH",
+      "observation": "최종 missing_inputs가 snapshot에 선언한 UNRESOLVED 업무 의존성 집합과 달라 기계 검증에서 거절됐다.",
+      "score_impact": "계약 위반의 관찰이며 자연어 판단의 정답 여부를 자동 판정한 것이 아니다. 실패 실행의 필수 미제출은 0점.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        235,
+        236,
+        237,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_4FlYeTBWHXMJDm2PDLMsedeQ",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103143Z_A0_9bdd2148/events.jsonl",
+        "runs/20261113T103143Z_A0_9bdd2148/summary.json",
+        "runs/20261113T103143Z_A0_9bdd2148/snapshots.json",
+        "runs/20261113T103143Z_A0_9bdd2148/calculations.json",
+        "runs/20261113T103143Z_A0_9bdd2148/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103143Z_A0_9bdd2148",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": "declaration",
+      "A1_candidate_ids": [
+        "A1-C2"
+      ],
+      "expected_recheck": [
+        "탐색 단계에서 필요한 의존성 선언을 확인하고 최종화 입력에 현재 snapshot의 선언 집합을 명시하는 방안을 설계한다. COMMIT 후 탐색을 재개하거나 사실을 자동 수정하지 않는다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-016",
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103324Z_B_332eb41f",
+      "classification": "OUTPUT_LIMIT_OBSERVED",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+            "last_model_stage": "01_extract_response.json",
+            "mandatory_zero_basis": "protocol11.1",
+            "evidence": [
+              {
+                "file": "runs/20261113T103324Z_B_332eb41f/summary.json",
+                "pointer": "/failure_reason"
+              },
+              {
+                "file": "runs/20261113T103324Z_B_332eb41f/extraction.json",
+                "pointer": "/input_snapshot_id"
+              },
+              {
+                "file": "runs/20261113T103324Z_B_332eb41f/calculations.json",
+                "pointer": ""
+              },
+              {
+                "file": "runs/20261113T103324Z_B_332eb41f/01_extract_response.json",
+                "pointer": "/status"
+              }
+            ]
+          },
+          {
+            "observation": "추출 부분 JSON은 2022세전/2023Q1귀속이익 혼합 맥락과 issuer_earnings13508.336854백만원을 쓰기 시작했으나 닫히지 않았다. 출력텍스트26339자 중 trailing whitespace22372자 반복이 관찰된다. 5000토큰에서 incomplete, 등록X_EMPTY, 계산없음.",
+            "interpretation": "긴 추출구조의 용량 문제 외에 공백 반복 현상이 관찰됨. 원인을 출력한도 하나로 단정하지 않고 원본을 보존.",
+            "partial_record_ids": [
+              "ctx_issuer_earnings",
+              "issuer_earnings"
+            ],
+            "partial_text_characters": 26339,
+            "trailing_whitespace_characters": 22372,
+            "evidence": [
+              {
+                "file": "runs/20261113T103324Z_B_332eb41f/01_extract_response.json",
+                "pointer": "/output/1/content/0/text"
+              },
+              {
+                "file": "runs/20261113T103324Z_B_332eb41f/01_extract_response.json",
+                "pointer": "/incomplete_details"
+              }
+            ]
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "pages": [
+        33,
+        34,
+        35,
+        104,
+        105,
+        106,
+        110,
+        111,
+        112,
+        132,
+        133,
+        134,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        319,
+        320,
+        321,
+        322,
+        382,
+        383,
+        384
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T103324Z_B_332eb41f/events.jsonl",
+        "runs/20261113T103324Z_B_332eb41f/summary.json",
+        "runs/20261113T103324Z_B_332eb41f/snapshots.json",
+        "runs/20261113T103324Z_B_332eb41f/calculations.json",
+        "runs/20261113T103324Z_B_332eb41f/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103324Z_B_332eb41f",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-017",
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "classification": "EXECUTION_FAILURE",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+            "last_model_stage": "09_format_repair_response.json",
+            "mandatory_zero_basis": "protocol11.1",
+            "evidence": [
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/summary.json",
+                "pointer": "/failure_reason"
+              },
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/extraction.json",
+                "pointer": "/input_snapshot_id"
+              },
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/calculations.json",
+                "pointer": ""
+              },
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/09_format_repair_response.json",
+                "pointer": "/status"
+              }
+            ]
+          },
+          {
+            "observation": {
+              "elapsed_seconds": 20.536,
+              "event": "state_transition",
+              "phase": "FINALIZING",
+              "from": "EXPLORING",
+              "to": "FINALIZING",
+              "reason": "INPUT_RESERVATION",
+              "actor": "program_commit"
+            },
+            "evidence": [
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+                "line": 40
+              }
+            ]
+          },
+          {
+            "observation": {
+              "elapsed_seconds": 69.532,
+              "event": "tool_call",
+              "phase": "FINALIZING",
+              "tool": "submit_review",
+              "actor": "model",
+              "call_id": "call_xLJvkriJB5pYHvvrRZIgf6Tc",
+              "error_type": "GatewayError",
+              "error": "missing_inputs must name each declared UNRESOLVED business dependency exactly once",
+              "tool_calls": 10
+            },
+            "evidence": [
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+                "line": 46
+              }
+            ]
+          },
+          {
+            "observation": "7회 탐색 후 INPUT_RESERVATION으로 최종화했다. X_EMPTY/계산0 상태로08_finalize가COMMIT을 시도했으나 missing_inputs와 등록UNRESOLVED 의존성 대응 검사에서 거부됐다.09_format_repair2500토큰에서 끊겼다. 신성A0와같은연쇄가두기업에서재현됨.",
+            "interpretation": "거부된 초안의 J1은 세전/세후 혼합 문제를 서술하나 유효제출이 아니므로 품질점수로 승격하지 않는다. 실패율/미제출항목0과 유효검토의 내용오류를 구분한다.",
+            "call_id": "call_xLJvkriJB5pYHvvrRZIgf6Tc",
+            "evidence": [
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+                "line": 40
+              },
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+                "line": 46
+              },
+              {
+                "file": "runs/20261113T103423Z_A0_cc00c4a1/09_format_repair_response.json",
+                "pointer": "/incomplete_details"
+              }
+            ]
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        255,
+        256,
+        257
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_xLJvkriJB5pYHvvrRZIgf6Tc",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+        "runs/20261113T103423Z_A0_cc00c4a1/summary.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/snapshots.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/calculations.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103423Z_A0_cc00c4a1",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-018",
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "classification": "COMMON_REPAIR_LIMIT",
+      "failure_type": "FORMAT_REPAIR_OUTPUT_LIMIT",
+      "observation": "공통 형식 수정 1회가 2500 출력토큰 상한에서 절단됐다. 긴 최종 JSON의 재작성 가능성과 예약 상한을 구별해야 한다.",
+      "score_impact": "최종 미제출 필수항목0. 추가 무상/숨은 재시도를 하지 않았다.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        255,
+        256,
+        257
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_xLJvkriJB5pYHvvrRZIgf6Tc",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+        "runs/20261113T103423Z_A0_cc00c4a1/summary.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/snapshots.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/calculations.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103423Z_A0_cc00c4a1",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-019",
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "classification": "A0_OBSERVED",
+      "failure_type": "NO_REGISTERED_CALCULATION_BEFORE_FINALIZATION",
+      "observation": {
+        "detail": "검색·열람 이후에도 수치 등록과 계산 없이 초기 snapshot으로 최종화했다.",
+        "finalizing_reasons": [
+          "INPUT_RESERVATION"
+        ],
+        "calculate_calls": 0
+      },
+      "score_impact": {
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0
+        },
+        "methodology": {
+          "full_credit_domains": 0,
+          "domains": 4,
+          "rate": 0
+        },
+        "interpretation": "계산 호출의 거부를 뜻하지 않는다. 실제 수행하지 않은 계산을 완료로 채점하지 않는다."
+      },
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        255,
+        256,
+        257
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_xLJvkriJB5pYHvvrRZIgf6Tc",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+        "runs/20261113T103423Z_A0_cc00c4a1/summary.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/snapshots.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/calculations.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103423Z_A0_cc00c4a1",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": "registration",
+      "A1_candidate_ids": [
+        "A1-C1"
+      ],
+      "expected_recheck": [
+        "PREPARE 전 실제 읽은 핵심 원입력을 작은 묶음으로 등록하고 EVALUATE/민감도로 이어갈지 모델이 다시 계획하게 한다. 추가 검색 일부를 대체한다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-020",
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "classification": "A0_OBSERVED",
+      "failure_type": "UNRESOLVED_DECLARATION_MISMATCH",
+      "observation": "최종 missing_inputs가 snapshot에 선언한 UNRESOLVED 업무 의존성 집합과 달라 기계 검증에서 거절됐다.",
+      "score_impact": "계약 위반의 관찰이며 자연어 판단의 정답 여부를 자동 판정한 것이 아니다. 실패 실행의 필수 미제출은 0점.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        255,
+        256,
+        257
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_xLJvkriJB5pYHvvrRZIgf6Tc",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103423Z_A0_cc00c4a1/events.jsonl",
+        "runs/20261113T103423Z_A0_cc00c4a1/summary.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/snapshots.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/calculations.json",
+        "runs/20261113T103423Z_A0_cc00c4a1/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103423Z_A0_cc00c4a1",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": "declaration",
+      "A1_candidate_ids": [
+        "A1-C2"
+      ],
+      "expected_recheck": [
+        "탐색 단계에서 필요한 의존성 선언을 확인하고 최종화 입력에 현재 snapshot의 선언 집합을 명시하는 방안을 설계한다. COMMIT 후 탐색을 재개하거나 사실을 자동 수정하지 않는다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-021",
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103602Z_B_09ae0bb7",
+      "classification": "OUTPUT_LIMIT_OBSERVED",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+            "last_model_stage": "01_extract_response.json",
+            "mandatory_zero_basis": "protocol11.1",
+            "evidence": [
+              {
+                "file": "runs/20261113T103602Z_B_09ae0bb7/summary.json",
+                "pointer": "/failure_reason"
+              },
+              {
+                "file": "runs/20261113T103602Z_B_09ae0bb7/extraction.json",
+                "pointer": "/input_snapshot_id"
+              },
+              {
+                "file": "runs/20261113T103602Z_B_09ae0bb7/calculations.json",
+                "pointer": ""
+              },
+              {
+                "file": "runs/20261113T103602Z_B_09ae0bb7/01_extract_response.json",
+                "pointer": "/status"
+              }
+            ]
+          },
+          {
+            "observation": "추출 부분JSON은 v-issuer-earnings10255.482백만원과 평가표/정정 의무인수 맥락을 쓰기 시작했으나 닫히지 않았다. output_text232404자 중 trailing whitespace227869자 반복이 관찰된다.5000토큰에서incomplete, 등록X_EMPTY, 계산없음.",
+            "interpretation": "ALT B와 함께 공백반복 현상이 재현됐다. 원인을 단순 레코드 길이로 단정하지 않는다.",
+            "partial_record_ids": [
+              "ctx-valuation-shares",
+              "ctx-corrected-shares",
+              "v-issuer-earnings"
+            ],
+            "partial_text_characters": 232404,
+            "trailing_whitespace_characters": 227869,
+            "evidence": [
+              {
+                "file": "runs/20261113T103602Z_B_09ae0bb7/01_extract_response.json",
+                "pointer": "/output/1/content/0/text"
+              },
+              {
+                "file": "runs/20261113T103602Z_B_09ae0bb7/01_extract_response.json",
+                "pointer": "/incomplete_details"
+              }
+            ]
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "pages": [
+        46,
+        47,
+        48,
+        51,
+        52,
+        53,
+        146,
+        147,
+        148,
+        219,
+        220,
+        221,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        296,
+        297,
+        298,
+        347,
+        348,
+        349,
+        384,
+        385,
+        386,
+        410,
+        411,
+        412
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [],
+      "evidence": [
+        "runs/20261113T103602Z_B_09ae0bb7/events.jsonl",
+        "runs/20261113T103602Z_B_09ae0bb7/summary.json",
+        "runs/20261113T103602Z_B_09ae0bb7/snapshots.json",
+        "runs/20261113T103602Z_B_09ae0bb7/calculations.json",
+        "runs/20261113T103602Z_B_09ae0bb7/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103602Z_B_09ae0bb7",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-022",
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103701Z_A0_d0d960a0",
+      "classification": "EXECUTION_FAILURE",
+      "failure_type": "MODEL_INCOMPLETE:max_output_tokens",
+      "observation": {
+        "detail": "유효 최종 제출 없이 종료했다. 원시 응답/오류와 사용량은 실행 폴더에 보존했다.",
+        "diagnostics": [
+          {
+            "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+            "last_model_stage": "10_format_repair_response.json",
+            "mandatory_zero_basis": "protocol11.1",
+            "evidence": [
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/summary.json",
+                "pointer": "/failure_reason"
+              },
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/extraction.json",
+                "pointer": "/input_snapshot_id"
+              },
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/calculations.json",
+                "pointer": ""
+              },
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/10_format_repair_response.json",
+                "pointer": "/status"
+              }
+            ]
+          },
+          {
+            "observation": {
+              "elapsed_seconds": 25.929,
+              "event": "state_transition",
+              "phase": "FINALIZING",
+              "from": "EXPLORING",
+              "to": "FINALIZING",
+              "reason": "INPUT_RESERVATION",
+              "actor": "program_commit"
+            },
+            "evidence": [
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+                "line": 45
+              }
+            ]
+          },
+          {
+            "observation": {
+              "elapsed_seconds": 76.774,
+              "event": "tool_call",
+              "phase": "FINALIZING",
+              "tool": "submit_review",
+              "actor": "model",
+              "call_id": "call_1vDJ3HM4lQTbQQzquyPy5mfq",
+              "error_type": "GatewayError",
+              "error": "missing_inputs must name each declared UNRESOLVED business dependency exactly once",
+              "tool_calls": 11
+            },
+            "evidence": [
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+                "line": 51
+              }
+            ]
+          },
+          {
+            "observation": "8회 탐색 후 INPUT_RESERVATION으로 최종화했다. X_EMPTY/계산0 상태에서 09_finalize가 COMMIT을 시도했으나 missing_inputs와 등록 UNRESOLVED 의존성 대응 검사에서 거부됐다. 10_format_repair가2500토큰에서 끊겼다. 신규 A0 세 기업 모두 같은 연쇄가 재현됐다.",
+            "interpretation": "거부된 초안과 부분 수선문은 최종 제출이 아니며 F/K/J 채점의 정답으로 승격하지 않는다. 등록·계산 전에 입력 예약이 소진된 행동과 형식 계약 실패는 D6 관찰 근거로 보존한다.",
+            "call_id": "call_1vDJ3HM4lQTbQQzquyPy5mfq",
+            "evidence": [
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+                "line": 45
+              },
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+                "line": 51
+              },
+              {
+                "file": "runs/20261113T103701Z_A0_d0d960a0/10_format_repair_response.json",
+                "pointer": "/incomplete_details"
+              }
+            ]
+          }
+        ],
+        "interpretation": "출력 상한에서 중단됐다는 관찰이 단순한 레코드 길이만을 원인으로 확정하는 것은 아니다."
+      },
+      "score_impact": "프로토콜 §11.1: 미제출 필수 F/K/J=0. 내용 오류·잘못된 완료·불필요 보류는 미관찰.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_1vDJ3HM4lQTbQQzquyPy5mfq",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+        "runs/20261113T103701Z_A0_d0d960a0/summary.json",
+        "runs/20261113T103701Z_A0_d0d960a0/snapshots.json",
+        "runs/20261113T103701Z_A0_d0d960a0/calculations.json",
+        "runs/20261113T103701Z_A0_d0d960a0/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103701Z_A0_d0d960a0",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-023",
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103701Z_A0_d0d960a0",
+      "classification": "COMMON_REPAIR_LIMIT",
+      "failure_type": "FORMAT_REPAIR_OUTPUT_LIMIT",
+      "observation": "공통 형식 수정 1회가 2500 출력토큰 상한에서 절단됐다. 긴 최종 JSON의 재작성 가능성과 예약 상한을 구별해야 한다.",
+      "score_impact": "최종 미제출 필수항목0. 추가 무상/숨은 재시도를 하지 않았다.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_1vDJ3HM4lQTbQQzquyPy5mfq",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+        "runs/20261113T103701Z_A0_d0d960a0/summary.json",
+        "runs/20261113T103701Z_A0_d0d960a0/snapshots.json",
+        "runs/20261113T103701Z_A0_d0d960a0/calculations.json",
+        "runs/20261113T103701Z_A0_d0d960a0/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103701Z_A0_d0d960a0",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": null,
+      "A1_candidate_ids": [],
+      "expected_recheck": [
+        "공통 실행/외부 장애 후속조치로 분리하며 A1 효과의 근거로 사용하지 않는다."
+      ],
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "reason": "A1 개입 미배정"
+      }
+    },
+    {
+      "failure_id": "D6-024",
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103701Z_A0_d0d960a0",
+      "classification": "A0_OBSERVED",
+      "failure_type": "NO_REGISTERED_CALCULATION_BEFORE_FINALIZATION",
+      "observation": {
+        "detail": "검색·열람 이후에도 수치 등록과 계산 없이 초기 snapshot으로 최종화했다.",
+        "finalizing_reasons": [
+          "INPUT_RESERVATION"
+        ],
+        "calculate_calls": 0
+      },
+      "score_impact": {
+        "calculations": {
+          "correct": 0,
+          "scorable": 3,
+          "rate": 0
+        },
+        "methodology": {
+          "full_credit_domains": 0,
+          "domains": 4,
+          "rate": 0
+        },
+        "interpretation": "계산 호출의 거부를 뜻하지 않는다. 실제 수행하지 않은 계산을 완료로 채점하지 않는다."
+      },
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_1vDJ3HM4lQTbQQzquyPy5mfq",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+        "runs/20261113T103701Z_A0_d0d960a0/summary.json",
+        "runs/20261113T103701Z_A0_d0d960a0/snapshots.json",
+        "runs/20261113T103701Z_A0_d0d960a0/calculations.json",
+        "runs/20261113T103701Z_A0_d0d960a0/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103701Z_A0_d0d960a0",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": "registration",
+      "A1_candidate_ids": [
+        "A1-C1"
+      ],
+      "expected_recheck": [
+        "PREPARE 전 실제 읽은 핵심 원입력을 작은 묶음으로 등록하고 EVALUATE/민감도로 이어갈지 모델이 다시 계획하게 한다. 추가 검색 일부를 대체한다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    },
+    {
+      "failure_id": "D6-025",
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103701Z_A0_d0d960a0",
+      "classification": "A0_OBSERVED",
+      "failure_type": "UNRESOLVED_DECLARATION_MISMATCH",
+      "observation": "최종 missing_inputs가 snapshot에 선언한 UNRESOLVED 업무 의존성 집합과 달라 기계 검증에서 거절됐다.",
+      "score_impact": "계약 위반의 관찰이며 자연어 판단의 정답 여부를 자동 판정한 것이 아니다. 실패 실행의 필수 미제출은 0점.",
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294
+      ],
+      "input_snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_errors": [
+        {
+          "call_id": "call_1vDJ3HM4lQTbQQzquyPy5mfq",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "evidence": [
+        "runs/20261113T103701Z_A0_d0d960a0/events.jsonl",
+        "runs/20261113T103701Z_A0_d0d960a0/summary.json",
+        "runs/20261113T103701Z_A0_d0d960a0/snapshots.json",
+        "runs/20261113T103701Z_A0_d0d960a0/calculations.json",
+        "runs/20261113T103701Z_A0_d0d960a0/source_packet.json"
+      ],
+      "grading_reference": {
+        "run_id": "20261113T103701Z_A0_d0d960a0",
+        "metrics": {
+          "facts": {
+            "correct": 0,
+            "scorable": 5,
+            "rate": 0
+          },
+          "calculations": {
+            "correct": 0,
+            "scorable": 3,
+            "rate": 0
+          },
+          "methodology": {
+            "full_credit_domains": 0,
+            "domains": 4,
+            "rate": 0
+          }
+        }
+      },
+      "A1_candidate_group": "declaration",
+      "A1_candidate_ids": [
+        "A1-C2"
+      ],
+      "expected_recheck": [
+        "탐색 단계에서 필요한 의존성 선언을 확인하고 최종화 입력에 현재 snapshot의 선언 집합을 명시하는 방안을 설계한다. COMMIT 후 탐색을 재개하거나 사실을 자동 수정하지 않는다."
+      ],
+      "additional_cost": [
+        {
+          "measured": false,
+          "actual_usd": null,
+          "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+          "estimated_standard_usd_per_added_call": 0.021,
+          "cache_write_ceiling_usd_per_added_call": 0.025,
+          "added_model_calls_planning_range": [
+            0,
+            3
+          ],
+          "added_tools_planning_range": [
+            0,
+            3
+          ],
+          "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+        }
+      ]
+    }
+  ],
+  "A1_candidates": [
+    {
+      "candidate_id": "A1-C1",
+      "title": "탐색 중 등록·계산 진행 확인",
+      "signal": "누적 입력 예약이 줄어드는 동안 search/read만 반복되고 snapshot=X_EMPTY 또는 계산 결과가 0개인 상태.",
+      "action": "PREPARE 전 실제 읽은 핵심 원입력을 작은 묶음으로 등록하고 EVALUATE/민감도로 이어갈지 모델이 다시 계획하게 한다. 추가 검색 일부를 대체한다.",
+      "limits": "코드가 정답 수치·포함 여부를 주입하지 않는다. 예산 부족이면 미완료를 보존한다.",
+      "observed_A0_failure_ids": [
+        "D6-003",
+        "D6-006",
+        "D6-009",
+        "D6-014",
+        "D6-019",
+        "D6-024"
+      ],
+      "priority": "HIGH",
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+        "estimated_standard_usd_per_added_call": 0.021,
+        "cache_write_ceiling_usd_per_added_call": 0.025,
+        "added_model_calls_planning_range": [
+          0,
+          3
+        ],
+        "added_tools_planning_range": [
+          0,
+          3
+        ],
+        "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+      },
+      "evaluation": "개발 실패와 별도 W11 회귀에서 탐지·미탐·오탐, 제출·계산 완료와 J 점수, 추가 호출·비용을 각각 측정한다."
+    },
+    {
+      "candidate_id": "A1-C2",
+      "title": "최종화 전 의존성 선언 확인",
+      "signal": "등록한 UNRESOLVED SELECTION 집합과 최종 missing_inputs 연결이 불일치하는 실제 실패.",
+      "action": "탐색 단계에서 필요한 의존성 선언을 확인하고 최종화 입력에 현재 snapshot의 선언 집합을 명시하는 방안을 설계한다. COMMIT 후 탐색을 재개하거나 사실을 자동 수정하지 않는다.",
+      "limits": "공통 계약 설명 개선이 필요한 부분은 B/A0에 함께 적용할 공통 수정으로 분리한다. A1만 받는 확인 절차의 효과는 후속 실험에서 측정한다.",
+      "observed_A0_failure_ids": [
+        "D6-004",
+        "D6-015",
+        "D6-020",
+        "D6-025"
+      ],
+      "priority": "MEDIUM",
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+        "estimated_standard_usd_per_added_call": 0.021,
+        "cache_write_ceiling_usd_per_added_call": 0.025,
+        "added_model_calls_planning_range": [
+          0,
+          3
+        ],
+        "added_tools_planning_range": [
+          0,
+          3
+        ],
+        "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+      },
+      "evaluation": "개발 실패와 별도 W11 회귀에서 탐지·미탐·오탐, 제출·계산 완료와 J 점수, 추가 호출·비용을 각각 측정한다."
+    },
+    {
+      "candidate_id": "A1-C3",
+      "title": "코퍼스 안의 남은 작업과 외부 요청 구분",
+      "signal": "EXPLORING 중 확인 지점에서 요청원장 또는 중간 작업계획이 수치 등록·산술·허용 코퍼스 추가열람 같은 내부 작업을 외부 blocking 요청으로 넘기려는지 확인한다. 이미 읽은 사실과 아직 읽지 않은 자료를 구별한다.",
+      "action": "EXPLORING에서 남은 내부 작업을 현재 예약 예산으로 수행할 수 있는지 재계획한다. 외부 독립 자료 요청·사람 판단과 분리하고 예산이 막으면 BUDGET_LIMIT을 명시한다. FINALIZING/COMMIT에 진입한 뒤에는 조회·계산을 재개하지 않는다.",
+      "limits": "이번 최종 답안의 문제를 근거로 후속 A1의 탐색 중 확인 지점을 설계하는 후보다. 중간 계획/원장이 없으면 별도 확인 단계와 그 호출 비용이 필요하며 탐지 성공을 보장하지 않는다. HPSP와 같은 근거 있는 사업 판단 이관을 자동 취소하지 않는다. 모델의 요청 상태 변경은 기록하고 추후 채점한다.",
+      "observed_A0_failure_ids": [
+        "D6-007",
+        "D6-010"
+      ],
+      "priority": "MEDIUM",
+      "additional_cost": {
+        "measured": false,
+        "actual_usd": null,
+        "planning_assumption": "한 추가 요청당 입력16000·출력1000토큰 가정; 실제 요청 길이/캐시에 따라 달라짐",
+        "estimated_standard_usd_per_added_call": 0.021,
+        "cache_write_ceiling_usd_per_added_call": 0.025,
+        "added_model_calls_planning_range": [
+          0,
+          3
+        ],
+        "added_tools_planning_range": [
+          0,
+          3
+        ],
+        "note": "기존 탐색을 대체하면 추가 호출0. 동일16회/40도구/160k입력/16k출력/600초/$0.30 내에서 설계; 효과·비용은 아직 측정하지 않았다."
+      },
+      "evaluation": "개발 실패와 별도 W11 회귀에서 탐지·미탐·오탐, 제출·계산 완료와 J 점수, 추가 호출·비용을 각각 측정한다."
+    }
+  ],
+  "shared_followups": [
+    {
+      "issue": "B의 5000토큰 단일 추출 응답이 반복 절단됨",
+      "scope": "공통 계약/고정 기준선 실행 가능성",
+      "next_action": "실제 부분 출력의 레코드 길이·공백 반복 등을 먼저 분리 진단하고 작은 전송 계약과 고정 분할 추출의 비용·모델 호출 영향을 새 버전 계획으로 검토. 원문·근거를 잘라 맞추거나 기존 실패를 대체하지 않는다.",
+      "A1_effect_claim": false
+    },
+    {
+      "issue": "0.3.1 이력 재전송 HTTP400",
+      "scope": "공통 구현 결함",
+      "status": "0.3.2 wire adapter와 실제API probe로 수정 검증",
+      "A1_effect_claim": false
+    },
+    {
+      "issue": "긴 최종 JSON 전체를 형식 수정 출력2500토큰으로 다시 쓰다 절단",
+      "scope": "공통 형식 수정 계약",
+      "next_action": "새 버전에서 형식 변경만 표현하는 제한된 patch 계약 또는 전체 응답 크기 제한의 실행 가능성 검토. 사실·판단 수정 금지와 공유1회·공통예산 조건 유지",
+      "A1_effect_claim": false
+    },
+    {
+      "issue": "API 서버 오류/불명 사용량",
+      "scope": "외부 실행 장애",
+      "next_action": "모든 시도·비용 불확실성 보존. 이번 max_retries=0 유지",
+      "A1_effect_claim": false
+    }
+  ],
+  "limits": [
+    "개발기업6곳·조건별1회이며 최종 평가 표본 결과가 아니다.",
+    "추가 비용은 계획 가정이고 청구액·사람 검토 시간·A1 효과를 측정한 값이 아니다.",
+    "필수 미제출0과 관찰하지 못한 의미적 오류null을 구별한다."
+  ]
+}

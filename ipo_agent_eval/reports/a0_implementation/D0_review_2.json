@@ -1,0 +1,15 @@
+{
+  "stage": "D0",
+  "pass": 2,
+  "reviewer": "root",
+  "focus": "기존 동작과 보존 기준선 재현",
+  "evidence": [
+    "변경 전 python -m pytest -q: 146 passed in 11.76s",
+    "preservation_manifest.json: immutable_evidence 663, versioned_source 27, versioned_design 8",
+    "baseline_source에 작업 전 config/B.json 및 기존 코드·테스트·설계 보존",
+    "git 작업 트리의 기존 변경과 미추적 설계서가 manifest git_status_at_capture에 기록됨"
+  ],
+  "findings": [],
+  "limitations": ["이 검토는 코드와 기록의 기준선 검토이며 실제 모델의 품질 검증이 아님"],
+  "result": "PASS"
+}

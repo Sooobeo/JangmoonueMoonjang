@@ -1,0 +1,4244 @@
+{
+  "batch": "D5_v032",
+  "complete": true,
+  "planned_count": 12,
+  "observed_count": 12,
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102248Z_B_73727ba7",
+      "directory": "runs/20261113T102248Z_B_73727ba7",
+      "summary": {
+        "run_id": "20261113T102248Z_B_73727ba7",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 45585,
+        "output_tokens": 5000,
+        "format_repairs": 0,
+        "elapsed_seconds": 62.128,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.070585,
+        "known_usage_cost_usd_standard_uncached": 0.070585,
+        "estimated_cost_krw_at_budget_fx": 98.82,
+        "cost_ceiling_usd": 0.081981,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T102248Z_B_73727ba7",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 45585,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 45582,
+          "cache_write_30m_tokens": 0,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 628
+        },
+        "known_usage_cost_usd": "0.0272821",
+        "known_usage_cost_krw": "38.19",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_01ac9bd2d3e64f2a016af6e4fc54fc87d289d4c3a09979b7f6",
+            "response_status": "incomplete",
+            "input_tokens": 45585,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 45582,
+            "cache_write_30m_tokens": 0,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 628,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0022791",
+              "cache_write_30m": "0.00",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.0272821",
+            "notes": []
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        40,
+        41,
+        42,
+        227,
+        228,
+        229,
+        232,
+        233,
+        234,
+        235,
+        297,
+        298,
+        299,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        329,
+        330,
+        331,
+        332,
+        333,
+        363,
+        364,
+        365,
+        423,
+        424,
+        425,
+        426,
+        527,
+        528,
+        529
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "actor_counts": {
+        "program_fixed": 16
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_extract_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 45585,
+            "input_tokens_details": {
+              "cached_tokens": 45582,
+              "cache_write_tokens": 0
+            },
+            "output_tokens": 5000,
+            "output_tokens_details": {
+              "reasoning_tokens": 628
+            },
+            "total_tokens": 50585
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.156,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "sha256": "9f563a7e2af8c39a96567e83268321b0a40cf334abe94e7377b00ca0351f31ab",
+              "pages": 638,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.468,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.575,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 62.127,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "EXPLORING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102350Z_A0_9b919d3e",
+      "directory": "runs/20261113T102350Z_A0_9b919d3e",
+      "summary": {
+        "run_id": "20261113T102350Z_A0_9b919d3e",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 10,
+        "tool_calls": 11,
+        "input_tokens": 121577,
+        "output_tokens": 3386,
+        "format_repairs": 1,
+        "elapsed_seconds": 167.331,
+        "usage_unknown": true,
+        "estimated_cost_usd_standard_uncached": null,
+        "known_usage_cost_usd_standard_uncached": 0.138507,
+        "estimated_cost_krw_at_budget_fx": null,
+        "cost_ceiling_usd": 0.168901,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "API_ERROR:InternalServerError"
+      },
+      "cost_audit": {
+        "run_id": "20261113T102350Z_A0_9b919d3e",
+        "execution_status": "FAILED",
+        "model_calls": 10,
+        "responses_with_usage": 9,
+        "requests_without_usage": 1,
+        "all_model_requests_have_usage": false,
+        "token_totals": {
+          "input_tokens": 121577,
+          "ordinary_input_tokens": 156,
+          "cached_input_tokens": 98908,
+          "cache_write_30m_tokens": 22513,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 3386,
+          "reasoning_tokens": 145
+        },
+        "known_usage_cost_usd": "0.05017265",
+        "known_usage_cost_krw": "70.24",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e538205c87d2a5d745e90b30305a",
+            "response_status": "completed",
+            "input_tokens": 6649,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6646,
+            "cache_write_30m_tokens": 0,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 73,
+            "reasoning_tokens": 8,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003323",
+              "cache_write_30m": "0.00",
+              "cache_write_12h": "0.0",
+              "output": "0.000365"
+            },
+            "estimated_cost_usd": "0.0007003",
+            "notes": []
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e53c866887d29c0ea7c4d182945b",
+            "response_status": "completed",
+            "input_tokens": 7226,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6646,
+            "cache_write_30m_tokens": 577,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 43,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003323",
+              "cache_write_30m": "0.00072125",
+              "cache_write_12h": "0.0",
+              "output": "0.000215"
+            },
+            "estimated_cost_usd": "0.00127155",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e53f0cb087d2bb5e1df0ce2e3618",
+            "response_status": "completed",
+            "input_tokens": 14013,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7223,
+            "cache_write_30m_tokens": 6787,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 61,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00036115",
+              "cache_write_30m": "0.00848375",
+              "cache_write_12h": "0.0",
+              "output": "0.000305"
+            },
+            "estimated_cost_usd": "0.00915290",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e541622087d29f7339b0ca678df3",
+            "response_status": "completed",
+            "input_tokens": 14574,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 14010,
+            "cache_write_30m_tokens": 561,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 54,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0007005",
+              "cache_write_30m": "0.00070125",
+              "cache_write_12h": "0.0",
+              "output": "0.00027"
+            },
+            "estimated_cost_usd": "0.00167475",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e543910c87d297008600925d5477",
+            "response_status": "completed",
+            "input_tokens": 15216,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 14571,
+            "cache_write_30m_tokens": 642,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 58,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00072855",
+              "cache_write_30m": "0.0008025",
+              "cache_write_12h": "0.0",
+              "output": "0.00029"
+            },
+            "estimated_cost_usd": "0.00182405",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "06_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e54675f087d28cbe2ebfcb406159",
+            "response_status": "completed",
+            "input_tokens": 15906,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 15213,
+            "cache_write_30m_tokens": 690,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 58,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00076065",
+              "cache_write_30m": "0.0008625",
+              "cache_write_12h": "0.0",
+              "output": "0.00029"
+            },
+            "estimated_cost_usd": "0.00191615",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "07_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e5490aa487d2b483ed94c2966f82",
+            "response_status": "completed",
+            "input_tokens": 16115,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 15903,
+            "cache_write_30m_tokens": 209,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 53,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00079515",
+              "cache_write_30m": "0.00026125",
+              "cache_write_12h": "0.0",
+              "output": "0.000265"
+            },
+            "estimated_cost_usd": "0.00132440",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "08_explore_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e54c450487d28dfb31bcfd031fd9",
+            "response_status": "completed",
+            "input_tokens": 16312,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16112,
+            "cache_write_30m_tokens": 197,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 51,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0008056",
+              "cache_write_30m": "0.00024625",
+              "cache_write_12h": "0.0",
+              "output": "0.000255"
+            },
+            "estimated_cost_usd": "0.00130985",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "09_finalize_response.json",
+            "response_id": "resp_02913f574d9dbb1d016af6e54e8c4c87d29603b6b91488ede9",
+            "response_status": "completed",
+            "input_tokens": 15566,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 2584,
+            "cache_write_30m_tokens": 12850,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 2935,
+            "reasoning_tokens": 137,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.0001292",
+              "cache_write_30m": "0.0160625",
+              "cache_write_12h": "0.0",
+              "output": "0.014675"
+            },
+            "estimated_cost_usd": "0.0309987",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "Some requests have no usage; do not interpret missing usage as a zero bill"
+      },
+      "pages": [
+        40,
+        41,
+        42,
+        297,
+        298,
+        299
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 7,
+        "read_source": 1,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "actor_counts": {
+        "model": 9,
+        "program_commit": 2
+      },
+      "tool_errors": [
+        {
+          "call_id": "call_QjZXkX5jAwR5HJd5X3D6w7Jx",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "model_responses": [
+        {
+          "file": "01_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 6649,
+            "input_tokens_details": {
+              "cached_tokens": 6646,
+              "cache_write_tokens": 0
+            },
+            "output_tokens": 73,
+            "output_tokens_details": {
+              "reasoning_tokens": 8
+            },
+            "total_tokens": 6722
+          }
+        },
+        {
+          "file": "02_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 7226,
+            "input_tokens_details": {
+              "cached_tokens": 6646,
+              "cache_write_tokens": 577
+            },
+            "output_tokens": 43,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7269
+          }
+        },
+        {
+          "file": "03_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 14013,
+            "input_tokens_details": {
+              "cached_tokens": 7223,
+              "cache_write_tokens": 6787
+            },
+            "output_tokens": 61,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 14074
+          }
+        },
+        {
+          "file": "04_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 14574,
+            "input_tokens_details": {
+              "cached_tokens": 14010,
+              "cache_write_tokens": 561
+            },
+            "output_tokens": 54,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 14628
+          }
+        },
+        {
+          "file": "05_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 15216,
+            "input_tokens_details": {
+              "cached_tokens": 14571,
+              "cache_write_tokens": 642
+            },
+            "output_tokens": 58,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 15274
+          }
+        },
+        {
+          "file": "06_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 15906,
+            "input_tokens_details": {
+              "cached_tokens": 15213,
+              "cache_write_tokens": 690
+            },
+            "output_tokens": 58,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 15964
+          }
+        },
+        {
+          "file": "07_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 16115,
+            "input_tokens_details": {
+              "cached_tokens": 15903,
+              "cache_write_tokens": 209
+            },
+            "output_tokens": 53,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16168
+          }
+        },
+        {
+          "file": "08_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 16312,
+            "input_tokens_details": {
+              "cached_tokens": 16112,
+              "cache_write_tokens": 197
+            },
+            "output_tokens": 51,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16363
+          }
+        },
+        {
+          "file": "09_finalize_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 15566,
+            "input_tokens_details": {
+              "cached_tokens": 2584,
+              "cache_write_tokens": 12850
+            },
+            "output_tokens": 2935,
+            "output_tokens_details": {
+              "reasoning_tokens": 137
+            },
+            "total_tokens": 18501
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.191,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "sha256": "9f563a7e2af8c39a96567e83268321b0a40cf334abe94e7377b00ca0351f31ab",
+              "pages": 638,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.228,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.041,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 23.507,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        },
+        {
+          "elapsed_seconds": 167.331,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "FINALIZING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102638Z_B_667bfd52",
+      "directory": "runs/20261113T102638Z_B_667bfd52",
+      "summary": {
+        "run_id": "20261113T102638Z_B_667bfd52",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 56318,
+        "output_tokens": 5000,
+        "format_repairs": 0,
+        "elapsed_seconds": 58.985,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.081318,
+        "known_usage_cost_usd_standard_uncached": 0.081318,
+        "estimated_cost_krw_at_budget_fx": 113.85,
+        "cost_ceiling_usd": 0.095397,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T102638Z_B_667bfd52",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 56318,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 56315,
+          "cache_write_30m_tokens": 0,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 817
+        },
+        "known_usage_cost_usd": "0.02781875",
+        "known_usage_cost_krw": "38.95",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_0cc10d62c3d2153e016af6e5e0430087d2a8ec4be613518e8d",
+            "response_status": "incomplete",
+            "input_tokens": 56318,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 56315,
+            "cache_write_30m_tokens": 0,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 817,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00281575",
+              "cache_write_30m": "0.00",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.02781875",
+            "notes": []
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        3,
+        4,
+        5,
+        66,
+        67,
+        68,
+        70,
+        71,
+        72,
+        76,
+        77,
+        78,
+        126,
+        127,
+        128,
+        266,
+        267,
+        268,
+        329,
+        330,
+        331,
+        356,
+        357,
+        358,
+        363,
+        364,
+        365,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        388,
+        389,
+        390,
+        490,
+        491,
+        492,
+        555,
+        556,
+        557
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "actor_counts": {
+        "program_fixed": 16
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_extract_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 56318,
+            "input_tokens_details": {
+              "cached_tokens": 56315,
+              "cache_write_tokens": 0
+            },
+            "output_tokens": 5000,
+            "output_tokens_details": {
+              "reasoning_tokens": 817
+            },
+            "total_tokens": 61318
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.2,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "MELCON-PROS-01",
+              "sha256": "b205592c500bee617469fdfb35a85fef33685969383304986f00c92707713606",
+              "pages": 600,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.638,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.405,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 58.985,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "EXPLORING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102737Z_A0_775cc567",
+      "directory": "runs/20261113T102737Z_A0_775cc567",
+      "summary": {
+        "run_id": "20261113T102737Z_A0_775cc567",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 8,
+        "tool_calls": 10,
+        "input_tokens": 116408,
+        "output_tokens": 4100,
+        "format_repairs": 0,
+        "elapsed_seconds": 63.126,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.136908,
+        "known_usage_cost_usd_standard_uncached": 0.136908,
+        "estimated_cost_krw_at_budget_fx": 191.67,
+        "cost_ceiling_usd": 0.16601,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      },
+      "cost_audit": {
+        "run_id": "20261113T102737Z_A0_775cc567",
+        "execution_status": "SUBMITTED",
+        "model_calls": 8,
+        "responses_with_usage": 8,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 116408,
+          "ordinary_input_tokens": 153,
+          "cached_input_tokens": 78604,
+          "cache_write_30m_tokens": 37651,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4100,
+          "reasoning_tokens": 110
+        },
+        "known_usage_cost_usd": "0.07164695",
+        "known_usage_cost_krw": "100.31",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e61a760087d288c9ba6264e13808",
+            "response_status": "completed",
+            "input_tokens": 6551,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6548,
+            "cache_write_30m_tokens": 0,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003274",
+              "cache_write_30m": "0.00",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "estimated_cost_usd": "0.0006454",
+            "notes": []
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e61d504c87d2aa8287c5a29258d4",
+            "response_status": "completed",
+            "input_tokens": 7288,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6548,
+            "cache_write_30m_tokens": 737,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 62,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003274",
+              "cache_write_30m": "0.00092125",
+              "cache_write_12h": "0.0",
+              "output": "0.00031"
+            },
+            "estimated_cost_usd": "0.00156165",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e61fb5ac87d28b15a6e529c4f6cd",
+            "response_status": "completed",
+            "input_tokens": 7995,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7285,
+            "cache_write_30m_tokens": 707,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00036425",
+              "cache_write_30m": "0.00088375",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "estimated_cost_usd": "0.00147600",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e62236f087d2befa67d66e7b6a70",
+            "response_status": "completed",
+            "input_tokens": 14314,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7992,
+            "cache_write_30m_tokens": 6319,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 74,
+            "reasoning_tokens": 9,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003996",
+              "cache_write_30m": "0.00789875",
+              "cache_write_12h": "0.0",
+              "output": "0.00037"
+            },
+            "estimated_cost_usd": "0.00867135",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e625636487d2a235990c80b1daa3",
+            "response_status": "completed",
+            "input_tokens": 15070,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 14311,
+            "cache_write_30m_tokens": 756,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 34,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00071555",
+              "cache_write_30m": "0.000945",
+              "cache_write_12h": "0.0",
+              "output": "0.00017"
+            },
+            "estimated_cost_usd": "0.00183355",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "06_explore_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e6279b5887d286f3a389c2501b50",
+            "response_status": "completed",
+            "input_tokens": 18272,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 15067,
+            "cache_write_30m_tokens": 3202,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00075335",
+              "cache_write_30m": "0.0040025",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "estimated_cost_usd": "0.00507385",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "07_explore_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e62ac5a487d29b9e4798a36c582e",
+            "response_status": "completed",
+            "input_tokens": 18940,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 18269,
+            "cache_write_30m_tokens": 668,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 56,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00091345",
+              "cache_write_30m": "0.000835",
+              "cache_write_12h": "0.0",
+              "output": "0.00028"
+            },
+            "estimated_cost_usd": "0.00203145",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "08_finalize_response.json",
+            "response_id": "resp_06c862f4bc0d59ae016af6e62dbcf487d28012fbc533468c97",
+            "response_status": "completed",
+            "input_tokens": 27978,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 2584,
+            "cache_write_30m_tokens": 25262,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 3703,
+            "reasoning_tokens": 101,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.0001292",
+              "cache_write_30m": "0.0315775",
+              "cache_write_12h": "0.0",
+              "output": "0.018515"
+            },
+            "estimated_cost_usd": "0.0503537",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        71,
+        72,
+        73,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "actor_counts": {
+        "model": 8,
+        "program_commit": 2
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 6551,
+            "input_tokens_details": {
+              "cached_tokens": 6548,
+              "cache_write_tokens": 0
+            },
+            "output_tokens": 63,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6614
+          }
+        },
+        {
+          "file": "02_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 7288,
+            "input_tokens_details": {
+              "cached_tokens": 6548,
+              "cache_write_tokens": 737
+            },
+            "output_tokens": 62,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7350
+          }
+        },
+        {
+          "file": "03_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 7995,
+            "input_tokens_details": {
+              "cached_tokens": 7285,
+              "cache_write_tokens": 707
+            },
+            "output_tokens": 45,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 8040
+          }
+        },
+        {
+          "file": "04_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 14314,
+            "input_tokens_details": {
+              "cached_tokens": 7992,
+              "cache_write_tokens": 6319
+            },
+            "output_tokens": 74,
+            "output_tokens_details": {
+              "reasoning_tokens": 9
+            },
+            "total_tokens": 14388
+          }
+        },
+        {
+          "file": "05_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 15070,
+            "input_tokens_details": {
+              "cached_tokens": 14311,
+              "cache_write_tokens": 756
+            },
+            "output_tokens": 34,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 15104
+          }
+        },
+        {
+          "file": "06_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 18272,
+            "input_tokens_details": {
+              "cached_tokens": 15067,
+              "cache_write_tokens": 3202
+            },
+            "output_tokens": 63,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 18335
+          }
+        },
+        {
+          "file": "07_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 18940,
+            "input_tokens_details": {
+              "cached_tokens": 18269,
+              "cache_write_tokens": 668
+            },
+            "output_tokens": 56,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 18996
+          }
+        },
+        {
+          "file": "08_finalize_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 27978,
+            "input_tokens_details": {
+              "cached_tokens": 2584,
+              "cache_write_tokens": 25262
+            },
+            "output_tokens": 3703,
+            "output_tokens_details": {
+              "reasoning_tokens": 101
+            },
+            "total_tokens": 31681
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.185,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "MELCON-PROS-01",
+              "sha256": "b205592c500bee617469fdfb35a85fef33685969383304986f00c92707713606",
+              "pages": 600,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.23,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.031,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 20.201,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        },
+        {
+          "elapsed_seconds": 63.126,
+          "event": "state_transition",
+          "phase": "SUBMITTED",
+          "from": "FINALIZING",
+          "to": "SUBMITTED"
+        }
+      ]
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102840Z_B_bef29a8c",
+      "directory": "runs/20261113T102840Z_B_bef29a8c",
+      "summary": {
+        "run_id": "20261113T102840Z_B_bef29a8c",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "DTS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 37756,
+        "output_tokens": 5000,
+        "format_repairs": 0,
+        "elapsed_seconds": 58.713,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.062756,
+        "known_usage_cost_usd_standard_uncached": 0.062756,
+        "estimated_cost_krw_at_budget_fx": 87.86,
+        "cost_ceiling_usd": 0.072195,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T102840Z_B_bef29a8c",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 37756,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 2761,
+          "cache_write_30m_tokens": 34992,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 270
+        },
+        "known_usage_cost_usd": "0.06888105",
+        "known_usage_cost_krw": "96.43",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_054bfa16e91ee6f0016af6e65a799087d29a222505e9cad138",
+            "response_status": "incomplete",
+            "input_tokens": 37756,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 2761,
+            "cache_write_30m_tokens": 34992,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 270,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00013805",
+              "cache_write_30m": "0.04374",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.06888105",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        107,
+        108,
+        109,
+        110,
+        111,
+        453,
+        454,
+        455,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        493,
+        494,
+        495
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "actor_counts": {
+        "program_fixed": 16
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_extract_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 37756,
+            "input_tokens_details": {
+              "cached_tokens": 2761,
+              "cache_write_tokens": 34992
+            },
+            "output_tokens": 5000,
+            "output_tokens_details": {
+              "reasoning_tokens": 270
+            },
+            "total_tokens": 42756
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.166,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "sha256": "2a401607d5147d2e839ccd971ade3914cd4a0df2e6b49fb9cc84e6d6449fa4e4",
+              "pages": 719,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.446,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.404,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 58.713,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "EXPLORING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102939Z_A0_9536c596",
+      "directory": "runs/20261113T102939Z_A0_9536c596",
+      "summary": {
+        "run_id": "20261113T102939Z_A0_9536c596",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "DTS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 9,
+        "tool_calls": 11,
+        "input_tokens": 130328,
+        "output_tokens": 4116,
+        "format_repairs": 0,
+        "elapsed_seconds": 66.364,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.150908,
+        "known_usage_cost_usd_standard_uncached": 0.150908,
+        "estimated_cost_krw_at_budget_fx": 211.27,
+        "cost_ceiling_usd": 0.18349,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      },
+      "cost_audit": {
+        "run_id": "20261113T102939Z_A0_9536c596",
+        "execution_status": "SUBMITTED",
+        "model_calls": 9,
+        "responses_with_usage": 9,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 130328,
+          "ordinary_input_tokens": 156,
+          "cached_input_tokens": 90857,
+          "cache_write_30m_tokens": 39315,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4116,
+          "reasoning_tokens": 127
+        },
+        "known_usage_cost_usd": "0.07442260",
+        "known_usage_cost_krw": "104.19",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e69489d087d28d572a47f082ad1a",
+            "response_status": "completed",
+            "input_tokens": 6576,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 4059,
+            "cache_write_30m_tokens": 2514,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00020295",
+              "cache_write_30m": "0.0031425",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "estimated_cost_usd": "0.00366345",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e697d4d887d29ebe66d30e5af7a5",
+            "response_status": "completed",
+            "input_tokens": 7208,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6573,
+            "cache_write_30m_tokens": 632,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 43,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00032865",
+              "cache_write_30m": "0.00079",
+              "cache_write_12h": "0.0",
+              "output": "0.000215"
+            },
+            "estimated_cost_usd": "0.00133665",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e69a154487d29fa42d5aba9ad0c0",
+            "response_status": "completed",
+            "input_tokens": 11683,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7205,
+            "cache_write_30m_tokens": 4475,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 69,
+            "reasoning_tokens": 8,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00036025",
+              "cache_write_30m": "0.00559375",
+              "cache_write_12h": "0.0",
+              "output": "0.000345"
+            },
+            "estimated_cost_usd": "0.00630200",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e69d0cb487d2aec4c84fae97490b",
+            "response_status": "completed",
+            "input_tokens": 11903,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 11680,
+            "cache_write_30m_tokens": 220,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 59,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.000584",
+              "cache_write_30m": "0.000275",
+              "cache_write_12h": "0.0",
+              "output": "0.000295"
+            },
+            "estimated_cost_usd": "0.001157",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e69ff58487d28a06a58c8d97ce61",
+            "response_status": "completed",
+            "input_tokens": 12440,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 11900,
+            "cache_write_30m_tokens": 537,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 33,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.000595",
+              "cache_write_30m": "0.00067125",
+              "cache_write_12h": "0.0",
+              "output": "0.000165"
+            },
+            "estimated_cost_usd": "0.00143425",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "06_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e6a2c47c87d28e848aeb1e34bf5f",
+            "response_status": "completed",
+            "input_tokens": 14779,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 12437,
+            "cache_write_30m_tokens": 2339,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 43,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00062185",
+              "cache_write_30m": "0.00292375",
+              "cache_write_12h": "0.0",
+              "output": "0.000215"
+            },
+            "estimated_cost_usd": "0.00376360",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "07_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e6a5453487d292dee344baf2b7e0",
+            "response_status": "completed",
+            "input_tokens": 19646,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 14776,
+            "cache_write_30m_tokens": 4867,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 74,
+            "reasoning_tokens": 7,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0007388",
+              "cache_write_30m": "0.00608375",
+              "cache_write_12h": "0.0",
+              "output": "0.00037"
+            },
+            "estimated_cost_usd": "0.00719555",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "08_explore_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e6a872c087d293ab3a7e2438c804",
+            "response_status": "completed",
+            "input_tokens": 20245,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 19643,
+            "cache_write_30m_tokens": 599,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 43,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00098215",
+              "cache_write_30m": "0.00074875",
+              "cache_write_12h": "0.0",
+              "output": "0.000215"
+            },
+            "estimated_cost_usd": "0.00194890",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "09_finalize_response.json",
+            "response_id": "resp_0844c147c5faae21016af6e6aaa85887d2a8f0208a625bd8b1",
+            "response_status": "completed",
+            "input_tokens": 25848,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 2584,
+            "cache_write_30m_tokens": 23132,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 3689,
+            "reasoning_tokens": 112,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.0001292",
+              "cache_write_30m": "0.028915",
+              "cache_write_12h": "0.0",
+              "output": "0.018445"
+            },
+            "estimated_cost_usd": "0.0476212",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "actor_counts": {
+        "model": 9,
+        "program_commit": 2
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 6576,
+            "input_tokens_details": {
+              "cached_tokens": 4059,
+              "cache_write_tokens": 2514
+            },
+            "output_tokens": 63,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6639
+          }
+        },
+        {
+          "file": "02_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 7208,
+            "input_tokens_details": {
+              "cached_tokens": 6573,
+              "cache_write_tokens": 632
+            },
+            "output_tokens": 43,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7251
+          }
+        },
+        {
+          "file": "03_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 11683,
+            "input_tokens_details": {
+              "cached_tokens": 7205,
+              "cache_write_tokens": 4475
+            },
+            "output_tokens": 69,
+            "output_tokens_details": {
+              "reasoning_tokens": 8
+            },
+            "total_tokens": 11752
+          }
+        },
+        {
+          "file": "04_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 11903,
+            "input_tokens_details": {
+              "cached_tokens": 11680,
+              "cache_write_tokens": 220
+            },
+            "output_tokens": 59,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 11962
+          }
+        },
+        {
+          "file": "05_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 12440,
+            "input_tokens_details": {
+              "cached_tokens": 11900,
+              "cache_write_tokens": 537
+            },
+            "output_tokens": 33,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 12473
+          }
+        },
+        {
+          "file": "06_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 14779,
+            "input_tokens_details": {
+              "cached_tokens": 12437,
+              "cache_write_tokens": 2339
+            },
+            "output_tokens": 43,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 14822
+          }
+        },
+        {
+          "file": "07_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 19646,
+            "input_tokens_details": {
+              "cached_tokens": 14776,
+              "cache_write_tokens": 4867
+            },
+            "output_tokens": 74,
+            "output_tokens_details": {
+              "reasoning_tokens": 7
+            },
+            "total_tokens": 19720
+          }
+        },
+        {
+          "file": "08_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 20245,
+            "input_tokens_details": {
+              "cached_tokens": 19643,
+              "cache_write_tokens": 599
+            },
+            "output_tokens": 43,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 20288
+          }
+        },
+        {
+          "file": "09_finalize_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 25848,
+            "input_tokens_details": {
+              "cached_tokens": 2584,
+              "cache_write_tokens": 23132
+            },
+            "output_tokens": 3689,
+            "output_tokens_details": {
+              "reasoning_tokens": 112
+            },
+            "total_tokens": 29537
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.301,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "DTS-PROS-01",
+              "sha256": "2a401607d5147d2e839ccd971ade3914cd4a0df2e6b49fb9cc84e6d6449fa4e4",
+              "pages": 719,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.344,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.131,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 23.387,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        },
+        {
+          "elapsed_seconds": 66.363,
+          "event": "state_transition",
+          "phase": "SUBMITTED",
+          "from": "FINALIZING",
+          "to": "SUBMITTED"
+        }
+      ]
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103045Z_B_25ff9e77",
+      "directory": "runs/20261113T103045Z_B_25ff9e77",
+      "summary": {
+        "run_id": "20261113T103045Z_B_25ff9e77",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "SHINSUNGST-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 39803,
+        "output_tokens": 5000,
+        "format_repairs": 0,
+        "elapsed_seconds": 58.261,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.064803,
+        "known_usage_cost_usd_standard_uncached": 0.064803,
+        "estimated_cost_krw_at_budget_fx": 90.72,
+        "cost_ceiling_usd": 0.074754,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T103045Z_B_25ff9e77",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 39803,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 2761,
+          "cache_write_30m_tokens": 37039,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 492
+        },
+        "known_usage_cost_usd": "0.07143980",
+        "known_usage_cost_krw": "100.02",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_0363f3d35a6041f8016af6e6d7321c87d287a102c00bf2e390",
+            "response_status": "incomplete",
+            "input_tokens": 39803,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 2761,
+            "cache_write_30m_tokens": 37039,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 492,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00013805",
+              "cache_write_30m": "0.04629875",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.07143980",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        13,
+        14,
+        15,
+        33,
+        34,
+        35,
+        132,
+        133,
+        134,
+        185,
+        186,
+        187,
+        188,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        254,
+        255,
+        256,
+        303,
+        304,
+        305,
+        342,
+        343,
+        344
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "actor_counts": {
+        "program_fixed": 16
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_extract_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 39803,
+            "input_tokens_details": {
+              "cached_tokens": 2761,
+              "cache_write_tokens": 37039
+            },
+            "output_tokens": 5000,
+            "output_tokens_details": {
+              "reasoning_tokens": 492
+            },
+            "total_tokens": 44803
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.109,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "SHINSUNGST-PROS-01",
+              "sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+              "pages": 430,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.312,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.133,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 58.261,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "EXPLORING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103143Z_A0_9bdd2148",
+      "directory": "runs/20261113T103143Z_A0_9bdd2148",
+      "summary": {
+        "run_id": "20261113T103143Z_A0_9bdd2148",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "SHINSUNGST-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 9,
+        "tool_calls": 10,
+        "input_tokens": 122392,
+        "output_tokens": 7360,
+        "format_repairs": 1,
+        "elapsed_seconds": 100.882,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.159192,
+        "known_usage_cost_usd_standard_uncached": 0.159192,
+        "estimated_cost_krw_at_budget_fx": 222.87,
+        "cost_ceiling_usd": 0.18979,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T103143Z_A0_9bdd2148",
+        "execution_status": "FAILED",
+        "model_calls": 9,
+        "responses_with_usage": 9,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 122392,
+          "ordinary_input_tokens": 156,
+          "cached_input_tokens": 73336,
+          "cache_write_30m_tokens": 48900,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 7360,
+          "reasoning_tokens": 972
+        },
+        "known_usage_cost_usd": "0.10174780",
+        "known_usage_cost_krw": "142.45",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e710e37087d2ab67770a660bfa2a",
+            "response_status": "completed",
+            "input_tokens": 6515,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 4059,
+            "cache_write_30m_tokens": 2453,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 69,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00020295",
+              "cache_write_30m": "0.00306625",
+              "cache_write_12h": "0.0",
+              "output": "0.000345"
+            },
+            "estimated_cost_usd": "0.00361720",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e7132e9487d280e6d577748ea1de",
+            "response_status": "completed",
+            "input_tokens": 7160,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6512,
+            "cache_write_30m_tokens": 645,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 35,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003256",
+              "cache_write_30m": "0.00080625",
+              "cache_write_12h": "0.0",
+              "output": "0.000175"
+            },
+            "estimated_cost_usd": "0.00130985",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e715a84087d2892e30d3d01f3d70",
+            "response_status": "completed",
+            "input_tokens": 10264,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7157,
+            "cache_write_30m_tokens": 3104,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 78,
+            "reasoning_tokens": 12,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00035785",
+              "cache_write_30m": "0.00388",
+              "cache_write_12h": "0.0",
+              "output": "0.00039"
+            },
+            "estimated_cost_usd": "0.00463085",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e718595487d29b5faadf59d7bd69",
+            "response_status": "completed",
+            "input_tokens": 10918,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 10261,
+            "cache_write_30m_tokens": 654,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 47,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00051305",
+              "cache_write_30m": "0.0008175",
+              "cache_write_12h": "0.0",
+              "output": "0.000235"
+            },
+            "estimated_cost_usd": "0.00156855",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e71a994c87d2a20dfcc2d4e81b07",
+            "response_status": "completed",
+            "input_tokens": 15585,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 10915,
+            "cache_write_30m_tokens": 4667,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 72,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00054575",
+              "cache_write_30m": "0.00583375",
+              "cache_write_12h": "0.0",
+              "output": "0.00036"
+            },
+            "estimated_cost_usd": "0.00674250",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "06_explore_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e71db60087d2af0d6aef653f0b8c",
+            "response_status": "completed",
+            "input_tokens": 16269,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 15582,
+            "cache_write_30m_tokens": 684,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 47,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0007791",
+              "cache_write_30m": "0.000855",
+              "cache_write_12h": "0.0",
+              "output": "0.000235"
+            },
+            "estimated_cost_usd": "0.0018721",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "07_explore_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e7211b8487d297a302bee194613c",
+            "response_status": "completed",
+            "input_tokens": 24908,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16266,
+            "cache_write_30m_tokens": 8639,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 72,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0008133",
+              "cache_write_30m": "0.01079875",
+              "cache_write_12h": "0.0",
+              "output": "0.00036"
+            },
+            "estimated_cost_usd": "0.01197505",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "08_finalize_response.json",
+            "response_id": "resp_074ed3c7277d0c99016af6e7240be487d2ae4c6c5d6827d015",
+            "response_status": "completed",
+            "input_tokens": 24410,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 2584,
+            "cache_write_30m_tokens": 21694,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 4440,
+            "reasoning_tokens": 202,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.0001292",
+              "cache_write_30m": "0.0271175",
+              "cache_write_12h": "0.0",
+              "output": "0.0222"
+            },
+            "estimated_cost_usd": "0.0495787",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "09_format_repair_response.json",
+            "response_id": "resp_072768ffa4f29724016af6e756f7c487d29e9de4fbb1c459b4",
+            "response_status": "incomplete",
+            "input_tokens": 6363,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 6360,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 2500,
+            "reasoning_tokens": 758,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.00795",
+              "cache_write_12h": "0.0",
+              "output": "0.0125"
+            },
+            "estimated_cost_usd": "0.020453",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        235,
+        236,
+        237,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "actor_counts": {
+        "model": 8,
+        "program_commit": 2
+      },
+      "tool_errors": [
+        {
+          "call_id": "call_4FlYeTBWHXMJDm2PDLMsedeQ",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "model_responses": [
+        {
+          "file": "01_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 6515,
+            "input_tokens_details": {
+              "cached_tokens": 4059,
+              "cache_write_tokens": 2453
+            },
+            "output_tokens": 69,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6584
+          }
+        },
+        {
+          "file": "02_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 7160,
+            "input_tokens_details": {
+              "cached_tokens": 6512,
+              "cache_write_tokens": 645
+            },
+            "output_tokens": 35,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7195
+          }
+        },
+        {
+          "file": "03_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 10264,
+            "input_tokens_details": {
+              "cached_tokens": 7157,
+              "cache_write_tokens": 3104
+            },
+            "output_tokens": 78,
+            "output_tokens_details": {
+              "reasoning_tokens": 12
+            },
+            "total_tokens": 10342
+          }
+        },
+        {
+          "file": "04_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 10918,
+            "input_tokens_details": {
+              "cached_tokens": 10261,
+              "cache_write_tokens": 654
+            },
+            "output_tokens": 47,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10965
+          }
+        },
+        {
+          "file": "05_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 15585,
+            "input_tokens_details": {
+              "cached_tokens": 10915,
+              "cache_write_tokens": 4667
+            },
+            "output_tokens": 72,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 15657
+          }
+        },
+        {
+          "file": "06_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 16269,
+            "input_tokens_details": {
+              "cached_tokens": 15582,
+              "cache_write_tokens": 684
+            },
+            "output_tokens": 47,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16316
+          }
+        },
+        {
+          "file": "07_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 24908,
+            "input_tokens_details": {
+              "cached_tokens": 16266,
+              "cache_write_tokens": 8639
+            },
+            "output_tokens": 72,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 24980
+          }
+        },
+        {
+          "file": "08_finalize_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 24410,
+            "input_tokens_details": {
+              "cached_tokens": 2584,
+              "cache_write_tokens": 21694
+            },
+            "output_tokens": 4440,
+            "output_tokens_details": {
+              "reasoning_tokens": 202
+            },
+            "total_tokens": 28850
+          }
+        },
+        {
+          "file": "09_format_repair_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 6363,
+            "input_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 6360
+            },
+            "output_tokens": 2500,
+            "output_tokens_details": {
+              "reasoning_tokens": 758
+            },
+            "total_tokens": 8863
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.131,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "SHINSUNGST-PROS-01",
+              "sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+              "pages": 430,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.156,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 0.962,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 20.126,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        },
+        {
+          "elapsed_seconds": 100.882,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "FINALIZING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103324Z_B_332eb41f",
+      "directory": "runs/20261113T103324Z_B_332eb41f",
+      "summary": {
+        "run_id": "20261113T103324Z_B_332eb41f",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 33078,
+        "output_tokens": 5000,
+        "format_repairs": 0,
+        "elapsed_seconds": 58.464,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.058078,
+        "known_usage_cost_usd_standard_uncached": 0.058078,
+        "estimated_cost_krw_at_budget_fx": 81.31,
+        "cost_ceiling_usd": 0.066348,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T103324Z_B_332eb41f",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 33078,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 2761,
+          "cache_write_30m_tokens": 30314,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 310
+        },
+        "known_usage_cost_usd": "0.06303355",
+        "known_usage_cost_krw": "88.25",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_03b32fbe10c0c039016af6e776308487d2a07352a2beeedc48",
+            "response_status": "incomplete",
+            "input_tokens": 33078,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 2761,
+            "cache_write_30m_tokens": 30314,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 310,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00013805",
+              "cache_write_30m": "0.0378925",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.06303355",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        33,
+        34,
+        35,
+        104,
+        105,
+        106,
+        110,
+        111,
+        112,
+        132,
+        133,
+        134,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        319,
+        320,
+        321,
+        322,
+        382,
+        383,
+        384
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "actor_counts": {
+        "program_fixed": 16
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_extract_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 33078,
+            "input_tokens_details": {
+              "cached_tokens": 2761,
+              "cache_write_tokens": 30314
+            },
+            "output_tokens": 5000,
+            "output_tokens_details": {
+              "reasoning_tokens": 310
+            },
+            "total_tokens": 38078
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.132,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "ALT-PROS-01",
+              "sha256": "f9a14394dafa92b9e42b2b4253a4628c4a60ab02929408ab7b924524c78d816a",
+              "pages": 471,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.315,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.077,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 58.463,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "EXPLORING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "directory": "runs/20261113T103423Z_A0_cc00c4a1",
+      "summary": {
+        "run_id": "20261113T103423Z_A0_cc00c4a1",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 9,
+        "tool_calls": 10,
+        "input_tokens": 114826,
+        "output_tokens": 7212,
+        "format_repairs": 1,
+        "elapsed_seconds": 99.229,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.150886,
+        "known_usage_cost_usd_standard_uncached": 0.150886,
+        "estimated_cost_krw_at_budget_fx": 211.24,
+        "cost_ceiling_usd": 0.179593,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T103423Z_A0_cc00c4a1",
+        "execution_status": "FAILED",
+        "model_calls": 9,
+        "responses_with_usage": 9,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 114826,
+          "ordinary_input_tokens": 156,
+          "cached_input_tokens": 74679,
+          "cache_write_30m_tokens": 39991,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 7212,
+          "reasoning_tokens": 457
+        },
+        "known_usage_cost_usd": "0.08993870",
+        "known_usage_cost_krw": "125.91",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7b0486087d29346f04a1007f7f1",
+            "response_status": "completed",
+            "input_tokens": 6503,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 4059,
+            "cache_write_30m_tokens": 2441,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 57,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00020295",
+              "cache_write_30m": "0.00305125",
+              "cache_write_12h": "0.0",
+              "output": "0.000285"
+            },
+            "estimated_cost_usd": "0.00354220",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7b2d25887d284ad99e71fe0892a",
+            "response_status": "completed",
+            "input_tokens": 7124,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6500,
+            "cache_write_30m_tokens": 621,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 32,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.000325",
+              "cache_write_30m": "0.00077625",
+              "cache_write_12h": "0.0",
+              "output": "0.00016"
+            },
+            "estimated_cost_usd": "0.00126425",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7b5a3d487d289b348f9a7935305",
+            "response_status": "completed",
+            "input_tokens": 9209,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7121,
+            "cache_write_30m_tokens": 2085,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 79,
+            "reasoning_tokens": 10,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00035605",
+              "cache_write_30m": "0.00260625",
+              "cache_write_12h": "0.0",
+              "output": "0.000395"
+            },
+            "estimated_cost_usd": "0.00336030",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7b86a9887d28826398782d4efae",
+            "response_status": "completed",
+            "input_tokens": 9964,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 9206,
+            "cache_write_30m_tokens": 755,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 41,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0004603",
+              "cache_write_30m": "0.00094375",
+              "cache_write_12h": "0.0",
+              "output": "0.000205"
+            },
+            "estimated_cost_usd": "0.00161205",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7baf40487d2a2d8c19c1578cd78",
+            "response_status": "completed",
+            "input_tokens": 17312,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 9961,
+            "cache_write_30m_tokens": 7348,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 81,
+            "reasoning_tokens": 11,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00049805",
+              "cache_write_30m": "0.009185",
+              "cache_write_12h": "0.0",
+              "output": "0.000405"
+            },
+            "estimated_cost_usd": "0.01009105",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "06_explore_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7be86d487d2be2ba39d5eab9fcf",
+            "response_status": "completed",
+            "input_tokens": 17942,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 17309,
+            "cache_write_30m_tokens": 630,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 41,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00086545",
+              "cache_write_30m": "0.0007875",
+              "cache_write_12h": "0.0",
+              "output": "0.000205"
+            },
+            "estimated_cost_usd": "0.00186095",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "07_explore_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7c0f94087d2a80ed04763d5030d",
+            "response_status": "completed",
+            "input_tokens": 20523,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 17939,
+            "cache_write_30m_tokens": 2581,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 75,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00089695",
+              "cache_write_30m": "0.00322625",
+              "cache_write_12h": "0.0",
+              "output": "0.000375"
+            },
+            "estimated_cost_usd": "0.00450120",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "08_finalize_response.json",
+            "response_id": "resp_0c8f6b45dc803fa6016af6e7c3d10c87d292d1de117bc88eee",
+            "response_status": "completed",
+            "input_tokens": 19847,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 2584,
+            "cache_write_30m_tokens": 17131,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 4306,
+            "reasoning_tokens": 57,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.0001292",
+              "cache_write_30m": "0.02141375",
+              "cache_write_12h": "0.0",
+              "output": "0.02153"
+            },
+            "estimated_cost_usd": "0.04320495",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "09_format_repair_response.json",
+            "response_id": "resp_0bf8bc424a3b01e9016af6e7f50e0487d2823339deaa6539af",
+            "response_status": "incomplete",
+            "input_tokens": 6402,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 6399,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 2500,
+            "reasoning_tokens": 379,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.00799875",
+              "cache_write_12h": "0.0",
+              "output": "0.0125"
+            },
+            "estimated_cost_usd": "0.02050175",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        255,
+        256,
+        257
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 3,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "actor_counts": {
+        "model": 8,
+        "program_commit": 2
+      },
+      "tool_errors": [
+        {
+          "call_id": "call_xLJvkriJB5pYHvvrRZIgf6Tc",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "model_responses": [
+        {
+          "file": "01_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 6503,
+            "input_tokens_details": {
+              "cached_tokens": 4059,
+              "cache_write_tokens": 2441
+            },
+            "output_tokens": 57,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6560
+          }
+        },
+        {
+          "file": "02_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 7124,
+            "input_tokens_details": {
+              "cached_tokens": 6500,
+              "cache_write_tokens": 621
+            },
+            "output_tokens": 32,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7156
+          }
+        },
+        {
+          "file": "03_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 9209,
+            "input_tokens_details": {
+              "cached_tokens": 7121,
+              "cache_write_tokens": 2085
+            },
+            "output_tokens": 79,
+            "output_tokens_details": {
+              "reasoning_tokens": 10
+            },
+            "total_tokens": 9288
+          }
+        },
+        {
+          "file": "04_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 9964,
+            "input_tokens_details": {
+              "cached_tokens": 9206,
+              "cache_write_tokens": 755
+            },
+            "output_tokens": 41,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10005
+          }
+        },
+        {
+          "file": "05_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 17312,
+            "input_tokens_details": {
+              "cached_tokens": 9961,
+              "cache_write_tokens": 7348
+            },
+            "output_tokens": 81,
+            "output_tokens_details": {
+              "reasoning_tokens": 11
+            },
+            "total_tokens": 17393
+          }
+        },
+        {
+          "file": "06_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 17942,
+            "input_tokens_details": {
+              "cached_tokens": 17309,
+              "cache_write_tokens": 630
+            },
+            "output_tokens": 41,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17983
+          }
+        },
+        {
+          "file": "07_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 20523,
+            "input_tokens_details": {
+              "cached_tokens": 17939,
+              "cache_write_tokens": 2581
+            },
+            "output_tokens": 75,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 20598
+          }
+        },
+        {
+          "file": "08_finalize_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 19847,
+            "input_tokens_details": {
+              "cached_tokens": 2584,
+              "cache_write_tokens": 17131
+            },
+            "output_tokens": 4306,
+            "output_tokens_details": {
+              "reasoning_tokens": 57
+            },
+            "total_tokens": 24153
+          }
+        },
+        {
+          "file": "09_format_repair_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 6402,
+            "input_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 6399
+            },
+            "output_tokens": 2500,
+            "output_tokens_details": {
+              "reasoning_tokens": 379
+            },
+            "total_tokens": 8902
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.149,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "ALT-PROS-01",
+              "sha256": "f9a14394dafa92b9e42b2b4253a4628c4a60ab02929408ab7b924524c78d816a",
+              "pages": 471,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.176,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 0.966,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 20.536,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        },
+        {
+          "elapsed_seconds": 99.229,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "FINALIZING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103602Z_B_09ae0bb7",
+      "directory": "runs/20261113T103602Z_B_09ae0bb7",
+      "summary": {
+        "run_id": "20261113T103602Z_B_09ae0bb7",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "MILLIE-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 16,
+        "input_tokens": 32339,
+        "output_tokens": 5000,
+        "format_repairs": 0,
+        "elapsed_seconds": 58.892,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.057339,
+        "known_usage_cost_usd_standard_uncached": 0.057339,
+        "estimated_cost_krw_at_budget_fx": 80.27,
+        "cost_ceiling_usd": 0.065424,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T103602Z_B_09ae0bb7",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 32339,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 2761,
+          "cache_write_30m_tokens": 29575,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 676
+        },
+        "known_usage_cost_usd": "0.06210980",
+        "known_usage_cost_krw": "86.95",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_0fd81f7db44f6df1016af6e813e7c887d29708a1db9842596d",
+            "response_status": "incomplete",
+            "input_tokens": 32339,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 2761,
+            "cache_write_30m_tokens": 29575,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 676,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00013805",
+              "cache_write_30m": "0.03696875",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.06210980",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        46,
+        47,
+        48,
+        51,
+        52,
+        53,
+        146,
+        147,
+        148,
+        219,
+        220,
+        221,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        296,
+        297,
+        298,
+        347,
+        348,
+        349,
+        384,
+        385,
+        386,
+        410,
+        411,
+        412
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 8,
+        "read_source": 8
+      },
+      "actor_counts": {
+        "program_fixed": 16
+      },
+      "tool_errors": [],
+      "model_responses": [
+        {
+          "file": "01_extract_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 32339,
+            "input_tokens_details": {
+              "cached_tokens": 2761,
+              "cache_write_tokens": 29575
+            },
+            "output_tokens": 5000,
+            "output_tokens_details": {
+              "reasoning_tokens": 676
+            },
+            "total_tokens": 37339
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.122,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "MILLIE-PROS-01",
+              "sha256": "051fdb0d03214ba2a9bf05f395b5679cac9df503bdbbd21ddc6333d22b142173",
+              "pages": 490,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.339,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.241,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 58.892,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "EXPLORING",
+          "to": "FAILED"
+        }
+      ]
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103701Z_A0_d0d960a0",
+      "directory": "runs/20261113T103701Z_A0_d0d960a0",
+      "summary": {
+        "run_id": "20261113T103701Z_A0_d0d960a0",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "MILLIE-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 10,
+        "tool_calls": 11,
+        "input_tokens": 137769,
+        "output_tokens": 7350,
+        "format_repairs": 1,
+        "elapsed_seconds": 105.934,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.174519,
+        "known_usage_cost_usd_standard_uncached": 0.174519,
+        "estimated_cost_krw_at_budget_fx": 244.33,
+        "cost_ceiling_usd": 0.208961,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "cost_audit": {
+        "run_id": "20261113T103701Z_A0_d0d960a0",
+        "execution_status": "FAILED",
+        "model_calls": 10,
+        "responses_with_usage": 10,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 137769,
+          "ordinary_input_tokens": 159,
+          "cached_input_tokens": 93601,
+          "cache_write_30m_tokens": 44009,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 7350,
+          "reasoning_tokens": 623
+        },
+        "known_usage_cost_usd": "0.09660030",
+        "known_usage_cost_krw": "135.24",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e84ec3ac87d29cecc4cdd0eea51a",
+            "response_status": "completed",
+            "input_tokens": 6508,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 4059,
+            "cache_write_30m_tokens": 2446,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 61,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00020295",
+              "cache_write_30m": "0.0030575",
+              "cache_write_12h": "0.0",
+              "output": "0.000305"
+            },
+            "estimated_cost_usd": "0.00356845",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e851959887d28c973f5abe278be2",
+            "response_status": "completed",
+            "input_tokens": 7115,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6505,
+            "cache_write_30m_tokens": 607,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00032525",
+              "cache_write_30m": "0.00075875",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "estimated_cost_usd": "0.00131200",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e8549fd087d28415cd42d6256ff0",
+            "response_status": "completed",
+            "input_tokens": 10100,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7112,
+            "cache_write_30m_tokens": 2985,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 78,
+            "reasoning_tokens": 10,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003556",
+              "cache_write_30m": "0.00373125",
+              "cache_write_12h": "0.0",
+              "output": "0.00039"
+            },
+            "estimated_cost_usd": "0.00447985",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e85768b487d28c5b9a92b0616ecb",
+            "response_status": "completed",
+            "input_tokens": 10831,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 10097,
+            "cache_write_30m_tokens": 731,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00050485",
+              "cache_write_30m": "0.00091375",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "estimated_cost_usd": "0.00164660",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e859b9b087d2a0098427fe6480f2",
+            "response_status": "completed",
+            "input_tokens": 16105,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 10828,
+            "cache_write_30m_tokens": 5274,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 66,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0005414",
+              "cache_write_30m": "0.0065925",
+              "cache_write_12h": "0.0",
+              "output": "0.00033"
+            },
+            "estimated_cost_usd": "0.0074669",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "06_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e85ced4087d2827f958d851b456a",
+            "response_status": "completed",
+            "input_tokens": 16742,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16102,
+            "cache_write_30m_tokens": 637,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 34,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0008051",
+              "cache_write_30m": "0.00079625",
+              "cache_write_12h": "0.0",
+              "output": "0.00017"
+            },
+            "estimated_cost_usd": "0.00177435",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "07_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e85f1c2487d2a647b382968e8f44",
+            "response_status": "completed",
+            "input_tokens": 19578,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16739,
+            "cache_write_30m_tokens": 2836,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 62,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00083695",
+              "cache_write_30m": "0.003545",
+              "cache_write_12h": "0.0",
+              "output": "0.00031"
+            },
+            "estimated_cost_usd": "0.00469495",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "08_explore_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e8631c7487d285ee2b7316efe459",
+            "response_status": "completed",
+            "input_tokens": 20213,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 19575,
+            "cache_write_30m_tokens": 635,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00097875",
+              "cache_write_30m": "0.00079375",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "estimated_cost_usd": "0.00200050",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "09_finalize_response.json",
+            "response_id": "resp_04cd5289c0765d86016af6e86755f887d2a5f191b7c022a363",
+            "response_status": "completed",
+            "input_tokens": 24175,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 2584,
+            "cache_write_30m_tokens": 21459,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 4414,
+            "reasoning_tokens": 221,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.0001292",
+              "cache_write_30m": "0.02682375",
+              "cache_write_12h": "0.0",
+              "output": "0.02207"
+            },
+            "estimated_cost_usd": "0.04915495",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "10_format_repair_response.json",
+            "response_id": "resp_086bc185ccd5d899016af6e89a2f7487d28b8a4255184c48ec",
+            "response_status": "incomplete",
+            "input_tokens": 6402,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 6399,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 2500,
+            "reasoning_tokens": 392,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.00799875",
+              "cache_write_12h": "0.0",
+              "output": "0.0125"
+            },
+            "estimated_cost_usd": "0.02050175",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      },
+      "pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294
+      ],
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "calculation_ids": [],
+      "tool_counts": {
+        "search_corpus": 4,
+        "read_source": 4,
+        "request_information": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "actor_counts": {
+        "model": 9,
+        "program_commit": 2
+      },
+      "tool_errors": [
+        {
+          "call_id": "call_1vDJ3HM4lQTbQQzquyPy5mfq",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "missing_inputs must name each declared UNRESOLVED business dependency exactly once"
+        }
+      ],
+      "model_responses": [
+        {
+          "file": "01_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 6508,
+            "input_tokens_details": {
+              "cached_tokens": 4059,
+              "cache_write_tokens": 2446
+            },
+            "output_tokens": 61,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6569
+          }
+        },
+        {
+          "file": "02_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 7115,
+            "input_tokens_details": {
+              "cached_tokens": 6505,
+              "cache_write_tokens": 607
+            },
+            "output_tokens": 45,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7160
+          }
+        },
+        {
+          "file": "03_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 10100,
+            "input_tokens_details": {
+              "cached_tokens": 7112,
+              "cache_write_tokens": 2985
+            },
+            "output_tokens": 78,
+            "output_tokens_details": {
+              "reasoning_tokens": 10
+            },
+            "total_tokens": 10178
+          }
+        },
+        {
+          "file": "04_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 10831,
+            "input_tokens_details": {
+              "cached_tokens": 10097,
+              "cache_write_tokens": 731
+            },
+            "output_tokens": 45,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10876
+          }
+        },
+        {
+          "file": "05_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 16105,
+            "input_tokens_details": {
+              "cached_tokens": 10828,
+              "cache_write_tokens": 5274
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16171
+          }
+        },
+        {
+          "file": "06_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 16742,
+            "input_tokens_details": {
+              "cached_tokens": 16102,
+              "cache_write_tokens": 637
+            },
+            "output_tokens": 34,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16776
+          }
+        },
+        {
+          "file": "07_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 19578,
+            "input_tokens_details": {
+              "cached_tokens": 16739,
+              "cache_write_tokens": 2836
+            },
+            "output_tokens": 62,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 19640
+          }
+        },
+        {
+          "file": "08_explore_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 20213,
+            "input_tokens_details": {
+              "cached_tokens": 19575,
+              "cache_write_tokens": 635
+            },
+            "output_tokens": 45,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 20258
+          }
+        },
+        {
+          "file": "09_finalize_response.json",
+          "status": "completed",
+          "incomplete_details": null,
+          "usage": {
+            "input_tokens": 24175,
+            "input_tokens_details": {
+              "cached_tokens": 2584,
+              "cache_write_tokens": 21459
+            },
+            "output_tokens": 4414,
+            "output_tokens_details": {
+              "reasoning_tokens": 221
+            },
+            "total_tokens": 28589
+          }
+        },
+        {
+          "file": "10_format_repair_response.json",
+          "status": "incomplete",
+          "incomplete_details": {
+            "reason": "max_output_tokens"
+          },
+          "usage": {
+            "input_tokens": 6402,
+            "input_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 6399
+            },
+            "output_tokens": 2500,
+            "output_tokens_details": {
+              "reasoning_tokens": 392
+            },
+            "total_tokens": 8902
+          }
+        }
+      ],
+      "state_transitions": [
+        {
+          "elapsed_seconds": 0.146,
+          "event": "state_transition",
+          "phase": "INPUT_VERIFIED",
+          "from": "CREATED",
+          "to": "INPUT_VERIFIED",
+          "documents": [
+            {
+              "doc_id": "MILLIE-PROS-01",
+              "sha256": "051fdb0d03214ba2a9bf05f395b5679cac9df503bdbbd21ddc6333d22b142173",
+              "pages": 490,
+              "cutoff_status": "BEFORE"
+            }
+          ]
+        },
+        {
+          "elapsed_seconds": 0.175,
+          "event": "state_transition",
+          "phase": "PREFLIGHT_COMPLETE",
+          "from": "INPUT_VERIFIED",
+          "to": "PREFLIGHT_COMPLETE"
+        },
+        {
+          "elapsed_seconds": 1.078,
+          "event": "state_transition",
+          "phase": "EXPLORING",
+          "from": "PREFLIGHT_COMPLETE",
+          "to": "EXPLORING"
+        },
+        {
+          "elapsed_seconds": 25.929,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        },
+        {
+          "elapsed_seconds": 105.933,
+          "event": "state_transition",
+          "phase": "FAILED",
+          "from": "FINALIZING",
+          "to": "FAILED"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Development failures and API diagnostics are retained separately from submitted review quality.",
+    "Costs are estimates from raw usage, not invoices; unknown usage must not be counted as zero.",
+    "No held-out final evaluation or A1 treatment has been run."
+  ]
+}

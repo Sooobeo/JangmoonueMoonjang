@@ -1,0 +1,1553 @@
+{
+  "batch": "FIX_v041",
+  "report_status": "ABORTED_BATCH_PARTIAL_EXECUTION_REVIEW",
+  "scope": "A0 actual executed runs only; unexecuted pairs are not zero-scored. Subsequent FIX_v042 is separate.",
+  "reviewer": "Codex AI assisted, nonblind; not human-finalized",
+  "policy": "Protocol11.1 attempted FAILED mandatory omissions=0; not-executed=null; source support only structured submitted claims. K1 accurate labeled partial sums may earn arithmetic credit separately from completeness.",
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T112035Z_A0_4a88d6c3",
+      "run_directory": "runs/20261113T112035Z_A0_4a88d6c3",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "summary": {
+        "run_id": "20261113T112035Z_A0_4a88d6c3",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 14,
+        "tool_calls": 16,
+        "input_tokens": 733251,
+        "output_tokens": 10823,
+        "format_repairs": 0,
+        "elapsed_seconds": 153.757,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.787366,
+        "known_usage_cost_usd_standard_uncached": 0.787366,
+        "estimated_cost_krw_at_budget_fx": 1102.31,
+        "cost_ceiling_usd": 0.970679,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.970679,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      },
+      "actual_model_tools": [
+        {
+          "line": 9,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 15,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 21,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 27,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 33,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 39,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 45,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 51,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "EVALUATE",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 57,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "REGISTER_BATCH",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 63,
+          "actor": "model",
+          "tool": "calculate",
+          "operation": "EVALUATE",
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 69,
+          "actor": "model",
+          "tool": "sensitivity",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 75,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 81,
+          "actor": "model",
+          "tool": "escalate",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 89,
+          "actor": "model",
+          "tool": "submit_review",
+          "operation": null,
+          "phase": "FINALIZING"
+        }
+      ],
+      "program_commit_tools": [
+        {
+          "line": 87,
+          "actor": "program_commit",
+          "tool": "request_information",
+          "operation": null,
+          "phase": "FINALIZING"
+        },
+        {
+          "line": 88,
+          "actor": "program_commit",
+          "tool": "escalate",
+          "operation": null,
+          "phase": "FINALIZING"
+        }
+      ],
+      "model_operation_counts": {
+        "search_corpus": 3,
+        "read_source": 3,
+        "REGISTER_BATCH": 3,
+        "EVALUATE": 2,
+        "sensitivity": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "finalization_transitions": [
+        {
+          "line": 83,
+          "elapsed_seconds": 96.092,
+          "event": "state_transition",
+          "phase": "FINALIZING",
+          "from": "EXPLORING",
+          "to": "FINALIZING",
+          "reason": "INPUT_RESERVATION",
+          "actor": "program_commit"
+        }
+      ],
+      "read_pages": [
+        40,
+        41,
+        42,
+        297,
+        298,
+        299,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333
+      ],
+      "source_appropriateness": {
+        "scope": "Valid final judgments[].facts only; not all natural-language conclusions, and not a truth-accuracy score.",
+        "observed": true,
+        "submitted_claims": 9,
+        "read_location_valid_count": 9,
+        "fully_supported_count": 9,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": 1.0,
+        "claims": [
+          {
+            "claim_id": "J1_F1",
+            "text": "발행사 적용 순이익은 2023년 온기 지배주주지분 기준 151,116백만원이다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0298",
+                "page": 298,
+                "claim_id": "J1_F1",
+                "locator": "공모가 산정 요약표 적용 재무수치 및 ①"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J1_F2",
+            "text": "비교회사 PER도 2023년 온기 지배주주지분 기준 순이익을 사용하며 회계기준과 연결 대상 차이가 비교를 제약할 수 있다고 공시한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J1_F2",
+                "locator": "PER 한계점 및 2023년 온기 기준 PER 산출 주2"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2_F1",
+            "text": "공시는 HD한국조선해양 36.5배, ALFA LAVAL 25.6배, KONGSBERG 31.8배, WARTSILA 32.1배와 적용 31.5배를 제시한다. 기준시총은 2024-03-14 기준일 종가와 직전 1주·1개월 평균 중 최소 기준으로 산출했다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J2_F1",
+                "locator": "2023년 온기 기준 PER 산출 표 및 주1"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0330",
+                "page": 330,
+                "claim_id": "J2_F1",
+                "locator": "비교회사 기준시가총액 산정내역 주1"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2_F2",
+            "text": "공시에 따르면 WARTSILA는 해양 엔진·부품 및 애프터마켓을 제공하지만 발전설비·에너지관리 등 에너지 사업도 영위한다. 2023년 매출을 해양 동력 45%, 해양 시스템 9%, 에너지 46%로 설명한다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0325",
+                "page": 325,
+                "claim_id": "J2_F2",
+                "locator": "WARTSILA 사업부 및 2023년 매출액 구성"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J2_F3",
+            "text": "공시는 WARTSILA Marine Power의 선박 부품·장기계약·Retrofit 서비스가 발행사 선박 AM 솔루션·친환경 Retrofit과 유사하다고 판단했다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0328",
+                "page": 328,
+                "claim_id": "J2_F3",
+                "locator": "Marine Power 서비스 유사성 문단"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J3_F1",
+            "text": "발행사 순이익 151,116백만원, 표시 적용 PER 31.5배와 공모 후 잠재주식 44,870,190주 및 네 비교기업 표시 PER을 민감도 입력으로 사용했다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J3_F1",
+                "locator": "PER 표 및 평가 시가총액 산출 내역"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J3_F1",
+                "locator": "주당 평가가액 산출 내역 H"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4_F1",
+            "text": "공모 전 40,000,000주에 신주 4,450,000주와 미전환 주식매수선택권 13,510주, 우리사주매수선택권 잔여 406,680주를 더한 공모 후 잠재주식수는 44,870,190주다. 구주매출 4,450,000주는 발행 증가분에 더하지 않는다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J4_F1",
+                "locator": "주당 평가가액 산출 내역 B~H 및 주석"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4_F2",
+            "text": "공시 평가시가총액은 4,761,293백만원, 주당 평가가액은 106,113원이며 수요예측 후 확정 공모가액은 83,400원이다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J4_F2",
+                "locator": "평가시가총액, 주당 평가가액 및 희망공모가액 산출 내역"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          },
+          {
+            "claim_id": "J4_F3",
+            "text": "정정 전 요약표와 정정 후 요약표의 이익·PER·주식수·평가가액은 동일하다. 정정 전은 공모가를 확정할 예정으로 기술했고 정정 후는 확정 공모가 83,400원을 추가했다. 현재 본문에도 확정 공모가가 기재돼 있다.",
+            "status": "FULL",
+            "read_location_valid": true,
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0041",
+                "page": 41,
+                "claim_id": "J4_F3",
+                "locator": "주9 정정 전 요약표 및 정정 후 표 시작"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0042",
+                "page": 42,
+                "claim_id": "J4_F3",
+                "locator": "주9 정정 후 요약표 확정 공모가액"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0298",
+                "page": 298,
+                "claim_id": "J4_F3",
+                "locator": "현재 본문 공모가 산정 요약표"
+              }
+            ],
+            "reason": "Cited corpus text supports the stated claim; location independently matches an actual read_source result."
+          }
+        ]
+      },
+      "input_snapshot_id": "X_59e7911397f75638bc8e521a",
+      "registered_record_count": 62,
+      "calculation_status_counts_all_snapshots": {
+        "OK": 52,
+        "UNAVAILABLE": 9
+      },
+      "current_calculations": [
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_share_sum_535c6f8e",
+          "id": "share_sum",
+          "entity_id": null,
+          "status": "OK",
+          "result": "44870190",
+          "partial_sum": "44870190",
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "old",
+            "new",
+            "opt1",
+            "opt2"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_share_count_difference_535c6f8e",
+          "id": "share_count_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "0",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "old",
+            "new",
+            "opt1",
+            "opt2",
+            "rs"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_fbeae7c1",
+          "id": "peer_market_cap",
+          "entity_id": "P1",
+          "status": "OK",
+          "result": "8093613.54576",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1price",
+            "p1shares"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_difference_fbeae7c1",
+          "id": "peer_market_cap_difference",
+          "entity_id": "P1",
+          "status": "OK",
+          "result": "-0.45424",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1price",
+            "p1shares",
+            "p1cap"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_fbeae7c1",
+          "id": "peer_recomputed_per",
+          "entity_id": "P1",
+          "status": "OK",
+          "result": "36.51001885583854349924666865149177650869",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1cap",
+            "p1earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_acbbb742",
+          "id": "peer_market_cap",
+          "entity_id": "P2",
+          "status": "UNAVAILABLE",
+          "result": null,
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p2shares"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_acbbb742",
+          "id": "peer_recomputed_per",
+          "entity_id": "P2",
+          "status": "OK",
+          "result": "25.63505631524233085435543498988109517922",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p2cap",
+            "p2earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_9f9853b3",
+          "id": "peer_market_cap",
+          "entity_id": "P3",
+          "status": "UNAVAILABLE",
+          "result": null,
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p3shares"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_9f9853b3",
+          "id": "peer_recomputed_per",
+          "entity_id": "P3",
+          "status": "OK",
+          "result": "31.75316196943680579762534911843560513145",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p3cap",
+            "p3earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_e05184c1",
+          "id": "peer_market_cap",
+          "entity_id": "P4",
+          "status": "UNAVAILABLE",
+          "result": null,
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p4shares"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_e05184c1",
+          "id": "peer_recomputed_per",
+          "entity_id": "P4",
+          "status": "OK",
+          "result": "32.13196552895686266050444639785149192961",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p4cap",
+            "p4earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_displayed_mean_535c6f8e",
+          "id": "peer_displayed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.5",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_displayed_median_535c6f8e",
+          "id": "peer_displayed_median",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.95",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_mean_535c6f8e",
+          "id": "peer_recomputed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.50755066736863570293297478941499218725",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1cap",
+            "p1earn",
+            "p2cap",
+            "p2earn",
+            "p3cap",
+            "p3earn",
+            "p4cap",
+            "p4earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_price_from_reported_equity_535c6f8e",
+          "id": "price_from_reported_equity",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106112.6106218850421627365518175875787466",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "eq",
+            "rs"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_price_from_displayed_per_535c6f8e",
+          "id": "price_from_displayed_per",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106087.2262854246884178560420626701157272",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_reported_price_difference_535c6f8e",
+          "id": "reported_price_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "-0.3893781149578372634481824124212534",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "eq",
+            "rs",
+            "pr"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_displayed_price_difference_535c6f8e",
+          "id": "displayed_price_difference",
+          "entity_id": null,
+          "status": "OK",
+          "result": "-25.7737145753115821439579373298842728",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "pr"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_implied_per_535c6f8e",
+          "id": "implied_per",
+          "entity_id": null,
+          "status": "OK",
+          "result": "31.50753725614759522486037216442997432436",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "eq",
+            "earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_price_from_recomputed_peer_mean_535c6f8e",
+          "id": "price_from_recomputed_peer_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106112.6557888450829578483937393007687146",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "rs",
+            "p1cap",
+            "p1earn",
+            "p2cap",
+            "p2earn",
+            "p3cap",
+            "p3earn",
+            "p4cap",
+            "p4earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_SUM_535c6f8e",
+          "id": "derivation_D_SUM",
+          "entity_id": null,
+          "status": "OK",
+          "result": "44870190",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "old",
+            "new",
+            "opt1",
+            "opt2"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_PRICE_535c6f8e",
+          "id": "derivation_D_PRICE",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106112.6106218850421627365518175875787466",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "eq",
+            "rs"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P1PER_fbeae7c1",
+          "id": "derivation_D_P1PER",
+          "entity_id": "P1",
+          "status": "OK",
+          "result": "36.51001885583854349924666865149177650869",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1cap",
+            "p1earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P2PER_acbbb742",
+          "id": "derivation_D_P2PER",
+          "entity_id": "P2",
+          "status": "OK",
+          "result": "25.63505631524233085435543498988109517922",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p2cap",
+            "p2earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P3PER_9f9853b3",
+          "id": "derivation_D_P3PER",
+          "entity_id": "P3",
+          "status": "OK",
+          "result": "31.75316196943680579762534911843560513145",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p3cap",
+            "p3earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P4PER_e05184c1",
+          "id": "derivation_D_P4PER",
+          "entity_id": "P4",
+          "status": "OK",
+          "result": "32.13196552895686266050444639785149192961",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p4cap",
+            "p4earn"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P1CAP_fbeae7c1",
+          "id": "derivation_D_P1CAP",
+          "entity_id": "P1",
+          "status": "OK",
+          "result": "8093613.54576",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "p1price",
+            "p1shares"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_baseline_535c6f8e",
+          "id": "sensitivity_baseline",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106087.2262854246884178560420626701157272",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_displayed_mean_535c6f8e",
+          "id": "sensitivity_displayed_mean",
+          "entity_id": null,
+          "status": "OK",
+          "result": "106087.2262854246884178560420626701157272",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_displayed_median_535c6f8e",
+          "id": "sensitivity_displayed_median",
+          "entity_id": null,
+          "status": "OK",
+          "result": "107602.758089502183966682556949279688809",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_1_535c6f8e",
+          "id": "sensitivity_exclude_peer_1",
+          "entity_id": null,
+          "status": "OK",
+          "result": "100474.1455295821123110911721122642894982",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_2_535c6f8e",
+          "id": "sensitivity_exclude_peer_2",
+          "entity_id": null,
+          "status": "OK",
+          "result": "112710.6615773189282238385886041489906774",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_3_535c6f8e",
+          "id": "sensitivity_exclude_peer_3",
+          "entity_id": null,
+          "status": "OK",
+          "result": "105750.4414400741338514501498656457661534",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_4_535c6f8e",
+          "id": "sensitivity_exclude_peer_4",
+          "entity_id": null,
+          "status": "OK",
+          "result": "105413.6565947235792850442576686214165797",
+          "partial_sum": null,
+          "missing_inputs": null,
+          "input_fact_ids": [
+            "earn",
+            "aper",
+            "rs",
+            "p1per",
+            "p2per",
+            "p3per",
+            "p4per"
+          ]
+        }
+      ],
+      "calculation_use_checks": [
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_share_sum_535c6f8e",
+          "use": "USE",
+          "stated_value": "44870190",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "포함 주식 구성 합산",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_displayed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.5",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "공시 표시 배수 평균 검산",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.50755066736863570293297478941499218725",
+          "related_judgment_ids": [
+            "J2",
+            "J4"
+          ],
+          "reason": "공시 표시 시총과 이익으로 재산출한 평균",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_price_from_reported_equity_535c6f8e",
+          "use": "USE",
+          "stated_value": "106112.6106218850421627365518175875787466",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 평가시총과 주식수로 주당가액 검산",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_price_from_recomputed_peer_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "106112.6557888450829578483937393007687146",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 원화 입력 재산출 평균 배수 사용",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_baseline_535c6f8e",
+          "use": "USE",
+          "stated_value": "106087.2262854246884178560420626701157272",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "표시 적용 배수 민감도 기준",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_displayed_median_535c6f8e",
+          "use": "USE",
+          "stated_value": "107602.758089502183966682556949279688809",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER 중앙값 대안",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_1_535c6f8e",
+          "use": "USE",
+          "stated_value": "100474.1455295821123110911721122642894982",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "최고 표시 PER 기업 제외 대안",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_2_535c6f8e",
+          "use": "USE",
+          "stated_value": "112710.6615773189282238385886041489906774",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "최저 표시 PER 기업 제외 대안",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_3_535c6f8e",
+          "use": "USE",
+          "stated_value": "105750.4414400741338514501498656457661534",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "KONGSBERG 제외 대안",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_4_535c6f8e",
+          "use": "USE",
+          "stated_value": "105413.6565947235792850442576686214165797",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "WARTSILA 제외 대안",
+          "replacement_id": null,
+          "unresolved": false,
+          "calculation_exists": true,
+          "same_final_snapshot": true,
+          "calculation_status": "OK",
+          "exact_stated_value": true
+        }
+      ],
+      "requests": [],
+      "escalations": [
+        {
+          "escalation_id": "H1",
+          "review_focus": "비교기업 사업 구성의 차이와 동일 가중 PER 적용 적절성",
+          "question": "해양 애프터마켓뿐 아니라 에너지 등 다른 사업을 보유한 비교기업을 동일 가중으로 포함하는 판단이 적절한가?",
+          "why_needed": "사업 구성과 회계 범위의 차이가 배수 해석을 바꾸며 민감도상 한 기업 제외 효과가 존재한다.",
+          "related_judgment_ids": [
+            "J2",
+            "J3",
+            "J4"
+          ],
+          "blocking": true,
+          "resolution_status": "OPEN",
+          "resolution_evidence": [],
+          "version": 1,
+          "change_reason": null
+        }
+      ],
+      "missing_inputs": [],
+      "facts": {
+        "F1": {
+          "score": 1,
+          "reason": "2023 FY controlling earnings151116million correctly specified.",
+          "evidence": [
+            "review.json#/judgments/0/facts/0",
+            "HDMS-PROS-01:p298,p331"
+          ]
+        },
+        "F2": {
+          "score": 1,
+          "reason": "All four named peer PERs36.5/25.6/31.8/32.1 and arithmetic mean31.5 correctly specified.",
+          "evidence": [
+            "review.json#/judgments/1/facts/0",
+            "HDMS-PROS-01:p331"
+          ]
+        },
+        "F3": {
+          "score": 1,
+          "reason": "Reported equity4761293million and share denominator44870190 correctly specified.",
+          "evidence": [
+            "review.json#/judgments/3/facts/0",
+            "review.json#/judgments/3/facts/1",
+            "HDMS-PROS-01:p332"
+          ]
+        },
+        "F4": {
+          "score": 1,
+          "reason": "40000000existing+4450000new+13510option+406680employee-option=44870190;4450000secondary explicitly excluded.",
+          "evidence": [
+            "review.json#/judgments/3/facts/0",
+            "HDMS-PROS-01:p332"
+          ]
+        },
+        "F5": {
+          "score": 1,
+          "reason": "Valuation106113 distinguished from final offer83400.",
+          "evidence": [
+            "review.json#/judgments/3/facts/1",
+            "HDMS-PROS-01:p332"
+          ]
+        }
+      },
+      "calculations": {
+        "K1": {
+          "score": 1,
+          "reason": "Correct component sum, labels and secondary exclusion.",
+          "evidence": [
+            "C_59e7911397f75638bc8e521a_share_sum_535c6f8e",
+            "review.json#/judgments/3/facts/0"
+          ]
+        },
+        "K2": {
+          "score": 1,
+          "reason": "4761293e6/44870190=106112.610621885...; round to106113.",
+          "evidence": [
+            "C_59e7911397f75638bc8e521a_price_from_reported_equity_535c6f8e"
+          ]
+        },
+        "K3": {
+          "score": 1,
+          "reason": "151116*31.5=4760154million vs reported4761293 (1139million gap); displayed-per price106087.2262854, peer-recomputed-mean31.5075506674 gives106112.6557888. Precision plausible but internal rounding not confirmed.",
+          "evidence": [
+            "review.json#/judgments/3",
+            "C_59e7911397f75638bc8e521a_price_from_recomputed_peer_mean_535c6f8e",
+            "C_59e7911397f75638bc8e521a_sensitivity_baseline_535c6f8e"
+          ]
+        }
+      },
+      "judgments": {
+        "J1": {
+          "score": 2,
+          "reason": "Issuer and peers2023FY/controlling scope explicitly aligned as basis for comparability, remaining accounting and persistence checks limit conclusion.",
+          "evidence": [
+            "review.json#/judgments/0"
+          ]
+        },
+        "J2": {
+          "score": 2,
+          "reason": "Named Wartsila aftermarket/retrofit similarity and diversified energy exposure linked to conditional same-weight PER; source business and financial-segment denominators kept distinct.",
+          "evidence": [
+            "review.json#/judgments/1",
+            "HDMS-PROS-01:p325,p328"
+          ]
+        },
+        "J3": {
+          "score": 2,
+          "reason": "Same earnings/shares, median and high/low-peer influence checks with explicit baseline106087, +1.43%/-5.29%/+6.24%, interpreted as sensitivity rather than automatic exclusion.",
+          "evidence": [
+            "review.json#/judgments/2",
+            "calculations.json:current sensitivity records"
+          ]
+        },
+        "J4": {
+          "score": 2,
+          "reason": "Disclosure replication vs independent sources separated, actual core computations completed; H1 targets valuation judgment. Incomplete foreign-price/FX and issuer-account reviews disclosed without falsely calling independent verification complete.",
+          "evidence": [
+            "review.json#/judgments/3",
+            "review.json#/scope",
+            "review.json#/escalations/0"
+          ]
+        }
+      },
+      "flags": {
+        "material_error": false,
+        "false_completion": false,
+        "unnecessary_hold": false
+      },
+      "handoff_assessment": [
+        {
+          "id": "H1",
+          "classification": "LEGITIMATE_JUDGMENT_WITH_DISCLOSED_RETRIEVAL_LIMIT",
+          "blocking": true,
+          "reason": "Peer business mix/same-weight appropriateness is an actual judgment. Three other peer details and issuer statements remain unread; no claim those corpus materials are externally unavailable and no external information request. This score does not assert exhaustive corpus review."
+        }
+      ],
+      "runtime_acceptance": {
+        "registered": true,
+        "evaluated": true,
+        "sensitivity_executed": true,
+        "valid_final": true,
+        "current_calculation_use_valid": true
+      },
+      "metrics": {
+        "facts": {
+          "correct": 5,
+          "scorable": 5
+        },
+        "calculations": {
+          "correct": 3,
+          "scorable": 3
+        },
+        "methodology": {
+          "full_credit_domains": 4,
+          "domains": 4
+        }
+      }
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T112328Z_A0_1bc17cbe",
+      "run_directory": "runs/20261113T112328Z_A0_1bc17cbe",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "summary": {
+        "run_id": "20261113T112328Z_A0_1bc17cbe",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.1-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 10,
+        "tool_calls": 9,
+        "input_tokens": 204253,
+        "output_tokens": 4018,
+        "format_repairs": 0,
+        "elapsed_seconds": 63.076,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.224343,
+        "known_usage_cost_usd_standard_uncached": 0.224343,
+        "estimated_cost_krw_at_budget_fx": 314.08,
+        "cost_ceiling_usd": 0.275406,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.275406,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "MODEL_INCOMPLETE:max_output_tokens"
+      },
+      "actual_model_tools": [
+        {
+          "line": 9,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 15,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 21,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 27,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 33,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 39,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 45,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 51,
+          "actor": "model",
+          "tool": "search_corpus",
+          "operation": null,
+          "phase": "EXPLORING"
+        },
+        {
+          "line": 57,
+          "actor": "model",
+          "tool": "read_source",
+          "operation": null,
+          "phase": "EXPLORING"
+        }
+      ],
+      "program_commit_tools": [],
+      "model_operation_counts": {
+        "search_corpus": 5,
+        "read_source": 4
+      },
+      "finalization_transitions": [],
+      "read_pages": [
+        4,
+        5,
+        6,
+        7,
+        61,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        388,
+        389,
+        390
+      ],
+      "source_appropriateness": {
+        "scope": "Valid final judgments[].facts only; not all natural-language conclusions, and not a truth-accuracy score.",
+        "observed": false,
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": []
+      },
+      "failure_observations": [
+        {
+          "line": 61,
+          "elapsed_seconds": 63.065,
+          "event": "model_call_completed",
+          "phase": "EXPLORING",
+          "stage": "explore",
+          "response_id": "resp_0ca4b39d45b841e9016af6f34791e887d2a90f6faf010f4f45",
+          "returned_model": "gpt-6.1-terra",
+          "status": "incomplete",
+          "usage": {
+            "input_tokens": 38021,
+            "input_tokens_details": {
+              "cached_tokens": 33833,
+              "cache_write_tokens": 4185
+            },
+            "output_tokens": 3500,
+            "output_tokens_details": {
+              "reasoning_tokens": 73
+            },
+            "total_tokens": 41521
+          }
+        },
+        {
+          "line": 62,
+          "elapsed_seconds": 63.074,
+          "event": "run_stopped",
+          "phase": "EXPLORING",
+          "error_type": "RuntimeError",
+          "reason": "MODEL_INCOMPLETE:max_output_tokens"
+        }
+      ],
+      "facts": {
+        "F1": {
+          "score": 0,
+          "reason": "Attempted execution failed without a valid mandatory submission (protocol 11.1)."
+        },
+        "F2": {
+          "score": 0,
+          "reason": "Attempted execution failed without a valid mandatory submission (protocol 11.1)."
+        },
+        "F3": {
+          "score": 0,
+          "reason": "Attempted execution failed without a valid mandatory submission (protocol 11.1)."
+        },
+        "F4": {
+          "score": 0,
+          "reason": "Attempted execution failed without a valid mandatory submission (protocol 11.1)."
+        },
+        "F5": {
+          "score": 0,
+          "reason": "Attempted execution failed without a valid mandatory submission (protocol 11.1)."
+        }
+      },
+      "calculations": {
+        "K1": {
+          "score": 0,
+          "reason": "No valid final mandatory submission; partial response is failure evidence only."
+        },
+        "K2": {
+          "score": 0,
+          "reason": "No valid final mandatory submission; partial response is failure evidence only."
+        },
+        "K3": {
+          "score": 0,
+          "reason": "No valid final mandatory submission; partial response is failure evidence only."
+        }
+      },
+      "judgments": {
+        "J1": {
+          "score": 0,
+          "reason": "No valid final mandatory submission."
+        },
+        "J2": {
+          "score": 0,
+          "reason": "No valid final mandatory submission."
+        },
+        "J3": {
+          "score": 0,
+          "reason": "No valid final mandatory submission."
+        },
+        "J4": {
+          "score": 0,
+          "reason": "No valid final mandatory submission."
+        }
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "failure_interpretation": "At explore call10 response output exactly3500tokens (reasoning73), status incomplete/max_output_tokens; before any valid registration/EVALUATE/sensitivity. This is a per-response output limit failure, not cumulative budget exhaustion. Partial response cannot earn answer credit.",
+      "runtime_acceptance": {
+        "registered": false,
+        "evaluated": false,
+        "sensitivity_executed": false,
+        "valid_final": false,
+        "current_calculation_use_valid": null
+      },
+      "metrics": {
+        "facts": {
+          "correct": 0,
+          "scorable": 5
+        },
+        "calculations": {
+          "correct": 0,
+          "scorable": 3
+        },
+        "methodology": {
+          "full_credit_domains": 0,
+          "domains": 4
+        }
+      }
+    }
+  ],
+  "final_batch_complete": false,
+  "caveats": [
+    "Runtime submission is not semantic correctness. A0 F/J grades here must not be paired with B F/J that were not assessed.",
+    "Reviewer authored prompt/driver portions during remediation; independent evidence check is not a fully blinded audit."
+  ],
+  "batch_disposition_counts": {
+    "SUBMITTED": 3,
+    "FAILED": 2,
+    "NOT_STARTED_STOP_REQUESTED": 7
+  },
+  "batch_remaining_planned_runs": [],
+  "unexecuted_A0": [
+    {
+      "case_id": "DTS-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "quality_scores": null
+    }
+  ]
+}

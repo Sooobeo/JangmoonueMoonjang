@@ -1,0 +1,1235 @@
+{
+  "batch": "D5_v032",
+  "conditions": {
+    "B": {
+      "planned": 6,
+      "submitted": 0,
+      "failed": 6,
+      "failure_rate": 1.0,
+      "ready": 0,
+      "facts": {
+        "numerator": 0,
+        "denominator": 30
+      },
+      "calculations": {
+        "numerator": 0,
+        "denominator": 18
+      },
+      "methodology": {
+        "numerator": 0,
+        "denominator": 24,
+        "company_mean": 0.0
+      },
+      "J_full_credit_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "J_each_denominator": 6,
+      "failure_or_observed_material_error": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "known_usage_cost_usd": "0.32056505",
+      "unknown_usage_requests": 0,
+      "total_cost_estimate_usd": "0.32056505",
+      "invoice_cost_usd": null,
+      "elapsed_seconds": {
+        "mean": 59.2405,
+        "median": 58.8025,
+        "minimum": 58.261,
+        "maximum": 62.128
+      },
+      "model_calls": 6,
+      "tool_calls": 96,
+      "submitted_fact_source_support": {
+        "numerator": 0,
+        "denominator": 0,
+        "rate": null,
+        "scope": "Structured submitted facts only; failed runs have no observed final claims and remain in failure/mandatory-score denominators."
+      }
+    },
+    "A0": {
+      "planned": 6,
+      "submitted": 2,
+      "failed": 4,
+      "failure_rate": 0.6666666666666666,
+      "ready": 0,
+      "facts": {
+        "numerator": 7,
+        "denominator": 30
+      },
+      "calculations": {
+        "numerator": 0,
+        "denominator": 18
+      },
+      "methodology": {
+        "numerator": 3,
+        "denominator": 24,
+        "company_mean": 0.125
+      },
+      "J_full_credit_counts": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "J_each_denominator": 6,
+      "failure_or_observed_material_error": {
+        "numerator": 4,
+        "denominator": 6
+      },
+      "known_usage_cost_usd": "0.48452900",
+      "unknown_usage_requests": 1,
+      "total_cost_estimate_usd": null,
+      "invoice_cost_usd": null,
+      "elapsed_seconds": {
+        "mean": 100.47766666666666,
+        "median": 100.0555,
+        "minimum": 63.126,
+        "maximum": 167.331
+      },
+      "model_calls": 55,
+      "tool_calls": 63,
+      "submitted_fact_source_support": {
+        "numerator": 20,
+        "denominator": 21,
+        "rate": 0.9523809523809523,
+        "scope": "Structured submitted facts only; failed runs have no observed final claims and remain in failure/mandatory-score denominators."
+      }
+    }
+  },
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102248Z_B_73727ba7",
+      "directory": "runs/20261113T102248Z_B_73727ba7",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "제출 review.json의 judgments[].facts[]에 구조화된 사실 주장만을 분모로 한다. 각 claim은 한 번 집계하고 여러 인용은 묶어서 확인한다. 사실 묶음 F1~F5의 완전성, 전체 결론·unknowns·memo·요청·계산의 정확도 또는 독립 외부 원천 검증을 측정하는 지표가 아니다.",
+        "observed": false,
+        "assessment": null,
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "support_rate_formula": "FULL / submitted_claims; QUALIFIED is excluded from the strict numerator; denominator 0 => null",
+        "claims": [],
+        "unobserved_reason": "최종 제출 review가 없어 출처 적합성을 관찰할 구조화 사실 주장이 없다. 거부된 초안과 부분 추출은 이 분모에 포함하지 않는다."
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 1,
+      "tool_calls": 16,
+      "read_pages": 34,
+      "elapsed_seconds": 62.128,
+      "known_usage_cost_usd": "0.0272821",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102350Z_A0_9b919d3e",
+      "directory": "runs/20261113T102350Z_A0_9b919d3e",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "API_ERROR:InternalServerError",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "제출 review.json의 judgments[].facts[]에 구조화된 사실 주장만을 분모로 한다. 각 claim은 한 번 집계하고 여러 인용은 묶어서 확인한다. 사실 묶음 F1~F5의 완전성, 전체 결론·unknowns·memo·요청·계산의 정확도 또는 독립 외부 원천 검증을 측정하는 지표가 아니다.",
+        "observed": false,
+        "assessment": null,
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "support_rate_formula": "FULL / submitted_claims; QUALIFIED is excluded from the strict numerator; denominator 0 => null",
+        "claims": [],
+        "unobserved_reason": "최종 제출 review가 없어 출처 적합성을 관찰할 구조화 사실 주장이 없다. 거부된 초안과 부분 추출은 이 분모에 포함하지 않는다."
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 10,
+      "tool_calls": 11,
+      "read_pages": 6,
+      "elapsed_seconds": 167.331,
+      "known_usage_cost_usd": "0.05017265",
+      "unknown_usage_requests": 1
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102638Z_B_667bfd52",
+      "directory": "runs/20261113T102638Z_B_667bfd52",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "제출 review.json의 judgments[].facts[]에 구조화된 사실 주장만을 분모로 한다. 각 claim은 한 번 집계하고 여러 인용은 묶어서 확인한다. 사실 묶음 F1~F5의 완전성, 전체 결론·unknowns·memo·요청·계산의 정확도 또는 독립 외부 원천 검증을 측정하는 지표가 아니다.",
+        "observed": false,
+        "assessment": null,
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "support_rate_formula": "FULL / submitted_claims; QUALIFIED is excluded from the strict numerator; denominator 0 => null",
+        "claims": [],
+        "unobserved_reason": "최종 제출 review가 없어 출처 적합성을 관찰할 구조화 사실 주장이 없다. 거부된 초안과 부분 추출은 이 분모에 포함하지 않는다."
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 1,
+      "tool_calls": 16,
+      "read_pages": 43,
+      "elapsed_seconds": 58.985,
+      "known_usage_cost_usd": "0.02781875",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102737Z_A0_775cc567",
+      "directory": "runs/20261113T102737Z_A0_775cc567",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "facts_correct": 4,
+      "calculations_correct": 0,
+      "judgments": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "methodology_rate": 0.5,
+      "source_appropriateness": {
+        "scope": "제출 review.json의 judgments[].facts[]에 구조화된 사실 주장만을 분모로 한다. 각 claim은 한 번 집계하고 여러 인용은 묶어서 확인한다. 사실 묶음 F1~F5의 완전성, 전체 결론·unknowns·memo·요청·계산의 정확도 또는 독립 외부 원천 검증을 측정하는 지표가 아니다.",
+        "observed": true,
+        "assessment": "ASSESSED_SEMANTIC_SUPPORT_SEPARATE_FROM_READ_VALIDATION",
+        "submitted_claims": 11,
+        "read_location_valid_count": 11,
+        "fully_supported_count": 10,
+        "qualified_count": 1,
+        "unsupported_count": 0,
+        "support_rate": 0.9090909090909091,
+        "support_rate_formula": "FULL / submitted_claims; QUALIFIED is excluded from the strict numerator; denominator 0 => null",
+        "claims": [
+          {
+            "claim_id": "F1",
+            "judgment_id": "J1",
+            "status": "FULL",
+            "reason": "p372 주1에 반기 지배주주 이익 4,366, 세전 처분이익 919 차감, 3,447의 연환산 6,894가 명시되어 있다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/0/facts/0",
+            "claim_text": "발행사의 2026년 반기 지배주주순이익 4,366백만원에서 세전 주식 처분이익 919백만원을 차감한 3,447백만원을 2배하여 적용 이익 6,894백만원으로 공시했다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F1",
+                "locator": "PER에 의한 멜콘의 평가가치 주1 및 적용 당기순이익",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/4/text",
+                "source_text_sha256": "109e7935b854129896e21dff8b18fb3b1e505391b3170922974db9b3f7cc7700"
+              }
+            ]
+          },
+          {
+            "claim_id": "F2",
+            "judgment_id": "J1",
+            "status": "FULL",
+            "reason": "p370 표와 주1이 2025년 3분기~2026년 2분기 합산 및 연결 작성 법인의 지배주주 귀속 기준을 명시한다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/0/facts/1",
+            "claim_text": "비교기업은 2025년 3분기~2026년 2분기 LTM 순이익을 사용하며 연결 작성 법인은 지배주주 귀속분을 쓴다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "F2",
+                "locator": "2026년 2분기 기준 비교기업 PER 산출 표 및 주1",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/2/text",
+                "source_text_sha256": "b55d96c73ad4c224f8dc90750a13712c8a072e2077f9de4d1a7beb42b5863246"
+              }
+            ]
+          },
+          {
+            "claim_id": "F3",
+            "judgment_id": "J1",
+            "status": "QUALIFIED",
+            "reason": "p371은 LTM 7,258에서 주식 처분이익 1,270을 차감해 5,988을 만들고, 대손 1,590을 가산하면 7,578·15,579원임을 제시한다. 숫자와 대손 가산·세효과 미반영은 지지되지만 미조정 LTM이라는 명칭은 대손 미조정이라고 한정해야 한다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/0/facts/2",
+            "claim_text": "공시는 LTM에 일회성 대손상각비 1,590백만원이 포함됐다고 설명하고, 미조정 LTM 적용이익 5,988백만원 및 평가가액 12,310원, 대손상각비를 법인세효과 없이 가산한 경우 7,578백만원 및 15,579원을 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0371",
+                "page": 371,
+                "claim_id": "F3",
+                "locator": "적용 실적 기준별 재무수치 및 주당 평가가액 비교와 주3",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/3/text",
+                "source_text_sha256": "c200ba19467c38a80bd74734dc7ab5984f7496a1349a042f2e1f043f63459be8"
+              }
+            ]
+          },
+          {
+            "claim_id": "F4",
+            "judgment_id": "J2",
+            "status": "FULL",
+            "reason": "p370의 HPSP 34.92, 워트 17.45 및 적용 PER 26.18이 일치한다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/1/facts/0",
+            "claim_text": "공시는 HPSP 34.92배, 워트 17.45배와 적용 평균 PER 26.18배를 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "F4",
+                "locator": "2026년 2분기 기준 비교기업 PER 산출 표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/2/text",
+                "source_text_sha256": "b55d96c73ad4c224f8dc90750a13712c8a072e2077f9de4d1a7beb42b5863246"
+              }
+            ]
+          },
+          {
+            "claim_id": "F5",
+            "judgment_id": "J2",
+            "status": "FULL",
+            "reason": "p363 차이점 표에 멜콘의 트랙 부속 환경 지원과 HPSP의 독립 열처리 역할, 반기 영업이익률 16.5%·56.9%가 명시되어 있다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/1/facts/1",
+            "claim_text": "공시는 멜콘 THC를 포토 공정 트랙에 부속되는 환경 지원 장비로, HPSP 제품을 웨이퍼에 직접 열처리를 하는 독립 공정 장비로 설명하고 2026년 반기 영업이익률을 각각 16.5%와 56.9%로 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0363",
+                "page": 363,
+                "claim_id": "F5",
+                "locator": "동사와 HPSP의 주요 차이점",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 38,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/11/text",
+                "source_text_sha256": "ec2535325454bab613499a2880d610ff213debf6e4601224a8fc135c27e3193e"
+              }
+            ]
+          },
+          {
+            "claim_id": "F6",
+            "judgment_id": "J2",
+            "status": "FULL",
+            "reason": "p367 워트의 2025년 THC 매출 비중 73.02%와 p373 멜콘 반기 별도 THC 60.7%·XPS 17.1%가 일치한다. 기간·분모를 구별해 진술했다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/1/facts/2",
+            "claim_text": "워트는 포토 공정 트랙용 THC를 주력으로 하며 2025년 매출의 THC 비중은 73.02%다. 멜콘의 2026년 반기 별도 매출은 THC 60.7%, XPS 17.1%다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0367",
+                "page": 367,
+                "claim_id": "F6",
+                "locator": "워트 매출유형 2025년 표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 38,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/15/text",
+                "source_text_sha256": "b37de5e7118e8cd03468a2dba69da08d411253c4787f82964d40b6464406236f"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0373",
+                "page": 373,
+                "claim_id": "F6",
+                "locator": "규모 및 주된 사업과의 관련성",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/5/text",
+                "source_text_sha256": "5c090138ae7bb9a7681216c18bf5c2c7f3c9543505c214a0eadb1257fa629f69"
+              }
+            ]
+          },
+          {
+            "claim_id": "F7",
+            "judgment_id": "J2",
+            "status": "FULL",
+            "reason": "p366 선정기준 표가 챔버 온도·압력 정밀 제어의 공통 기능과 전공정 장비 기준을 선정 논거로 제시한다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/1/facts/3",
+            "claim_text": "공시는 HPSP의 챔버 온도와 압력 정밀 제어를 온·습도 관련 제품 기준에 포함하고, 반도체 전공정 장비라는 공통점을 선정 근거로 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0366",
+                "page": 366,
+                "claim_id": "F7",
+                "locator": "HPSP의 비교기업 선정기준 충족 내역",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 38,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/14/text",
+                "source_text_sha256": "e17450ef3fa64aad87b37ff1b0c77541c9ffbbe6ce866702ffae50ba245c1bca"
+              }
+            ]
+          },
+          {
+            "claim_id": "F8",
+            "judgment_id": "J3",
+            "status": "FULL",
+            "reason": "p372 평가가치 표의 180,497백만원·12,735천주·14,173원이 주장과 일치한다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/2/facts/0",
+            "claim_text": "공시는 평가가액 14,173원, 평가액 180,497백만원, 적용주식수 12,735,000주를 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F8",
+                "locator": "PER에 의한 멜콘의 평가가치",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/4/text",
+                "source_text_sha256": "109e7935b854129896e21dff8b18fb3b1e505391b3170922974db9b3f7cc7700"
+              }
+            ]
+          },
+          {
+            "claim_id": "F9",
+            "judgment_id": "J3",
+            "status": "FULL",
+            "reason": "p372 적용주식수 구성 표에 기존 10,000,000·신주 2,500,000·의무인수 75,000·옵션 160,000주가 구분되어 있다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/2/facts/1",
+            "claim_text": "적용주식수는 기발행 10,000,000주, 공모 신주 2,500,000주, 주선인 의무인수 75,000주, 주식매수선택권 160,000주를 포함한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F9",
+                "locator": "적용주식수 구성 표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/4/text",
+                "source_text_sha256": "109e7935b854129896e21dff8b18fb3b1e505391b3170922974db9b3f7cc7700"
+              }
+            ]
+          },
+          {
+            "claim_id": "F10",
+            "judgment_id": "J3",
+            "status": "FULL",
+            "reason": "p373은 처분이익 미차감 연환산 이익 8,732·평가가액 17,951원·조정 후 대비 26.7%를 직접 제시한다. 답변도 공시값 인용으로 한정했다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/2/facts/2",
+            "claim_text": "공시는 처분이익 미차감 시 연환산 이익 8,732백만원, 평가가액 17,951원으로 기준 대비 26.7% 높다고 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0373",
+                "page": 373,
+                "claim_id": "F10",
+                "locator": "규모 및 주된 사업과의 관련성",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 18,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/5/text",
+                "source_text_sha256": "5c090138ae7bb9a7681216c18bf5c2c7f3c9543505c214a0eadb1257fa629f69"
+              }
+            ]
+          },
+          {
+            "claim_id": "F11",
+            "judgment_id": "J4",
+            "status": "FULL",
+            "reason": "p71 정정 전 표의 10,700~12,300원 및 확정 예정과 p72 정정 후 표의 14,173원·하단 주당 확정공모가액 12,300원을 함께 확인했다. 정정 후 일부 예정 문구 잔존은 답변의 별도 한계와도 부합한다.",
+            "answer_file": "runs/20261113T102737Z_A0_775cc567/review.json",
+            "answer_json_pointer": "/judgments/3/facts/0",
+            "claim_text": "정정 전 요약은 희망 공모가 10,700~12,300원과 확정 예정이라는 문구를 담고, 정정 후 요약은 확정 공모가 12,300원을 제시한다. 양쪽의 주당 평가가액은 14,173원이다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0071",
+                "page": 71,
+                "claim_id": "F11",
+                "locator": "주13 정정 전 공모가 산정 요약표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 28,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/6/text",
+                "source_text_sha256": "ebbac0384f7e4d759eed50c6806288311dd3d10d6dba2dbecde98997dbb78f6f"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0072",
+                "page": 72,
+                "claim_id": "F11",
+                "locator": "주13 정정 후 공모가 산정 요약표 및 평가결과",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102737Z_A0_775cc567/events.jsonl",
+                "read_event_line": 28,
+                "source_file": "runs/20261113T102737Z_A0_775cc567/source_packet.json",
+                "source_json_pointer": "/sources/7/text",
+                "source_text_sha256": "f7ac78c9957f9353f4d34b2cc3aac1567f6e9bee2d8857f6738f53cf3cc078a4"
+              }
+            ]
+          }
+        ]
+      },
+      "flags": {
+        "material_error": false,
+        "false_completion": false,
+        "unnecessary_hold": true
+      },
+      "model_calls": 8,
+      "tool_calls": 10,
+      "read_pages": 16,
+      "elapsed_seconds": 63.126,
+      "known_usage_cost_usd": "0.07164695",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102840Z_B_bef29a8c",
+      "directory": "runs/20261113T102840Z_B_bef29a8c",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "제출 review.json의 judgments[].facts[]에 구조화된 사실 주장만을 분모로 한다. 각 claim은 한 번 집계하고 여러 인용은 묶어서 확인한다. 사실 묶음 F1~F5의 완전성, 전체 결론·unknowns·memo·요청·계산의 정확도 또는 독립 외부 원천 검증을 측정하는 지표가 아니다.",
+        "observed": false,
+        "assessment": null,
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "support_rate_formula": "FULL / submitted_claims; QUALIFIED is excluded from the strict numerator; denominator 0 => null",
+        "claims": [],
+        "unobserved_reason": "최종 제출 review가 없어 출처 적합성을 관찰할 구조화 사실 주장이 없다. 거부된 초안과 부분 추출은 이 분모에 포함하지 않는다."
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 1,
+      "tool_calls": 16,
+      "read_pages": 37,
+      "elapsed_seconds": 58.713,
+      "known_usage_cost_usd": "0.06888105",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102939Z_A0_9536c596",
+      "directory": "runs/20261113T102939Z_A0_9536c596",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "facts_correct": 3,
+      "calculations_correct": 0,
+      "judgments": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "methodology_rate": 0.25,
+      "source_appropriateness": {
+        "scope": "제출 review.json의 judgments[].facts[]에 구조화된 사실 주장만을 분모로 한다. 각 claim은 한 번 집계하고 여러 인용은 묶어서 확인한다. 사실 묶음 F1~F5의 완전성, 전체 결론·unknowns·memo·요청·계산의 정확도 또는 독립 외부 원천 검증을 측정하는 지표가 아니다.",
+        "observed": true,
+        "assessment": "ASSESSED_SEMANTIC_SUPPORT_SEPARATE_FROM_READ_VALIDATION",
+        "submitted_claims": 10,
+        "read_location_valid_count": 10,
+        "fully_supported_count": 10,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": 1.0,
+        "support_rate_formula": "FULL / submitted_claims; QUALIFIED is excluded from the strict numerator; denominator 0 => null",
+        "claims": [
+          {
+            "claim_id": "F1",
+            "judgment_id": "J1",
+            "status": "FULL",
+            "reason": "p471 주1 표의 1분기 2,876·2분기 9,284 및 (A+B)×2=24,320백만원이 일치한다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/0/facts/0",
+            "claim_text": "발행사의 2026년 1분기·2분기 순이익은 각각 2,876·9,284백만원이며, 반기 합의 두 배를 적용 순이익 24,320백만원으로 공시했다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0471",
+                "page": 471,
+                "claim_id": "F1",
+                "locator": "PER에 의한 평가가치, 주1 적용순이익 표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 28,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/7/text",
+                "source_text_sha256": "edab84d0a6c94c131b93f85224f4deaded6071965ebf6149744e0d359064a7bc"
+              }
+            ]
+          },
+          {
+            "claim_id": "F2",
+            "judgment_id": "J1",
+            "status": "FULL",
+            "reason": "p469 표와 바로 위 문단이 2026년 반기말 LTM 이익 및 연결 작성 법인의 지배지분 순이익을 명시한다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/0/facts/1",
+            "claim_text": "비교기업은 2026년 반기말 LTM 순이익을 사용하고 연결재무제표 작성법인은 지배지분 순이익을 사용한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0469",
+                "page": 469,
+                "claim_id": "F2",
+                "locator": "2026년 반기 비교기업 PER 산출 표 및 상단 문단",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 33,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/10/text",
+                "source_text_sha256": "3ffc1793c32ad8a6ea55dfe006bc58adb92b374e39b7e43f56aa3e3e1deb12d4"
+              }
+            ]
+          },
+          {
+            "claim_id": "F3",
+            "judgment_id": "J1",
+            "status": "FULL",
+            "reason": "p471 주3과 p472가 LTM 미사용·비경상 항목 조정의 자의성 설명을 연결하고, 영업외비용−수익 2,889와 342백만원을 제시한다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/0/facts/2",
+            "claim_text": "발행사는 LTM과 연환산의 영업외손익 차이 및 비경상 비용을 자의적으로 조정할 위험을 LTM 미사용 이유로 설명했다. 영업외비용에서 영업외수익을 뺀 차이는 각각 2,889백만원과 342백만원으로 제시했다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0471",
+                "page": 471,
+                "claim_id": "F3",
+                "locator": "주3 연환산 선택 사유",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 28,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/7/text",
+                "source_text_sha256": "edab84d0a6c94c131b93f85224f4deaded6071965ebf6149744e0d359064a7bc"
+              },
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0472",
+                "page": 472,
+                "claim_id": "F3",
+                "locator": "비경상 비용 설명 및 영업외손익 차이 표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 33,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/8/text",
+                "source_text_sha256": "c9bd2b628db2b4c8cf662233cb8bd5d64d4a409be2ebf7f1a6bb738391970736"
+              }
+            ]
+          },
+          {
+            "claim_id": "F4",
+            "judgment_id": "J2",
+            "status": "FULL",
+            "reason": "p469 세 비교기업 PER 5.29/34.88/8.26 및 평균 16.14가 일치한다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/1/facts/0",
+            "claim_text": "최종 비교기업 SNT에너지, 비에이치아이, 한텍의 공시 PER은 각각 5.29배, 34.88배, 8.26배이며 3개사 평균은 16.14배다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0469",
+                "page": 469,
+                "claim_id": "F4",
+                "locator": "2026년 반기 비교기업 PER 산출 표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 33,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/10/text",
+                "source_text_sha256": "3ffc1793c32ad8a6ea55dfe006bc58adb92b374e39b7e43f56aa3e3e1deb12d4"
+              }
+            ]
+          },
+          {
+            "claim_id": "F5",
+            "judgment_id": "J2",
+            "status": "FULL",
+            "reason": "p462 선정 표에 SNT 79.8%/18.0%, 비에이치아이 65.4%/21.6%, 한텍 열교환기·반응기·압력용기·탑조류 등 90.8%가 적혀 있다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/1/facts/1",
+            "claim_text": "공시상 매출구성은 SNT에너지 공랭식 열교환기 79.8%·배열회수보일러 18.0%, 비에이치아이 HRSG 65.4%·보일러 21.6%, 한텍 열교환기·반응기·압력용기·탑조류 등 90.8%다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0462",
+                "page": 462,
+                "claim_id": "F5",
+                "locator": "2차 비교기업 선정 주요 매출비중 표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 43,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/14/text",
+                "source_text_sha256": "666a14ffbe182a0611a6003de88b658bf981e7d3a4ad3b62b79f746bddc26be4"
+              }
+            ]
+          },
+          {
+            "claim_id": "F6",
+            "judgment_id": "J2",
+            "status": "FULL",
+            "reason": "p468은 같은 비중을 반영하는 산술평균 선택을 설명하고 p469는 비에이치아이와 발행사의 열 관련 플랜트 설비 및 글로벌 건설·EPC 고객 공통성을 제시한다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/1/facts/2",
+            "claim_text": "공시는 비에이치아이가 발전소 및 석유화학 플랜트 열 관련 설비와 글로벌 건설·EPC 고객에서 발행사와 유사하다고 설명한다. 3개사에 같은 비중을 반영하기 위해 산술평균을 선택했다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0468",
+                "page": 468,
+                "claim_id": "F6",
+                "locator": "산술평균 선택 이유",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 33,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/9/text",
+                "source_text_sha256": "916c0e4695c02a36bb2799cd0ec55a865c412d0ea2abce34fb67ce15e921bef3"
+              },
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0469",
+                "page": 469,
+                "claim_id": "F6",
+                "locator": "비에이치아이 사업 유사성 문단",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 33,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/10/text",
+                "source_text_sha256": "3ffc1793c32ad8a6ea55dfe006bc58adb92b374e39b7e43f56aa3e3e1deb12d4"
+              }
+            ]
+          },
+          {
+            "claim_id": "F7",
+            "judgment_id": "J3",
+            "status": "FULL",
+            "reason": "p468~469는 비교기업 3개에서 순위가 유지되면 나머지 PER의 변동이 중앙값에 반영되지 않을 수 있다는 한계와 동등 반영의 산술평균 선택을 설명한다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/2/facts/0",
+            "claim_text": "공시는 산술평균을 적용한 이유로 각 비교기업을 동등하게 반영하는 반면 중앙값은 다른 기업의 PER 변동을 반영하지 못할 수 있다는 점을 들었다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0468",
+                "page": 468,
+                "claim_id": "F7",
+                "locator": "평균 및 중앙값 선택 이유",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 33,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/9/text",
+                "source_text_sha256": "916c0e4695c02a36bb2799cd0ec55a865c412d0ea2abce34fb67ce15e921bef3"
+              },
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0469",
+                "page": 469,
+                "claim_id": "F7",
+                "locator": "산술평균 선택 문단",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 33,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/10/text",
+                "source_text_sha256": "3ffc1793c32ad8a6ea55dfe006bc58adb92b374e39b7e43f56aa3e3e1deb12d4"
+              }
+            ]
+          },
+          {
+            "claim_id": "F8",
+            "judgment_id": "J4",
+            "status": "FULL",
+            "reason": "p100 정정 후 요약표에 24,320백만원·16.14배·14,881,735주·26,380원·확정 18,500원이 명시되어 있다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/3/facts/0",
+            "claim_text": "물리 100쪽 정정 후 요약표는 이익 24,320백만원, PER 16.14배, 적용주식수 14,881,735주, 주당 평가가액 26,380원 및 확정 공모가 18,500원을 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0100",
+                "page": 100,
+                "claim_id": "F8",
+                "locator": "(주19) 정정 후 공모가 산정 요약표",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 13,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/1/text",
+                "source_text_sha256": "44f9c3c3b082c00fc7258b3712b335e2d5cd971e5d4063ba30bf55bb8367d11d"
+              }
+            ]
+          },
+          {
+            "claim_id": "F9",
+            "judgment_id": "J4",
+            "status": "FULL",
+            "reason": "p471 주2에 12,630,528·2,228,917·22,290과 합계 14,881,735주가 있으며, 옵션 400,000주가 2028년 9월 행사로 제외됨을 명시한다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/3/facts/1",
+            "claim_text": "정정 후 본문은 발행주식 12,630,528주, 신주 2,228,917주 및 상장주선인 추가인수 22,290주를 포함하고 2028년 9월 행사기간인 옵션 400,000주는 제외해 합계 14,881,735주를 제시한다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0471",
+                "page": 471,
+                "claim_id": "F9",
+                "locator": "적용 주식수 산정 표 및 주석",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 28,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/7/text",
+                "source_text_sha256": "edab84d0a6c94c131b93f85224f4deaded6071965ebf6149744e0d359064a7bc"
+              }
+            ]
+          },
+          {
+            "claim_id": "F10",
+            "judgment_id": "J4",
+            "status": "FULL",
+            "reason": "p103 이전 평가표의 14,859,445주·26,419원과 p104의 17,000~18,500원 및 확정 공모가 미정이 일치한다. 읽은 정정 구획의 전후 맥락과 현재 p100/471을 함께 대조했다.",
+            "answer_file": "runs/20261113T102939Z_A0_9536c596/review.json",
+            "answer_json_pointer": "/judgments/3/facts/2",
+            "claim_text": "정정 전 구획에는 적용주식수 14,859,445주와 주당 평가가액 26,419원이 표시되며 공모 희망가는 17,000~18,500원이고 확정 전 상태였다.",
+            "read_locations_valid": true,
+            "evidence": [
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0103",
+                "page": 103,
+                "claim_id": "F10",
+                "locator": "(주20) 정정 전 PER 평가가치 및 적용 주식수",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 13,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/4/text",
+                "source_text_sha256": "e22a89ea26692dd3a9b74fdd15808bd6420e23fe4b282c3831c92a6fd5768a53"
+              },
+              {
+                "doc_id": "DTS-PROS-01",
+                "chunk_id": "DTS-PROS-01-p0104",
+                "page": 104,
+                "claim_id": "F10",
+                "locator": "정정 전 희망공모가액 산출내역",
+                "read_location_valid": true,
+                "read_event_file": "runs/20261113T102939Z_A0_9536c596/events.jsonl",
+                "read_event_line": 13,
+                "source_file": "runs/20261113T102939Z_A0_9536c596/source_packet.json",
+                "source_json_pointer": "/sources/5/text",
+                "source_text_sha256": "84216dcb4bed27930d197c4c81e26cc27b9e4233215c928f0cd4bbec2c479316"
+              }
+            ]
+          }
+        ]
+      },
+      "flags": {
+        "material_error": false,
+        "false_completion": false,
+        "unnecessary_hold": true
+      },
+      "model_calls": 9,
+      "tool_calls": 11,
+      "read_pages": 19,
+      "elapsed_seconds": 66.364,
+      "known_usage_cost_usd": "0.07442260",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103045Z_B_25ff9e77",
+      "directory": "runs/20261113T103045Z_B_25ff9e77",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "Structured judgments[].facts in a valid submitted review only; not all natural-language conclusions.",
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": [],
+        "reason": "No valid submitted review; denominator0 does not imply source support0%.",
+        "retrieved_pages": 30,
+        "assessment": null,
+        "observed": false
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 1,
+      "tool_calls": 16,
+      "read_pages": 30,
+      "elapsed_seconds": 58.261,
+      "known_usage_cost_usd": "0.07143980",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103143Z_A0_9bdd2148",
+      "directory": "runs/20261113T103143Z_A0_9bdd2148",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "Structured judgments[].facts in a valid submitted review only; not all natural-language conclusions.",
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": [],
+        "reason": "No valid submitted review; denominator0 does not imply source support0%.",
+        "retrieved_pages": 14,
+        "assessment": null,
+        "observed": false
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 9,
+      "tool_calls": 10,
+      "read_pages": 14,
+      "elapsed_seconds": 100.882,
+      "known_usage_cost_usd": "0.10174780",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103324Z_B_332eb41f",
+      "directory": "runs/20261113T103324Z_B_332eb41f",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "Structured judgments[].facts in a valid submitted review only; not all natural-language conclusions.",
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": [],
+        "reason": "No valid submitted review; denominator0 does not imply source support0%.",
+        "retrieved_pages": 28,
+        "assessment": null,
+        "observed": false
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 1,
+      "tool_calls": 16,
+      "read_pages": 28,
+      "elapsed_seconds": 58.464,
+      "known_usage_cost_usd": "0.06303355",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "directory": "runs/20261113T103423Z_A0_cc00c4a1",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "Structured judgments[].facts in a valid submitted review only; not all natural-language conclusions.",
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": [],
+        "reason": "No valid submitted review; denominator0 does not imply source support0%.",
+        "retrieved_pages": 11,
+        "assessment": null,
+        "observed": false
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 9,
+      "tool_calls": 10,
+      "read_pages": 11,
+      "elapsed_seconds": 99.229,
+      "known_usage_cost_usd": "0.08993870",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103602Z_B_09ae0bb7",
+      "directory": "runs/20261113T103602Z_B_09ae0bb7",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "Structured judgments[].facts in a valid submitted review only; not all natural-language conclusions.",
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": [],
+        "reason": "No valid submitted review; denominator0 does not imply source support0%.",
+        "retrieved_pages": 30,
+        "assessment": null,
+        "observed": false
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 1,
+      "tool_calls": 16,
+      "read_pages": 30,
+      "elapsed_seconds": 58.892,
+      "known_usage_cost_usd": "0.06210980",
+      "unknown_usage_requests": 0
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103701Z_A0_d0d960a0",
+      "directory": "runs/20261113T103701Z_A0_d0d960a0",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "facts_correct": 0,
+      "calculations_correct": 0,
+      "judgments": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methodology_rate": 0.0,
+      "source_appropriateness": {
+        "scope": "Structured judgments[].facts in a valid submitted review only; not all natural-language conclusions.",
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": [],
+        "reason": "No valid submitted review; denominator0 does not imply source support0%.",
+        "retrieved_pages": 17,
+        "assessment": null,
+        "observed": false
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "model_calls": 10,
+      "tool_calls": 11,
+      "read_pages": 17,
+      "elapsed_seconds": 105.934,
+      "known_usage_cost_usd": "0.09660030",
+      "unknown_usage_requests": 0
+    }
+  ],
+  "scoring": "Frozen case rubrics; FAILED mandatory non-submission is zero under Protocol §11.1; method=count(J==2)/4.",
+  "human_review_complete": false,
+  "blind_grading": false,
+  "human_work_minutes": null,
+  "limits": [
+    "AI assisted development grading; six companies and one attempt per condition.",
+    "Submitted does not mean correct or calculation complete. Unobserved semantic errors are null.",
+    "No inference that A0 is superior: B output truncation prevents a full substantive comparison.",
+    "Costs use actual cached/write/ordinary usage with recorded assumptions; no invoice obtained.",
+    "v0.3.1 failures/interruption and two compatibility diagnostics are retained separately, not hidden or pooled as paired v0.3.2 results."
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "trace_checks": [
+    {
+      "failure_id": "D6-001",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-002",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-003",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-004",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-005",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-006",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-007",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-008",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-009",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-010",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-011",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-012",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-013",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-014",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-015",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-016",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-017",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-018",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-019",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-020",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-021",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-022",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-023",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-024",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    },
+    {
+      "failure_id": "D6-025",
+      "run_metadata_tools_pages_snapshots_calculations_match": true,
+      "evidence_files_exist": true
+    }
+  ],
+  "candidate_link_count": 12,
+  "candidate_cost_arithmetic_pass": true,
+  "frozen_batch_run_count": 12
+}

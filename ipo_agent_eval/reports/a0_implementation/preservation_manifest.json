@@ -1,0 +1,4252 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-13T09:52:20.917910+00:00",
+  "client_date": "2026-11-13",
+  "client_timezone": "Asia/Seoul",
+  "phase": "D0",
+  "git_head": "1102edaa9bc27307500662e40fa6fffd3ef33234",
+  "git_status_at_capture": "M \"whole plan/IPO_당장할일.md\"\n?? ipo_agent_eval/_qa/\n?? ipo_agent_eval/reports/a0_implementation/\n?? ipo_agent_eval/reports/html_progress_structure_verification.json\n?? ipo_agent_eval/reports/html_progress_summary_verification.json\n?? ipo_agent_eval/reports/pilot_a0_detailed_design_verification.json\n?? \"whole plan/IPO_진행현황_남은일.html\"\n?? \"whole plan/IPO_파일럿보완_A0_상세설계.html\"\n?? \"whole plan/IPO_파일럿보완_A0_상세설계.md\"",
+  "policy": {
+    "immutable_evidence": "Every existing data/run/grading/report file must retain its original bytes.",
+    "versioned_source": "Working source may change; its copied pre-change snapshot must remain identical.",
+    "versioned_design": "Design documents may be updated with evidence; pre-change copies are retained.",
+    "excluded": [
+      "reports/a0_implementation (this new artifact directory)",
+      "cache directories",
+      ".env*",
+      ".key/.pem/.pfx/.p12",
+      "symlinks"
+    ],
+    "new_files": "New run, report, source and case files are allowed and do not replace baseline evidence."
+  },
+  "counts_by_category": {
+    "versioned_source": 27,
+    "immutable_evidence": 663,
+    "versioned_design": 8
+  },
+  "entries": [
+    {
+      "path": "ipo_agent_eval/.gitignore",
+      "category": "versioned_source",
+      "bytes": 393,
+      "sha256": "f39d05d923cbe2e7a991723f5246e6602f2877186cfb8d904f80a53ebf64e85f",
+      "snapshot": "baseline_source/ipo_agent_eval/.gitignore"
+    },
+    {
+      "path": "ipo_agent_eval/README.md",
+      "category": "versioned_source",
+      "bytes": 10990,
+      "sha256": "99af23208206f98189462b33f1cb7c1a680c576b9068d15b38196488af598b2f",
+      "snapshot": "baseline_source/ipo_agent_eval/README.md"
+    },
+    {
+      "path": "ipo_agent_eval/config/B.json",
+      "category": "versioned_source",
+      "bytes": 2063,
+      "sha256": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+      "snapshot": "baseline_source/ipo_agent_eval/config/B.json"
+    },
+    {
+      "path": "ipo_agent_eval/config/cases.json",
+      "category": "versioned_source",
+      "bytes": 619,
+      "sha256": "773b6d0e93eb2c56f6833545401c09077f846990db232b105b22aaa96e57a087",
+      "snapshot": "baseline_source/ipo_agent_eval/config/cases.json"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/DTS-DEV-01/public/case_manifest.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 577,
+      "sha256": "85b88cb00c8958221f03eca149778ace26b0ed9523c1f408f2c9777ceec86872"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/DTS-DEV-01/public/chunks.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 2572294,
+      "sha256": "494c70bec339e0c7e3e4706c30e1545c2186a1c17800aa6624890512b7468645"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/DTS-DEV-01/public/documents.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 2898,
+      "sha256": "481762e50894b6c0191c88d2cf108cc9b7dfd8b766a22c3c72391e176ad55a57"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/DTS-DEV-01/public/manual.md",
+      "category": "immutable_evidence",
+      "bytes": 8326,
+      "sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/DTS-DEV-01/public/provenance/preparation_summary.json",
+      "category": "immutable_evidence",
+      "bytes": 2395,
+      "sha256": "91500d0d978e79f66873dc5779121eb12ef78df9c3b1766446fe2fb666daff27"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/DTS-DEV-01/public/provenance/source_spec.json",
+      "category": "immutable_evidence",
+      "bytes": 3262,
+      "sha256": "920d0ffa9b3d164cc166dd3e8e94af2cc52d9619c2eda3cb92911edd169fd21e"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/DTS-DEV-01/public/raw/DTS-PROS-01.pdf",
+      "category": "immutable_evidence",
+      "bytes": 5263045,
+      "sha256": "2a401607d5147d2e839ccd971ade3914cd4a0df2e6b49fb9cc84e6d6449fa4e4"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/MELCON-DEV-01/public/case_manifest.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 571,
+      "sha256": "403ecb95a9cd05b414514846cd568c68548192d3b57a770dc0b952b1e315469c"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/MELCON-DEV-01/public/chunks.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 2696875,
+      "sha256": "37a0ca3390b9a3ddd75059977fde49726bf7802a2174219a3b43605e11a9a58a"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/MELCON-DEV-01/public/documents.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 3026,
+      "sha256": "bd4522e1888b7065475bc0206cee878c47a6d522c2db69f72b248d8c376f0441"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/MELCON-DEV-01/public/manual.md",
+      "category": "immutable_evidence",
+      "bytes": 8326,
+      "sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/MELCON-DEV-01/public/provenance/preparation_summary.json",
+      "category": "immutable_evidence",
+      "bytes": 1224,
+      "sha256": "16b5ff544c2dd5da4f013a7ad7f6c28bad0f32d816ae10d4a6b4176257e7a33b"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/MELCON-DEV-01/public/provenance/source_spec.json",
+      "category": "immutable_evidence",
+      "bytes": 3406,
+      "sha256": "55ec2457d799f0f51f2e43732fe0b1527cc0d219b6082ed0a2f6e87553f2ca77"
+    },
+    {
+      "path": "ipo_agent_eval/data/cases/MELCON-DEV-01/public/raw/MELCON-PROS-01.pdf",
+      "category": "immutable_evidence",
+      "bytes": 2942212,
+      "sha256": "b205592c500bee617469fdfb35a85fef33685969383304986f00c92707713606"
+    },
+    {
+      "path": "ipo_agent_eval/data/methods/IPO_PER_B_v0.2.md",
+      "category": "immutable_evidence",
+      "bytes": 8326,
+      "sha256": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/build_gold.py",
+      "category": "immutable_evidence",
+      "bytes": 12404,
+      "sha256": "8ea163d6d7c0a24f605cfa2a87963fb8bbea9b7850fe0ea9c940ee74587ce07d"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/dart_body_1.html",
+      "category": "immutable_evidence",
+      "bytes": 851398,
+      "sha256": "d73e33463908a6becbf02a5abd99f5c7d24139043687b2187dd7ff7ba9a208e1"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/dart_body_2.html",
+      "category": "immutable_evidence",
+      "bytes": 29824,
+      "sha256": "53bec50a3067b67d7398b14bcaa6e9ad880cc5395f6bc991f06b36dd31227cd4"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/gold.json",
+      "category": "immutable_evidence",
+      "bytes": 10196,
+      "sha256": "63628c5ae0301aafb8b9c3e6b3a3483c5dabaddf9faa3f57e4a20c5521cdb14c"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/grade_R001.json",
+      "category": "immutable_evidence",
+      "bytes": 19365,
+      "sha256": "2ca1eb7d7abdae5331ffd4ee50104a95a209d5478cc5db59adc852cb7ed735a9"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-1.png",
+      "category": "immutable_evidence",
+      "bytes": 62161,
+      "sha256": "96a09ac17f3df7f582e178a1b547b251cdefd32b46436cefe485219cf47c26d1"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-100.png",
+      "category": "immutable_evidence",
+      "bytes": 101698,
+      "sha256": "375012b6b384c5dec0c49b6b1ff4201bdad9fe561be2bb3d93170dc9f3dfd6ed"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-103.png",
+      "category": "immutable_evidence",
+      "bytes": 119838,
+      "sha256": "e688ce124ef01f5c2aad4a2eb2d9e4885eef13384916ff551bbc1a3f6d496257"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-110.png",
+      "category": "immutable_evidence",
+      "bytes": 85676,
+      "sha256": "1dc54f58cc9594933e4d54f272357f52b54239b1620a75195f3e37b4feab0ee3"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-133.png",
+      "category": "immutable_evidence",
+      "bytes": 99684,
+      "sha256": "294fc360be9ba99fb980c8d579ecd1907805305eb295268be4037ea6924025c2"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-137.png",
+      "category": "immutable_evidence",
+      "bytes": 84598,
+      "sha256": "141b9eb4425a837342a8df750ce94ec1e5b4ee3fd49b1466916db9053979f98c"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-143.png",
+      "category": "immutable_evidence",
+      "bytes": 113120,
+      "sha256": "7a63ce49043a329076659dd44a194812fcf4bc6f9eed182f88fe1be7f2eb64cc"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-454.png",
+      "category": "immutable_evidence",
+      "bytes": 108216,
+      "sha256": "8249574950ebf01d63aa823608e8cba547b3362902a649c4995da74d7a2092e6"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-462.png",
+      "category": "immutable_evidence",
+      "bytes": 157249,
+      "sha256": "c8a04ec1692391ede0857f5bf19d2fa04fde27f803269153134fdeb95ad8c8d2"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-463.png",
+      "category": "immutable_evidence",
+      "bytes": 169066,
+      "sha256": "c7186897c692d067ae1c3bb592244423b0290d24124c4a6e57b7ada8e86d4965"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-464.png",
+      "category": "immutable_evidence",
+      "bytes": 171266,
+      "sha256": "d5f0868a744bec27db4da8b239eb64dec103bf4a7695e1638b045c5a35595fc2"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-465.png",
+      "category": "immutable_evidence",
+      "bytes": 156441,
+      "sha256": "9af38a8bec5538158e03141a110f89e53bb912af4b26bad24f07cde169167ca4"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-469.png",
+      "category": "immutable_evidence",
+      "bytes": 162465,
+      "sha256": "d728b23cf9fc7cb459df7874825c9db9ce6f53d7219b3c72ad1e5cf04ab9909e"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-470.png",
+      "category": "immutable_evidence",
+      "bytes": 51837,
+      "sha256": "3bb7fa7f4d877438056eebbe0342184b3b09d6d012eecfcf26f0da997a8b3a9a"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-471.png",
+      "category": "immutable_evidence",
+      "bytes": 98847,
+      "sha256": "09a1eab5cfcf82a5a3d73eb7e0c2ffc30d86da2ea53971ad6b7f7dead1e668fb"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-472.png",
+      "category": "immutable_evidence",
+      "bytes": 85530,
+      "sha256": "750d3dcc76b09cc4dc94f878ed996ac429382fb9f5b650e6984dbe83c9dcb606"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-473.png",
+      "category": "immutable_evidence",
+      "bytes": 158896,
+      "sha256": "b1f13b0494e116b566ae6ef72dbf4e349ba7d443adf12f48a47e7562b36b66d6"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-483.png",
+      "category": "immutable_evidence",
+      "bytes": 143725,
+      "sha256": "7fc4c01b8e65d9092c672de88a7d0fdc8b1c19990f9cd45add6f239c30a45990"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-549.png",
+      "category": "immutable_evidence",
+      "bytes": 85262,
+      "sha256": "85d3f04bf46791414fbdfddd20028c425737831c3920e1604f5759ab862571c9"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-594.png",
+      "category": "immutable_evidence",
+      "bytes": 144955,
+      "sha256": "3d93a5d66caf6681cf97bd779f50f4ba0f3d7698a6b0683341a43c65719e6785"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-597.png",
+      "category": "immutable_evidence",
+      "bytes": 83816,
+      "sha256": "8a025ebea7b7ba674439e2082ca11732f4ff8a9f67aa5a37d6d258aa88ca409a"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/inspection/page-634.png",
+      "category": "immutable_evidence",
+      "bytes": 139722,
+      "sha256": "65e8a1d4b276a4a13c3953ec6d6cfab4941689d4c6b1f48812892cbf5607e28c"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/numeric_audit.json",
+      "category": "immutable_evidence",
+      "bytes": 10434,
+      "sha256": "a590bafa086afc8f1ef72aa652640932aa667dac522d0058332193b6ec1e2264"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/page_numbering.json",
+      "category": "immutable_evidence",
+      "bytes": 38757,
+      "sha256": "d098502c11b03a6c1317fd558a39e5820dde61464aec7d8ac7e60c88e537d576"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/pages.json",
+      "category": "immutable_evidence",
+      "bytes": 2007875,
+      "sha256": "3e16262833424ee33b40e783fb5c8eeeba0174faf55980b6b72ba711ca40a4f6"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/prepare_evidence.py",
+      "category": "immutable_evidence",
+      "bytes": 6781,
+      "sha256": "97d4e08eaa1d4ba7d4f8134123a475a9cbb881f3964fe56b4e2d4942e3ff731c"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/receipt.html",
+      "category": "immutable_evidence",
+      "bytes": 52971,
+      "sha256": "3dfa2edf09a23a701616f00daff3392be11df871c2502a6b534d2db9fb71c56b"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/rubric.json",
+      "category": "immutable_evidence",
+      "bytes": 10196,
+      "sha256": "63628c5ae0301aafb8b9c3e6b3a3483c5dabaddf9faa3f57e4a20c5521cdb14c"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/rubric.md",
+      "category": "immutable_evidence",
+      "bytes": 15456,
+      "sha256": "9638022b40d77b58488e74c9b46101fb41102c6f5af88c3bea017362ea2ca59d"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/source_provenance.json",
+      "category": "immutable_evidence",
+      "bytes": 4959,
+      "sha256": "b0660fde7f89484b4575bfd9545c2b787bcb62bed623cad9bea78fd1ea20ebba"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/DTS-DEV-01/verification_log.json",
+      "category": "immutable_evidence",
+      "bytes": 5442,
+      "sha256": "9ae8b3e6fbf53094032b2bec509dad89752f0282c84a87d0101473697b42f386"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/dart_correction.html",
+      "category": "immutable_evidence",
+      "bytes": 652908,
+      "sha256": "87812e7d5306a07f083a6f1ef39cb211b037e710dced308a3d42c413362d9be1"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/dart_cover.html",
+      "category": "immutable_evidence",
+      "bytes": 25544,
+      "sha256": "428314ad73432fabc6739f36773838e351e850f984d19cd70c532c626d3e9771"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/dart_main_20260929000194.html",
+      "category": "immutable_evidence",
+      "bytes": 54692,
+      "sha256": "c37ee551503fd9429bd29866af310b445e6ff500291bd78285f365303b5b65e3"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/dart_offer.html",
+      "category": "immutable_evidence",
+      "bytes": 383808,
+      "sha256": "edea826adb7d35931d88558e98495385e51e2843ff6d202c3d2ba19203ec5c00"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/dart_underwriter.html",
+      "category": "immutable_evidence",
+      "bytes": 584815,
+      "sha256": "2abcc77c27e9688a0642acd446ba5acc552caf23378e84dafbc276d9dc915449"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/dart_underwriter.txt",
+      "category": "immutable_evidence",
+      "bytes": 237142,
+      "sha256": "b1a0346a95a6ba5e0c31a6250b450aa06b1db2fc6f41d98cf7a85aeb1a8d603e"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/gold.json",
+      "category": "immutable_evidence",
+      "bytes": 22893,
+      "sha256": "8b792b79d4f470bc78ff34c2a6730e3775821ddb0dc9bd1a88001d8879d71585"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/grade_R001.json",
+      "category": "immutable_evidence",
+      "bytes": 53148,
+      "sha256": "2e571b6aeb49477cbe9ed0c9061295a3c69d520d158d8b81f9afea39056b9f21"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/pdf_pages.json",
+      "category": "immutable_evidence",
+      "bytes": 2201525,
+      "sha256": "53e808b630668891505fc3f294df70b314c23657f6ee4974eac5e1f757c7e660"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/prepare_gold.py",
+      "category": "immutable_evidence",
+      "bytes": 19251,
+      "sha256": "d807e6bb43e275b75dbb9dff715f94de109c6722a70bd1c7e0ea891caa46032e"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0003.png",
+      "category": "immutable_evidence",
+      "bytes": 91309,
+      "sha256": "f43fa9cb1199c63c21044e0398121e01455d3d7754da0c346ed66e77b419c0c7"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0098.png",
+      "category": "immutable_evidence",
+      "bytes": 115586,
+      "sha256": "3a923fba3b408b2e8a25685f21f9e5c2fb600ba0cc3f1e690ae282943148c8e3"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0324.png",
+      "category": "immutable_evidence",
+      "bytes": 300025,
+      "sha256": "3597e12ec7ac2109c95d19390b25d42dadad716033a1627897804d9a2b41260e"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0328.png",
+      "category": "immutable_evidence",
+      "bytes": 198714,
+      "sha256": "2c8c3e342486308bc705e2aa9f1993466de673c816446fee82706ac4d3e18c3c"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0363.png",
+      "category": "immutable_evidence",
+      "bytes": 199126,
+      "sha256": "6941010168b38f622b0315e6920ab69ac207352b040418d078d576ea59b567d3"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0370.png",
+      "category": "immutable_evidence",
+      "bytes": 162081,
+      "sha256": "3405d87582c608949757cf61c1e16e895a0af642d97dc233a0510921200b1639"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0371.png",
+      "category": "immutable_evidence",
+      "bytes": 203316,
+      "sha256": "757f064aa84e0540472b243f538498f5d7b35c7b9106a38dfea6c7a9ff777288"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0372.png",
+      "category": "immutable_evidence",
+      "bytes": 162839,
+      "sha256": "dbd22cf9604073459cae2591a43701a0117594e57899ea76b83235d44015a9e9"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0373.png",
+      "category": "immutable_evidence",
+      "bytes": 230438,
+      "sha256": "ccc526f07bc23e1d62bfc6d1411b3f4188032085dd55a312ad489d09f8de348a"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/qa_png/p0515.png",
+      "category": "immutable_evidence",
+      "bytes": 111381,
+      "sha256": "4e1540d759298323ab41ee0824100e9b987428b1532458e0add701fbe0c6fe91"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/rubric.md",
+      "category": "immutable_evidence",
+      "bytes": 17105,
+      "sha256": "a79c861d75e8384466454691e20a0f826a09ef81f1259f600c19781806437037"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/source_provenance.json",
+      "category": "immutable_evidence",
+      "bytes": 5655,
+      "sha256": "6f28887be9dfe3f986d421dcca6dcf4811e74adf0125901a3e7d52bc618444ee"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/verification.json",
+      "category": "immutable_evidence",
+      "bytes": 3043,
+      "sha256": "ecf2ce500b769c80e620aaa66ec26925f8862142f1caf7936ff8d3d3a8587214"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/MELCON-DEV-01/verify_gold.py",
+      "category": "immutable_evidence",
+      "bytes": 6513,
+      "sha256": "02814c3bc51fd7a2d8ab930ecfdd043333f4897c4b1c94c520eb03c3acd705a7"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/R001_numeric_audit.json",
+      "category": "immutable_evidence",
+      "bytes": 34219,
+      "sha256": "1081dc53b3711fd028d66017233220cea7a940af7b3fdfde658c54ccf4774557"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/R001_numeric_audit.py",
+      "category": "immutable_evidence",
+      "bytes": 11238,
+      "sha256": "6ca954d058062babfef1100a768f2a140e680d22fa13d4278392edfdc6a286e3"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/R001_proxy_grade.json",
+      "category": "immutable_evidence",
+      "bytes": 11863,
+      "sha256": "d506b5be866febf780f1712795e4679a467bacf43389b2a2500c019699dc8815"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/grading_export_map_R001.json",
+      "category": "immutable_evidence",
+      "bytes": 295,
+      "sha256": "a49e0f02dc588d24288c3cd96b7e0212bba31acfd15f7af659bab2001368fa56"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/B_0.2.0_before_budget_adjustment.json",
+      "category": "immutable_evidence",
+      "bytes": 1550,
+      "sha256": "4aa88844946f20553d26ba7955550d1056b72b0e40d92594373dae45bb929e9b"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/IPO_당장할일_실행전.md",
+      "category": "immutable_evidence",
+      "bytes": 11683,
+      "sha256": "d4340e5a7759b50e3facc0a9fc4cf716f7320f2055bdfa2273daa6771e9c65fd"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/api_documentation_check.json",
+      "category": "immutable_evidence",
+      "bytes": 641,
+      "sha256": "36959a69c7cccc7ca52ef2645945e8a74279fcaf039f8251fc8c2101751dc0d3"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/config/B.json",
+      "category": "immutable_evidence",
+      "bytes": 1263,
+      "sha256": "5a4bfdcb93c545d84f3c3daa9e8a3b08769ee3dc1c718a5b6cb870e0333bccf0"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/ipo_eval/__init__.py",
+      "category": "immutable_evidence",
+      "bytes": 75,
+      "sha256": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/ipo_eval/calculations.py",
+      "category": "immutable_evidence",
+      "bytes": 15016,
+      "sha256": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/ipo_eval/corpus.py",
+      "category": "immutable_evidence",
+      "bytes": 5095,
+      "sha256": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/ipo_eval/id_repairs.py",
+      "category": "immutable_evidence",
+      "bytes": 6510,
+      "sha256": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/ipo_eval/runner.py",
+      "category": "immutable_evidence",
+      "bytes": 25362,
+      "sha256": "95f94af3c7e67d90c88a44b2bca87d63824ab09bb1e507f6f2a186d8341e1d4b"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/ipo_eval/schemas.py",
+      "category": "immutable_evidence",
+      "bytes": 2469,
+      "sha256": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/ipo_eval/validation.py",
+      "category": "immutable_evidence",
+      "bytes": 6402,
+      "sha256": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/prompts/common.md",
+      "category": "immutable_evidence",
+      "bytes": 2757,
+      "sha256": "c0dd747b3a92079d123bdcf056fb748e89275744fa858c6dad7a629c671ef426"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/scripts/audit_costs.py",
+      "category": "immutable_evidence",
+      "bytes": 14264,
+      "sha256": "22b7a34680ed2909b2ceb8e6c9deface7d7d5fa9edf5dc76c03d30e8d14aa071"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/scripts/build_grading_docx.py",
+      "category": "immutable_evidence",
+      "bytes": 34570,
+      "sha256": "9e60f899e6a9a3d08a8cdce99492d10b64bed16b43005520bf25d27a9a8bd809"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/scripts/build_r001_grade.py",
+      "category": "immutable_evidence",
+      "bytes": 21733,
+      "sha256": "c574c3816451617c6feda6f51f35e9c1e218775abb1de33e9c369888a64df0df"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/scripts/prepare_hdms.py",
+      "category": "immutable_evidence",
+      "bytes": 11269,
+      "sha256": "0e26a1108af720673cb29919a2a81cf60ef6dca6764270b7dccddcf15c34ce3a"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/before_changes/scripts/render_grading_docx.py",
+      "category": "immutable_evidence",
+      "bytes": 1490,
+      "sha256": "9538308fcd1b116c812be4ec9bd2f27371588501edfc0b3cf686f2290676ace7"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/budget_adjustment.json",
+      "category": "immutable_evidence",
+      "bytes": 912,
+      "sha256": "2e0ad37a48c9b4bef9198d971c2a3b7317bb5e655d15b4e48c4aaf564369d3aa"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/final_deliverable_verification.json",
+      "category": "immutable_evidence",
+      "bytes": 1405,
+      "sha256": "6a03b69324f40e3a3323e2bea6ea2dfe7489f48be21287c074d6b1c019ec9afa"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/final_grade_adoption.json",
+      "category": "immutable_evidence",
+      "bytes": 2050,
+      "sha256": "43d20ec97f472cfe7ea40375cf1671c90d1f9d40a22053486f18a32e9cb7aa45"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/freeze_audit_addendum.json",
+      "category": "immutable_evidence",
+      "bytes": 448,
+      "sha256": "3cb3d619501a542c06c0193e04e08ea826d18ff698b8c7538d40e484e6479129"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/input_audit_20261113T043026Z.json",
+      "category": "immutable_evidence",
+      "bytes": 2119,
+      "sha256": "818939531dafcf77868d55c918fe873f6035a1c438081ac270fca8897b023ae2"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/post_run_protocol_audit.json",
+      "category": "immutable_evidence",
+      "bytes": 55769,
+      "sha256": "8f0e5b66086ff9df97ae061fac659e30cc83280eb9f341e842a6cc0b87f79bae"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/post_run_protocol_audit.py",
+      "category": "immutable_evidence",
+      "bytes": 19046,
+      "sha256": "ca933ff792b9bb5b77f7d71258694df619316011ab6c1dc28019a469be4631bc"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/pre_answer_freeze.json",
+      "category": "immutable_evidence",
+      "bytes": 4007,
+      "sha256": "06a02a2f2dfc5f7f048085db76e48552c97ae4156a6188a84c0fb319d3b073a1"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/preflight_budget_review.json",
+      "category": "immutable_evidence",
+      "bytes": 1435,
+      "sha256": "c76a19d8af63946d96d2d2d540398b33b158e94ceb00d0e6ffe118a33a32dae7"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/prelive_numeric_audit.json",
+      "category": "immutable_evidence",
+      "bytes": 77838,
+      "sha256": "91c1747326748fd6cbbd95f4aecc2b7740e429c9130e45af7a34f5a08aa892d6"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/prelive_numeric_audit.py",
+      "category": "immutable_evidence",
+      "bytes": 20192,
+      "sha256": "b71a8a1d6e406125fcbb858a346e4add11ed3d0c26878d780fa7f0efc38dfa13"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/preservation_baseline.json",
+      "category": "immutable_evidence",
+      "bytes": 17163,
+      "sha256": "eb63f9c47951694f4652e95980894d8cbd4e7b34ce51480612af0dded78040f8"
+    },
+    {
+      "path": "ipo_agent_eval/data/private/pilot_expansion_20261113/timing.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 2159,
+      "sha256": "716c9a0a418462185b817cd9533bd7fb7520f0948e4c956c3ce74f9a3b769712"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/case_manifest.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 616,
+      "sha256": "1dca671e256cd4be14a61451632ef1bb9c01ea727028b44cbd5f0426cc7767f4"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/chunks.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 2598408,
+      "sha256": "3c1a055acb37e00a01ec33d7b0a3cdd7b5e09bbfc1ad31af4ac0703833414497"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/documents.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 2573,
+      "sha256": "c5b61b530e7b69d434fc5fb2c071b3b4966e4753598170f349ae988d50031931"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-3.png",
+      "category": "immutable_evidence",
+      "bytes": 113343,
+      "sha256": "a8c9db630e1be45552eafcfa0fe8c8a076210d397ea167eb42fdc2efce9f5e37"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-329.png",
+      "category": "immutable_evidence",
+      "bytes": 158210,
+      "sha256": "9232c9a46ecaeee99d226c762383498dc55fd557d31f0347a0ffd392deb63833"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-330.png",
+      "category": "immutable_evidence",
+      "bytes": 154868,
+      "sha256": "a4db11aa39e895cf80849915381fe325170253c6e591f2c050ad86532366a614"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-331.png",
+      "category": "immutable_evidence",
+      "bytes": 145711,
+      "sha256": "99e889c224347df4e05e3c7d75f3b8e24b870f512f191fdf07257f5c24e8cbf9"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-332.png",
+      "category": "immutable_evidence",
+      "bytes": 159398,
+      "sha256": "dd7140fcd49bea7fa1da30bbd17f45edd2b48b72efe4d503f278695566eb59ab"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-424.png",
+      "category": "immutable_evidence",
+      "bytes": 167270,
+      "sha256": "272fee7cf40e56d6b93e34d1c4e11cc2f9e2de49bed63c235b7e92717b3c0d8b"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-425.png",
+      "category": "immutable_evidence",
+      "bytes": 154447,
+      "sha256": "bf2f5cf01062dbff371476dbfe6bf97a9b249ec3db275da082e319ab56bede73"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/inspection/page-54.png",
+      "category": "immutable_evidence",
+      "bytes": 121972,
+      "sha256": "ab711489e9d448bb277ccc39865ada2244985fe4f9e23b7acca2e6e1da03f866"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/manual.md",
+      "category": "immutable_evidence",
+      "bytes": 8653,
+      "sha256": "df86f3e827e3565672522c3f299aa1fb48d5bd8ad973e63349869c87c7220e3f"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/provenance/preparation_summary.json",
+      "category": "immutable_evidence",
+      "bytes": 504,
+      "sha256": "575b9b74084f7be8eddaf5deb7d71b50f91bc98511af245700fa6964f247bcc7"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/provenance/receipt_verification.json",
+      "category": "immutable_evidence",
+      "bytes": 1698,
+      "sha256": "a57304ff4fc99bc7cab4f5bb5c693a5a2538fd7d1eca898c2ab25bd8e241c647"
+    },
+    {
+      "path": "ipo_agent_eval/data/public/raw/HDMS-PROS-01.pdf",
+      "category": "immutable_evidence",
+      "bytes": 8442692,
+      "sha256": "9f563a7e2af8c39a96567e83268321b0a40cf334abe94e7377b00ca0351f31ab"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/HDMS_R001_답변_채점자료.docx",
+      "category": "immutable_evidence",
+      "bytes": 16711003,
+      "sha256": "24d5e1967f4de50173f74c9c196532f786a7a09fb6b5669829356b333a3d07c6"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/HDMS_R001_대행채점결과.docx",
+      "category": "immutable_evidence",
+      "bytes": 44436,
+      "sha256": "6a818f5677e2e37a991e985f03bdc0161cd11636960cbb164d74763af69486cf"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/header19.png",
+      "category": "immutable_evidence",
+      "bytes": 13207,
+      "sha256": "884a154e7631e04ff66161e8251fffe48604e1f6c8a32d3d73b72f93e5af76fd"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/final_verification.json",
+      "category": "immutable_evidence",
+      "bytes": 3102,
+      "sha256": "ced4cc7c584b913d783173d24c5f13042240b51e994266ebaaa6b7c423620987"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/HDMS_R001_대행채점결과.pdf",
+      "category": "immutable_evidence",
+      "bytes": 261251,
+      "sha256": "053933e7937791078e5bd741aae021bbbc23a4ffea4559420525f858f6a6b399"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/page-1.png",
+      "category": "immutable_evidence",
+      "bytes": 178874,
+      "sha256": "a1e2cfb7e45bc40d1eb7c879466aec7eb9239ab36ae8d41bf50f0cf239bc33ab"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/page-2.png",
+      "category": "immutable_evidence",
+      "bytes": 152630,
+      "sha256": "04226114969920b79bf0259fc369d396081bc6ea047b922c0b575f3982d4bd5a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/page-3.png",
+      "category": "immutable_evidence",
+      "bytes": 155873,
+      "sha256": "03513979fe80641540bcc583fc71707cccc08edf7fbe1eb3704b908d32a55d09"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/page-4.png",
+      "category": "immutable_evidence",
+      "bytes": 187263,
+      "sha256": "a21413b1dc5cfdee6e28f101c5fada9b4556c1680d4843fca0380ddc6ae4352f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/page-5.png",
+      "category": "immutable_evidence",
+      "bytes": 212828,
+      "sha256": "8374514c8402127752eb84fcc1afc8b29caf7143e3da8d2bb3340cb2f7891d86"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/page-6.png",
+      "category": "immutable_evidence",
+      "bytes": 182079,
+      "sha256": "cd4d79cc152314f7c3c26e3f9881ac45885a2916a14964bc8f7a7a87c270c750"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v1/page-7.png",
+      "category": "immutable_evidence",
+      "bytes": 30130,
+      "sha256": "045b69995330e7a2a9345e324a7b14231d5db3e77806f00ed89d51487cc500af"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v2/HDMS_R001_대행채점결과.pdf",
+      "category": "immutable_evidence",
+      "bytes": 262818,
+      "sha256": "3ade641ecf41713396d4b979f55b75196477e0cdbf2d499ffb01565a847926a3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v2/page-1.png",
+      "category": "immutable_evidence",
+      "bytes": 178874,
+      "sha256": "a1e2cfb7e45bc40d1eb7c879466aec7eb9239ab36ae8d41bf50f0cf239bc33ab"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v2/page-2.png",
+      "category": "immutable_evidence",
+      "bytes": 152630,
+      "sha256": "04226114969920b79bf0259fc369d396081bc6ea047b922c0b575f3982d4bd5a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v2/page-3.png",
+      "category": "immutable_evidence",
+      "bytes": 155873,
+      "sha256": "03513979fe80641540bcc583fc71707cccc08edf7fbe1eb3704b908d32a55d09"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v2/page-4.png",
+      "category": "immutable_evidence",
+      "bytes": 187263,
+      "sha256": "a21413b1dc5cfdee6e28f101c5fada9b4556c1680d4843fca0380ddc6ae4352f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v2/page-5.png",
+      "category": "immutable_evidence",
+      "bytes": 212828,
+      "sha256": "8374514c8402127752eb84fcc1afc8b29caf7143e3da8d2bb3340cb2f7891d86"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_v2/page-6.png",
+      "category": "immutable_evidence",
+      "bytes": 200901,
+      "sha256": "d716323674242d3cbd9d01b6eb59343267c950dfb4e4cbbdcd08ef2cd9080296"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/render_with_word.py",
+      "category": "immutable_evidence",
+      "bytes": 1555,
+      "sha256": "19f94d5d8b0702c00e4d7a93c125ccc8f1c4333032a8594b9545ac947e8678ba"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/r001_grade/verify_final_grade.py",
+      "category": "immutable_evidence",
+      "bytes": 4148,
+      "sha256": "73cb71fffd03ad687e9326c58fcab15025e2afd8b6d15483365b95a9fcd17656"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/HDMS_R001_답변_채점자료.pdf",
+      "category": "immutable_evidence",
+      "bytes": 16069607,
+      "sha256": "1d182ab85c3b1b6d72ee3ee3f781a25e18bc69b498bdaf41e7478832b6faf7cb"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-1.png",
+      "category": "immutable_evidence",
+      "bytes": 222378,
+      "sha256": "e9276002fc1fe2e71cd4c707edbaaac0c100e31f3193f80b91969ae955d10683"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-10.png",
+      "category": "immutable_evidence",
+      "bytes": 309492,
+      "sha256": "56e822cf9335e5aedc457fc2bca358cdcc5d7a51a83f7945ed8bd57b512520ef"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-11.png",
+      "category": "immutable_evidence",
+      "bytes": 349679,
+      "sha256": "868f0d1e30afc751ed0c4324928b89d4d3c3c8602c25796e0df6f45b58818768"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-12.png",
+      "category": "immutable_evidence",
+      "bytes": 281990,
+      "sha256": "2ae017d11805396c4c2e9dc725225b5aa7330e34f4d615838943ba63669d0d0d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-13.png",
+      "category": "immutable_evidence",
+      "bytes": 320455,
+      "sha256": "1550aa79bf21dd91283b3c2d94b29685d2b168fafb322e64a2a8cd3defd85010"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-14.png",
+      "category": "immutable_evidence",
+      "bytes": 252261,
+      "sha256": "e9ede9b7878875bb81a45f7520e2726e0da06d80a56e7bd065d306f09bc0b27e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-15.png",
+      "category": "immutable_evidence",
+      "bytes": 243257,
+      "sha256": "1364eefb46f567d6c5256e7a3d97fc3a414173d3516c8669b929c8c36f00a9aa"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-16.png",
+      "category": "immutable_evidence",
+      "bytes": 277110,
+      "sha256": "dfb2c0dbe0f47ff6578edd025c7e5bc5ce46a801b452dd476256687a4c82a34d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-17.png",
+      "category": "immutable_evidence",
+      "bytes": 417186,
+      "sha256": "7c8fa6cbbb5466f572454cb1c18667d4ebf9cd10b33f23b8b214e3fe9b7c882e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-18.png",
+      "category": "immutable_evidence",
+      "bytes": 302978,
+      "sha256": "a72a58bd4e136bf0e6fa3db2e5a8285f46cffd3fbcdeec967541c2cd011e4b8a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-19.png",
+      "category": "immutable_evidence",
+      "bytes": 320784,
+      "sha256": "4d62ffd66de3fbce1efc13e752de027bf9ba1304ed1652daa9c232bc4496a118"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-2.png",
+      "category": "immutable_evidence",
+      "bytes": 333455,
+      "sha256": "f5b794a48e698b1eadad012b9719923b836595b7f7b1896f26fdf360f1fd970b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-20.png",
+      "category": "immutable_evidence",
+      "bytes": 50392,
+      "sha256": "2f79925644ab3b98ecbce24977f235b12042d0955f52a15bcb3131573629436e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-21.png",
+      "category": "immutable_evidence",
+      "bytes": 334577,
+      "sha256": "c4c028e509de9a79cda3e755d56b364e46d7714409cf320e679032b0821367d9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-22.png",
+      "category": "immutable_evidence",
+      "bytes": 343976,
+      "sha256": "a9b4c5ab1887964929c52b38fd1ac90b57d6272ae6b74b6e31663d47d1edb811"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-23.png",
+      "category": "immutable_evidence",
+      "bytes": 392460,
+      "sha256": "db2de01523009f29dbcf7269ce4ed21ac3f9442115f6e008a96a42818b3f936b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-24.png",
+      "category": "immutable_evidence",
+      "bytes": 408486,
+      "sha256": "ba21f72edc54f5165f392c6a454fb20eb0d39c0ff0e59088b5618eeec817c453"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-25.png",
+      "category": "immutable_evidence",
+      "bytes": 417544,
+      "sha256": "98df7298686a55d736d5d4f1ea7ae094f043f5d0ced4f663eb4eacb9b82ffe49"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-26.png",
+      "category": "immutable_evidence",
+      "bytes": 401055,
+      "sha256": "a81047f3e5df35679f0ed73e22d6daab2a6bcda58a6622177a157321de85deb2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-27.png",
+      "category": "immutable_evidence",
+      "bytes": 430572,
+      "sha256": "73bbf86514b06b3476d2e8cf98da67b955e577464eacc550f607371c6f4af135"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-28.png",
+      "category": "immutable_evidence",
+      "bytes": 218790,
+      "sha256": "e8da2a171c83c8356b15916132b9baf79e28de15dfb90f9ddf2f30242fb8b041"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-29.png",
+      "category": "immutable_evidence",
+      "bytes": 119003,
+      "sha256": "6dd635830a7f139313a9321a953966b283a4e369afa2a85b8e15d0f9189ed292"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-3.png",
+      "category": "immutable_evidence",
+      "bytes": 195335,
+      "sha256": "c68fcebacb08fbb4422e90e9283306a5558e7981ac38d3defd794b7610b5e872"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-30.png",
+      "category": "immutable_evidence",
+      "bytes": 163517,
+      "sha256": "fae6f1aa98e6b10fc1e0c9dbc0852e35f2c5c32caa4559a95e5bace8266ca057"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-31.png",
+      "category": "immutable_evidence",
+      "bytes": 57310,
+      "sha256": "25aa10bbd46cd9a9b6f84ca57c7ea0b815c5c5a36f1d9a735fd45c10ab84db11"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-32.png",
+      "category": "immutable_evidence",
+      "bytes": 89787,
+      "sha256": "74024fa1e94818a7e6a574f21fd85d8dd22cbffd37d343331829b111e91a2f7f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-33.png",
+      "category": "immutable_evidence",
+      "bytes": 89137,
+      "sha256": "c086c94a3a4deda8392b26b01de0adcd15e839776bfd45e10392ed660185abb0"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-34.png",
+      "category": "immutable_evidence",
+      "bytes": 187842,
+      "sha256": "07099e50353038533b946b58bf5922136f47c5b183908e813b02f70f9b5e8bf4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-35.png",
+      "category": "immutable_evidence",
+      "bytes": 121315,
+      "sha256": "922d2ffe04a93926c5c8a3b4fe2658e0293cb4958529edf723b2334ad94b1554"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-36.png",
+      "category": "immutable_evidence",
+      "bytes": 600433,
+      "sha256": "b1f9ab8e4f8a0ec146ef3f11740d64f115c184f3df7f556deb8475d911c1015f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-37.png",
+      "category": "immutable_evidence",
+      "bytes": 20516,
+      "sha256": "94804d6990e9f8089d9f95788f4d2de513a0ef243a2c5eb265177b084c6a0af1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-38.png",
+      "category": "immutable_evidence",
+      "bytes": 277117,
+      "sha256": "68b67ade99d9a9c873335ad7283085a49053a4eadb7967dad159f9752d8605c5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-39.png",
+      "category": "immutable_evidence",
+      "bytes": 20680,
+      "sha256": "e53fb667010fd931747537c06a25312b0d4ad8aec1e9a24cf9ccd9f6e839b7a5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-4.png",
+      "category": "immutable_evidence",
+      "bytes": 360953,
+      "sha256": "e411c5fef4b1c4c13b261ae80539f0a36b8bac2d40748e16dc32eb101baf8e82"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-40.png",
+      "category": "immutable_evidence",
+      "bytes": 400436,
+      "sha256": "b62e5d51b3f4445bf4722ac0f84e1654ff69fcfbf7253475db533c86f6a15ab4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-41.png",
+      "category": "immutable_evidence",
+      "bytes": 20257,
+      "sha256": "b8e633314c79a82c7da13d1faa06e7dce8a851712a97ab47105161ce172b145f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-42.png",
+      "category": "immutable_evidence",
+      "bytes": 394188,
+      "sha256": "03a1a11f65bea82333e10bf7f187f4c642e4500c130d49b7c72fc38ed10a9302"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-43.png",
+      "category": "immutable_evidence",
+      "bytes": 20550,
+      "sha256": "76d46f733f4aab9728585d6dfe1fb0d1a7567b2a04d5a64b9b79b188c6f1b496"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-44.png",
+      "category": "immutable_evidence",
+      "bytes": 399534,
+      "sha256": "d2de9fc46906882c0ffce21d05953f88d826873f63ff7293d34b8f2efa0b464a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-45.png",
+      "category": "immutable_evidence",
+      "bytes": 20520,
+      "sha256": "bf2f485613352c44d0c5126f9a9c567bed67190df652dd3db39efdaf960230fb"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-46.png",
+      "category": "immutable_evidence",
+      "bytes": 444703,
+      "sha256": "bcf3092554bab3c8e0c3f11694a748b0cb63ed6bf998c0186e8f4c368999a6e4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-47.png",
+      "category": "immutable_evidence",
+      "bytes": 20397,
+      "sha256": "b3ec8e0d82721ad4566c6036b2554335e9f3a2196c72e8f97308eb6e0db8581f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-48.png",
+      "category": "immutable_evidence",
+      "bytes": 654182,
+      "sha256": "22508f2166d5bd2a7787a35eccc5cf6c924e7ec9abd5f9a3a2a110c7b7e133ae"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-49.png",
+      "category": "immutable_evidence",
+      "bytes": 20594,
+      "sha256": "45cd3b022e3248d4d795296689bb3d633abb8d0c7a5187374752bb772480ae0a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-5.png",
+      "category": "immutable_evidence",
+      "bytes": 342649,
+      "sha256": "b2b6ee9a6b555d8985e90c69c601601d4b136de7cc4f947b9c9a3cdd11977dd1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-50.png",
+      "category": "immutable_evidence",
+      "bytes": 844697,
+      "sha256": "413ef2d587151541211816d9a29bc9411d661ac6dbc1b83c00f294226d1190cb"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-51.png",
+      "category": "immutable_evidence",
+      "bytes": 20345,
+      "sha256": "cb667c5dc748202a2c8807b59b4d684d7b11c5b965bae749705b1ebce4821ab0"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-52.png",
+      "category": "immutable_evidence",
+      "bytes": 519106,
+      "sha256": "3e31d2c00491ae9fad1763767fda7d79f39fff850ed912d7e8775c76358dad07"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-53.png",
+      "category": "immutable_evidence",
+      "bytes": 20576,
+      "sha256": "53471e1d515cc616792a09b6a3b0eb8c153939070aa1bd626c8cc09d83490288"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-54.png",
+      "category": "immutable_evidence",
+      "bytes": 409731,
+      "sha256": "2dbbb4ebfc62b276094699ab7c42c69639c4f561dc7cf9a36b82fcbd5a5d3fe5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-55.png",
+      "category": "immutable_evidence",
+      "bytes": 20493,
+      "sha256": "7fe27f821060d5ab611417a487cd3794220b9d57df5a510ebee3c28e964d9f33"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-56.png",
+      "category": "immutable_evidence",
+      "bytes": 398688,
+      "sha256": "6e48dfb3113f5f8bbe7ad796a44293d636288735535f328066cc3c2fe8835e50"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-57.png",
+      "category": "immutable_evidence",
+      "bytes": 20464,
+      "sha256": "7efb8ed8eeed017c8bc49ebb08eee99edc2dbec56ec4da04a0942507a0abf3f7"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-58.png",
+      "category": "immutable_evidence",
+      "bytes": 691546,
+      "sha256": "f6b4acb973775e8f0b1c13d88e7094c37f7526415717de42be34bb36b8a781a1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-59.png",
+      "category": "immutable_evidence",
+      "bytes": 20615,
+      "sha256": "018030d15c3826cbc9f0e2284629245b8b7820263b7483a7c4d08cb4dc456455"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-6.png",
+      "category": "immutable_evidence",
+      "bytes": 400126,
+      "sha256": "c06d720ac3a952940b3d9e769ee46c1237d17b01e7d8673cc350a6bb3ab281fc"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-60.png",
+      "category": "immutable_evidence",
+      "bytes": 478661,
+      "sha256": "c30bbe17c41670a99965465259759603a205ddf4bb58000d4c1decf94595c6b3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-61.png",
+      "category": "immutable_evidence",
+      "bytes": 20446,
+      "sha256": "559fdbfce99855eb578645aa01fb4cc9dcc50a20016785efa14b101fea7274e8"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-62.png",
+      "category": "immutable_evidence",
+      "bytes": 473284,
+      "sha256": "fb4242ec4ed914522f700cda3e1740968640c2526f035f8de367e7a23841e9f0"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-63.png",
+      "category": "immutable_evidence",
+      "bytes": 20686,
+      "sha256": "7cbfaee09ef38d4c52fdd7e4d83f01f3e5c806da2c608cfab99849d38a0da679"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-64.png",
+      "category": "immutable_evidence",
+      "bytes": 381027,
+      "sha256": "23fc781244ddc8808c8fc1773d650942f517b59561b9bb569fcb80149d090c35"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-65.png",
+      "category": "immutable_evidence",
+      "bytes": 20624,
+      "sha256": "dfb8ac22501a1d796f1bb3533c4608eb913db4cfb3719da5b3a3b9a8711eef4a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-66.png",
+      "category": "immutable_evidence",
+      "bytes": 365952,
+      "sha256": "44a01a4dd7c2e04a07e1873ada32761b797c31dac952951d56de70c8cfbfbf69"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-67.png",
+      "category": "immutable_evidence",
+      "bytes": 20568,
+      "sha256": "6d2ebbd5c950bba520cc7e29d0bc1e6a7cacaded713a5ae4932b46c1b71eb738"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-68.png",
+      "category": "immutable_evidence",
+      "bytes": 711947,
+      "sha256": "372e832fd762831b0cfd6b2d0184bf10e4eee30098b821bf53a3e71fa80c3279"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-69.png",
+      "category": "immutable_evidence",
+      "bytes": 20774,
+      "sha256": "dca9e0799bb5647d4b1f2729505ec1a70fcf5674214743179d3970e136b276e5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-7.png",
+      "category": "immutable_evidence",
+      "bytes": 395611,
+      "sha256": "0c90cf0de486762b01c8f648b275d95142bac94ca0387a85d61bf179d7498fc2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-70.png",
+      "category": "immutable_evidence",
+      "bytes": 557888,
+      "sha256": "526bac98fef18d013a7fd9ba4af52224ec31193e3f27fc0a5cc6ef2a3ee1fe11"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-71.png",
+      "category": "immutable_evidence",
+      "bytes": 20257,
+      "sha256": "df9142ae3387d3995421aa76209fe787df451290de16a17c860b85797e439bf7"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-72.png",
+      "category": "immutable_evidence",
+      "bytes": 367653,
+      "sha256": "72af7a466e1de87a471706f5a87488f38fc4ad071b0a33a68ed6e593cb22f7b8"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-73.png",
+      "category": "immutable_evidence",
+      "bytes": 20520,
+      "sha256": "11db6de26968f95dbf4b1babd75103274e9d160e206ff651347801b0fb5a69ff"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-74.png",
+      "category": "immutable_evidence",
+      "bytes": 349181,
+      "sha256": "2d06ca1eed52b2f96f3d59d761fb8fef92783af27752530f9d4bafbf91a2cbf7"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-75.png",
+      "category": "immutable_evidence",
+      "bytes": 20472,
+      "sha256": "96cb2cc48dfa10f51b2992832d8ac77fe40f0a50cac82d9b94fc37f57a4e6c17"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-76.png",
+      "category": "immutable_evidence",
+      "bytes": 324840,
+      "sha256": "93674c4a65e22195b3a5b7a695b3e349f22bee781c91a800235deb3336fc77ac"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-77.png",
+      "category": "immutable_evidence",
+      "bytes": 20364,
+      "sha256": "9fc7a25ba76da32916530003b232fba5c91bf46bd30ee7d48f5b15af84e210bf"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-78.png",
+      "category": "immutable_evidence",
+      "bytes": 341313,
+      "sha256": "98d84c5382711ddb8036e3631a5288142713004c422379655e83803a268b772f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-79.png",
+      "category": "immutable_evidence",
+      "bytes": 20572,
+      "sha256": "3f0f7503def39fcb25476937834de698644c696171686ef9b6b8c74a346c4fb5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-8.png",
+      "category": "immutable_evidence",
+      "bytes": 264650,
+      "sha256": "32bd4c1a945568bde77cb98496628706b1c62c70499d34d8fb6f3dbdb96d347a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-80.png",
+      "category": "immutable_evidence",
+      "bytes": 344038,
+      "sha256": "168e05348ad04eb47e9caa6dfcab20747af0011b974bb97d87fea077dd18d27e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-81.png",
+      "category": "immutable_evidence",
+      "bytes": 20491,
+      "sha256": "297c1d44cbfb1caa7ca1d3287715e36c495afa8c86bb8d26c871eb4fe4cfef68"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-82.png",
+      "category": "immutable_evidence",
+      "bytes": 367256,
+      "sha256": "f522fb5a3cd778b29282a065e38acfe69c5af1e82b5dc8fd1b017a66d1a9b0b0"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-83.png",
+      "category": "immutable_evidence",
+      "bytes": 20728,
+      "sha256": "b80050e68d08be7d6824f4ae206a5ec1c84fb561841c900812cff7581104e9f2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-84.png",
+      "category": "immutable_evidence",
+      "bytes": 407571,
+      "sha256": "0429a14f2e8e2d1392b815434f21a215ffbc6851cb0a2fbbd928df738209b982"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-85.png",
+      "category": "immutable_evidence",
+      "bytes": 20674,
+      "sha256": "15192c561656f5486607580f5f0876d2a1fe1922f7fd9ba2298882b4d02b6167"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-86.png",
+      "category": "immutable_evidence",
+      "bytes": 396564,
+      "sha256": "57b5fec3209e32b807a5eb8347ecf4ad23b09fce301c4872d48d559fdfda58a1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-87.png",
+      "category": "immutable_evidence",
+      "bytes": 20613,
+      "sha256": "2aa4a065b39f269e6cd2832da4dc4f3a984791c49586d5d0f20920e0ea22f958"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-88.png",
+      "category": "immutable_evidence",
+      "bytes": 365849,
+      "sha256": "9d415e0bf66eebc3794f2d4742a9efb6e1114f7b0815a6c317e452e34f893c9f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-89.png",
+      "category": "immutable_evidence",
+      "bytes": 20776,
+      "sha256": "e6e80b6de87fb628cdce74da18e5a2511c325410586c37fb994a38a3e51a22f1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-9.png",
+      "category": "immutable_evidence",
+      "bytes": 290120,
+      "sha256": "b0e9b5e90711ed14fa7740dab94ef7d8382a6cf018579130e0e560c26e9f97ff"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-90.png",
+      "category": "immutable_evidence",
+      "bytes": 378987,
+      "sha256": "8fb3b39c3046a0531a5d0152888ca6749bacc86e21ddc375a001d8d23d376387"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-91.png",
+      "category": "immutable_evidence",
+      "bytes": 20462,
+      "sha256": "da5a84150d2c807bef0e576efc229d4277120c0b40daa62751e4cf54cfcaf792"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-92.png",
+      "category": "immutable_evidence",
+      "bytes": 366520,
+      "sha256": "cf816d43f808c2622e19fd7fb8b41cca1d5c39225f4d808e2850d0e892920d8f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-93.png",
+      "category": "immutable_evidence",
+      "bytes": 20695,
+      "sha256": "d5af9b3e47f22814dfe78d0dcea08da2d39266f28e5dc5c801be870f4b52465b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render/page-94.png",
+      "category": "immutable_evidence",
+      "bytes": 369795,
+      "sha256": "d439ad2b52c34acde8b4d620901f65b4c14cc4e9fd6e00880997ebf6fc4f8a28"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/HDMS_R001_답변_채점자료.pdf",
+      "category": "immutable_evidence",
+      "bytes": 16050024,
+      "sha256": "32fcf9c2b865699705ab0a2881389546e04078402632606c1f92731ccea029c7"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-1.png",
+      "category": "immutable_evidence",
+      "bytes": 222378,
+      "sha256": "e9276002fc1fe2e71cd4c707edbaaac0c100e31f3193f80b91969ae955d10683"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-10.png",
+      "category": "immutable_evidence",
+      "bytes": 309492,
+      "sha256": "56e822cf9335e5aedc457fc2bca358cdcc5d7a51a83f7945ed8bd57b512520ef"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-11.png",
+      "category": "immutable_evidence",
+      "bytes": 349679,
+      "sha256": "868f0d1e30afc751ed0c4324928b89d4d3c3c8602c25796e0df6f45b58818768"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-12.png",
+      "category": "immutable_evidence",
+      "bytes": 281990,
+      "sha256": "2ae017d11805396c4c2e9dc725225b5aa7330e34f4d615838943ba63669d0d0d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-13.png",
+      "category": "immutable_evidence",
+      "bytes": 320455,
+      "sha256": "1550aa79bf21dd91283b3c2d94b29685d2b168fafb322e64a2a8cd3defd85010"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-14.png",
+      "category": "immutable_evidence",
+      "bytes": 252261,
+      "sha256": "e9ede9b7878875bb81a45f7520e2726e0da06d80a56e7bd065d306f09bc0b27e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-15.png",
+      "category": "immutable_evidence",
+      "bytes": 243257,
+      "sha256": "1364eefb46f567d6c5256e7a3d97fc3a414173d3516c8669b929c8c36f00a9aa"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-16.png",
+      "category": "immutable_evidence",
+      "bytes": 283926,
+      "sha256": "38c34a5d5b9c1c9495dd8acab772737ec5cb94ec9c2f27a69c5f10614fee507c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-17.png",
+      "category": "immutable_evidence",
+      "bytes": 362245,
+      "sha256": "87fd422cc55a88bb812f4e834837dddfd2f78cb23b5506604be02a9121a2c42b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-18.png",
+      "category": "immutable_evidence",
+      "bytes": 338973,
+      "sha256": "75cea91184b0e337e438e6d97db9824a0001cb0ee6d2b239720be8c997324871"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-19.png",
+      "category": "immutable_evidence",
+      "bytes": 291215,
+      "sha256": "46f0240ddee0f606a53c72f1461344bc8b6347097ee614bd263234d717ee0d6b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-2.png",
+      "category": "immutable_evidence",
+      "bytes": 352487,
+      "sha256": "c0bbb840d0aec867488765f46caa2f3c8a90dc83380c92620e1c1dfec37c160d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-20.png",
+      "category": "immutable_evidence",
+      "bytes": 329385,
+      "sha256": "e27e72fb6123404c562cef3dcc79f847313130d177166c500296376818d4639e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-21.png",
+      "category": "immutable_evidence",
+      "bytes": 50149,
+      "sha256": "01a33b6c802af354b0a356507323965d48d646524e26081541682d45c6bfd4b0"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-22.png",
+      "category": "immutable_evidence",
+      "bytes": 335770,
+      "sha256": "a7e8fefbf17a045d2967f86c54cc1d2c9be4e5b6032fec98fa862dc35570ece2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-23.png",
+      "category": "immutable_evidence",
+      "bytes": 344044,
+      "sha256": "db5c1892581e2aedf6f470e4f583bca8a1d69c1970cd96839045f85ff32cc01f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-24.png",
+      "category": "immutable_evidence",
+      "bytes": 392342,
+      "sha256": "58be4b36f2f962ddb2f903c8579db47ebc82d0a0542accfa70153df1c47784c3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-25.png",
+      "category": "immutable_evidence",
+      "bytes": 408540,
+      "sha256": "624adf98958d3a7d891bd4bd6d2d0d80b2166e446906d4395f2bcc962754d902"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-26.png",
+      "category": "immutable_evidence",
+      "bytes": 385347,
+      "sha256": "2612cffbf153deb72442c77ed3ec64c6b1772af0d65b8cf3c868c6d36e267f0a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-27.png",
+      "category": "immutable_evidence",
+      "bytes": 411916,
+      "sha256": "999cedf835a1f7ce2340938ec5803618faa72a2a12e1f42771370cd54a40f0c4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-28.png",
+      "category": "immutable_evidence",
+      "bytes": 427381,
+      "sha256": "c1e8f6636303c05673f4b6a6e7b47220f598114ba9018ce0c46ccf6e18abdb8d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-29.png",
+      "category": "immutable_evidence",
+      "bytes": 214484,
+      "sha256": "261db2621728a0fce249644561ccb149fc27592f93951423f37bab0f50c6acfd"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-3.png",
+      "category": "immutable_evidence",
+      "bytes": 195335,
+      "sha256": "c68fcebacb08fbb4422e90e9283306a5558e7981ac38d3defd794b7610b5e872"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-30.png",
+      "category": "immutable_evidence",
+      "bytes": 160564,
+      "sha256": "487e7773927b08b2a9b1e3a4ae5ee8da6d5d08833e941ce25b91fe3fcf949b7c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-31.png",
+      "category": "immutable_evidence",
+      "bytes": 163325,
+      "sha256": "1113c02c3e253d74893ee4dcdb314c782d227338a26f1e48fcbbdd60d3f24e1c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-32.png",
+      "category": "immutable_evidence",
+      "bytes": 57544,
+      "sha256": "8b2a1610b66fca80141ce8869ee0b183ec5c5603ea1efc2b1e3a29364fc2e5a1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-33.png",
+      "category": "immutable_evidence",
+      "bytes": 89780,
+      "sha256": "e0c54b60ffbfe9400bb5dcba651ca9355839b7d454079aee109c9f7b1a70c43c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-34.png",
+      "category": "immutable_evidence",
+      "bytes": 89098,
+      "sha256": "4f86c527adf8d6dc8d341039799216aac5c9ec5aeb7ff3878024151abb8c2536"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-35.png",
+      "category": "immutable_evidence",
+      "bytes": 187859,
+      "sha256": "44a05daa34a1cb5492ec3349549959a8a16b76aae17918d635187bb2f1a970f3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-36.png",
+      "category": "immutable_evidence",
+      "bytes": 121418,
+      "sha256": "34b6b58f20f304c30995c360dc55b4857fbe3ad21174e3b01d4f42f0470289d3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-37.png",
+      "category": "immutable_evidence",
+      "bytes": 600268,
+      "sha256": "862b26ba9f95fd3fd9f5c95cb76b60669a54b98e76a1607ea6ff2f812e37b767"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-38.png",
+      "category": "immutable_evidence",
+      "bytes": 277117,
+      "sha256": "68b67ade99d9a9c873335ad7283085a49053a4eadb7967dad159f9752d8605c5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-39.png",
+      "category": "immutable_evidence",
+      "bytes": 400574,
+      "sha256": "4ccd289e1561c804c291b377e530b575a9b64d092f1bcab83621457e6dcda829"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-4.png",
+      "category": "immutable_evidence",
+      "bytes": 360953,
+      "sha256": "e411c5fef4b1c4c13b261ae80539f0a36b8bac2d40748e16dc32eb101baf8e82"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-40.png",
+      "category": "immutable_evidence",
+      "bytes": 394211,
+      "sha256": "752d833fd21d697cf2fc81c7bbb596681987f39836401798e31b90ddf404a701"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-41.png",
+      "category": "immutable_evidence",
+      "bytes": 399389,
+      "sha256": "20007bf419b48abac47111d43258327422b851a60e2d968c4dfce3965ad2d005"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-42.png",
+      "category": "immutable_evidence",
+      "bytes": 444624,
+      "sha256": "8e42d0bd6dc000b1248c9d669b0ed24654a061b7e863447b1f72f506e63e50ed"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-43.png",
+      "category": "immutable_evidence",
+      "bytes": 654113,
+      "sha256": "874b02efab0d4eb0e694a2e37b2a01147d1f988e1c556b25c2cf10a62b3286b6"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-44.png",
+      "category": "immutable_evidence",
+      "bytes": 844557,
+      "sha256": "6124edd3475c0392f8f4a86400fb57239bbe801676edfa288488a40e0927c18a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-45.png",
+      "category": "immutable_evidence",
+      "bytes": 519077,
+      "sha256": "a78dd19e2c88b44b4601bfb11348fef253bb11c358779aab5e95819eb8ebcc49"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-46.png",
+      "category": "immutable_evidence",
+      "bytes": 409810,
+      "sha256": "d67a0532278b61aad6b58271a0387106f8dfd668c0b441782b5bd439f8ea7fef"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-47.png",
+      "category": "immutable_evidence",
+      "bytes": 398491,
+      "sha256": "82ce05d53ae017e1f3e05063001dbec226a08330965e181248b33fed918c01ee"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-48.png",
+      "category": "immutable_evidence",
+      "bytes": 691511,
+      "sha256": "62a3913cd853f56f70c19a32df2a464dbfc93e9e7898141b0c9518d8a64bbde5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-49.png",
+      "category": "immutable_evidence",
+      "bytes": 478592,
+      "sha256": "e5cb2c1d5d9323147ac2f3bd7f17230a712f89cada1ddf434907448f1322d9ec"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-5.png",
+      "category": "immutable_evidence",
+      "bytes": 342649,
+      "sha256": "b2b6ee9a6b555d8985e90c69c601601d4b136de7cc4f947b9c9a3cdd11977dd1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-50.png",
+      "category": "immutable_evidence",
+      "bytes": 473183,
+      "sha256": "e389e42971c8af6fca5cd1e12fe4ec9ebd99dbd53cf3aa6f2e8e521221ec613d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-51.png",
+      "category": "immutable_evidence",
+      "bytes": 380842,
+      "sha256": "7c7a72e493f61867de9ec49928eabdbc622fa65d9fdcc1e9f410746961488651"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-52.png",
+      "category": "immutable_evidence",
+      "bytes": 365820,
+      "sha256": "635cda7e9665a79d2017080de78fa6c8ed6b664bd3272394d11dcf651cabd95b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-53.png",
+      "category": "immutable_evidence",
+      "bytes": 711773,
+      "sha256": "894755efbf924e18fdbd584ea463c22dcb2900cfedf43fd05a8add4161605228"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-54.png",
+      "category": "immutable_evidence",
+      "bytes": 557888,
+      "sha256": "185bf15c200d4c0973008a48b5a4639495bdc153f563ddb1c0b339fa0a190529"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-55.png",
+      "category": "immutable_evidence",
+      "bytes": 367688,
+      "sha256": "f78696d4241ea693f18d969c2ae189185716e1dc56a1ccf456a42a0c8a96433d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-56.png",
+      "category": "immutable_evidence",
+      "bytes": 349356,
+      "sha256": "0c95be31d3b013a771882a9676153ab1ea03aa7025d89c485f55a66ac1efa7a2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-57.png",
+      "category": "immutable_evidence",
+      "bytes": 324746,
+      "sha256": "384cacdee1550724c5afa9eb87989e8977ab0da74f5f0d57edadf7cdfbd1265f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-58.png",
+      "category": "immutable_evidence",
+      "bytes": 341364,
+      "sha256": "28d271bf73ea011cf024ff2c38d7101e9880afd59b50e6c37891981bbd24c531"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-59.png",
+      "category": "immutable_evidence",
+      "bytes": 343986,
+      "sha256": "e97b25a9e677a5afe803d144e0212f06f2b8cda36873f4223c3ee4dff40f7611"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-6.png",
+      "category": "immutable_evidence",
+      "bytes": 400126,
+      "sha256": "c06d720ac3a952940b3d9e769ee46c1237d17b01e7d8673cc350a6bb3ab281fc"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-60.png",
+      "category": "immutable_evidence",
+      "bytes": 367243,
+      "sha256": "d42c2d57cdadf555963af83e6805f1509bfbec48962bd926b7b606c00b5ecaf1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-61.png",
+      "category": "immutable_evidence",
+      "bytes": 407374,
+      "sha256": "8e4553a90e2432d851e5d2a0ebddd91430a8e0fe5c665b44d8b87e12703585f9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-62.png",
+      "category": "immutable_evidence",
+      "bytes": 396449,
+      "sha256": "e45a015a565f0f4748a7abc9d8f11b59c80a5b103b02feb29406aa9a11aacd47"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-63.png",
+      "category": "immutable_evidence",
+      "bytes": 365757,
+      "sha256": "f8285174ec6afc2bef86bea782b42ab421cfa5110994f50b79e7bd8a8122fc68"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-64.png",
+      "category": "immutable_evidence",
+      "bytes": 378911,
+      "sha256": "f9260df0810bdeb3571fd09a2dfc8cf44e80a340417b83394fbaced5074119dd"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-65.png",
+      "category": "immutable_evidence",
+      "bytes": 366475,
+      "sha256": "da75f7d4de96c5a2867bbe2128b5f60ab6f2a67c4438a07d2b1d16baa4743c0c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-66.png",
+      "category": "immutable_evidence",
+      "bytes": 369863,
+      "sha256": "8156ea94dd9fd008a016e0d5becd4b51ee43212a8f5b06efefa223a0390340ca"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-7.png",
+      "category": "immutable_evidence",
+      "bytes": 395611,
+      "sha256": "0c90cf0de486762b01c8f648b275d95142bac94ca0387a85d61bf179d7498fc2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-8.png",
+      "category": "immutable_evidence",
+      "bytes": 264650,
+      "sha256": "32bd4c1a945568bde77cb98496628706b1c62c70499d34d8fb6f3dbdb96d347a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v2/page-9.png",
+      "category": "immutable_evidence",
+      "bytes": 290120,
+      "sha256": "b0e9b5e90711ed14fa7740dab94ef7d8382a6cf018579130e0e560c26e9f97ff"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/HDMS_R001_답변_채점자료.pdf",
+      "category": "immutable_evidence",
+      "bytes": 15969136,
+      "sha256": "cded4616766657da74dad79fa6050d6554f775a8964714c8143a818608814ee7"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-1.png",
+      "category": "immutable_evidence",
+      "bytes": 222389,
+      "sha256": "90116d08dafcabdf289c282c1becc067d0226a1bf94c49303aeaeff06ed06ad4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-10.png",
+      "category": "immutable_evidence",
+      "bytes": 309518,
+      "sha256": "4987735bda5f6f242a6c3b82ca07593e503fa2b38f46b5446af69ab2b6c132a1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-11.png",
+      "category": "immutable_evidence",
+      "bytes": 349679,
+      "sha256": "868f0d1e30afc751ed0c4324928b89d4d3c3c8602c25796e0df6f45b58818768"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-12.png",
+      "category": "immutable_evidence",
+      "bytes": 282068,
+      "sha256": "d0c1835240edd93445d706b50aa952bac99c0c9e1484a54461d0b577378cece6"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-13.png",
+      "category": "immutable_evidence",
+      "bytes": 317323,
+      "sha256": "c99ad6713260c0c3d319516403b39d0ab63c596a131c9c6c711afb905598fc4b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-14.png",
+      "category": "immutable_evidence",
+      "bytes": 251722,
+      "sha256": "ce92081c3dd650d2d010bd7c17387562c85498675741a139f1394f4600ce0cf9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-15.png",
+      "category": "immutable_evidence",
+      "bytes": 247470,
+      "sha256": "53c1d8cf72ebcd6c93fccbeb034d87b4aa1a0aded5e9194c178cf6fcd1907d19"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-16.png",
+      "category": "immutable_evidence",
+      "bytes": 283886,
+      "sha256": "eb8f79498e8c20cc2f02f7ad6ff92afb9a8e68ed253f291878f5fa879b27811a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-17.png",
+      "category": "immutable_evidence",
+      "bytes": 362245,
+      "sha256": "87fd422cc55a88bb812f4e834837dddfd2f78cb23b5506604be02a9121a2c42b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-18.png",
+      "category": "immutable_evidence",
+      "bytes": 338974,
+      "sha256": "9137334936480fefd777bd771c51701f4c7e161140f3bf14597fafefa0a47375"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-19.png",
+      "category": "immutable_evidence",
+      "bytes": 290789,
+      "sha256": "bd1464842756a05c1ed61b1a96e7ae7bebcc271974fc067dc2effc741f686057"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-2.png",
+      "category": "immutable_evidence",
+      "bytes": 352426,
+      "sha256": "1ceab836a3b94d55ad1e2c3753c2489a72d746252964b1b6ee51d46d43427151"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-20.png",
+      "category": "immutable_evidence",
+      "bytes": 355041,
+      "sha256": "de3cdf63d4749a68b6d81b21c2f8eb50b30c0f1b6c3df3b1b924483ca7f7f4f9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-21.png",
+      "category": "immutable_evidence",
+      "bytes": 334021,
+      "sha256": "a7b7f662c1c0c9dd2abfaf55da9cb2ce6157b721d1e67831c6ef220e3ef22cf5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-22.png",
+      "category": "immutable_evidence",
+      "bytes": 344016,
+      "sha256": "07f48892d88eea5c18f6004aa23d46e35a17887525117267f74bbf946a58c631"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-23.png",
+      "category": "immutable_evidence",
+      "bytes": 391491,
+      "sha256": "571f832bf2c59eb71d7d5ed2e222b1056a1ab5ecfc9967afa9712e5badb56766"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-24.png",
+      "category": "immutable_evidence",
+      "bytes": 410396,
+      "sha256": "5d705244d376413c7f0a14c8198baf61ba1c73f45fd301115c3278d2fdc1fea8"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-25.png",
+      "category": "immutable_evidence",
+      "bytes": 384334,
+      "sha256": "7357436c5f2ee4f9371819d9505cde7b9e81de8a0e59be75aad1fa2b9ef40546"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-26.png",
+      "category": "immutable_evidence",
+      "bytes": 411206,
+      "sha256": "f271959722998de5ab3bbc7ce166fd5a16b160ca5d6261ca6be1d914253a2665"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-27.png",
+      "category": "immutable_evidence",
+      "bytes": 427239,
+      "sha256": "f11d5c7887847400c721e869524200224cb629cefda0d59549c2968fee26f1ed"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-28.png",
+      "category": "immutable_evidence",
+      "bytes": 247683,
+      "sha256": "083a5ffb45f3fa896ab2fef80fda1650fdd63c39b9ed23ec9e003b12b5d74dd2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-29.png",
+      "category": "immutable_evidence",
+      "bytes": 118916,
+      "sha256": "87da80de063f9ef9fa5fe965704c3de84c0956a6ea9b99d699352dcd86ec8093"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-3.png",
+      "category": "immutable_evidence",
+      "bytes": 195429,
+      "sha256": "bbcc91482ab55efec14e695b342e212c7721e65fe0ba98acaa3652db94a841e2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-30.png",
+      "category": "immutable_evidence",
+      "bytes": 163625,
+      "sha256": "bb3c4d8be2925bd63e85db3d7582011a00ebcf37bb17d14909e33da78c15ff71"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-31.png",
+      "category": "immutable_evidence",
+      "bytes": 57310,
+      "sha256": "25aa10bbd46cd9a9b6f84ca57c7ea0b815c5c5a36f1d9a735fd45c10ab84db11"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-32.png",
+      "category": "immutable_evidence",
+      "bytes": 89671,
+      "sha256": "7ecce9a69e9e93d11cc6bf15bd1680a034036e07fa1d8c5b5117861412445229"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-33.png",
+      "category": "immutable_evidence",
+      "bytes": 89205,
+      "sha256": "d54d2d2bd8701a43a045abd694935a770b09e31073ade8f9d0733516b05bf1b8"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-34.png",
+      "category": "immutable_evidence",
+      "bytes": 187908,
+      "sha256": "59528e700e347308c861d48ccd04b5427129217f4bd8abbb42ed02a6d8b1aba9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-35.png",
+      "category": "immutable_evidence",
+      "bytes": 121344,
+      "sha256": "da36728fbf4933c47312c32d9e93ab0dc28b2b909c7f5771554f30a7d12c293d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-36.png",
+      "category": "immutable_evidence",
+      "bytes": 600433,
+      "sha256": "b1f9ab8e4f8a0ec146ef3f11740d64f115c184f3df7f556deb8475d911c1015f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-37.png",
+      "category": "immutable_evidence",
+      "bytes": 276946,
+      "sha256": "56708e08328040ca10189b5fd57d6478877241580dbfe315ea580ce4434ef565"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-38.png",
+      "category": "immutable_evidence",
+      "bytes": 400602,
+      "sha256": "be36d020d026c086d3ef7edf948bd324792f50a8b6f62f2ec5657a34495ce5c0"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-39.png",
+      "category": "immutable_evidence",
+      "bytes": 394375,
+      "sha256": "9ce90586d6367d3f542e922ba91f9f18d50d4a9a3b26fdbf45cf3d32dc0a482c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-4.png",
+      "category": "immutable_evidence",
+      "bytes": 361552,
+      "sha256": "a1488a75bd09b5f75afa2e4ec5bcd2cc1602b403f8edee87e61892c8f259309e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-40.png",
+      "category": "immutable_evidence",
+      "bytes": 399656,
+      "sha256": "77734ae8a8bb035a4bed4da987efb6363c18dc9f0d9cff517bc46e246855cbb4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-41.png",
+      "category": "immutable_evidence",
+      "bytes": 444391,
+      "sha256": "1272632b121d051d670c6ff74e4b2ab84aa2b10b0e4b06020671095738e1235b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-42.png",
+      "category": "immutable_evidence",
+      "bytes": 654077,
+      "sha256": "262e41c52ae22f7cc4646202d32433599ee1495ba9dffd79af12d6baa544603e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-43.png",
+      "category": "immutable_evidence",
+      "bytes": 844698,
+      "sha256": "9a7600fc7f7d8d4cffebd79f9b6f1b855d35d57efdc4ea39580bc4d5952d8d7d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-44.png",
+      "category": "immutable_evidence",
+      "bytes": 518982,
+      "sha256": "b641a4d87d9db445ec8644678e51c7cfd384ca8901edcf443b48feb7ae714bd6"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-45.png",
+      "category": "immutable_evidence",
+      "bytes": 409752,
+      "sha256": "9007bf9579bee788082e7a0ad2c9cc482d47f2a0382969e2178e3ecc2399176f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-46.png",
+      "category": "immutable_evidence",
+      "bytes": 398667,
+      "sha256": "fe375b05c6a359f51cd8d3ea7a182f7594483f73bc90bc8b1aed6b79ec60b208"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-47.png",
+      "category": "immutable_evidence",
+      "bytes": 691296,
+      "sha256": "641f419ee08c5d30da3bd8468e2fdc1958277e05d62aea7fcd5bbbda2b547f60"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-48.png",
+      "category": "immutable_evidence",
+      "bytes": 478618,
+      "sha256": "841f5d632f8101b53523bb1d038de538d802b7431305ec80a8b08373f20ed2dd"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-49.png",
+      "category": "immutable_evidence",
+      "bytes": 473226,
+      "sha256": "96ea6031d42ebc5e40788774a70428757f9e16861a6c912a219012d995b707f1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-5.png",
+      "category": "immutable_evidence",
+      "bytes": 342666,
+      "sha256": "170572f297e7d6a0d2791cd80ad4af10785dd673ebfd24b94b20de82eb517307"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-50.png",
+      "category": "immutable_evidence",
+      "bytes": 381010,
+      "sha256": "d0ca16b2f2a070c3ee756dcdfc1dbb6ab47cd69721f7ad09fd0916596f556f08"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-51.png",
+      "category": "immutable_evidence",
+      "bytes": 365635,
+      "sha256": "56437667417838c1d641515ea21469f5e8e1d0a2a2c44aa7890c2d2eb5e7c518"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-52.png",
+      "category": "immutable_evidence",
+      "bytes": 711748,
+      "sha256": "3e274f130c546a40f45d4ad4f409b4424cbecf9bf3ffac554b2de06824b4b0e2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-53.png",
+      "category": "immutable_evidence",
+      "bytes": 557973,
+      "sha256": "bd90adafc037e9756fc739009ae2f08808e82079199974621df72c6f3f65329c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-54.png",
+      "category": "immutable_evidence",
+      "bytes": 367698,
+      "sha256": "6c64183760bdd6fee9f0011d05ed778339790b5bd40c9cbae8d172258e761f4f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-55.png",
+      "category": "immutable_evidence",
+      "bytes": 349254,
+      "sha256": "729a07c1b33b763de29501078b14138a68771d43cf4c6f95e409f07cb0577b62"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-56.png",
+      "category": "immutable_evidence",
+      "bytes": 324880,
+      "sha256": "fae8baedf6a80f0ec5024317415120641e1c8cb1aa77436538e4152008c0062a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-57.png",
+      "category": "immutable_evidence",
+      "bytes": 341182,
+      "sha256": "0e972ead20149ce2c9db8d6b2ce60d296d35fd10a1472cfa06bada23ce50df87"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-58.png",
+      "category": "immutable_evidence",
+      "bytes": 344016,
+      "sha256": "e4dbb512f718a42efda5d22c13c98cad84acff71183dbb8f624c06ad6a37044f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-59.png",
+      "category": "immutable_evidence",
+      "bytes": 367183,
+      "sha256": "36f45044158ae52042cc1154f63be8e73f504164fdde56176f538f663bb6dcdf"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-6.png",
+      "category": "immutable_evidence",
+      "bytes": 399883,
+      "sha256": "abdfa7c536f9316e02f126d57d604984d84fc52a0e7d54a0a72554c20be0d950"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-60.png",
+      "category": "immutable_evidence",
+      "bytes": 407587,
+      "sha256": "45becc8015504af1d4a70d9650bc4ebc11a34b35a736bf7d852584abb6c724bf"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-61.png",
+      "category": "immutable_evidence",
+      "bytes": 396242,
+      "sha256": "49c9dcb2e52e37dded4623e6e5131be11b4d712b57f86b80e13150b3ef995c18"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-62.png",
+      "category": "immutable_evidence",
+      "bytes": 365725,
+      "sha256": "6a8789d5f9e6206631fd701c89ad5515a1080629bc4e48d1a2e0d2d26a878f89"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-63.png",
+      "category": "immutable_evidence",
+      "bytes": 379022,
+      "sha256": "57a0021982ef277c4cce711957a572cab0d18a215376659b49d12aea8579423a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-64.png",
+      "category": "immutable_evidence",
+      "bytes": 366424,
+      "sha256": "bfa1b83052e7e6db478ae58a14fb04c558a6ebd1e7d4435795f5c6498602a213"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-65.png",
+      "category": "immutable_evidence",
+      "bytes": 369783,
+      "sha256": "432d0f33177bcae54bb134303d041463bc2c1ffdc322c11fc42107df0696bbe4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-7.png",
+      "category": "immutable_evidence",
+      "bytes": 395588,
+      "sha256": "5f49e4368584bb5977f6c8da7fc188fa8fda76e8eae4b7225e3b00b3db6048fa"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-8.png",
+      "category": "immutable_evidence",
+      "bytes": 264566,
+      "sha256": "6b099908fd8700113f1de2cf6912a7cb4d6a9a397ea36c260687bc457346bd81"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v3/page-9.png",
+      "category": "immutable_evidence",
+      "bytes": 290185,
+      "sha256": "d33615acbbf9ffffc9e45b3851eaad1d80a5f668ad006860f0b9c77fde818e8e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/HDMS_R001_답변_채점자료.pdf",
+      "category": "immutable_evidence",
+      "bytes": 15980035,
+      "sha256": "ee8cb1d4bfc7ce5751b1f7885a56bb8e4fb697ecd9a6c34c856dfa65666382a1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-1.png",
+      "category": "immutable_evidence",
+      "bytes": 222356,
+      "sha256": "ce3d972e7bba875fd80f4379964b62775822bc0573a50eee6e76d3fc79a841da"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-10.png",
+      "category": "immutable_evidence",
+      "bytes": 309518,
+      "sha256": "4987735bda5f6f242a6c3b82ca07593e503fa2b38f46b5446af69ab2b6c132a1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-11.png",
+      "category": "immutable_evidence",
+      "bytes": 349679,
+      "sha256": "868f0d1e30afc751ed0c4324928b89d4d3c3c8602c25796e0df6f45b58818768"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-12.png",
+      "category": "immutable_evidence",
+      "bytes": 282068,
+      "sha256": "d0c1835240edd93445d706b50aa952bac99c0c9e1484a54461d0b577378cece6"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-13.png",
+      "category": "immutable_evidence",
+      "bytes": 317323,
+      "sha256": "c99ad6713260c0c3d319516403b39d0ab63c596a131c9c6c711afb905598fc4b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-14.png",
+      "category": "immutable_evidence",
+      "bytes": 251722,
+      "sha256": "ce92081c3dd650d2d010bd7c17387562c85498675741a139f1394f4600ce0cf9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-15.png",
+      "category": "immutable_evidence",
+      "bytes": 240353,
+      "sha256": "e2a30e9417901f730c776f85f1f648867f4080e9c1454c3e1722ca2a1dd19104"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-16.png",
+      "category": "immutable_evidence",
+      "bytes": 283886,
+      "sha256": "eb8f79498e8c20cc2f02f7ad6ff92afb9a8e68ed253f291878f5fa879b27811a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-17.png",
+      "category": "immutable_evidence",
+      "bytes": 362245,
+      "sha256": "87fd422cc55a88bb812f4e834837dddfd2f78cb23b5506604be02a9121a2c42b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-18.png",
+      "category": "immutable_evidence",
+      "bytes": 338974,
+      "sha256": "9137334936480fefd777bd771c51701f4c7e161140f3bf14597fafefa0a47375"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-19.png",
+      "category": "immutable_evidence",
+      "bytes": 290789,
+      "sha256": "bd1464842756a05c1ed61b1a96e7ae7bebcc271974fc067dc2effc741f686057"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-2.png",
+      "category": "immutable_evidence",
+      "bytes": 352426,
+      "sha256": "1ceab836a3b94d55ad1e2c3753c2489a72d746252964b1b6ee51d46d43427151"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-20.png",
+      "category": "immutable_evidence",
+      "bytes": 268775,
+      "sha256": "a961aafcf8e6573f7a993b562c0ef169a5d11bd29b308d2d377f014128615d8f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-21.png",
+      "category": "immutable_evidence",
+      "bytes": 232565,
+      "sha256": "30334ff70f9b4965e1e25340a03f3aab077eb9d65295486cebafcb98be937504"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-22.png",
+      "category": "immutable_evidence",
+      "bytes": 299361,
+      "sha256": "fd32b5e0d49077a00102726e62637cb9f35b42ec738ab128e39917eb0c369127"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-23.png",
+      "category": "immutable_evidence",
+      "bytes": 381566,
+      "sha256": "1b05fb276c7d41f9711959dae86d53e5708114c63b8dc9f5e106f27e226c8b09"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-24.png",
+      "category": "immutable_evidence",
+      "bytes": 392341,
+      "sha256": "66d8471f9c6a82b2ed51634b7a806a2dde9e14ba0a47d04ff854bc3b8c77591e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-25.png",
+      "category": "immutable_evidence",
+      "bytes": 409051,
+      "sha256": "04aa589704d2e7bf915b453799529aa1c8264609f3bcd5039f47a85232466423"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-26.png",
+      "category": "immutable_evidence",
+      "bytes": 384441,
+      "sha256": "81019877078483b08eecbed97c2612afe0736390534b0cec2605cd7159da7b45"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-27.png",
+      "category": "immutable_evidence",
+      "bytes": 411933,
+      "sha256": "1f0d3cd3cb94255f64481da8f92e9a9b643ea42881df7aa6abee6ba6f0a22ac7"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-28.png",
+      "category": "immutable_evidence",
+      "bytes": 427455,
+      "sha256": "8e0a898ed4e523e7197c581fcdb3c4852ca756017fdd0b508d4a09894051439e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-29.png",
+      "category": "immutable_evidence",
+      "bytes": 342056,
+      "sha256": "3f64a47acb2fb8298219e3b351c5513d65fe993fd4f547b84759a846e2e91818"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-3.png",
+      "category": "immutable_evidence",
+      "bytes": 195337,
+      "sha256": "e1a4da41a38f01e53aa9b08a3c18808f99fb467899f53b5867d15c6066b4767b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-30.png",
+      "category": "immutable_evidence",
+      "bytes": 163629,
+      "sha256": "85d7633ea7b4365ef0a83fa4d60a47d94bd4366abc45304ceb5932e748f16309"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-31.png",
+      "category": "immutable_evidence",
+      "bytes": 57310,
+      "sha256": "25aa10bbd46cd9a9b6f84ca57c7ea0b815c5c5a36f1d9a735fd45c10ab84db11"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-32.png",
+      "category": "immutable_evidence",
+      "bytes": 89671,
+      "sha256": "7ecce9a69e9e93d11cc6bf15bd1680a034036e07fa1d8c5b5117861412445229"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-33.png",
+      "category": "immutable_evidence",
+      "bytes": 89205,
+      "sha256": "d54d2d2bd8701a43a045abd694935a770b09e31073ade8f9d0733516b05bf1b8"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-34.png",
+      "category": "immutable_evidence",
+      "bytes": 187908,
+      "sha256": "59528e700e347308c861d48ccd04b5427129217f4bd8abbb42ed02a6d8b1aba9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-35.png",
+      "category": "immutable_evidence",
+      "bytes": 121344,
+      "sha256": "da36728fbf4933c47312c32d9e93ab0dc28b2b909c7f5771554f30a7d12c293d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-36.png",
+      "category": "immutable_evidence",
+      "bytes": 600433,
+      "sha256": "b1f9ab8e4f8a0ec146ef3f11740d64f115c184f3df7f556deb8475d911c1015f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-37.png",
+      "category": "immutable_evidence",
+      "bytes": 276946,
+      "sha256": "56708e08328040ca10189b5fd57d6478877241580dbfe315ea580ce4434ef565"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-38.png",
+      "category": "immutable_evidence",
+      "bytes": 400602,
+      "sha256": "be36d020d026c086d3ef7edf948bd324792f50a8b6f62f2ec5657a34495ce5c0"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-39.png",
+      "category": "immutable_evidence",
+      "bytes": 394375,
+      "sha256": "9ce90586d6367d3f542e922ba91f9f18d50d4a9a3b26fdbf45cf3d32dc0a482c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-4.png",
+      "category": "immutable_evidence",
+      "bytes": 361552,
+      "sha256": "a1488a75bd09b5f75afa2e4ec5bcd2cc1602b403f8edee87e61892c8f259309e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-40.png",
+      "category": "immutable_evidence",
+      "bytes": 399656,
+      "sha256": "77734ae8a8bb035a4bed4da987efb6363c18dc9f0d9cff517bc46e246855cbb4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-41.png",
+      "category": "immutable_evidence",
+      "bytes": 444391,
+      "sha256": "1272632b121d051d670c6ff74e4b2ab84aa2b10b0e4b06020671095738e1235b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-42.png",
+      "category": "immutable_evidence",
+      "bytes": 654077,
+      "sha256": "262e41c52ae22f7cc4646202d32433599ee1495ba9dffd79af12d6baa544603e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-43.png",
+      "category": "immutable_evidence",
+      "bytes": 844698,
+      "sha256": "9a7600fc7f7d8d4cffebd79f9b6f1b855d35d57efdc4ea39580bc4d5952d8d7d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-44.png",
+      "category": "immutable_evidence",
+      "bytes": 518982,
+      "sha256": "b641a4d87d9db445ec8644678e51c7cfd384ca8901edcf443b48feb7ae714bd6"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-45.png",
+      "category": "immutable_evidence",
+      "bytes": 409752,
+      "sha256": "9007bf9579bee788082e7a0ad2c9cc482d47f2a0382969e2178e3ecc2399176f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-46.png",
+      "category": "immutable_evidence",
+      "bytes": 398667,
+      "sha256": "fe375b05c6a359f51cd8d3ea7a182f7594483f73bc90bc8b1aed6b79ec60b208"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-47.png",
+      "category": "immutable_evidence",
+      "bytes": 691296,
+      "sha256": "641f419ee08c5d30da3bd8468e2fdc1958277e05d62aea7fcd5bbbda2b547f60"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-48.png",
+      "category": "immutable_evidence",
+      "bytes": 478618,
+      "sha256": "841f5d632f8101b53523bb1d038de538d802b7431305ec80a8b08373f20ed2dd"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-49.png",
+      "category": "immutable_evidence",
+      "bytes": 473226,
+      "sha256": "96ea6031d42ebc5e40788774a70428757f9e16861a6c912a219012d995b707f1"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-5.png",
+      "category": "immutable_evidence",
+      "bytes": 342666,
+      "sha256": "170572f297e7d6a0d2791cd80ad4af10785dd673ebfd24b94b20de82eb517307"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-50.png",
+      "category": "immutable_evidence",
+      "bytes": 381010,
+      "sha256": "d0ca16b2f2a070c3ee756dcdfc1dbb6ab47cd69721f7ad09fd0916596f556f08"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-51.png",
+      "category": "immutable_evidence",
+      "bytes": 365635,
+      "sha256": "56437667417838c1d641515ea21469f5e8e1d0a2a2c44aa7890c2d2eb5e7c518"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-52.png",
+      "category": "immutable_evidence",
+      "bytes": 711748,
+      "sha256": "3e274f130c546a40f45d4ad4f409b4424cbecf9bf3ffac554b2de06824b4b0e2"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-53.png",
+      "category": "immutable_evidence",
+      "bytes": 557973,
+      "sha256": "bd90adafc037e9756fc739009ae2f08808e82079199974621df72c6f3f65329c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-54.png",
+      "category": "immutable_evidence",
+      "bytes": 367698,
+      "sha256": "6c64183760bdd6fee9f0011d05ed778339790b5bd40c9cbae8d172258e761f4f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-55.png",
+      "category": "immutable_evidence",
+      "bytes": 349254,
+      "sha256": "729a07c1b33b763de29501078b14138a68771d43cf4c6f95e409f07cb0577b62"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-56.png",
+      "category": "immutable_evidence",
+      "bytes": 324880,
+      "sha256": "fae8baedf6a80f0ec5024317415120641e1c8cb1aa77436538e4152008c0062a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-57.png",
+      "category": "immutable_evidence",
+      "bytes": 341182,
+      "sha256": "0e972ead20149ce2c9db8d6b2ce60d296d35fd10a1472cfa06bada23ce50df87"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-58.png",
+      "category": "immutable_evidence",
+      "bytes": 344016,
+      "sha256": "e4dbb512f718a42efda5d22c13c98cad84acff71183dbb8f624c06ad6a37044f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-59.png",
+      "category": "immutable_evidence",
+      "bytes": 367183,
+      "sha256": "36f45044158ae52042cc1154f63be8e73f504164fdde56176f538f663bb6dcdf"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-6.png",
+      "category": "immutable_evidence",
+      "bytes": 399883,
+      "sha256": "abdfa7c536f9316e02f126d57d604984d84fc52a0e7d54a0a72554c20be0d950"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-60.png",
+      "category": "immutable_evidence",
+      "bytes": 407587,
+      "sha256": "45becc8015504af1d4a70d9650bc4ebc11a34b35a736bf7d852584abb6c724bf"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-61.png",
+      "category": "immutable_evidence",
+      "bytes": 396242,
+      "sha256": "49c9dcb2e52e37dded4623e6e5131be11b4d712b57f86b80e13150b3ef995c18"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-62.png",
+      "category": "immutable_evidence",
+      "bytes": 365725,
+      "sha256": "6a8789d5f9e6206631fd701c89ad5515a1080629bc4e48d1a2e0d2d26a878f89"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-63.png",
+      "category": "immutable_evidence",
+      "bytes": 379022,
+      "sha256": "57a0021982ef277c4cce711957a572cab0d18a215376659b49d12aea8579423a"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-64.png",
+      "category": "immutable_evidence",
+      "bytes": 366424,
+      "sha256": "bfa1b83052e7e6db478ae58a14fb04c558a6ebd1e7d4435795f5c6498602a213"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-65.png",
+      "category": "immutable_evidence",
+      "bytes": 369783,
+      "sha256": "432d0f33177bcae54bb134303d041463bc2c1ffdc322c11fc42107df0696bbe4"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-7.png",
+      "category": "immutable_evidence",
+      "bytes": 395588,
+      "sha256": "5f49e4368584bb5977f6c8da7fc188fa8fda76e8eae4b7225e3b00b3db6048fa"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-8.png",
+      "category": "immutable_evidence",
+      "bytes": 264566,
+      "sha256": "6b099908fd8700113f1de2cf6912a7cb4d6a9a397ea36c260687bc457346bd81"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/render_v4/page-9.png",
+      "category": "immutable_evidence",
+      "bytes": 290185,
+      "sha256": "d33615acbbf9ffffc9e45b3851eaad1d80a5f668ad006860f0b9c77fde818e8e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0040.png",
+      "category": "immutable_evidence",
+      "bytes": 863958,
+      "sha256": "a32ae779b45fe88c6cec8d4717ad25fff820c7032e31853879e4bc6bf5f9e7f9"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0041.png",
+      "category": "immutable_evidence",
+      "bytes": 376119,
+      "sha256": "a8f2af4712613451d1d5b14082f171067fc784158ef03082a87f78141004a80b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0042.png",
+      "category": "immutable_evidence",
+      "bytes": 566228,
+      "sha256": "369357b6cfb2f969110c639819a432d5d73bdf2f6c7a25df5ccc4d6a785a106f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0227.png",
+      "category": "immutable_evidence",
+      "bytes": 529306,
+      "sha256": "da4519d306d386be48867d5d79f2efedce70be83c7a18cbf48feffd3416e65fe"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0228.png",
+      "category": "immutable_evidence",
+      "bytes": 529801,
+      "sha256": "9150b6d54f59e107757db6d88bd3dcd0576b9420801d2d58d84f0feae44ca05e"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0229.png",
+      "category": "immutable_evidence",
+      "bytes": 635997,
+      "sha256": "a8649f8e32688a77694b31aa8d894a0679181551ec6dbf7e5e33b57142f9bcb3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0230.png",
+      "category": "immutable_evidence",
+      "bytes": 953910,
+      "sha256": "eab7a5a5238a899123b1dbad591e7f9fe8b362dabe99a39c911e2879f29f7703"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0231.png",
+      "category": "immutable_evidence",
+      "bytes": 1281785,
+      "sha256": "5580413f76388308a7de58cdd96d2b40585cf9baf3ba0c73d2f0e5c4b2a4c655"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0232.png",
+      "category": "immutable_evidence",
+      "bytes": 736365,
+      "sha256": "34719924a1583e79aefb38f1524b24f1f08d025d6848497e08c30ebbc8067252"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0297.png",
+      "category": "immutable_evidence",
+      "bytes": 592990,
+      "sha256": "21bec7c51c8c4e4b221424d17d20652ea569ecb72c324d29d5ea75b7d60acf17"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0298.png",
+      "category": "immutable_evidence",
+      "bytes": 560162,
+      "sha256": "312675c5c786380896859ecc91db59d3589980a12667d60f736b72f05d20f20f"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0299.png",
+      "category": "immutable_evidence",
+      "bytes": 1022999,
+      "sha256": "9fbe91f0ed7d40ce785120c2e70417dbd14571cf248303de33b8e6129a1569a5"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0308.png",
+      "category": "immutable_evidence",
+      "bytes": 629726,
+      "sha256": "5408cf5741a0a7ad374f3bbc82cc80f234f3f6d9410e98663b203ce035d0893c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0309.png",
+      "category": "immutable_evidence",
+      "bytes": 664377,
+      "sha256": "dddf51ee39fac04f8e80a1981f32d85f46d8ef1d451d84f14aa39fd99d88fdfd"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0310.png",
+      "category": "immutable_evidence",
+      "bytes": 540843,
+      "sha256": "5becae959cbcc85ec8dece060c4f54d8f78f42a9cc9eabadb4c2a774c46cc5b7"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0311.png",
+      "category": "immutable_evidence",
+      "bytes": 527347,
+      "sha256": "05c437ccff5193cc7f9a3ba00383a2b991186f19be1f92edda04bc435dd81ed3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0312.png",
+      "category": "immutable_evidence",
+      "bytes": 1063428,
+      "sha256": "7ea725388ff4ff7ad05a1984c7ec8c0b3d97aef38f565c492086c4d03eb83cee"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0313.png",
+      "category": "immutable_evidence",
+      "bytes": 834098,
+      "sha256": "cb04704c8ec21190e5e81d970867e024df3b2025492cf8b18fc1cc4bf406a294"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0329.png",
+      "category": "immutable_evidence",
+      "bytes": 495313,
+      "sha256": "364d039441666b7feafbdcb22a04889147b512f15876a8b7c704ed0da1162e7d"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0330.png",
+      "category": "immutable_evidence",
+      "bytes": 466963,
+      "sha256": "72d4858eb016fb14eb3a19aec1eb611d5500d13498af3470a8f48aafb4d0cfd3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0331.png",
+      "category": "immutable_evidence",
+      "bytes": 448027,
+      "sha256": "bda6e37c9bba88676ea62bcb2be837599373397d65683cd4db59063b772802de"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0332.png",
+      "category": "immutable_evidence",
+      "bytes": 491364,
+      "sha256": "85401255f4ce097fd355252f136f7dfa6504d52d62161455333738caffa1c87c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0333.png",
+      "category": "immutable_evidence",
+      "bytes": 484999,
+      "sha256": "e5ac35480c3b244b221fc84be53556ac7fd5001ac474f0b85f74ff6b57f8b4e3"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0420.png",
+      "category": "immutable_evidence",
+      "bytes": 551095,
+      "sha256": "80e2910441c9e40ed37b0f73f988fce5f377e5becaaea084ab4664e9bd072b1c"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0421.png",
+      "category": "immutable_evidence",
+      "bytes": 531767,
+      "sha256": "0fcdc4e88299804daf07c4b8c4a69683d68685195f16c8a761f20f61b4e7db12"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0422.png",
+      "category": "immutable_evidence",
+      "bytes": 488327,
+      "sha256": "e69780c91f12a2fec5ad226c089aa10805700f32f2150a5335dde6fe77848932"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0423.png",
+      "category": "immutable_evidence",
+      "bytes": 463774,
+      "sha256": "8213df8330d8d9348a2322bc7a0d8be7e7d73270e1e69d5d3484b17899bea82b"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0424.png",
+      "category": "immutable_evidence",
+      "bytes": 474727,
+      "sha256": "9d348604d028e1677927fa6babc2c48eb419774260265d773d1d56fda19fa5bf"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0425.png",
+      "category": "immutable_evidence",
+      "bytes": 471081,
+      "sha256": "0ff23d3a0f6360898e63fd9e2024b431e673b030a316621d3a9ef4089c6ef880"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/_qa/source_images/source_0426.png",
+      "category": "immutable_evidence",
+      "bytes": 467263,
+      "sha256": "e4965652ef3acf0c61f4d3242d424a0222cd6316f82aafbbbd4d1621f191f4ae"
+    },
+    {
+      "path": "ipo_agent_eval/grading_exports/~$MS_R001_답변_채점자료.docx",
+      "category": "immutable_evidence",
+      "bytes": 162,
+      "sha256": "0a25325b98974df5b0d12ddf2087dc38b18dd404d4ac6fe5368997e4e02e2930"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/__init__.py",
+      "category": "versioned_source",
+      "bytes": 75,
+      "sha256": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/__init__.py"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/calculations.py",
+      "category": "versioned_source",
+      "bytes": 15016,
+      "sha256": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/calculations.py"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/cases.py",
+      "category": "versioned_source",
+      "bytes": 1993,
+      "sha256": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/cases.py"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/corpus.py",
+      "category": "versioned_source",
+      "bytes": 5095,
+      "sha256": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/corpus.py"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/id_repairs.py",
+      "category": "versioned_source",
+      "bytes": 6510,
+      "sha256": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/id_repairs.py"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/runner.py",
+      "category": "versioned_source",
+      "bytes": 26635,
+      "sha256": "da5e8beaddfcb32df1e9c1d9018718a727f8fb0c45f49ec7f91a48781737da28",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/runner.py"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/schemas.py",
+      "category": "versioned_source",
+      "bytes": 2469,
+      "sha256": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/schemas.py"
+    },
+    {
+      "path": "ipo_agent_eval/ipo_eval/validation.py",
+      "category": "versioned_source",
+      "bytes": 6402,
+      "sha256": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+      "snapshot": "baseline_source/ipo_agent_eval/ipo_eval/validation.py"
+    },
+    {
+      "path": "ipo_agent_eval/prompts/common.md",
+      "category": "versioned_source",
+      "bytes": 2757,
+      "sha256": "c0dd747b3a92079d123bdcf056fb748e89275744fa858c6dad7a629c671ef426",
+      "snapshot": "baseline_source/ipo_agent_eval/prompts/common.md"
+    },
+    {
+      "path": "ipo_agent_eval/pyproject.toml",
+      "category": "versioned_source",
+      "bytes": 575,
+      "sha256": "a4c2a709d247464d4337c23f4e9a50323ee487608ddad27e8f0e87d07cc06510",
+      "snapshot": "baseline_source/ipo_agent_eval/pyproject.toml"
+    },
+    {
+      "path": "ipo_agent_eval/reports/3기업_파일럿_확장_검증기록.md",
+      "category": "immutable_evidence",
+      "bytes": 9117,
+      "sha256": "f0dc3149323c8a84e5f5433c96dc7ee8d2a7882269644364359765cb7420a0a3"
+    },
+    {
+      "path": "ipo_agent_eval/reports/DTS_R001_대행채점.md",
+      "category": "immutable_evidence",
+      "bytes": 7385,
+      "sha256": "0e2239a256fe60d1a164a45d1976f9d28333746f28ec7569fecd87d06995530c"
+    },
+    {
+      "path": "ipo_agent_eval/reports/HDMS_B_첫답변_설명.md",
+      "category": "immutable_evidence",
+      "bytes": 6119,
+      "sha256": "a2bbfe12cd1fb05019069a4a7be09842958ccb850ea65acc68910f3719321efb"
+    },
+    {
+      "path": "ipo_agent_eval/reports/MELCON_R001_대행채점.md",
+      "category": "immutable_evidence",
+      "bytes": 9734,
+      "sha256": "083e16665451bc94ba731aa6620cc5dfedee7a14524cb9474947aaa3fa825f0f"
+    },
+    {
+      "path": "ipo_agent_eval/reports/R001_대행채점_검증기록.md",
+      "category": "immutable_evidence",
+      "bytes": 3194,
+      "sha256": "c6bb64bea46b729e761991dae09bbe2d4a8f7813d52756c3ad44cee10cbd63f2"
+    },
+    {
+      "path": "ipo_agent_eval/reports/docx_grading_rubric_notes.md",
+      "category": "immutable_evidence",
+      "bytes": 30834,
+      "sha256": "c2d09739873dba03357298331e4fe8ca030e1feb97bfb825a490e1514e116893"
+    },
+    {
+      "path": "ipo_agent_eval/reports/html_progress_structure_verification.json",
+      "category": "immutable_evidence",
+      "bytes": 3624,
+      "sha256": "d868a26d1d1505dca95b79d1779bcebea7259c6605bb68710c3af145ef75b344"
+    },
+    {
+      "path": "ipo_agent_eval/reports/html_progress_summary_verification.json",
+      "category": "immutable_evidence",
+      "bytes": 4435,
+      "sha256": "d9a210ad928debb4d8475c39c05ef92d461f3dff63b2f9a03ddf26ce26aea953"
+    },
+    {
+      "path": "ipo_agent_eval/reports/pilot_a0_detailed_design_verification.json",
+      "category": "immutable_evidence",
+      "bytes": 22846,
+      "sha256": "d221bade54eeb793cca4fc40c6fc86f12d3c5ce12cec718ccd6111a89a9fcce4"
+    },
+    {
+      "path": "ipo_agent_eval/reports/pilot_multicase_budget_change.md",
+      "category": "immutable_evidence",
+      "bytes": 2350,
+      "sha256": "d7aac9843d76d05c9c48f64640e5e870643583e31dda16f8f6da31ed61a9cede"
+    },
+    {
+      "path": "ipo_agent_eval/reports/pilot_output_budget_change.md",
+      "category": "immutable_evidence",
+      "bytes": 5705,
+      "sha256": "3f481173d779cfa15db87587334feb7b86715dd1185f98f98e4fb0251072c071"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_actual_run_calculations.md",
+      "category": "immutable_evidence",
+      "bytes": 20054,
+      "sha256": "e5e8269f57274457e2cc822ed526cb962379214a591be887972330b1ba50ccea"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_actual_run_execution.md",
+      "category": "immutable_evidence",
+      "bytes": 2800,
+      "sha256": "8a8de07fd07d8d1338be98ae16499416be48fe8e412b80e0382f13b762e9855e"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_calculations.md",
+      "category": "immutable_evidence",
+      "bytes": 6630,
+      "sha256": "e87f2c9c24c1fd0a4b216885b90924f376134fdf6cf9bbb8e1926785d48d8476"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_corpus.md",
+      "category": "immutable_evidence",
+      "bytes": 7833,
+      "sha256": "8f4c8f9945387947c167f740a1756e93f9372df38391b6e3cb5d17dc0a79b39f"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_documentation.md",
+      "category": "immutable_evidence",
+      "bytes": 15487,
+      "sha256": "df6d7ca51d124302f3f5768d4bff916b139141dc02dbaedae70505f8a808ec33"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_grading_docx_content.md",
+      "category": "immutable_evidence",
+      "bytes": 13246,
+      "sha256": "458265fae0675e9627340079ed706f236802361dab3fa22f5cc76cf83bda08cb"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_grading_docx_layout.md",
+      "category": "immutable_evidence",
+      "bytes": 2126,
+      "sha256": "abea8423aaf03eccce1267d6703eb5c54726d205c9ad9ec7d972bc043fc968cd"
+    },
+    {
+      "path": "ipo_agent_eval/reports/review_protocol.md",
+      "category": "immutable_evidence",
+      "bytes": 11353,
+      "sha256": "52eed7b0013ae64feac01f9c3d1ddda6a720fe8e3223a92cadb01e396953eb98"
+    },
+    {
+      "path": "ipo_agent_eval/reports/usage_costs.json",
+      "category": "immutable_evidence",
+      "bytes": 19144,
+      "sha256": "0c3b25f88678ef31509b4a4de2183b13bece4b65c13923eb2e0dd57cfc1f7d59"
+    },
+    {
+      "path": "ipo_agent_eval/reports/사용비용.md",
+      "category": "immutable_evidence",
+      "bytes": 3971,
+      "sha256": "71b2d8891eca86616ceb67da1b0d54fd4e26fba07cfa83d8fd94d59bd5304377"
+    },
+    {
+      "path": "ipo_agent_eval/reports/작업기록.md",
+      "category": "immutable_evidence",
+      "bytes": 15494,
+      "sha256": "b569e86e2c213553df80af8c22f2f67685d9cf1db9512acd2070515f6b7a3e94"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T230824Z_B_2da20d05/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1348,
+      "sha256": "9014aa855bdbfef81739959519c3feb1a61eb9621e2ed668afc3ca72d008a5cb"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T230824Z_B_2da20d05/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 180905,
+      "sha256": "5f5a2553e4a263e27a379b3a3c94738b7a40688c31c4131b2d812502568b6903"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T230824Z_B_2da20d05/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "4fb1838fdddf1f0d3b5e0c160ac1466c98d1a9cc579b5be1aa11b5cc5bfa2553"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T230824Z_B_2da20d05/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 137649,
+      "sha256": "bb5b926d4ad1c502c62d2e84179d92062fa9ab900209e87f8fc74e6532e86271"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T230824Z_B_2da20d05/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 652,
+      "sha256": "db40a3d6c62b4e850d63048c9d2c3bab930a3da1b26bc1e091fb2253122cccc1"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231054Z_B_232f70d8/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1389,
+      "sha256": "972b9d303f70621cc0d284d243e2175e4b543fd6387a8d2f724636ce80fe4d84"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231054Z_B_232f70d8/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 180883,
+      "sha256": "2e94a90c58adbeed93833297adf3ca430ff8c6b2c66c419d7c3637440060ab87"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231054Z_B_232f70d8/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "a8ccf40ebd421fc82d3dc950a3e7ee6ef417b5fc31c55f60907760a3d4f83448"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231054Z_B_232f70d8/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 137649,
+      "sha256": "bb5b926d4ad1c502c62d2e84179d92062fa9ab900209e87f8fc74e6532e86271"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231054Z_B_232f70d8/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 699,
+      "sha256": "50598c9dfbee4815a6ae01bb1229b3b1eb1924ca3a17ba91012700f943ce2dc7"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231218Z_B_6f5f669b/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "69397e5d12d85990467201df2835d3a7cebbac01bff1103b585b138dc7f03f14"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231218Z_B_6f5f669b/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 192412,
+      "sha256": "20efcb3967bffb2463ff796727bd8ea31c5a86c7c901468733ed1dce661c9ae1"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231218Z_B_6f5f669b/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "fa31f8e042a70b8f6acdb2f6fe5dcf30ecd8b8abe500151fff7ff24822ae9976"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231218Z_B_6f5f669b/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231218Z_B_6f5f669b/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 699,
+      "sha256": "507dbfad201b5fd7b58dd96572b6e6814e397f0a3fd125713206399887b45c23"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231303Z_B_acd171ef/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "69397e5d12d85990467201df2835d3a7cebbac01bff1103b585b138dc7f03f14"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231303Z_B_acd171ef/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 255,
+      "sha256": "899d264a168b3e124361a960ee79fa54f8cce3c78444db6a0224250c8657432b"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231303Z_B_acd171ef/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 192411,
+      "sha256": "22398b7ba3dad1889ee856329b3efc8825680267d252eefef9bf8ebeb132f556"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231303Z_B_acd171ef/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "a28b580ab5f5d72e04480d12fd96cac64c5e69c8f3785ecebcc5e62d408412f7"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231303Z_B_acd171ef/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231303Z_B_acd171ef/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 699,
+      "sha256": "49efedd5751f49be245ed1e7299781194c64bdefb844580a6ea96ce0b6d7d78c"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231436Z_B_958b44a6/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "69397e5d12d85990467201df2835d3a7cebbac01bff1103b585b138dc7f03f14"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231436Z_B_958b44a6/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231436Z_B_958b44a6/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 192414,
+      "sha256": "90e31c0251f2e43daebeb1f96b9ca225f3b7bdfa8a5cf336f16f7b6b47ac1500"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231436Z_B_958b44a6/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "4d93f5c9e7866099be91b999f4b9dd266c6909fffe9a74290d7d0e92b0f34e31"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231436Z_B_958b44a6/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231436Z_B_958b44a6/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 699,
+      "sha256": "16c313298527dcd9e47881483340446ac77f1d615c34b1fafec0211da84686dd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 177115,
+      "sha256": "dbf3f1165d7c392ba7f87e3fc8572b5a997072e7f4550d1208e03bdc1be93a7e"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/authentication_check.json",
+      "category": "immutable_evidence",
+      "bytes": 332,
+      "sha256": "3aa8bcb6c4154bb32eb153453c567f26023fcdb48d518fecd0b73f165d2f5d6c"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "69397e5d12d85990467201df2835d3a7cebbac01bff1103b585b138dc7f03f14"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 192907,
+      "sha256": "88e641a4f4cf1bd6903519f00b007a5e78d83437c0e3c117ebb6b81e3cfbdf85"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "4d93f5c9e7866099be91b999f4b9dd266c6909fffe9a74290d7d0e92b0f34e31"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T231508Z_B_8f5f6f03/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 646,
+      "sha256": "02e5817fbc0699dc9a8ff576317cbb35d529dbcea8892e3b339c17ea93adc92e"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 177115,
+      "sha256": "dbf3f1165d7c392ba7f87e3fc8572b5a997072e7f4550d1208e03bdc1be93a7e"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/01_extract_response.json",
+      "category": "immutable_evidence",
+      "bytes": 51228,
+      "sha256": "012fe1adce998051802306b28c64d03f26f490019e832ac9d427168d0eab2c28"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/02_review_request.json",
+      "category": "immutable_evidence",
+      "bytes": 221870,
+      "sha256": "28d4936d06df27d8d6e68d024a8de041c3908de419939b548d3d8e7413defede"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/02_review_response.json",
+      "category": "immutable_evidence",
+      "bytes": 40949,
+      "sha256": "5a206cb696a9dea7b573a01e4197f86d7ed75951842330b4948c2c9bcbefb93d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/calculations.json",
+      "category": "immutable_evidence",
+      "bytes": 39930,
+      "sha256": "0f6b2b7cfedf66bcddfe90d4bdfba16df96b31d816ba1237ef4f997a13669828"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "69397e5d12d85990467201df2835d3a7cebbac01bff1103b585b138dc7f03f14"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 233788,
+      "sha256": "b7efc3f4a7465a7849746c42a2de66c04890ab93225511f85b7b6bba032df309"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/extraction.json",
+      "category": "immutable_evidence",
+      "bytes": 14637,
+      "sha256": "9806147eecf2d48df5e6d830d39b489b691eb081e6c8416e060fdc1e0d710e8d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "06ec2eee27d902640d4f1729d1229b150c8d944497896aabc1202ecb78c61f59"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232308Z_B_b3fe2173/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 685,
+      "sha256": "08bbb75f69e73119ef25e895c6f1087ff598a64e434f238226ffd4ccaa3146ab"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 177115,
+      "sha256": "dbf3f1165d7c392ba7f87e3fc8572b5a997072e7f4550d1208e03bdc1be93a7e"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/01_extract_response.json",
+      "category": "immutable_evidence",
+      "bytes": 49665,
+      "sha256": "7a8cbb083e9e3ba1b67a58a847cf83def7ab90be27386b56acd05007bc94aab1"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/02_review_request.json",
+      "category": "immutable_evidence",
+      "bytes": 220860,
+      "sha256": "982b52abcbbcf5d1f55d2871595c9383fd510641ebc5fbeda84621bd8762f423"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/02_review_response.json",
+      "category": "immutable_evidence",
+      "bytes": 43572,
+      "sha256": "9143b636dd9594d090de30d25730e7771d9f5c27d0aaa6a4a6e9dcc749044969"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/03_review_format_repair_request.json",
+      "category": "immutable_evidence",
+      "bytes": 46971,
+      "sha256": "f13d4d453721936d05d7590ab897979af1e60260e6a0da83248866d84b93eb83"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/03_review_format_repair_response.json",
+      "category": "immutable_evidence",
+      "bytes": 31061,
+      "sha256": "2688750ab81311a769c9a06afaee7aa88be883e12f0472b769aa68843c9a2273"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/calculations.json",
+      "category": "immutable_evidence",
+      "bytes": 39566,
+      "sha256": "825556844cc982db7a86d13d106f03c5369630768f07cbb77d18e7c73d1e95e7"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "553114ffb89e9fdbae23b9cf844cb994bd7efe07a0b905b296a9df854c8b4e4b"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 235526,
+      "sha256": "2a794388bdfa952a16b5162ad661a51da29bd907d7a10724b86cdad6086439b7"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/extraction.json",
+      "category": "immutable_evidence",
+      "bytes": 13991,
+      "sha256": "e25922a21fa3c99f1570c7b60a8ad4da322160b31cd01e06764cfb4d321bb223"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1167,
+      "sha256": "764b6e54d18396b25405fee7e642095898b8ce633a3372352a90d92a6fe4134d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T232645Z_B_e3ab1569/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 687,
+      "sha256": "4aa69da0c14c5385aeda4ab9818b4f27876c8c50638619ceb06e213c653cd604"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 177605,
+      "sha256": "644e0b0161774cb1f462e42ffc7731f1715d92957a307fc4c7b8f0025917ba23"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/01_extract_response.json",
+      "category": "immutable_evidence",
+      "bytes": 49943,
+      "sha256": "d597d81f9e1b438831d6e7983c8021fa8eb0e296d3a5f7f85ecdec65a2515ad5"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/calculations.json",
+      "category": "immutable_evidence",
+      "bytes": 40102,
+      "sha256": "c8fa74aac7866ec80c72d6ac35e3853b339bd5469458070df8afd27c770af273"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "3f5c50d6447a43cccfe71c912a6bc75e12eb4983789a093caa1d58b9b7b58072"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 233484,
+      "sha256": "b4b459029266a2c379b97c6f745368ef6cad4c6edf3274305d7ea8df2ccbc23b"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/extraction.json",
+      "category": "immutable_evidence",
+      "bytes": 14739,
+      "sha256": "4ce8eeaa7ae7ad33b736fb88e360e940db189263fc507670561f83901dc57ac5"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1265,
+      "sha256": "9810773e8b07c9858ab51907226bfffa8d4d64b59d546180d86df847947ccdc5"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233120Z_B_6d0659e0/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 664,
+      "sha256": "2870bfe9d43ebc349befaaaab59275eaa3ee304edcd515daf8f994e243a5460d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 177605,
+      "sha256": "644e0b0161774cb1f462e42ffc7731f1715d92957a307fc4c7b8f0025917ba23"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/01_extract_response.json",
+      "category": "immutable_evidence",
+      "bytes": 48363,
+      "sha256": "dd7dc5518d85d7827d0561a804a8fc15a24ee01f298119e84c9865f16d162d97"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/02_review_request.json",
+      "category": "immutable_evidence",
+      "bytes": 206480,
+      "sha256": "fee11f8b3b7848b1122bf67ad567b5d41d4b2b9ac3fccae28a5d1ebf557dd466"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/02_review_response.json",
+      "category": "immutable_evidence",
+      "bytes": 43986,
+      "sha256": "0c013ee566374694ff2dd213245879348185d49094a542fc771e7956e98be093"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/03_review_format_repair_request.json",
+      "category": "immutable_evidence",
+      "bytes": 46085,
+      "sha256": "6d29abc0e594fb737c44c6ec267a90dd4e04f3ff236dc8c31deae71e02aa2ebd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/03_review_format_repair_response.json",
+      "category": "immutable_evidence",
+      "bytes": 26553,
+      "sha256": "acd8b7d9baaf74be7a27073bd322c8ea93cb17cedecdb86c6fa338ec4f5dcae1"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/calculations.json",
+      "category": "immutable_evidence",
+      "bytes": 39197,
+      "sha256": "69f604180d47cdd3b5974c8d4e81d327778951e664ce409398555256cd99c30d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "024652cb6e711069c2dadb41679b623e7438b0939d86ea5c2cc9c8786b260a68"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 233144,
+      "sha256": "31cd98548c7d2e20ac56e334e85a68a704888a9edf2b10ef3d4414f349a88bc7"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/extraction.json",
+      "category": "immutable_evidence",
+      "bytes": 13868,
+      "sha256": "cf0840cd157b61dedeaeb5465f47b1c895f1ec11cf4c9eda90748ef1f6be5f40"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1265,
+      "sha256": "6e409fe341cf6492ce1def638d04cab573a777531b90d388d31be1a5a6180923"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233411Z_B_c1ca9cc8/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 688,
+      "sha256": "fe144045c25bc060ff5c4cb48aeb12b64dec9fb0baaf4983c652f94db05b800e"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 177825,
+      "sha256": "886faabd675866786ae3503de5c8b1c48b657b2197c9fc7f6a846c441d799630"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/01_extract_response.json",
+      "category": "immutable_evidence",
+      "bytes": 49014,
+      "sha256": "1be3fb8d19fdb012b18cea0c4c50e58514c9a8fe0d90d8c41505ff1da8b29a0a"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/02_review_request.json",
+      "category": "immutable_evidence",
+      "bytes": 206746,
+      "sha256": "00a25c529aa584f00df9a611f6d815ec5bb83f36f9d107b669d050c26fb67a9e"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/02_review_response.json",
+      "category": "immutable_evidence",
+      "bytes": 49330,
+      "sha256": "88aa734bcaaf2d6e2f68bf025a60586cf724ef9475a1583303965857aec7eb4f"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/calculations.json",
+      "category": "immutable_evidence",
+      "bytes": 39287,
+      "sha256": "0c964401ed99d9e08f8e3b8d356722b4eede01bafb67ed6bbe5f85213754262c"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1398,
+      "sha256": "505a070781607b7fcf9a14087aa7e640ca43962849c641fb499c299661fa79d3"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 234819,
+      "sha256": "6563974289c825f47a0eace16a37ca23b29a45b438f2f329ed85f916c76c4dc5"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/extraction.json",
+      "category": "immutable_evidence",
+      "bytes": 13830,
+      "sha256": "48823de3af1dca70ca4b7f39444914121e2693ee6ce26f4057fa550f5d55d259"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1265,
+      "sha256": "af55b6a8f5819ef5fe5fc81445e4cd7bf7ccd6464c7148985fca0d257c47297e"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/review.json",
+      "category": "immutable_evidence",
+      "bytes": 231449,
+      "sha256": "103287d73744618b73b090180207e0b0a587d6b8907e855b58ef440b1dec7b72"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/review.md",
+      "category": "immutable_evidence",
+      "bytes": 196540,
+      "sha256": "457ba4e4be63d7f77317829181813ba117465bda06e6c910b9365ed09b51e593"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261111T233807Z_B_2db53c6b/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 668,
+      "sha256": "c3bc530dd2f483906c8b2c1566a30101027f8a1168a32a4448059d541a964204"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042829Z_B_de6b7d20/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1415,
+      "sha256": "ed38bde1724cf7ec25017516f39d0af668e525185657e55deabc6fdf461d4084"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042829Z_B_de6b7d20/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1714,
+      "sha256": "f98fed7435e99e08ac3906e1dd071b6c521fe804ada1bcb19824c9b35b77e6fc"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042829Z_B_de6b7d20/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042829Z_B_de6b7d20/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 140789,
+      "sha256": "9e805c725dfceb3db3b7ee315c7d4e282aaf9af3476c5b76fba2ba81aec19815"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042829Z_B_de6b7d20/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1747,
+      "sha256": "aa05d98179ac9ad9574039cc6f7362453abe893beff7c713cc61fe6b2ee64c05"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042829Z_B_de6b7d20/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 118243,
+      "sha256": "fab02a1ea8d3241ca8807d354172b952f54c9c94c59559031e62756407361280"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042829Z_B_de6b7d20/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 714,
+      "sha256": "77585cb986d05177351aa22cc7fdad399ddedb69af69e19d6a9bc7323a984595"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042929Z_B_5d13fa2d/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1319,
+      "sha256": "82fca6735b9840c7eebc5d384bc0eeba77b511d31bac219ce831813a0c9e4b24"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042929Z_B_5d13fa2d/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1717,
+      "sha256": "546ebaa79f153123fb5f8d16896a83e7456fd70342ffc2634d88df21c2698bc4"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042929Z_B_5d13fa2d/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042929Z_B_5d13fa2d/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 213997,
+      "sha256": "441e9f4c429ffc8df4455d5807a9c9730ca09c77bdb1ff86be680c4070e61104"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042929Z_B_5d13fa2d/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1765,
+      "sha256": "8343b287dab09f546947e6823be5d8c31e9ab4026ee60ef59cc3cfd6a2df96f1"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042929Z_B_5d13fa2d/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 179947,
+      "sha256": "f101fe3211ed057bd821f509f5fa17771305587aceae1361a5878edfc62bbea8"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042929Z_B_5d13fa2d/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 717,
+      "sha256": "5a7c186e4d97c10d5c1a22d35c6856d158769f11eee465824bb5308fc4d1dde9"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042932Z_B_f66a2f55/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1121,
+      "sha256": "5e1469a312bc775f88adb5c8ddb34298081e2cb9402fb128ed1db48c90b28e5d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042932Z_B_f66a2f55/config.json",
+      "category": "immutable_evidence",
+      "bytes": 1715,
+      "sha256": "be5dbb4d6f1d8737e2e5f0d1895483efeb8e1b19c0ca47dea52a9fefacc6b198"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042932Z_B_f66a2f55/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042932Z_B_f66a2f55/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 193383,
+      "sha256": "687d61fd8b6e954adbdd4beb3032571acdcb5a5dc157cd8793b9d37085b5ea42"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042932Z_B_f66a2f55/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1558,
+      "sha256": "b8178c2bfbbc1d39f99824e6d78b82db0ab6e19c6e01a73c4a1ebf893d21c503"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042932Z_B_f66a2f55/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T042932Z_B_f66a2f55/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 715,
+      "sha256": "ce83ee56742fd28e296a1c22f92f60faa6993148ac9aa955b62c83c6b390ba00"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_0595987e/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1121,
+      "sha256": "5e1469a312bc775f88adb5c8ddb34298081e2cb9402fb128ed1db48c90b28e5d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_0595987e/config.json",
+      "category": "immutable_evidence",
+      "bytes": 2092,
+      "sha256": "3ec237156c5b6aaee788da75fa0c3514b105d11c76ee5d1dd7e20e4850f448a7"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_0595987e/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_0595987e/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 193383,
+      "sha256": "811beef3713904b512364aa5a30dba8230246340e35e82e484934fa4382a8bb0"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_0595987e/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1558,
+      "sha256": "d4b7a5d23367bc322333d76e486000d6e553805146eb51dfdc7f9e7ed8fbe028"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_0595987e/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 141447,
+      "sha256": "e22db30ac5b2c1ccee5c6fd885e85904e52cd9240a4dfa51bdba77ef741e23fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_0595987e/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 715,
+      "sha256": "4be2e4725f311e9faec7ee08eb572eba9caf210df6cd2aca832756992be501b4"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_56fc0bbc/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1415,
+      "sha256": "ed38bde1724cf7ec25017516f39d0af668e525185657e55deabc6fdf461d4084"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_56fc0bbc/config.json",
+      "category": "immutable_evidence",
+      "bytes": 2091,
+      "sha256": "c6e09b1806af6fea4fe8e7f9e4774cbca78d545dcd13c3446d4573350290ee63"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_56fc0bbc/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_56fc0bbc/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 140788,
+      "sha256": "a6ef1cb13a77f86ab0b8fc9d2e48533f8165990a98eb06a055facf27d24747b9"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_56fc0bbc/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1747,
+      "sha256": "94d66650a01b0b2e8fac90c197f37152c94c749aff377607c2eff4db1e9efd6c"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_56fc0bbc/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 118243,
+      "sha256": "fab02a1ea8d3241ca8807d354172b952f54c9c94c59559031e62756407361280"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_56fc0bbc/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 714,
+      "sha256": "bd50bc5232ccbf0426320721170981d21dfcbfeada86f11e376c3a668908e3e1"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_5c030aaf/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1319,
+      "sha256": "82fca6735b9840c7eebc5d384bc0eeba77b511d31bac219ce831813a0c9e4b24"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_5c030aaf/config.json",
+      "category": "immutable_evidence",
+      "bytes": 2094,
+      "sha256": "abd40002e63184c61314680bc8d1e580e1c8fbab63f7b478e1de96dc5a6d57cc"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_5c030aaf/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_5c030aaf/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 213998,
+      "sha256": "4857a13f81974b1bb61a47aa63535ec0dc86b13c6c7ecc3b0b8de313f0ff8e35"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_5c030aaf/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1765,
+      "sha256": "c5c3ab0400d51de90065d0e9e851d5a657fb4209b02a76a25b6c307f7c3bbe18"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_5c030aaf/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 179947,
+      "sha256": "f101fe3211ed057bd821f509f5fa17771305587aceae1361a5878edfc62bbea8"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043318Z_B_5c030aaf/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 717,
+      "sha256": "a333396bdbfae14c5701d404d670bfbca4170aae8c2b2a7fab4e2b5ee69ed090"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 217185,
+      "sha256": "04b9722796fd4dd9d08af3e6d6b7da7308613f0a3e882a65a5ea9e0d0f456e77"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/01_extract_response.json",
+      "category": "immutable_evidence",
+      "bytes": 47344,
+      "sha256": "aa97ba877b0484f8ae1ebe265388c20ef54c637c0dc3e6cc978b5caccf0ace8d"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/02_review_request.json",
+      "category": "immutable_evidence",
+      "bytes": 231737,
+      "sha256": "a52e757ed4f7d89ca650b6167ff9a88aed24bf9ccd8f15b00aa37c9c63b83e6c"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/02_review_response.json",
+      "category": "immutable_evidence",
+      "bytes": 53950,
+      "sha256": "6b6073ccceabd0328eca0386669287652ef77ec8bc3b056be3f614e27028e3e5"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/calculations.json",
+      "category": "immutable_evidence",
+      "bytes": 26512,
+      "sha256": "9243593c7cb1b8bce0929fa047e6fb700a34dc52d084a1646fd1e8cefb361f86"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1319,
+      "sha256": "82fca6735b9840c7eebc5d384bc0eeba77b511d31bac219ce831813a0c9e4b24"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/config.json",
+      "category": "immutable_evidence",
+      "bytes": 2094,
+      "sha256": "abd40002e63184c61314680bc8d1e580e1c8fbab63f7b478e1de96dc5a6d57cc"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 245738,
+      "sha256": "207d2e4464550766265344de38b5ee67855beec48368830a77ff91495556598b"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/extraction.json",
+      "category": "immutable_evidence",
+      "bytes": 9993,
+      "sha256": "09bda913f80ae9396630311609df5819ad76bec8f363d1a960b7e02076ab7e10"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1765,
+      "sha256": "c5c3ab0400d51de90065d0e9e851d5a657fb4209b02a76a25b6c307f7c3bbe18"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/review.json",
+      "category": "immutable_evidence",
+      "bytes": 131409,
+      "sha256": "c8aa990584f0b7cc8c07780dc2372bc9a0e5547fb06d356db4577921b6ca66c9"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/review.md",
+      "category": "immutable_evidence",
+      "bytes": 105009,
+      "sha256": "68f7d1e3ffe2236919422d42f507b2c061056485e5ae7fac58cf7bd319c8eb55"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 179947,
+      "sha256": "f101fe3211ed057bd821f509f5fa17771305587aceae1361a5878edfc62bbea8"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043350Z_B_2f186feb/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 750,
+      "sha256": "b721dc04b7c079c9039d3402dbb753c55dff07acfe7ab224ba9a8a38cfd0f1fd"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/01_extract_request.json",
+      "category": "immutable_evidence",
+      "bytes": 154770,
+      "sha256": "8d38f64a2393b53f6d5a6fd9fb72f5093471069e3b7a16854acada0fce997106"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/01_extract_response.json",
+      "category": "immutable_evidence",
+      "bytes": 48827,
+      "sha256": "4539c97b7c599f504798af85ca4eb68a518ef74105a80708cd06280d0c07f62b"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/02_review_request.json",
+      "category": "immutable_evidence",
+      "bytes": 176530,
+      "sha256": "0c4280221e065393e1c31ffd8a72c4df84df3d3f8501449b516de2e747c0e525"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/02_review_response.json",
+      "category": "immutable_evidence",
+      "bytes": 54139,
+      "sha256": "4a4c840b04125d046dde5b18f8d6f7a1f699833d4952385d508b04806d5db97a"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/calculations.json",
+      "category": "immutable_evidence",
+      "bytes": 32966,
+      "sha256": "a604003b2e999efff97016185fc20f8b9a9d0c618393cfb2abe09e14f3644520"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/case_selection.json",
+      "category": "immutable_evidence",
+      "bytes": 1415,
+      "sha256": "ed38bde1724cf7ec25017516f39d0af668e525185657e55deabc6fdf461d4084"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/config.json",
+      "category": "immutable_evidence",
+      "bytes": 2091,
+      "sha256": "c6e09b1806af6fea4fe8e7f9e4774cbca78d545dcd13c3446d4573350290ee63"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/environment.json",
+      "category": "immutable_evidence",
+      "bytes": 286,
+      "sha256": "52b7455b753ada267beb00c08402fd823d91cb461a61032d2ae5e233e398c060"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/events.jsonl",
+      "category": "immutable_evidence",
+      "bytes": 180773,
+      "sha256": "c012f342a94714e65533b83bef3147c79bff7ecb3459e28252713a9c2b454d79"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/extraction.json",
+      "category": "immutable_evidence",
+      "bytes": 12039,
+      "sha256": "26d5f5e6a4c642be5c7b9ca47f70f339593e9fe401152c5fc438a7e0ebba6105"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/input_hashes.json",
+      "category": "immutable_evidence",
+      "bytes": 1747,
+      "sha256": "94d66650a01b0b2e8fac90c197f37152c94c749aff377607c2eff4db1e9efd6c"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/review.json",
+      "category": "immutable_evidence",
+      "bytes": 175341,
+      "sha256": "28dc979f54acbfe6937a4307f35b5216c36c400e2f42e7e805c73da23421ec8f"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/review.md",
+      "category": "immutable_evidence",
+      "bytes": 143817,
+      "sha256": "b84be137383e93937b670a7f4a966c0f1b33f46634400df982e1431aff54b8df"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/source_packet.json",
+      "category": "immutable_evidence",
+      "bytes": 118243,
+      "sha256": "fab02a1ea8d3241ca8807d354172b952f54c9c94c59559031e62756407361280"
+    },
+    {
+      "path": "ipo_agent_eval/runs/20261113T043411Z_B_011e790c/summary.json",
+      "category": "immutable_evidence",
+      "bytes": 746,
+      "sha256": "1c59f4043eb8d943fa9db1c46865db94a840b608e54b902170cf0eab0e8bdc40"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/audit_costs.py",
+      "category": "versioned_source",
+      "bytes": 14264,
+      "sha256": "22b7a34680ed2909b2ceb8e6c9deface7d7d5fa9edf5dc76c03d30e8d14aa071",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/audit_costs.py"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/audit_pilot_inputs.py",
+      "category": "versioned_source",
+      "bytes": 4099,
+      "sha256": "c79bf233270581ba40bf3dd8d00e56647392f936b1a21e8498316e274708c7af",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/audit_pilot_inputs.py"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/build_grading_docx.py",
+      "category": "versioned_source",
+      "bytes": 34570,
+      "sha256": "9e60f899e6a9a3d08a8cdce99492d10b64bed16b43005520bf25d27a9a8bd809",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/build_grading_docx.py"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/build_r001_grade.py",
+      "category": "versioned_source",
+      "bytes": 21733,
+      "sha256": "c574c3816451617c6feda6f51f35e9c1e218775abb1de33e9c369888a64df0df",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/build_r001_grade.py"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/prepare_case.py",
+      "category": "versioned_source",
+      "bytes": 7542,
+      "sha256": "b745ff1fc2ac4a949a9e2463817468e83dbd70b5e3b657953a3b1794ea7389e9",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/prepare_case.py"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/prepare_hdms.py",
+      "category": "versioned_source",
+      "bytes": 11269,
+      "sha256": "0e26a1108af720673cb29919a2a81cf60ef6dca6764270b7dccddcf15c34ce3a",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/prepare_hdms.py"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/render_grading_docx.py",
+      "category": "versioned_source",
+      "bytes": 1490,
+      "sha256": "9538308fcd1b116c812be4ec9bd2f27371588501edfc0b3cf686f2290676ace7",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/render_grading_docx.py"
+    },
+    {
+      "path": "ipo_agent_eval/scripts/word_export_pdf.ps1",
+      "category": "versioned_source",
+      "bytes": 816,
+      "sha256": "9c8665af7f48d53f68037a8427283b5f2f96793edafd4a1cb47a8d9a6db4def3",
+      "snapshot": "baseline_source/ipo_agent_eval/scripts/word_export_pdf.ps1"
+    },
+    {
+      "path": "ipo_agent_eval/tests/test_calculations.py",
+      "category": "versioned_source",
+      "bytes": 8381,
+      "sha256": "05e25203fd2463b244fc43da7fbfb0de2cdfaed9f2c449347d61479229b9699d",
+      "snapshot": "baseline_source/ipo_agent_eval/tests/test_calculations.py"
+    },
+    {
+      "path": "ipo_agent_eval/tests/test_costs.py",
+      "category": "versioned_source",
+      "bytes": 4705,
+      "sha256": "3a3ae945729413d6a086a03aa562e10313ca4139a7cc324ab90ea18c497c0d6f",
+      "snapshot": "baseline_source/ipo_agent_eval/tests/test_costs.py"
+    },
+    {
+      "path": "ipo_agent_eval/tests/test_id_repairs.py",
+      "category": "versioned_source",
+      "bytes": 5896,
+      "sha256": "b1d2596e449f7d9ae5378e3fa9fc21e7bdc9d7b8bc9c2ff6840c4f3cfb529e1f",
+      "snapshot": "baseline_source/ipo_agent_eval/tests/test_id_repairs.py"
+    },
+    {
+      "path": "ipo_agent_eval/tests/test_prepare_case.py",
+      "category": "versioned_source",
+      "bytes": 4730,
+      "sha256": "32d255c3636fc3073a9f25f4f8f9363a67f5aeaafcde2f32f50949774c9d13e6",
+      "snapshot": "baseline_source/ipo_agent_eval/tests/test_prepare_case.py"
+    },
+    {
+      "path": "ipo_agent_eval/tests/test_workflow.py",
+      "category": "versioned_source",
+      "bytes": 24389,
+      "sha256": "c83cf99e17f849cda0bbdc39584e0e6b3fc2babc1189dba941203662aa4a2fc8",
+      "snapshot": "baseline_source/ipo_agent_eval/tests/test_workflow.py"
+    },
+    {
+      "path": "whole plan/IPO_Experiment_Protocol.html",
+      "category": "versioned_design",
+      "bytes": 89006,
+      "sha256": "3c949b2583ffcf696397fa639e02d195c6f2a22ca2a0e8b40eec3b48df1b79a2",
+      "snapshot": "baseline_source/whole plan/IPO_Experiment_Protocol.html"
+    },
+    {
+      "path": "whole plan/IPO_Project_Design.html",
+      "category": "versioned_design",
+      "bytes": 52130,
+      "sha256": "68b2e685526af94ba223d9c0439b23d8cc9890c80ab36d5d1950c8ffe63d0ab6",
+      "snapshot": "baseline_source/whole plan/IPO_Project_Design.html"
+    },
+    {
+      "path": "whole plan/IPO_Proposal.html",
+      "category": "versioned_design",
+      "bytes": 27799,
+      "sha256": "ab6318244a219bb208975278c16b0ecdba49f0208b31a5288e2cf3e9e0953501",
+      "snapshot": "baseline_source/whole plan/IPO_Proposal.html"
+    },
+    {
+      "path": "whole plan/IPO_당장할일.md",
+      "category": "versioned_design",
+      "bytes": 5531,
+      "sha256": "1079c26eb075300af54501c560dcf93ac6f88c11a256de9618008549c29eaf84",
+      "snapshot": "baseline_source/whole plan/IPO_당장할일.md"
+    },
+    {
+      "path": "whole plan/IPO_진행현황_남은일.html",
+      "category": "versioned_design",
+      "bytes": 49387,
+      "sha256": "408e1105341428b2733c63839df740e9d52813a07fb6141aa1cf9e22cea7fd44",
+      "snapshot": "baseline_source/whole plan/IPO_진행현황_남은일.html"
+    },
+    {
+      "path": "whole plan/IPO_파일럿보완_A0_상세설계.html",
+      "category": "versioned_design",
+      "bytes": 58713,
+      "sha256": "a40297f0cf891199e24c3eb25f29cf18f9345b2b727d07b3c76404c1613ddc2a",
+      "snapshot": "baseline_source/whole plan/IPO_파일럿보완_A0_상세설계.html"
+    },
+    {
+      "path": "whole plan/IPO_파일럿보완_A0_상세설계.md",
+      "category": "versioned_design",
+      "bytes": 42104,
+      "sha256": "08d56f5b80ce0d3814f8cc72e4a515a34cbc9a5cfb5c98bb743d3606bfcf1d1f",
+      "snapshot": "baseline_source/whole plan/IPO_파일럿보완_A0_상세설계.md"
+    },
+    {
+      "path": "whole plan/IPO_후속작업_상세계획.md",
+      "category": "versioned_design",
+      "bytes": 71637,
+      "sha256": "fbea8c5a063676563ab850d6fd601d05a5af4b69ffef31c8a4e1a4ec77c4e733",
+      "snapshot": "baseline_source/whole plan/IPO_후속작업_상세계획.md"
+    }
+  ]
+}

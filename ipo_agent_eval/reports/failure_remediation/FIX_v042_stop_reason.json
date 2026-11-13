@@ -1,0 +1,28 @@
+{
+  "batch": "FIX_v042",
+  "actual_started": 4,
+  "submitted": 3,
+  "failed": 1,
+  "not_started": 8,
+  "reasons": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "execution_status": "SUBMITTED",
+      "problem": "The correct source numbers were registered, but role-specific free-prose scope/basis declarations differed. Strict calculation compatibility checks correctly retained INVALID for core per-share calculations and all sensitivity results. Submission alone did not satisfy numerical workflow acceptance."
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "execution_status": "FAILED",
+      "problem": "Four final fact declarations reused existing extraction claim IDs. Global declaration uniqueness validation rejected the review. The no-op format patch preserved the original statements and identifiers."
+    }
+  ],
+  "action": "Stop unstarted work, finish and retain active requests, preserve all original responses and frozen source. Never score unstarted runs as failed model answers.",
+  "next_version": "0.4.3-dev",
+  "planned_common_fixes": [
+    "Lossless compact_v2 context groups: the model declares shared as_of/scope/basis/source values once and explicitly references their group from each unit/period context. Expansion preserves original v2 fields exactly; no semantic normalization, group inference or numerical correction.",
+    "Reserve a disjoint prefix for new final-review fact declaration IDs in the generation schema. Existing evidence references remain available. No post-hoc renaming or decision rewriting."
+  ],
+  "unchanged": "Internal extraction_v2/review_v2 validation and strict calculation compatibility, public data, gold, model, reasoning and v042 resource caps. New full paired batch required after three implementation reviews."
+}

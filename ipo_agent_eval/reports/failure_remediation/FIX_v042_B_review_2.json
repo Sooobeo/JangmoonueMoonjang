@@ -1,0 +1,749 @@
+{
+  "batch": "FIX_v042",
+  "review_number": 2,
+  "condition": "B",
+  "status": "COMPLETE",
+  "reviewer": "AI non-blind independent assistance; human review pending",
+  "scope": "Execution, current-snapshot calculation uses, case-specific K1-K3, submitted structured factual claim source support and remaining semantic limitations. Full F/J grading not performed for submitted runs.",
+  "failure_policy": "FAILED unsubmitted required F/K/J=0; not executed scores null. K1 correct labelled disclosed component sum may receive credit while complete current denominator remains unresolved.",
+  "source_mutations": false,
+  "comparison_limit": "Budgets, prompts and executor changed since v032; no pure causal or held-out generalization claim.",
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T113352Z_B_c3487bd1",
+      "execution_status": "SUBMITTED",
+      "final_status": "PENDING_INFO",
+      "review_status": "REVIEWED_WITH_INCOMPLETE_CALCULATIONS",
+      "execution_checks": {
+        "model_calls": 2,
+        "format_repairs": 0,
+        "transient_retries": 0,
+        "usage_unknown": false,
+        "gateway_tools_by_actor": {
+          "program_fixed:search_corpus": 8,
+          "program_fixed:read_source": 8,
+          "program_fixed:calculate": 2,
+          "program_fixed:sensitivity": 1,
+          "program_commit:request_information": 1,
+          "program_commit:escalate": 1,
+          "program_fixed:submit_review": 1
+        },
+        "register_calls": 1,
+        "evaluate_calls": 1,
+        "sensitivity_calls": 1
+      },
+      "calculation_use_checks": [
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_share_sum_535c6f8e",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_share_count_difference_535c6f8e",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_market_cap_fcab7fcc",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_market_cap_difference_fcab7fcc",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_recomputed_per_fcab7fcc",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_recomputed_per_86a7f47b",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_recomputed_per_afc9d0a5",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_recomputed_per_bc847805",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_displayed_mean_535c6f8e",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_displayed_median_535c6f8e",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_peer_recomputed_mean_535c6f8e",
+          "use": "USE",
+          "valid": true,
+          "status": "OK"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_price_from_reported_equity_535c6f8e",
+          "use": "REJECT",
+          "valid": true,
+          "status": "INVALID"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_price_from_displayed_per_535c6f8e",
+          "use": "REJECT",
+          "valid": true,
+          "status": "INVALID"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_price_from_recomputed_peer_mean_535c6f8e",
+          "use": "REJECT",
+          "valid": true,
+          "status": "INVALID"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_implied_per_535c6f8e",
+          "use": "REJECT",
+          "valid": true,
+          "status": "INVALID"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_sensitivity_baseline_535c6f8e",
+          "use": "REJECT",
+          "valid": true,
+          "status": "INVALID"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_sensitivity_displayed_median_535c6f8e",
+          "use": "REJECT",
+          "valid": true,
+          "status": "INVALID"
+        },
+        {
+          "calc_id": "C_e88b2beebd07185ddd436c96_sensitivity_exclude_peer_1_535c6f8e",
+          "use": "REJECT",
+          "valid": true,
+          "status": "INVALID"
+        }
+      ],
+      "calculation_status_counts": {
+        "OK": 17,
+        "UNAVAILABLE": 5,
+        "INVALID": 11
+      },
+      "structured_claim_location_checks": [
+        {
+          "claim_id": "J1-F1",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J1-F1",
+              "locator": "평가 시가총액 산출 내역, 적용 순이익"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0424",
+              "page": 424,
+              "claim_id": "J1-F1",
+              "locator": "연결 포괄손익계산서 기간과 범위"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0425",
+              "page": 425,
+              "claim_id": "J1-F1",
+              "locator": "연결 포괄손익계산서, 당기순이익의 귀속"
+            }
+          ]
+        },
+        {
+          "claim_id": "J1-F2",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J1-F2",
+              "locator": "2023년 온기 기준 PER 산출 표와 주2"
+            }
+          ]
+        },
+        {
+          "claim_id": "J1-F3",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J1-F3",
+              "locator": "PER 평가방법의 한계점"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2-F1",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0311",
+              "page": 311,
+              "claim_id": "J2-F1",
+              "locator": "최종 비교회사 선정결과 요약"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J2-F1",
+              "locator": "2023년 온기 기준 PER 산출"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2-F2",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0312",
+              "page": 312,
+              "claim_id": "J2-F2",
+              "locator": "비교기업 선정 결과의 사업 및 자산구조 차이"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2-F3",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0229",
+              "page": 229,
+              "claim_id": "J2-F3",
+              "locator": "비교기업 선정 절차 및 결과 요약"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0312",
+              "page": 312,
+              "claim_id": "J2-F3",
+              "locator": "HD한국조선해양 사업 및 선정 근거"
+            }
+          ]
+        },
+        {
+          "claim_id": "J2-F4",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0330",
+              "page": 330,
+              "claim_id": "J2-F4",
+              "locator": "비교회사 기준시가총액 산정내역 및 주1~3"
+            }
+          ]
+        },
+        {
+          "claim_id": "J3-F1",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0330",
+              "page": 330,
+              "claim_id": "J3-F1",
+              "locator": "PER 평가방법 산출 방법"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0331",
+              "page": 331,
+              "claim_id": "J3-F1",
+              "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+            }
+          ]
+        },
+        {
+          "claim_id": "J3-F2",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0312",
+              "page": 312,
+              "claim_id": "J3-F2",
+              "locator": "비교기업 사업 및 자산구조 차이"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4-F1",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0332",
+              "page": 332,
+              "claim_id": "J4-F1",
+              "locator": "주당 평가가액 산출 내역 및 희석가능주식수 주석"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4-F2",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0332",
+              "page": 332,
+              "claim_id": "J4-F2",
+              "locator": "평가 시가총액, 주당 평가가액 및 희망공모가액 산출 내역"
+            }
+          ]
+        },
+        {
+          "claim_id": "J4-F3",
+          "valid": true,
+          "evidence": [
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0041",
+              "page": 41,
+              "claim_id": "J4-F3",
+              "locator": "주9 정정 전 공모가 산정 요약표 및 정정 후 표 시작"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0042",
+              "page": 42,
+              "claim_id": "J4-F3",
+              "locator": "주9 정정 후 공모가 산정 요약표"
+            },
+            {
+              "doc_id": "HDMS-PROS-01",
+              "chunk_id": "HDMS-PROS-01-p0298",
+              "page": 298,
+              "claim_id": "J4-F3",
+              "locator": "본문 공모가 산정 요약표"
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "F": null,
+        "K": [
+          1,
+          0,
+          0
+        ],
+        "J": null,
+        "calculation_rate": 0.3333333333333333,
+        "reason": "Submitted focused review; full F/J not graded."
+      },
+      "K": {
+        "K1": {
+          "score": 1,
+          "reason": "40,000,000+4,450,000+13,510+406,680=44,870,190주; 구주 제외 명시, share_sum 실제 USE."
+        },
+        "K2": {
+          "score": 0,
+          "reason": "공시 평가액/분모 나눗셈이 basis 불일치로 INVALID이며 답변은 REJECT하여 미제출."
+        },
+        "K3": {
+          "score": 0,
+          "reason": "이익×PER/분모 및 모든 주당 민감도가 scope 불일치로 INVALID. PER 평균/중앙값 자체 계산만 제시해 주당 재현/차이 미제출."
+        }
+      },
+      "source_appropriateness": {
+        "scope": "Submitted judgments[].facts only; not overall conclusion accuracy or completion of calculations.",
+        "submitted_claims": 12,
+        "read_location_valid_count": 12,
+        "fully_supported_count": 12,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": 1.0,
+        "claims": [
+          {
+            "claim_id": "J1-F1",
+            "status": "FULL",
+            "reason": "p331 적용 순이익·p424~425 기간/연결 지배귀속과 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J1-F1",
+                "locator": "평가 시가총액 산출 내역, 적용 순이익"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0424",
+                "page": 424,
+                "claim_id": "J1-F1",
+                "locator": "연결 포괄손익계산서 기간과 범위"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0425",
+                "page": 425,
+                "claim_id": "J1-F1",
+                "locator": "연결 포괄손익계산서, 당기순이익의 귀속"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1-F2",
+            "status": "FULL",
+            "reason": "p331 비교기업 온기 지배순익 주석과 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J1-F2",
+                "locator": "2023년 온기 기준 PER 산출 표와 주2"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1-F3",
+            "status": "FULL",
+            "reason": "p331 회계/연결 범위 비교 제약 문구에 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J1-F3",
+                "locator": "PER 평가방법의 한계점"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2-F1",
+            "status": "FULL",
+            "reason": "p311 최종 네 기업·p331 개별 PER 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0311",
+                "page": 311,
+                "claim_id": "J2-F1",
+                "locator": "최종 비교회사 선정결과 요약"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J2-F1",
+                "locator": "2023년 온기 기준 PER 산출"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2-F2",
+            "status": "FULL",
+            "reason": "p312 신조/자산구조 및 해외3사 AM 외 장비제조 설명에 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0312",
+                "page": 312,
+                "claim_id": "J2-F2",
+                "locator": "비교기업 선정 결과의 사업 및 자산구조 차이"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2-F3",
+            "status": "FULL",
+            "reason": "p229 단계적 선정 기준과 p312 HD한국조선해양 사업 선정 이유 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0229",
+                "page": 229,
+                "claim_id": "J2-F3",
+                "locator": "비교기업 선정 절차 및 결과 요약"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0312",
+                "page": 312,
+                "claim_id": "J2-F3",
+                "locator": "HD한국조선해양 사업 및 선정 근거"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2-F4",
+            "status": "FULL",
+            "reason": "p330 주가 최소값·공시 환율 변환 주석과 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0330",
+                "page": 330,
+                "claim_id": "J2-F4",
+                "locator": "비교회사 기준시가총액 산정내역 및 주1~3"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3-F1",
+            "status": "FULL",
+            "reason": "p330~331 비교방법 및 산술평균31.5 설명과 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0330",
+                "page": 330,
+                "claim_id": "J3-F1",
+                "locator": "PER 평가방법 산출 방법"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0331",
+                "page": 331,
+                "claim_id": "J3-F1",
+                "locator": "2023년 온기 기준 PER 산출, 적용 PER 거래배수"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3-F2",
+            "status": "FULL",
+            "reason": "p312 신조·서비스 사업차이 설명과 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0312",
+                "page": 312,
+                "claim_id": "J3-F2",
+                "locator": "비교기업 사업 및 자산구조 차이"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4-F1",
+            "status": "FULL",
+            "reason": "p332 구주 제외·두 옵션 합산·총수에 일치.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J4-F1",
+                "locator": "주당 평가가액 산출 내역 및 희석가능주식수 주석"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4-F2",
+            "status": "FULL",
+            "reason": "p332 평가액·확정공모가 구별 정확.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0332",
+                "page": 332,
+                "claim_id": "J4-F2",
+                "locator": "평가 시가총액, 주당 평가가액 및 희망공모가액 산출 내역"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4-F3",
+            "status": "FULL",
+            "reason": "p41/42 전후 표의 동일 평가입력과 확정가 추가, p298 현재 본문을 구분.",
+            "evidence": [
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0041",
+                "page": 41,
+                "claim_id": "J4-F3",
+                "locator": "주9 정정 전 공모가 산정 요약표 및 정정 후 표 시작"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0042",
+                "page": 42,
+                "claim_id": "J4-F3",
+                "locator": "주9 정정 후 공모가 산정 요약표"
+              },
+              {
+                "doc_id": "HDMS-PROS-01",
+                "chunk_id": "HDMS-PROS-01-p0298",
+                "page": 298,
+                "claim_id": "J4-F3",
+                "locator": "본문 공모가 산정 요약표"
+              }
+            ]
+          }
+        ]
+      },
+      "remaining_limitations": [
+        "canonical share_count 선택은 이번에 정상 등록됐으나 입력 CONTEXT 자유문구가 달라 가격/민감도 호환성 검사를 통과하지 못했다. 이익scope는 연결 지배귀속, 다른 issuer scope는 지배귀속평가, shares basis는 공모후잠재주식, 다른 basis는 상대가치산정으로 선언됐다. 공시 숫자 오류와 구분한다.",
+        "모든 주당 민감도 INVALID이며 최종도 이를 REJECT했다. 실제 민감도 계산·사용 완료의 수락 조건은 충족하지 않는다. SUBMITTED/PENDING_INFO는 산술 완료를 뜻하지 않는다.",
+        "공시 현지통화/환율 자료는 있지만 FX 변환 표현 미지원 때문에 해외 원화주가 미해결 및 R1 blocking이 남았다. R2는 내부 CONTEXT 재검토·새snapshot 계산을 외부 요청으로 넘겼다.",
+        "원문 기준이 실제 다르면 강제 통일해서는 안 되며, 이 검토에서 입력이나 결과를 자동 교정하지 않았다."
+      ],
+      "artifact_sha256": {
+        "summary.json": "7fc557a1d88896c8767c02e4c3dee858c05453a9547b47df3210caef2448b97f",
+        "review.json": "57a66cee69cd1d98e9a75a971908c8446f4c196259c1037b0803adfad3e7dcd7",
+        "calculations.json": "0c12eb95787a880f7b14288d0be53b45af9060b7a25273af4280fa1b4c6989cb",
+        "source_packet.json": "8f16859aef8fa77aa4d818550a4757250361b7504ea162ba14acfe383771c23a",
+        "extraction_model_output.json": "5c483eaa1b07d25781365c6528878a259cb724c70ceeddf75e7e241065fec392"
+      }
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T113649Z_B_13f17aec",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "review_status": "REVIEWED_FAILURE",
+      "execution_checks": {
+        "model_calls": 3,
+        "format_repairs": 1,
+        "transient_retries": 0,
+        "usage_unknown": false,
+        "gateway_tools_by_actor": {
+          "program_fixed:search_corpus": 8,
+          "program_fixed:read_source": 8,
+          "program_fixed:calculate": 2,
+          "program_fixed:sensitivity": 1,
+          "program_commit:request_information": 1,
+          "program_commit:escalate": 1,
+          "program_fixed:submit_review": 1,
+          "program_commit:submit_review": 1
+        },
+        "register_calls": 1,
+        "evaluate_calls": 1,
+        "sensitivity_calls": 1
+      },
+      "scores": {
+        "F": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "K": [
+          0,
+          0,
+          0
+        ],
+        "J": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "methodology_rate": 0
+      },
+      "flags": {
+        "material_error": null,
+        "false_completion": null,
+        "unnecessary_hold": null
+      },
+      "failure_policy": "Protocol 11.1: unsubmitted required items score zero; final content flags remain unobserved/null.",
+      "failure_observations": [
+        {
+          "classification": "GLOBAL_CLAIM_ID_REDECLARATION",
+          "reason": "Final review declaration IDs F_E/F_S/F_SA/F_V collide with existing extraction claim IDs. Review-internal IDs are unique. Raw response completed; semantic-preserving empty format patch did not change declarations, so INVALID_REVIEW remains.",
+          "evidence": [
+            "02_review_response.json",
+            "extraction.json",
+            "format_patch.json",
+            "summary.json"
+          ]
+        }
+      ],
+      "source_appropriateness": {
+        "scope": "No accepted submitted claims; raw draft is diagnostic only.",
+        "submitted_claims": 0,
+        "read_location_valid_count": 0,
+        "fully_supported_count": 0,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": null,
+        "claims": []
+      },
+      "remaining_limitations": [
+        "미제출필수 F/K/J는 protocol11.1에 따라0, final_status와 최종내용오류/잘못된완료/불필요보류 flag는 null. 원본 raw 수치가 있어도 성공 제출 점수로 소급 처리하지 않았다.",
+        "추출의 사실을 최종에서 같은 claim_id로 다시 선언해 기존 글로벌 namespace 규칙에 충돌했다. source숫자 오류나 USE분기 오류와 구분한다."
+      ],
+      "artifact_sha256": {
+        "summary.json": "aaa02b97d453af1838116eafd55cd20123df370d11e88544be14f977aecb14bd",
+        "calculations.json": "279c825706c99f1b42ed0207fbb3c1e281df3fc36310beac60270bc38dce4c5f",
+        "source_packet.json": "c3aacace9874a31155fc237d6da4d0cdb31a014d412a5232ed6672b6a912c095",
+        "extraction_model_output.json": "ef6adb3edf73b7b7440a5e60bcad8ca8512974d2d55acee83face50e2ecb094b"
+      }
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "review_status": "REVIEWED_NOT_STARTED",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "scores": null,
+      "reason": "STOP_REQUESTED_BEFORE_API"
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "review_status": "REVIEWED_NOT_STARTED",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "scores": null,
+      "reason": "STOP_REQUESTED_BEFORE_API"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "review_status": "REVIEWED_NOT_STARTED",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "scores": null,
+      "reason": "STOP_REQUESTED_BEFORE_API"
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "review_status": "REVIEWED_NOT_STARTED",
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "scores": null,
+      "reason": "STOP_REQUESTED_BEFORE_API"
+    }
+  ]
+}

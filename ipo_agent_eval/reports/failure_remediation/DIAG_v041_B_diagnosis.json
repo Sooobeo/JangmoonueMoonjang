@@ -1,0 +1,847 @@
+{
+  "label": "DIAG_v041",
+  "review": "B actual diagnostic, independent read-only semantic review",
+  "reviewer": "AI non-blind assistance; human review pending",
+  "source_mutations": false,
+  "scope": "Two diagnostic B runs. No full F/J rubric grading. K1 is partial verification, K2/K3 independently recalculated with Decimal precision 40. All structured submitted factual claims were checked against actually read source pages.",
+  "comparison_caution": "v032/v040 and v041 differ in executor schema, prompts, compact contract and budgets; successful submission is observed, but pure causal effect or general quality gain is not established.",
+  "runs": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T111430Z_B_3281abe6",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "verdict": "SUBMITTED_WITH_EXPLICIT_LIMITATIONS",
+      "runtime_findings": {
+        "api_calls": 2,
+        "format_repairs": 0,
+        "transient_retries": 0,
+        "usage_unknown": false,
+        "observed_runtime_error": null,
+        "register_evaluate_sensitivity_completed": true,
+        "strict_json_and_dynamic_schema_failure_observed": false
+      },
+      "calculations": {
+        "total": 25,
+        "statuses": {
+          "UNAVAILABLE": 2,
+          "OK": 23
+        },
+        "submitted_uses": {
+          "USE": 15,
+          "REJECT": 2
+        },
+        "use_checks": [
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_peer_market_cap_44bd7ae6",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_peer_market_cap_fcb5f40d",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_peer_recomputed_per_44bd7ae6",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_peer_recomputed_per_fcb5f40d",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_peer_displayed_mean_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_peer_displayed_median_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_peer_recomputed_mean_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_price_from_reported_equity_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_price_from_displayed_per_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_price_from_recomputed_peer_mean_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_sensitivity_baseline_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_sensitivity_displayed_mean_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_sensitivity_displayed_median_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_sensitivity_exclude_peer_1_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_sensitivity_exclude_peer_2_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_share_sum_535c6f8e",
+            "use": "REJECT",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "UNAVAILABLE"
+          },
+          {
+            "calc_id": "C_0c64bdfd2584b3adff200268_share_count_difference_535c6f8e",
+            "use": "REJECT",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "UNAVAILABLE"
+          }
+        ],
+        "K1": {
+          "independent_disclosed_component_sum": "12735000",
+          "tool_result": null,
+          "tool_partial_sum": "12735000",
+          "tool_status": "UNAVAILABLE",
+          "assessment": "PARTIAL_SUM_MATCHES; complete denominator not claimed",
+          "complete_denominator_verified": false
+        },
+        "K2": {
+          "independent_value": "14173.30192383195916764821358460934432666",
+          "exact_tool_match": true,
+          "assessment": "PASS"
+        },
+        "K3": {
+          "independent_value": "14172.35335689045936395759717314487632509",
+          "exact_tool_match": true,
+          "assessment": "PASS"
+        }
+      },
+      "source_appropriateness": {
+        "scope": "Submitted judgments[].facts only; support of structured factual claims, not overall conclusions, grading or external truth. Source location validation and semantic support are assessed separately.",
+        "submitted_claims": 14,
+        "read_location_valid_count": 14,
+        "fully_supported_count": 14,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": 1.0,
+        "claims": [
+          {
+            "claim_id": "F_J1_BASE",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p372 반기 지배순익·세전 주식이익 차감·연환산과 p491 원단위 귀속 순익이 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F_J1_BASE",
+                "locator": "PER 평가가치 표 및 주1"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0491",
+                "page": 491,
+                "claim_id": "F_J1_BASE",
+                "locator": "연결포괄손익계산서, 당기순이익의 귀속"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J1_PERIOD",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p369 LTM 기간과 p370 반기 연환산 한계 설명이 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0369",
+                "page": 369,
+                "claim_id": "F_J1_PERIOD",
+                "locator": "PER 상대가치 산출 방법"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "F_J1_PERIOD",
+                "locator": "비교평가의 한계 및 비교기업 PER 산출"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J1_ALT",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p371 LTM 5,988/대손가산 7,578, 세효과 미고려 및 평가가액을 정확히 인용한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0371",
+                "page": 371,
+                "claim_id": "F_J1_ALT",
+                "locator": "적용 실적 기준별 재무수치 및 주당 평가가액 비교, 주3"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J1_LABEL",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p372의 919, p492 평가/처분 손익 원단위, p371의 918 표시를 구별한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F_J1_LABEL",
+                "locator": "평가가치 표 주1"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0492",
+                "page": 492,
+                "claim_id": "F_J1_LABEL",
+                "locator": "연결현금흐름표 비현금조정, 평가이익 및 처분이익"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0371",
+                "page": 371,
+                "claim_id": "F_J1_LABEL",
+                "locator": "적용 실적 기준별 비교표 주2"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J2_SELECTION",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p357 선정 기준과 p370 두 회사 및 배수가 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0357",
+                "page": 357,
+                "claim_id": "F_J2_SELECTION",
+                "locator": "비교기업 선정 기준표"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "F_J2_SELECTION",
+                "locator": "비교기업 PER 산출표"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J2_DIFFERENCE",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p363 장비 역할 차이와 영업이익률을 정확히 인용한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0363",
+                "page": 363,
+                "claim_id": "F_J2_DIFFERENCE",
+                "locator": "동사와 HPSP의 주요 차이점"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J2_WORT",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p367 워트 경쟁관계 및 현재 반기 매출구성과 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0367",
+                "page": 367,
+                "claim_id": "F_J2_WORT",
+                "locator": "워트 매출 구성 및 경쟁기업 설명"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J2_INPUTS",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p368 기준주가 및 p370 주식수·LTM 이익과 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0368",
+                "page": 368,
+                "claim_id": "F_J2_INPUTS",
+                "locator": "비교대상회사 기준주가 산정 내역"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0370",
+                "page": 370,
+                "claim_id": "F_J2_INPUTS",
+                "locator": "비교기업 PER 산출표"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J3_VAL",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p372 적용 이익·PER·분모·평가가치를 정확히 인용한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F_J3_VAL",
+                "locator": "PER에 의한 멜콘의 평가가치 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J3_PEERS",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p363 장비 차이 및 두 PER을 직접 지원한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0363",
+                "page": 363,
+                "claim_id": "F_J3_PEERS",
+                "locator": "동사와 HPSP 주요 차이점 및 PER 편차"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J3_DENOM",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p372 네 구성과 p66 추가취득 25,000주를 구분한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F_J3_DENOM",
+                "locator": "평가가치 표 주3 적용주식수 구성"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0066",
+                "page": 66,
+                "claim_id": "F_J3_DENOM",
+                "locator": "쪽 첫머리 상장주선인 추가 취득"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J4_VERSION",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p3 정정일·사유 및 p71/72 정정 전후 가격을 구분한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0003",
+                "page": 3,
+                "claim_id": "F_J4_VERSION",
+                "locator": "정정사유 및 공통정정사항"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0071",
+                "page": 71,
+                "claim_id": "F_J4_VERSION",
+                "locator": "주13 정정 전 공모가 산정 요약표"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0072",
+                "page": 72,
+                "claim_id": "F_J4_VERSION",
+                "locator": "주13 정정 후 공모가 산정 요약표 및 평가결과"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J4_SHARES",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p126 상장/옵션 포함 수량과 p372 평가 분모 차이를 보존한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0126",
+                "page": 126,
+                "claim_id": "F_J4_SHARES",
+                "locator": "상장 이후 유통물량 및 주식매수선택권 희석 위험"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0372",
+                "page": 372,
+                "claim_id": "F_J4_SHARES",
+                "locator": "PER 평가가치 표 및 주3"
+              }
+            ]
+          },
+          {
+            "claim_id": "F_J4_PRIOR",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p127에 남은 종전 수량/가격을 p126 현행 수량과 구분한다.",
+            "evidence": [
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0127",
+                "page": 127,
+                "claim_id": "F_J4_PRIOR",
+                "locator": "공모가격 산정 및 확정 관련 위험"
+              },
+              {
+                "doc_id": "MELCON-PROS-01",
+                "chunk_id": "MELCON-PROS-01-p0126",
+                "page": 126,
+                "claim_id": "F_J4_PRIOR",
+                "locator": "상장 이후 유통물량 출회 위험"
+              }
+            ]
+          }
+        ]
+      },
+      "artifact_hashes": {
+        "summary.json": "eabeee9ecff98300f862e971740dd391a6167ab66d71ec2e426543ce961314f7",
+        "review.json": "4db3965eb316fa73eac7ebeda4289d9d80abfd6c76b4d4264aced07869ad627e",
+        "calculations.json": "46410dcc30d60906c2ab2267c234d84f437e34d6e8ff7963ee6d8c1dd1757810",
+        "extraction.json": "05eac6e7a20d9a3943517f20980f9c2350272ac1d19dbc92c9a026970d957468",
+        "source_packet.json": "c3aacace9874a31155fc237d6da4d0cdb31a014d412a5232ed6672b6a912c095",
+        "extraction_model_output.json": "8c1a62bd9762598dee8e0816468cd8daee74aabf384fedaafaa4286d122aeaed"
+      },
+      "context_assessment": {
+        "forced_incomparable_context_observed": false,
+        "reason": "Issuer half-year annualized adjusted earnings and peer LTM periods remain distinct. HPSP/WORT entity IDs remain distinct. Common scope/basis labels represent the same disclosed valuation table, not a forced accounting equivalence.",
+        "precision_limit": "Issuer as_of remains 신고서 제출일(날짜 미확인), although filing metadata provides 2026-09-29. This reduces date specificity; it does not alter the quoted inputs."
+      },
+      "remaining_limitations": [
+        "K1 remains UNAVAILABLE because additional underwriter 25,000 shares are UNRESOLVED. The review explicitly calls 12,735,000 a partial sum, preserving the discrepancy with latest listing/option totals.",
+        "R1 combines a legitimate denominator-intent question with primary/secondary offering information already partly available on read p389. That avoidable information request is not evidence that the entire HUMAN_REVIEW is unnecessary.",
+        "Peer financial statement consolidation scope and hidden rounding rules are not independently verified. 919/918 label and pretax deduction questions remain explicit."
+      ]
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T111719Z_B_33614eb2",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "verdict": "SUBMITTED_WITH_EXPLICIT_LIMITATIONS",
+      "runtime_findings": {
+        "api_calls": 2,
+        "format_repairs": 0,
+        "transient_retries": 0,
+        "usage_unknown": false,
+        "observed_runtime_error": null,
+        "register_evaluate_sensitivity_completed": true,
+        "strict_json_and_dynamic_schema_failure_observed": false
+      },
+      "calculations": {
+        "total": 32,
+        "statuses": {
+          "UNAVAILABLE": 7,
+          "OK": 25
+        },
+        "submitted_uses": {
+          "USE": 11,
+          "REJECT": 1
+        },
+        "use_checks": [
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_peer_recomputed_per_fbeae7c1",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_peer_recomputed_per_acbbb742",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_peer_recomputed_per_9f9853b3",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_peer_recomputed_per_e05184c1",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_peer_recomputed_mean_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_peer_displayed_median_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_sensitivity_baseline_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_sensitivity_displayed_median_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_sensitivity_exclude_peer_2_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_price_from_reported_equity_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_implied_per_535c6f8e",
+            "use": "USE",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "OK"
+          },
+          {
+            "calc_id": "C_02442b6b5c6d4b72ca4b480a_share_sum_535c6f8e",
+            "use": "REJECT",
+            "current_snapshot_and_value_valid": true,
+            "calculation_status": "UNAVAILABLE"
+          }
+        ],
+        "K1": {
+          "independent_disclosed_component_sum": "8960259",
+          "tool_result": null,
+          "tool_partial_sum": "8960259",
+          "tool_status": "UNAVAILABLE",
+          "assessment": "PARTIAL_SUM_MATCHES; complete denominator not claimed",
+          "complete_denominator_verified": false
+        },
+        "K2": {
+          "independent_value": "27145.62097457227519874146495095733281817",
+          "exact_tool_match": true,
+          "assessment": "PASS"
+        },
+        "K3": {
+          "independent_value": "27136.49944404508842880546198497163977068",
+          "exact_tool_match": true,
+          "assessment": "PASS"
+        }
+      },
+      "source_appropriateness": {
+        "scope": "Submitted judgments[].facts only; support of structured factual claims, not overall conclusions, grading or external truth. Source location validation and semantic support are assessed separately.",
+        "submitted_claims": 12,
+        "read_location_valid_count": 12,
+        "fully_supported_count": 12,
+        "qualified_count": 0,
+        "unsupported_count": 0,
+        "support_rate": 1.0,
+        "claims": [
+          {
+            "claim_id": "J1F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p251의 두 기간·세전/지배순익 구분과 합계가 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J1F1",
+                "locator": "② 주당 평가가액 산출 결과, 적용 순이익"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p251 법인세이익 배제 취지와 2023Q1 세금비용 반영을 정확히 인용한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J1F2",
+                "locator": "② 주당 평가가액 산출 결과 주1"
+              }
+            ]
+          },
+          {
+            "claim_id": "J1F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p320 전체/지배귀속 순익 및 2022Q1 미검토 표시와 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0320",
+                "page": 320,
+                "claim_id": "J1F3",
+                "locator": "연결 포괄손익계산서, 당기순이익 귀속 및 제20기 1분기 표시"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p245/247 TTM 흑자·매출 선별 및 시그네틱스 PER 57.1 제외와 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0245",
+                "page": 245,
+                "claim_id": "J2F1",
+                "locator": "2~4차 유사기업 선정 기준과 결과"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0247",
+                "page": 247,
+                "claim_id": "J2F1",
+                "locator": "④ 최종 유사기업 선정 내역"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p246 비교기업 사업/매출 구성과 p132 발행사 Turnkey 확대가 지원한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0246",
+                "page": 246,
+                "claim_id": "J2F2",
+                "locator": "② 유사기업 선정 내역, 주요 사업과 매출 구성"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0132",
+                "page": 132,
+                "claim_id": "J2F2",
+                "locator": "비메모리 테스트 및 Turn Key 사업 확대 문단"
+              }
+            ]
+          },
+          {
+            "claim_id": "J2F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p251 네 기업 시가총액·순이익·표시 PER을 정확히 인용한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J2F3",
+                "locator": "① 유사기업 PER 산출 표"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p251 적용 입력과 네 PER에 모두 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J3F1",
+                "locator": "① 유사기업 PER 및 ② 주당 평가가액 산출 결과"
+              }
+            ]
+          },
+          {
+            "claim_id": "J3F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p246 COF·골드범프·기타 매출 비중을 정확히 인용한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0246",
+                "page": 246,
+                "claim_id": "J3F2",
+                "locator": "② 유사기업 선정 내역, LB루셈 매출 구성"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4F1",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p251 평가시가총액·분모·평가가액과 일치한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J4F1",
+                "locator": "② 주당 평가가액 산출 결과"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4F2",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p252 네 구성 및 p106 청약미달 시 의무취득 조정을 구별한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0252",
+                "page": 252,
+                "claim_id": "J4F2",
+                "locator": "주2 공모 후 주주구성"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0106",
+                "page": 106,
+                "claim_id": "J4F2",
+                "locator": "의무인수 내역 주3"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4F3",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p34 정정 전과 p35 정정 후 가격을 구분한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0034",
+                "page": 34,
+                "claim_id": "J4F3",
+                "locator": "주9 정정 전 표 및 정정 후 시작"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0035",
+                "page": 35,
+                "claim_id": "J4F3",
+                "locator": "주9 정정 후 희망공모가액 산출내역"
+              }
+            ]
+          },
+          {
+            "claim_id": "J4F4",
+            "status": "FULL",
+            "read_location_valid": true,
+            "reason": "p247/251 실제 표 간 차이 및 p248~249 천원단위 상세표를 정확히 구별한다.",
+            "evidence": [
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0247",
+                "page": 247,
+                "claim_id": "J4F4",
+                "locator": "④ 유사기업 선정 내역, 두산테스나 시가총액"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0249",
+                "page": 249,
+                "claim_id": "J4F4",
+                "locator": "기준시가총액 표, 두산테스나"
+              },
+              {
+                "doc_id": "ALT-PROS-01",
+                "chunk_id": "ALT-PROS-01-p0251",
+                "page": 251,
+                "claim_id": "J4F4",
+                "locator": "① 유사기업 PER 산출, 두산테스나"
+              }
+            ]
+          }
+        ]
+      },
+      "artifact_hashes": {
+        "summary.json": "c2fc7e2470158a6dcb553d6284e94eba5d9ec1e6519d45ce549f6ec5f87cd655",
+        "review.json": "3c9ada0bb79f8b2a147db4284dac2c076579887c007e2307302be64278d7e816",
+        "calculations.json": "f9e5a547be55b6f7db3f26579b5d5c96ed61f8a1c9241cd16fd0395c343ed0e0",
+        "extraction.json": "a7157cf315f312614f92556790c1a3c0f93d668f24c41d7615211ee4e9b72d16",
+        "source_packet.json": "8397ffc20fecb638a76aabb658cd661e9f0a6dd1e1911fad6416439daa731591",
+        "extraction_model_output.json": "9661adf35f7b6defc73c777bf119f0be315a021852016349ad789e0ccc8ed510"
+      },
+      "context_assessment": {
+        "forced_incomparable_context_observed": false,
+        "reason": "Issuer scope explicitly says mixed earnings and selection reason preserves 2022 Apr-Dec pretax plus 2023Q1 controlling posttax. Peer market-cap as_of 2023-05-18 and earnings as_of 2023-03-31 remain distinct; shared peer context carries separate entity IDs. No cross-company operand mixing observed.",
+        "precision_limit": "Issuer valuation as_of is unknown. Peer consolidation scope is unknown, correctly retained rather than fabricated."
+      },
+      "remaining_limitations": [
+        "K1 remains UNAVAILABLE because model declared COVERAGE INCOMPLETE for unconfirmed options/additional/secondary stock despite registering all four disclosed denominator components. The 8,960,259 component sum is independently correct; final review reports only the partial sum. This is an incompleteness/conservative selection issue, not arithmetic failure or runtime breakage.",
+        "Four peer price-times-shares calculations remain UNAVAILABLE (eight explicit unverified inputs); disclosed market-cap divided by earnings PER calculations succeed.",
+        "Mixed pretax/posttax and controlling-scope treatment warrants the stated human review. Missing hidden precision and the observed Doosan table discrepancy are not silently repaired."
+      ]
+    }
+  ]
+}

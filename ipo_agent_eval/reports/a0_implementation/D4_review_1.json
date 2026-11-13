@@ -1,0 +1,16 @@
+{
+  "stage": "D4", "pass": 1, "reviewer": "root implementation self-review",
+  "focus": "A0 상태 전이·API 원본·공통 B 경로 및 실패 보존",
+  "checks": [
+    "실제 function_call/call_id 및 reasoning 항목을 다음 요청에 누적",
+    "parallel_tool_calls=false, 최종화에서는 submit_review COMMIT만 노출",
+    "B는 같은 gateway로 고정8검색+8열람+등록+계산+민감도+2원장동기화+제출22회",
+    "거부/불완전/usage 누락/도구없는 종료/중복 호출을 사유별 보존",
+    "새 반복의 컨텍스트 격리와 금지 gold sentinel 비노출",
+    "형식수정은 공통1회, 수치·주장·원문위치·상태 변경 금지",
+    "실패 내용 상태 null, 미확인 usage 총비용 null"
+  ],
+  "verification": "tests/test_agent_loop_v2.py 6 passed; 독립2·3차 수정 포함 전체 pytest 273 passed",
+  "result": "PASS_AFTER_REPAIR",
+  "limitations": "모의 응답은 실행 제어 검증이며 실제 모델 품질의 증거는 아님. 실제 도구 호출 호환성은 별도 소규모 연결 점검 후 개발 비교한다."
+}

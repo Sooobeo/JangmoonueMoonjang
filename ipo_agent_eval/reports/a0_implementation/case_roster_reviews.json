@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "reviewer": "case_roster preparation agent; three distinct review passes, not three independent human reviews",
+  "reviews": [
+    {
+      "pass": 1,
+      "focus": "Primary source/version/eligibility",
+      "finding": "All3 new PDFs are latest prospectus receipts before cutoff and historical PER.12 held-out primary PDFs eligible. COXEM forecast, NOBLAND final PBR and PURIT mixed PER/EV-EBITDA remain excluded.",
+      "visual_table_pages_checked": {
+        "SHINSUNGST-DEV-01": [
+          244,
+          245
+        ],
+        "ALT-DEV-01": [
+          251,
+          252
+        ],
+        "MILLIE-DEV-01": [
+          292,
+          293
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "pass": 2,
+      "focus": "Private facts, units, denominator and Decimal reconstruction",
+      "finding": "70 evidence references resolve.3 share sums match. Displayed-input valuation differs from disclosed output in each case; rubrics preserve values and uncertainty instead of forcing a false arithmetic-error conclusion.",
+      "evidence": "case_roster_gold_checks.json",
+      "status": "PASS"
+    },
+    {
+      "pass": 3,
+      "focus": "Full extraction, replay, public/private isolation and allocation",
+      "finding": "1391 complete pages re-extracted identically. New builders/gold/allocation replay identically. Private/cross-case reads denied; no gold markers in visible corpus.6 development and12 evaluation candidates disjoint; evaluation is not runnable.",
+      "status": "PASS"
+    }
+  ],
+  "case_checks": [
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "source_checks": [
+        {
+          "doc_id": "SHINSUNGST-PROS-01",
+          "sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+          "pages": 430,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "full_page_extraction_reproduced": 430,
+      "builder_replay_identical": true,
+      "public_gold_marker_scan": "PASS",
+      "private_and_cross_case_reads_denied": [
+        "../private/gold.json",
+        "MELCON-PROS-01-p0372"
+      ],
+      "rubric_contract": "5 facts, 3 calculations, 4 judgments; prepared before model response; human review not claimed"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "source_checks": [
+        {
+          "doc_id": "ALT-PROS-01",
+          "sha256": "f9a14394dafa92b9e42b2b4253a4628c4a60ab02929408ab7b924524c78d816a",
+          "pages": 471,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "full_page_extraction_reproduced": 471,
+      "builder_replay_identical": true,
+      "public_gold_marker_scan": "PASS",
+      "private_and_cross_case_reads_denied": [
+        "../private/gold.json",
+        "MELCON-PROS-01-p0372"
+      ],
+      "rubric_contract": "5 facts, 3 calculations, 4 judgments; prepared before model response; human review not claimed"
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "source_checks": [
+        {
+          "doc_id": "MILLIE-PROS-01",
+          "sha256": "051fdb0d03214ba2a9bf05f395b5679cac9df503bdbbd21ddc6333d22b142173",
+          "pages": 490,
+          "cutoff_status": "BEFORE"
+        }
+      ],
+      "full_page_extraction_reproduced": 490,
+      "builder_replay_identical": true,
+      "public_gold_marker_scan": "PASS",
+      "private_and_cross_case_reads_denied": [
+        "../private/gold.json",
+        "MELCON-PROS-01-p0372"
+      ],
+      "rubric_contract": "5 facts, 3 calculations, 4 judgments; prepared before model response; human review not claimed"
+    }
+  ],
+  "limits": [
+    "Separate root/other-agent independent review is still useful and recorded separately.",
+    "No human gold review is claimed.",
+    "Candidate PDFs alone are not execution-ready evaluation corpora; W12 freeze and gold prep remain later scope."
+  ]
+}

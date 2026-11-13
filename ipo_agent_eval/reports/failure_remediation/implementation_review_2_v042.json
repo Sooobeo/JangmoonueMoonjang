@@ -1,0 +1,85 @@
+{
+  "review": "implementation review 2 v0.4.2 follow-up",
+  "reviewer": "preservation_review",
+  "checked_at_utc": "2026-11-13T11:33:06.766255+00:00",
+  "status": "PASS_OFFLINE_AFTER_REPAIR",
+  "source_hashes": {
+    "ipo_eval/agent_loop.py": "725675de7b51192516f6f5cc43935484a2485722c546a318e8bf6b296457fee2",
+    "ipo_eval/budget.py": "f6bb999f4266a2dc09b135a73310031b8a08d485cc08d93718281fd3c7263c51",
+    "ipo_eval/calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+    "ipo_eval/calculations_v2.py": "316654d5b66ff364838afcd532e002a7547bcf4fcd231debdd0f20b576df8684",
+    "ipo_eval/cases.py": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+    "ipo_eval/corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+    "ipo_eval/format_patch.py": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f",
+    "ipo_eval/id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+    "ipo_eval/provenance.py": "07863eb7f0444684a8cd164ec8ae6c970f5113ef9799c0f6ecec1b7ebea29896",
+    "ipo_eval/response_input.py": "6cce4438e9f510e4139cda970b90f86bd4b3ed3fab1269077bfd5f19eafbe04c",
+    "ipo_eval/runner.py": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+    "ipo_eval/runner_v2.py": "47656a184ab32444fa2545f7f2489affb58e69bb0a183adfd699bdb77e9b46ec",
+    "ipo_eval/runtime_v2.py": "70c03f58ae5a3c78fe28cef72613236d07d95a02d2c6bba9bff2244797cc63b8",
+    "ipo_eval/schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+    "ipo_eval/schemas_v2.py": "31f89b9113814ec5469b4b30b54958fd39cf0bf1c18dee68f213f29a8a4d7acd",
+    "ipo_eval/tool_gateway.py": "df8b83147d53c4dc175b2b6615a6cf00d5e13b27aaaa6cae1fd62fa2b88c4c47",
+    "ipo_eval/validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+    "ipo_eval/validation_v2.py": "72ace679946468800fef46e32a4d48e9b82db86efefa549a21a1364c57e43be1",
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "ipo_eval/__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+    "config/A0.json": "d1fb6bdf3c5be7ed96a5a1845858c053ed2922575b6c2307a0696a1091b725a5",
+    "config/B.json": "c25f0ab91d65e89458b8b3a50d76c72a462bca81e49e4563f502b7570bf55536",
+    "config/B_v1.json": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+    "config/cases.json": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+    "prompts/A0.md": "6756f19bf0fad1c18486c79d9a29cf0699d25f1c5ba1dd393b52021714d67010",
+    "prompts/common.md": "21f22adf7c1e130aff95fb1cba26f3e1a59ab2fc5ea085a4bc92ce0b4ca3fa7a",
+    "prompts/v2_contract.md": "904458fb3881eedf2088c69d0ebb68170272d0cea6e1af369744afb48037161c",
+    "scripts/run_development_comparison.py": "fec442f41b71ea05143ff5f0eaef6a1992f0a58ff1baa86382ee3004cb8fe484",
+    "pyproject.toml": "0f3fa1f80a8a000a881c446e32f7046d469ce46f19a52c168fac607c9819964c"
+  },
+  "changes_from_v041": [
+    "ipo_eval/calculations_v2.py",
+    "ipo_eval/tool_gateway.py",
+    "config/A0.json",
+    "config/B.json",
+    "prompts/v2_contract.md",
+    "pyproject.toml"
+  ],
+  "scope": [
+    "strict calculation use/rejection modes before generation",
+    "explicit economic-role selection priority without automatic choices",
+    "9000 response cap within shared total reservations"
+  ],
+  "tests": [
+    {
+      "result": "97 passed in 5.99s",
+      "scope": "wire modes, cap, patch, retry and runner integration before the final selection fix"
+    },
+    {
+      "result": "90 passed in 7.50s",
+      "scope": "calculations/contracts/modes/cap/runner including final selection-priority fix"
+    }
+  ],
+  "test_counts_are_overlapping": true,
+  "independent_test_file": {
+    "file": "tests/test_v042_independent_review.py",
+    "sha256": "af940d5e41e17928abc7bbfd92cf0b4a6235c39a7992b3aad9fa428ddb2e37f4"
+  },
+  "implementer_evidence": [
+    "calculation_use_wire_review_1_v042.json",
+    "selection_priority_review_1_v042.json"
+  ],
+  "preservation": {
+    "manifest_file": "reports/failure_remediation/intermediate_attempts_manifest.json",
+    "sha256": "9c20a68e33153298a8cebeb36ecf046c25b84a9ee954939bac24360faa9283db",
+    "locked_files": 489,
+    "started_prior_attempts": 13,
+    "initial_violations": 0
+  },
+  "API_calls": 0,
+  "production_source_edits_by_reviewer": false,
+  "final_execution_acceptance": false,
+  "final_target": "FIX_v042",
+  "limits": [
+    "Offline constraints do not prove real model completion or financial/methodological correctness",
+    "No final twelve-run acceptance or overall review is claimed",
+    "v041 stopped attempts remain separate"
+  ]
+}

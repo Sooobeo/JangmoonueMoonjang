@@ -1,0 +1,537 @@
+{
+  "checked_at_utc": "2026-11-13T11:41:26.087587+00:00",
+  "reviewer": "preservation_review",
+  "label": "FIX_v042",
+  "status": "AUDITED_STOPPED_BATCH_NOT_FINAL_ACCEPTANCE",
+  "planned": 12,
+  "actual_started": 4,
+  "not_started": 8,
+  "dispositions": {
+    "SUBMITTED": 3,
+    "FAILED": 1,
+    "NOT_STARTED_STOP_REQUESTED": 8
+  },
+  "all_planned_dispositions_recorded": true,
+  "final_batch_complete": false,
+  "known_cost_standard_uncached_usd": 1.943268,
+  "usage_unknown_runs": 0,
+  "preservation_manifest": {
+    "file": "reports/failure_remediation/FIX_v042_interrupted_preservation.json",
+    "sha256": "76ca67c364ba7db7d3bc1d206ee672a96ffd5272dc150e6d70ca1f594765242a",
+    "entry_count": 164
+  },
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": "20261113T113352Z_B_c3487bd1",
+      "summary": {
+        "run_id": "20261113T113352Z_B_c3487bd1",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 2,
+        "tool_calls": 22,
+        "input_tokens": 107957,
+        "output_tokens": 15418,
+        "format_repairs": 0,
+        "elapsed_seconds": 176.908,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.185047,
+        "known_usage_cost_usd_standard_uncached": 0.185047,
+        "estimated_cost_krw_at_budget_fx": 259.07,
+        "cost_ceiling_usd": 0.212036,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.212036,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "PENDING_INFO",
+        "actual_model_answer": true,
+        "model_reported_status": "PENDING_INFO",
+        "status_mismatch": false
+      },
+      "execution_contract_details": {
+        "case_id": "HDMS-DEV-01",
+        "condition": "B",
+        "status": "SUBMITTED",
+        "run_id": "20261113T113352Z_B_c3487bd1",
+        "registered_records": 92,
+        "evaluations": 1,
+        "sensitivity": 1,
+        "evaluation_ok": 17,
+        "sensitivity_ok": 0,
+        "read_pages": 34,
+        "current_ok_calculations": 17,
+        "unknown_attempts": 0
+      },
+      "acceptance_failures": [
+        "HDMS-DEV-01/B: no current successful sensitivity result by the required actor",
+        "HDMS-DEV-01/B: final review does not use current evaluation and sensitivity results"
+      ],
+      "current_non_ok_calculations": [
+        {
+          "id": "peer_market_cap",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "peer_market_cap",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "peer_market_cap",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "price_from_reported_equity",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: basis"
+        },
+        {
+          "id": "price_from_displayed_per",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "reported_price_difference",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "displayed_price_difference",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "implied_per",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "price_from_recomputed_peer_mean",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "sensitivity_baseline",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "sensitivity_displayed_mean",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "sensitivity_displayed_median",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "sensitivity_exclude_peer_1",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "sensitivity_exclude_peer_2",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "sensitivity_exclude_peer_3",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        },
+        {
+          "id": "sensitivity_exclude_peer_4",
+          "status": "INVALID",
+          "reason": "Declared input contexts are incompatible: scope"
+        }
+      ]
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": "20261113T113352Z_A0_0c66acf1",
+      "summary": {
+        "run_id": "20261113T113352Z_A0_0c66acf1",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 15,
+        "tool_calls": 17,
+        "input_tokens": 756749,
+        "output_tokens": 11808,
+        "format_repairs": 0,
+        "elapsed_seconds": 179.405,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.815789,
+        "known_usage_cost_usd_standard_uncached": 0.815789,
+        "estimated_cost_krw_at_budget_fx": 1142.1,
+        "cost_ceiling_usd": 1.004976,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 1.004976,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "PENDING_INFO",
+        "actual_model_answer": true,
+        "model_reported_status": "PENDING_INFO",
+        "status_mismatch": false
+      },
+      "execution_contract_details": {
+        "case_id": "HDMS-DEV-01",
+        "condition": "A0",
+        "status": "SUBMITTED",
+        "run_id": "20261113T113352Z_A0_0c66acf1",
+        "registered_records": 73,
+        "evaluations": 1,
+        "sensitivity": 1,
+        "evaluation_ok": 24,
+        "sensitivity_ok": 7,
+        "read_pages": 20,
+        "current_ok_calculations": 31,
+        "unknown_attempts": 0
+      },
+      "acceptance_failures": [],
+      "current_non_ok_calculations": [
+        {
+          "id": "peer_market_cap",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "peer_market_cap",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "peer_market_cap",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        }
+      ]
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": "20261113T113649Z_B_13f17aec",
+      "summary": {
+        "run_id": "20261113T113649Z_B_13f17aec",
+        "condition": "B",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "FAILED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 3,
+        "tool_calls": 23,
+        "input_tokens": 132512,
+        "output_tokens": 12519,
+        "format_repairs": 1,
+        "elapsed_seconds": 146.555,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.195107,
+        "known_usage_cost_usd_standard_uncached": 0.195107,
+        "estimated_cost_krw_at_budget_fx": 273.15,
+        "cost_ceiling_usd": 0.228235,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.228235,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "actual_model_answer": false,
+        "failure_reason": "INVALID_REVIEW:Defined judgment and claim IDs must be nonempty and globally unique"
+      },
+      "execution_contract_details": {
+        "registered_records": 59,
+        "evaluation_ok": 10,
+        "sensitivity_ok": 0,
+        "note": "Partial saved state only; no accepted review artifact."
+      },
+      "acceptance_failures": [
+        "FAILED:INVALID_REVIEW:Defined judgment and claim IDs must be nonempty and globally unique",
+        "MELCON-DEV-01/B: no current successful sensitivity result by the required actor",
+        "Accepted review artifact audit unavailable: FileNotFoundError"
+      ],
+      "current_non_ok_calculations": [
+        {
+          "id": "share_sum",
+          "status": "UNAVAILABLE",
+          "reason": "Coverage or denominator treatment/quantity is incomplete"
+        },
+        {
+          "id": "share_count_difference",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "price_from_reported_equity",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "price_from_displayed_per",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "reported_price_difference",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "displayed_price_difference",
+          "status": "UNAVAILABLE",
+          "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+        },
+        {
+          "id": "price_from_recomputed_peer_mean",
+          "status": "UNAVAILABLE",
+          "reason": "Required issuer or peer inputs are unavailable"
+        },
+        {
+          "id": "sensitivity_baseline",
+          "status": "UNAVAILABLE",
+          "reason": "share_count: 입력값이 없습니다."
+        },
+        {
+          "id": "sensitivity_displayed_mean",
+          "status": "UNAVAILABLE",
+          "reason": "share_count: 입력값이 없습니다."
+        },
+        {
+          "id": "sensitivity_displayed_median",
+          "status": "UNAVAILABLE",
+          "reason": "share_count: 입력값이 없습니다."
+        },
+        {
+          "id": "sensitivity_exclude_peer_1",
+          "status": "UNAVAILABLE",
+          "reason": "share_count: 입력값이 없습니다."
+        },
+        {
+          "id": "sensitivity_exclude_peer_2",
+          "status": "UNAVAILABLE",
+          "reason": "share_count: 입력값이 없습니다."
+        }
+      ]
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": "20261113T113652Z_A0_d8c07c9f",
+      "summary": {
+        "run_id": "20261113T113652Z_A0_d8c07c9f",
+        "condition": "A0",
+        "mode": "LIVE",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra",
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 16,
+        "tool_calls": 18,
+        "input_tokens": 688805,
+        "output_tokens": 11704,
+        "format_repairs": 0,
+        "elapsed_seconds": 169.804,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.747325,
+        "known_usage_cost_usd_standard_uncached": 0.747325,
+        "estimated_cost_krw_at_budget_fx": 1046.26,
+        "cost_ceiling_usd": 0.919526,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.919526,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": "HUMAN_REVIEW",
+        "actual_model_answer": true,
+        "model_reported_status": "HUMAN_REVIEW",
+        "status_mismatch": false
+      },
+      "execution_contract_details": {
+        "case_id": "MELCON-DEV-01",
+        "condition": "A0",
+        "status": "SUBMITTED",
+        "run_id": "20261113T113652Z_A0_d8c07c9f",
+        "registered_records": 51,
+        "evaluations": 1,
+        "sensitivity": 1,
+        "evaluation_ok": 20,
+        "sensitivity_ok": 5,
+        "read_pages": 20,
+        "current_ok_calculations": 25,
+        "unknown_attempts": 0
+      },
+      "acceptance_failures": [],
+      "current_non_ok_calculations": []
+    }
+  ],
+  "unstarted": [
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "outcome_score": null,
+      "reason": "Never started; not a failed model answer."
+    }
+  ],
+  "limits": [
+    "SUBMITTED is distinct from completing numeric evaluation and sensitivity.",
+    "Original source values, model choices, invalid calculations and raw responses remain unchanged.",
+    "Future grouping-contract results require their own frozen paired batch.",
+    "No API calls and no production-source changes by this reviewer."
+  ]
+}

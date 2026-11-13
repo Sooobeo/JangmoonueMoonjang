@@ -1,0 +1,4225 @@
+{
+  "label": "FIX_v041",
+  "generated_at_utc": "2026-11-13T11:28:15.348281+00:00",
+  "registry_complete": false,
+  "all_planned_terminal_observed": true,
+  "counts": {
+    "planned": 12,
+    "actual_started": 5,
+    "api_started": 5,
+    "explicit_not_started": 7,
+    "not_yet_observed": 0,
+    "ambiguous_unlisted": 0,
+    "by_status": {
+      "SUBMITTED": 3,
+      "FAILED": 2,
+      "NOT_STARTED_STOP_REQUESTED": 7
+    }
+  },
+  "conditions": {
+    "A0": {
+      "planned": 6,
+      "actual_started": 2,
+      "api_started": 2,
+      "observed_statuses": {
+        "SUBMITTED": 1,
+        "FAILED": 1
+      },
+      "registered_records": 62,
+      "registered_facts": 34,
+      "fact_count_unobserved_runs": 0,
+      "real_model_tool_choices": {
+        "search_corpus": 8,
+        "read_source": 7,
+        "REGISTER_BATCH": 3,
+        "EVALUATE": 2,
+        "sensitivity": 1,
+        "escalate": 1,
+        "submit_review": 1,
+        "INVALID_ARGUMENT": 1
+      },
+      "calculation_status_counts": {
+        "OK": 52,
+        "UNAVAILABLE": 9
+      },
+      "submitted_calculation_use_counts": {
+        "USE": 11
+      },
+      "token_totals": {
+        "input_tokens": 937504,
+        "ordinary_input_tokens": 201,
+        "cached_input_tokens": 676529,
+        "cache_write_30m_tokens": 260774,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 14841,
+        "reasoning_tokens": 583
+      },
+      "known_usage_cost_usd": "0.43419995",
+      "requests_without_usage": 0
+    },
+    "B": {
+      "planned": 6,
+      "actual_started": 3,
+      "api_started": 3,
+      "observed_statuses": {
+        "SUBMITTED": 2,
+        "FAILED": 1
+      },
+      "registered_records": 242,
+      "registered_facts": 97,
+      "fact_count_unobserved_runs": 0,
+      "real_model_tool_choices": {},
+      "calculation_status_counts": {
+        "OK": 72,
+        "UNAVAILABLE": 20
+      },
+      "submitted_calculation_use_counts": {
+        "USE": 20,
+        "REJECT": 8
+      },
+      "token_totals": {
+        "input_tokens": 332061,
+        "ordinary_input_tokens": 21,
+        "cached_input_tokens": 71906,
+        "cache_write_30m_tokens": 260134,
+        "cache_write_12h_tokens": 0,
+        "output_tokens": 42705,
+        "reasoning_tokens": 4774
+      },
+      "known_usage_cost_usd": "0.54230880",
+      "requests_without_usage": 0
+    }
+  },
+  "costs": {
+    "known_usage_cost_usd": "0.97650875",
+    "requests_without_usage": 0,
+    "unpriced_usage_requests": 0,
+    "batch_total_estimate_usd": "0.97650875",
+    "invoice_cost_usd": null
+  },
+  "runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": "20261113T112035Z_B_06406228",
+      "directory": "runs/20261113T112035Z_B_06406228",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "SUBMITTED",
+      "final_status": "PENDING_INFO",
+      "failure_reason": null,
+      "terminal": true,
+      "elapsed_seconds": 173.064,
+      "registration": {
+        "input_snapshot_id": "X_54fd2387e1fc8fec497c6fa8",
+        "record_count": 96,
+        "records_by_kind": {
+          "CONTEXT": 21,
+          "VALUE": 33,
+          "SHARE_COMPONENT": 5,
+          "PEER": 4,
+          "DERIVATION": 7,
+          "SELECTION": 25,
+          "COVERAGE": 1
+        },
+        "fact_count": 40,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "program_fixed": {
+          "search_corpus": 8,
+          "read_source": 8,
+          "REGISTER_BATCH": 1,
+          "EVALUATE": 1,
+          "sensitivity": 1,
+          "submit_review": 1
+        },
+        "program_commit": {
+          "request_information": 1,
+          "escalate": 1
+        }
+      },
+      "real_model_tool_choices": {},
+      "calculations": {
+        "count": 37,
+        "by_kind_status": {
+          "share_sum": {
+            "OK": 1
+          },
+          "share_count_difference": {
+            "OK": 1
+          },
+          "peer_market_cap": {
+            "OK": 1,
+            "UNAVAILABLE": 3
+          },
+          "peer_market_cap_difference": {
+            "OK": 1,
+            "UNAVAILABLE": 3
+          },
+          "peer_recomputed_per": {
+            "OK": 4
+          },
+          "peer_displayed_mean": {
+            "OK": 1
+          },
+          "peer_displayed_median": {
+            "OK": 1
+          },
+          "peer_recomputed_mean": {
+            "OK": 1
+          },
+          "price_from_reported_equity": {
+            "OK": 1
+          },
+          "price_from_displayed_per": {
+            "OK": 1
+          },
+          "reported_price_difference": {
+            "OK": 1
+          },
+          "displayed_price_difference": {
+            "OK": 1
+          },
+          "implied_per": {
+            "OK": 1
+          },
+          "price_from_recomputed_peer_mean": {
+            "OK": 1
+          },
+          "derivation_DS": {
+            "OK": 1
+          },
+          "derivation_DP": {
+            "OK": 1
+          },
+          "derivation_DKC": {
+            "OK": 1
+          },
+          "derivation_DKP": {
+            "OK": 1
+          },
+          "derivation_DAP": {
+            "OK": 1
+          },
+          "derivation_DGP": {
+            "OK": 1
+          },
+          "derivation_DWP": {
+            "OK": 1
+          },
+          "sensitivity_baseline": {
+            "OK": 1
+          },
+          "sensitivity_displayed_mean": {
+            "OK": 1
+          },
+          "sensitivity_displayed_median": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_1": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_2": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_3": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_4": {
+            "OK": 1
+          }
+        },
+        "by_status": {
+          "OK": 31,
+          "UNAVAILABLE": 6
+        },
+        "rows": [
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_share_sum_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "44870190",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_share_count_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "0",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_fcab7fcc",
+            "kind": null,
+            "entity_id": "PK",
+            "status": "OK",
+            "result": "8093613.54576",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_difference_fcab7fcc",
+            "kind": null,
+            "entity_id": "PK",
+            "status": "OK",
+            "result": "-0.45424",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_recomputed_per_fcab7fcc",
+            "kind": null,
+            "entity_id": "PK",
+            "status": "OK",
+            "result": "36.51001885583854349924666865149177650869",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_difference_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_recomputed_per_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "OK",
+            "result": "25.63505631524233085435543498988109517922",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_91f026c9",
+            "kind": null,
+            "entity_id": "PG",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_difference_91f026c9",
+            "kind": null,
+            "entity_id": "PG",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_recomputed_per_91f026c9",
+            "kind": null,
+            "entity_id": "PG",
+            "status": "OK",
+            "result": "31.75316196943680579762534911843560513145",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_bc847805",
+            "kind": null,
+            "entity_id": "PW",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_difference_bc847805",
+            "kind": null,
+            "entity_id": "PW",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_recomputed_per_bc847805",
+            "kind": null,
+            "entity_id": "PW",
+            "status": "OK",
+            "result": "32.13196552895686266050444639785149192961",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.5",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.95",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_recomputed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.50755066736863570293297478941499218725",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_price_from_reported_equity_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6106218850421627365518175875787466",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_price_from_displayed_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_reported_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "-0.3893781149578372634481824124212534",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_displayed_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "-25.7737145753115821439579373298842728",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_implied_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.50753725614759522486037216442997432436",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_price_from_recomputed_peer_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6557888450829578483937393007687146",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_derivation_DS_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "44870190",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_derivation_DP_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6106218850421627365518175875787466",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_derivation_DKC_fcab7fcc",
+            "kind": null,
+            "entity_id": "PK",
+            "status": "OK",
+            "result": "8093613.54576",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_derivation_DKP_fcab7fcc",
+            "kind": null,
+            "entity_id": "PK",
+            "status": "OK",
+            "result": "36.51001885583854349924666865149177650869",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_derivation_DAP_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "OK",
+            "result": "25.63505631524233085435543498988109517922",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_derivation_DGP_91f026c9",
+            "kind": null,
+            "entity_id": "PG",
+            "status": "OK",
+            "result": "31.75316196943680579762534911843560513145",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_derivation_DWP_bc847805",
+            "kind": null,
+            "entity_id": "PW",
+            "status": "OK",
+            "result": "32.13196552895686266050444639785149192961",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_baseline_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "107602.758089502183966682556949279688809",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_exclude_peer_1_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "100474.1455295821123110911721122642894982",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_exclude_peer_2_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "112710.6615773189282238385886041489906774",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_exclude_peer_3_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "105750.4414400741338514501498656457661534",
+            "reason": null
+          },
+          {
+            "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_exclude_peer_4_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "105413.6565947235792850442576686214165797",
+            "reason": null
+          }
+        ]
+      },
+      "submitted_calculation_uses": [
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_share_sum_535c6f8e",
+          "use": "USE",
+          "stated_value": "44870190",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "포함된 공모 전 주식, 신주 및 두 선택권 구성의 합계다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_share_count_difference_535c6f8e",
+          "use": "USE",
+          "stated_value": "0",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "구성 합계와 공시 분모의 차이다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_fcab7fcc",
+          "use": "USE",
+          "stated_value": "8093613.54576",
+          "related_judgment_ids": [
+            "J2"
+          ],
+          "reason": "HD한국조선해양의 공시 기준주가와 주식수로 산출한 백만원 단위 시가총액이며 공시값 8,093,614백만원에 근접한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_displayed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.5",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "4개 표시 PER의 산술평균이다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_displayed_median_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.95",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "4개 표시 PER의 중앙값으로 민감도 대안에 사용한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_recomputed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.50755066736863570293297478941499218725",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 시가총액과 이익으로 각 PER을 다시 나눈 평균이며 실제 내부 사용 배수의 증거로 단정하지 않는다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_implied_per_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.50753725614759522486037216442997432436",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 평가시가총액을 표시 적용 이익으로 나눈 내재 배수로, 재계산 평균에 근접한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_price_from_reported_equity_535c6f8e",
+          "use": "USE",
+          "stated_value": "106112.6106218850421627365518175875787466",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 평가시가총액과 분모의 나눗셈이며 표시 주당가액 106,113원에 근접한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_price_from_displayed_per_535c6f8e",
+          "use": "USE",
+          "stated_value": "106087.2262854246884178560420626701157272",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "표시 이익과 표시 31.5배를 직접 적용한 값으로 공시 주당가액과 구분한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_displayed_price_difference_535c6f8e",
+          "use": "USE",
+          "stated_value": "-25.7737145753115821439579373298842728",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "표시배수 직접 계산값에서 공시 주당가액을 뺀 차이이며 정확한 내부 처리 규칙은 미확인이다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_baseline_535c6f8e",
+          "use": "USE",
+          "stated_value": "106087.2262854246884178560420626701157272",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 적용 PER 31.5배를 쓰는 민감도 비교 기준이다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_displayed_median_535c6f8e",
+          "use": "USE",
+          "stated_value": "107602.758089502183966682556949279688809",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER 중앙값 31.95배 적용 시 기준 대비 약 1,516원, 1.43% 상승한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_sensitivity_exclude_peer_1_535c6f8e",
+          "use": "USE",
+          "stated_value": "100474.1455295821123110911721122642894982",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "신조 중심 HD한국조선해양을 제외한 나머지 표시 PER 평균 적용 시 기준 대비 약 5,613원, 5.29% 하락한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_86a7f47b",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J2",
+            "J4"
+          ],
+          "reason": "ALFA LAVAL의 등록된 원화 기준주가가 없어 계산 결과가 없다.",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_91f026c9",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J2",
+            "J4"
+          ],
+          "reason": "KONGSBERG의 등록된 원화 기준주가가 없어 계산 결과가 없다.",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_54fd2387e1fc8fec497c6fa8_peer_market_cap_bc847805",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J2",
+            "J4"
+          ],
+          "reason": "WARTSILA의 등록된 원화 기준주가가 없어 계산 결과가 없다.",
+          "replacement_id": null,
+          "unresolved": true
+        }
+      ],
+      "submitted_use_counts": {
+        "USE": 13,
+        "REJECT": 3
+      },
+      "tool_errors": [],
+      "usage_cost": {
+        "model_calls": 2,
+        "responses_with_usage": 2,
+        "priced_responses": 2,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.20520405",
+        "total_cost_estimate_usd": "0.20520405",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 108843,
+          "ordinary_input_tokens": 6,
+          "cached_input_tokens": 5061,
+          "cache_write_30m_tokens": 103776,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 15045,
+          "reasoning_tokens": 1408
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T112035Z_B_06406228/01_extract_response.json",
+            "response_id": "resp_08374e110e83863d016af6f28672a087d28768088d90b224bf",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 46699,
+              "input_tokens_details": {
+                "cached_tokens": 5061,
+                "cache_write_tokens": 41635
+              },
+              "output_tokens": 8644,
+              "output_tokens_details": {
+                "reasoning_tokens": 942
+              },
+              "total_tokens": 55343
+            },
+            "estimated_cost_usd": "0.09551980",
+            "input_tokens": 46699,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 5061,
+            "cache_write_30m_tokens": 41635,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 8644,
+            "reasoning_tokens": 942,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00025305",
+              "cache_write_30m": "0.05204375",
+              "cache_write_12h": "0.0",
+              "output": "0.04322"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_B_06406228/02_review_response.json",
+            "response_id": "resp_07524aa89328d336016af6f2e7fdb887d2b3f72206273838b4",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 62144,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 62141
+              },
+              "output_tokens": 6401,
+              "output_tokens_details": {
+                "reasoning_tokens": 466
+              },
+              "total_tokens": 68545
+            },
+            "estimated_cost_usd": "0.10968425",
+            "input_tokens": 62144,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 62141,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 6401,
+            "reasoning_tokens": 466,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.07767625",
+              "cache_write_12h": "0.0",
+              "output": "0.032005"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {},
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.1-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 800000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 1.25,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T112035Z_B_06406228/summary.json",
+        "runs/20261113T112035Z_B_06406228/events.jsonl",
+        "runs/20261113T112035Z_B_06406228/snapshots.json",
+        "runs/20261113T112035Z_B_06406228/extraction.json",
+        "runs/20261113T112035Z_B_06406228/calculations.json",
+        "runs/20261113T112035Z_B_06406228/review.json"
+      ]
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": "20261113T112035Z_A0_4a88d6c3",
+      "directory": "runs/20261113T112035Z_A0_4a88d6c3",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "terminal": true,
+      "elapsed_seconds": 153.757,
+      "registration": {
+        "input_snapshot_id": "X_59e7911397f75638bc8e521a",
+        "record_count": 62,
+        "records_by_kind": {
+          "CONTEXT": 8,
+          "VALUE": 27,
+          "SHARE_COMPONENT": 5,
+          "DERIVATION": 7,
+          "SELECTION": 10,
+          "COVERAGE": 1,
+          "PEER": 4
+        },
+        "fact_count": 34,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "model": {
+          "search_corpus": 3,
+          "read_source": 3,
+          "REGISTER_BATCH": 3,
+          "EVALUATE": 2,
+          "sensitivity": 1,
+          "escalate": 1,
+          "submit_review": 1
+        },
+        "program_commit": {
+          "request_information": 1,
+          "escalate": 1
+        }
+      },
+      "real_model_tool_choices": {
+        "search_corpus": 3,
+        "read_source": 3,
+        "REGISTER_BATCH": 3,
+        "EVALUATE": 2,
+        "sensitivity": 1,
+        "escalate": 1,
+        "submit_review": 1
+      },
+      "calculations": {
+        "count": 61,
+        "by_kind_status": {
+          "share_sum": {
+            "OK": 2
+          },
+          "share_count_difference": {
+            "OK": 2
+          },
+          "peer_market_cap": {
+            "OK": 2,
+            "UNAVAILABLE": 6
+          },
+          "peer_market_cap_difference": {
+            "OK": 2
+          },
+          "peer_recomputed_per": {
+            "UNAVAILABLE": 1,
+            "OK": 7
+          },
+          "peer_displayed_mean": {
+            "OK": 2
+          },
+          "peer_displayed_median": {
+            "OK": 2
+          },
+          "peer_recomputed_mean": {
+            "UNAVAILABLE": 1,
+            "OK": 1
+          },
+          "price_from_reported_equity": {
+            "OK": 2
+          },
+          "price_from_displayed_per": {
+            "OK": 2
+          },
+          "reported_price_difference": {
+            "OK": 2
+          },
+          "displayed_price_difference": {
+            "OK": 2
+          },
+          "implied_per": {
+            "OK": 2
+          },
+          "price_from_recomputed_peer_mean": {
+            "UNAVAILABLE": 1,
+            "OK": 1
+          },
+          "derivation_D_SUM": {
+            "OK": 2
+          },
+          "derivation_D_PRICE": {
+            "OK": 2
+          },
+          "derivation_D_P1PER": {
+            "OK": 2
+          },
+          "derivation_D_P2PER": {
+            "OK": 2
+          },
+          "derivation_D_P3PER": {
+            "OK": 2
+          },
+          "derivation_D_P4PER": {
+            "OK": 2
+          },
+          "derivation_D_P1CAP": {
+            "OK": 2
+          },
+          "sensitivity_baseline": {
+            "OK": 1
+          },
+          "sensitivity_displayed_mean": {
+            "OK": 1
+          },
+          "sensitivity_displayed_median": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_1": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_2": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_3": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_4": {
+            "OK": 1
+          }
+        },
+        "by_status": {
+          "OK": 52,
+          "UNAVAILABLE": 9
+        },
+        "rows": [
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_share_sum_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "44870190",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_share_count_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "0",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_market_cap_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "8093613.54576",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_market_cap_difference_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "-0.45424",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_recomputed_per_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required: both disclosed and derived market capitalizations are available"
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_market_cap_acbbb742",
+            "kind": null,
+            "entity_id": "P2",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_recomputed_per_acbbb742",
+            "kind": null,
+            "entity_id": "P2",
+            "status": "OK",
+            "result": "25.63505631524233085435543498988109517922",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_market_cap_9f9853b3",
+            "kind": null,
+            "entity_id": "P3",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_recomputed_per_9f9853b3",
+            "kind": null,
+            "entity_id": "P3",
+            "status": "OK",
+            "result": "31.75316196943680579762534911843560513145",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_market_cap_e05184c1",
+            "kind": null,
+            "entity_id": "P4",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_recomputed_per_e05184c1",
+            "kind": null,
+            "entity_id": "P4",
+            "status": "OK",
+            "result": "32.13196552895686266050444639785149192961",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.5",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.95",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_peer_recomputed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "No peer was silently dropped. Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_price_from_reported_equity_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6106218850421627365518175875787466",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_price_from_displayed_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_reported_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "-0.3893781149578372634481824124212534",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_displayed_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "-25.7737145753115821439579373298842728",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_implied_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.50753725614759522486037216442997432436",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_price_from_recomputed_peer_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required issuer or peer inputs are unavailable"
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_derivation_D_SUM_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "44870190",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_derivation_D_PRICE_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6106218850421627365518175875787466",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_derivation_D_P1PER_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "36.51001885583854349924666865149177650869",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_derivation_D_P2PER_acbbb742",
+            "kind": null,
+            "entity_id": "P2",
+            "status": "OK",
+            "result": "25.63505631524233085435543498988109517922",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_derivation_D_P3PER_9f9853b3",
+            "kind": null,
+            "entity_id": "P3",
+            "status": "OK",
+            "result": "31.75316196943680579762534911843560513145",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_derivation_D_P4PER_e05184c1",
+            "kind": null,
+            "entity_id": "P4",
+            "status": "OK",
+            "result": "32.13196552895686266050444639785149192961",
+            "reason": null
+          },
+          {
+            "calc_id": "C_03e92736f3a3381ef88b4f77_derivation_D_P1CAP_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "8093613.54576",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_share_sum_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "44870190",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_share_count_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "0",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "8093613.54576",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_difference_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "-0.45424",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "36.51001885583854349924666865149177650869",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_acbbb742",
+            "kind": null,
+            "entity_id": "P2",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_acbbb742",
+            "kind": null,
+            "entity_id": "P2",
+            "status": "OK",
+            "result": "25.63505631524233085435543498988109517922",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_9f9853b3",
+            "kind": null,
+            "entity_id": "P3",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_9f9853b3",
+            "kind": null,
+            "entity_id": "P3",
+            "status": "OK",
+            "result": "31.75316196943680579762534911843560513145",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_market_cap_e05184c1",
+            "kind": null,
+            "entity_id": "P4",
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_per_e05184c1",
+            "kind": null,
+            "entity_id": "P4",
+            "status": "OK",
+            "result": "32.13196552895686266050444639785149192961",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.5",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.95",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.50755066736863570293297478941499218725",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_price_from_reported_equity_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6106218850421627365518175875787466",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_price_from_displayed_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_reported_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "-0.3893781149578372634481824124212534",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_displayed_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "-25.7737145753115821439579373298842728",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_implied_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "31.50753725614759522486037216442997432436",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_price_from_recomputed_peer_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6557888450829578483937393007687146",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_SUM_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "44870190",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_PRICE_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106112.6106218850421627365518175875787466",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P1PER_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "36.51001885583854349924666865149177650869",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P2PER_acbbb742",
+            "kind": null,
+            "entity_id": "P2",
+            "status": "OK",
+            "result": "25.63505631524233085435543498988109517922",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P3PER_9f9853b3",
+            "kind": null,
+            "entity_id": "P3",
+            "status": "OK",
+            "result": "31.75316196943680579762534911843560513145",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P4PER_e05184c1",
+            "kind": null,
+            "entity_id": "P4",
+            "status": "OK",
+            "result": "32.13196552895686266050444639785149192961",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_derivation_D_P1CAP_fbeae7c1",
+            "kind": null,
+            "entity_id": "P1",
+            "status": "OK",
+            "result": "8093613.54576",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_baseline_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "106087.2262854246884178560420626701157272",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "107602.758089502183966682556949279688809",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_1_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "100474.1455295821123110911721122642894982",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_2_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "112710.6615773189282238385886041489906774",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_3_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "105750.4414400741338514501498656457661534",
+            "reason": null
+          },
+          {
+            "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_4_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "105413.6565947235792850442576686214165797",
+            "reason": null
+          }
+        ]
+      },
+      "submitted_calculation_uses": [
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_share_sum_535c6f8e",
+          "use": "USE",
+          "stated_value": "44870190",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "포함 주식 구성 합산",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_displayed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.5",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "공시 표시 배수 평균 검산",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_peer_recomputed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "31.50755066736863570293297478941499218725",
+          "related_judgment_ids": [
+            "J2",
+            "J4"
+          ],
+          "reason": "공시 표시 시총과 이익으로 재산출한 평균",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_price_from_reported_equity_535c6f8e",
+          "use": "USE",
+          "stated_value": "106112.6106218850421627365518175875787466",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 평가시총과 주식수로 주당가액 검산",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_price_from_recomputed_peer_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "106112.6557888450829578483937393007687146",
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "공시 원화 입력 재산출 평균 배수 사용",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_baseline_535c6f8e",
+          "use": "USE",
+          "stated_value": "106087.2262854246884178560420626701157272",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "표시 적용 배수 민감도 기준",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_displayed_median_535c6f8e",
+          "use": "USE",
+          "stated_value": "107602.758089502183966682556949279688809",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER 중앙값 대안",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_1_535c6f8e",
+          "use": "USE",
+          "stated_value": "100474.1455295821123110911721122642894982",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "최고 표시 PER 기업 제외 대안",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_2_535c6f8e",
+          "use": "USE",
+          "stated_value": "112710.6615773189282238385886041489906774",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "최저 표시 PER 기업 제외 대안",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_3_535c6f8e",
+          "use": "USE",
+          "stated_value": "105750.4414400741338514501498656457661534",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "KONGSBERG 제외 대안",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_59e7911397f75638bc8e521a_sensitivity_exclude_peer_4_535c6f8e",
+          "use": "USE",
+          "stated_value": "105413.6565947235792850442576686214165797",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "WARTSILA 제외 대안",
+          "replacement_id": null,
+          "unresolved": false
+        }
+      ],
+      "submitted_use_counts": {
+        "USE": 11
+      },
+      "tool_errors": [],
+      "usage_cost": {
+        "model_calls": 14,
+        "responses_with_usage": 14,
+        "priced_responses": 14,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.36596080",
+        "total_cost_estimate_usd": "0.36596080",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 733251,
+          "ordinary_input_tokens": 171,
+          "cached_input_tokens": 503896,
+          "cache_write_30m_tokens": 229184,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 10823,
+          "reasoning_tokens": 475
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/01_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f286c2e887d284b82347b3ea97b3",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 9263,
+              "input_tokens_details": {
+                "cached_tokens": 6428,
+                "cache_write_tokens": 2832
+              },
+              "output_tokens": 63,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 9326
+            },
+            "estimated_cost_usd": "0.0041794",
+            "input_tokens": 9263,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6428,
+            "cache_write_30m_tokens": 2832,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003214",
+              "cache_write_30m": "0.00354",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/02_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f28970ac87d284b2d0bd44dfee9c",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 10054,
+              "input_tokens_details": {
+                "cached_tokens": 9260,
+                "cache_write_tokens": 791
+              },
+              "output_tokens": 43,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10097
+            },
+            "estimated_cost_usd": "0.00166975",
+            "input_tokens": 10054,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 9260,
+            "cache_write_30m_tokens": 791,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 43,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.000463",
+              "cache_write_30m": "0.00098875",
+              "cache_write_12h": "0.0",
+              "output": "0.000215"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/03_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f28b54a887d297c4c63d4dc5912a",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 16906,
+              "input_tokens_details": {
+                "cached_tokens": 10051,
+                "cache_write_tokens": 6852
+              },
+              "output_tokens": 58,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 16964
+            },
+            "estimated_cost_usd": "0.00936055",
+            "input_tokens": 16906,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 10051,
+            "cache_write_30m_tokens": 6852,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 58,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00050255",
+              "cache_write_30m": "0.008565",
+              "cache_write_12h": "0.0",
+              "output": "0.00029"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/04_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f28e818087d295b449bfa295ff3c",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 17706,
+              "input_tokens_details": {
+                "cached_tokens": 16903,
+                "cache_write_tokens": 800
+              },
+              "output_tokens": 33,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 17739
+            },
+            "estimated_cost_usd": "0.00201315",
+            "input_tokens": 17706,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16903,
+            "cache_write_30m_tokens": 800,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 33,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00084515",
+              "cache_write_30m": "0.001",
+              "cache_write_12h": "0.0",
+              "output": "0.000165"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/05_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2908fd487d2bf335fe379d21af2",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 21384,
+              "input_tokens_details": {
+                "cached_tokens": 17703,
+                "cache_write_tokens": 3678
+              },
+              "output_tokens": 53,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 21437
+            },
+            "estimated_cost_usd": "0.00575065",
+            "input_tokens": 21384,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 17703,
+            "cache_write_30m_tokens": 3678,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 53,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00088515",
+              "cache_write_30m": "0.0045975",
+              "cache_write_12h": "0.0",
+              "output": "0.000265"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/06_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f293cbc487d2a788cfa55cf8d972",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 28265,
+              "input_tokens_details": {
+                "cached_tokens": 21381,
+                "cache_write_tokens": 6881
+              },
+              "output_tokens": 2161,
+              "output_tokens_details": {
+                "reasoning_tokens": 131
+              },
+              "total_tokens": 30426
+            },
+            "estimated_cost_usd": "0.02047830",
+            "input_tokens": 28265,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 21381,
+            "cache_write_30m_tokens": 6881,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 2161,
+            "reasoning_tokens": 131,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00106905",
+              "cache_write_30m": "0.00860125",
+              "cache_write_12h": "0.0",
+              "output": "0.010805"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/07_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2ae424087d2a8f44a068d6e6ce9",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 30950,
+              "input_tokens_details": {
+                "cached_tokens": 28262,
+                "cache_write_tokens": 2685
+              },
+              "output_tokens": 2772,
+              "output_tokens_details": {
+                "reasoning_tokens": 106
+              },
+              "total_tokens": 33722
+            },
+            "estimated_cost_usd": "0.01863235",
+            "input_tokens": 30950,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 28262,
+            "cache_write_30m_tokens": 2685,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 2772,
+            "reasoning_tokens": 106,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0014131",
+              "cache_write_30m": "0.00335625",
+              "cache_write_12h": "0.0",
+              "output": "0.01386"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/08_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2ce92c487d2a63281a151471d40",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 34397,
+              "input_tokens_details": {
+                "cached_tokens": 30947,
+                "cache_write_tokens": 3447
+              },
+              "output_tokens": 50,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 34447
+            },
+            "estimated_cost_usd": "0.00610910",
+            "input_tokens": 34397,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 30947,
+            "cache_write_30m_tokens": 3447,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 50,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00154735",
+              "cache_write_30m": "0.00430875",
+              "cache_write_12h": "0.0",
+              "output": "0.00025"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/09_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2d125ec87d2b638acf70b60f224",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 59556,
+              "input_tokens_details": {
+                "cached_tokens": 34394,
+                "cache_write_tokens": 25159
+              },
+              "output_tokens": 158,
+              "output_tokens_details": {
+                "reasoning_tokens": 13
+              },
+              "total_tokens": 59714
+            },
+            "estimated_cost_usd": "0.03396145",
+            "input_tokens": 59556,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 34394,
+            "cache_write_30m_tokens": 25159,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 158,
+            "reasoning_tokens": 13,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0017197",
+              "cache_write_30m": "0.03144875",
+              "cache_write_12h": "0.0",
+              "output": "0.00079"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/10_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2d51e4887d286139300795b8791",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 61027,
+              "input_tokens_details": {
+                "cached_tokens": 59553,
+                "cache_write_tokens": 1471
+              },
+              "output_tokens": 48,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 61075
+            },
+            "estimated_cost_usd": "0.00505940",
+            "input_tokens": 61027,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 59553,
+            "cache_write_30m_tokens": 1471,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 48,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00297765",
+              "cache_write_30m": "0.00183875",
+              "cache_write_12h": "0.0",
+              "output": "0.00024"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/11_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2d7f0a887d2b6dd390b906665de",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 87064,
+              "input_tokens_details": {
+                "cached_tokens": 61024,
+                "cache_write_tokens": 26037
+              },
+              "output_tokens": 49,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 87113
+            },
+            "estimated_cost_usd": "0.03584545",
+            "input_tokens": 87064,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 61024,
+            "cache_write_30m_tokens": 26037,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 49,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0030512",
+              "cache_write_30m": "0.03254625",
+              "cache_write_12h": "0.0",
+              "output": "0.000245"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/12_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2db04a087d2ac3b91525d896cc2",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 115992,
+              "input_tokens_details": {
+                "cached_tokens": 87061,
+                "cache_write_tokens": 28928
+              },
+              "output_tokens": 89,
+              "output_tokens_details": {
+                "reasoning_tokens": 24
+              },
+              "total_tokens": 116081
+            },
+            "estimated_cost_usd": "0.04096105",
+            "input_tokens": 115992,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 87061,
+            "cache_write_30m_tokens": 28928,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 89,
+            "reasoning_tokens": 24,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00435305",
+              "cache_write_30m": "0.03616",
+              "cache_write_12h": "0.0",
+              "output": "0.000445"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/13_explore_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2de64c487d29c054ede0d86ebde",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 118318,
+              "input_tokens_details": {
+                "cached_tokens": 115989,
+                "cache_write_tokens": 2326
+              },
+              "output_tokens": 238,
+              "output_tokens_details": {
+                "reasoning_tokens": 77
+              },
+              "total_tokens": 118556
+            },
+            "estimated_cost_usd": "0.00989995",
+            "input_tokens": 118318,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 115989,
+            "cache_write_30m_tokens": 2326,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 238,
+            "reasoning_tokens": 77,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00579945",
+              "cache_write_30m": "0.0029075",
+              "cache_write_12h": "0.0",
+              "output": "0.00119"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112035Z_A0_4a88d6c3/14_finalize_response.json",
+            "response_id": "resp_0cd92d592b8fac13016af6f2e427e487d283585c327606c65a",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 122369,
+              "input_tokens_details": {
+                "cached_tokens": 4940,
+                "cache_write_tokens": 117297
+              },
+              "output_tokens": 5008,
+              "output_tokens_details": {
+                "reasoning_tokens": 124
+              },
+              "total_tokens": 127377
+            },
+            "estimated_cost_usd": "0.17204025",
+            "input_tokens": 122369,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 4940,
+            "cache_write_30m_tokens": 117297,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5008,
+            "reasoning_tokens": 124,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.000247",
+              "cache_write_30m": "0.14662125",
+              "cache_write_12h": "0.0",
+              "output": "0.02504"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {
+          "search_corpus": 3,
+          "read_source": 3,
+          "REGISTER_BATCH": 3,
+          "EVALUATE": 2,
+          "sensitivity": 1,
+          "escalate": 1,
+          "submit_review": 1
+        },
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.1-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 800000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 1.25,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T112035Z_A0_4a88d6c3/summary.json",
+        "runs/20261113T112035Z_A0_4a88d6c3/events.jsonl",
+        "runs/20261113T112035Z_A0_4a88d6c3/snapshots.json",
+        "runs/20261113T112035Z_A0_4a88d6c3/extraction.json",
+        "runs/20261113T112035Z_A0_4a88d6c3/calculations.json",
+        "runs/20261113T112035Z_A0_4a88d6c3/review.json"
+      ]
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": "20261113T112309Z_B_df4ace2b",
+      "directory": "runs/20261113T112309Z_B_df4ace2b",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "INVALID_REVIEW:USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result",
+      "terminal": true,
+      "elapsed_seconds": 172.636,
+      "registration": {
+        "input_snapshot_id": "X_3b65af4a30e0f8ce094ec199",
+        "record_count": 61,
+        "records_by_kind": {
+          "CONTEXT": 13,
+          "VALUE": 20,
+          "SHARE_COMPONENT": 5,
+          "PEER": 2,
+          "DERIVATION": 5,
+          "SELECTION": 15,
+          "COVERAGE": 1
+        },
+        "fact_count": 25,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "program_fixed": {
+          "search_corpus": 8,
+          "read_source": 8,
+          "REGISTER_BATCH": 1,
+          "EVALUATE": 1,
+          "sensitivity": 1,
+          "submit_review": 1
+        },
+        "program_commit": {
+          "request_information": 1,
+          "escalate": 1,
+          "submit_review": 1
+        }
+      },
+      "real_model_tool_choices": {},
+      "calculations": {
+        "count": 25,
+        "by_kind_status": {
+          "share_sum": {
+            "UNAVAILABLE": 1
+          },
+          "share_count_difference": {
+            "UNAVAILABLE": 1
+          },
+          "peer_market_cap": {
+            "OK": 2
+          },
+          "peer_recomputed_per": {
+            "OK": 2
+          },
+          "peer_displayed_mean": {
+            "OK": 1
+          },
+          "peer_displayed_median": {
+            "OK": 1
+          },
+          "peer_recomputed_mean": {
+            "OK": 1
+          },
+          "price_from_reported_equity": {
+            "OK": 1
+          },
+          "price_from_displayed_per": {
+            "OK": 1
+          },
+          "reported_price_difference": {
+            "OK": 1
+          },
+          "displayed_price_difference": {
+            "OK": 1
+          },
+          "implied_per": {
+            "OK": 1
+          },
+          "price_from_recomputed_peer_mean": {
+            "OK": 1
+          },
+          "derivation_DHC": {
+            "OK": 1
+          },
+          "derivation_DWC": {
+            "OK": 1
+          },
+          "derivation_DHP": {
+            "OK": 1
+          },
+          "derivation_DWP": {
+            "OK": 1
+          },
+          "derivation_DIP": {
+            "OK": 1
+          },
+          "sensitivity_baseline": {
+            "OK": 1
+          },
+          "sensitivity_displayed_mean": {
+            "OK": 1
+          },
+          "sensitivity_displayed_median": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_1": {
+            "OK": 1
+          },
+          "sensitivity_exclude_peer_2": {
+            "OK": 1
+          }
+        },
+        "by_status": {
+          "UNAVAILABLE": 2,
+          "OK": 23
+        },
+        "rows": [
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_share_sum_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Coverage or denominator treatment/quantity is incomplete"
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_share_count_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_peer_market_cap_44bd7ae6",
+            "kind": null,
+            "entity_id": "H",
+            "status": "OK",
+            "result": "2993497.9",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_peer_recomputed_per_44bd7ae6",
+            "kind": null,
+            "entity_id": "H",
+            "status": "OK",
+            "result": "34.91896252055945034819835057799759702311",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_peer_market_cap_fcb5f40d",
+            "kind": null,
+            "entity_id": "W",
+            "status": "OK",
+            "result": "88934.04",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_peer_recomputed_per_fcb5f40d",
+            "kind": null,
+            "entity_id": "W",
+            "status": "OK",
+            "result": "17.44488819144762652020400156924284032954",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_peer_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "26.185",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_peer_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "26.185",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_peer_recomputed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "26.18192535600353843420117607362021867632",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_price_from_reported_equity_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14173.30192383195916764821358460934432666",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_price_from_displayed_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14172.35335689045936395759717314487632509",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_reported_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "0.30192383195916764821358460934432666",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_displayed_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "-0.64664310954063604240282685512367491",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_implied_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "26.18175224833188279663475485929794023789",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_price_from_recomputed_peer_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14173.39563441604978134141404409405477461",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_derivation_DHC_44bd7ae6",
+            "kind": null,
+            "entity_id": "H",
+            "status": "OK",
+            "result": "2993497.9",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_derivation_DWC_fcb5f40d",
+            "kind": null,
+            "entity_id": "W",
+            "status": "OK",
+            "result": "88934.04",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_derivation_DHP_44bd7ae6",
+            "kind": null,
+            "entity_id": "H",
+            "status": "OK",
+            "result": "34.91896252055945034819835057799759702311",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_derivation_DWP_fcb5f40d",
+            "kind": null,
+            "entity_id": "W",
+            "status": "OK",
+            "result": "17.44488819144762652020400156924284032954",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_derivation_DIP_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14173.30192383195916764821358460934432666",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_sensitivity_baseline_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14172.35335689045936395759717314487632509",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_sensitivity_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14175.06007067137809187279151943462897527",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_sensitivity_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14175.06007067137809187279151943462897527",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_sensitivity_exclude_peer_1_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "9446.431095406360424028268551236749116608",
+            "reason": null
+          },
+          {
+            "calc_id": "C_3b65af4a30e0f8ce094ec199_sensitivity_exclude_peer_2_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "18903.68904593639575971731448763250883392",
+            "reason": null
+          }
+        ]
+      },
+      "submitted_calculation_uses": null,
+      "submitted_use_counts": null,
+      "tool_errors": [
+        {
+          "call_id": "B_commit",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result"
+        },
+        {
+          "call_id": "B_commit_repaired",
+          "tool": "submit_review",
+          "error_code": "INVALID_REVIEW",
+          "message": "USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result; USE cannot also declare a replacement or unresolved result"
+        }
+      ],
+      "usage_cost": {
+        "model_calls": 3,
+        "responses_with_usage": 3,
+        "priced_responses": 3,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.16456695",
+        "total_cost_estimate_usd": "0.16456695",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 133260,
+          "ordinary_input_tokens": 9,
+          "cached_input_tokens": 61784,
+          "cache_write_30m_tokens": 71467,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 14427,
+          "reasoning_tokens": 2146
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T112309Z_B_df4ace2b/01_extract_response.json",
+            "response_id": "resp_0fbbcaff6cb1d115016af6f31f192887d2b65b05a8244a67fb",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 57137,
+              "input_tokens_details": {
+                "cached_tokens": 57134,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 6593,
+              "output_tokens_details": {
+                "reasoning_tokens": 1034
+              },
+              "total_tokens": 63730
+            },
+            "estimated_cost_usd": "0.0358247",
+            "input_tokens": 57137,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 57134,
+            "cache_write_30m_tokens": 0,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 6593,
+            "reasoning_tokens": 1034,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0028567",
+              "cache_write_30m": "0.00",
+              "cache_write_12h": "0.0",
+              "output": "0.032965"
+            },
+            "notes": []
+          },
+          {
+            "response_file": "runs/20261113T112309Z_B_df4ace2b/02_review_response.json",
+            "response_id": "resp_0314e35d4d798baa016af6f36a115c87d281edcdce1f101194",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 67619,
+              "input_tokens_details": {
+                "cached_tokens": 4650,
+                "cache_write_tokens": 62966
+              },
+              "output_tokens": 7578,
+              "output_tokens_details": {
+                "reasoning_tokens": 870
+              },
+              "total_tokens": 75197
+            },
+            "estimated_cost_usd": "0.1168330",
+            "input_tokens": 67619,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 4650,
+            "cache_write_30m_tokens": 62966,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 7578,
+            "reasoning_tokens": 870,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0002325",
+              "cache_write_30m": "0.0787075",
+              "cache_write_12h": "0.0",
+              "output": "0.03789"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112309Z_B_df4ace2b/03_format_repair_response.json",
+            "response_id": "resp_09d177026bb082c7016af6f3bf8cc487d28a5287d5badd0f6e",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 8504,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 8501
+              },
+              "output_tokens": 256,
+              "output_tokens_details": {
+                "reasoning_tokens": 242
+              },
+              "total_tokens": 8760
+            },
+            "estimated_cost_usd": "0.01190925",
+            "input_tokens": 8504,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 8501,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 256,
+            "reasoning_tokens": 242,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.01062625",
+              "cache_write_12h": "0.0",
+              "output": "0.00128"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {},
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.1-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 800000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 1.25,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T112309Z_B_df4ace2b/summary.json",
+        "runs/20261113T112309Z_B_df4ace2b/events.jsonl",
+        "runs/20261113T112309Z_B_df4ace2b/snapshots.json",
+        "runs/20261113T112309Z_B_df4ace2b/extraction.json",
+        "runs/20261113T112309Z_B_df4ace2b/calculations.json"
+      ]
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": "20261113T112328Z_A0_1bc17cbe",
+      "directory": "runs/20261113T112328Z_A0_1bc17cbe",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "terminal": true,
+      "elapsed_seconds": 63.076,
+      "registration": {
+        "input_snapshot_id": "X_EMPTY",
+        "record_count": 0,
+        "records_by_kind": {},
+        "fact_count": 0,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "model": {
+          "search_corpus": 5,
+          "read_source": 4
+        }
+      },
+      "real_model_tool_choices": {
+        "search_corpus": 5,
+        "read_source": 4,
+        "INVALID_ARGUMENT": 1
+      },
+      "calculations": {
+        "count": 0,
+        "by_kind_status": {},
+        "by_status": {},
+        "rows": []
+      },
+      "submitted_calculation_uses": null,
+      "submitted_use_counts": null,
+      "tool_errors": [],
+      "usage_cost": {
+        "model_calls": 10,
+        "responses_with_usage": 10,
+        "priced_responses": 10,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.06823915",
+        "total_cost_estimate_usd": "0.06823915",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 204253,
+          "ordinary_input_tokens": 30,
+          "cached_input_tokens": 172633,
+          "cache_write_30m_tokens": 31590,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4018,
+          "reasoning_tokens": 108
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/01_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f331a67487d288c34cee2da04319",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 9165,
+              "input_tokens_details": {
+                "cached_tokens": 6428,
+                "cache_write_tokens": 2734
+              },
+              "output_tokens": 63,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 9228
+            },
+            "estimated_cost_usd": "0.0040569",
+            "input_tokens": 9165,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6428,
+            "cache_write_30m_tokens": 2734,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003214",
+              "cache_write_30m": "0.0034175",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/02_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f334061487d29cdec5a63fe49d91",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 9972,
+              "input_tokens_details": {
+                "cached_tokens": 9162,
+                "cache_write_tokens": 807
+              },
+              "output_tokens": 57,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10029
+            },
+            "estimated_cost_usd": "0.00175485",
+            "input_tokens": 9972,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 9162,
+            "cache_write_30m_tokens": 807,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 57,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0004581",
+              "cache_write_30m": "0.00100875",
+              "cache_write_12h": "0.0",
+              "output": "0.000285"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/03_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f336284887d2885c2723f207430e",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 10442,
+              "input_tokens_details": {
+                "cached_tokens": 9969,
+                "cache_write_tokens": 470
+              },
+              "output_tokens": 34,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10476
+            },
+            "estimated_cost_usd": "0.00125895",
+            "input_tokens": 10442,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 9969,
+            "cache_write_30m_tokens": 470,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 34,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00049845",
+              "cache_write_30m": "0.0005875",
+              "cache_write_12h": "0.0",
+              "output": "0.00017"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/04_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f337f9a887d283ae01d52786d2ab",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 14931,
+              "input_tokens_details": {
+                "cached_tokens": 10439,
+                "cache_write_tokens": 4489
+              },
+              "output_tokens": 48,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 14979
+            },
+            "estimated_cost_usd": "0.00637620",
+            "input_tokens": 14931,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 10439,
+            "cache_write_30m_tokens": 4489,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 48,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00052195",
+              "cache_write_30m": "0.00561125",
+              "cache_write_12h": "0.0",
+              "output": "0.00024"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/05_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f33a247c87d2b3633c41d5205bda",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 15386,
+              "input_tokens_details": {
+                "cached_tokens": 14928,
+                "cache_write_tokens": 455
+              },
+              "output_tokens": 58,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 15444
+            },
+            "estimated_cost_usd": "0.00160815",
+            "input_tokens": 15386,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 14928,
+            "cache_write_30m_tokens": 455,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 58,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0007464",
+              "cache_write_30m": "0.00056875",
+              "cache_write_12h": "0.0",
+              "output": "0.00029"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/06_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f33c72dc87d2ae1a210614b4a4be",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 16347,
+              "input_tokens_details": {
+                "cached_tokens": 15383,
+                "cache_write_tokens": 961
+              },
+              "output_tokens": 56,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 16403
+            },
+            "estimated_cost_usd": "0.00225340",
+            "input_tokens": 16347,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 15383,
+            "cache_write_30m_tokens": 961,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 56,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00076915",
+              "cache_write_30m": "0.00120125",
+              "cache_write_12h": "0.0",
+              "output": "0.00028"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/07_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f33e965087d2b1bd55b7784f342e",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 23214,
+              "input_tokens_details": {
+                "cached_tokens": 16344,
+                "cache_write_tokens": 6867
+              },
+              "output_tokens": 78,
+              "output_tokens_details": {
+                "reasoning_tokens": 20
+              },
+              "total_tokens": 23292
+            },
+            "estimated_cost_usd": "0.00979395",
+            "input_tokens": 23214,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16344,
+            "cache_write_30m_tokens": 6867,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 78,
+            "reasoning_tokens": 20,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0008172",
+              "cache_write_30m": "0.00858375",
+              "cache_write_12h": "0.0",
+              "output": "0.00039"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/08_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f3417ed087d290c120f8e331b12c",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 32939,
+              "input_tokens_details": {
+                "cached_tokens": 23211,
+                "cache_write_tokens": 9725
+              },
+              "output_tokens": 79,
+              "output_tokens_details": {
+                "reasoning_tokens": 15
+              },
+              "total_tokens": 33018
+            },
+            "estimated_cost_usd": "0.01371480",
+            "input_tokens": 32939,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 23211,
+            "cache_write_30m_tokens": 9725,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 79,
+            "reasoning_tokens": 15,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00116055",
+              "cache_write_30m": "0.01215625",
+              "cache_write_12h": "0.0",
+              "output": "0.000395"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/09_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f344f6b887d2a6ab0955b26af4aa",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 33836,
+              "input_tokens_details": {
+                "cached_tokens": 32936,
+                "cache_write_tokens": 897
+              },
+              "output_tokens": 45,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 33881
+            },
+            "estimated_cost_usd": "0.00299605",
+            "input_tokens": 33836,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 32936,
+            "cache_write_30m_tokens": 897,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0016468",
+              "cache_write_30m": "0.00112125",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112328Z_A0_1bc17cbe/10_explore_response.json",
+            "response_id": "resp_0ca4b39d45b841e9016af6f34791e887d2a90f6faf010f4f45",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "incomplete",
+            "incomplete_details": {
+              "reason": "max_output_tokens"
+            },
+            "usage": {
+              "input_tokens": 38021,
+              "input_tokens_details": {
+                "cached_tokens": 33833,
+                "cache_write_tokens": 4185
+              },
+              "output_tokens": 3500,
+              "output_tokens_details": {
+                "reasoning_tokens": 73
+              },
+              "total_tokens": 41521
+            },
+            "estimated_cost_usd": "0.02442590",
+            "input_tokens": 38021,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 33833,
+            "cache_write_30m_tokens": 4185,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 3500,
+            "reasoning_tokens": 73,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00169165",
+              "cache_write_30m": "0.00523125",
+              "cache_write_12h": "0.0",
+              "output": "0.0175"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {
+          "search_corpus": 5,
+          "read_source": 4,
+          "INVALID_ARGUMENT": 1
+        },
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.1-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 800000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 1.25,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T112328Z_A0_1bc17cbe/summary.json",
+        "runs/20261113T112328Z_A0_1bc17cbe/events.jsonl",
+        "runs/20261113T112328Z_A0_1bc17cbe/snapshots.json",
+        "runs/20261113T112328Z_A0_1bc17cbe/extraction.json",
+        "runs/20261113T112328Z_A0_1bc17cbe/calculations.json"
+      ]
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": "20261113T112431Z_B_3b8035d8",
+      "directory": "runs/20261113T112431Z_B_3b8035d8",
+      "discovery": "result_registry",
+      "execution_started": true,
+      "attempt_directory_created": true,
+      "api_started": true,
+      "execution_status": "SUBMITTED",
+      "final_status": "PENDING_INFO",
+      "failure_reason": null,
+      "terminal": true,
+      "elapsed_seconds": 150.605,
+      "registration": {
+        "input_snapshot_id": "X_4734b29b3730edb656f67ae2",
+        "record_count": 85,
+        "records_by_kind": {
+          "CONTEXT": 22,
+          "VALUE": 25,
+          "SHARE_COMPONENT": 5,
+          "PEER": 3,
+          "DERIVATION": 7,
+          "SELECTION": 22,
+          "COVERAGE": 1
+        },
+        "fact_count": 32,
+        "source": "saved_snapshot"
+      },
+      "tool_operations_by_actor": {
+        "program_fixed": {
+          "search_corpus": 8,
+          "read_source": 8,
+          "REGISTER_BATCH": 1,
+          "EVALUATE": 1,
+          "sensitivity": 1,
+          "submit_review": 1
+        },
+        "program_commit": {
+          "request_information": 1,
+          "escalate": 1
+        }
+      },
+      "real_model_tool_choices": {},
+      "calculations": {
+        "count": 30,
+        "by_kind_status": {
+          "share_sum": {
+            "OK": 1
+          },
+          "share_count_difference": {
+            "OK": 1
+          },
+          "peer_market_cap": {
+            "OK": 3
+          },
+          "peer_recomputed_per": {
+            "OK": 3
+          },
+          "peer_displayed_mean": {
+            "OK": 1
+          },
+          "peer_displayed_median": {
+            "OK": 1
+          },
+          "peer_recomputed_mean": {
+            "OK": 1
+          },
+          "price_from_reported_equity": {
+            "UNAVAILABLE": 1
+          },
+          "price_from_displayed_per": {
+            "UNAVAILABLE": 1
+          },
+          "reported_price_difference": {
+            "UNAVAILABLE": 1
+          },
+          "displayed_price_difference": {
+            "UNAVAILABLE": 1
+          },
+          "implied_per": {
+            "UNAVAILABLE": 1
+          },
+          "price_from_recomputed_peer_mean": {
+            "UNAVAILABLE": 1
+          },
+          "derivation_DS": {
+            "OK": 1
+          },
+          "derivation_DA1": {
+            "OK": 1
+          },
+          "derivation_DA2": {
+            "OK": 1
+          },
+          "derivation_DB1": {
+            "OK": 1
+          },
+          "derivation_DB2": {
+            "OK": 1
+          },
+          "derivation_DC1": {
+            "OK": 1
+          },
+          "derivation_DC2": {
+            "OK": 1
+          },
+          "sensitivity_baseline": {
+            "UNAVAILABLE": 1
+          },
+          "sensitivity_displayed_mean": {
+            "UNAVAILABLE": 1
+          },
+          "sensitivity_displayed_median": {
+            "UNAVAILABLE": 1
+          },
+          "sensitivity_exclude_peer_1": {
+            "UNAVAILABLE": 1
+          },
+          "sensitivity_exclude_peer_2": {
+            "UNAVAILABLE": 1
+          },
+          "sensitivity_exclude_peer_3": {
+            "UNAVAILABLE": 1
+          }
+        },
+        "by_status": {
+          "OK": 18,
+          "UNAVAILABLE": 12
+        },
+        "rows": [
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_share_sum_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14881735",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_share_count_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "0",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_market_cap_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "OK",
+            "result": "580976.5752",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_recomputed_per_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "OK",
+            "result": "5.293684454528059481179782959298034606238",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_market_cap_f9085bf3",
+            "kind": null,
+            "entity_id": "PB",
+            "status": "OK",
+            "result": "1815467.828182",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_recomputed_per_f9085bf3",
+            "kind": null,
+            "entity_id": "PB",
+            "status": "OK",
+            "result": "34.87796488476907707676938446169215399985",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_market_cap_21d017c4",
+            "kind": null,
+            "entity_id": "PC",
+            "status": "OK",
+            "result": "265128.00144",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_recomputed_per_21d017c4",
+            "kind": null,
+            "entity_id": "PC",
+            "status": "OK",
+            "result": "8.255067454619049101721829560668804682878",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "16.14333333333333333333333333333333333333",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "8.26",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_peer_recomputed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "16.14223893130539521989033232721966442966",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_price_from_reported_equity_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_price_from_displayed_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_reported_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_displayed_price_difference_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_implied_per_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Required inputs are absent, unresolved, or need an explicit selection"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_price_from_recomputed_peer_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_derivation_DS_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "OK",
+            "result": "14881735",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_derivation_DA1_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "OK",
+            "result": "580976.5752",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_derivation_DA2_86a7f47b",
+            "kind": null,
+            "entity_id": "PA",
+            "status": "OK",
+            "result": "5.293684454528059481179782959298034606238",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_derivation_DB1_f9085bf3",
+            "kind": null,
+            "entity_id": "PB",
+            "status": "OK",
+            "result": "1815467.828182",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_derivation_DB2_f9085bf3",
+            "kind": null,
+            "entity_id": "PB",
+            "status": "OK",
+            "result": "34.87796488476907707676938446169215399985",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_derivation_DC1_21d017c4",
+            "kind": null,
+            "entity_id": "PC",
+            "status": "OK",
+            "result": "265128.00144",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_derivation_DC2_21d017c4",
+            "kind": null,
+            "entity_id": "PC",
+            "status": "OK",
+            "result": "8.255067454619049101721829560668804682878",
+            "reason": null
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_baseline_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_displayed_mean_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_displayed_median_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_exclude_peer_1_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_exclude_peer_2_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          },
+          {
+            "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_exclude_peer_3_535c6f8e",
+            "kind": null,
+            "entity_id": null,
+            "status": "UNAVAILABLE",
+            "result": null,
+            "reason": "Explicit SELECTION required for share_count"
+          }
+        ]
+      },
+      "submitted_calculation_uses": [
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_share_sum_535c6f8e",
+          "use": "USE",
+          "stated_value": "14881735",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "포함된 기발행·신주·추가인수분의 실제 합계다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_share_count_difference_535c6f8e",
+          "use": "USE",
+          "stated_value": "0",
+          "related_judgment_ids": [
+            "J3",
+            "J4"
+          ],
+          "reason": "구성 합계와 공시 분모의 차이다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_peer_recomputed_per_86a7f47b",
+          "use": "USE",
+          "stated_value": "5.293684454528059481179782959298034606238",
+          "related_judgment_ids": [
+            "J2"
+          ],
+          "reason": "공시 인용 주가·주식수·이익으로 SNT에너지 PER을 검산했다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_peer_recomputed_per_f9085bf3",
+          "use": "USE",
+          "stated_value": "34.87796488476907707676938446169215399985",
+          "related_judgment_ids": [
+            "J2"
+          ],
+          "reason": "공시 인용 주가·주식수·이익으로 비에이치아이 PER을 검산했다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_peer_recomputed_per_21d017c4",
+          "use": "USE",
+          "stated_value": "8.255067454619049101721829560668804682878",
+          "related_judgment_ids": [
+            "J2"
+          ],
+          "reason": "공시 인용 주가·주식수·이익으로 한텍 PER을 검산했다. 표시값 차이는 정밀도를 고려해야 한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_peer_displayed_mean_535c6f8e",
+          "use": "USE",
+          "stated_value": "16.14333333333333333333333333333333333333",
+          "related_judgment_ids": [
+            "J2",
+            "J3"
+          ],
+          "reason": "표시된 세 PER의 단순평균으로 공시 16.14배와 표시 정밀도상 부합한다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_peer_displayed_median_535c6f8e",
+          "use": "USE",
+          "stated_value": "8.26",
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "표시 PER의 중앙값이며 주당가액 민감도 결과는 아니다.",
+          "replacement_id": null,
+          "unresolved": false
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_price_from_displayed_per_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "계산 결과 UNAVAILABLE: 명시적 share_count 선택이 없다.",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_price_from_reported_equity_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J4"
+          ],
+          "reason": "계산 결과 UNAVAILABLE: 분모 선택과 평가시가총액 직접값을 확인해야 한다.",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_baseline_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "명시적 share_count 선택이 없어 기준선이 산출되지 않았다.",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_displayed_median_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "명시적 share_count 선택이 없어 중앙값 적용 주당가액이 산출되지 않았다.",
+          "replacement_id": null,
+          "unresolved": true
+        },
+        {
+          "calc_id": "C_4734b29b3730edb656f67ae2_sensitivity_exclude_peer_2_535c6f8e",
+          "use": "REJECT",
+          "stated_value": null,
+          "related_judgment_ids": [
+            "J3"
+          ],
+          "reason": "명시적 share_count 선택이 없어 비에이치아이 제외 대안의 주당가액이 산출되지 않았다.",
+          "replacement_id": null,
+          "unresolved": true
+        }
+      ],
+      "submitted_use_counts": {
+        "USE": 7,
+        "REJECT": 5
+      },
+      "tool_errors": [],
+      "usage_cost": {
+        "model_calls": 2,
+        "responses_with_usage": 2,
+        "priced_responses": 2,
+        "requests_without_usage": 0,
+        "unpriced_usage_requests": 0,
+        "inflight_or_unrecorded_response_requests": 0,
+        "known_usage_cost_usd": "0.17253780",
+        "total_cost_estimate_usd": "0.17253780",
+        "invoice_cost_usd": null,
+        "token_totals": {
+          "input_tokens": 89958,
+          "ordinary_input_tokens": 6,
+          "cached_input_tokens": 5061,
+          "cache_write_30m_tokens": 84891,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 13233,
+          "reasoning_tokens": 1220
+        },
+        "responses": [
+          {
+            "response_file": "runs/20261113T112431Z_B_3b8035d8/01_extract_response.json",
+            "response_id": "resp_063e08dadb60bdf7016af6f37098f887d2a813118fed94b92a",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 38787,
+              "input_tokens_details": {
+                "cached_tokens": 5061,
+                "cache_write_tokens": 33723
+              },
+              "output_tokens": 7152,
+              "output_tokens_details": {
+                "reasoning_tokens": 919
+              },
+              "total_tokens": 45939
+            },
+            "estimated_cost_usd": "0.07816980",
+            "input_tokens": 38787,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 5061,
+            "cache_write_30m_tokens": 33723,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 7152,
+            "reasoning_tokens": 919,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00025305",
+              "cache_write_30m": "0.04215375",
+              "cache_write_12h": "0.0",
+              "output": "0.03576"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "runs/20261113T112431Z_B_3b8035d8/02_review_response.json",
+            "response_id": "resp_0aa91ab4a5337f04016af6f3c1add487d2aa11369d4e674a2f",
+            "returned_model": "gpt-6.1-terra",
+            "response_status": "completed",
+            "incomplete_details": null,
+            "usage": {
+              "input_tokens": 51171,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 51168
+              },
+              "output_tokens": 6081,
+              "output_tokens_details": {
+                "reasoning_tokens": 301
+              },
+              "total_tokens": 57252
+            },
+            "estimated_cost_usd": "0.094368",
+            "input_tokens": 51171,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 51168,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 6081,
+            "reasoning_tokens": 301,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.06396",
+              "cache_write_12h": "0.0",
+              "output": "0.030405"
+            },
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "real_model_tool_choices": {},
+        "request_schema_issues": [],
+        "pricing_basis": {
+          "source": "scripts/audit_costs.py::price_usage",
+          "rates_per_million_usd": {
+            "ordinary_input": "1",
+            "cached_input": "0.05",
+            "cache_write_30m": "1.25",
+            "cache_write_12h": "2.5",
+            "output": "5"
+          },
+          "scope": "Terra Standard, per-request input <=272000 tokens; missing TTL uses request/default 30m; not an invoice"
+        }
+      },
+      "infrastructure_findings": [],
+      "run_config": {
+        "version": "0.4.1-dev",
+        "model": "gpt-6.1-terra",
+        "reasoning_effort": "medium",
+        "wire_contract": "compact_v1",
+        "format_repair_contract": "patch_v1",
+        "max_model_calls": 24,
+        "max_tool_calls": 40,
+        "input_tokens_target_max": 800000,
+        "output_tokens_max": 24000,
+        "max_run_usd": 1.25,
+        "wall_seconds_max": 900
+      },
+      "read_issues": [],
+      "evidence_files": [
+        "runs/20261113T112431Z_B_3b8035d8/summary.json",
+        "runs/20261113T112431Z_B_3b8035d8/events.jsonl",
+        "runs/20261113T112431Z_B_3b8035d8/snapshots.json",
+        "runs/20261113T112431Z_B_3b8035d8/extraction.json",
+        "runs/20261113T112431Z_B_3b8035d8/calculations.json",
+        "runs/20261113T112431Z_B_3b8035d8/review.json"
+      ]
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": null,
+      "directory": null,
+      "discovery": null,
+      "execution_started": false,
+      "attempt_directory_created": false,
+      "api_started": false,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "failure_reason": "STOP_REQUESTED_BEFORE_API",
+      "terminal": true,
+      "registration": null,
+      "calculations": null,
+      "submitted_calculation_uses": null,
+      "usage_cost": null,
+      "read_issues": []
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": null,
+      "directory": null,
+      "discovery": null,
+      "execution_started": false,
+      "attempt_directory_created": false,
+      "api_started": false,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "failure_reason": "STOP_REQUESTED_BEFORE_API",
+      "terminal": true,
+      "registration": null,
+      "calculations": null,
+      "submitted_calculation_uses": null,
+      "usage_cost": null,
+      "read_issues": []
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": null,
+      "directory": null,
+      "discovery": null,
+      "execution_started": false,
+      "attempt_directory_created": false,
+      "api_started": false,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "failure_reason": "STOP_REQUESTED_BEFORE_API",
+      "terminal": true,
+      "registration": null,
+      "calculations": null,
+      "submitted_calculation_uses": null,
+      "usage_cost": null,
+      "read_issues": []
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": null,
+      "directory": null,
+      "discovery": null,
+      "execution_started": false,
+      "attempt_directory_created": false,
+      "api_started": false,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "failure_reason": "STOP_REQUESTED_BEFORE_API",
+      "terminal": true,
+      "registration": null,
+      "calculations": null,
+      "submitted_calculation_uses": null,
+      "usage_cost": null,
+      "read_issues": []
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": null,
+      "directory": null,
+      "discovery": null,
+      "execution_started": false,
+      "attempt_directory_created": false,
+      "api_started": false,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "failure_reason": "STOP_REQUESTED_BEFORE_API",
+      "terminal": true,
+      "registration": null,
+      "calculations": null,
+      "submitted_calculation_uses": null,
+      "usage_cost": null,
+      "read_issues": []
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "repeat": 1,
+      "run_id": null,
+      "directory": null,
+      "discovery": null,
+      "execution_started": false,
+      "attempt_directory_created": false,
+      "api_started": false,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "failure_reason": "STOP_REQUESTED_BEFORE_API",
+      "terminal": true,
+      "registration": null,
+      "calculations": null,
+      "submitted_calculation_uses": null,
+      "usage_cost": null,
+      "read_issues": []
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "repeat": 1,
+      "run_id": null,
+      "directory": null,
+      "discovery": null,
+      "execution_started": false,
+      "attempt_directory_created": false,
+      "api_started": false,
+      "execution_status": "NOT_STARTED_STOP_REQUESTED",
+      "final_status": null,
+      "failure_reason": "STOP_REQUESTED_BEFORE_API",
+      "terminal": true,
+      "registration": null,
+      "calculations": null,
+      "submitted_calculation_uses": null,
+      "usage_cost": null,
+      "read_issues": []
+    }
+  ],
+  "ambiguous_unlisted_runs": [],
+  "v032_matched_reference": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102248Z_B_73727ba7",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.0272821"
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102350Z_A0_9b919d3e",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "API_ERROR:InternalServerError",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.05017265"
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102638Z_B_667bfd52",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.02781875"
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102737Z_A0_775cc567",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.07164695"
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T102840Z_B_bef29a8c",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.06888105"
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T102939Z_A0_9536c596",
+      "execution_status": "SUBMITTED",
+      "final_status": "HUMAN_REVIEW",
+      "failure_reason": null,
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.07442260"
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103045Z_B_25ff9e77",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.07143980"
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103143Z_A0_9bdd2148",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.10174780"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103324Z_B_332eb41f",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.06303355"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103423Z_A0_cc00c4a1",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.08993870"
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "run_id": "20261113T103602Z_B_09ae0bb7",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.06210980"
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "run_id": "20261113T103701Z_A0_d0d960a0",
+      "execution_status": "FAILED",
+      "final_status": null,
+      "failure_reason": "MODEL_INCOMPLETE:max_output_tokens",
+      "calculation_count": 0,
+      "snapshot_ids": [
+        "X_EMPTY"
+      ],
+      "known_usage_cost_usd": "0.09660030"
+    }
+  ],
+  "configuration_changes_vs_v032": {
+    "dynamic_submission_contract": {
+      "v032": null,
+      "current": true
+    },
+    "exploration_output_max": {
+      "v032": 1000,
+      "current": 3500
+    },
+    "extraction_output_max": {
+      "v032": 5000,
+      "current": 9000
+    },
+    "format_repair_contract": {
+      "v032": null,
+      "current": "patch_v1"
+    },
+    "format_repair_output_max": {
+      "v032": 2500,
+      "current": 1500
+    },
+    "input_tokens_target_max": {
+      "v032": 160000,
+      "current": 800000
+    },
+    "max_model_calls": {
+      "v032": 16,
+      "current": 24
+    },
+    "max_run_usd": {
+      "v032": 0.3,
+      "current": 1.25
+    },
+    "max_transient_api_retries": {
+      "v032": null,
+      "current": 1
+    },
+    "output_tokens_max": {
+      "v032": 16000,
+      "current": 24000
+    },
+    "review_output_max": {
+      "v032": 8500,
+      "current": 10000
+    },
+    "version": {
+      "v032": "0.3.2-dev",
+      "current": "0.4.1-dev"
+    },
+    "wall_seconds_max": {
+      "v032": 600,
+      "current": 900
+    },
+    "wire_contract": {
+      "v032": null,
+      "current": "compact_v1"
+    }
+  },
+  "quality_grading_performed": false,
+  "read_issues": [],
+  "inputs": {
+    "plan": "reports/failure_remediation/FIX_v041_plan.json",
+    "runs": "reports/failure_remediation/FIX_v041_runs.json",
+    "plan_sha256": "2b1ece7e98e90a110c2b3e696ca2c0c76f04bf294a2a6d2c0034827fef093069"
+  },
+  "limits": [
+    "Read-only artifact analysis; no correctness grading or model/API request.",
+    "actual_started counts observed LIVE execution attempts, excluding NOT_STARTED/PREFLIGHT statuses; api_started separately requires an actual saved model-call attempt.",
+    "NOT_YET_OBSERVED is not proof that a run was never started; active discovery requires matching LIVE/time/frozen input hashes.",
+    "Saved model function calls are counted separately from program-fixed and repaired tool invocations.",
+    "Partial analysis is a point-in-time view; missing usage and in-flight responses are not free.",
+    "v032 and this batch differ in common token/call/cost/time budgets, transport, repair, observations and retry policy. This is not an isolated intervention effect.",
+    "Submitted status and registered/calculated counts do not establish source correctness or A0 superiority."
+  ]
+}

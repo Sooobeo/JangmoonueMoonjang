@@ -1,0 +1,69 @@
+{
+  "review": "Common failure remediation integration independent review 2",
+  "reviewer": "contracts agent; independent gateway/runner/loop reviewer and compact-patch extension implementer",
+  "checked_at_utc": "2026-11-13T11:06:29.933008+00:00",
+  "status": "PASS_AFTER_REPAIR",
+  "unresolved_findings": [],
+  "checks": {
+    "both_conditions_real_gateway_registration_calculation_submission": true,
+    "compact_raw_arguments_and_context_preserved": true,
+    "no_gold_in_model_context": true,
+    "wire_roundtrip_snapshot_calculation_equivalence": "Covered by test_wire_contract.py",
+    "search_does_not_authorize_evidence": true,
+    "out_of_corpus_chunk_fatal_isolation": true,
+    "same_corpus_unread_chunk_not_registered": true,
+    "snapshot_specific_missing_input_schema": true,
+    "patch_success_in_compact_registration_and_final_review": true,
+    "patch_semantic_change_fails_closed": true,
+    "unknown_usage_reserves_visible": true,
+    "full_observation_envelope_and_state_budget_estimate": true,
+    "state_growth_allowance_logged": true
+  },
+  "findings": [
+    {
+      "id": "INTEGRATION-R2-01",
+      "problem": "Compact ev[].claim and values/derivations c were not recognized by the initial patch repair.",
+      "resolution": "Schema-aware declared c recognition and ev[].claim-only relinking added; c declarations, chunk/at, numerical values and undeclared IDs remain immutable.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "INTEGRATION-R2-02",
+      "problem": "State view referenced outdated uncertainty-reservation attribute names and displayed zero.",
+      "resolution": "Root mapped the new runtime reservation attributes; test sets nonzero reserved usage and checks exact state values.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "INTEGRATION-R2-03",
+      "problem": "New envelope.state was absent from pre-mutation observation size reservation.",
+      "resolution": "Root includes envelope/current state, reserves prospective ID and registry growth, and logs the reservation; integration captures estimated payloads to verify state/result presence.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "INTEGRATION-R2-04",
+      "problem": "An outside-corpus compact chunk initially returned UNREAD_EVIDENCE instead of fatal isolation.",
+      "resolution": "Independent reviewer found this; root added corpus boundary enforcement and the integration checks atomic fatal rejection.",
+      "status": "RESOLVED"
+    }
+  ],
+  "tests": {
+    "new_integration_tests": 11,
+    "patch_tests": 32,
+    "latest_command": "python -X utf8 -m pytest -q tests/test_remediation_integration.py tests/test_format_patch.py",
+    "latest_result": "43 passed",
+    "prior_broader_passes": "111 passed; one expected-error assertion updated after the reviewed fatal-isolation repair. Root full-suite rerun remains the freeze gate."
+  },
+  "reviewed_hashes": {
+    "ipo_eval/tool_gateway.py": "2cba5f7b87d1023f0a1b2d8790e0b4fa21054c94051d9d4234423b3075cc5f75",
+    "ipo_eval/runner_v2.py": "667a79c9ac74e0196ed626fe247b2bf662a5af26b204e7898754db1af8b0c43c",
+    "ipo_eval/agent_loop.py": "725675de7b51192516f6f5cc43935484a2485722c546a318e8bf6b296457fee2",
+    "ipo_eval/format_patch.py": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f",
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "tests/test_remediation_integration.py": "8f6776d92ff268f8dc1c2166c3ce839cadd31fc96ee204daa492a95ef1b4983b",
+    "tests/test_format_patch.py": "1829d59e19828c607f7b4ce3e2bcd302c47edb49514f8aaea2bdae38249a08b5"
+  },
+  "limits": [
+    "All provider responses are synthetic; no paid API calls by this reviewer.",
+    "The compact-patch extension has an implementer review here; preservation_review supplies its independent review.",
+    "Offline tests establish contract behavior, not six-company answer quality or live whitespace-degeneration resolution."
+  ]
+}

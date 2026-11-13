@@ -1,0 +1,39 @@
+{
+  "version": "0.4.2-dev",
+  "review_number": 1,
+  "scope": "Dynamic calculation_uses wire contract and shared prompt clarification",
+  "status": "PASS",
+  "observed_failure": {
+    "run_id": "20261113T112309Z_B_df4ace2b",
+    "failure": "Seven USE entries had unresolved=true; completed response failed INVALID_REVIEW; semantic-preserving empty patch did not alter choices.",
+    "artifacts": [
+      "runs/20261113T112309Z_B_df4ace2b/02_review_response.json",
+      "runs/20261113T112309Z_B_df4ace2b/format_patch.json",
+      "runs/20261113T112309Z_B_df4ace2b/summary.json"
+    ]
+  },
+  "change": "Under dynamic_submission_contract only, replace the calculation_uses items leaf with three strict anyOf branches: USE finite decimal string/replacement null/unresolved false; REJECT replacement ID/unresolved false; REJECT replacement null/unresolved true. Existing base REVIEW_V2 and economic PAYLOADS unchanged. Prompt differentiates unresolved calculation selection from business uncertainty.",
+  "preserved": [
+    "model chooses which calc IDs and USE/REJECT",
+    "no selected-ID enum",
+    "numeric strings, claims and business judgments untouched",
+    "legacy flag false returns original REVIEW_V2",
+    "shared leaf dictionaries never mutated"
+  ],
+  "tests": {
+    "command": "python -m pytest tests/test_calculation_use_wire.py tests/test_remediation_integration.py tests/test_format_patch.py tests/test_gateway_v2.py tests/test_agent_loop_v2.py -q",
+    "passed": 108,
+    "elapsed_seconds": 6.6,
+    "new_tests": "18 synthetic cases covering valid modes, contradictions, nullable values, alias isolation incl blocking true/false, final tool exposure, legacy schema, selected-branch shape repair, no semantic repair"
+  },
+  "limitations": [
+    "No paid API probe performed by this reviewer.",
+    "Wire structural constraints do not prove referenced calc exists/current/OK or values equal; existing validator still checks these.",
+    "No financial decisions or source records were automatically repaired."
+  ],
+  "sha256": {
+    "ipo_eval\\tool_gateway.py": "df8b83147d53c4dc175b2b6615a6cf00d5e13b27aaaa6cae1fd62fa2b88c4c47",
+    "prompts\\v2_contract.md": "afc850f33e06e2db2de08dab283de54f75a04629d81114936181cc25d3d5f17d",
+    "tests\\test_calculation_use_wire.py": "6bf0d13adbec6a58f1c007e3be2333ee4bdd4573749c2e7e6143627699c239e1"
+  }
+}

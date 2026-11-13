@@ -1,0 +1,14 @@
+{
+  "stage": "D1",
+  "pass": 3,
+  "reviewer": "root",
+  "focus": "다른 기업·원입력·스냅샷 혼합과 기존 계약 호환성",
+  "findings": [
+    {"issue": "같은 단위/문맥의 다른 기업 fact가 파생식에 혼합될 가능성", "resolution": "entity_id 불일치 시 INVALID/null, 회귀 테스트 추가"},
+    {"issue": "비교기업 주식수를 발행기업 구성으로 참조 가능", "resolution": "SHARE_COMPONENT는 발행기업 fact만 허용, 거부 테스트 추가"},
+    {"issue": "파생 claim 및 선택 이유의 공백 문자열", "resolution": "strip 검증 추가"}
+  ],
+  "verification": "python -m pytest tests/test_contracts_v2.py tests/test_calculations.py tests/test_workflow.py -q: 110 passed in 8.87s",
+  "result": "PASS_AFTER_REPAIR",
+  "limits": "명시된 데이터 계약을 검사하며 원문의 경제적 해석 정답은 판정하지 않음"
+}

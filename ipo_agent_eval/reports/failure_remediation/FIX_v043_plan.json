@@ -1,0 +1,620 @@
+{
+  "batch": "FIX_v043",
+  "version": "0.4.3-dev",
+  "planned_runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    }
+  ],
+  "live": true,
+  "protocol": "One paired development attempt per condition; all failures retained; no outcome-based retries",
+  "model": "gpt-6.1-terra",
+  "reasoning_effort": "medium",
+  "maximum_planned_run_cost_usd": 15.0,
+  "source_snapshot": "reports\\failure_remediation\\FIX_v043_source",
+  "source_hashes": {
+    "ipo_eval/agent_loop.py": "725675de7b51192516f6f5cc43935484a2485722c546a318e8bf6b296457fee2",
+    "ipo_eval/budget.py": "f6bb999f4266a2dc09b135a73310031b8a08d485cc08d93718281fd3c7263c51",
+    "ipo_eval/calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+    "ipo_eval/calculations_v2.py": "316654d5b66ff364838afcd532e002a7547bcf4fcd231debdd0f20b576df8684",
+    "ipo_eval/cases.py": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+    "ipo_eval/corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+    "ipo_eval/format_patch.py": "78e605922edb029d83baa3a217373f5c93fee1c28e7f4f9ac1043d692054fc1f",
+    "ipo_eval/id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+    "ipo_eval/provenance.py": "07863eb7f0444684a8cd164ec8ae6c970f5113ef9799c0f6ecec1b7ebea29896",
+    "ipo_eval/response_input.py": "6cce4438e9f510e4139cda970b90f86bd4b3ed3fab1269077bfd5f19eafbe04c",
+    "ipo_eval/runner.py": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+    "ipo_eval/runner_v2.py": "00aea7f6b48688af417eaf287fab48708ce4169dc4f5110a16eefaa0cc436e5b",
+    "ipo_eval/runtime_v2.py": "70c03f58ae5a3c78fe28cef72613236d07d95a02d2c6bba9bff2244797cc63b8",
+    "ipo_eval/schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+    "ipo_eval/schemas_v2.py": "31f89b9113814ec5469b4b30b54958fd39cf0bf1c18dee68f213f29a8a4d7acd",
+    "ipo_eval/tool_gateway.py": "18bc9f0cfc14026c46ea31090136e3b3c5e3facc02b057134ed484e240f4c914",
+    "ipo_eval/validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+    "ipo_eval/validation_v2.py": "72ace679946468800fef46e32a4d48e9b82db86efefa549a21a1364c57e43be1",
+    "ipo_eval/wire_contract.py": "a5730678ebc6f749741b038e6b67987381457eec0b2708dd35ddddab715e7b20",
+    "ipo_eval/wire_contract_v2.py": "9eb7719ad7ac9ba141c6dd0dfcfa41f880736909b9c2f049653ad00950fa9f32",
+    "ipo_eval/__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+    "config/A0.json": "cb42c88d2c962b857ab061cba76c8b4bb31517dfd21bb54c49b007ca6cbadeeb",
+    "config/B.json": "98edc0aa835a1ce17422f32b4050324c3435493951574679fd8245e5aec20f60",
+    "config/B_v1.json": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+    "config/cases.json": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+    "prompts/A0.md": "6756f19bf0fad1c18486c79d9a29cf0699d25f1c5ba1dd393b52021714d67010",
+    "prompts/common.md": "21f22adf7c1e130aff95fb1cba26f3e1a59ab2fc5ea085a4bc92ce0b4ca3fa7a",
+    "prompts/v2_contract.md": "4aa466c0dada727e7d2f85b8314c127bdeee4c476f14c9cbbe73e0626c63fc3e",
+    "scripts/run_development_comparison.py": "fec442f41b71ea05143ff5f0eaef6a1992f0a58ff1baa86382ee3004cb8fe484",
+    "pyproject.toml": "470c5073ea703fae38e68a782f3e2d17baaa99d01f06f588ef225d32e2f4c6ac"
+  },
+  "new_gold_hashes_before_answers": {
+    "data/cases/ALT-DEV-01/private/gold.json": "47d6734f9324fc09727289604b46c1f65401725987e4f53e11f56ce77ac156d5",
+    "data/cases/MILLIE-DEV-01/private/gold.json": "705bbdc1d92320bd3e75998c83bb1d9437f57880ebcda976b3c9a9bb55dd87fb",
+    "data/cases/SHINSUNGST-DEV-01/private/gold.json": "3f9192c4da55cfe5ea86f1fe3ee0909720afa4a7de3d4e79ec2aa3fe9597f87c"
+  },
+  "roster_sha256": "1e5d111e60a70980d124d27f7b904ea39bf99314cae14da8def19f6f64caf1ae",
+  "diagnostic_subset": false,
+  "execution_workers": 2,
+  "launch_policy": "Verify frozen source hashes and STOP before every live run; record unexecuted items separately. Active API calls finish and remain recorded.",
+  "preflights": [
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115102Z_B_04104559",
+      "summary": {
+        "run_id": "20261113T115102Z_B_04104559",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.856,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 34,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115103Z_A0_c4ff2e08",
+      "summary": {
+        "run_id": "20261113T115103Z_A0_c4ff2e08",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.199,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115103Z_B_de210cfe",
+      "summary": {
+        "run_id": "20261113T115103Z_B_de210cfe",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.521,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 43,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115103Z_A0_9173df44",
+      "summary": {
+        "run_id": "20261113T115103Z_A0_9173df44",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.226,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115104Z_B_29b70295",
+      "summary": {
+        "run_id": "20261113T115104Z_B_29b70295",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "DTS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.403,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 37,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115104Z_A0_598f1a75",
+      "summary": {
+        "run_id": "20261113T115104Z_A0_598f1a75",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "DTS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.205,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115104Z_B_d5f68d4c",
+      "summary": {
+        "run_id": "20261113T115104Z_B_d5f68d4c",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "SHINSUNGST-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.286,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 30,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115105Z_A0_f2255e9c",
+      "summary": {
+        "run_id": "20261113T115105Z_A0_f2255e9c",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "SHINSUNGST-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.12,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115105Z_B_e6c7a942",
+      "summary": {
+        "run_id": "20261113T115105Z_B_e6c7a942",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.203,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 28,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115105Z_A0_3448d4c7",
+      "summary": {
+        "run_id": "20261113T115105Z_A0_3448d4c7",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.162,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115105Z_B_810699ff",
+      "summary": {
+        "run_id": "20261113T115105Z_B_810699ff",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "MILLIE-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.425,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 30,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T115106Z_A0_b3fa09e5",
+      "summary": {
+        "run_id": "20261113T115106Z_A0_b3fa09e5",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "MILLIE-DEV-01",
+        "repeat": 1,
+        "config_version": "0.4.3-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.161,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    }
+  ],
+  "final_evaluation_requested": false
+}

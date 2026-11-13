@@ -1,0 +1,34 @@
+{
+  "synthetic_only": true,
+  "actual_API_calls": 0,
+  "production_mutation": false,
+  "cases": [
+    {
+      "scenario": "two aliases no canonical choice",
+      "snapshot": "X_32405b28f4490747486f8e19",
+      "price": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "scenario": "exact canonical disclosed20 overrides alias pair",
+      "snapshot": "X_80eba69e460dd80dcca5f169",
+      "price": "10000000",
+      "status": "OK"
+    },
+    {
+      "scenario": "explicit unresolved forbids fallback",
+      "snapshot": "X_285ea5717e30005a3cc2acd6",
+      "price": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "scenario": "exact canonical derived10 overrides alias pair",
+      "snapshot": "X_553563dc5b2aef1b7d16bb5d",
+      "price": "20000000",
+      "status": "OK"
+    }
+  ],
+  "all_pass": true,
+  "preserved_reported": "20",
+  "preserved_derived": "10"
+}

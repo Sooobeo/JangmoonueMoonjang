@@ -1,0 +1,99 @@
+{
+  "scope": "Saved B responses only; complete record prefixes are diagnostic observations, not accepted extractions or recreated answers. No truncated payload is repaired.",
+  "schema_tokens": {
+    "v2": 1891,
+    "compact_v1": 1798
+  },
+  "rows": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "run_id": "20261113T102248Z_B_73727ba7",
+      "response_file": "runs\\20261113T102248Z_B_73727ba7\\01_extract_response.json",
+      "response_sha256": "165c066b9cff1c605fb2c72249f09f2a9e9588aac40fb574273b29923c9cd305",
+      "status": "incomplete",
+      "output_tokens": 5000,
+      "reasoning_tokens": 628,
+      "complete_record_prefix_count": 25,
+      "max_whitespace_chars": 13,
+      "before_longest_whitespace": "        \"context_id\": \"C-ISS-EARN\",\n        \"origin\": \"DISCLOSED\",\n        \"evidence\": [\n          {",
+      "minified_v2_prefix_tokens": 3024,
+      "compact_prefix_tokens": 2428,
+      "token_reduction_fraction": 0.1970899470899471
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "run_id": "20261113T102638Z_B_667bfd52",
+      "response_file": "runs\\20261113T102638Z_B_667bfd52\\01_extract_response.json",
+      "response_sha256": "20709294cac758125b625d01003e295096abf41819ee14791a6bc270e6b79ce7",
+      "status": "incomplete",
+      "output_tokens": 5000,
+      "reasoning_tokens": 817,
+      "complete_record_prefix_count": 26,
+      "max_whitespace_chars": 13,
+      "before_longest_whitespace": "context_id\": \"ctx_issuer_earnings\",\n        \"origin\": \"DISCLOSED\",\n        \"evidence\": [\n          {",
+      "minified_v2_prefix_tokens": 2897,
+      "compact_prefix_tokens": 2355,
+      "token_reduction_fraction": 0.18709009319986192
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "run_id": "20261113T102840Z_B_bef29a8c",
+      "response_file": "runs\\20261113T102840Z_B_bef29a8c\\01_extract_response.json",
+      "response_sha256": "4b61e16bcfc6a920119202c732c2e0c78805e6b3e025655a42d01972a414737b",
+      "status": "incomplete",
+      "output_tokens": 5000,
+      "reasoning_tokens": 270,
+      "complete_record_prefix_count": 30,
+      "max_whitespace_chars": 13,
+      "before_longest_whitespace": "   \"context_id\": \"ctx_issuer_earn\",\n        \"origin\": \"DISCLOSED\",\n        \"evidence\": [\n          {",
+      "minified_v2_prefix_tokens": 3236,
+      "compact_prefix_tokens": 2577,
+      "token_reduction_fraction": 0.20364647713226203
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "run_id": "20261113T103045Z_B_25ff9e77",
+      "response_file": "runs\\20261113T103045Z_B_25ff9e77\\01_extract_response.json",
+      "response_sha256": "bc865020cf7fedf61b36ff771e21f845e5d63964d828a3ae38a1f8f6cc2bfa3c",
+      "status": "incomplete",
+      "output_tokens": 5000,
+      "reasoning_tokens": 492,
+      "complete_record_prefix_count": 40,
+      "max_whitespace_chars": 6,
+      "before_longest_whitespace": "pe\":\"비교기업\",\"basis\":\"기준시가총액에 대응하는 기준주식수; 제공 페이지에서 수치 미확인\",\"source_snapshot_id\":\"PROS-01-valuation\"}},",
+      "minified_v2_prefix_tokens": 4376,
+      "compact_prefix_tokens": 3360,
+      "token_reduction_fraction": 0.2321755027422303
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "run_id": "20261113T103324Z_B_332eb41f",
+      "response_file": "runs\\20261113T103324Z_B_332eb41f\\01_extract_response.json",
+      "response_sha256": "f86da6c1f8e3d2f158d0c452f1547d6be0ce632c1130c08a1f4aca34cd1e0b05",
+      "status": "incomplete",
+      "output_tokens": 5000,
+      "reasoning_tokens": 310,
+      "complete_record_prefix_count": 10,
+      "max_whitespace_chars": 22372,
+      "before_longest_whitespace": "id\": \"cl_issuer_earnings\",\n            \"locator\": \"주당 평가가액 산출 결과, 적용 순이익 및 주1\"\n          }\n        ]",
+      "minified_v2_prefix_tokens": 998,
+      "compact_prefix_tokens": 897,
+      "token_reduction_fraction": 0.10120240480961928
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "run_id": "20261113T103602Z_B_09ae0bb7",
+      "response_file": "runs\\20261113T103602Z_B_09ae0bb7\\01_extract_response.json",
+      "response_sha256": "c8eff2c9a86f993308356bdd6957441cf8d991e18db661225adc4b9b21c2eb3d",
+      "status": "incomplete",
+      "output_tokens": 5000,
+      "reasoning_tokens": 676,
+      "complete_record_prefix_count": 12,
+      "max_whitespace_chars": 227869,
+      "before_longest_whitespace": "id\": \"c-issuer-earnings\",\n            \"locator\": \"희망공모가액 산출 내역, 적용 당기순이익 및 주1\"\n          }\n        ]",
+      "minified_v2_prefix_tokens": 1031,
+      "compact_prefix_tokens": 883,
+      "token_reduction_fraction": 0.14354995150339478
+    }
+  ]
+}

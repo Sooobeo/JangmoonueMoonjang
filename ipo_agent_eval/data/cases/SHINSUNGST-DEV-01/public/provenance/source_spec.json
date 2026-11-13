@@ -1,0 +1,35 @@
+{
+  "case_id": "SHINSUNGST-DEV-01",
+  "doc_id": "SHINSUNGST-PROS-01",
+  "issuer_name": "신성에스티",
+  "issuer_legal_name": "신성에스티 주식회사",
+  "market": "KOSDAQ",
+  "version_date": "2023-10-06",
+  "receipt_no": "20231006000225",
+  "original_receipt_no": "20230927000011",
+  "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231006000225",
+  "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231006000225&dcm_no=9451103",
+  "expected_sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+  "expected_pages": 430,
+  "general_subscription_start": "2023-10-10",
+  "cutoff_at": "2023-10-09T23:59:59+09:00",
+  "version_note": "청약 개시 전 마지막 투자설명서 정정 접수를 DART 원문선택 목록 및 PDF 정정표와 대조했다. PDF 물리 쪽은 주관사 별도 편집본과 다를 수 있으므로 DART 원본 쪽만 사용한다.",
+  "version_checks": {
+    "receipt_date_matches_correction_front_matter": true,
+    "original_receipt_matches_version_history": true,
+    "last_prospectus_before_cutoff_in_dart_version_list": true,
+    "source_precedes_general_subscription": true,
+    "issuer_identity_and_nonfinancial_business_verified": true,
+    "historical_earnings_per_primary_method_verified": true
+  },
+  "version_evidence": {
+    "correction_front_matter_pdf_page": 3,
+    "subscription_cover_pdf_page": 59,
+    "valuation_pdf_page": 245,
+    "historical_basis": "2023년 상반기 실적 연환산 PER",
+    "receipt_archive": "reports/a0_implementation/case_roster_sources/SHINSUNGST-DEV-01_receipt.html",
+    "review_date_kst": "2026-11-13",
+    "availability_precision": "DATE",
+    "limitation": "공개시각은 날짜 단위 확인. 회계 수치의 독립 원자료 검증과 사람 채점 확정은 별도이다."
+  }
+}

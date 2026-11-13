@@ -1,0 +1,74 @@
+{
+  "version": "0.4.3-dev",
+  "review_number": 1,
+  "status": "PASS_AFTER_TEST_FIXTURE_REPAIR",
+  "scope": "Batch-local model-declared context groups and disjoint final review fact declaration namespace",
+  "observed_failures": [
+    {
+      "run_id": "20261113T113352Z_B_c3487bd1",
+      "issue": "Registered numerical inputs were present, but differing free-prose scope/basis/as_of contexts made price calculations INVALID. Existing strict context compatibility remains unchanged; a shared declaration can express only equivalence chosen by the model."
+    },
+    {
+      "run_id": "20261113T113649Z_B_13f17aec",
+      "issue": "Final new fact declarations reused existing extraction claim IDs F_E, F_S, F_SA, F_V; validator correctly rejected global redefinition. Internal final fact IDs were not duplicated among themselves."
+    }
+  ],
+  "changes": [
+    "compact_v2 groups carry exact as_of/scope/basis/source_snapshot_id; contexts retain unit/period and reference a group declared in the same batch. Expansion copies strings exactly.",
+    "Encoder deduplicates only exact four-field tuples. Unknown/duplicate/blank group IDs fail; unused structurally valid declarations remain raw-only and do not create records. Existing context references remain supported in incremental batches.",
+    "Gateway supports compact_v2 alongside compact_v1 and legacy contracts, preserves raw wire arguments, enforces corpus/read boundaries before atomic registration, and exposes the unchanged internal snapshot/calculation semantics.",
+    "Dynamic new review fact claim IDs require REVIEW_ or the first collision-free REVIEW2_/REVIEW3_ prefix, a nonempty ASCII-style suffix, and maxLength160. The leaf is replaced as a new dictionary; existing extraction/evidence/judgment IDs and shared string/boolean leaves are not mutated.",
+    "No fact values, source locations, choices, judgments or actual model outputs are corrected or invented by the adapter. Format patch cannot edit group/context meaning or declaration claim IDs."
+  ],
+  "lossless_scope": {
+    "guaranteed": [
+      "original extraction_v2 record payloads",
+      "document_version_notes and extraction_limits",
+      "logical snapshot identity",
+      "calculation results"
+    ],
+    "not_guaranteed": [
+      "arbitrary wire group names after encoding again",
+      "unused group dictionary identity after expansion and encoding again"
+    ],
+    "raw_preserved": true
+  },
+  "validation": {
+    "command": "python -m pytest tests/test_wire_contract.py tests/test_wire_contract_v2.py tests/test_review_claim_namespace.py tests/test_remediation_integration.py tests/test_calculation_use_wire.py tests/test_format_patch.py tests/test_agent_loop_v2.py tests/test_calculations_v2.py -q",
+    "passed": 150,
+    "elapsed_seconds": 14.33,
+    "paid_api_calls_by_reviewer": 0,
+    "coverage": [
+      "all record kind roundtrip and exact decimal string preservation",
+      "exact group tuple dedup without trimming",
+      "unit/flow period independence",
+      "unknown/duplicate/unused group boundaries",
+      "incremental batch references",
+      "both B/A0 runners under both compact formats",
+      "raw wire and original output logs preserved",
+      "read isolation and atomic failure",
+      "registered claim namespace collision avoidance",
+      "dynamic schema leaf alias isolation",
+      "schema-aware patch success and semantic edit refusal",
+      "existing calculation and legacy mock regressions"
+    ]
+  },
+  "first_test_runs": [
+    "Initial integrated test fixtures used previous R_J1-style declarations. Updated only mock provider to read the actual dynamic declaration prefix; production output remains untouched.",
+    "One independent test expected the earlier prefix-only pattern; independent reviewer was asked to update it after root requested a bounded nonempty suffix pattern.",
+    "A proposed final-newline rejection test was removed because JSONSchema/Python $ permits the end position before a final newline. No unsupported regex construct was added; this is a label convention, not a security boundary."
+  ],
+  "limitations": [
+    "Model remains responsible for deciding whether contexts share economically valid comparison criteria. Group sharing does not certify equivalence or change strict calculator comparisons.",
+    "Unique prefix avoids collisions with registered claims but the model must still give distinct suffixes to separate new facts; validator continues enforcing global uniqueness.",
+    "Actual fresh-run success and semantic accuracy remain unverified by these free synthetic tests. Old v041/v042 artifacts and grades are preserved."
+  ],
+  "source_hashes": {
+    "ipo_eval/wire_contract_v2.py": "9eb7719ad7ac9ba141c6dd0dfcfa41f880736909b9c2f049653ad00950fa9f32",
+    "ipo_eval/tool_gateway.py": "18bc9f0cfc14026c46ea31090136e3b3c5e3facc02b057134ed484e240f4c914",
+    "prompts/v2_contract.md": "4aa466c0dada727e7d2f85b8314c127bdeee4c476f14c9cbbe73e0626c63fc3e",
+    "tests/test_wire_contract_v2.py": "bcbef2fba099b2f71f76d5ec1c7e7e891a29e2b06b40a8f72a642518276a84fa",
+    "tests/test_review_claim_namespace.py": "643fbfb18f4838936c1b596206050bd7449a64a1f70da9492507d7d4d5d2869c",
+    "tests/test_remediation_integration.py": "8f509327be33d696a2c4dfcc581bf502aacb18179dd5ac5e7c8811048a51b444"
+  }
+}

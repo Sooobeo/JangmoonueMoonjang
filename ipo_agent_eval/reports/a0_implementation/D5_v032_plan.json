@@ -1,0 +1,518 @@
+{
+  "batch": "D5_v032",
+  "version": "0.3.2-dev",
+  "planned_runs": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "HDMS-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "B",
+      "repeat": 1
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "condition": "A0",
+      "repeat": 1
+    }
+  ],
+  "live": true,
+  "protocol": "One paired development attempt per condition; all failures retained; no outcome-based retries",
+  "model": "gpt-6.1-terra",
+  "reasoning_effort": "medium",
+  "maximum_planned_run_cost_usd": 3.5999999999999996,
+  "source_snapshot": "reports\\a0_implementation\\D5_v032_source",
+  "source_hashes": {
+    "ipo_eval/agent_loop.py": "9e3356b9eab4c6975850dd94018c86cbe89e7658f5a507c775f07cc938c24ff5",
+    "ipo_eval/budget.py": "09c4e0b01db53b7b2f9eb73039fd42bc651bbfb1ea3aa5e18848f46765f7d192",
+    "ipo_eval/calculations.py": "9038d203446d738ec1e00087b4f8a30b4625d3e47905df38dd4c112650cb81f0",
+    "ipo_eval/calculations_v2.py": "83732c887e5f79d82420e235cf6835e7ccaffb283e5da07d82ed178573b6d2de",
+    "ipo_eval/cases.py": "f2408464e443e60e252837af032f526d6487e98a992a02ed36befa610cfdadba",
+    "ipo_eval/corpus.py": "e5465f97104772f7e0d6ed204f3da941a4ce2ba197adb2769c663f4a63aaea7b",
+    "ipo_eval/id_repairs.py": "66903db8cea4b24faaf2e6ba6247c4ead9ec15367bdd26c98f2749c3a1d59ee9",
+    "ipo_eval/provenance.py": "07863eb7f0444684a8cd164ec8ae6c970f5113ef9799c0f6ecec1b7ebea29896",
+    "ipo_eval/response_input.py": "6cce4438e9f510e4139cda970b90f86bd4b3ed3fab1269077bfd5f19eafbe04c",
+    "ipo_eval/runner.py": "87ac39eda7ec3abff360f669743f19253db82c4284ab6711c467d23524ef1dd2",
+    "ipo_eval/runner_v2.py": "a1e8ce72f9caf8fad278157c50610492cc8107810e0816b9c6d2ccb412c348c7",
+    "ipo_eval/runtime_v2.py": "ff6d0a0aae11ac983e74ce93b384f95d07af15072b84bed45037a8a47f8b3f1f",
+    "ipo_eval/schemas.py": "c14536ec105bb2f563667105d517b332db7a53232571b11e654446949d6d2a02",
+    "ipo_eval/schemas_v2.py": "31f89b9113814ec5469b4b30b54958fd39cf0bf1c18dee68f213f29a8a4d7acd",
+    "ipo_eval/tool_gateway.py": "58c0f4042e623f0c163351e8a258710d89e1831cd22231a395313b5d2104bafa",
+    "ipo_eval/validation.py": "9d9fcf33216a89c67377b1302219a8b2c65db49c808161570d9450b854744453",
+    "ipo_eval/validation_v2.py": "72ace679946468800fef46e32a4d48e9b82db86efefa549a21a1364c57e43be1",
+    "ipo_eval/__init__.py": "dd01d5418aab339351896610184bf7e080fa6dba36ffae263a799cb8c8aa8e80",
+    "config/A0.json": "6cd557b4142e417ce1c74f0cebe299450e793b7a49d700d81e4a3f78a160acfc",
+    "config/B.json": "33e5deefe2f851c05a35e0f69a40be727d946507e87f31c62e35d1ad310a15fa",
+    "config/B_v1.json": "845a6fb42775d144eb8f36e33daa89da5ec44d424825d4e3a348901db5943ba5",
+    "config/cases.json": "0299fe830b0fa95eb581cc31539f1dd7dad6388430afc76ecc0f2ca821442bfb",
+    "prompts/A0.md": "d171494fe3c443c8a3a3b98cb767c0fb4c7d9bd936f19c2fa886dbcc5c0ad0d0",
+    "prompts/common.md": "c0dd747b3a92079d123bdcf056fb748e89275744fa858c6dad7a629c671ef426",
+    "prompts/v2_contract.md": "436a93adcbea9c4eb6a84cc156a041a551f44da85a73ab094aeda1f80325477d",
+    "scripts/run_development_comparison.py": "f577bc8f76df4859cc0578a5adbf2e60a928fac37c9fd4e04c64699a5d732de0",
+    "pyproject.toml": "9bb9485b9cf529c693ded423d2a6bbacbed08cbf8446fb7f3564c835bfa537d3"
+  },
+  "new_gold_hashes_before_answers": {
+    "data/cases/ALT-DEV-01/private/gold.json": "47d6734f9324fc09727289604b46c1f65401725987e4f53e11f56ce77ac156d5",
+    "data/cases/MILLIE-DEV-01/private/gold.json": "705bbdc1d92320bd3e75998c83bb1d9437f57880ebcda976b3c9a9bb55dd87fb",
+    "data/cases/SHINSUNGST-DEV-01/private/gold.json": "3f9192c4da55cfe5ea86f1fe3ee0909720afa4a7de3d4e79ec2aa3fe9597f87c"
+  },
+  "roster_sha256": "1e5d111e60a70980d124d27f7b904ea39bf99314cae14da8def19f6f64caf1ae",
+  "preflights": [
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102244Z_B_e6a7ddbd",
+      "summary": {
+        "run_id": "20261113T102244Z_B_e6a7ddbd",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.825,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 34,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102245Z_A0_1c55dfb2",
+      "summary": {
+        "run_id": "20261113T102245Z_A0_1c55dfb2",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "HDMS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.213,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102245Z_B_8bfd6961",
+      "summary": {
+        "run_id": "20261113T102245Z_B_8bfd6961",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.566,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 43,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102245Z_A0_34872e9d",
+      "summary": {
+        "run_id": "20261113T102245Z_A0_34872e9d",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "MELCON-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.227,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102246Z_B_e4bece26",
+      "summary": {
+        "run_id": "20261113T102246Z_B_e4bece26",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "DTS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.429,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 37,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102246Z_A0_1c108dc2",
+      "summary": {
+        "run_id": "20261113T102246Z_A0_1c108dc2",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "DTS-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.214,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102246Z_B_9bb16d6e",
+      "summary": {
+        "run_id": "20261113T102246Z_B_9bb16d6e",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "SHINSUNGST-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.366,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 30,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102247Z_A0_988b911d",
+      "summary": {
+        "run_id": "20261113T102247Z_A0_988b911d",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "SHINSUNGST-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.183,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102247Z_B_9b99886d",
+      "summary": {
+        "run_id": "20261113T102247Z_B_9b99886d",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.383,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 28,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102247Z_A0_b3dfa713",
+      "summary": {
+        "run_id": "20261113T102247Z_A0_b3dfa713",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "ALT-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.159,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102247Z_B_883222fd",
+      "summary": {
+        "run_id": "20261113T102247Z_B_883222fd",
+        "condition": "B",
+        "mode": "PREFLIGHT",
+        "case_id": "MILLIE-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.602,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 30,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    },
+    {
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102248Z_A0_b2555cb0",
+      "summary": {
+        "run_id": "20261113T102248Z_A0_b2555cb0",
+        "condition": "A0",
+        "mode": "PREFLIGHT",
+        "case_id": "MILLIE-DEV-01",
+        "repeat": 1,
+        "config_version": "0.3.2-dev",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "PREFLIGHT_COMPLETE",
+        "model": "gpt-6.1-terra",
+        "returned_models": [],
+        "model_calls": 0,
+        "tool_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "format_repairs": 0,
+        "elapsed_seconds": 0.159,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.0,
+        "known_usage_cost_usd_standard_uncached": 0.0,
+        "estimated_cost_krw_at_budget_fx": 0.0,
+        "cost_ceiling_usd": 0.0,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "final_status": null,
+        "source_pages": 0,
+        "api_key_configured": true,
+        "actual_model_answer": false
+      }
+    }
+  ],
+  "final_evaluation_requested": false
+}

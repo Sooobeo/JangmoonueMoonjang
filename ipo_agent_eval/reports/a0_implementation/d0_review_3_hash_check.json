@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-13T09:55:23.120916+00:00",
+  "manifest_sha256": "ab21733c283cc4b3a7cc94d0d26a282b4792e587c7975c62b88b229229e2457e",
+  "git_head_at_capture": "1102edaa9bc27307500662e40fa6fffd3ef33234",
+  "total_entries": 702,
+  "supplements": [
+    {
+      "path": "preservation_supplement_phase1.json",
+      "sha256": "5bafe317fefa7c9b0c8296ec133d32ac1505050a9f0c5b837c41c2b85b1f8d4a",
+      "entry_count": 4
+    }
+  ],
+  "counts_by_category": {
+    "versioned_source": 27,
+    "immutable_evidence": 667,
+    "versioned_design": 8
+  },
+  "passed": true,
+  "violations": [],
+  "versioned_working_files_changed": [],
+  "new_files_policy": "New files are outside the frozen baseline and allowed."
+}

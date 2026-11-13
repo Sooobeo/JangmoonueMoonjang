@@ -1,0 +1,591 @@
+{
+  "v032_paired_attempts": 12,
+  "earlier_started_attempts": 4,
+  "diagnostic_attempts": 2,
+  "earlier_planned_but_never_started": 8,
+  "auxiliary_attempts": [
+    {
+      "purpose": "v0.3.1 terminal failure",
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T101337Z_B_003d69b7",
+      "audit": {
+        "run_id": "20261113T101337Z_B_003d69b7",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 45585,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 45582,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 266
+        },
+        "known_usage_cost_usd": "0.0819805",
+        "known_usage_cost_krw": "114.77",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_067adea321fbbe9a016af6e2d6631487d2be941bf2ba6948f3",
+            "response_status": "incomplete",
+            "input_tokens": 45585,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 45582,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 266,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.0569775",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.0819805",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      }
+    },
+    {
+      "purpose": "v0.3.1 terminal failure",
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T101439Z_A0_46ef2e9a",
+      "audit": {
+        "run_id": "20261113T101439Z_A0_46ef2e9a",
+        "execution_status": "FAILED",
+        "model_calls": 6,
+        "responses_with_usage": 5,
+        "requests_without_usage": 1,
+        "all_model_requests_have_usage": false,
+        "token_totals": {
+          "input_tokens": 54156,
+          "ordinary_input_tokens": 15,
+          "cached_input_tokens": 37558,
+          "cache_write_30m_tokens": 16583,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 286,
+          "reasoning_tokens": 8
+        },
+        "known_usage_cost_usd": "0.02405165",
+        "known_usage_cost_krw": "33.67",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_0da3f9bb122b8c52016af6e3121b4c87d2a7601b743108176d",
+            "response_status": "completed",
+            "input_tokens": 6649,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 6646,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 61,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.0083075",
+              "cache_write_12h": "0.0",
+              "output": "0.000305"
+            },
+            "estimated_cost_usd": "0.0086155",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_0da3f9bb122b8c52016af6e31531bc87d2a4303196013205c1",
+            "response_status": "completed",
+            "input_tokens": 7197,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6646,
+            "cache_write_30m_tokens": 548,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 43,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003323",
+              "cache_write_30m": "0.000685",
+              "cache_write_12h": "0.0",
+              "output": "0.000215"
+            },
+            "estimated_cost_usd": "0.0012353",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_0da3f9bb122b8c52016af6e317582c87d288673fca66066ff3",
+            "response_status": "completed",
+            "input_tokens": 11561,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7194,
+            "cache_write_30m_tokens": 4364,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 61,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003597",
+              "cache_write_30m": "0.005455",
+              "cache_write_12h": "0.0",
+              "output": "0.000305"
+            },
+            "estimated_cost_usd": "0.0061227",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_0da3f9bb122b8c52016af6e31a164087d2a63b566aa54fd972",
+            "response_status": "completed",
+            "input_tokens": 12163,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 11558,
+            "cache_write_30m_tokens": 602,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 43,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0005779",
+              "cache_write_30m": "0.0007525",
+              "cache_write_12h": "0.0",
+              "output": "0.000215"
+            },
+            "estimated_cost_usd": "0.0015484",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_0da3f9bb122b8c52016af6e31c77f887d28f352582db9524e2",
+            "response_status": "completed",
+            "input_tokens": 16586,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 12160,
+            "cache_write_30m_tokens": 4423,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 78,
+            "reasoning_tokens": 8,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.000608",
+              "cache_write_30m": "0.00552875",
+              "cache_write_12h": "0.0",
+              "output": "0.00039"
+            },
+            "estimated_cost_usd": "0.00652975",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "Some requests have no usage; do not interpret missing usage as a zero bill"
+      }
+    },
+    {
+      "purpose": "v0.3.1 terminal failure",
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T101456Z_B_36bffaa3",
+      "audit": {
+        "run_id": "20261113T101456Z_B_36bffaa3",
+        "execution_status": "FAILED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 56318,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 2761,
+          "cache_write_30m_tokens": 53554,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 5000,
+          "reasoning_tokens": 799
+        },
+        "known_usage_cost_usd": "0.09208355",
+        "known_usage_cost_krw": "128.92",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_extract_response.json",
+            "response_id": "resp_081e182e72078b88016af6e321fce487d29e4b7fe8855510d9",
+            "response_status": "incomplete",
+            "input_tokens": 56318,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 2761,
+            "cache_write_30m_tokens": 53554,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 5000,
+            "reasoning_tokens": 799,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00013805",
+              "cache_write_30m": "0.0669425",
+              "cache_write_12h": "0.0",
+              "output": "0.025"
+            },
+            "estimated_cost_usd": "0.09208355",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      }
+    },
+    {
+      "purpose": "v0.3.1 root-stopped in-progress attempt",
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T101554Z_A0_500c648e",
+      "audit": {
+        "run_id": "20261113T101554Z_A0_500c648e",
+        "execution_status": "INTERRUPTED_BY_OPERATOR",
+        "model_calls": 10,
+        "responses_with_usage": 9,
+        "requests_without_usage": 1,
+        "all_model_requests_have_usage": false,
+        "token_totals": {
+          "input_tokens": 134089,
+          "ordinary_input_tokens": 156,
+          "cached_input_tokens": 88179,
+          "cache_write_30m_tokens": 45754,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 4283,
+          "reasoning_tokens": 137
+        },
+        "known_usage_cost_usd": "0.08317245",
+        "known_usage_cost_krw": "116.44",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e35ceafc87d28e39e4c903309c13",
+            "response_status": "completed",
+            "input_tokens": 6551,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 4059,
+            "cache_write_30m_tokens": 2489,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 72,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00020295",
+              "cache_write_30m": "0.00311125",
+              "cache_write_12h": "0.0",
+              "output": "0.00036"
+            },
+            "estimated_cost_usd": "0.00367720",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "02_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e35fb73487d288b8102b4c2b7e64",
+            "response_status": "completed",
+            "input_tokens": 7305,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 6548,
+            "cache_write_30m_tokens": 754,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003274",
+              "cache_write_30m": "0.0009425",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "estimated_cost_usd": "0.0015879",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "03_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e362670487d29b38aff5e9c36a4e",
+            "response_status": "completed",
+            "input_tokens": 7521,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7302,
+            "cache_write_30m_tokens": 216,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 57,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003651",
+              "cache_write_30m": "0.00027",
+              "cache_write_12h": "0.0",
+              "output": "0.000285"
+            },
+            "estimated_cost_usd": "0.0009231",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "04_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e3644c3087d293a465563af79f38",
+            "response_status": "completed",
+            "input_tokens": 8166,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 7518,
+            "cache_write_30m_tokens": 645,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.0003759",
+              "cache_write_30m": "0.00080625",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "estimated_cost_usd": "0.00141015",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "05_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e36649c887d2aaec4d020cf6382d",
+            "response_status": "completed",
+            "input_tokens": 15380,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 8163,
+            "cache_write_30m_tokens": 7214,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 63,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00040815",
+              "cache_write_30m": "0.0090175",
+              "cache_write_12h": "0.0",
+              "output": "0.000315"
+            },
+            "estimated_cost_usd": "0.00974365",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "06_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e368fdc887d2ad3b878f2001985c",
+            "response_status": "completed",
+            "input_tokens": 16126,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 15377,
+            "cache_write_30m_tokens": 746,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 45,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00076885",
+              "cache_write_30m": "0.0009325",
+              "cache_write_12h": "0.0",
+              "output": "0.000225"
+            },
+            "estimated_cost_usd": "0.00192935",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "07_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e36bd39087d28cfc8e2e41662efc",
+            "response_status": "completed",
+            "input_tokens": 23092,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16123,
+            "cache_write_30m_tokens": 6966,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 61,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00080615",
+              "cache_write_30m": "0.0087075",
+              "cache_write_12h": "0.0",
+              "output": "0.000305"
+            },
+            "estimated_cost_usd": "0.00982165",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "08_explore_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e36f8c7887d2bcfa738dd8d1734c",
+            "response_status": "completed",
+            "input_tokens": 23812,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 23089,
+            "cache_write_30m_tokens": 720,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 34,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00115445",
+              "cache_write_30m": "0.0009",
+              "cache_write_12h": "0.0",
+              "output": "0.00017"
+            },
+            "estimated_cost_usd": "0.00222745",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          },
+          {
+            "response_file": "09_finalize_response.json",
+            "response_id": "resp_03064a852ede3e7d016af6e371e97487d28341b172e5488b43",
+            "response_status": "completed",
+            "input_tokens": 26136,
+            "ordinary_input_tokens": 132,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 26004,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 3843,
+            "reasoning_tokens": 137,
+            "cost_components_usd": {
+              "ordinary_input": "0.000132",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.032505",
+              "cache_write_12h": "0.0",
+              "output": "0.019215"
+            },
+            "estimated_cost_usd": "0.051852",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "Some requests have no usage; do not interpret missing usage as a zero bill",
+        "source_summary_present": false,
+        "status_evidence": "reports/a0_implementation/D5_v031_interrupted_review_2.json"
+      }
+    },
+    {
+      "purpose": "Compatibility diagnostic, unscored",
+      "directory": "runs\\20261113T101226Z_A0_1dcb1488",
+      "audit": {
+        "run_id": "20261113T101226Z_A0_1dcb1488",
+        "execution_status": "SMOKE_COMPLETE",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 2216,
+          "ordinary_input_tokens": 133,
+          "cached_input_tokens": 0,
+          "cache_write_30m_tokens": 2083,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 38,
+          "reasoning_tokens": 0
+        },
+        "known_usage_cost_usd": "0.00292675",
+        "known_usage_cost_krw": "4.10",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_tool_schema_smoke_response.json",
+            "response_id": "resp_09783f8d0aa87280016af6e28ecee887d28486c7475eca19f1",
+            "response_status": "completed",
+            "input_tokens": 2216,
+            "ordinary_input_tokens": 133,
+            "cached_input_tokens": 0,
+            "cache_write_30m_tokens": 2083,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 38,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000133",
+              "cached_input": "0.00",
+              "cache_write_30m": "0.00260375",
+              "cache_write_12h": "0.0",
+              "output": "0.00019"
+            },
+            "estimated_cost_usd": "0.00292675",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      }
+    },
+    {
+      "purpose": "Compatibility diagnostic, unscored",
+      "directory": "C:\\Users\\Insun\\JangmoonueMoonjang\\ipo_agent_eval\\runs\\20261113T102132Z_A0_5370b6de",
+      "audit": {
+        "run_id": "20261113T102132Z_A0_5370b6de",
+        "execution_status": "COMPATIBILITY_CONFIRMED",
+        "model_calls": 1,
+        "responses_with_usage": 1,
+        "requests_without_usage": 0,
+        "all_model_requests_have_usage": true,
+        "token_totals": {
+          "input_tokens": 17263,
+          "ordinary_input_tokens": 3,
+          "cached_input_tokens": 16583,
+          "cache_write_30m_tokens": 677,
+          "cache_write_12h_tokens": 0,
+          "output_tokens": 16,
+          "reasoning_tokens": 0
+        },
+        "known_usage_cost_usd": "0.00175840",
+        "known_usage_cost_krw": "2.46",
+        "usage_missing_response_files": [],
+        "responses": [
+          {
+            "response_file": "01_wire_compatibility_probe_response.json",
+            "response_id": "resp_0da3f9bb122b8c52016af6e4af289487d2af9aa322040ed121",
+            "response_status": "incomplete",
+            "input_tokens": 17263,
+            "ordinary_input_tokens": 3,
+            "cached_input_tokens": 16583,
+            "cache_write_30m_tokens": 677,
+            "cache_write_12h_tokens": 0,
+            "output_tokens": 16,
+            "reasoning_tokens": 0,
+            "cost_components_usd": {
+              "ordinary_input": "0.000003",
+              "cached_input": "0.00082915",
+              "cache_write_30m": "0.00084625",
+              "cache_write_12h": "0.0",
+              "output": "0.00008"
+            },
+            "estimated_cost_usd": "0.00175840",
+            "notes": [
+              "TTL breakdown absent; used request TTL or API default 30m"
+            ]
+          }
+        ],
+        "note": "All declared model calls have saved usage, including incomplete responses"
+      }
+    }
+  ],
+  "all_started_known_usage_cost_usd": "1.09106735",
+  "unknown_usage_requests": 3,
+  "all_started_total_estimate_usd": null,
+  "invoice_cost_usd": null,
+  "note": "Do not treat missing usage as free. All costs, including aborted experiments and diagnostics, remain visible; do not pool their quality scores into the v0.3.2 paired comparison."
+}

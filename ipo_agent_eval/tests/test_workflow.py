@@ -46,7 +46,7 @@ def request(identifier="REQ1", blocking=True, resolved=False):
 def fixture_root(tmp_path):
     for folder in ["config", "prompts", "data/public/raw", "ipo_eval"]:
         (tmp_path / folder).mkdir(parents=True)
-    config = json.loads((runner.ROOT / "config/B.json").read_text(encoding="utf-8"))
+    config = json.loads((runner.ROOT / "config/B_v1.json").read_text(encoding="utf-8"))
     (tmp_path / "config/B.json").write_text(json.dumps(config), encoding="utf-8")
     (tmp_path / "config/cases.json").write_bytes((runner.ROOT / "config/cases.json").read_bytes())
     (tmp_path / "prompts/common.md").write_text("Synthetic test system message", encoding="utf-8")

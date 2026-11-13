@@ -1,0 +1,82 @@
+{
+  "fixture_run": "20261113T101439Z_A0_46ef2e9a",
+  "original_request_sha256": "d4b1782becc9a06397497dcc277ac1431121f4d9e17d7f4f9266ba8157f2dac5",
+  "item_count": 13,
+  "item_order_preserved": true,
+  "semantic_content_preserved": true,
+  "original_file_unchanged": true,
+  "omitted_fields": [
+    {
+      "index": 2,
+      "type": "function_call",
+      "field": "namespace",
+      "old_value": null
+    },
+    {
+      "index": 2,
+      "type": "function_call",
+      "field": "status",
+      "old_value": "completed"
+    },
+    {
+      "index": 4,
+      "type": "function_call",
+      "field": "namespace",
+      "old_value": null
+    },
+    {
+      "index": 4,
+      "type": "function_call",
+      "field": "status",
+      "old_value": "completed"
+    },
+    {
+      "index": 6,
+      "type": "function_call",
+      "field": "namespace",
+      "old_value": null
+    },
+    {
+      "index": 6,
+      "type": "function_call",
+      "field": "status",
+      "old_value": "completed"
+    },
+    {
+      "index": 8,
+      "type": "function_call",
+      "field": "namespace",
+      "old_value": null
+    },
+    {
+      "index": 8,
+      "type": "function_call",
+      "field": "status",
+      "old_value": "completed"
+    },
+    {
+      "index": 10,
+      "type": "reasoning",
+      "field": "content",
+      "old_value": []
+    },
+    {
+      "index": 10,
+      "type": "reasoning",
+      "field": "status",
+      "old_value": null
+    },
+    {
+      "index": 11,
+      "type": "function_call",
+      "field": "namespace",
+      "old_value": null
+    },
+    {
+      "index": 11,
+      "type": "function_call",
+      "field": "status",
+      "old_value": "completed"
+    }
+  ]
+}

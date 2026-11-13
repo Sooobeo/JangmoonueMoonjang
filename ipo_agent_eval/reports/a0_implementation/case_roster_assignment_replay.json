@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "development": 6,
+    "evaluation_candidates": 12,
+    "excluded_core": 3,
+    "total_reviewed": 21
+  },
+  "roster_sha256": "1e5d111e60a70980d124d27f7b904ea39bf99314cae14da8def19f6f64caf1ae",
+  "assignment": {
+    "seed": 20261026,
+    "algorithm": "Python random.Random(seed).shuffle(sorted eligible case IDs)",
+    "input_pool_sha256": "ff697cf728bcb4485cf2c31a143d5e6c930d5995600e4dbfcc98eb917046c5d2",
+    "forced_development": [
+      "ALT-DEV-01",
+      "DTS-DEV-01",
+      "HDMS-DEV-01",
+      "MELCON-DEV-01",
+      "MILLIE-DEV-01",
+      "SHINSUNGST-DEV-01"
+    ],
+    "evaluation_candidate_order": [
+      "SANIL-EVAL-01",
+      "TRUEN-EVAL-01",
+      "SLSBIO-EVAL-01",
+      "SYSTEEL-EVAL-01",
+      "JEONJIN-EVAL-01",
+      "APR-EVAL-01",
+      "INSWAVE-EVAL-01",
+      "MANYO-EVAL-01",
+      "PHILENERGY-EVAL-01",
+      "GIGAVIS-EVAL-01",
+      "HANSSAK-EVAL-01",
+      "ECOEYE-EVAL-01"
+    ],
+    "random_new_development_count": 0,
+    "note": "Deeply analysed firms now total6. Under proposed6/12 scale all12 remaining eligible firms become evaluation candidates; seed controls order, not a claim of random sampling from all Korean IPOs.",
+    "final_scale_frozen": false,
+    "W12_final_decision_required": true
+  }
+}

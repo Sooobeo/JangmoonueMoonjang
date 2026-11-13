@@ -1,0 +1,22 @@
+{
+  "case_id": "ALT-DEV-01",
+  "pages": 471,
+  "pdf_sha256": "f9a14394dafa92b9e42b2b4253a4628c4a60ab02929408ab7b924524c78d816a",
+  "source_spec_sha256": "4d2a45f31829b97f3a5eecb1f5fcd26a4a2d0cd55310d261100e5c76cae4a15a",
+  "empty_pages": [],
+  "prepared_file_sha256": {
+    "case_manifest.jsonl": "0520f4aea2aec56ce727830d1f0a2f3583053df2c58e4fef4139cc199826e110",
+    "documents.jsonl": "9d79985c1118cb9e082b9a8e653f567dfe90dc1b5323881a5adf60a53ec82870",
+    "chunks.jsonl": "09cbe314e24817806f80540a551df6c9c1b6f27b3b7ab99b5917f61708bd13d2",
+    "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+  },
+  "version_checks": {
+    "receipt_date_matches_correction_front_matter": true,
+    "original_receipt_matches_version_history": true,
+    "last_prospectus_before_cutoff_in_dart_version_list": true,
+    "source_precedes_general_subscription": true,
+    "issuer_identity_and_nonfinancial_business_verified": true,
+    "historical_earnings_per_primary_method_verified": true
+  },
+  "all_checks_passed": true
+}

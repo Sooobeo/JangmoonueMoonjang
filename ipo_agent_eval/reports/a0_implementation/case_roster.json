@@ -1,0 +1,853 @@
+{
+  "version": "W09-development-proposal-1",
+  "prepared_on": "2026-11-13",
+  "recruitment_window": {
+    "from": "2023-01-01",
+    "through": "2026-10-26",
+    "status": "prior proposal retained for development; final recruitment scope before W12"
+  },
+  "recruitment_method": "Purposeful feasible public-source recruitment; not an exhaustive IPO census or random population sample. No model results used in inclusion decisions.",
+  "counts": {
+    "development": 6,
+    "evaluation_candidates": 12,
+    "excluded_core": 3,
+    "total_reviewed": 21
+  },
+  "readiness": "Six development cases have public corpora and private rubrics. Twelve evaluation PDFs/eligibility checks are prepared; evaluation corpora and gold remain unprepared and no evaluation answer may be requested before W12.",
+  "assignment": {
+    "seed": 20261026,
+    "algorithm": "Python random.Random(seed).shuffle(sorted eligible case IDs)",
+    "input_pool_sha256": "ff697cf728bcb4485cf2c31a143d5e6c930d5995600e4dbfcc98eb917046c5d2",
+    "forced_development": [
+      "ALT-DEV-01",
+      "DTS-DEV-01",
+      "HDMS-DEV-01",
+      "MELCON-DEV-01",
+      "MILLIE-DEV-01",
+      "SHINSUNGST-DEV-01"
+    ],
+    "evaluation_candidate_order": [
+      "SANIL-EVAL-01",
+      "TRUEN-EVAL-01",
+      "SLSBIO-EVAL-01",
+      "SYSTEEL-EVAL-01",
+      "JEONJIN-EVAL-01",
+      "APR-EVAL-01",
+      "INSWAVE-EVAL-01",
+      "MANYO-EVAL-01",
+      "PHILENERGY-EVAL-01",
+      "GIGAVIS-EVAL-01",
+      "HANSSAK-EVAL-01",
+      "ECOEYE-EVAL-01"
+    ],
+    "random_new_development_count": 0,
+    "note": "Deeply analysed firms now total6. Under proposed6/12 scale all12 remaining eligible firms become evaluation candidates; seed controls order, not a claim of random sampling from all Korean IPOs.",
+    "final_scale_frozen": false,
+    "W12_final_decision_required": true
+  },
+  "cases": [
+    {
+      "case_id": "HDMS-DEV-01",
+      "issuer_name": "HD현대마린솔루션",
+      "market": "KOSPI",
+      "cohort": "DEVELOPMENT",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "assignment_reason": "Already deeply analysed; permanently excluded from final evaluation pool.",
+      "public_directory": "data/public",
+      "cutoff_at": "2024-04-24T23:59:59+09:00",
+      "source_documents": [
+        {
+          "doc_id": "HDMS-PROS-01",
+          "receipt_no": "20240424000222",
+          "sha256": "9f563a7e2af8c39a96567e83268321b0a40cf334abe94e7377b00ca0351f31ab",
+          "source_url": "https://money2.daishin.com/html/Notice/2024/downloads/hdmarine0509_03.pdf"
+        }
+      ],
+      "public_corpus_prepared": true,
+      "private_gold_prepared": true,
+      "human_gold_review_complete": false,
+      "live_development_ready": true,
+      "evaluation_live_allowed": false,
+      "input_hashes": {
+        "case_manifest.jsonl": "1dca671e256cd4be14a61451632ef1bb9c01ea727028b44cbd5f0426cc7767f4",
+        "documents.jsonl": "c5b61b530e7b69d434fc5fb2c071b3b4966e4753598170f349ae988d50031931",
+        "chunks.jsonl": "3c1a055acb37e00a01ec33d7b0a3cdd7b5e09bbfc1ad31af4ac0703833414497",
+        "manual.md": "df86f3e827e3565672522c3f299aa1fb48d5bd8ad973e63349869c87c7220e3f"
+      },
+      "gold_preservation_reference": "D0 original and phase1 supplemental preservation manifests"
+    },
+    {
+      "case_id": "MELCON-DEV-01",
+      "issuer_name": "멜콘",
+      "market": "KOSDAQ",
+      "cohort": "DEVELOPMENT",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "assignment_reason": "Already deeply analysed; permanently excluded from final evaluation pool.",
+      "public_directory": "data/cases/MELCON-DEV-01/public",
+      "cutoff_at": "2026-09-29T23:59:59+09:00",
+      "source_documents": [
+        {
+          "doc_id": "MELCON-PROS-01",
+          "receipt_no": "20260929000194",
+          "sha256": "b205592c500bee617469fdfb35a85fef33685969383304986f00c92707713606",
+          "source_url": "https://money2.daishin.com/html/Notice/2026/downloads/melcon1015_04.pdf"
+        }
+      ],
+      "public_corpus_prepared": true,
+      "private_gold_prepared": true,
+      "human_gold_review_complete": false,
+      "live_development_ready": true,
+      "evaluation_live_allowed": false,
+      "input_hashes": {
+        "case_manifest.jsonl": "403ecb95a9cd05b414514846cd568c68548192d3b57a770dc0b952b1e315469c",
+        "documents.jsonl": "bd4522e1888b7065475bc0206cee878c47a6d522c2db69f72b248d8c376f0441",
+        "chunks.jsonl": "37a0ca3390b9a3ddd75059977fde49726bf7802a2174219a3b43605e11a9a58a",
+        "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+      },
+      "gold_preservation_reference": "D0 original and phase1 supplemental preservation manifests"
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "issuer_name": "디티에스",
+      "market": "KOSDAQ",
+      "cohort": "DEVELOPMENT",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "assignment_reason": "Already deeply analysed; permanently excluded from final evaluation pool.",
+      "public_directory": "data/cases/DTS-DEV-01/public",
+      "cutoff_at": "2026-10-12T23:59:59+09:00",
+      "source_documents": [
+        {
+          "doc_id": "DTS-PROS-01",
+          "receipt_no": "20261012000323",
+          "sha256": "2a401607d5147d2e839ccd971ade3914cd4a0df2e6b49fb9cc84e6d6449fa4e4",
+          "source_url": "https://money2.daishin.com/html/Notice/2026/downloads/dts1023_04.pdf"
+        }
+      ],
+      "public_corpus_prepared": true,
+      "private_gold_prepared": true,
+      "human_gold_review_complete": false,
+      "live_development_ready": true,
+      "evaluation_live_allowed": false,
+      "input_hashes": {
+        "case_manifest.jsonl": "85b88cb00c8958221f03eca149778ace26b0ed9523c1f408f2c9777ceec86872",
+        "documents.jsonl": "481762e50894b6c0191c88d2cf108cc9b7dfd8b766a22c3c72391e176ad55a57",
+        "chunks.jsonl": "494c70bec339e0c7e3e4706c30e1545c2186a1c17800aa6624890512b7468645",
+        "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+      },
+      "gold_preservation_reference": "D0 original and phase1 supplemental preservation manifests"
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "issuer_name": "신성에스티",
+      "market": "KOSDAQ",
+      "cohort": "DEVELOPMENT",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "assignment_reason": "Already deeply analysed; permanently excluded from final evaluation pool.",
+      "public_directory": "data/cases/SHINSUNGST-DEV-01/public",
+      "cutoff_at": "2023-10-09T23:59:59+09:00",
+      "source_documents": [
+        {
+          "doc_id": "SHINSUNGST-PROS-01",
+          "receipt_no": "20231006000225",
+          "sha256": "f66d64cd7730972dc271e8b70db3df6d4e38ba9b29b80efd17bb5e7d2034ae53",
+          "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231006000225&dcm_no=9451103"
+        }
+      ],
+      "public_corpus_prepared": true,
+      "private_gold_prepared": true,
+      "human_gold_review_complete": false,
+      "live_development_ready": true,
+      "evaluation_live_allowed": false,
+      "input_hashes": {
+        "case_manifest.jsonl": "03bdd00b0c4a590e8466e967fa4ca6675534352a26eed574c2a27575415f6daf",
+        "documents.jsonl": "391afed2a72f4d372b6d0513e090f29c2f34862a592795c7294a0b52b4be0310",
+        "chunks.jsonl": "1343f8a7772bf6db922103ffe824d3491c385a4e6b3af317391e7023368325ef",
+        "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+      },
+      "gold_path": "data/cases/SHINSUNGST-DEV-01/private/gold.json",
+      "gold_sha256": "3f9192c4da55cfe5ea86f1fe3ee0909720afa4a7de3d4e79ec2aa3fe9597f87c"
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "issuer_name": "에이엘티",
+      "market": "KOSDAQ",
+      "cohort": "DEVELOPMENT",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "assignment_reason": "Already deeply analysed; permanently excluded from final evaluation pool.",
+      "public_directory": "data/cases/ALT-DEV-01/public",
+      "cutoff_at": "2023-07-16T23:59:59+09:00",
+      "source_documents": [
+        {
+          "doc_id": "ALT-PROS-01",
+          "receipt_no": "20230714000229",
+          "sha256": "f9a14394dafa92b9e42b2b4253a4628c4a60ab02929408ab7b924524c78d816a",
+          "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230714000229&dcm_no=9349886"
+        }
+      ],
+      "public_corpus_prepared": true,
+      "private_gold_prepared": true,
+      "human_gold_review_complete": false,
+      "live_development_ready": true,
+      "evaluation_live_allowed": false,
+      "input_hashes": {
+        "case_manifest.jsonl": "0520f4aea2aec56ce727830d1f0a2f3583053df2c58e4fef4139cc199826e110",
+        "documents.jsonl": "9d79985c1118cb9e082b9a8e653f567dfe90dc1b5323881a5adf60a53ec82870",
+        "chunks.jsonl": "09cbe314e24817806f80540a551df6c9c1b6f27b3b7ab99b5917f61708bd13d2",
+        "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+      },
+      "gold_path": "data/cases/ALT-DEV-01/private/gold.json",
+      "gold_sha256": "47d6734f9324fc09727289604b46c1f65401725987e4f53e11f56ce77ac156d5"
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "issuer_name": "밀리의서재",
+      "market": "KOSDAQ",
+      "cohort": "DEVELOPMENT",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "assignment_reason": "Already deeply analysed; permanently excluded from final evaluation pool.",
+      "public_directory": "data/cases/MILLIE-DEV-01/public",
+      "cutoff_at": "2023-09-17T23:59:59+09:00",
+      "source_documents": [
+        {
+          "doc_id": "MILLIE-PROS-01",
+          "receipt_no": "20230915000282",
+          "sha256": "051fdb0d03214ba2a9bf05f395b5679cac9df503bdbbd21ddc6333d22b142173",
+          "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230915000282&dcm_no=9432749"
+        }
+      ],
+      "public_corpus_prepared": true,
+      "private_gold_prepared": true,
+      "human_gold_review_complete": false,
+      "live_development_ready": true,
+      "evaluation_live_allowed": false,
+      "input_hashes": {
+        "case_manifest.jsonl": "f512cfe7c3971680a72271a2b9973e50a980bd0514b29857ed1fb9f2811039d4",
+        "documents.jsonl": "de5695d6f622a913ad8d60f821d90c0888b9603c6998f67618fa2e507825295f",
+        "chunks.jsonl": "1b9873ec30f6c36477e6c71c5e715880b56b9d7753fbac9286e783fd2d347565",
+        "manual.md": "d9f175980a56dfb9fd42056ab59177a4839eb3ccef05e4be87debf9e062b2dad"
+      },
+      "gold_path": "data/cases/MILLIE-DEV-01/private/gold.json",
+      "gold_sha256": "705bbdc1d92320bd3e75998c83bb1d9437f57880ebcda976b3c9a9bb55dd87fb"
+    },
+    {
+      "case_id": "GIGAVIS-EVAL-01",
+      "issuer_name": "기가비스",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230512000029&dcm_no=9268642",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230512000029",
+      "receipt_no": "20230512000029",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/GIGAVIS.pdf",
+      "source_sha256": "58192d088b2a342726329ba0fe166406ba268d7b4fd10e6f62789c61ea0768cc",
+      "source_pages": 461,
+      "source_version_date": "2023-05-12",
+      "cutoff_at": "2023-05-14T23:59:59+09:00",
+      "general_subscription_start": "2023-05-15",
+      "cover_pdf_page": 57,
+      "valuation_pdf_page": 300,
+      "prospectus_version_receipts": [
+        "20230509000003",
+        "20230512000029"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "ANNUAL",
+      "earnings_basis": "2022 실제이익, 주식보상비용 조정",
+      "nonfinancial_business": "반도체 기판 광학검사 장비",
+      "business_keyword_evidence_pdf_page": 63,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "MANYO-EVAL-01",
+      "issuer_name": "마녀공장",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230524000327&dcm_no=9287717",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230524000327",
+      "receipt_no": "20230524000327",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/MANYO.pdf",
+      "source_sha256": "0fa61ed6e1fdbc62f5b0d06c4993ec652e59bf80c024aca79c29d47a9b12b3ff",
+      "source_pages": 408,
+      "source_version_date": "2023-05-24",
+      "cutoff_at": "2023-05-24T23:59:59+09:00",
+      "general_subscription_start": "2023-05-25",
+      "cover_pdf_page": 54,
+      "valuation_pdf_page": 244,
+      "prospectus_version_receipts": [
+        "20230522000008",
+        "20230524000327"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "ANNUAL",
+      "earnings_basis": "2022 실제이익",
+      "nonfinancial_business": "화장품 브랜드",
+      "business_keyword_evidence_pdf_page": 62,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "SLSBIO-EVAL-01",
+      "issuer_name": "에스엘에스바이오",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230926000456&dcm_no=9443501",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230926000456",
+      "receipt_no": "20230926000456",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/SLSBIO.pdf",
+      "source_sha256": "e651000c5ab35a0719f3548a3da6af0e715f6223865af9c90106dcfe7f2880d3",
+      "source_pages": 389,
+      "source_version_date": "2023-09-26",
+      "cutoff_at": "2023-10-09T23:59:59+09:00",
+      "general_subscription_start": "2023-10-10",
+      "cover_pdf_page": 52,
+      "valuation_pdf_page": 281,
+      "prospectus_version_receipts": [
+        "20230915000064",
+        "20230926000456"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2023H1 LTM, 비교기업 파생상품 손익 조정",
+      "nonfinancial_business": "의약품 품질검사 및 신약개발 지원",
+      "business_keyword_evidence_pdf_page": 59,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "ECOEYE-EVAL-01",
+      "issuer_name": "에코아이",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231109000220&dcm_no=9487783",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231109000220",
+      "receipt_no": "20231109000220",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/ECOEYE.pdf",
+      "source_sha256": "0d14237e4ad7d56c200e73f4af902ed1c15d7ff24532d194f95d2fb8744cbc79",
+      "source_pages": 503,
+      "source_version_date": "2023-11-09",
+      "cutoff_at": "2023-11-09T23:59:59+09:00",
+      "general_subscription_start": "2023-11-10",
+      "cover_pdf_page": 67,
+      "valuation_pdf_page": 307,
+      "prospectus_version_receipts": [
+        "20231106000012",
+        "20231109000220"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2023H1 LTM",
+      "nonfinancial_business": "온실가스 감축 및 탄소배출권 사업",
+      "business_keyword_evidence_pdf_page": 70,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "HANSSAK-EVAL-01",
+      "issuer_name": "한싹",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230918000119&dcm_no=9433793",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230918000119",
+      "receipt_no": "20230918000119",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/HANSSAK.pdf",
+      "source_sha256": "286180ae5943a99bff2cc8974f6d38b1a49781c15de1428bf49bd0cdc47efa83",
+      "source_pages": 495,
+      "source_version_date": "2023-09-18",
+      "cutoff_at": "2023-09-18T23:59:59+09:00",
+      "general_subscription_start": "2023-09-19",
+      "cover_pdf_page": 81,
+      "valuation_pdf_page": 344,
+      "prospectus_version_receipts": [
+        "20230913000019",
+        "20230918000119"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2023H1 LTM",
+      "nonfinancial_business": "망연계 보안 솔루션",
+      "business_keyword_evidence_pdf_page": 209,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "INSWAVE-EVAL-01",
+      "issuer_name": "인스웨이브시스템즈",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230913000348&dcm_no=9429924",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230913000348",
+      "receipt_no": "20230913000348",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/INSWAVE.pdf",
+      "source_sha256": "b82ed9f244a459116e843cfb4b38ccd1735dd8f90f56eeb99e17e0a8afe51444",
+      "source_pages": 477,
+      "source_version_date": "2023-09-13",
+      "cutoff_at": "2023-09-13T23:59:59+09:00",
+      "general_subscription_start": "2023-09-14",
+      "cover_pdf_page": 60,
+      "valuation_pdf_page": 303,
+      "prospectus_version_receipts": [
+        "20230911000016",
+        "20230913000348"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2023H1 LTM, 파생상품평가손실 조정",
+      "nonfinancial_business": "기업 UI 소프트웨어",
+      "business_keyword_evidence_pdf_page": 63,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "SYSTEEL-EVAL-01",
+      "issuer_name": "에스와이스틸텍",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231031000078&dcm_no=9477068",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231031000078",
+      "receipt_no": "20231031000078",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/SYSTEEL.pdf",
+      "source_sha256": "10a7e25ca5260060f547381de61b2f1524063d90ac0accf1365d7250f22ed059",
+      "source_pages": 378,
+      "source_version_date": "2023-10-31",
+      "cutoff_at": "2023-10-31T23:59:59+09:00",
+      "general_subscription_start": "2023-11-01",
+      "cover_pdf_page": 50,
+      "valuation_pdf_page": 249,
+      "prospectus_version_receipts": [
+        "20231026000006",
+        "20231031000078"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2023H1 LTM",
+      "nonfinancial_business": "건축용 데크플레이트 제조",
+      "business_keyword_evidence_pdf_page": 54,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "APR-EVAL-01",
+      "issuer_name": "에이피알",
+      "market": "KOSPI",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240213000795&dcm_no=9614096",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240213000795",
+      "receipt_no": "20240213000795",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/APR.pdf",
+      "source_sha256": "342b5ed00915ae11a646fe71e06f0ea89105bd443a160531e1521b616d1a3e74",
+      "source_pages": 567,
+      "source_version_date": "2024-02-13",
+      "cutoff_at": "2024-02-13T23:59:59+09:00",
+      "general_subscription_start": "2024-02-14",
+      "cover_pdf_page": 67,
+      "valuation_pdf_page": 345,
+      "prospectus_version_receipts": [
+        "20240208000392",
+        "20240213000795"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "INTERIM_ANNUALIZED",
+      "earnings_basis": "2023Q3 누적 실제이익 연환산",
+      "nonfinancial_business": "화장품 및 뷰티 디바이스",
+      "business_keyword_evidence_pdf_page": 77,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "SANIL-EVAL-01",
+      "issuer_name": "산일전기",
+      "market": "KOSPI",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240717000412&dcm_no=10030115",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240717000412",
+      "receipt_no": "20240717000412",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/SANIL.pdf",
+      "source_sha256": "daec62d78826800febe5ec65647f5155e5423699d233e02285536011cad22e0c",
+      "source_pages": 476,
+      "source_version_date": "2024-07-17",
+      "cutoff_at": "2024-07-17T23:59:59+09:00",
+      "general_subscription_start": "2024-07-18",
+      "cover_pdf_page": 55,
+      "valuation_pdf_page": 311,
+      "prospectus_version_receipts": [
+        "20240715000007",
+        "20240717000412"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2024Q1 LTM, 우리사주 주식보상비용 조정",
+      "nonfinancial_business": "산업용 변압기 제조",
+      "business_keyword_evidence_pdf_page": 65,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "JEONJIN-EVAL-01",
+      "issuer_name": "전진건설로봇",
+      "market": "KOSPI",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240807000292&dcm_no=10052611",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240807000292",
+      "receipt_no": "20240807000292",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/JEONJIN.pdf",
+      "source_sha256": "012329fd852fc83439f9b7ccc7da5d4e752603a811fd8e14ba95c4c9299762d4",
+      "source_pages": 435,
+      "source_version_date": "2024-08-07",
+      "cutoff_at": "2024-08-07T23:59:59+09:00",
+      "general_subscription_start": "2024-08-08",
+      "cover_pdf_page": 52,
+      "valuation_pdf_page": 243,
+      "prospectus_version_receipts": [
+        "20240801000010",
+        "20240807000292"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2024Q1 LTM",
+      "nonfinancial_business": "콘크리트 펌프카 제조",
+      "business_keyword_evidence_pdf_page": 61,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "TRUEN-EVAL-01",
+      "issuer_name": "트루엔",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230503000321&dcm_no=9258192",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230503000321",
+      "receipt_no": "20230503000321",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/TRUEN.pdf",
+      "source_sha256": "656435f8f57b22c33c4df3d98845009f36597dca3e9d4e8b9cf7e21ade246208",
+      "source_pages": 436,
+      "source_version_date": "2023-05-03",
+      "cutoff_at": "2023-05-07T23:59:59+09:00",
+      "general_subscription_start": "2023-05-08",
+      "cover_pdf_page": 63,
+      "valuation_pdf_page": 252,
+      "prospectus_version_receipts": [
+        "20230426000044",
+        "20230503000321"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "ANNUAL",
+      "earnings_basis": "2022 실제이익",
+      "nonfinancial_business": "영상감시 카메라 및 영상 솔루션",
+      "business_keyword_evidence_pdf_page": 68,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "PHILENERGY-EVAL-01",
+      "issuer_name": "필에너지",
+      "market": "KOSDAQ",
+      "cohort": "EVALUATION_CANDIDATE",
+      "eligibility": "HISTORICAL_PER_PUBLIC_SOURCE_VERIFIED",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230704000143&dcm_no=9337082",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230704000143",
+      "receipt_no": "20230704000143",
+      "source_pdf": "reports/a0_implementation/case_roster_sources/evaluation_screening/PHILENERGY.pdf",
+      "source_sha256": "906e6b1b884d126a93e11de504357db93a383ef5e98032871d1f5c924d496ea3",
+      "source_pages": 472,
+      "source_version_date": "2023-07-04",
+      "cutoff_at": "2023-07-04T23:59:59+09:00",
+      "general_subscription_start": "2023-07-05",
+      "cover_pdf_page": 71,
+      "valuation_pdf_page": 263,
+      "prospectus_version_receipts": [
+        "20230629000026",
+        "20230704000143"
+      ],
+      "latest_before_cutoff_verified": true,
+      "earnings_period_type": "LTM",
+      "earnings_basis": "2023Q1 LTM, 파생상품손익 조정",
+      "nonfinancial_business": "이차전지 제조장비",
+      "business_keyword_evidence_pdf_page": 84,
+      "eligibility_checks": {
+        "domestic_nonfinancial": true,
+        "primary_method_historical_per": true,
+        "complete_primary_pdf_available": true,
+        "cutoff_precedes_subscription": true
+      },
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "human_gold_review_complete": false,
+      "model_answer_requested": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false,
+      "remaining_before_W12": [
+        "Build complete public corpus and verify extraction",
+        "Prepare and review private gold before any response",
+        "Freeze final sample, model, settings, scoring and costs"
+      ],
+      "eligibility_limit": "Date-precision availability; final financial inputs checked only for eligibility, not independently audited. Foreign-peer and shared-peer/source metadata still need full census before W12."
+    },
+    {
+      "case_id": "COXEM-EXCLUDED",
+      "issuer_name": "코셈",
+      "cohort": "EXCLUDED_CORE",
+      "eligibility": "FORECAST_PER",
+      "exclusion_reason": "2025년 추정 당기순이익 현재가치를 적용하므로 과거실적 PER 범위에서 제외.",
+      "valuation_pdf_page": 297,
+      "receipt_no": "20240206000494",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240206000494&dcm_no=9605343",
+      "source_sha256": "9c510feb969de681faf66b6c0b061410f77d5f6402a503891c969f9aec42ffb3",
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false
+    },
+    {
+      "case_id": "NOBLAND-EXCLUDED",
+      "issuer_name": "노브랜드",
+      "cohort": "EXCLUDED_CORE",
+      "eligibility": "PBR",
+      "exclusion_reason": "최종 공모가 산정표 및 평가모형이 PBR. 앞부분에 잔존한 과거 PER 위험문구로 판정하지 않음.",
+      "valuation_pdf_page": 386,
+      "receipt_no": "20240510000093",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240510000093&dcm_no=9938016",
+      "source_sha256": "6f26bf7e5ab802b9ef214c667d1c4d113b47d4ec2a1893ffdf63a7b838fcd458",
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false
+    },
+    {
+      "case_id": "PURIT-EXCLUDED",
+      "issuer_name": "퓨릿",
+      "cohort": "EXCLUDED_CORE",
+      "eligibility": "MIXED_PER_EV_EBITDA",
+      "exclusion_reason": "EV/EBITDA 평가가액과 PER 평가가액을 같은 비중으로 평균. PER 주평가 핵심 표본에는 넣지 않고 혼합방법 확장 후보로 보존.",
+      "valuation_pdf_page": 304,
+      "receipt_no": "20231004000221",
+      "source_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231004000221&dcm_no=9447541",
+      "source_sha256": "6a38c77a174fc1405a8c581e76d53f51cdf16f3d1fe20da93397f9fd236ea8a0",
+      "public_pdf_archived": true,
+      "public_corpus_prepared": false,
+      "private_gold_prepared": false,
+      "live_development_ready": false,
+      "evaluation_live_allowed": false
+    }
+  ],
+  "shared_peer_observations": [
+    {
+      "cases": [
+        "HANSSAK-EVAL-01",
+        "INSWAVE-EVAL-01"
+      ],
+      "peers": [
+        "케이사인",
+        "파수",
+        "지니언스"
+      ],
+      "status": "Observed in primary comparison tables; separate original peer filings not yet collected."
+    }
+  ],
+  "remaining_scope": [
+    "Full peer overlap/foreign peer census",
+    "Evaluation input/gold preparation",
+    "W12 final freeze",
+    "Human scoring review tracked separately; no fabricated completed review"
+  ]
+}
