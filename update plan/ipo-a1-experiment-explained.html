@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPO A1 실험, 자료 준비부터 최종 채점까지</title>
+<meta name="description" content="화장품 IPO 가상 사례를 통해 통제된 오류 시험, 두 AI의 독립 검토, 사람 검토 목록의 성능 평가를 순서대로 설명합니다.">
+<style>
+:root {
+  --ink:#202338; --muted:#4d5268; --navy:#1e2545; --accent:#413782; --violet:#eeeafb;
+  --paper:#f8f8f5; --white:#fff; --line:#d9dbe6; --sage:#e4f3eb; --green:#23563f;
+  --amber:#fff0d6; --amber-ink:#6d471b; --focus:#a4561c;
+  font-family:"Pretendard","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;
+  color-scheme:light;
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); line-height:1.78; word-break:keep-all; overflow-wrap:anywhere; }
+main { padding-bottom:44px; }
+h1,h2,h3,p,figure,blockquote,dl { margin:0; }
+h1,h2,h3 { line-height:1.3; letter-spacing:-.04em; }
+h2 { font-size:clamp(1.65rem,4.3vw,2.25rem); }
+h3 { font-size:1.16rem; }
+p+p { margin-top:.8rem; }
+a { color:var(--accent); text-underline-offset:.2em; }
+a:hover { text-decoration-thickness:2px; }
+a:focus-visible,select:focus-visible,summary:focus-visible { outline:3px solid var(--focus); outline-offset:4px; }
+.wrap { width:min(100% - 48px,1060px); margin-inline:auto; }
+.skip { position:absolute; inset:12px auto auto 12px; transform:translateY(-200%); padding:8px 12px; background:var(--white); }
+.skip:focus { transform:none; }
+.hero { padding:58px 0 47px; background:var(--navy); color:var(--white); }
+.eyebrow { margin-bottom:10px; color:#dfd6ff; font-weight:700; font-size:.87rem; }
+h1 { font-size:clamp(2.05rem,6vw,3.9rem); line-height:1.14; }
+.hero p:last-child { margin-top:16px; max-width:53rem; color:#eae9f6; font-size:1.05rem; }
+nav { background:var(--white); border-bottom:1px solid var(--line); }
+nav div { display:flex; flex-wrap:wrap; gap:2px 21px; padding-block:7px; }
+nav a { display:inline-flex; align-items:center; min-height:42px; text-decoration:none; font-weight:700; font-size:.86rem; }
+nav a:hover { text-decoration:underline; }
+section { padding:43px 0; border-bottom:1px solid var(--line); scroll-margin-top:15px; }
+section:last-child { border-bottom:0; }
+.lead { margin-top:12px; }
+.lead,.reading { max-width:56rem; }
+.muted,figcaption,.aside-text { color:var(--muted); }
+.label { display:block; margin-bottom:.33rem; color:var(--accent); font-size:.82rem; font-weight:800; }
+.step-num { color:var(--accent); font-size:.85em; margin-right:.22em; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:16px; }
+.card,.diagram,.experiment { padding:17px 19px; background:var(--white); border:1px solid var(--line); border-radius:14px; }
+.card p,.card ul,.card ol { margin-top:7px; }
+.card.reply { background:var(--sage); }
+.card.warning { background:var(--amber); }
+ul,ol { padding-left:1.3em; margin:0; }
+li+li { margin-top:.39rem; }
+.tags { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:13px; margin-top:16px; }
+.tags div { border-top:2px solid #b7acd7; padding-top:9px; }
+.tags dt { font-weight:800; }
+.tags dd { margin:4px 0 0; color:var(--muted); font-size:.93rem; }
+.note { padding:12px 15px; margin-top:15px; background:var(--violet); border-left:3px solid var(--accent); }
+.note.green { background:var(--sage); border-color:var(--green); }
+.note.warn { background:var(--amber); border-color:#a36128; color:var(--amber-ink); }
+.diagram { margin-top:17px; }
+.diagram h3 { margin-bottom:11px; }
+.branch { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.branch p,.node p { margin-top:3px; font-size:.91rem; line-height:1.52; }
+.node { padding:9px 12px; background:#f1eff8; border-radius:8px; }
+.node.test { background:var(--amber); }
+.node.people { background:var(--sage); }
+.node-divider { margin:.2rem 0; text-align:center; color:var(--accent); line-height:1.3; }
+.diagram a { font-weight:750; }
+.diagram figcaption,figure figcaption { margin-top:10px; font-size:.87rem; }
+.table-wrap { overflow-x:auto; margin-top:15px; }
+table { width:100%; border-collapse:collapse; border:1px solid var(--line); background:var(--white); text-align:left; }
+th,td { vertical-align:top; border-bottom:1px solid var(--line); padding:10px 12px; }
+thead th { background:var(--violet); font-size:.87rem; }
+tbody th { font-weight:760; }
+.cell-num { font-variant-numeric:tabular-nums; white-space:nowrap; font-weight:750; }
+.detail { margin-top:15px; padding:11px 14px; border:1px solid var(--line); background:var(--white); border-radius:9px; }
+.detail summary { font-weight:700; cursor:pointer; }
+.detail p,.detail ul { margin-top:8px; }
+.sub { margin-top:22px; }
+.formula { padding:10px 14px; margin-top:12px; background:var(--violet); border-radius:8px; font-variant-numeric:tabular-nums; }
+.quote { display:block; margin-top:8px; padding:8px 10px; background:var(--paper); border-left:2px solid #b3aed2; font-size:.92rem; }
+.experiment { margin-top:16px; }
+.controls { display:flex; align-items:center; flex-wrap:wrap; gap:6px 12px; margin-top:10px; }
+.controls label { font-weight:780; }
+.controls select { max-width:100%; min-height:43px; padding:7px 10px; color:var(--ink); border:1px solid #8b87a1; border-radius:7px; background:var(--white); font:inherit; }
+.queue { margin-top:9px; padding-left:1.2em; }
+.queue .slot { color:var(--muted); font-size:.85rem; }
+.metric { margin-top:10px; color:var(--green); font-weight:750; }
+.choices { margin-top:12px; }
+.source { margin-top:17px; font-size:.88rem; color:var(--muted); }
+@media(max-width:630px) {
+  .wrap { width:calc(100% - 30px); }
+  .hero { padding:36px 0 31px; }
+  nav div { gap:0 13px; }
+  section { padding:31px 0; }
+  .grid,.tags { grid-template-columns:minmax(0,1fr); }
+  .card,.diagram,.experiment { padding:14px; }
+  th,td { padding:7px 8px; font-size:.84rem; }
+  thead th { font-size:.81rem; }
+  .branch { gap:6px; }
+  .node { padding:7px 8px; }
+}
+@media print {
+  .wrap { width:100%; }
+  body { background:var(--white); font-size:10.5pt; }
+  .hero { padding:0 0 12px; background:var(--white); color:var(--ink); }
+  .hero .eyebrow,.hero p:last-child { color:var(--ink); }
+  .hero h1 { font-size:27pt; }
+  nav,.skip,.controls { display:none; }
+  section { padding:16px 0; }
+  tr,.card,.note,.node { break-inside:avoid; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 이동</a>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">A1 실험 설계서 해설 · 화장품 회사 예시로 처음부터 끝까지</p>
+    <h1>두 AI가 놓친 문제를 찾아<br>사람의 검토 순서를 바꾸는 실험</h1>
+    <p>화장품 회사가 상장하면서 ‘이 회사들과 비슷하니 우리 주식은 한 주에 3,000원으로 평가할 수 있다’고 설명했다고 해볼게요. 두 AI가 이 설명을 모두 받아들였더라도, 두 모델이 같은 사업 차이를 지나쳤을 수 있어요. A1은 <strong>연구팀이 만든 별도 시험으로 두 AI가 함께 놓치는 판단을 확인하고, 실제 신고서에서 그 종류의 판단을 사람에게 먼저 보여주는 방법</strong>입니다.</p>
+  </div>
+</header>
+<nav aria-label="목차">
+  <div class="wrap"><a href="#bkg">실험이 필요한 이유</a><a href="#map">한눈에 보는 순서</a><a href="#prepare">1 자료 준비</a><a href="#make">2 시험 제작</a><a href="#run">3 AI 실행</a><a href="#grade">4 시험 채점</a><a href="#rank">5 순서 작성</a><a href="#measure">6 효과 확인</a></div>
+</nav>
+<main id="main" class="wrap">
+  <section id="bkg">
+    <h2>상장하려는 회사의 주식 가격을 왜 다른 회사와 비교할까</h2>
+    <p class="lead">기업공개(IPO)를 하는 회사는 아직 상장 주가가 없어요. 주관 증권사는 비슷한 상장회사들이 이익의 몇 배에 거래되는지 보고, 그 배수를 상장하려는 회사의 이익에 적용할 수 있어요. 최초 증권신고서에는 어떤 회사를 비교 대상으로 골랐고 어떤 이익과 배수를 썼는지가 나옵니다. 이 실험의 검토 대상은 그 <strong>공모가 산정근거</strong>예요.</p>
+    <dl class="tags">
+      <div><dt>발행사</dt><dd>상장하려고 주식을 발행하는 회사예요. 예시에서는 자기 브랜드로 화장품을 팔아요.</dd></div>
+      <div><dt>비교기업</dt><dd>가치를 가늠할 때 기준으로 삼는 상장회사예요. 같은 업종이어도 주요 고객, 유통 방식, 매출이 나는 구조는 다를 수 있어요.</dd></div>
+      <div><dt>PER과 주당 평가가액</dt><dd>PER은 주가가 주당 이익의 몇 배인지를 보여줘요. 예시에서는 비교기업의 평균 PER을 발행사의 주당 이익에 곱해 평가가액을 구해요.</dd></div>
+    </dl>
+    <p class="note">사람이 확인할 시간은 한정돼 있어요. 모델들이 서로 다르게 답한 부분은 눈에 띄지만, 두 모델이 똑같이 받아들인 부분은 그대로 지나가기 쉽습니다. 이 설계가 묻는 건 <strong>그중 어떤 항목을 먼저 다시 보면 중요한 쟁점을 더 많이 잡을 수 있느냐</strong>예요.</p>
+  </section>
+
+  <section id="map">
+    <h2>실험 순서 한눈에 보기</h2>
+    <figure class="diagram" aria-labelledby="map-caption">
+      <div class="node people"><a href="#prepare">1. 실제 신고서를 고정하고 팀 평가표 작성</a><p>연구팀이 최초 신고서와 당시 공개자료를 모아요. 별도의 팀 평가자가 실제 원본의 각 쟁점을 판정해 두고, 목록을 완성할 때까지 평가표를 가려요.</p></div>
+      <div class="node-divider" aria-hidden="true">↓</div>
+      <div class="branch">
+        <div class="node"><a href="#prepare">원본 입력 준비</a><p>실제 신고서의 Y와 선정 근거를 검토 자료에 담아요. B에게 줄 사본에서는 주관사의 선택을 가려요.</p></div>
+        <div class="node test"><a href="#make">2. 복사본 두 개 제작</a><p>Y 자리에 위탁생산 기업 Z를 넣은 시험본과, 브랜드 판매 방식이 비슷한 회사를 넣은 정상 대조본을 만들어요.</p></div>
+      </div>
+      <div class="node-divider" aria-hidden="true">↓</div>
+      <div class="node"><a href="#run">3. 원본·시험본·대조본을 A0와 B에 각각 실행</a><p>AI 두 개 × 자료 세 벌 = 총 여섯 번 검토해요. 자료별로 각각 독립된 세션을 쓰고 실행 순서를 섞어요.</p></div>
+      <div class="node-divider" aria-hidden="true">↓</div>
+      <div class="node test"><a href="#grade">4. 시험 답변 채점</a><p>두 AI 중 몇 명이 Z의 사업 차이를 근거와 함께 지적했는지 셉니다. 둘 다 놓쳤다면 ‘사업모델 유사성’ 판단에 연결해요.</p></div>
+      <div class="node-divider" aria-hidden="true">↓</div>
+      <div class="node"><a href="#rank">5. 읽을 수가 같은 실제 검토 목록 두 개 작성</a><p>기본 순위로 뽑은 목록과, 공동 미탐을 반영해 실제 Y 선정 근거를 올린 목록을 만들어요.</p></div>
+      <div class="node-divider" aria-hidden="true">↓</div>
+      <div class="node people"><a href="#measure">6. 팀 평가표를 열고 두 목록 채점</a><p>실제 중대 쟁점이 각 목록 밖에 몇 건 남았는지 확인해요. 목록과 근거는 프로젝트가 사람에게 전달할 결과물입니다.</p></div>
+      <figcaption id="map-caption">실제 신고서와 시험 자료를 준비해 3단계에서 각각 실행해요. 원본 판단과 시험 채점 결과는 5단계에서 검토 목록을 만들 때 합쳐져요.</figcaption>
+    </figure>
+  </section>
+
+  <section id="prepare">
+    <h2><span class="step-num">1.</span>실제로 검토할 신고서와 팀 평가표를 준비해요</h2>
+    <p class="lead">먼저 한 기업의 <strong>최초 증권신고서</strong>를 확보해요. 그때 공개돼 있던 발행사와 비교기업의 사업 설명, 실적, 주식 수, 공모가 산정표를 모아요. 최초 신고서 이후 정정본은 따로 보관해 평가를 끝낸 뒤 대조합니다.</p>
+    <div class="grid">
+      <article class="card"><span class="label">실험 자료를 만드는 사람</span><h3>원문을 검토할 수 있는 단위로 정리</h3><p>예시에서는 <strong>X를 비교기업에 포함한 근거</strong>, <strong>Y를 비교기업에 포함한 근거</strong>, <strong>적용 이익 기간 W</strong>을 원본 항목으로 기록해요. W는 주관사가 발행사의 이익을 어느 기간 기준으로 잡았는지 살펴보는 예시 항목이에요. 각 항목에 신고서 쪽수·표·사업 설명 등 읽어야 할 근거를 붙여요.</p></article>
+      <article class="card"><span class="label">팀 평가표를 만드는 사람</span><h3>실제 자료만 읽고 기준을 기록</h3><p>AI 답변과 오류가 들어간 복사본을 가린 채, 원본 항목을 <strong>수용 가능 / 중대 쟁점 / 판정 유보</strong>로 기록해요. 중요한 반대 근거가 빠졌다면 어느 근거인지, 가격 영향이 계산되면 그 값도 남겨요. 평가표는 목록을 만들고 나서 열어요.</p></article>
+    </div>
+    <p class="note">파일럿에서 자료와 기준을 다듬고, 본 평가 전에 중대성 기준을 고정해요. 설계서의 <strong>주당 평가가액 변화율 5%</strong>는 검토 중인 예시예요. 가격으로 바로 계산하기 어려운 판단을 얼마나 중대하게 볼지도 사전에 정합니다.</p>
+  </section>
+
+  <section id="make">
+    <h2><span class="step-num">2.</span>신고서를 복사해 비교기업 한 곳을 바꿔요</h2>
+    <p class="lead"><strong>카나리</strong>는 AI가 중요한 차이를 알아차리는지 보려고 연구팀이 만든 오류 시험이에요. 자기 브랜드 화장품을 파는 가상 발행사의 원본에는 자체 브랜드 매출 비중이 높은 Y가 들어 있어요. 복사본 하나에서 Y 자리를 <strong>다른 브랜드의 제품을 대신 생산해 매출의 80%를 올리는 Z</strong>로 바꿉니다. Z도 화장품 회사라 업종 이름만 보면 타당해 보일 수 있어요.</p>
+    <div class="formula"><strong>가상 발행사의 주당 적용 이익</strong>　10억 원 ÷ 500만 주 = 200원<br><strong>주당 평가가액</strong>　200원 × 비교기업 평균 PER</div>
+    <div class="table-wrap">
+      <table aria-label="원본과 두 변형본의 비교기업 및 평가가액">
+        <thead><tr><th scope="col">자료</th><th scope="col">Y가 있던 자리</th><th scope="col">비교기업 PER</th><th scope="col">평균과 평가가액</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">실제 검토용 원본</th><td>자체 브랜드 매출 비중이 높은 <strong>Y</strong></td><td>12배 · 15배 · 18배</td><td class="cell-num">15배 · 3,000원</td></tr>
+          <tr><th scope="row">현실적인 카나리</th><td>위탁생산 매출이 80%인 <strong>Z</strong></td><td>12배 · 30배 · 18배</td><td class="cell-num">20배 · 4,000원</td></tr>
+          <tr><th scope="row">정상 대조본</th><td>자체 브랜드 매출과 판매 방식이 발행사와 비슷한 <strong>또 다른 후보</strong></td><td>12배 · 30배 · 18배</td><td class="cell-num">20배 · 4,000원</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid">
+      <article class="card"><h3>파일에서 실제로 바꾸는 내용</h3><p>연구팀은 회사명을 바꾸고, 그 선택이 반영된 모든 위치를 확인해요. 비교기업 후보 자료, 최종 선정표, 선정 설명, 평균 PER, 주당 평가가액을 같은 회사 기준으로 맞춰요. 목표는 모델이 엉뚱한 산식 오류에 기대지 않고 <strong>사업 자료를 읽어 차이를 찾도록</strong> 하는 것이에요.</p></article>
+      <article class="card"><h3>두 복사본에 같은 4,000원을 쓰는 이유</h3><p>두 복사본에서 숫자가 똑같이 올랐어요. Z에서만 사업모델 차이를 근거로 짚었다면 사업 자료를 읽은 걸로 볼 수 있어요. 정상 대조본에도 같은 문제를 근거 없이 붙이면 오경보예요. 정상 대조본의 30배 자체가 과도하다는 별도의 근거 있는 지적은 따로 기록해요.</p></article>
+    </div>
+    <details class="detail"><summary>시험을 만들 때 정해 두는 정답 기준</summary><p>어느 후보를 넣었는지, 위탁생산 비중을 어디서 찾을 수 있는지, 어떤 설명이 탐지로 인정되는지, 정상 대조본에서 어떤 판단을 허용하는지 기록해요. 시험별 정답표는 AI의 입력과 검색 자료에서 분리해요. 명백한 산식 오류 시험은 필요할 때 기본 동작을 확인하는 데 써요.</p></details>
+  </section>
+
+  <section id="run">
+    <h2><span class="step-num">3.</span>같은 건을 A0와 B가 서로 다른 방식으로 검토해요</h2>
+    <p class="lead">A0는 기존 IPO 검토 에이전트예요. <strong>“주관사가 고른 이 회사가 적절한가?”</strong>를 봐요. 두 번째 AI인 B는 주관사의 선택을 보기 전에 <strong>“이 후보들 중 내가 고른다면 누구를 넣을까?”</strong>에 답해요. 두 답변을 받은 다음 연구팀이 같은 후보를 두고 판단을 맞춰 봅니다.</p>
+    <div class="table-wrap">
+      <table aria-label="AI별로 무엇을 읽고 무엇을 내는지">
+        <thead><tr><th scope="col">무엇을 주고받나</th><th scope="col">A0</th><th scope="col">검토자 B</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">둘 다 읽는 근거</th><td>발행사와 비교 후보의 사업·재무 자료, 배수</td><td>동일한 기초 자료를 같은 기준일로 제공</td></tr>
+          <tr><th scope="row">주관사 선택 정보</th><td>최종 선정 기업과 이유, 적용 이익, 평균 배수와 산정표를 읽음</td><td>최종 선택과 선정 이유를 가림. 문서 제목·요약에서 선택이 드러나는지도 점검</td></tr>
+          <tr><th scope="row">AI가 내는 답변</th><td>주관사 선택을 수용하거나 문제를 제기하고 근거를 적음</td><td>후보별 포함·추가 검토·제외 중 하나를 고르고 근거를 적음. 최종 답변을 저장한 뒤 주관사 선택과 대조</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="sub">파일럿 기본 구성에서 나오는 답변 여섯 개</h3>
+    <div class="table-wrap">
+      <table aria-label="자료별 두 AI의 검토 실행 여섯 번">
+        <thead><tr><th scope="col">자료</th><th scope="col">A0의 과제</th><th scope="col">B의 과제</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">원본</th><td>선정된 Y의 적절성을 검토</td><td>Y를 포함한 각 후보를 판단</td></tr>
+          <tr><th scope="row">카나리</th><td>선정된 Z의 적절성을 검토</td><td>선정 여부를 가린 채 Z를 포함한 각 후보를 판단</td></tr>
+          <tr><th scope="row">정상 대조본</th><td>선정된 정상 대조 후보의 적절성을 검토</td><td>선정 여부를 가린 채 정상 대조 후보를 포함한 각 후보를 판단</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="lead">표는 여섯 번에 어떤 과제를 주는지 보여줘요. <strong>실제 실행 순서는 섞고</strong> 각 검토는 새 세션에서 진행해요. 시험 자료라는 표시는 모델에 가리고, 상대 AI 답변과 자기 이전 답변도 새 세션으로 넘기지 않아요. 별도로 규칙 검사기가 주식 수, 실적 기간, 단위, 산식이나 정정본 혼입을 확인합니다.</p>
+  </section>
+
+  <section id="grade">
+    <h2><span class="step-num">4.</span>Z에 대한 두 답변을 따로 채점해요</h2>
+    <p class="lead">시험 질문은 <strong>“Z를 보고 자체 브랜드 판매와 위탁생산의 차이를 근거로 설명했나?”</strong>예요. 팀 평가자는 모델이 포함 또는 제외 중 어느 단어를 골랐는지와 함께 그 이유를 읽습니다.</p>
+    <div class="grid">
+      <article class="card warning"><span class="label">미탐의 예 · 가상 응답</span><h3>업종 이름만 보고 포함</h3><blockquote class="quote">“Z도 화장품 회사이므로 비교기업으로 적절합니다.”</blockquote><p>답은 채점할 수 있지만 주요 매출원이 어떻게 다른지 빠졌어요. 미탐으로 기록해요.</p></article>
+      <article class="card reply"><span class="label">탐지의 예 · 가상 응답</span><h3>사업 자료를 읽고 비교에 영향을 주는 차이를 설명</h3><blockquote class="quote">“Z의 매출 중 80%는 위탁생산입니다. 발행사는 자체 브랜드 제품을 판매해요. 마진과 성장성을 비교하기 전에 매출원·유통 구조의 차이를 확인해야 합니다.”</blockquote><p>후보, 차이, 판단을 뒷받침하는 근거가 나왔어요. 차이를 설명한 뒤 조건부로 수용하더라도 탐지에 해당할 수 있어요.</p></article>
+    </div>
+    <div class="table-wrap">
+      <table aria-label="시험 결과에 따른 순위 처리 규칙">
+        <thead><tr><th scope="col">시험 채점 결과</th><th scope="col">원본에서 두 AI가 같은 항목을 수용했을 때</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">탐지 0명</th><td>두 응답이 모두 채점 가능하고 두 AI 모두 목표 차이를 놓쳤어요. 그 유형에 해당하는 원본 항목의 검토 순위를 올려요.</td></tr>
+          <tr><th scope="row">탐지 1명 또는 2명</th><td>몇 명이 찾았는지 기록하고 원본 항목에는 기본 순위를 적용해요.</td></tr>
+          <tr><th scope="row">채점 불가 또는 시험 없음</th><td>입력이나 답변이 채점하기에 부족한 경우, 또는 연결 시험 자체가 없는 경우예요. 사유를 남기고 기본 순위를 적용해요.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">B의 답변에서 기업 이름이 사라졌다면 우선 이유를 찾아요. 실제 원본 대조에서 이유 없는 누락은 판단 보류가 될 수 있어요. 시험에서는 응답을 채점할 수 있는데 목표 후보나 근거가 빠진 경우에 미탐으로 기록합니다.</p>
+  </section>
+
+  <section id="rank">
+    <h2><span class="step-num">5.</span>원본에서 사람이 읽을 목록을 두 개 만들어요</h2>
+    <p class="lead">이제 예시를 끝까지 이어가 볼게요. <strong>원본에서 A0와 B가 모두 Y를 수용</strong>했어요. 별도 시험에서는 둘 다 Z의 위탁생산 차이를 놓쳤어요. Z에서 놓친 것은 <strong>사업모델 유사성 판단</strong>이에요. 원본에서 Y를 넣은 근거도 같은 판단을 요구하므로, <strong>사람이 Y를 먼저 읽도록 그 항목의 순위가 올라가요.</strong></p>
+    <div class="grid">
+      <article class="card"><span class="label">원본에서 A0가 남긴 답변 예시</span><p>“주관사가 고른 Y는 자체 브랜드 매출이 높아 비교기업으로 수용합니다.”</p></article>
+      <article class="card"><span class="label">원본에서 B가 남긴 답변 예시</span><p>“후보 Y는 자체 브랜드 매출 비중을 근거로 포함합니다.” 두 답변을 저장한 뒤 실제 신고서의 Y 선정과 대조해 공동 수용으로 기록해요.</p></article>
+    </div>
+    <p class="lead">어떤 쟁점은 시험과 상관없이 두 목록에 공통으로 들어가요. 예를 들어 원본의 18배 후보 X를 A0가 수용하고 B가 사업 근거를 들어 제외했다고 해볼게요. X를 빼면 평균 PER이 15배에서 13.5배가 되고, 평가가액이 3,000원에서 2,700원으로 10% 내려가요. 아래 예시는 이 불일치를 <strong>공통 필수</strong>로 두고, 두 조건에 <strong>추가 검토 자리 1개</strong>씩 배정합니다. 설계서의 K는 이 추가 자리 수예요.</p>
+
+    <div class="experiment" aria-labelledby="list-example">
+      <h3 id="list-example">추가 자리 한 칸에 Y와 W 중 누가 들어가나</h3>
+      <p class="lead">기본 순위는 원본의 판단 근거와 가격 영향을 써요. 이 예에서는 그 기준으로 <strong>적용 이익 기간 W가 Y의 선정 근거보다 앞섰다</strong>고 가정해요. 아래에서 Z를 탐지한 AI 수를 바꾸면 두 목록을 비교할 수 있어요.</p>
+      <div class="controls">
+        <label for="detections">Z의 차이를 발견한 AI</label>
+        <select id="detections"><option value="0">0명</option><option value="1">1명</option><option value="2">2명</option><option value="unavailable">시험 없음·채점 불가</option></select>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>기본 순위</h3>
+          <ol class="queue"><li><strong>X의 선정 근거</strong> <span class="slot">공통 필수</span></li><li><strong>적용 이익 기간 W</strong> <span class="slot">추가 1자리</span></li></ol>
+          <p class="muted">목록 밖에는 Y의 선정 근거가 남아요.</p>
+        </article>
+        <article class="card reply">
+          <h3>카나리 결과를 반영한 순위</h3>
+          <ol class="queue"><li><strong>X의 선정 근거</strong> <span class="slot">공통 필수</span></li><li><strong id="canary-entry">Y의 선정 근거</strong> <span class="slot">추가 1자리</span></li></ol>
+          <p class="muted" id="canary-outside">목록 밖에는 적용 이익 기간 W이 남아요.</p>
+        </article>
+      </div>
+      <p class="note green" id="list-explanation" aria-live="polite">두 AI 모두 Z의 차이를 놓쳐, 같은 유형인 Y의 선정 근거가 W를 앞서요. 두 목록에서 읽는 항목은 각각 2개예요.</p>
+    </div>
+    <p class="lead">Y가 올라가면 W처럼 원래 읽으려던 항목 하나가 밀려나요. 그래서 순위를 바꾼 효과는 <strong>올라간 Y와 밀려난 W 중 어느 쪽에 실제 중대 쟁점이 있었는지</strong>까지 확인해야 알 수 있어요.</p>
+  </section>
+
+  <section id="measure">
+    <h2><span class="step-num">6.</span>팀 평가표를 열어 원본에서 무엇을 더 건졌는지 확인해요</h2>
+    <p class="lead">두 목록을 완성한 뒤 1단계에서 작성한 팀 평가표를 열어요. 예시로 팀이 <strong>X와 Y를 중대 쟁점, W를 수용 가능</strong>으로 판정해 두었다고 가정할게요. Y는 자체 브랜드 회사이지만, 발행사는 국내 소비자에게 직접 팔고 Y의 주된 유통 방식은 해외 도매여서 마진 비교에 그 차이를 설명해야 한다고 팀이 판단한 상황이에요. 이 가정은 원본 항목을 어떻게 채점하는지 보여주기 위한 추가 예시입니다.</p>
+    <div class="table-wrap">
+      <table aria-label="가상 팀 평가표와 두 검토 목록의 누락 수">
+        <thead><tr><th scope="col">비교 조건</th><th scope="col">사람이 읽는 항목</th><th scope="col">목록 밖 중대 쟁점</th><th scope="col">누락률</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">기본 순위</th><td>X, W</td><td>Y 1건</td><td class="cell-num">1 ÷ 2 = 50%</td></tr>
+          <tr><th scope="row">카나리 반영 · 탐지 0명</th><td>X, Y</td><td>0건</td><td class="cell-num">0 ÷ 2 = 0%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note green"><strong>가상 결과.</strong> 사람은 두 조건에서 각각 2개를 읽었어요. 위 예시에서는 Y가 목록에 들어오면서 중대 쟁점 1건을 더 건졌어요. 만약 Y가 수용 가능이고 W가 중대였다면, 같은 순위 변경이 중대 쟁점을 오히려 한 건 더 놓치게 만들어요.</p>
+    <p class="lead">본 평가에서는 같은 기업 안에서 두 목록을 짝지어 비교하고, 기업마다 중대 쟁점이 몇 건 더 남았는지 보고해요. <strong>누락률의 분모는 사람이 원본 전체에서 중대하다고 판정한 항목 수</strong>예요. 목록 밖 항목까지 같은 기준으로 읽어야 누락을 셀 수 있어요. 파일럿은 기업 한 곳에서 이 절차가 돌아가는지 점검하는 단계이고, 효과는 이후 평가 기업들에서 확인해요.</p>
+    <details class="detail"><summary>사람 검토량을 같게 맞추면서도 따로 기록할 것</summary><p>카나리와 정상 대조본을 돌리는 만큼 모델 실행 비용이 달라질 수 있어요. 사람에게 배정한 항목 수와 별도로 모델 호출 수, 토큰, 실행 시간을 기록해요. 평가 전에 기본 순위, 동순위 처리, 중대 기준, 시험 유형을 원본과 연결하는 규칙, K를 확정합니다.</p></details>
+    <div class="card sub">
+      <h3>우리 프로젝트가 실제로 내는 것</h3>
+      <p>기존 A0 보고서에 <strong>사실·계산 검사 결과, 두 AI 판단 비교표, 실제 신고서의 사람 검토 목록</strong>을 붙여요. 사람 검토 목록에는 항목명, 원문 위치, 두 AI의 근거, 계산 가능한 가격 영향과 이 항목을 골라낸 이유를 써요.</p>
+      <blockquote class="quote">“비교기업 Y의 선정 근거를 먼저 읽어보세요. 원본에서는 두 AI 모두 Y를 수용했어요. 별도 시험에서는 자체 브랜드 판매와 위탁생산의 차이를 두 AI 모두 지나쳤어요. 원본의 Y는 발행사와 유통 방식이 얼마나 비슷한지 확인해 주세요.”</blockquote>
+      <p>사람은 이 목록을 받아 신고서 해당 항목의 근거를 직접 확인해요. 연구로는 그 목록이 <strong>같은 검토량에서 실제 중대 쟁점을 더 많이 담았는지</strong> 채점해요. 시험을 통과한 항목에 자동 통과 규칙을 붙이는 건 새 기업에서 충분히 검증한 뒤 검토할 후속 과제입니다.</p>
+    </div>
+    <p class="source">원문은 2026년 11월 22일 작성된 A1 설계서예요. 원문 화장품 예시에 W, 추가 검토 한 자리, 가상 채점 결과를 보태 실험 흐름을 이어서 설명했습니다. <a href="https://chatgpt.com/library?file_id=libfile_fde3_f-1acd6120514c8191b3d47eb0642b2fc9_7be994cd536c819180c1c90c50c7b68d&amp;account_id=personal">A1_설계플로우_일치자격검사.md</a></p>
+  </section>
+</main>
+<script>
+const detections = document.getElementById('detections');
+const entry = document.getElementById('canary-entry');
+const outside = document.getElementById('canary-outside');
+const explanation = document.getElementById('list-explanation');
+
+const explanations = {
+  '0': '두 AI 모두 Z의 차이를 놓쳐, 같은 유형인 Y의 선정 근거가 W를 앞서요. 두 목록에서 읽는 항목은 각각 2개예요.',
+  '1': '한 AI가 Z의 차이를 찾았어요. 공동 미탐으로 집계되지 않으므로 기본 순위가 적용돼 두 목록 모두 W가 들어가요.',
+  '2': '두 AI 모두 Z의 차이를 찾았어요. 검토 순위에는 기본 규칙을 적용하므로 두 목록 모두 W가 들어가요.',
+  unavailable: '시험이 없거나 답을 채점할 수 없어요. 사유를 기록하고 기본 순위를 적용하므로 두 목록 모두 W가 들어가요.'
+};
+
+detections.addEventListener('change', () => {
+  const raisesY = detections.value === '0';
+  entry.textContent = raisesY ? 'Y의 선정 근거' : '적용 이익 기간 W';
+  outside.textContent = raisesY
+    ? '목록 밖에는 적용 이익 기간 W이 남아요.'
+    : '목록 밖에는 Y의 선정 근거가 남아요.';
+  explanation.textContent = explanations[detections.value];
+});
+</script>
+</body>
+</html>

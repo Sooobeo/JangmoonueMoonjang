@@ -20,7 +20,7 @@
 <a href="#section-11">11. 구현 순서와 단계별 통과 기준</a>
 <a href="#section-12">12. 구현 후 실행할 검증 시나리오</a>
 <a href="#section-13">13. 실행 기록·보존·인계 산출물</a>
-<a href="#section-14">14. 아직 고정하지 않은 항목과 다음 한 작업</a></nav><div class="side-foot">2026.11.13 · 설계 버전 1.0<br>설계와 구현 완료를 구분합니다.</div></aside>
+<a href="#section-14">14. A1 v3 개발 파일럿과 다음 단계</a></nav><div class="side-foot">2026.11.13 · 개발 실행 기록<br>2026.11.23 · 후속 설계 갱신</div></aside>
 <main class="main" id="main"><div class="toolbar"><a href="IPO_진행현황_남은일.html">← 전체 프로젝트와 현재 위치</a><div><a class="source" href="IPO_파일럿보완_A0_상세설계.md">Markdown 원본</a><button type="button" id="print">인쇄 / PDF 저장</button></div></div><details class="mobile-toc"><summary>상세설계 목차 · 14개 항목</summary><nav aria-label="모바일 상세설계 목차"><a href="#section-1">1. 기존 문서와 이번 상세설계의 관계</a>
 <a href="#section-2">2. 전체 프로젝트 안의 위치와 이번 작업의 끝</a>
 <a href="#section-3">3. 확인된 문제와 변경 요구사항</a>
@@ -34,9 +34,16 @@
 <a href="#section-11">11. 구현 순서와 단계별 통과 기준</a>
 <a href="#section-12">12. 구현 후 실행할 검증 시나리오</a>
 <a href="#section-13">13. 실행 기록·보존·인계 산출물</a>
-<a href="#section-14">14. 아직 고정하지 않은 항목과 다음 한 작업</a></nav></details><span class="badge">상세설계 작성 · 구현 예정</span><article class="prose"><h1>IPO 파일럿 보완과 A0 개발 상세설계</h1>
+<a href="#section-14">14. A1 v3 개발 파일럿과 다음 단계</a></nav></details><span class="badge">A0 개발 기록 · A1 v3 후속 설계</span><article class="prose"><h1>IPO 파일럿 보완과 A0 개발 상세설계</h1>
 <p>작성: 2026년 11월 13일 · 설계 버전 1.0 · 담당 규리 / 설계·검증 지원 Codex</p>
-<p><strong>현재는 B 방식의 3기업 개발 파일럿과 AI 보조 채점까지 마쳤다. 이 문서는 그다음에 할 공통 계산·입력·검색 보완, 추가 사례 배정, A0 구현과 개발 비교를 구체화한다. 아래의 새 필드·파일·명령·설정은 구현할 설계이며, 구현 완료를 뜻하지 않는다.</strong></p>
+<p><strong>개발 실행 기록 · 2026년 11월 13일 / 후속 설계 갱신 · 2026년 11월 23일</strong><br>D0 원본 보존부터 D6 실패 분석·A1 인계까지 구현과 개발 비교를 수행했다. 각 단계 세 차례 검토와 전체 세 차례 종합 검토를 마쳤다. 모의 검증·무료 사전 점검 결과는 실제 모델 실행과 별도로 집계한다.</p>
+<ul>
+<li>최초 개발 비교 <code>0.3.2-dev</code>는 실제 12회 중 유효 제출 2회·실패 10회였고, 제출 2회에서도 등록·계산은 수행되지 않았다. 이 비교 전에 공통 검색 <code>top_k</code>를 2로 조정하고 API 이력 전송을 수정했다. 기존 R001·입력·기준표·채점, 이전 실패와 원본 응답, 당시 회귀 284개 통과 기록을 보존했다. <a href="../ipo_agent_eval/reports/a0_implementation/retrieval_budget_adjustment.md">공통 검색 한도 조정</a>, <a href="../ipo_agent_eval/reports/a0_implementation/implementation_report.md">실행 결과 보고서</a></li>
+<li>최신 개발 설정 <code>0.4.3-dev</code>는 <code>extraction_v2/review_v2</code> 저장·검증 계약에 <code>compact_v2</code> 전송과 <code>patch_v1</code> 형식수정을 사용한다. <code>FIX_v043</code> 계획 12회 중 HDMS의 고정 절차 B·A0 2회는 <code>SUBMITTED / PENDING_INFO</code>, 멜콘의 B·A0 2회는 운영자 중단, 나머지 8회는 미착수로 기록됐다. 중단 원본과 체크포인트를 보존했다. <a href="../ipo_agent_eval/reports/failure_remediation/implementation_review_3_v043.md">공통 계약 검토</a>, <a href="../ipo_agent_eval/reports/failure_remediation/FIX_v043_user_stop.json">최종 중단 기록</a></li>
+<li>개발 6기업의 공개 입력과 비공개 기준표를 준비했고 평가 후보 12기업을 분리했다. 사람 확정 채점은 미완료이며, 새 A1 구현과 평가 기업의 본 실험은 아직 시작하지 않았다. <a href="../ipo_agent_eval/reports/a0_implementation/case_roster.md">사례 배정표</a>, <a href="../ipo_agent_eval/README.md">현재 실행 방법</a></li>
+<li>W11 이후는 <strong>일치의 자격 검사 v3</strong>를 적용한다. 같은 A0 보고서에 사실·계산 검사, 주관사 최종 선택을 가린 독립 검토자 B, 현실적인 카나리 결과를 연결해 사람 재검토 순위를 정한다. <a href="../update%20plan/A1_설계플로우_일치자격검사_v3.md">A1 설계 v3</a>, <a href="../update%20plan/ipo-a1-experiment-explained.html">A1 설명</a></li>
+</ul>
+<p>이 문서는 B 방식의 3기업 개발 파일럿과 AI 보조 채점에 이어 진행한 공통 계산·입력·검색 보완, 사례 배정, A0 구현과 개발 비교를 기록한다. 3~13절의 설계 표와 코드 예시는 1.0 작성 당시의 계약과 초기값이며, 실제 적용 내역은 상단 실행 기록을 기준으로 읽는다.</p>
 <h2 id="section-1">1. 기존 문서와 이번 상세설계의 관계</h2>
 <div aria-label="상세설계 표" class="table-scroll" role="region" tabindex="0"><table>
 <thead>
@@ -49,8 +56,8 @@
 <tbody>
 <tr>
 <td><a href="IPO_Project_Design.html">연구 설계서</a></td>
-<td>연구 범위, B·A0·A1 비교, 개발/평가 분리</td>
-<td>현재 코드에서 바꿀 데이터 구조와 실행 경로</td>
+<td>연구 범위, 개발/평가 분리, A1의 사람 검토 우선순위 평가</td>
+<td>개발 단계의 B/A0 데이터 구조와 실행 경로</td>
 </tr>
 <tr>
 <td><a href="IPO_Experiment_Protocol.html">실험 프로토콜</a></td>
@@ -64,25 +71,30 @@
 </tr>
 <tr>
 <td><a href="IPO_%EB%8B%B9%EC%9E%A5%ED%95%A0%EC%9D%BC.md">최신 할 일</a>·<a href="../ipo_agent_eval/reports/3%EA%B8%B0%EC%97%85_%ED%8C%8C%EC%9D%BC%EB%9F%BF_%ED%99%95%EC%9E%A5_%EA%B2%80%EC%A6%9D%EA%B8%B0%EB%A1%9D.md">파일럿 종합 기록</a></td>
-<td>3기업 결과와 발견한 문제</td>
-<td>각 문제를 어떤 변경과 검증으로 닫을지</td>
+<td>개발 결과와 다음 파일럿 작업</td>
+<td>개발 중 발견한 문제와 변경·검증 근거</td>
+</tr>
+<tr>
+<td><a href="../update%20plan/A1_설계플로우_일치자격검사_v3.md">A1 설계 v3</a></td>
+<td>독립 검토자, 카나리, 사람 검토 순위와 같은 검토량 비교</td>
+<td>기존 A0 보고서와 공통 사실·계산 검사의 연결 근거</td>
 </tr>
 </tbody>
 </table></div>
-<p>기존 후속계획의 앞부분 상태는 11월 12일 HDMS 한 건 당시다. 현재 상태는 최신 할 일과 3기업 종합 기록을 따른다. 연구 전체의 목적·평가 규칙은 위 설계서와 프로토콜을 유지하고, 이번 문서는 다음 개발 단계의 구현 세부를 보충한다.</p>
+<p>이 문서의 개발 실행에서 B는 프로그램이 순서를 정한 고정 절차 기준선이다. A1 v3의 검토자 B는 주관사 선택을 가린 자료에서 산정근거를 독립적으로 재구성하는 두 번째 AI를 가리킨다.</p>
 <h2 id="section-2">2. 전체 프로젝트 안의 위치와 이번 작업의 끝</h2>
-<p>국내 비금융 IPO 중 과거 실적 PER 공시를 같은 모델·공개자료·방법서·도구·출력 형식·자원 상한으로 검토한다. 프로그램이 순서를 고르는 B, 모델이 다음 행동을 고르는 A0, 관찰된 A0 실패에 맞춰 확인·재검토를 추가한 A1을 비교한다. 사실·계산, 근거와 판단, 완료/보류, 비용과 시간을 함께 평가한다.</p>
+<p>개발 단계에서는 국내 비금융 IPO의 과거 실적 PER 공시에 대해 같은 공통 조건에서 고정 절차 B와 자율 탐색 A0를 비교했다. 사실·계산, 근거와 판단, 완료·보류, 비용과 시간을 기록했다. 이후 A1의 주 비교는 같은 수의 실제 항목을 사람에게 보낼 때 카나리 신호가 실제 중대 쟁점의 누락을 줄이는지 평가한다.</p>
 <pre><code class="language-text">연구 질문·방법·기준 설계
-  → B 구현과 3기업 파일럿 [여기까지 완료: AI 보조 채점]
-  → 공통 계산·입력·검색 보완 [지금 시작할 일]
-  → W09: 사례 확대와 개발/평가 배정
-  → W10: 새 공통 버전의 B/A0 개발 비교와 실패 수집 [이번 설계의 끝]
-  → W11: 실패에 연결된 A1
-  → W12: 최종 자료·설정·채점·분석 동결
-  → W13: 보지 않은 기업에서 반복 실행·채점
-  → W14: 기업별 비교·비용·한계와 최종 보고
+  → B 구현과 3기업 파일럿·AI 보조 채점
+  → W09: 사례 확대·개발/평가 배정
+  → W10: 공통 보완과 B/A0 개발 비교, 실패 분석·인계
+  → 개발 실패 보완과 FIX_v043 중단 기록 [개발 실행 기록의 끝]
+  → W11: A1 v3 개발 파일럿과 진행·중단 판정
+  → W12: 평가 입력·사람 기준표·정렬 규칙과 검토량 동결
+  → W13: 새 기업에서 A0+B와 A0+B+카나리의 같은 검토량 비교
+  → W14: 기업 단위 비교·비용·한계와 최종 보고
 </code></pre>
-<p>이번 단계의 완료는 <strong>공통 보완을 쓴 B와 A0가 개발 사례에서 실제로 실행되고, 항목별 채점·행동·비용·실패가 연결되어 A1 설계로 넘길 수 있는 상태</strong>다. 새 평가 기업의 본 실험과 최종 보고는 이후 단계다. A0가 B보다 높은 점수를 받아야만 완료되는 것은 아니다.</p>
+<p>D0~D6에서 공통 보완을 쓴 B/A0의 실행·채점·행동·비용·실패를 연결했다. 이 기록을 A1 v3 파일럿의 입력·실패 유형 설계에 활용한다. 후속 판정과 평가 규칙은 <a href="#section-14">14절</a>을 따른다.</p>
 <h2 id="section-3">3. 확인된 문제와 변경 요구사항</h2>
 <div aria-label="상세설계 표" class="table-scroll" role="region" tabindex="0"><table>
 <thead>
@@ -143,8 +155,8 @@
 <div aria-label="상세설계 표" class="table-scroll" role="region" tabindex="0"><table>
 <thead>
 <tr>
-<th>모든 조건에 공통 적용</th>
-<th>W11의 A1 후보로 남길 것</th>
+<th>개발 단계의 공통 보완</th>
+<th>1.0 작성 당시의 A1 후보</th>
 </tr>
 </thead>
 <tbody>
@@ -167,6 +179,7 @@
 </tbody>
 </table></div>
 <p>공통 검사기는 “이 숫자가 공시상 올바른 선택인가”를 정답표로 판정하지 않는다. <code>calc_id</code>가 없거나 참조한 결과와 구조화된 숫자가 다른 경우는 형식·연결 오류로 반환한다. 문장 전체가 계산과 모순되는지 자동 이해하는 검사는 A0에 미리 붙이지 않는다. 형식수정은 전체 실행에서 한 번이며, 사실·결론을 고치거나 추가 검색할 기회로 쓰지 않는다.</p>
+<p>위 후보와 D6 실패 인계표는 개발 당시의 근거다. A1 v3는 공통 계산·근거 계약을 사용하고, 원문 대조·재계산과 수정 제안을 원본에 연결한다. 검토자 B 및 카나리 신호로 원본 항목에 사람 검토 순위를 붙인다. <a href="../update%20plan/A1_설계플로우_일치자격검사_v3.md#3-a1-작동-흐름">A1 설계 v3 §3</a></p>
 <h2 id="section-5">5. 변경할 코드와 저장 위치</h2>
 <p>아래에서 ‘신규’는 만들 예정인 파일이다. 기존 경로는 실제 코드와 대조했다.</p>
 <div aria-label="상세설계 표" class="table-scroll" role="region" tabindex="0"><table>
@@ -382,7 +395,7 @@
 <p>모델이 도구 호출 없이 끝냈는데 유효 제출이 없으면 <code>NO_VALID_SUBMISSION</code>이다. 거부·불완전 응답, API 오류, 사용량 누락은 이유를 분리하고 임의 재호출하지 않는다. JSON 형식·필수 필드·ID 연결 오류는 기존 공통 형식수정 1회에 포함하며, 등록·최종 제출을 합쳐 이미 사용했으면 종료한다. 수량·판단·근거 사실을 새로 고치는 용도로 형식수정을 쓰지 않는다. 유효 인자로 실행한 검색의 0건, 계산 UNAVAILABLE, 큰 열람의 TOO_LARGE 등은 도구 관찰이며 A0는 예산 안에서 다음 행동을 고를 수 있다. 금지된 자료/경로 접근 시도는 반환 차단·기록하고 명시적 격리 위반으로 실행을 종료한다.</p>
 <p><code>SUBMITTED</code>는 실행 성공 여부다. 내용 상태는 별도로 <code>READY</code>, <code>PENDING_INFO</code>, <code>HUMAN_REVIEW</code>를 기존 <code>final_status()</code> 원칙에 따라 계산한다. 미해결 blocking 이관이 우선하고, 다음은 blocking 정보 요청이다. <code>READY</code>는 정답 승인이나 투자 판단 승인이 아니다. 무효 제출의 내용 상태는 null이며 실패 이유가 별도다.</p>
 <h2 id="section-9">9. 예산과 예약</h2>
-<p>다음 숫자는 현재 <code>config/B.json</code>에서 확인한 개발 기준이다. 새 버전에서 B와 A0 모두 같은 상한을 적용한다. 최종 평가 전에는 실제 사용량으로 전체 약 10만원 목표를 다시 산정한다. 아래 단가와 환산값은 현재 프로젝트 설정이며 새로운 요금 견적이 아니다.</p>
+<p>다음 표는 1.0 작성 당시 <code>config/B.json</code>에 근거한 개발 기준과 단가다. 당시 B와 A0의 공통 상한을 설계하는 데 사용했다. 최신 개발 설정과 비용 집계는 <a href="../ipo_agent_eval/README.md">현재 실행 방법</a>을 참고한다.</p>
 <div aria-label="상세설계 표" class="table-scroll" role="region" tabindex="0"><table>
 <thead>
 <tr>
@@ -472,10 +485,10 @@
 </tr>
 </tbody>
 </table></div>
-<p>세 파일럿은 개발용으로 고정한다. 최종 규모는 W12 이전에 실제 적격 사례와 작업량을 보고 결정한다. 개발 실행은 최종 120/72회에 포함하지 않는다. 후보 모집·공개 입력 준비와 공통 코드 개발은 병행할 수 있다. 평가 기업의 답변은 W12 동결 이후에 받는다.</p>
+<p>최초 세 파일럿은 개발용으로 배정했고, 실제 개발 비교에서는 축소안의 기업 배정 규모인 개발 6기업·평가 후보 12기업을 채택했다. 표의 120/72회는 1.0 당시의 실행 수 가정이다. A1 v3의 평가 기업 수와 실행 수는 적격 사례, 자연 쟁점 기저율과 파일럿 비용을 바탕으로 W12 전에 정한다. 평가 기업의 답변은 W12 동결 이후에 받는다.</p>
 <p>새 공통 버전의 B와 A0를 개발 사례마다 우선 한 번씩 실행하는 개발 비교표를 작성한다. 현재 3기업만 비교하는 첫 묶음은 3×2=6회이며, 이는 기능 점검과 실패 수집용이다. 추가 개발 기업도 같은 기준을 적용하고, 실제 반복/수정 실행은 별도 행으로 기록한다. 사전 조건과 원본 usage를 남기고 이전 R001 점수를 새 B 점수로 대신 쓰지 않는다.</p>
 <p>채점표에는 사실 F·계산 K·J1~J4, 출처 적합성, 잘못된 완료, 불필요한 보류, API 비용·경과 시간을 둔다. 현재 수행 가능한 AI 보조 채점과 규리의 직접 검토 여부를 각각 기록한다. 독립 사람 채점이 이미 끝났다고 표시하지 않고, 추가 외부 평가자 확보를 이 개발 단계의 조건으로 붙이지 않는다. 사람 작업시간은 측정한 경우만 별도 입력한다.</p>
-<p>실패 레코드는 <code>failure_id</code>, 사례/조건/실행, 관찰한 도구·페이지·입력·계산 ID, 실패 유형, 실제 문제, 점수 영향, A1 탐지 후보, 예상 재검토, 추가 비용을 가진다. 우선순위는 검토 결론에 미치는 영향·재발 여부·탐지 가능성으로 정한다. A1의 각 장치는 한 개 이상의 <strong>실제로 관찰한 A0 실패</strong>와 연결한다. B 파일럿에서 본 문제만으로 A1 효과를 확정하지 않는다.</p>
+<p>실패 레코드는 <code>failure_id</code>, 사례/조건/실행, 관찰한 도구·페이지·입력·계산 ID, 실패 유형, 실제 문제, 점수 영향, 당시 A1 탐지 후보, 예상 재검토, 추가 비용을 기록하도록 설계했다. A1 v3 파일럿은 검토 결론에 미치는 영향·재발 여부·탐지 가능성을 참고해 실제 개발 실패에 연결되는 비교기업 카나리 유형부터 검증한다. <a href="../ipo_agent_eval/reports/a0_implementation/D6_failure_handoff.md">D6 실패 인계</a></p>
 <h2 id="section-11">11. 구현 순서와 단계별 통과 기준</h2>
 <div aria-label="상세설계 표" class="table-scroll" role="region" tabindex="0"><table>
 <thead>
@@ -523,7 +536,7 @@
 </tr>
 </tbody>
 </table></div>
-<p>W09의 자료 모집은 D1~D4와 병행한다. 아직 배정·기준표가 없는 새 기업은 D5 실제 비교에 먼저 넣지 않는다. D5에서는 같은 공통 버전의 B/A0를 짝지어 비교한다. 현재 계획 초안의 명령은 <code>python -m ipo_eval.runner --condition B|A0 --case-id &lt;등록ID&gt; [--live]</code>이며 <strong>아직 지원되는 명령이 아니다</strong>. 구현 후 README와 실제 CLI help가 일치하는지 확인한다.</p>
+<p>당시 계획은 D1~D4와 동시에 W09 자료를 모으고, 배정과 기준표가 갖춰진 기업에서 같은 공통 버전의 B/A0를 짝지어 D5를 실행하는 것이었다. 구현 후 지원하는 CLI와 사전 점검 명령은 <a href="../ipo_agent_eval/README.md">현재 실행 방법</a>에 정리되어 있다.</p>
 <h2 id="section-12">12. 구현 후 실행할 검증 시나리오</h2>
 <p>이 표는 향후 구현의 인수조건이다. 상세설계서 검증과 구현 테스트 통과는 구별한다. 숫자를 가진 실제 기업 사례는 평가자/테스트 자료로만 사용하며 모델 지시문·공개 방법서에 정답을 넣지 않는다.</p>
 <div aria-label="상세설계 표" class="table-scroll" role="region" tabindex="0"><table>
@@ -650,7 +663,11 @@
 <li><code>failure_id → 관찰 근거 → A1 후보 → 재검토 → 추가 비용</code> 인계표.</li>
 </ul>
 <p>기존 R001 실행·점수·기준표와 과거 코드/설정 스냅샷은 보존한다. 현재 작업 코드의 수정은 새 버전·커밋과 새 실행으로 남긴다. 과거 파일의 해시와 새 코드 해시가 달라지는 것은 버전 변경으로 설명하며, 과거 실행을 새 코드로 실행한 것으로 바꾸지 않는다. 기준표 수정이 필요하면 사유·시점·버전을 남기고 기존 점수를 소급 덮어쓰지 않는다.</p>
-<h2 id="section-14">14. 아직 고정하지 않은 항목과 다음 한 작업</h2>
-<p>새 공통 버전의 검색 3개·게이트웨이 한도·탐색 출력 1,000·시간 예약 120+60초는 개발 초깃값이다. 무료 점검과 개발 실행을 근거로 조정할 수 있으며 B/A0의 공통 접근 조건을 맞춘다. 최종 모델 snapshot, 표본 규모, 전체 비용 재산정, 최종 채점 방식과 사람 작업시간 측정은 W12 이전에 확정한다. 결과가 유리한 방향으로 나온 뒤 최종 평가 기준을 바꾸지 않는다.</p>
-<p><strong>바로 시작할 일은 D0 보존 목록을 확인하고 D1의 주식수 구성·파생값·계산 참조 계약을 코드와 합성 입력으로 만드는 것이다.</strong> 그다음 D2 계산기, D3 공통 도구/조회/예산, D4 A0 루프 순서로 간다. 실제 구현·실행 후에는 이 문서의 예정 상태를 근거 파일과 함께 갱신한다.</p>
-</article><footer><p>이 문서는 Markdown 원본에서 생성했습니다. 예정된 계약·파일·검사와 실제 구현 결과를 구분합니다.</p><a href="IPO_파일럿보완_A0_상세설계.md">설계 원본</a><a href="../ipo_agent_eval/reports/pilot_a0_detailed_design_verification.json">세 차례 설계 검증 기록</a></footer></main></div><script>document.getElementById('print').addEventListener('click',()=>window.print());</script></body></html>
+<h2 id="section-14">14. A1 v3 개발 파일럿과 다음 단계</h2>
+<ol>
+<li><strong>W11.</strong> 개발 기업 1곳의 최초 증권신고서와 공개 후보 자료에서 비교기업 항목의 사람 기준표를 만들고 B용 자료에 주관사의 최종 선택이 남아 있는지 확인한다. 현실적인 카나리와 정상 대조본을 준비하고, 가능하면 현실적인 카나리를 2개 이상 제작한다. 파일럿 실행 전에 진행·중단 기준과 실행 중 중대 판정의 가격 영향 기준을 정한다.</li>
+<li><strong>W12.</strong> 파일럿 결과를 보고 평가 대상, 카나리 유형·운영 모드, 사람 기준표, 검토량, 순위·동률 규칙, 비용 집계 방식을 고정한다. 카나리 신호는 기업·오류 유형에 붙인다. 양측이 수용한 실제 항목은 유효 카나리를 둘 다 놓쳤을 때 사람 검토 순위를 올린다.</li>
+<li><strong>W13~W14.</strong> 새 평가 기업에서 같은 A0 보고서와 같은 사람 검토량으로 A0+B와 A0+B+카나리를 비교한다. 목록 밖까지 포함해 실제 중대 쟁점의 누락을 채점하고, 기업 단위 짝 비교와 비용을 보고한다. 평가용 심은 쟁점을 추가하면 자연 쟁점 결과와 별도로 집계한다. 자동 통과는 새 기업의 검증 이후에 검토할 과제다.</li>
+</ol>
+<p><a href="../update%20plan/A1_설계플로우_일치자격검사_v3.md">A1 설계 v3</a>, <a href="IPO_후속작업_상세계획.md">후속 상세계획</a></p>
+</article><footer><a href="IPO_파일럿보완_A0_상세설계.md">설계 원본</a><a href="../ipo_agent_eval/reports/a0_implementation/final_delivery_check.json">D0~D6 검토 기록</a></footer></main></div><script>document.getElementById('print').addEventListener('click',()=>window.print());</script></body></html>
