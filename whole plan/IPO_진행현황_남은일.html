@@ -30,10 +30,10 @@
   <nav aria-label="문서 목차">
     <a href="#project"><span>01</span>연구 목적과 질문</a><a href="#architecture"><span>02</span>전체 프로젝트 구조</a><a href="#overview"><span>03</span>현재 위치·완료한 일</a><a href="#results"><span>04</span>최신 실행 결과</a><a href="#next"><span>05</span>다음 설계 작업</a><a href="#remaining"><span>06</span>끝까지 남은 일</a><a href="#evidence"><span>07</span>검토 현황과 근거</a>
   </nav>
-  <div class="side-bottom"><strong>실행 기준 2026.11.13<br>설계 갱신 2026.11.23</strong>v0.4.3-dev · 사용자 요청으로 중단<br>담당 규리 · Codex 지원</div>
+  <div class="side-bottom"><strong>실행 기준 2026.11.13<br>설계 갱신 2026.11.24</strong>v0.4.3-dev · 사용자 요청으로 중단<br>담당 규리 · Codex 지원</div>
 </aside>
 <main id="main">
-  <div class="topbar"><span>PROJECT OVERVIEW · 2026년 11월 23일</span><div class="actions"><button class="button" id="expand" type="button" aria-expanded="false">상세 모두 펼치기</button><button class="button" id="print" type="button">인쇄 / PDF 저장</button></div></div>
+  <div class="topbar"><span>PROJECT OVERVIEW · 2026년 11월 24일</span><div class="actions"><button class="button" id="expand" type="button" aria-expanded="false">상세 모두 펼치기</button><button class="button" id="print" type="button">인쇄 / PDF 저장</button></div></div>
   <section class="hero" id="project" aria-labelledby="title">
     <div class="eyebrow">먼저, 이 프로젝트는 무엇인가</div>
     <h1 id="title">두 AI가 공모가 산정에 동의했을 때<br><span>무엇을 다시 확인할까?</span></h1>
@@ -72,7 +72,7 @@
     </ol>
     <p class="note">개발 기업에서 문제를 찾고 고친 뒤, 설정을 고정하고 보지 않은 평가 기업에서 효과를 확인합니다. 마지막에는 결과표·실행 기록·분석 코드·한계를 담은 보고서를 남깁니다.</p>
     <details class="asset-map"><summary>문서·코드·자료는 어디에 연결되어 있나</summary><dl>
-      <div><dt>연구를 정하는 문서</dt><dd><code>whole plan/</code>제안서·설계서·프로토콜·할 일 목록이 목적과 비교 규칙을 정합니다. 후속 설계는 <a href="../update%20plan/A1_설계플로우_일치자격검사_v4.md">A1 설계 v4</a>를 기준으로 삼습니다.</dd></div>
+      <div><dt>연구를 정하는 문서</dt><dd><code>whole plan/</code>제안서·설계서·프로토콜·할 일 목록이 목적과 비교 규칙을 정합니다. 후속 설계는 <a href="../update%20plan/updateplan.md">A1 설계 v5</a>를 기준으로 삼습니다.</dd></div>
       <div><dt>실제로 실행하는 프로그램</dt><dd><code>ipo_agent_eval/ipo_eval/ · config/ · prompts/</code>B·A0와 공통 계약·계산기·도구를 구현했습니다. 현재 버전은 0.4.3-dev이며 A1은 미구현입니다.</dd></div>
       <div><dt>입력과 정답 근거</dt><dd><code>ipo_agent_eval/data/</code>공개 입력과 공통 방법서를 준비하고, 채점 기준표는 모델 입력과 분리합니다.</dd></div>
       <div><dt>무슨 일이 있었는지 남기는 기록</dt><dd><code>ipo_agent_eval/runs/ · reports/ · tests/</code>실제 요청·답변·계산·사용량, 채점과 검증 결과, 회귀 검사를 보관합니다.</dd></div>
@@ -136,16 +136,16 @@
       <article><span class="tag blue">독립 검토자 B</span><h3 style="margin-top:10px">주관사의 선택을 가린 후보 자료</h3><p>A0는 원본과 각 변형본을 각각 새 세션에서 순서를 섞어 검토합니다. B는 독립적으로 선별한 후보군 전체를 한 번 검토하고, 채점기가 고정한 B 답변을 각 A0 답변에 연결합니다. 문서명·메타데이터·검색 결과·인접 쪽의 단서를 점검합니다.</p></article>
       <article><span class="tag gray">이전 개발 작업 · 보류</span><h3 style="margin-top:10px">v0.4.3 실행·검토 기록</h3><p>HDMS 2회 제출, 멜콘 2회 중단, 그 외 8회 미착수가 기록돼 있습니다. 이전 배치의 재개와 남은 실행·종합 검토는 보류 중입니다. A1 파일럿의 자료와 기준은 기존 기록에서 준비합니다.</p></article>
     </div>
-    <p class="note"><a href="../update%20plan/A1_설계플로우_일치자격검사_v4.md">A1 설계 v4 · 파일럿 순서와 진행 기준</a> · <a href="../update%20plan/ipo-a1-experiment-explained.html">A1 실험 흐름 예시</a></p>
+    <p class="note"><a href="../update%20plan/updateplan.md">A1 설계 v5 · 파일럿 순서와 진행 기준</a> · <a href="../update%20plan/updateplan.html">A1 실험 흐름 예시</a></p>
   </section>
 
   <section class="section" id="remaining" aria-labelledby="remaining-title">
     <div class="section-top"><span class="number">06</span><h2 id="remaining-title">최종 보고서까지 남은 일</h2></div>
     <p class="section-intro">개발 기업에서 A1의 절차를 검증하고, 진행 판단을 마친 뒤 본 평가 규칙을 사전등록합니다.</p>
     <div class="roadmap">
-      <article class="road-step"><div class="step-index">1</div><details open><summary><span class="step-title"><span class="step-code">W11 · A1 파일럿</span>사실·계산 검사, 독립 검토, 카나리 연결</span></summary><p>A0 원본에 등록값 재계산과 독립 원문 대조 결과를 따로 붙입니다. 한 기업에서 작동을 확인한 뒤 세 기업에서 각각 원본 1건·같은 세부 유형의 서로 다른 현실적 카나리 2건·정상 대조 1건을 검토합니다. 보정은 A0 12회와 B 3회입니다. 유효 카나리 짝 5/6 이상, 유효 정상 대조 3/3, 근거 없는 경고가 나온 정상 대조 1/3 이하, 공동 미탐과 한 명 이상 탐지 각각 1건 이상을 확인합니다. 적어도 한 기업·세부 유형에서 유효 짝 2개 이상과 공동 미탐률 50% 이상의 신호로 추가 K 목록이 실제 바뀌어야 합니다.</p><div class="deliver"><b>완료 기준</b>작동 확인과 보정 결과, 정보 가림 점검, 절차 통과와 본 평가 가능성 판단</div></details></article>
+      <article class="road-step"><div class="step-index">1</div><details open><summary><span class="step-title"><span class="step-code">W11 · A1 파일럿</span>사실·계산 검사, 독립 검토, 카나리 연결</span></summary><p>A0 원본에 등록값 재계산과 독립 원문 대조 결과를 따로 붙입니다. 세 기업의 기본 보정은 A0 12회와 B1 3회입니다. 유효 카나리 짝 5/6 이상, 유효 정상 대조 3/3, 근거 없는 경고가 나온 정상 대조 1/3 이하, 공동 미탐과 한 명 이상 탐지 각각 1건 이상을 확인합니다. 적어도 한 기업·세부 유형의 B1 신호로 추가 K 목록이 실제 바뀌어야 합니다.</p><p>후보 순서만 바꾼 B2를 기업당 한 번 추가해 재시도 전 18회로 보정합니다. 같은 A0 답변·원본·K로 공동 미탐률과 추가 목록을 다시 계산해 B1과 비교합니다. 추가 목록이 한 건이라도 바뀌면 원인을 검토합니다.</p><div class="deliver"><b>완료 기준</b>작동 확인과 보정 결과, 정보 가림 점검, 절차 통과와 본 평가 가능성 판단</div></details></article>
       <article class="road-step"><div class="step-index">2</div><details><summary><span class="step-title"><span class="step-code">W09 후속 · 개발 6 / 평가 후보 12 분리</span>평가 후보의 최초 신고서와 사람 기준표 완성</span></summary><p>기존 후보의 적격성을 최초 신고서에서 재확인합니다. 접수번호·KST 공개시각·해시와 허용 자료를 고정합니다. 같은 날 공개시각이 미확인인 자료는 모델 입력에서 제외하고, 후속 정정본은 사후 대조에 씁니다.</p><div class="deliver"><b>완료 기준</b>기업별 허용 입력·자료 마감·비공개 기준표·포함 및 제외 근거</div></details></article>
-      <article class="road-step"><div class="step-index">3</div><details><summary><span class="step-title"><span class="step-code">W12 · 사전등록</span>중대 기준·정렬·검토량과 예산 고정</span></summary><p>기업별 공통 필수 검토와 추가 수를 양쪽에 똑같이 적용합니다. 추가 수는 K와 남은 항목 수 중 작은 값입니다. 원본 항목 ID, 가격 기준값과 대안, 중대 판정, 오류 세부 유형 연결, 표본·모드·예산을 고정합니다. 기업·판단 유형별로 정한 표본은 두 사람이 공동 카나리 검증 전에 각자 원본을 채점하고, 해소되지 않은 불일치를 판정 유보로 남깁니다.</p><div class="deliver"><b>완료 기준</b>사전등록, 고정 버전·해시 목록, 시행 규칙과 예산</div></details></article>
+      <article class="road-step"><div class="step-index">3</div><details><summary><span class="step-title"><span class="step-code">W12 · 사전등록</span>중대 기준·정렬·검토량과 예산 고정</span></summary><p>기업별 공통 필수 검토와 추가 수를 양쪽에 똑같이 적용합니다. 추가 수는 K와 남은 항목 수 중 작은 값입니다. 원본 항목 ID, 가격 기준값과 대안, 중대 판정, 표본·모드·예산을 고정합니다. 원문 근거로 정한 항목과 하위 유형의 연결, 기업별 시험 유형 배정은 사람 기준표 열람 전에 고정합니다. 기업·판단 유형별 표본은 두 사람이 공동 카나리 검증 전에 각자 원본을 채점하고, 해소되지 않은 불일치를 판정 유보로 남깁니다.</p><div class="deliver"><b>완료 기준</b>사전등록, 고정 버전·해시 목록, 시행 규칙과 예산</div></details></article>
       <article class="road-step"><div class="step-index">4</div><details><summary><span class="step-title"><span class="step-code">W13 · 본 실행과 채점</span>같은 원본에서 두 검토 목록 비교</span></summary><p>두 목록에 같은 A0 원본·독립 B 원본 판단·사실과 계산 검사를 씁니다. 해당 기업·세부 유형의 서로 다른 유효 카나리 짝이 2개 이상이고 공동 미탐률이 50% 이상이면 두 AI가 모두 수용한 해당 항목을 올립니다. 유효 짝은 양쪽 응답이 채점 가능한 경우입니다. 나머지는 기본 순위를 적용합니다. 같은 순위에서 가격 영향이 큰 항목을 먼저 두고 미확인은 뒤로, 동률은 항목 ID 순으로 정렬합니다.</p><div class="deliver"><b>완료 기준</b>동일 검토량의 두 목록, 양쪽 판단·근거·가격 영향, 전체 실제 항목 채점</div></details></article>
       <article class="road-step"><div class="step-index">5</div><details><summary><span class="step-title"><span class="step-code">W14 · 분석과 보고</span>기업별 실제 누락·비용·한계 보고</span></summary><p>사람은 목록 안팎을 채점합니다. 기업별 자연 중대 쟁점 누락 건수 차이(기본−카나리)의 평균을 주지표로 삼습니다. 누락 비율, 신호 적용률, 새로 잡힌 쟁점과 밀려난 쟁점도 보고합니다. 평가용 심은 쟁점 회수, 오경보·반복 변동·사람 판정 차이, 실제 사용량과 검토 시간은 별도로 기록합니다.</p><div class="deliver"><b>완료 기준</b>기업 단위 짝 비교 결과, 분석 코드, 재현 자료와 최종 보고서</div></details></article>
     </div>
@@ -155,7 +155,7 @@
         <div class="scope-values"><div><strong id="runs-per-case">5</strong>회<span>기업당 검토 실행</span></div><div><strong id="eval-runs">60</strong>회<span>12곳 검토 실행</span></div><div><strong id="seeded-runs">72</strong>회<span>평가용 심은 쟁점 포함</span></div></div>
         <div class="formula" id="scope-formula">(A0 원본 1건·카나리 2건·정상 대조 1건 + B 1회) × 12기업 = 60회</div>
       </div>
-      <p class="fine">작동 확인은 4회입니다. 개발 3기업의 보정은 15회입니다. 절약 모드의 오경보는 미측정으로 기록합니다. 평가용 심은 쟁점은 기업당 A0 1회를 추가합니다. 반복은 실행한 역할당 1회이며 B를 반복하면 후보군 전체를 검토합니다. 실제 호출·토큰·시간으로 비용을 산정합니다.</p>
+      <p class="fine">작동 확인은 4회입니다. 개발 3기업 보정은 기본 15회와 B2 진단 3회로 재시도 전 18회입니다. 절약 모드의 오경보는 미측정으로 기록합니다. 평가용 심은 쟁점은 기업당 A0 1회를 추가합니다. 실제 호출·토큰·시간으로 비용을 산정합니다.</p>
     </div>
     <div class="owner"><strong>아직 정해야 할 운영 사항</strong><br>개발 보정에서 자료 가림, 카나리 제작 시간, 자연 중대 쟁점 빈도, K 경계의 목록 교체, 비용을 확인해 본 평가 규모와 모드를 정합니다. 채점 역할과 독립 검토자 B의 모델도 확정합니다.</div>
     <div class="finish"><div class="eyebrow">마무리 결과물</div><h3>새 기업의 두 목록과 재현 가능한 비교 결과</h3><p>최초 신고서 입력과 사람 기준표, A0 원본과 검증 기록, 같은 검토량의 두 목록, 자연·심은 쟁점 평가와 비용·한계를 남깁니다. 자동 통과 규칙은 후속 평가에서 충분한 근거가 모이면 검토합니다.</p></div>
@@ -188,8 +188,8 @@
       <a href="../ipo_agent_eval/reports/a0_implementation/D6_failure_handoff.md">실제 실패와 A1 인계표</a>
       <a href="IPO_파일럿보완_A0_상세설계.md">실행한 파일럿 보완·A0 상세설계</a>
       <a href="IPO_후속작업_상세계획.md">W09~W14 후속 작업 상세계획</a>
-      <a href="../update%20plan/A1_설계플로우_일치자격검사_v4.md">A1 설계 v4</a>
-      <a href="../update%20plan/ipo-a1-experiment-explained.html">A1 실험 흐름 예시</a>
+      <a href="../update%20plan/updateplan.md">A1 설계 v5</a>
+      <a href="../update%20plan/updateplan.html">A1 실험 흐름 예시</a>
       <a href="IPO_Experiment_Protocol.html">실험 프로토콜</a>
       <a href="IPO_Project_Design.html">연구 설계서</a>
       <a href="IPO_Proposal.html">연구 목적과 제안서</a>
@@ -197,7 +197,7 @@
     </div>
     <p class="fine">진행 상태는 최신 중단 기록과 검토 manifest를 우선했습니다. 최초 설계 완료 기록과 중간 분석 파일은 당시 버전·시점의 증거입니다. 강제 중단 직전의 배치 체크포인트나 분석 파일에 진행 중으로 남은 행은 최신 중단 기록으로 보완해 읽어야 합니다. 이 HTML 갱신은 새 실험을 수행하지 않았습니다.</p>
   </section>
-  <footer><span>IPO 검토 에이전트 · 진행 브리핑<br>담당 규리 / 자료 정리와 구현·검증 지원 Codex</span><span>실행 기준 2026.11.13 · v0.4.3-dev<br>후속 설계 갱신 2026.11.23<br>사용자 중단 유지 · 전체 검증·독립 사람 채점 미완료</span></footer>
+  <footer><span>IPO 검토 에이전트 · 진행 브리핑<br>담당 규리 / 자료 정리와 구현·검증 지원 Codex</span><span>실행 기준 2026.11.13 · v0.4.3-dev<br>후속 설계 갱신 2026.11.24<br>사용자 중단 유지 · 전체 검증·독립 사람 채점 미완료</span></footer>
 </main>
 </div>
 <script>

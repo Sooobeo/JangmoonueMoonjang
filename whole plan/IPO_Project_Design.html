@@ -29,9 +29,9 @@ details{font-size:13px;color:var(--muted);margin-top:12px}summary{cursor:pointer
 @media(max-width:760px){.layout{display:block}nav{position:relative;height:auto;max-height:260px;border-right:0;border-bottom:1px solid var(--line);padding:20px 24px}nav .doc-label{margin-bottom:14px}main{padding:30px 20px 60px}body{font-size:15px}h1{font-size:26px}h2{font-size:22px}table{min-width:680px}figure{padding:8px}.flow-svg{min-width:540px}figure{overflow-x:auto}pre{padding:16px}}
 @media print{body{background:white;font-size:10pt}.layout{display:block;max-width:none}nav{display:none}main{max-width:none;padding:0}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid;margin-top:28px}h3{break-after:avoid;font-size:13pt}a{color:inherit}table{font-size:9pt}tr{break-inside:avoid}pre{white-space:pre-wrap;background:#f0f3f7;color:#152235;break-inside:avoid}figure{break-inside:avoid;max-height:240mm}.flow-svg{max-height:220mm}details{display:none}.table-wrap{overflow:visible}p,li{orphans:3;widows:3}}
 </style></head><body><div class="layout"><nav aria-label="목차"><div class="nav-title">IPO AGENT EVALUATION</div><div class="doc-label">프로젝트 설계서</div><a href="#section-1">1. 팀원에게 전달할 요약</a><a href="#section-2">2. 처음 읽는 사람을 위한 설명</a><a href="#section-3">3. 프로젝트를 설계한 순서</a><a href="#section-7">4. 업무 후보를 좁힌 이유</a><a href="#section-11">5. 정확한 업무와 자료 범위</a><a href="#section-15">6. 원본 기준표와 채점</a><a href="#section-20">7. 비교 시스템과 공정한 조건</a><a href="#section-21">8. 실행 단계와 프로젝트 흐름</a><a href="#section-22">9. 운영 구조와 Trust</a><a href="#section-23">10. 자료 시점과 사전학습 오염</a><a href="#section-24">11. 작업량과 일정</a><a href="#section-25">12. 완결성과 최종 산출물</a><a href="#section-26">13. 피드백 반영과 문서화 전 검토</a><a href="#section-27">14. 레퍼런스와 사용 범위</a></nav><main id="document-content"><h1 id="section-0">공개 방법론에 기반한 IPO 검토 에이전트 프로젝트 설계서</h1>
-<p><strong>개정일</strong> 2026-11-23, 한국시간 · 초기 설계 2026-10-27<br/>
+<p><strong>개정일</strong> 2026-11-24, 한국시간 · 초기 설계 2026-10-27<br/>
 <strong>현재 상태</strong> 초기 파일럿과 개발 6기업의 고정 절차 B/A0 비교를 수행했다. 최신 v0.4.3 개발 검증 12건은 HD현대마린솔루션 제출·감사 2건 완료, 멜콘 2건 사용자 요청으로 중단, 8건 미착수다. 전체 배치 검증은 미완료이며 A1은 설계·파일럿 준비 단계다.<br/>
-<strong>관련 문서</strong> <a href="IPO_Experiment_Protocol.html">실험 프로토콜</a> · <a href="IPO_진행현황_남은일.html">개발 및 검증 기록</a> · <a href="../update%20plan/A1_설계플로우_일치자격검사_v4.md">A1 설계 v4</a> · <a href="../update%20plan/ipo-a1-experiment-explained.html">실험 예시</a></p>
+<strong>관련 문서</strong> <a href="IPO_Experiment_Protocol.html">실험 프로토콜</a> · <a href="IPO_진행현황_남은일.html">개발 및 검증 기록</a> · <a href="../update%20plan/updateplan.md">A1 설계 v5</a> · <a href="../update%20plan/updateplan.html">실험 예시</a></p>
 <blockquote>
 <p>두 AI가 최초 증권신고서의 공모가 산정근거를 모두 수용했을 때, 같은 수의 항목을 사람이 검토하며 중대 쟁점을 더 많이 찾을 수 있는지 평가한다.</p>
 </blockquote>
@@ -445,8 +445,8 @@ details{font-size:13px;color:var(--muted);margin-top:12px}summary{cursor:pointer
 <li><strong>기존 개발 기록 확보</strong> — 초기 파일럿, 개발·평가 후보 배정, 고정 절차 B/A0 실행과 실제 실패 인계표를 근거로 사용한다. 최신 v0.4.3에서 완료된 두 건과 중단·미착수 기록을 포함한다.</li>
 <li><strong>A1 파일럿 준비</strong> — 개발 기업 한 곳의 최초 신고서와 원본 기준표를 준비하고, 사업모델이 다른 실제 상장사를 활용한 현실적인 카나리와 비슷한 변경량의 정상 대조본을 제작한다. 우선 적용할 유형은 비교기업이다.</li>
 <li><strong>정보 차단과 탐지 검증</strong> — B의 후보군과 허용 목록을 먼저 고정하고, 파일·메타데이터·검색 결과·인접 페이지에 단서가 남았는지 확인한다. A0는 원본과 변형본을 각각 독립 세션에서 순서를 섞어 검토한다. B의 기업별 답변 한 건을 고정해 채점에 쓴다.</li>
-<li><strong>본 평가 진행 판단</strong> — 개발 3기업에서 유효 응답, 공동 미탐과 탐지, 정상 대조 오경보, 그리고 유효 짝 2개 이상과 공동 미탐률 50% 이상인 신호로 추가 K 목록이 바뀐 기업이 있는지 확인한다. 자연 쟁점 빈도·작업량·비용을 바탕으로 본 평가 가능성을 별도로 판단한다.</li>
-<li><strong>평가 전 고정과 새 기업 평가</strong> — 모집 범위, 모델·입력·대조 규칙, 중대 기준·순위·K·모드, 카나리 및 기준표를 평가 출력 전에 고정한다. 같은 검토량의 두 목록을 생성한 뒤 목록 안팎을 원본 기준표로 채점한다.</li>
+<li><strong>본 평가 진행 판단</strong> — 개발 3기업에서 B1의 유효 응답, 공동 미탐과 탐지, 정상 대조 오경보, 추가 K 목록 교체를 확인한다. 후보 순서만 바꾼 B2를 기업당 한 번 실행해 같은 A0·원본·K로 공동 미탐률과 목록을 재계산한다. 추가 목록이 한 건이라도 바뀌면 원인을 검토한다. 자연 쟁점 빈도·작업량·비용으로 본 평가 가능성을 판단한다.</li>
+<li><strong>평가 전 고정과 새 기업 평가</strong> — 원문 근거를 바탕으로 원본 항목의 하위 유형 연결과 기업별 시험 유형 배정을 사람 기준표 열람 전에 고정한다. 모집 범위, 모델·입력·대조 규칙, 중대 기준·순위·K·모드와 기준표를 평가 출력 전에 확정한다. 같은 검토량의 두 목록을 생성한 뒤 목록 안팎을 채점한다.</li>
 <li><strong>기업 단위 분석</strong> — 기업별 자연 중대 쟁점 누락 건수 차이(기본−카나리)의 평균과 총 차이, 새로 들어오고 밀려난 항목을 보고한다. 평가용 심은 쟁점에는 B 공통 후보군에 사전 포함된 다른 후보를 쓰고, A0 1회를 추가해 별도 지표로 집계한다.</li>
 </ol>
 <p>개발에서 관찰한 추출·기간·산식 오류는 사실·계산 검사와 연결하고, 해석 실패는 시험 유형과 연결한다. 수정한 평가 버전은 별도 기록한다. <a href="IPO_Experiment_Protocol.html#section-61">개발 실패에서 검사와 카나리로</a></p>
@@ -464,20 +464,22 @@ details{font-size:13px;color:var(--muted);margin-top:12px}summary{cursor:pointer
 <thead><tr><th>모드</th><th>사례당 A0·B 검토 실행 예시</th></tr></thead>
 <tbody>
 <tr><td>작동 확인</td><td>A0 원본·카나리·정상 대조 각 1건과 B 1회, 총 4회</td></tr>
-<tr><td>평가 기본 구성</td><td>A0 원본 1건·같은 하위 유형의 현실적 카나리 2건·정상 대조 1건과 B 1회, 총 5회. 개발 기업 3곳의 보정은 15회</td></tr>
+<tr><td>평가 기본 구성</td><td>A0 원본 1건·같은 하위 유형의 현실적 카나리 2건·정상 대조 1건과 B1 1회, 총 5회</td></tr>
+<tr><td>개발 3기업 보정</td><td>기본 15회와 후보 순서 진단 B2 3회를 합쳐 재시도 전 18회</td></tr>
 <tr><td>정밀</td><td>기본 구성에 A0 카나리 1건 추가, 총 6회. 하위 유형별 상향에는 유효 짝 2개 이상 필요</td></tr>
 <tr><td>절약</td><td>A0 원본 1건·같은 하위 유형의 현실적 카나리 2건과 B 1회, 총 4회. 정상 대조 오경보율은 미측정</td></tr>
 <tr><td>변동성 진단</td><td>반복한 역할당 1회 추가. B를 반복하면 후보군 전체를 검토</td></tr>
 <tr><td>평가용 심은 쟁점 추가</td><td>기업마다 A0 1회 추가. 검증용 비용으로 계상</td></tr>
 </tbody></table></div>
 <p>한 검토 실행에는 여러 호출이 포함될 수 있다. 모델·도구 호출, 토큰, 소요 시간·비용을 기록하고, 필요하면 같은 모델 비용의 A0 반복을 보조로 비교한다. 원본 기준표는 B 입력·변형본 제작과 분리한다. 독립 검토자 B의 다른 제공사 모델 사용 여부, 평가 규모·기간과 채점 표본은 파일럿을 거쳐 확정한다.</p>
+<p>선택 보조 비교로 고정한 A0·B1 원본 답변의 자기 확신도를 각각 별도 호출로 받을 수 있다. 두 점수에서 낮은 값을 사용해 공동 수용 항목을 상향하며, 같은 필수 항목과 K로 비교하고 추가 호출 2회의 비용을 기록한다.</p>
 <h2 id="section-25">12. 완결성과 최종 산출물</h2>
 <p>프로젝트는 새 평가 기업에서 두 목록을 비교하고, 검토량·근거·남은 중대 쟁점·비용을 재현할 수 있게 기록하는 데까지 진행한다.</p>
 <p>최종 묶음은 최초 공시와 변형본의 출처·해시, 비공개 기준표와 사전 고정 규칙, A0 원본 및 검증 기록, 동등한 검토량의 두 목록, 목록 안팎 채점 근거, 기업별 차이·비용·실패·한계를 포함한다.</p>
 <p>발표는 문제 → IPO 업무와 공개자료 범위 → 평가 방법과 시스템 비교 → 실패와 개선 → 어디까지 맡길 수 있는가 순서로 설명한다. 이전 가상 투자 시뮬레이터는 이번 IPO 설계로 대체하고 과정 품질·검사기 평가 관점을 이어 간다.</p>
 <p><strong>제목 제안:</strong> 공개 가치평가 방법론에 기반한 IPO 검토 에이전트의 성능 및 추가 검토 조건 평가</p>
 <h2 id="section-26">13. 피드백 반영과 문서화 전 검토</h2>
-<p>2026-11-22 A1 설계 v3에서 검토 순위에 연구 질문을 집중했다. 2026-11-23 v4에서 후보군 정보 차단, 유효 카나리 집계, 원본 항목 정렬과 본 평가 진행 판단 기준을 정했다. 자연 쟁점과 평가용 심은 쟁점은 결과표를 나눈다. 아래는 초기 v2 설계 당시의 점검 기록이다.</p>
+<p>2026-11-22 A1 설계 v3에서 검토 순위에 연구 질문을 집중했다. 2026-11-23 v4에서 후보군 정보 차단, 유효 카나리 집계, 원본 항목 정렬과 본 평가 진행 판단 기준을 정했다. 2026-11-24 v5에서 후보 순서 진단과 원문 근거에 따른 사전 배정을 보강했다. 아래는 초기 v2 설계 당시의 점검 기록이다.</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
