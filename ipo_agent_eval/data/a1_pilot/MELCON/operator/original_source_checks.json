@@ -1,0 +1,58 @@
+{
+  "source_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+  "physical_pdf_pages": 433,
+  "original_items": 11,
+  "repeat_sample_count": 6,
+  "source_crosschecks": {
+    "close_price_observations_per_peer": 20,
+    "reference_prices_krw": [
+      36373,
+      5517
+    ],
+    "disclosed_per": [
+      "34.92",
+      "17.45"
+    ],
+    "reconstructed_per_from_displayed_inputs": [
+      "34.91896252055945034819835058",
+      "17.44488819144762652020400157"
+    ],
+    "shares": 12735000,
+    "price_from_displayed_equity_krw": "14173.30192383195916764821358",
+    "published_price_krw": 14173,
+    "offer_band_krw": [
+      10700,
+      12300
+    ]
+  },
+  "alternative_basis": "M02·M03·M04·M07은 공시 표시 정밀도의 근사치. 두 수의 평균과 중앙값은 같아 M06은 공시 원래 가액을 유지한다.",
+  "estimates_from_displayed_inputs": {
+    "M02": {
+      "price_krw": "17952.14544237321535983075536",
+      "absolute_change_from_published_p0": "0.2666440021430336103740037649"
+    },
+    "M03": {
+      "price_krw": "9443.663854875534921891353501",
+      "absolute_change_from_published_p0": "0.3336863151855263584356626331"
+    },
+    "M04": {
+      "price_krw": "18903.12741395656464079147459",
+      "absolute_change_from_published_p0": "0.3337421444970411797637391230"
+    },
+    "M06": {
+      "price_krw": "14173",
+      "absolute_change_from_published_p0": "0"
+    },
+    "M07": {
+      "price_krw": "15778.69874618143778131128996",
+      "absolute_change_from_published_p0": "0.1132927923644562041424744204"
+    }
+  },
+  "original_a0_preflight": {
+    "execution_status": "PREFLIGHT_COMPLETE",
+    "model_calls": 0,
+    "actual_model_answer": false,
+    "run_id": "20261124T075749Z_A0_934ae4c3"
+  },
+  "canonical_pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20260821000368&dcm_no=11546008"
+}

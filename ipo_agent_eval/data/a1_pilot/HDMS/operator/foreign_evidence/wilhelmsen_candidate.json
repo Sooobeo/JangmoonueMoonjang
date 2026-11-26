@@ -1,0 +1,109 @@
+{
+  "company": "Wilh. Wilhelmsen Holding ASA",
+  "status": "operator_research_only_not_a_model_input",
+  "source_date": "2024-02-15",
+  "dated_exchange_copy": "https://live.euronext.com/sites/default/files/company_press_releases/attachments_oslo/2024/02/15/611047_Wilhelmsen%20Q4%202023%20report.pdf",
+  "local_file": "euronext_20240215_fy23.pdf",
+  "file_sha256": "96515d479460090e793fac54f1023a4e020c8cecc79ef41338e0b96b9d864983",
+  "issuer_copy_sha256": "96515d479460090e793fac54f1023a4e020c8cecc79ef41338e0b96b9d864983",
+  "issuer_url": "https://www.wilhelmsen.com/globalassets/investor-relations/quarterly-reportspresentation/wilhelmsen-q4-2023-report.pdf",
+  "pdf_pages_checked": [
+    3,
+    6,
+    25
+  ],
+  "evidence": {
+    "FY2023_group_operating_revenue_USD_m": 1027,
+    "FY2023_profit_to_equity_holders_USD_m": 466,
+    "FY2023_ships_service_total_income_USD_m": 467,
+    "FY2023_business_note": "Ships Service supplies operating merchant fleets. The group also earns profits through equity investments in other shipping businesses; target-specific comparability and complete comparability require separate review.",
+    "share_counts_issued_20231231": {
+      "A": 34000000,
+      "B": 10580000
+    },
+    "treasury_not_deducted": "filing specifies listed shares, not weighted average outstanding shares"
+  },
+  "prices_nok": {
+    "A": {
+      "2024-02-15": 379.0,
+      "2024-02-16": 372.0,
+      "2024-02-20": 371.5,
+      "2024-02-21": 372.0,
+      "2024-02-22": 371.5,
+      "2024-02-23": 380.0,
+      "2024-02-26": 376.5,
+      "2024-02-27": 366.5,
+      "2024-02-28": 374.5,
+      "2024-02-29": 371.0,
+      "2024-03-01": 371.0,
+      "2024-03-04": 370.0,
+      "2024-03-05": 367.5,
+      "2024-03-06": 355.0,
+      "2024-03-07": 351.0,
+      "2024-03-08": 354.5,
+      "2024-03-11": 351.0,
+      "2024-03-12": 356.0,
+      "2024-03-13": 359.0,
+      "2024-03-14": 347.0
+    },
+    "B": {
+      "2024-02-15": 368.0,
+      "2024-02-16": 361.0,
+      "2024-02-20": 359.0,
+      "2024-02-21": 361.0,
+      "2024-02-22": 361.0,
+      "2024-02-23": 364.0,
+      "2024-02-26": 361.0,
+      "2024-02-27": 356.0,
+      "2024-02-28": 360.0,
+      "2024-02-29": 356.0,
+      "2024-03-01": 360.0,
+      "2024-03-04": 355.0,
+      "2024-03-05": 353.0,
+      "2024-03-06": 342.0,
+      "2024-03-07": 331.0,
+      "2024-03-08": 335.0,
+      "2024-03-11": 334.0,
+      "2024-03-12": 336.0,
+      "2024-03-13": 340.0,
+      "2024-03-14": 335.0
+    }
+  },
+  "provider": {
+    "A": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/WWI.OL?period1=1707955200&period2=1710460800&interval=1d",
+      "raw_sha256": "641eff1c3630313ce283e1dda48af41ea9f22c3398e8634d41081b9cb095ecf3",
+      "series": "unadjusted close; 20 dates from filing page 267; current quote metadata omitted"
+    },
+    "B": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/WWIB.OL?period1=1707955200&period2=1710460800&interval=1d",
+      "raw_sha256": "ff413ce039d002d41f34eaf5f2ddf3057876b77512cbd2c0366bd70aabae2fed",
+      "series": "unadjusted close; 20 dates from filing page 267; current quote metadata omitted"
+    }
+  },
+  "reconstructed_cap_NOK": {
+    "day": "15342300000.0",
+    "week": "15573880000",
+    "month": "16155862000",
+    "chosen": "15342300000.0"
+  },
+  "reference_fx": {
+    "central_bank_url": "https://data.norges-bank.no/api/data/EXR/B.USD.NOK.SP?startPeriod=2024-03-14&endPeriod=2024-03-14&format=csv",
+    "sha256": "1d2eba5ab153910a945b8ed47c096b5f4af4740918d832b385b09a2f09cf5880",
+    "NOK_per_USD": "10.4961",
+    "preliminary_PER_foreign_fx": "3.136726075203162523517318695"
+  },
+  "same_marketing_date_KRW_cross_check": {
+    "NOK_KRW_source": "HDMS initial filing PDF 269 note 3",
+    "NOK_KRW": "125.20",
+    "USD_KRW": "1312.80",
+    "USD_KRW_source": "https://www.fnnews.com/news/202403140901075734",
+    "USD_KRW_provenance": "Contemporaneous table attributed to Seoul Money Brokerage, not independently confirmed from the direct publisher archive",
+    "PER": "3.139860220790735262963805698"
+  },
+  "pending": [
+    "security master at valuation date and direct exchange closing-price evidence",
+    "matching sector and prior filing selection criteria including acquisition timing and materiality",
+    "business comparability, changes in relative valuation, and exclusion of confounding changes"
+  ]
+}

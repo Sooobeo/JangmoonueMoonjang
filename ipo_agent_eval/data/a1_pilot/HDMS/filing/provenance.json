@@ -1,0 +1,111 @@
+{
+  "case": "HDMS",
+  "retrieved_at_utc": "2026-11-24T07:36:51.486395+00:00",
+  "regulator": "금융감독원 DART",
+  "title": "HD현대마린솔루션/증권신고서(지분증권)/2024.03.25",
+  "receipt_no": "20240325000947",
+  "document_no": "9763381",
+  "version": "initial_equity_registration",
+  "published_local_date": "2024-03-25",
+  "time_zone": "Asia/Seoul",
+  "time_precision": "date",
+  "cutoff_rule": "최초 신고서 본문 및 2024-03-24까지 공개가 입증된 외부자료. 같은 날 외부 자료는 독립적인 공개 순서가 입증될 때에만 사용. 시·분은 확인하지 못함.",
+  "file": "20240325000947.pdf",
+  "sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+  "size_bytes": 8218330,
+  "pdf_pages": 572,
+  "receipt_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240325000947",
+  "pdf_menu_url": "https://dart.fss.or.kr/pdf/download/main.do?rcp_no=20240325000947&dcm_no=9763381",
+  "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240325000947&dcm_no=9763381",
+  "correction_chain_provenance_only": {
+    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240424000217",
+    "records": [
+      {
+        "id": "20240424000217",
+        "caption": "2024.04.24 [발행조건확정] 증권신고서(지분증권)"
+      },
+      {
+        "id": "20240416000187",
+        "caption": "2024.04.16 [정정] 증권신고서(지분증권)"
+      },
+      {
+        "id": "20240405002190",
+        "caption": "2024.04.05 [정정] 증권신고서(지분증권)"
+      },
+      {
+        "id": "20240325000947",
+        "caption": "2024.03.25 증권신고서(지분증권)"
+      }
+    ]
+  },
+  "permitted_use": "A0 원본 입력·원본 사람 채점·운영자 검증. 가림형 B에는 전체 PDF, URL 및 이 기록을 제공하지 않는다.",
+  "source_locations_physical_pdf_1_based": {
+    "cover": 3,
+    "summary": 237,
+    "population_and_financial_filters": [
+      241,
+      242
+    ],
+    "business_similarity_table": 248,
+    "general_filter_and_final_names": [
+      249,
+      250
+    ],
+    "selection_rationales": {
+      "HD한국조선해양": [
+        251
+      ],
+      "ALFA LAVAL AB": [
+        255
+      ],
+      "KONGSBERG GRUPPEN ASA": [
+        260,
+        262
+      ],
+      "WARTSILA OYJ ABP": [
+        265,
+        266
+      ]
+    },
+    "price_method": [
+      267,
+      268
+    ],
+    "per_inputs_and_result": 269,
+    "valuation_and_diluted_shares": 270
+  },
+  "document_facts": {
+    "earnings_basis": "2023년 온기 지배주주지분 순이익 실적치",
+    "earnings_krw_million": 151116,
+    "aggregate": "산술평균",
+    "reported_per": 31.5,
+    "valuation_market_cap_krw_million": 4761293,
+    "diluted_shares": 44870190,
+    "p0_krw": 106113,
+    "indicative_offer_band_krw": [
+      73300,
+      83400
+    ],
+    "base_price_date": "2024-03-14"
+  },
+  "three_review_passes": [
+    {
+      "pass": 1,
+      "check": "제출본 식별",
+      "evidence": "최초 DART 표제·별도 정정 접수의 본문 선택 이력·원본 PDF 표지를 대조. 2024.03.25 단일 비정정 최초 버전. 후속 정정 및 확정 투자설명서 분리.",
+      "result": "pass_date_precision"
+    },
+    {
+      "pass": 2,
+      "check": "다운로드 및 문서 구조",
+      "evidence": "DART 공식 다운로드 메뉴에서 독립 세션으로 PDF를 재수신해 전체 바이트·SHA256 일치 확인. PDF 572쪽, 표지 물리 3쪽 및 인쇄쪽 표기 점검.",
+      "result": "pass"
+    },
+    {
+      "pass": 3,
+      "check": "원문 표와 계산",
+      "evidence": "물리 237·250·269·270쪽을 렌더링하여 이미지에서 열 순서·금액·단위·네 회사 표제를 대조. 시가총액/순이익에서 네 PER의 표시 소수 첫 자리 및 평균 31.5를 재현. 평가시가총액/잠재주식수로 106,113원 반올림 재현.",
+      "result": "pass"
+    }
+  ]
+}

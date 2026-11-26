@@ -1,0 +1,181 @@
+pdf_page_1b,x_pt,y_pt,directory_name,match_level,matched_positions,holding_names,holding_rows,issuer_identity,business_and_financial_eligibility
+38,51,195,90POE,no_lexical_hit,0,,,unverified,unverified
+38,51,484,ACM Bearings Ltd,no_lexical_hit,0,,,unverified,unverified
+38,51,696,ACUA Ocean,no_lexical_hit,0,,,unverified,unverified
+38,219,297,Aerius Marine UK Ltd,no_lexical_hit,0,,,unverified,unverified
+38,219,551,Alfa Laval Ltd.,core_name,1,Alfa Laval AB,364:21,documented_group_link,unverified
+38,387,189,Allan Webb Ltd,no_lexical_hit,0,,,unverified,unverified
+38,387,468,Aluminium Marine Consultants,no_lexical_hit,0,,,unverified,unverified
+38,387,687,Anemoi Marine Technologies,no_lexical_hit,0,,,unverified,unverified
+39,57,318,APCL Group,no_lexical_hit,0,,,unverified,unverified
+39,57,586,Aquatec Group,no_lexical_hit,0,,,unverified,unverified
+39,225,271,Artemis Technologies,no_lexical_hit,0,,,unverified,unverified
+39,225,550,Astute Group,no_lexical_hit,0,,,unverified,unverified
+39,393,176,ATLAS ELEKTRONIK UK Ltd,prefix_only,3,Atlas Arteria Ltd. | Atlas Copco AB Class A | Atlas Copco AB Class B,199:4 | 364:7 | 364:16,unverified,unverified
+39,393,463,AutoNaut Ltd,no_lexical_hit,0,,,unverified,unverified
+40,51,169,Babcock International,core_name,1,Babcock International Group plc,394:27,unverified,unverified
+40,219,169,BAE Systems – Maritime Services,prefix_only,1,BAE Systems plc,391:20,unverified,unverified
+40,219,344,BAE Systems – Naval Ships,prefix_only,1,BAE Systems plc,391:20,unverified,unverified
+40,219,465,BAE Systems – Maritime Microwave Materials,prefix_only,1,BAE Systems plc,391:20,unverified,unverified
+40,219,612,BAE Systems – Submarines,prefix_only,1,BAE Systems plc,391:20,unverified,unverified
+40,387,179,Beckett Rankine,no_lexical_hit,0,,,unverified,unverified
+40,387,471,Blue Deep International Ltd,prefix_only,4,Blue Moon Group Holdings Ltd. | Blue Sail Medical Co. Ltd. Class A | Blue Star Ltd. | Blue Dart Express Ltd.,242:14 | 277:5 | 294:47 | 299:10,unverified,unverified
+41,57,185,BMT Group Ltd,no_lexical_hit,0,,,unverified,unverified
+41,57,455,BMZ Innovation Group Ltd,no_lexical_hit,0,,,unverified,unverified
+41,225,198,BP Exploration Operating Company Ltd,no_lexical_hit,0,,,unverified,unverified
+41,225,505,Briggs Marine,no_lexical_hit,0,,,unverified,unverified
+41,393,189,Brooksbank Valves Ltd,no_lexical_hit,0,,,unverified,unverified
+41,393,470,Cellnex,prefix_only,1,Cellnex Telecom SA,362:46,unverified,unverified
+42,51,182,"Centre for Future Clean Mobility, University of Exeter",no_lexical_hit,0,,,unverified,unverified
+42,51,525,Chelsea Technologies Ltd,no_lexical_hit,0,,,unverified,unverified
+42,219,190,Chess Dynamics,no_lexical_hit,0,,,unverified,unverified
+42,219,218,Vision4ce,no_lexical_hit,0,,,unverified,unverified
+42,219,254,Naval Systems,no_lexical_hit,0,,,unverified,unverified
+42,219,491,Chesterfield Special Cylinders Ltd,no_lexical_hit,0,,,unverified,unverified
+42,387,170,Clyde & Co LLP,no_lexical_hit,0,,,unverified,unverified
+42,387,416,Clyde Marine Training,no_lexical_hit,0,,,unverified,unverified
+42,387,705,Coltraco Ultrasonics,no_lexical_hit,0,,,unverified,unverified
+43,57,367,Colebrook Offshore,no_lexical_hit,0,,,unverified,unverified
+43,57,596,The Crown Estate,no_lexical_hit,0,,,unverified,unverified
+43,225,192,CU Phosco Lighting,no_lexical_hit,0,,,unverified,unverified
+43,225,473,Cummins,core_name,1,Cummins Inc.,401:8,unverified,unverified
+43,393,186,CyberOwl,no_lexical_hit,0,,,unverified,unverified
+43,393,418,DC Electronics,no_lexical_hit,0,,,unverified,unverified
+44,51,188,Dendrityca Ltd,no_lexical_hit,0,,,unverified,unverified
+44,51,426,DESMI Ltd.,no_lexical_hit,0,,,unverified,unverified
+44,51,714,Drewry,no_lexical_hit,0,,,unverified,unverified
+44,219,289,Ductform HFE,no_lexical_hit,0,,,unverified,unverified
+44,219,515,Duodrive,no_lexical_hit,0,,,unverified,unverified
+44,387,189,Dynautics,no_lexical_hit,0,,,unverified,unverified
+44,387,496,Echandia,no_lexical_hit,0,,,unverified,unverified
+45,57,185,Ecomar Propulsion Ltd,no_lexical_hit,0,,,unverified,unverified
+45,57,478,Eminox Ltd,no_lexical_hit,0,,,unverified,unverified
+45,225,195,Ensemble Analytics,no_lexical_hit,0,,,unverified,unverified
+45,225,497,EQUANS Axima,no_lexical_hit,0,,,unverified,unverified
+45,393,198,European Active Projects Ltd,no_lexical_hit,0,,,unverified,unverified
+45,393,477,European Diesel Services Ltd,no_lexical_hit,0,,,unverified,unverified
+46,219,304,First Marine International – A Company of Royal HaskoningDHV,no_lexical_hit,0,,,unverified,unverified
+46,219,549,Flowserve,core_name,1,Flowserve Corp.,412:40,unverified,unverified
+46,387,182,Foreshore Technology Ltd,no_lexical_hit,0,,,unverified,unverified
+46,387,428,Frazer-Nash Consultancy Ltd,no_lexical_hit,0,,,unverified,unverified
+46,387,714,Frequentis UK Ltd,no_lexical_hit,0,,,unverified,unverified
+46,51,178,Evica Ltd,no_lexical_hit,0,,,unverified,unverified
+46,51,446,EwePack,no_lexical_hit,0,,,unverified,unverified
+46,51,670,Ferguson Marine (Port Glasgow) Ltd,prefix_only,1,Ferguson plc,391:24,unverified,unverified
+47,57,355,GE Power Conversion UK,no_lexical_hit,0,,,unverified,unverified
+47,57,688,Griffon Hoverwork,prefix_only,1,Griffon Corp.,424:11,unverified,unverified
+47,225,325,H2NA Ltd,no_lexical_hit,0,,,unverified,unverified
+47,225,559,HamiltonJet UK,no_lexical_hit,0,,,unverified,unverified
+47,393,178,Harland & Wolff,no_lexical_hit,0,,,unverified,unverified
+47,393,446,HENSOLDT UK,prefix_only,1,Hensoldt AG,284:35,unverified,unverified
+48,51,167,Houlder Ltd,no_lexical_hit,0,,,unverified,unverified
+48,51,441,HR Wallingford,no_lexical_hit,0,,,unverified,unverified
+48,219,182,ICE Marine Design (International Contract Engineering Ltd),no_lexical_hit,0,,,unverified,unverified
+48,219,449,IMI Truflo Marine,no_lexical_hit,0,,,unverified,unverified
+48,387,198,Intermarine UK,no_lexical_hit,0,,,unverified,unverified
+48,387,496,JD Marine,no_lexical_hit,0,,,unverified,unverified
+49,57,197,Jo Bird Company Ltd,no_lexical_hit,0,,,unverified,unverified
+49,57,504,Johnson Controls,prefix_only,1,Johnson Controls International plc,400:31,unverified,unverified
+49,225,183,Kawasaki Precision Machinery (UK) Ltd,prefix_only,2,Kawasaki Kisen Kaisha Ltd. | Kawasaki Heavy Industries Ltd.,309:5 | 311:20,unverified,unverified
+49,225,550,Kinsetsu,no_lexical_hit,0,,,unverified,unverified
+49,393,187,Kort Propulsion Co Ltd,no_lexical_hit,0,,,unverified,unverified
+49,393,523,Kongsberg Maritime Ltd,prefix_only,1,Kongsberg Gruppen ASA,341:45,unverified,unverified
+50,51,179,L3Harris MAPPS Ltd,prefix_only,1,L3Harris Technologies Inc.,400:33,unverified,unverified
+50,51,500,Leonardo UK Ltd,prefix_only,1,Leonardo SpA,305:10,unverified,unverified
+50,219,204,Liberty Collins Ltd,prefix_only,13,Liberty Media Corp. - Liberty Formula One Class C | Liberty Broadband Corp. Class C | Liberty Global plc Class C | Liberty Media Corp. - Liberty SiriusXM Class C | Liberty Energy Inc. | Liberty Media Corp. - Liberty SiriusXM Class A | Liberty Global plc Class A | Liberty Broadband Corp. Class A | Liberty Media Corp. - Liberty Live Class C | Liberty Media Corp. - Liberty Formula One Class A | Liberty Media Corp. - Liberty Live Class A | Liberty Latin America Ltd. Class C | Liberty Latin America Ltd. Class A,405:13 | 406:39 | 412:17 | 416:14 | 416:40 | 420:23 | 423:25 | 426:43 | 427:2 | 427:45 | 430:7 | 431:39 | 431:40,unverified,unverified
+50,219,461,Liverpool John Moores University,no_lexical_hit,0,,,unverified,unverified
+50,387,199,Lloyd's Register,no_lexical_hit,0,,,unverified,unverified
+50,387,474,Lockheed Martin UK Holdings Ltd,prefix_only,1,Lockheed Martin Corp.,397:33,unverified,unverified
+51,57,190,Macduff Ship Design Ltd,no_lexical_hit,0,,,unverified,unverified
+51,57,457,"MacTaggart, Scott & Company Ltd",no_lexical_hit,0,,,unverified,unverified
+51,225,179,Malin Group,no_lexical_hit,0,,,unverified,unverified
+51,225,464,Marico Marine Group,prefix_only,1,Marico Ltd.,292:41,unverified,unverified
+51,393,199,Marine Components International Ltd,no_lexical_hit,0,,,unverified,unverified
+51,393,509,Marine Data Systems,no_lexical_hit,0,,,unverified,unverified
+52,51,205,Marine Resources Recruitment,no_lexical_hit,0,,,unverified,unverified
+52,51,485,Moffatt & Nichol,no_lexical_hit,0,,,unverified,unverified
+52,219,187,MPCC UK Ltd,no_lexical_hit,0,,,unverified,unverified
+52,219,483,National Oceanography Centre,no_lexical_hit,0,,,unverified,unverified
+52,387,183,Navantia UK LTD,no_lexical_hit,0,,,unverified,unverified
+52,387,496,Navitron Systems Ltd,no_lexical_hit,0,,,unverified,unverified
+53,57,202,NAVSYSTEMS IOM Ltd,no_lexical_hit,0,,,unverified,unverified
+53,57,407,Nectar Group Ltd,no_lexical_hit,0,,,unverified,unverified
+53,57,687,Newcastle University,no_lexical_hit,0,,,unverified,unverified
+53,225,281,Nivalis-Tech Limited,no_lexical_hit,0,,,unverified,unverified
+53,225,586,Nortek UK,no_lexical_hit,0,,,unverified,unverified
+53,393,175,Northrop Grumman,core_name,1,Northrop Grumman Corp.,398:27,unverified,unverified
+53,393,541,O.S. Energy,no_lexical_hit,0,,,unverified,unverified
+54,51,228,OCEA Shipbuilding (UK) Ltd / Wight Shipyard Company Ltd,no_lexical_hit,0,,,unverified,unverified
+54,51,532,Ocean Business,no_lexical_hit,0,,,unverified,unverified
+54,219,172,Oceanic Engineering Consultants,no_lexical_hit,0,,,unverified,unverified
+54,219,432,Oceanology International,no_lexical_hit,0,,,unverified,unverified
+54,387,196,OceanWise Limited,no_lexical_hit,0,,,unverified,unverified
+54,387,498,Offshore Operations Ltd,prefix_only,1,Offshore Oil Engineering Co. Ltd. Class A,251:14,unverified,unverified
+55,57,196,P&S Automation Ltd,no_lexical_hit,0,,,unverified,unverified
+55,57,465,PG Products Ltd,no_lexical_hit,0,,,unverified,unverified
+55,225,176,Pilgrim International Ltd,prefix_only,1,Pilgrim's Pride Corp.,428:8,unverified,unverified
+55,225,445,Planet Ocean Ltd,prefix_only,1,Planet Fitness Inc. Class A,412:26,unverified,unverified
+55,225,696,PML Applications Ltd,no_lexical_hit,0,,,unverified,unverified
+55,393,294,Polaris Public Relations,prefix_only,2,Polaris Group | Polaris Inc.,375:8 | 412:27,unverified,unverified
+55,393,554,Port of Tyne,no_lexical_hit,0,,,unverified,unverified
+56,51,175,Portia Management Services Ltd,no_lexical_hit,0,,,unverified,unverified
+56,51,462,Primary Networks,prefix_only,1,Primary Health Properties plc,394:16,unverified,unverified
+56,219,192,Protea Ltd,no_lexical_hit,0,,,unverified,unverified
+56,219,493,PSM Instrumentation Ltd,no_lexical_hit,0,,,unverified,unverified
+56,387,172,QinetiQ,core_name,1,QinetiQ Group plc,393:30,unverified,unverified
+56,387,451,Quality Monitoring Instruments Ltd,prefix_only,1,Quality Houses PCL,384:18,unverified,unverified
+57,57,187,RAB Microfluidics,no_lexical_hit,0,,,unverified,unverified
+57,57,479,Rivertrace Limited,no_lexical_hit,0,,,unverified,unverified
+57,225,174,Robosys Automation,no_lexical_hit,0,,,unverified,unverified
+57,225,503,Rockabill Marine Design,no_lexical_hit,0,,,unverified,unverified
+57,393,209,Rolls-Royce PLC,core_name,1,Rolls-Royce Holdings plc,391:33,documented_group_link,unverified
+57,393,534,Roxtec Ltd,no_lexical_hit,0,,,unverified,unverified
+58,51,201,Royal HaskoningDHV UK Limited,no_lexical_hit,0,,,unverified,unverified
+58,51,483,RS Aqua,no_lexical_hit,0,,,unverified,unverified
+58,219,199,Safeguard Engineering,no_lexical_hit,0,,,unverified,unverified
+58,219,509,Sea-Kit International Limited,no_lexical_hit,0,,,unverified,unverified
+58,387,195,SeaBot Maritime Ltd,no_lexical_hit,0,,,unverified,unverified
+58,387,435,Seawork,no_lexical_hit,0,,,unverified,unverified
+59,57,203,Seetru Ltd,no_lexical_hit,0,,,unverified,unverified
+59,57,500,Serco Ltd,core_name,1,Serco Group plc,393:35,documented_group_link,unverified
+59,225,184,Solar Solve Limited,prefix_only,2,Solar Industries India Ltd. | Solar Applied Materials Technology Corp.,294:42 | 376:27,unverified,unverified
+59,225,443,Somers Forge Ltd,no_lexical_hit,0,,,unverified,unverified
+59,393,173,Sonardyne International Ltd,no_lexical_hit,0,,,unverified,unverified
+59,393,449,NRG Marine Ltd (Sonihull),no_lexical_hit,0,,,unverified,unverified
+59,393,531,NRG Marine General Trading LLC Sonihull Operation Centre,no_lexical_hit,0,,,unverified,unverified
+60,51,179,Southampton Marine and Maritime Institute,no_lexical_hit,0,,,unverified,unverified
+60,51,526,Spinlock Ltd,no_lexical_hit,0,,,unverified,unverified
+60,219,199,Stehr Consulting Ltd,no_lexical_hit,0,,,unverified,unverified
+60,219,534,Stone Marine Propulsion,no_lexical_hit,0,,,unverified,unverified
+60,387,187,STS Marine Solutions,no_lexical_hit,0,,,unverified,unverified
+60,387,456,SubSea Craft Ltd,prefix_only,1,Subsea 7 SA,341:43,unverified,unverified
+61,57,187,SyScada Dynamic Engineering,no_lexical_hit,0,,,unverified,unverified
+61,57,514,Systems Engineering & Assessment Limited (SEA),prefix_only,1,Systems Ltd.,342:47,unverified,unverified
+61,225,178,Teignbridge Propellers Int Ltd,no_lexical_hit,0,,,unverified,unverified
+61,225,434,Templar Executives,no_lexical_hit,0,,,unverified,unverified
+61,393,172,Thales,core_name,1,Thales SA,280:49,unverified,unverified
+61,393,499,Tony Team Ltd,no_lexical_hit,0,,,unverified,unverified
+62,51,188,Tor Group,no_lexical_hit,0,,,unverified,unverified
+62,51,424,Twiflex Limited,no_lexical_hit,0,,,unverified,unverified
+62,219,198,UK Hydrographic Office,no_lexical_hit,0,,,unverified,unverified
+62,219,468,Ultimate Boats,no_lexical_hit,0,,,unverified,unverified
+62,387,176,University College London,no_lexical_hit,0,,,unverified,unverified
+62,387,415,University of Plymouth,no_lexical_hit,0,,,unverified,unverified
+63,57,191,University of Strathclyde,no_lexical_hit,0,,,unverified,unverified
+63,57,511,Valeport,no_lexical_hit,0,,,unverified,unverified
+63,225,175,Valmet Ltd,core_name,1,Valmet OYJ,279:49,unresolved_member_entity,unverified
+63,225,541,Varivane Industries Ltd,no_lexical_hit,0,,,unverified,unverified
+63,393,170,Victor Marine,no_lexical_hit,0,,,unverified,unverified
+63,393,447,Voith Turbo Ltd,no_lexical_hit,0,,,unverified,unverified
+64,51,184,VULKAN Couplings,no_lexical_hit,0,,,unverified,unverified
+64,51,535,Warsash Maritime School,no_lexical_hit,0,,,unverified,unverified
+64,219,197,Wärtsilä Shaft Line Solutions,prefix_only,1,Wartsila OYJ Abp,279:45,unverified,unverified
+64,219,499,Watson Farley & Williams,no_lexical_hit,0,,,unverified,unverified
+64,387,191,"Welin Lambie Ltd, part of Fairbanks Morse Defense",no_lexical_hit,0,,,unverified,unverified
+64,387,541,Wesco Anixter,prefix_only,1,WESCO International Inc.,411:11,unverified,unverified
+65,57,189,Wescom Group,no_lexical_hit,0,,,unverified,unverified
+65,57,467,Westley Group Ltd,no_lexical_hit,0,,,unverified,unverified
+65,225,176,Whippendell Marine Limited,no_lexical_hit,0,,,unverified,unverified
+65,225,498,Windship Technology Ltd,no_lexical_hit,0,,,unverified,unverified
+65,393,180,Xylem Analytics UK Ltd,prefix_only,1,Xylem Inc.,402:15,unverified,unverified
+65,393,509,Zizo,no_lexical_hit,0,,,unverified,unverified

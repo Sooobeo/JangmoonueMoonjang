@@ -1,0 +1,205 @@
+{
+  "case": "MELCON",
+  "as_of": "2026-08-14",
+  "original_receipt": "20260821000368",
+  "method": "p205-207에 명시한 20거래일/5거래일/8월14일 최소 종가 및 p207 TTM (2025Q3~2026Q2) 지배주주이익, 기준일 상장주식총수. p201 주2의 2025년 2분기 문구와 상세 산식은 상충. p207 및 공시 표의 재현을 기준으로 2026년 2분기 LTM을 사용.",
+  "filing_url_pattern": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo={receipt}",
+  "price_urls": [
+    "https://api.finance.naver.com/siseJson.naver?symbol={ticker}&requestType=1&startTime=20260720&endTime=20260814&timeframe=day",
+    "https://finance.daum.net/api/charts/A{ticker}/days?limit=22&to=2026-08-15%2000%3A00%3A00"
+  ],
+  "candidates": [
+    {
+      "name": "GST",
+      "ticker": "083450",
+      "listed_date": "2006-02-10",
+      "historical_half_filing": "20260814001221",
+      "original_checks": {
+        "name": "GST",
+        "original_physical_page": 199,
+        "original_financial_row": 19,
+        "fiscal_year_end": "12월",
+        "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+          "35,650",
+          "29,510",
+          "59,172",
+          "45,278",
+          "58,572",
+          "45,372"
+        ],
+        "audit": "적정",
+        "financial_pass": true,
+        "independent_half_year_receipt": "20260814001221",
+        "original_business_row": {
+          "physical_page": 201,
+          "table_row": 3,
+          "business_description": "스크러버 65.1%, 칠러 16.2%, 용역 18.6% 등",
+          "semiconductor_business": "O",
+          "temperature_humidity_sales_at_least_50pct": "X",
+          "primarily_front_end": "O",
+          "passed": "X"
+        }
+      },
+      "operating_evidence": "스크러버 중심, 칠러가 온도 조절·유지.",
+      "annual_2025_and_half_2026_chiller_sales_pct": [
+        16.2,
+        17.5
+      ],
+      "accounting_scope": "연결 지배주주순이익. 감사의견 적정. 12월 결산. 원본 p199에서 2024·25·26반기 영업·지배주주순이익 모두 양수.",
+      "financial_inputs_krw": {
+        "FY2025": 45278323421,
+        "H1_2025": 19152743967,
+        "H1_2026": 29510729487,
+        "TTM": 55636308941
+      },
+      "ordinary_shares": 18430000,
+      "share_verification": "6월말 반기보고서와 7월 대량보유 공시 발행주식수 일치. 7월 공시 이후~8/14까지 회사 공시 변동 사항 미발견.",
+      "share_evidence": [
+        "083450_half_shares_20260814001221.html",
+        "083450_ownership_shares_20260724000164.html"
+      ],
+      "price_window": {
+        "from": "2026-07-20",
+        "to": "2026-08-14",
+        "sessions": 20,
+        "mean20": "44615",
+        "mean5": "50200",
+        "close": 49300,
+        "minimum_whole_won": "44615"
+      },
+      "eps": "3018.790501410743353228431905",
+      "per": "14.77909778076699460895676386",
+      "unrounded_price_per": "14.77909778076699460895676386",
+      "if_M04_replaced_fractional_change_relative_to_two_displayed_original_peer_pers": "-0.05100061522308583904989948711",
+      "secondary_roster_hint": "DART 현재 업종 조회 C29271. 최초 당시 동일 업종·재무 단계 재확인은 최초 신고서의 표와 해당 반기보고서 원문.",
+      "filing_titles_checked_last_six_months": 35,
+      "possible_sanction_titles": [],
+      "coverage_note": "회사 공시 목록의 제목 검색과 보고서 내 제재 공시로 확인한 범위. 거래소 별도 지정내역 전수 증명은 아님.",
+      "income_and_product_evidence": [
+        "083450_annual_audit_20260318001383.html",
+        "083450_annual_income_20260318001383.html",
+        "083450_annual_overview_20260318001383.html",
+        "083450_annual_products_20260318001383.html",
+        "083450_annual_sanctions_20260318001383.html",
+        "083450_annual_summary_20260318001383.html",
+        "083450_filing_search_to_20260814.html",
+        "083450_half_income_20260814001221.html",
+        "083450_half_products_20260814001221.html",
+        "083450_half_shares_20260814001221.html",
+        "083450_half_summary_20260814001221.html",
+        "083450_ownership_shares_20260724000164.html"
+      ],
+      "independent_close_evidence": [
+        "083450_naver_daily.txt",
+        "083450_daum_daily.json"
+      ]
+    },
+    {
+      "name": "유니셈",
+      "ticker": "036200",
+      "listed_date": "1999-12-10",
+      "historical_half_filing": "20260814000905",
+      "original_checks": {
+        "name": "유니셈",
+        "original_physical_page": 199,
+        "original_financial_row": 25,
+        "fiscal_year_end": "12월",
+        "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+          "10,470",
+          "10,789",
+          "10,902",
+          "8,980",
+          "9,974",
+          "15,533"
+        ],
+        "audit": "적정",
+        "financial_pass": true,
+        "independent_half_year_receipt": "20260814000905",
+        "original_business_row": {
+          "physical_page": 201,
+          "table_row": 8,
+          "business_description": "Gas Scrubber 21.4%, CHILLER UNIT 44.8%, VACUUM LINE 2.1%, 기타 31.7%",
+          "semiconductor_business": "O",
+          "temperature_humidity_sales_at_least_50pct": "X",
+          "primarily_front_end": "O",
+          "passed": "X"
+        }
+      },
+      "operating_evidence": "칠러는 웨이퍼 홀더와 챔버의 온도를 일정하게 하는 장치. 서비스·부품 중 온도제어 해당액은 별도 표시되지 않음.",
+      "annual_2025_and_half_2026_chiller_sales_pct": [
+        44.8,
+        38.7
+      ],
+      "accounting_scope": "연결 지배주주순이익. 감사의견 적정. 12월 결산. 원본 p199에서 2024·25·26반기 영업·지배주주순이익 모두 양수.",
+      "financial_inputs_krw": {
+        "FY2025": 8979798818,
+        "H1_2025": 3400555587,
+        "H1_2026": 10789662031,
+        "TTM": 16368905262
+      },
+      "ordinary_shares": 30664223,
+      "share_verification": "6월말 반기보고서와 7월 대량보유 공시 발행주식수 일치. 7월 공시 이후~8/14까지 회사 공시 변동 사항 미발견.",
+      "share_evidence": [
+        "036200_half_shares_20260814000905.html",
+        "036200_ownership_shares_20260723000132.html"
+      ],
+      "price_window": {
+        "from": "2026-07-20",
+        "to": "2026-08-14",
+        "sessions": 20,
+        "mean20": "7718.5",
+        "mean5": "8580",
+        "close": 8760,
+        "minimum_whole_won": "7719"
+      },
+      "eps": "533.8111864761745308204939678",
+      "per": "14.46016905519554958250206775",
+      "unrounded_price_per": "14.45923239441985353705689985",
+      "if_M04_replaced_fractional_change_relative_to_two_displayed_original_peer_pers": "-0.05709052787482242538663227516",
+      "secondary_roster_hint": "DART 현재 업종 조회 C29271. 최초 당시 동일 업종·재무 단계 재확인은 최초 신고서의 표와 해당 반기보고서 원문.",
+      "filing_titles_checked_last_six_months": 11,
+      "possible_sanction_titles": [],
+      "coverage_note": "회사 공시 목록의 제목 검색과 보고서 내 제재 공시로 확인한 범위. 거래소 별도 지정내역 전수 증명은 아님.",
+      "income_and_product_evidence": [
+        "036200_annual_audit_20260313001168.html",
+        "036200_annual_overview_20260313001168.html",
+        "036200_annual_products_20260313001168.html",
+        "036200_annual_sanctions_20260313001168.html",
+        "036200_annual_summary_20260313001168.html",
+        "036200_filing_search_to_20260814.html",
+        "036200_half_income_20260814000905.html",
+        "036200_half_products_20260814000905.html",
+        "036200_half_shares_20260814000905.html",
+        "036200_half_summary_20260814000905.html",
+        "036200_ownership_shares_20260723000132.html"
+      ],
+      "independent_close_evidence": [
+        "036200_naver_daily.txt",
+        "036200_daum_daily.json"
+      ]
+    }
+  ],
+  "supplementary_independent_registry": {
+    "guide": "https://dart.fss.or.kr/guide/contents130.jsp",
+    "current_sector_query": "https://dart.fss.or.kr/dsae001/search.ax",
+    "rule": "두 상장시장 법인, 세 KSIC 설명과 신고서에 인쇄된 세 코드 모두를 조회. 26294는 명칭 대응, 26295는 신고서 인쇄 값. 현재 DART 디렉터리와 과거 제출인 고유번호를 조인. 현재 분류로 과거 적격을 단정하지 않고 10개 추가 후보의 당시 공시를 열람.",
+    "members": 46,
+    "members_with_preperiod_filing": 45,
+    "outside_original_but_historical_reviews": {
+      "고영": "반기 사업개요의 주력은 3D 검사장비, AOI·납도포 및 패키징 검사 등. 온습도 제어 매출 50% 충족 근거 없음.",
+      "넥스틴": "2026년 반기 연결 영업손실 및 2025년 영업손실. 광학검사장비·레이저 검출.",
+      "아이씨디": "2026년 반기 및 2024년 연결 영업손실. AMOLED 식각 장비 중심.",
+      "제우스": "2026년 반기 및 2025년 연결 영업손실. 최대 사업 품목은 반도체 세정장비.",
+      "참엔지니어링": "2025년과 2024년 연결 영업손실. 제품 세부 절 미확보이나 재무단계 결격.",
+      "티로보틱스": "2026년 반기·2025년·2024년 연결 영업손실. 진공·이송 로봇.",
+      "팸텍": "3기간 연결 영업손실. 카메라모듈 장비 중심.",
+      "피에스케이": "흑자. 전공정 장비 사업은 Dry Strip, Dry Cleaning, Wafer Edge Clean로 설명. 주력 환경 온습도 제어 매출 50%를 확인할 근거 없음.",
+      "모티브링크": "2026년 반기와 2025년 연결 영업손실. 친환경 자동차 전력변환 부품.",
+      "퓨런티어": "3기간 영업손실. 자동차 ADAS 카메라 검사·조립장비."
+    },
+    "section_zip": "registry_additional_issuers_period_sections.zip",
+    "excluded_no_historical_half_filing": [
+      "동원파츠"
+    ]
+  }
+}

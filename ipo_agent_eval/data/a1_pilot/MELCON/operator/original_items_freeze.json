@@ -1,0 +1,22 @@
+{
+  "stage": "original_items_and_same_rater_repeat_sample",
+  "timestamp_utc": "2026-11-24T07:56:34.715120+00:00",
+  "files": {
+    "operator/original_items.json": "c7bf753657e18486340a80da8c7a52089ea96f34417545d6065efe9c229bfbbb",
+    "human/원본_첫채점.md": "979cac619462bff4c96e2cfe881efb922591cf0609f4bd9ae9943914d5e20c19",
+    "human/원본_재점검.md": "371d203ccd49f837f9b215f5b7fec20000645fadb8f17562219c9a7ee0e185c7",
+    "filing/20260821000368.pdf": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d"
+  },
+  "trial_assignment": "tracked_separately_before_grading",
+  "human_ratings_recorded": 0,
+  "rater_count": 1,
+  "repeat_sample": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06"
+  ],
+  "interrater_agreement": "not_measured"
+}

@@ -1,0 +1,169 @@
+{
+  "case": "MELCON-DEV-01",
+  "source_receipt": "20260821000368",
+  "source_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+  "page_numbering": "physical_pdf_one_based",
+  "pilot_K": 1,
+  "material_price_fraction": "0.05",
+  "items": [
+    {
+      "id": "M01",
+      "label": "발행사 반기 이익의 연환산",
+      "page": 208,
+      "pages": [
+        206,
+        208
+      ],
+      "anchor": "3,447백만원을 연환산",
+      "alternative": "같은 조정을 적용해 확보한 직전 네 분기 합산 이익과 대조. 기간별 조정 근거가 부족하면 미산출.",
+      "repeat_sample": true
+    },
+    {
+      "id": "M02",
+      "label": "발행사 유가증권 처분이익 조정",
+      "page": 208,
+      "pages": [
+        206,
+        208
+      ],
+      "anchor": "유가증권 처분 이익 919백만원",
+      "alternative": "공시한 반기 지배주주순이익에 처분이익을 포함하고 동일하게 연환산한다.",
+      "repeat_sample": true
+    },
+    {
+      "id": "M03",
+      "label": "HPSP의 비교기업 포함",
+      "page": 203,
+      "pages": [
+        197,
+        200,
+        201,
+        202,
+        203,
+        207
+      ],
+      "anchor": "HPSP는 자체적인 기술 개발 역량",
+      "alternative": "해당 기업만 제외하고 남은 워트의 PER을 사용한다.",
+      "repeat_sample": true
+    },
+    {
+      "id": "M04",
+      "label": "워트의 비교기업 포함",
+      "page": 204,
+      "pages": [
+        197,
+        200,
+        201,
+        203,
+        204,
+        207
+      ],
+      "anchor": "초정밀 온·습도가 제어된 공기",
+      "alternative": "해당 기업만 제외하고 남은 HPSP의 PER을 사용한다.",
+      "repeat_sample": true
+    },
+    {
+      "id": "M05",
+      "label": "비교기업 이익의 적용 기간과 귀속 주체",
+      "page": 207,
+      "pages": [
+        201,
+        206,
+        207
+      ],
+      "anchor": "지배주주 귀속 당기순이익",
+      "alternative": "후보별 직전 온기 지배주주순이익을 확보하면 같은 주가와 주식 수로 재계산한다.",
+      "repeat_sample": true
+    },
+    {
+      "id": "M06",
+      "label": "두 비교기업의 PER 집계 방식",
+      "page": 206,
+      "pages": [
+        206,
+        207,
+        208
+      ],
+      "anchor": "산술평균 PER 배수",
+      "alternative": "두 값의 중앙값으로 대조한다. 후보가 둘이라 산술평균과 같다.",
+      "repeat_sample": true
+    },
+    {
+      "id": "M07",
+      "label": "비교기업 기준주가의 기간과 선택",
+      "page": 206,
+      "pages": [
+        201,
+        205,
+        206,
+        207
+      ],
+      "anchor": "분석기준일 종가 (A)",
+      "alternative": "두 기업 모두 8월 14일 종가를 적용한다.",
+      "repeat_sample": false
+    },
+    {
+      "id": "M08",
+      "label": "비교기업 주식 수와 주당순이익 계산",
+      "page": 207,
+      "pages": [
+        206,
+        207
+      ],
+      "anchor": "분석기준일(2026년 08월 14일) 현재 상장주식총수",
+      "alternative": "공시한 이익과 상장주식 수로 주당순이익·배수를 독립 계산한다.",
+      "repeat_sample": false
+    },
+    {
+      "id": "M09",
+      "label": "공모와 잠재 희석을 반영한 발행사 주식 수",
+      "page": 208,
+      "pages": [
+        206,
+        208
+      ],
+      "anchor": "상장주선인 의무인",
+      "alternative": "발행 주식 수, 공모 신주, 주선인 인수분, 주식매수선택권을 합산한다.",
+      "repeat_sample": false
+    },
+    {
+      "id": "M10",
+      "label": "기업가치에서 주당 평가가액으로의 환산",
+      "page": 208,
+      "pages": [
+        206,
+        207,
+        208
+      ],
+      "anchor": "기업가치 평가액(백만원)",
+      "alternative": "공시 원단위와 기업가치 및 적용 주식 수로 주당 평가가액을 재계산한다.",
+      "repeat_sample": false
+    },
+    {
+      "id": "M11",
+      "label": "평가가액 대비 할인 및 희망 공모가 범위",
+      "page": 208,
+      "pages": [
+        208,
+        209,
+        210
+      ],
+      "anchor": "희망공모가액밴드",
+      "alternative": "공시 할인율로 밴드 양 끝을 재계산한다. 할인만 바꾸면 주당 평가가액은 동일하다.",
+      "repeat_sample": false
+    }
+  ],
+  "original_checks": {
+    "period": "2026-H1 adjusted annualized",
+    "adjusted_profit_krw_million": 6894,
+    "shares": 12735000,
+    "equity_value_krw_million": 180497,
+    "per_share_krw_unrounded_from_displayed_equity": "14173.30192383195916764821358",
+    "disclosed_per_share_krw": 14173,
+    "crosschecks": [
+      "공시 접수·원본 해시·433쪽 확인",
+      "두 PDF 추출기로 11개 항목 원문 앵커와 물리 쪽 확인",
+      "조정이익·주식 수 구성·주당 평가가액 재계산"
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "issuer": "HD현대중공업",
+    "stock_code": "329180",
+    "filing_date": "20240318",
+    "receipt": "20240318000459",
+    "receipt_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240318000459",
+    "sections": {
+      "shares": {
+        "file": "329180_shares.html",
+        "sha256": "df26c6f992992ca60510ca8e467815367ed445d959e605754fdab6e72b12193c",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240318000459&dcmNo=9725111&eleId=7&offset=86871&length=9363&dtd=dart4.xsd",
+        "section": "4. 주식의 총수 등"
+      },
+      "business": {
+        "file": "329180_business.html",
+        "sha256": "9736591a40c9363e4dfe9a5d610f49b1452246189f65db55fe7b4393b80a24c0",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240318000459&dcmNo=9725111&eleId=10&offset=129724&length=9876&dtd=dart4.xsd",
+        "section": "1. 사업의 개요"
+      },
+      "segments": {
+        "file": "329180_segments.html",
+        "sha256": "5faeff03930fd360c8f153147b6a0b7cd27c536200f67bf30ab51f621fa19e67",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240318000459&dcmNo=9725111&eleId=11&offset=139604&length=9162&dtd=dart4.xsd",
+        "section": "2. 주요 제품 및 서비스"
+      },
+      "financials": {
+        "file": "329180_financials.html",
+        "sha256": "57ff78170f4d03e7887c961a2ba6bbe5475417f8a5658dda3c8646c7daf2d8c5",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240318000459&dcmNo=9725111&eleId=18&offset=364154&length=22029&dtd=dart4.xsd",
+        "section": "1. 요약재무정보"
+      }
+    }
+  },
+  {
+    "issuer": "삼성중공업",
+    "stock_code": "010140",
+    "filing_date": "20240315",
+    "receipt": "20240315000850",
+    "receipt_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240315000850",
+    "sections": {
+      "shares": {
+        "file": "010140_shares.html",
+        "sha256": "06a3f6ad43d8aec75e0eb75c390a9558c8cd3e3d07606b7c5940060164ef93db",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240315000850&dcmNo=9722767&eleId=9&offset=252133&length=29398&dtd=dart4.xsd",
+        "section": "4. 주식의 총수 등"
+      },
+      "business": {
+        "file": "010140_business.html",
+        "sha256": "48d066f00cb76bce22c2902e37bdb6fb42ecb10f6f40d9d60033a7e2d1c9d7e9",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240315000850&dcmNo=9722767&eleId=12&offset=314387&length=2987&dtd=dart4.xsd",
+        "section": "1. 사업의 개요"
+      },
+      "segments": {
+        "file": "010140_segments.html",
+        "sha256": "3b7a174ec7ac574290d80fbe658dd573a6eca6d45503e72e73d5c7f25c3e0fd8",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240315000850&dcmNo=9722767&eleId=13&offset=317378&length=4951&dtd=dart4.xsd",
+        "section": "2. 주요 제품 및 서비스"
+      },
+      "financials": {
+        "file": "010140_financials.html",
+        "sha256": "477f1c715e56c54523d42cfa633899b439e7e9ca0ed3276dedf4862e8f8cf29e",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240315000850&dcmNo=9722767&eleId=20&offset=412612&length=21445&dtd=dart4.xsd",
+        "section": "1. 요약재무정보"
+      }
+    }
+  },
+  {
+    "issuer": "한화오션",
+    "stock_code": "042660",
+    "filing_date": "20240313",
+    "receipt": "20240313001198",
+    "receipt_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240313001198",
+    "sections": {
+      "shares": {
+        "file": "042660_shares.html",
+        "sha256": "62813ee26da81a1a014c6154a05f32bac9cac0023f8d27e14d65d1c7fd7331bc",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240313001198&dcmNo=9708796&eleId=7&offset=46499&length=22935&dtd=dart4.xsd",
+        "section": "4. 주식의 총수 등"
+      },
+      "business": {
+        "file": "042660_business.html",
+        "sha256": "5534660c015fa6fce5092854c46d71516b1aa58eef72fdd56c61df50b8382866",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240313001198&dcmNo=9708796&eleId=10&offset=114486&length=11181&dtd=dart4.xsd",
+        "section": "1. 사업의 개요"
+      },
+      "segments": {
+        "file": "042660_segments.html",
+        "sha256": "1be461b2075451308851d7ee727ff4ed3a14c3badf6bcc2b0beafd7757b87bb8",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240313001198&dcmNo=9708796&eleId=11&offset=125671&length=8402&dtd=dart4.xsd",
+        "section": "2. 주요 제품 및 서비스"
+      },
+      "financials": {
+        "file": "042660_financials.html",
+        "sha256": "a518ed2b13b9ec5340604c09ed345dd74189e781e8dfd844d7665236585db08d",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240313001198&dcmNo=9708796&eleId=18&offset=265303&length=20875&dtd=dart4.xsd",
+        "section": "1. 요약재무정보"
+      }
+    }
+  },
+  {
+    "issuer": "한국가스공사",
+    "stock_code": "036460",
+    "filing_date": "20240320",
+    "receipt": "20240320002056",
+    "receipt_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240320002056",
+    "sections": {
+      "shares": {
+        "file": "036460_shares.html",
+        "sha256": "dc406499ffa772f71579508fca5c1266ae47ea483153e3e3997a940e30e441e6",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240320002056&dcmNo=9745341&eleId=7&offset=59215&length=26618&dtd=dart4.xsd",
+        "section": "4. 주식의 총수 등"
+      },
+      "business": {
+        "file": "036460_business.html",
+        "sha256": "6a8537abf9790a311bbc0635afffcf527391fbcae1f13cece7cb75a16f86d4b9",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240320002056&dcmNo=9745341&eleId=10&offset=92536&length=3564&dtd=dart4.xsd",
+        "section": "1. 사업의 개요"
+      },
+      "segments": {
+        "file": "036460_segments.html",
+        "sha256": "79a229fa4ea15d0ffe06b04d34c705ed11143fe7c1e9123b5193310604231ded",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240320002056&dcmNo=9745341&eleId=11&offset=96104&length=29658&dtd=dart4.xsd",
+        "section": "2. 주요 제품 및 서비스"
+      },
+      "financials": {
+        "file": "036460_financials.html",
+        "sha256": "c07bdd595eeeb2d6be24a7e3730396ff2e891aa8eb3e57b365b3c23efe470ef6",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240320002056&dcmNo=9745341&eleId=18&offset=369310&length=32753&dtd=dart4.xsd",
+        "section": "1. 요약재무정보"
+      }
+    }
+  },
+  {
+    "issuer": "케이씨씨",
+    "stock_code": "002380",
+    "filing_date": "20240314",
+    "receipt": "20240314001700",
+    "receipt_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240314001700",
+    "sections": {
+      "shares": {
+        "file": "002380_shares.html",
+        "sha256": "78a2fa10361ea98acf6b9d41e7b44ebfc68bf6ec66cf99f9f0b45b0b3e938938",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240314001700&dcmNo=9718588&eleId=7&offset=78244&length=30067&dtd=dart4.xsd",
+        "section": "4. 주식의 총수 등"
+      },
+      "business": {
+        "file": "002380_business.html",
+        "sha256": "e0ffa400b049783a33aac94a359fbf82d6b91c6d8503484b9e3a697ea95ea946",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240314001700&dcmNo=9718588&eleId=10&offset=126581&length=2659&dtd=dart4.xsd",
+        "section": "1. 사업의 개요"
+      },
+      "segments": {
+        "file": "002380_segments.html",
+        "sha256": "4a328b816093d27e0c335320abc410cd6572a7e3bbf5a9362ca043ccbc121b2b",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240314001700&dcmNo=9718588&eleId=11&offset=129244&length=30448&dtd=dart4.xsd",
+        "section": "2. 주요 제품 및 서비스"
+      },
+      "financials": {
+        "file": "002380_financials.html",
+        "sha256": "152ac1e40b9070577e3f811ba98640edbcd19e1ac9abb3b46bdda367341e88a4",
+        "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240314001700&dcmNo=9718588&eleId=18&offset=433755&length=30479&dtd=dart4.xsd",
+        "section": "1. 요약재무정보"
+      }
+    }
+  }
+]

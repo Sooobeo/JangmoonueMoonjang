@@ -1,0 +1,32 @@
+{
+  "busan_kormarine_20231019": {
+    "url": "https://www.busan.go.kr/comm/getFile?srvcId=BBSTY3&upperNo=1593511&fileTy=ATTACH&fileNo=1",
+    "page_url": "https://www.busan.go.kr/nbtnewsBU/1593511",
+    "published": "2023-10-19",
+    "physical_pages": [
+      1,
+      2
+    ],
+    "file": "busan_kormarine_20231019.pdf",
+    "bytes": 616662,
+    "sha256": "26b236f2388715031bfc0c9bbb8d65bb6365d54fc1463d875b1ac5af6f92ec55"
+  },
+  "nor_shipping_2023_guide": {
+    "url": "https://cdnc.heyzine.com/files/uploaded/v2/78a7b3b48784a446e9a1d521b72edf981177cd5f.pdf",
+    "date": "2023-06 (PDF metadata 2023-06-04)",
+    "distribution_evidence": "https://www.aet-tankers.com/media-centre/aet-highlights/aet-highlights-july-2023",
+    "secondary_check": "The 2023-07 publisher AET described its advertisement in this Nor-Shipping magazine. The PDF names the organizer and the June event in its program and closes with publisher credits.",
+    "file": "nor_shipping_2023_guide.pdf",
+    "bytes": 10321960,
+    "sha256": "38bc7cfb3a215d07bbbca0d06fbebc6ae80dfd69d5538a639c082b167aa57f94"
+  },
+  "vanguard_20231031": {
+    "url": "https://fund-docs.vanguard.com/q6280.pdf",
+    "sec": "https://www.sec.gov/Archives/edgar/data/857489/000110465923130096/tm2331781d7_ncsr.htm",
+    "asof": "2023-10-31",
+    "published_by": "2023-12-22 (HTTP Last-Modified Fri, 22 Dec 2023 14:13:35 GMT)",
+    "file": "vanguard_20231031.pdf",
+    "bytes": 576640,
+    "sha256": "0c500d35e75108df3eb7a979408011517da9a844ccd2d4f19a493b1356970669"
+  }
+}

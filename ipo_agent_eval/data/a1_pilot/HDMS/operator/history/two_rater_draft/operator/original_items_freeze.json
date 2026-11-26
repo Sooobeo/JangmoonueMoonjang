@@ -1,0 +1,11 @@
+{
+  "stage": "original_item_register_and_double_rating_sample",
+  "timestamp_utc": "2026-11-24T07:38:50.166780+00:00",
+  "files": {
+    "operator/original_items.json": "e3f6e3f6b4e4fc205d6ef1bdf296184e756702a5a650b2fb177cb2c0b7c9d635",
+    "human/원본_독립채점_1.md": "381b85f997f0ce810811e5471fbf6510df206506cca699a30b5b665b54a947f6",
+    "human/원본_독립채점_2.md": "e70a0fff028774cb54833392a1fe2db4343b5edff1a14bc7b70756ce69befb02"
+  },
+  "trial_assignment": "separate_pending",
+  "human_ratings_recorded": 0
+}

@@ -1,0 +1,1360 @@
+{
+  "source_receipt": "20260821000368",
+  "financial_input_unit": "백만원",
+  "rows": [
+    {
+      "name": "케이씨텍",
+      "original_physical_page": 199,
+      "original_financial_row": 1,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "58,333",
+        "52,721",
+        "59,966",
+        "53,392",
+        "49,783",
+        "52,686"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260813001393",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 2,
+        "business_description": "반도체부문 90.3%, 디스플레이부문 9.7%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "한미반도체",
+      "original_physical_page": 199,
+      "original_financial_row": 2,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "138,803",
+        "127,463",
+        "251,390",
+        "214,008",
+        "255,392",
+        "152,614"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814003665",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 3,
+        "business_description": "반도체 제조용 장비 84.62%, Conversion Kit 등 15.38%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "코미코",
+      "original_physical_page": 199,
+      "original_financial_row": 3,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "47,501",
+        "8,073",
+        "110,992",
+        "49,858",
+        "112,462",
+        "55,860"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814003614",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 4,
+        "business_description": "세정 21.8%, 코팅 28.1%, 부품 50.1%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "HPSP",
+      "original_physical_page": 199,
+      "original_financial_row": 4,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "44,450",
+        "48,969",
+        "89,902",
+        "72,662",
+        "93,946",
+        "86,280"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814004015",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 5,
+        "business_description": "고압수소 어닐링장비 89.1%, 기타 10.9%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "O",
+        "primarily_front_end": "O",
+        "passed": "O"
+      }
+    },
+    {
+      "name": "원익IPS",
+      "original_physical_page": 199,
+      "original_financial_row": 5,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "29,118",
+        "111,988",
+        "73,814",
+        "84,029",
+        "10,642",
+        "20,748"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001845",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 6,
+        "business_description": "반도체 디스플레이 Solar Cell 86.5%, 상품/용역 13.5%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "와이씨",
+      "original_physical_page": 199,
+      "original_financial_row": 6,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "19,046",
+        "11,765",
+        "16,990",
+        "19,288",
+        "10,600",
+        "11,029"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001745",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 7,
+        "business_description": "반도체 및 전자 98.1%, 기타 1.9%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "티이엠씨씨엔에스",
+      "original_physical_page": 199,
+      "original_financial_row": 7,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(3,512)",
+        "(147)",
+        "8,998",
+        "4,205",
+        "5,925",
+        "9,475"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000992",
+      "original_business_row": null
+    },
+    {
+      "name": "지앤비에스 에코",
+      "original_physical_page": 199,
+      "original_financial_row": 8,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "14,115",
+        "15,219",
+        "7,756",
+        "6,316",
+        "11,649",
+        "12,514"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260813000171",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 8,
+        "business_description": "스크러버 60.04%, 질소산화물처리설비 & E.P시스템 0.52%, 트랩 1.66% 등",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "로체시스템즈",
+      "original_physical_page": 199,
+      "original_financial_row": 9,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "6,541",
+        "9,946",
+        "14,423",
+        "12,258",
+        "19,777",
+        "12,113"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814002190",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 9,
+        "business_description": "디스플레이 및 반도체 93.09%, 기타 6.91%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "KX하이텍",
+      "original_physical_page": 199,
+      "original_financial_row": 10,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "14,760",
+        "8,779",
+        "5,357",
+        "4,558",
+        "9,206",
+        "9,748"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814000894",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 10,
+        "business_description": "반도체재료 33.2%, SSD 36.2%, 연결법인 30.7%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "피에스케이홀딩스",
+      "original_physical_page": 199,
+      "original_financial_row": 11,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "22,967",
+        "44,444",
+        "73,401",
+        "91,685",
+        "88,483",
+        "95,820"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814000743",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 11,
+        "business_description": "반도체 제조용 장비(제품) 88.6%, 기타 11.4%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "에스티아이",
+      "original_physical_page": 199,
+      "original_financial_row": 12,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "3,261",
+        "9,436",
+        "19,719",
+        "15,418",
+        "27,287",
+        "27,138"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001073",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 12,
+        "business_description": "CCSS(중앙약품 공급시스템) 91.3%, WET SYSTEM 3.6%, 기타 5.1%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "주성엔지니어링",
+      "original_physical_page": 199,
+      "original_financial_row": 13,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(5,608)",
+        "4,310",
+        "31,258",
+        "35,693",
+        "97,196",
+        "106,814"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002613",
+      "original_business_row": null
+    },
+    {
+      "name": "싸이맥스",
+      "original_physical_page": 199,
+      "original_financial_row": 14,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "16,020",
+        "12,964",
+        "23,346",
+        "14,939",
+        "23,405",
+        "15,413"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814000884",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 13,
+        "business_description": "반도체 웨이퍼 이송장비 100%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "워트",
+      "original_physical_page": 199,
+      "original_financial_row": 15,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "3,032",
+        "2,982",
+        "2,483",
+        "3,569",
+        "2,031",
+        "3,392"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260807000181",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 14,
+        "business_description": "THC 73.02%, FFU 13.27%, TCU 2.65% 기타 4.72%, PART 3.71%, 유지보수 2.63%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "O",
+        "primarily_front_end": "O",
+        "passed": "O"
+      }
+    },
+    {
+      "name": "테스",
+      "original_physical_page": 199,
+      "original_financial_row": 16,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "48,227",
+        "58,605",
+        "57,838",
+        "56,918",
+        "38,474",
+        "42,654"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260813000486",
+      "original_business_row": {
+        "physical_page": 200,
+        "table_row": 15,
+        "business_description": "반도체 및 디스플레이, UVC LED 장비 등 85.5%, PARTS 등 14.5%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "한솔아이원스",
+      "original_physical_page": 199,
+      "original_financial_row": 17,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "13,679",
+        "10,579",
+        "33,317",
+        "28,435",
+        "23,066",
+        "31,073"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260813001023",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 1,
+        "business_description": "가공반도체부문 78.47%, 세정코팅부문 18.98%, 가공 디스플레이부문 2.55%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "디바이스",
+      "original_physical_page": 199,
+      "original_financial_row": 18,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "20,030",
+        "19,106",
+        "17,334",
+        "16,924",
+        "4,222",
+        "7,800"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001720",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 2,
+        "business_description": "오염제어장비 99.68%, 소재부품외 0.32%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "GST",
+      "original_physical_page": 199,
+      "original_financial_row": 19,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "35,650",
+        "29,510",
+        "59,172",
+        "45,278",
+        "58,572",
+        "45,372"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001221",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 3,
+        "business_description": "스크러버 65.1%, 칠러 16.2%, 용역 18.6% 등",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "씨앤지하이테크",
+      "original_physical_page": 199,
+      "original_financial_row": 20,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "7,160",
+        "6,645",
+        "24,742",
+        "19,532",
+        "12,940",
+        "6,884"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260813000962",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 4,
+        "business_description": "화학약품 혼합 및 재생장치 45.3%, 설치/Set up 외 23.6%, 불소수지 외 8.1% 등",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "유진테크",
+      "original_physical_page": 199,
+      "original_financial_row": 21,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "37,054",
+        "87,002",
+        "51,672",
+        "42,460",
+        "61,177",
+        "63,263"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814003622",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 5,
+        "business_description": "반도체 장비 81.0% 반도체용 산업가스 및 반도체 소재 4.2%, 기타 14.8%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "제너셈",
+      "original_physical_page": 199,
+      "original_financial_row": 22,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "1,702",
+        "(574)",
+        "1,029",
+        "935",
+        "6,541",
+        "6,084"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260813000859",
+      "original_business_row": null
+    },
+    {
+      "name": "프로텍",
+      "original_physical_page": 199,
+      "original_financial_row": 23,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "38,515",
+        "53,283",
+        "46,307",
+        "47,637",
+        "13,443",
+        "21,679"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814000560",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 6,
+        "business_description": "반도체 SMT, LED용 제조기계 64.19%, 부품 및 상품 15.95%, 스크린프린터 등 19.86%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "뉴파워프라즈마",
+      "original_physical_page": 199,
+      "original_financial_row": 24,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "40,835",
+        "33,406",
+        "28,669",
+        "8,523",
+        "26,128",
+        "21,471"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001986",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 7,
+        "business_description": "Cleaning System 19.69%, RF System 2.45%, 방산부문 등 48.87%, UTG 등 24.19% 등",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "유니셈",
+      "original_physical_page": 199,
+      "original_financial_row": 25,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "10,470",
+        "10,789",
+        "10,902",
+        "8,980",
+        "9,974",
+        "15,533"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814000905",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 8,
+        "business_description": "Gas Scrubber 21.4%, CHILLER UNIT 44.8%, VACUUM LINE 2.1%, 기타 31.7%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "이오테크닉스",
+      "original_physical_page": 199,
+      "original_financial_row": 26,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "68,886",
+        "68,206",
+        "80,753",
+        "57,213",
+        "31,201",
+        "42,844"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001118",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 9,
+        "business_description": "레이저마커 및 응용기기 74.5%, 기타 25.5%",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "아이쓰리시스템",
+      "original_physical_page": 199,
+      "original_financial_row": 27,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "9,133",
+        "8,723",
+        "16,458",
+        "18,783",
+        "14,760",
+        "14,967"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260813000390",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 10,
+        "business_description": "적외선 영상센서 95.40%, 엑스레이 영상센서 2.03%, 기타 1.65%, 등",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "X",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "위드텍",
+      "original_physical_page": 199,
+      "original_financial_row": 28,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "739",
+        "5,694",
+        "5,129",
+        "6,445",
+        "966",
+        "7,068"
+      ],
+      "audit": "적정",
+      "financial_pass": true,
+      "independent_half_year_receipt": "20260814001848",
+      "original_business_row": {
+        "physical_page": 201,
+        "table_row": 11,
+        "business_description": "대기(AMC) 28.34%, 공정 프로세스 12.56%, 대기환경 9.17%, 용역 49.59% 등",
+        "semiconductor_business": "O",
+        "temperature_humidity_sales_at_least_50pct": "X",
+        "primarily_front_end": "O",
+        "passed": "X"
+      }
+    },
+    {
+      "name": "에이아이코리아",
+      "original_physical_page": 199,
+      "original_financial_row": 29,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(1,982)",
+        "2,756",
+        "2,819",
+        "(777)",
+        "8,814",
+        "12,282"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814003479",
+      "original_business_row": null
+    },
+    {
+      "name": "한울반도체",
+      "original_physical_page": 199,
+      "original_financial_row": 30,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(7,593)",
+        "(14,910)",
+        "(5,048)",
+        "(21,924)",
+        "(4,398)",
+        "(20,291)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814003668",
+      "original_business_row": null
+    },
+    {
+      "name": "케이지에이",
+      "original_physical_page": 199,
+      "original_financial_row": 31,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(3,146)",
+        "(3,549)",
+        "(3,688)",
+        "(9,629)",
+        "3,408",
+        "2,800"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002235",
+      "original_business_row": null
+    },
+    {
+      "name": "저스템",
+      "original_physical_page": 199,
+      "original_financial_row": 32,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "13,348",
+        "11,400",
+        "4,635",
+        "3,470",
+        "(4,609)",
+        "(2,137)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260812000566",
+      "original_business_row": null
+    },
+    {
+      "name": "엔투텍",
+      "original_physical_page": 199,
+      "original_financial_row": 33,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "11,121",
+        "9,075",
+        "9,439",
+        "18,963",
+        "(3,522)",
+        "(25,570)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002772",
+      "original_business_row": null
+    },
+    {
+      "name": "제닉스로보틱스",
+      "original_physical_page": 199,
+      "original_financial_row": 34,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(5,640)",
+        "(2,952)",
+        "(12,313)",
+        "(7,324)",
+        "4,306",
+        "6,046"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000083",
+      "original_business_row": null
+    },
+    {
+      "name": "엔젯",
+      "original_physical_page": 199,
+      "original_financial_row": 35,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "미공시",
+        "미공시",
+        "(6,280)",
+        "(7,223)",
+        "(6,534)",
+        "(3,502)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": null,
+      "original_business_row": null
+    },
+    {
+      "name": "레이저쎌",
+      "original_physical_page": 199,
+      "original_financial_row": 36,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(2,756)",
+        "(5,323)",
+        "(13,547)",
+        "(15,718)",
+        "(9,209)",
+        "(8,313)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002668",
+      "original_business_row": null
+    },
+    {
+      "name": "러셀",
+      "original_physical_page": 199,
+      "original_financial_row": 37,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(187)",
+        "514",
+        "(5,173)",
+        "(2,689)",
+        "2,044",
+        "4,537"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002921",
+      "original_business_row": null
+    },
+    {
+      "name": "다원넥스뷰",
+      "original_physical_page": 199,
+      "original_financial_row": 38,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "2,326",
+        "2,272",
+        "4,030",
+        "3,479",
+        "1,279",
+        "(4,142)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000926",
+      "original_business_row": null
+    },
+    {
+      "name": "제이엔비",
+      "original_physical_page": 199,
+      "original_financial_row": 39,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(104)",
+        "(686)",
+        "175",
+        "(348)",
+        "3,365",
+        "1,987"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000389",
+      "original_business_row": null
+    },
+    {
+      "name": "베셀",
+      "original_physical_page": 199,
+      "original_financial_row": 40,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(753)",
+        "(3,026)",
+        "(2,613)",
+        "17,679",
+        "(11,718)",
+        "(10,525)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000287",
+      "original_business_row": null
+    },
+    {
+      "name": "브이엠",
+      "original_physical_page": 199,
+      "original_financial_row": 41,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "50,197",
+        "43,487",
+        "24,673",
+        "26,132",
+        "(8,600)",
+        "(3,451)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260813001486",
+      "original_business_row": null
+    },
+    {
+      "name": "예스티",
+      "original_physical_page": 199,
+      "original_financial_row": 42,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "7,628",
+        "4,626",
+        "3,793",
+        "(576)",
+        "11,262",
+        "10,430"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000104",
+      "original_business_row": null
+    },
+    {
+      "name": "엑시콘",
+      "original_physical_page": 199,
+      "original_financial_row": 43,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "2,169",
+        "8,521",
+        "80",
+        "8,964",
+        "(15,897)",
+        "(1,359)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814001521",
+      "original_business_row": null
+    },
+    {
+      "name": "유니테스트",
+      "original_physical_page": 199,
+      "original_financial_row": 44,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "5,347",
+        "6,656",
+        "(21,089)",
+        "(20,786)",
+        "(23,439)",
+        "(26,458)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000772",
+      "original_business_row": null
+    },
+    {
+      "name": "더코디",
+      "original_physical_page": 199,
+      "original_financial_row": 45,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(4,979)",
+        "(527)",
+        "(831)",
+        "24,288",
+        "245",
+        "15,464"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002189",
+      "original_business_row": null
+    },
+    {
+      "name": "동아엘텍",
+      "original_physical_page": 199,
+      "original_financial_row": 46,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "5,006",
+        "(664)",
+        "113,231",
+        "49,160",
+        "14,730",
+        "(29,757)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814003846",
+      "original_business_row": null
+    },
+    {
+      "name": "젬백스",
+      "original_physical_page": 199,
+      "original_financial_row": 47,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "232",
+        "(11,356)",
+        "3,793",
+        "(11,337)",
+        "(38,337)",
+        "(87,219)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814004196",
+      "original_business_row": null
+    },
+    {
+      "name": "HB테크놀러지",
+      "original_physical_page": 199,
+      "original_financial_row": 48,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "1,044",
+        "28,758",
+        "6,241",
+        "28,403",
+        "(16,512)",
+        "(51,593)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814001870",
+      "original_business_row": null
+    },
+    {
+      "name": "테크윙",
+      "original_physical_page": 199,
+      "original_financial_row": 49,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "22,210",
+        "(961)",
+        "15,838",
+        "9,402",
+        "23,411",
+        "(20,881)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814001211",
+      "original_business_row": null
+    },
+    {
+      "name": "엘오티베큠",
+      "original_physical_page": 199,
+      "original_financial_row": 50,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "3,313",
+        "5,044",
+        "(8,054)",
+        "(7,944)",
+        "(4,172)",
+        "1,658"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814003425",
+      "original_business_row": null
+    },
+    {
+      "name": "코세스",
+      "original_physical_page": 199,
+      "original_financial_row": 51,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "7,188",
+        "8,717",
+        "17,392",
+        "13,204",
+        "(5,609)",
+        "(197)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002531",
+      "original_business_row": null
+    },
+    {
+      "name": "제이스로보틱스",
+      "original_physical_page": 199,
+      "original_financial_row": 52,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(11,090)",
+        "(13,014)",
+        "(23,666)",
+        "(24,768)",
+        "(5,783)",
+        "(5,858)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002750",
+      "original_business_row": null
+    },
+    {
+      "name": "미래컴퍼니",
+      "original_physical_page": 199,
+      "original_financial_row": 53,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "5,742",
+        "7,404",
+        "(24,696)",
+        "(25,003)",
+        "(16,815)",
+        "(7,142)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260813000068",
+      "original_business_row": null
+    },
+    {
+      "name": "경인전자",
+      "original_physical_page": 200,
+      "original_financial_row": 1,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "1,347",
+        "4,173",
+        "1,024",
+        "3,828",
+        "(1,271)",
+        "2,560"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": null,
+      "original_business_row": null
+    },
+    {
+      "name": "롯데에너지머티리얼즈",
+      "original_physical_page": 200,
+      "original_financial_row": 2,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(21,876)",
+        "(18,898)",
+        "(145,226)",
+        "(157,547)",
+        "(64,445)",
+        "6,299"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814000373",
+      "original_business_row": null
+    },
+    {
+      "name": "엣지파운드리",
+      "original_physical_page": 200,
+      "original_financial_row": 3,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(10,918)",
+        "(16,316)",
+        "(15,540)",
+        "15,697",
+        "(5,072)",
+        "(18,011)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814003917",
+      "original_business_row": null
+    },
+    {
+      "name": "알엔티엑스",
+      "original_physical_page": 200,
+      "original_financial_row": 4,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "1,862",
+        "1,157",
+        "208",
+        "(3,288)",
+        "(6,879)",
+        "(14,564)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": null,
+      "original_business_row": null
+    },
+    {
+      "name": "픽셀플러스",
+      "original_physical_page": 200,
+      "original_financial_row": 5,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(4,034)",
+        "(3,095)",
+        "(5,630)",
+        "(3,298)",
+        "846",
+        "3,473"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814002483",
+      "original_business_row": null
+    },
+    {
+      "name": "에프에스티",
+      "original_physical_page": 200,
+      "original_financial_row": 6,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "11,042",
+        "4,435",
+        "(547)",
+        "(12,318)",
+        "2,287",
+        "1,450"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814001563",
+      "original_business_row": null
+    },
+    {
+      "name": "진시스템",
+      "original_physical_page": 200,
+      "original_financial_row": 7,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(2,571)",
+        "(2,325)",
+        "(9,690)",
+        "(11,955)",
+        "(10,116)",
+        "(8,915)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814001771",
+      "original_business_row": null
+    },
+    {
+      "name": "피엠티",
+      "original_physical_page": 200,
+      "original_financial_row": 8,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "1,418",
+        "920",
+        "(20,396)",
+        "(22,477)",
+        "(13,100)",
+        "(14,230)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260813000145",
+      "original_business_row": null
+    },
+    {
+      "name": "3S",
+      "original_physical_page": 200,
+      "original_financial_row": 9,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "5",
+        "(481)",
+        "(5,107)",
+        "(5,481)",
+        "(5,831)",
+        "(10,067)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": null,
+      "original_business_row": null
+    },
+    {
+      "name": "케이엔알시스템",
+      "original_physical_page": 200,
+      "original_financial_row": 10,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "(4,475)",
+        "(4,554)",
+        "(7,538)",
+        "(8,464)",
+        "(7,722)",
+        "(7,856)"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814003627",
+      "original_business_row": null
+    },
+    {
+      "name": "제이티",
+      "original_physical_page": 200,
+      "original_financial_row": 11,
+      "fiscal_year_end": "12월",
+      "operating_income_and_controlling_net_income_in_mkrw_26h1_25fy_24fy": [
+        "4,032",
+        "8,928",
+        "(2,197)",
+        "(254)",
+        "436",
+        "4,181"
+      ],
+      "audit": "적정",
+      "financial_pass": false,
+      "independent_half_year_receipt": "20260814001018",
+      "original_business_row": null
+    }
+  ],
+  "all_business_rows": 25,
+  "priority": "세부 표의 행 및 해당 후보의 O/X를 사용. 요약 p197 25/2, 본문 p198 28 및 p201 4를 함께 보존."
+}

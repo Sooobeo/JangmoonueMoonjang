@@ -1,0 +1,7187 @@
+{
+  "scope": "2023 Nor-Shipping 현장 가이드의 STAND NAME / STAND NO 열. 건물 지도·광고·발표자·누락된 상호는 추가하지 않음. 포트폴리오 이름 정규화 일치는 검토 후보 신호이며 기업집단 최종 판정이 아님.",
+  "source": "candidate_sources/nor_shipping_2023_guide.pdf",
+  "universe": "universe/total_world_common_stock_holdings.csv",
+  "stand_rows": 886,
+  "unresolved_coordinates": [],
+  "rows": [
+    {
+      "pdf_page": 52,
+      "stand": "B05-02b",
+      "label": "Alconza Berango",
+      "normalized": "alconza berango",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-04b",
+      "label": "Algeciras Port",
+      "normalized": "algeciras port",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-18",
+      "label": "Anschuetz GmbH",
+      "normalized": "anschuetz",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-06",
+      "label": "Armatec AS",
+      "normalized": "armatec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-04a",
+      "label": "Armon Shipyards",
+      "normalized": "armon shipyards",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-32",
+      "label": "Atea",
+      "normalized": "atea",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Atea ASA",
+          "country": "Norway"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-32",
+      "label": "Autic System AS",
+      "normalized": "autic system",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-29",
+      "label": "Avantis Marine",
+      "normalized": "avantis marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-30",
+      "label": "AVIC-INTL PROJECT ENGINEER-",
+      "normalized": "avic intl project engineer",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-02a",
+      "label": "Azcue Pumps",
+      "normalized": "azcue pumps",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-02c",
+      "label": "Balenciaga Shipyard",
+      "normalized": "balenciaga shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-19",
+      "label": "BazePort",
+      "normalized": "bazeport",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-02d",
+      "label": "Best in Gran Canaria - Port of",
+      "normalized": "best in gran canaria port of",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-26",
+      "label": "Blue Ctrl AS",
+      "normalized": "blue ctrl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-26",
+      "label": "Breeze Ship Design",
+      "normalized": "breeze ship design",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-08g",
+      "label": "C-LNG Solutions Pte Ltd",
+      "normalized": "c lng solutions pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-32",
+      "label": "Cartagena AS / Atea",
+      "normalized": "cartagena as atea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-02c",
+      "label": "CENTRICAST",
+      "normalized": "centricast",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-24",
+      "label": "China State Shipbuilding Cor-",
+      "normalized": "china state shipbuilding cor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-14",
+      "label": "ClassNK",
+      "normalized": "classnk",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-19",
+      "label": "Cobham",
+      "normalized": "cobham",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-26",
+      "label": "ComAp",
+      "normalized": "comap",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-33",
+      "label": "Consilium Safety",
+      "normalized": "consilium safety",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-33",
+      "label": "COSCO SHIPPING HEAVY IN-",
+      "normalized": "cosco shipping heavy in",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-30",
+      "label": "COSCO Shipping Heavy Indus-",
+      "normalized": "cosco shipping heavy indus",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-08j",
+      "label": "Daihatsu Diesel Mfg.",
+      "normalized": "daihatsu diesel mfg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-34",
+      "label": "Danelec Marine",
+      "normalized": "danelec marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-25",
+      "label": "Data Respons Solutions AS",
+      "normalized": "data respons solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-30",
+      "label": "Datum Electronics Ltd",
+      "normalized": "datum electronics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-16",
+      "label": "DEIF A/S",
+      "normalized": "deif",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-34",
+      "label": "Dipai",
+      "normalized": "dipai",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-30",
+      "label": "Dualog",
+      "normalized": "dualog",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-14",
+      "label": "Eutelsat",
+      "normalized": "eutelsat",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-29",
+      "label": "Flagship Founders",
+      "normalized": "flagship founders",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-16",
+      "label": "FLIR Maritime",
+      "normalized": "flir maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-02f",
+      "label": "Foro Maritimo Vasco",
+      "normalized": "foro maritimo vasco",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-17",
+      "label": "Fosstech AS",
+      "normalized": "fosstech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-06",
+      "label": "FotoBIM - 360° photography",
+      "normalized": "fotobim 360 photography",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-08i",
+      "label": "Fuji Electric Co, Ltd.",
+      "normalized": "fuji electric",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Fuji Electric Co. Ltd.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-08f",
+      "label": "Fuji Trading",
+      "normalized": "fuji trading",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-12",
+      "label": "Furuno Norge AS",
+      "normalized": "furuno norge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-14",
+      "label": "Generator Solutions",
+      "normalized": "generator solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-37",
+      "label": "Greentec Marine Engineering",
+      "normalized": "greentec marine engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-33",
+      "label": "Hatteland Technology",
+      "normalized": "hatteland technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-24",
+      "label": "HØGLUND",
+      "normalized": "h glund",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-02b",
+      "label": "Ibercisa Deck Machiney",
+      "normalized": "ibercisa deck machiney",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-15",
+      "label": "icotek",
+      "normalized": "icotek",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-29",
+      "label": "IKM Instrument Rental AS",
+      "normalized": "ikm instrument rental",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-29",
+      "label": "IKM Instrutek AS",
+      "normalized": "ikm instrutek",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-08",
+      "label": "Imabari Shipbuilding Co., Ltd.",
+      "normalized": "imabari shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-08h",
+      "label": "IMC Shipping Co. Pte Ltd",
+      "normalized": "imc shipping co pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-36",
+      "label": "Ing. Westad A/S",
+      "normalized": "ing westad",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-33",
+      "label": "ISIC A/S",
+      "normalized": "isic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-08h",
+      "label": "Itochu Corporation",
+      "normalized": "itochu",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "ITOCHU Corp.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-08",
+      "label": "Japan Pavilion - JSEA",
+      "normalized": "japan pavilion jsea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-08",
+      "label": "Japan pavilion - JSMEA",
+      "normalized": "japan pavilion jsmea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-10",
+      "label": "Japan Radio Company/ProNav",
+      "normalized": "japan radio company pronav",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-18",
+      "label": "Jotron",
+      "normalized": "jotron",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-08a",
+      "label": "JRCS Co.Ltd.",
+      "normalized": "jrcs",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-29",
+      "label": "Kaiko Systems",
+      "normalized": "kaiko systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-08b",
+      "label": "Kawasaki Heavy Industries, Ltd.",
+      "normalized": "kawasaki heavy industries",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Kawasaki Heavy Industries Ltd.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B02-08e",
+      "label": "Kawasaki Heavy Industries, Ltd.",
+      "normalized": "kawasaki heavy industries",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Kawasaki Heavy Industries Ltd.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-34",
+      "label": "Kpler",
+      "normalized": "kpler",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-16",
+      "label": "KVH Industries",
+      "normalized": "kvh industries",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-36",
+      "label": "Langh Tech",
+      "normalized": "langh tech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-29",
+      "label": "LAURUS MARİNE",
+      "normalized": "laurus marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-08c",
+      "label": "M3 Marine Group Pte Ltd",
+      "normalized": "m3 marine group pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-20",
+      "label": "Marine Control Services AS",
+      "normalized": "marine control services",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-38",
+      "label": "Marine Performance Systems -",
+      "normalized": "marine performance systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-23",
+      "label": "Marine Technologies LLC",
+      "normalized": "marine technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B04-12",
+      "label": "MARINESAT PTE. LTD.",
+      "normalized": "marinesat pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B03-17",
+      "label": "Marlink AS",
+      "normalized": "marlink",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B05-08",
+      "label": "Marlo Technologies",
+      "normalized": "marlo technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 52,
+      "stand": "B01-08h",
+      "label": "Marubeni Corporation",
+      "normalized": "marubeni",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Marubeni Corp.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-32",
+      "label": "MBA Sales & Service AS",
+      "normalized": "mba sales service",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-08g",
+      "label": "Mikasa Corporation",
+      "normalized": "mikasa",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08h",
+      "label": "Mitsubishi Corporation",
+      "normalized": "mitsubishi",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Mitsubishi Corp.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08e",
+      "label": "Mitsubishi Shipbuilding",
+      "normalized": "mitsubishi shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08h",
+      "label": "Mitsui & Co., Ltd.",
+      "normalized": "mitsui",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Mitsui & Co. Ltd.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-35",
+      "label": "Multi Solutions AS",
+      "normalized": "multi solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08a",
+      "label": "Namura Shipbuilding Co., Ltd",
+      "normalized": "namura shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-02b",
+      "label": "Navantia",
+      "normalized": "navantia",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-04",
+      "label": "Netsecurity",
+      "normalized": "netsecurity",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08c",
+      "label": "NIHON SHIPYARD CO., LTD.",
+      "normalized": "nihon shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-08d",
+      "label": "NISHISHIBA ELECTRIC",
+      "normalized": "nishishiba electric",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-24",
+      "label": "Northrop Grumman Sperry",
+      "normalized": "northrop grumman sperry",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-16",
+      "label": "NSSLGlobal",
+      "normalized": "nsslglobal",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-15",
+      "label": "ONEWEB",
+      "normalized": "oneweb",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08f",
+      "label": "Oshima Shipbuilding Co., Ltd.",
+      "normalized": "oshima shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-08i",
+      "label": "PaxOcean Singapore Pte Ltd",
+      "normalized": "paxocean singapore pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-26",
+      "label": "Phoenix Contact AS",
+      "normalized": "phoenix contact",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-14",
+      "label": "Planning and Design Center for",
+      "normalized": "planning and design center for",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-21",
+      "label": "Port-IT Cybersecurity & IT solu-",
+      "normalized": "port it cybersecurity it solu",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-02a",
+      "label": "PROGENER",
+      "normalized": "progener",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-19",
+      "label": "Pyxisat AS",
+      "normalized": "pyxisat",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-25",
+      "label": "Q-TAGG",
+      "normalized": "q tagg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-38",
+      "label": "QINGDAO DONGHENGLI NEW",
+      "normalized": "qingdao donghengli new",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-07",
+      "label": "QINGDAO WANCHENG AN-",
+      "normalized": "qingdao wancheng an",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-23b",
+      "label": "QYSEA Technology",
+      "normalized": "qysea technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-19",
+      "label": "Radio Holland",
+      "normalized": "radio holland",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B05-11",
+      "label": "RAFT suppression",
+      "normalized": "raft suppression",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-28",
+      "label": "SAL Navigation",
+      "normalized": "sal navigation",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-38",
+      "label": "Scanjet",
+      "normalized": "scanjet",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-30",
+      "label": "SEDNA",
+      "normalized": "sedna",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-08a",
+      "label": "Sembcorp Marine Integrated",
+      "normalized": "sembcorp marine integrated",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08g",
+      "label": "Shin Kurushima Dockyard",
+      "normalized": "shin kurushima dockyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08g",
+      "label": "SHIN KURUSHIMA SANOYAS",
+      "normalized": "shin kurushima sanoyas",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-08c",
+      "label": "Shinko Ind. Ltd.",
+      "normalized": "shinko ind",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-14",
+      "label": "SHIPNET",
+      "normalized": "shipnet",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-37",
+      "label": "Siemens Energy",
+      "normalized": "siemens energy",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Siemens Energy AG",
+          "country": "Germany"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-25",
+      "label": "Silverstream Technologies",
+      "normalized": "silverstream technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-10",
+      "label": "Singapore Maritime Foundation",
+      "normalized": "singapore maritime foundation",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-08",
+      "label": "Singapore Pavilion",
+      "normalized": "singapore pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08h",
+      "label": "Sojitz Corporation",
+      "normalized": "sojitz",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Sojitz Corp.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-32",
+      "label": "Sonihull",
+      "normalized": "sonihull",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B05-23",
+      "label": "Speedcast",
+      "normalized": "speedcast",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-08e",
+      "label": "ST Engineering Marine Ltd.",
+      "normalized": "st engineering marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-08d",
+      "label": "Strategic Marine (S) Pte Ltd",
+      "normalized": "strategic marine s pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08h",
+      "label": "SUMISHO MARINE CO., LTD.",
+      "normalized": "sumisho marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08d",
+      "label": "Sumitomo Heavy Industries",
+      "normalized": "sumitomo heavy industries",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Sumitomo Heavy Industries Ltd.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-18",
+      "label": "Syberg AS",
+      "normalized": "syberg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B04-24",
+      "label": "Saab AB TransponderTech",
+      "normalized": "saab ab transpondertech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-17",
+      "label": "Telemar",
+      "normalized": "telemar",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-17",
+      "label": "Telenor Satellite",
+      "normalized": "telenor satellite",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-17",
+      "label": "The Royal Institution of Naval",
+      "normalized": "the royal institution of naval",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-08h",
+      "label": "The Shipbuilders' Association",
+      "normalized": "the shipbuilders association",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B05-29",
+      "label": "Tilla Technologies",
+      "normalized": "tilla technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-08h",
+      "label": "Tokyo Keiki Inc.",
+      "normalized": "tokyo keiki",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-08f",
+      "label": "Tru-Marine Pte Ltd",
+      "normalized": "tru marine pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-38",
+      "label": "UNIKA CABLES",
+      "normalized": "unika cables",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B05-38",
+      "label": "UNIMED - UNIVERSAL MARINE",
+      "normalized": "unimed universal marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-23",
+      "label": "Uniphos Envirotronic Pvt. Ltd.",
+      "normalized": "uniphos envirotronic pvt",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-11",
+      "label": "UniSea AS",
+      "normalized": "unisea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-18",
+      "label": "VEGA Norge",
+      "normalized": "vega norge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B03-02a",
+      "label": "Vicinay Marine",
+      "normalized": "vicinay marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-14",
+      "label": "Wago Norge",
+      "normalized": "wago norge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B05-37",
+      "label": "Weidmüller Interface",
+      "normalized": "weidmuller interface",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B02-08b",
+      "label": "YANMAR POWER TECHNO-",
+      "normalized": "yanmar power techno",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B01-25",
+      "label": "YLX Incorporated",
+      "normalized": "ylx incorporated",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B05-17",
+      "label": "ZEN OCEANS - Electrifying the",
+      "normalized": "zen oceans electrifying the",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 53,
+      "stand": "B05-29",
+      "label": "zero44",
+      "normalized": "zero44",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-24d",
+      "label": "Aegir Marine BV",
+      "normalized": "aegir marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-36c",
+      "label": "Aeron AS",
+      "normalized": "aeron",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-18c",
+      "label": "Air Products AS",
+      "normalized": "air products",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-36a",
+      "label": "Alu Design & Services AS",
+      "normalized": "alu design services",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C03-47",
+      "label": "AMEX Global Business Travel",
+      "normalized": "amex global business travel",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-26b",
+      "label": "Anda-Olsen AS",
+      "normalized": "anda olsen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-34",
+      "label": "AON",
+      "normalized": "aon",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-02B",
+      "label": "Aquatherm",
+      "normalized": "aquatherm",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-14",
+      "label": "Armada Technologies Ltd.",
+      "normalized": "armada technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-42",
+      "label": "ATPI NORWAY AS",
+      "normalized": "atpi norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-42a",
+      "label": "Aukra Maritime AS",
+      "normalized": "aukra maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-44",
+      "label": "AUMA Scandinavia AB (NUF)",
+      "normalized": "auma scandinavia ab nuf",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02.26d",
+      "label": "Automooring Solutions",
+      "normalized": "automooring solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-10b",
+      "label": "Autronica Fire and Security AS",
+      "normalized": "autronica fire and security",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-24f",
+      "label": "Bachmann Electronic",
+      "normalized": "bachmann electronic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C03-40",
+      "label": "Baggerød AS",
+      "normalized": "bagger d",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-26c",
+      "label": "Bass AS",
+      "normalized": "bass",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-12b",
+      "label": "Becker Marine Systems GmbH",
+      "normalized": "becker marine systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-36f",
+      "label": "Beha-Hedo Industrier AS.",
+      "normalized": "beha hedo industrier",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-49",
+      "label": "Beijing Grip Pipe Tech Co., Ltd",
+      "normalized": "beijing grip pipe tech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-34",
+      "label": "Bergen Havn",
+      "normalized": "bergen havn",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-12b",
+      "label": "Bernhard Schulte Shipmanage-",
+      "normalized": "bernhard schulte shipmanage",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C03-18b",
+      "label": "Bertel O Steen Power Solutions",
+      "normalized": "bertel o steen power solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-43",
+      "label": "Betech - Polymers and Sealing",
+      "normalized": "betech polymers and sealing",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-38c",
+      "label": "Blue Water Shipping A/S",
+      "normalized": "blue water shipping",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-24b",
+      "label": "Braspenning Group",
+      "normalized": "braspenning",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-34b",
+      "label": "BROEN Clorius Controls",
+      "normalized": "broen clorius controls",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-34",
+      "label": "Brødrene Aa AS",
+      "normalized": "br drene aa",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-30a",
+      "label": "C.C. Jensen A/S",
+      "normalized": "c c jensen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-30a",
+      "label": "C.C. Jensen Casting A/S",
+      "normalized": "c c jensen casting",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-30a",
+      "label": "C.C. Jensen Windows A/S",
+      "normalized": "c c jensen windows",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-34",
+      "label": "CCB",
+      "normalized": "ccb",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-41",
+      "label": "CCOM AS",
+      "normalized": "ccom",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-14",
+      "label": "Chris-Marine AB",
+      "normalized": "chris marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-01c",
+      "label": "Cobs Teleteknik AB",
+      "normalized": "cobs teleteknik",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C03-34c",
+      "label": "COLLICARE PROJECTS & LO-",
+      "normalized": "collicare projects lo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-01b",
+      "label": "Comrod AS",
+      "normalized": "comrod",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C03-34a",
+      "label": "Corvus Norway AS",
+      "normalized": "corvus norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-33",
+      "label": "Cralog A/S",
+      "normalized": "cralog",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-45",
+      "label": "CSSC SUNRUI",
+      "normalized": "cssc sunrui",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-04a",
+      "label": "d-i davit international-hische",
+      "normalized": "d i davit international hische",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-35a",
+      "label": "Dacon AS",
+      "normalized": "dacon",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-26a",
+      "label": "Damen Shipyards",
+      "normalized": "damen shipyards",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-31a",
+      "label": "Danfoss AS, Danfoss Drives",
+      "normalized": "danfoss as danfoss drives",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-42e",
+      "label": "Delitek",
+      "normalized": "delitek",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-34b",
+      "label": "DESMI Pumping Technology",
+      "normalized": "desmi pumping technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-41",
+      "label": "DINAMICOIL NORWAY AS",
+      "normalized": "dinamicoil norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-01e",
+      "label": "Dr. E. Horn GmbH",
+      "normalized": "dr e horn",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-17",
+      "label": "Dräger Nederland B.V Marine &",
+      "normalized": "drager nederland b v marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-38e",
+      "label": "Duusgaard Coating ApS",
+      "normalized": "duusgaard coating aps",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-06b",
+      "label": "DVV Media Group GmbH",
+      "normalized": "dvv media",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-2a",
+      "label": "E-Cap Marine GmbH",
+      "normalized": "e cap marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-01c",
+      "label": "Eaton FHF Funke+Huster Fern-",
+      "normalized": "eaton fhf funke huster fern",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-14",
+      "label": "Ecochlor, Inc.",
+      "normalized": "ecochlor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-26a",
+      "label": "Ekornes Contract AS",
+      "normalized": "ekornes contract",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-18b",
+      "label": "Eksfin",
+      "normalized": "eksfin",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-04b",
+      "label": "ELIN Motoren",
+      "normalized": "elin motoren",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-01a",
+      "label": "Elpro Group AS",
+      "normalized": "elpro",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-02c",
+      "label": "Eltorque AS",
+      "normalized": "eltorque",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C02-30b",
+      "label": "Eltronic Fueltech A/S",
+      "normalized": "eltronic fueltech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C03-02b",
+      "label": "Engine Protection Partner/",
+      "normalized": "engine protection partner",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-44c",
+      "label": "Entec Evotec AS",
+      "normalized": "entec evotec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-38e",
+      "label": "Entech Marine A/S",
+      "normalized": "entech marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-36g",
+      "label": "EuroRope Marine AS",
+      "normalized": "eurorope marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-34e",
+      "label": "FAYARD A/S",
+      "normalized": "fayard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-13",
+      "label": "Fire Fighting Systems",
+      "normalized": "fire fighting systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-21",
+      "label": "FitatSea & Imatech",
+      "normalized": "fitatsea imatech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-30b",
+      "label": "Fjero A/S",
+      "normalized": "fjero",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-36",
+      "label": "Fjord Base Holding",
+      "normalized": "fjord base",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C04-34",
+      "label": "Framo AS",
+      "normalized": "framo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-01b",
+      "label": "Fraunhofer CML",
+      "normalized": "fraunhofer cml",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-30c",
+      "label": "Frese A/S",
+      "normalized": "frese",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C01-38a",
+      "label": "Garrets International A/S",
+      "normalized": "garrets international",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 56,
+      "stand": "C05-36d",
+      "label": "GC Rieber Compact AS",
+      "normalized": "gc rieber compact",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-04c",
+      "label": "Georg Schlegel GmbH & Co.",
+      "normalized": "georg schlegel",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-06",
+      "label": "German pavilion",
+      "normalized": "german pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-02b",
+      "label": "Glamox",
+      "normalized": "glamox",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-30d",
+      "label": "Global Boiler Aalborg A/S",
+      "normalized": "global boiler aalborg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-34f",
+      "label": "Halton Marine",
+      "normalized": "halton marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-01",
+      "label": "Hamburg Messe und Congress",
+      "normalized": "hamburg messe und congress",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-46",
+      "label": "Hansen Protection AS",
+      "normalized": "hansen protection",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-42a",
+      "label": "Heinen & Hopman",
+      "normalized": "heinen hopman",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-34",
+      "label": "Heinzmann Automation AS",
+      "normalized": "heinzmann automation",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-26e",
+      "label": "Hetraco",
+      "normalized": "hetraco",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-38e",
+      "label": "Hirtshals Yard A/S",
+      "normalized": "hirtshals yard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-04c",
+      "label": "Holst & Fleischer AS",
+      "normalized": "holst fleischer",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-34a",
+      "label": "Hoyer Motors",
+      "normalized": "hoyer motors",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-36",
+      "label": "Hub for Ocean",
+      "normalized": "hub for ocean",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-18c",
+      "label": "Hydroniq Coolers",
+      "normalized": "hydroniq coolers",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-33",
+      "label": "Hytek AS",
+      "normalized": "hytek",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-34",
+      "label": "Høgskulen på Vestlandet",
+      "normalized": "h gskulen pa vestlandet",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-40",
+      "label": "IMS Technologies AS",
+      "normalized": "ims technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-41",
+      "label": "INELTEH",
+      "normalized": "inelteh",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-01c",
+      "label": "Innovaphone AG",
+      "normalized": "innovaphone",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-18b",
+      "label": "Innovation Norway",
+      "normalized": "innovation norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-14",
+      "label": "Insatech Marine",
+      "normalized": "insatech marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-14",
+      "label": "IOW Group Ltd",
+      "normalized": "iow",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-31c",
+      "label": "IRON Pump",
+      "normalized": "iron pump",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C05-01c",
+      "label": "Jason Engineering AS",
+      "normalized": "jason engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-32a",
+      "label": "Jets Vacuum AS",
+      "normalized": "jets vacuum",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C05-42h",
+      "label": "John Gjerde AS",
+      "normalized": "john gjerde",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-42",
+      "label": "Jowa AB",
+      "normalized": "jowa",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-45",
+      "label": "Jumo AS - Sensors and Auto-",
+      "normalized": "jumo as sensors and auto",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-42c",
+      "label": "Kaeser kompressorer",
+      "normalized": "kaeser kompressorer",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-40",
+      "label": "Karaca Gemi Ship Windows &",
+      "normalized": "karaca gemi ship windows",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-59",
+      "label": "Karmøy Winch AS",
+      "normalized": "karm y winch",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C05-42a",
+      "label": "KLINGER WESTAD AS",
+      "normalized": "klinger westad",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-10a",
+      "label": "Kongsberg Digital",
+      "normalized": "kongsberg digital",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-10",
+      "label": "Kongsberg Maritime",
+      "normalized": "kongsberg maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-11d",
+      "label": "KRACHT GmbH",
+      "normalized": "kracht",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-40",
+      "label": "KROHNE Marine",
+      "normalized": "krohne marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-26c",
+      "label": "Kwant Controls BV",
+      "normalized": "kwant controls",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-63",
+      "label": "Ladar Limited",
+      "normalized": "ladar",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-36",
+      "label": "Lefdal Mine Datacenter",
+      "normalized": "lefdal mine datacenter",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-42c",
+      "label": "Libra-Plast AS",
+      "normalized": "libra plast",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-15",
+      "label": "Lido Marine",
+      "normalized": "lido marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-44a",
+      "label": "Light Structures AS",
+      "normalized": "light structures",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C05-42b",
+      "label": "Lilaas AS",
+      "normalized": "lilaas",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-44",
+      "label": "LMG Marin AS",
+      "normalized": "lmg marin",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-34c",
+      "label": "LR Marine A/S",
+      "normalized": "lr marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-34b",
+      "label": "Mare Safety AS",
+      "normalized": "mare safety",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-26b",
+      "label": "MarFlex BV",
+      "normalized": "marflex",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-18d",
+      "label": "Marin Teknikk AS",
+      "normalized": "marin teknikk",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-38b",
+      "label": "Marine Aluminium AS",
+      "normalized": "marine aluminium",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-38e",
+      "label": "Marine El",
+      "normalized": "marine el",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-10b",
+      "label": "Marioff Corporation Oy",
+      "normalized": "marioff",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-34",
+      "label": "Maritime Bergen",
+      "normalized": "maritime bergen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C03-39",
+      "label": "Maritime Partner AS",
+      "normalized": "maritime partner",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-17",
+      "label": "Maritime Robotics",
+      "normalized": "maritime robotics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-15",
+      "label": "MarLog AS",
+      "normalized": "marlog",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-06a",
+      "label": "Martechnic GmbH",
+      "normalized": "martechnic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-23",
+      "label": "Martin Bruusgaard  AS",
+      "normalized": "martin bruusgaard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-06c",
+      "label": "Mecklenburger Metallguss",
+      "normalized": "mecklenburger metallguss",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-11b",
+      "label": "Meerkat.ai",
+      "normalized": "meerkat ai",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-24b",
+      "label": "Metizoft AS",
+      "normalized": "metizoft",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-51",
+      "label": "Mintra",
+      "normalized": "mintra",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-04d",
+      "label": "Moog Inc.",
+      "normalized": "moog",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-38d",
+      "label": "MRC Global Norway AS",
+      "normalized": "mrc global norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-01a",
+      "label": "MSR-Electronic GmbH",
+      "normalized": "msr electronic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-36",
+      "label": "Multi Maritime",
+      "normalized": "multi maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-12b",
+      "label": "Nakashima Propeller Company",
+      "normalized": "nakashima propeller company",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-14",
+      "label": "NanoVapor Inc.",
+      "normalized": "nanovapor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-10d",
+      "label": "Navtor AS",
+      "normalized": "navtor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C02-26",
+      "label": "NL Pavilion",
+      "normalized": "nl pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-24c",
+      "label": "Norac AS",
+      "normalized": "norac",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C01-33",
+      "label": "Norisol A/S",
+      "normalized": "norisol",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C04-42b",
+      "label": "NorSap AS",
+      "normalized": "norsap",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 57,
+      "stand": "C05-42f",
+      "label": "Norsk Analyse AS",
+      "normalized": "norsk analyse",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-42d",
+      "label": "Norwater",
+      "normalized": "norwater",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-30",
+      "label": "Norwegian Electric Systems AS",
+      "normalized": "norwegian electric systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-32b",
+      "label": "Norwegian Maritime Authority",
+      "normalized": "norwegian maritime authority",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-30",
+      "label": "Norwegian Pavilion",
+      "normalized": "norwegian pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-57",
+      "label": "Norwegian Supply & Service as",
+      "normalized": "norwegian supply service",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-42g",
+      "label": "Novenco AS",
+      "normalized": "novenco",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-36",
+      "label": "Nyborg AS",
+      "normalized": "nyborg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-24a",
+      "label": "Ocean Technologies Group",
+      "normalized": "ocean technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-38c",
+      "label": "Oceanly Srl",
+      "normalized": "oceanly srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-18a",
+      "label": "Optimarin AS",
+      "normalized": "optimarin",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-33",
+      "label": "Orskov Yard A/S",
+      "normalized": "orskov yard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-11",
+      "label": "Ostseestaal GmbH & Co. KG",
+      "normalized": "ostseestaal gmbh co kg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-02d",
+      "label": "Otto Piening GmbH",
+      "normalized": "otto piening",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-34d",
+      "label": "OXYMAT A/S",
+      "normalized": "oxymat",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-42c",
+      "label": "Passer Marine",
+      "normalized": "passer marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-34",
+      "label": "Pavilion of Denmark",
+      "normalized": "pavilion of denmark",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-44d",
+      "label": "Plany AS",
+      "normalized": "plany",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-24e",
+      "label": "Plug AS",
+      "normalized": "plug",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-40",
+      "label": "Pocadel Oy",
+      "normalized": "pocadel",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-36e",
+      "label": "PPG Coatings",
+      "normalized": "ppg coatings",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-42",
+      "label": "Qatar Airways",
+      "normalized": "qatar airways",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-42b",
+      "label": "R. Stahl Tranberg AS",
+      "normalized": "r stahl tranberg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-35a",
+      "label": "Restech Norway AS",
+      "normalized": "restech norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-24d",
+      "label": "ROG Ship Repair",
+      "normalized": "rog ship repair",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-18b",
+      "label": "Rolls-Royce Solutions GmbH",
+      "normalized": "rolls royce solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-36e",
+      "label": "ROS AS",
+      "normalized": "ros",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-26c",
+      "label": "Rotterdam Maritime Capital of",
+      "normalized": "rotterdam maritime capital of",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-24c",
+      "label": "Royal Bodewes",
+      "normalized": "royal bodewes",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-01e",
+      "label": "Rustibus Worldwide AS",
+      "normalized": "rustibus worldwide",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-11c",
+      "label": "SAB Georg Schünemann GmbH",
+      "normalized": "sab georg schunemann",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-47",
+      "label": "Safenor AS",
+      "normalized": "safenor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-24e",
+      "label": "Safeway - VAMO",
+      "normalized": "safeway vamo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-14",
+      "label": "Sauer Compressors",
+      "normalized": "sauer compressors",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-20",
+      "label": "Scana",
+      "normalized": "scana",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-33",
+      "label": "Scanel International A/S",
+      "normalized": "scanel international",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-34",
+      "label": "ScanReach",
+      "normalized": "scanreach",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-14",
+      "label": "ScanUnit AB",
+      "normalized": "scanunit",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-14",
+      "label": "Scanvi-Interyards AS",
+      "normalized": "scanvi interyards",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-38b",
+      "label": "SEA HARMONY",
+      "normalized": "sea harmony",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-38b",
+      "label": "Sepcotech A/S",
+      "normalized": "sepcotech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-18b",
+      "label": "SERVOGEAR",
+      "normalized": "servogear",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-34a",
+      "label": "SH Group",
+      "normalized": "sh",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-01d",
+      "label": "Shipmed AS",
+      "normalized": "shipmed",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-14",
+      "label": "Siemens AS",
+      "normalized": "siemens",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Siemens Ltd.",
+          "country": "India"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-14",
+      "label": "Sinotech CCS",
+      "normalized": "sinotech ccs",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-01f",
+      "label": "SINTEF Ocean AS",
+      "normalized": "sintef ocean",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-36b",
+      "label": "Skipsrevyen AS",
+      "normalized": "skipsrevyen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-38a",
+      "label": "Smart Automation",
+      "normalized": "smart automation",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-01c",
+      "label": "Snom technology GmbH",
+      "normalized": "snom technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-36",
+      "label": "Solund Verft",
+      "normalized": "solund verft",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-01h",
+      "label": "Sonove GmbH",
+      "normalized": "sonove",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-38d",
+      "label": "Source2Sea A/S",
+      "normalized": "source2sea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-02a",
+      "label": "Sperre Air Power",
+      "normalized": "sperre air power",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-38e",
+      "label": "Star Information Systems AS",
+      "normalized": "star information systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-26b",
+      "label": "STC Trade",
+      "normalized": "stc trade",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-01",
+      "label": "STI MARINE Firestop",
+      "normalized": "sti marine firestop",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-02c",
+      "label": "Stucke Elektronik GmbH",
+      "normalized": "stucke elektronik",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-30c",
+      "label": "Svanehøj Danmark A/S",
+      "normalized": "svaneh j danmark",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-36h",
+      "label": "Symetri AS",
+      "normalized": "symetri",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-01d",
+      "label": "SAACKE GmbH",
+      "normalized": "saacke",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-18a",
+      "label": "Tamrotor Marine Compressors",
+      "normalized": "tamrotor marine compressors",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C05-01a",
+      "label": "Team Maritime AS",
+      "normalized": "team maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-40",
+      "label": "TeamTec AS",
+      "normalized": "teamtec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-02a",
+      "label": "TECO 2030",
+      "normalized": "teco 2030",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-02a",
+      "label": "TECO Maritime Group AS",
+      "normalized": "teco maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-42a",
+      "label": "Teknotherm Marine AS",
+      "normalized": "teknotherm marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-12c",
+      "label": "TGE Marine Engineering GmbH",
+      "normalized": "tge marine engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-26d",
+      "label": "Thecla Bodewes Shipyards",
+      "normalized": "thecla bodewes shipyards",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C02-24a",
+      "label": "TKF Twentsche kabel Fabriek",
+      "normalized": "tkf twentsche kabel fabriek",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-12c",
+      "label": "TPR Fiberdur GmbH & co. KG",
+      "normalized": "tpr fiberdur gmbh co kg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C04-36",
+      "label": "Tussa IKT",
+      "normalized": "tussa ikt",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C01-12b",
+      "label": "Ula Ship Management",
+      "normalized": "ula ship management",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-42d",
+      "label": "Ulmatec AS",
+      "normalized": "ulmatec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 58,
+      "stand": "C03-42d",
+      "label": "Ulmatec Engine Solutions",
+      "normalized": "ulmatec engine solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C03-42d",
+      "label": "Ulmatec Handling Solutions",
+      "normalized": "ulmatec handling solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C03-42d",
+      "label": "Ulmatec Insea Solutions",
+      "normalized": "ulmatec insea solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C03-42d",
+      "label": "Ulmatec Thermal Solutions",
+      "normalized": "ulmatec thermal solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-43",
+      "label": "Ultra Fog",
+      "normalized": "ultra fog",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C02-37",
+      "label": "Uptime International AS",
+      "normalized": "uptime international",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-26a",
+      "label": "VDL AEC Maritime",
+      "normalized": "vdl aec maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-26a",
+      "label": "VDL Klima B.V.",
+      "normalized": "vdl klima b v",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C02-11a",
+      "label": "VEM Sachsenwerk GmbH",
+      "normalized": "vem sachsenwerk",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-35b",
+      "label": "Vestdavit AS",
+      "normalized": "vestdavit",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-36",
+      "label": "Vestland SeaService",
+      "normalized": "vestland seaservice",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-24f",
+      "label": "Viking Life-Saving Equipment",
+      "normalized": "viking life saving equipment",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-30a",
+      "label": "VMS Group A/S",
+      "normalized": "vms",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-04b",
+      "label": "Voith",
+      "normalized": "voith",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-34",
+      "label": "Vuvi / Posicom",
+      "normalized": "vuvi posicom",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C02-39",
+      "label": "Wabtec",
+      "normalized": "wabtec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-34",
+      "label": "Wenaas Workwear",
+      "normalized": "wenaas workwear",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-34",
+      "label": "Wikborg Rein",
+      "normalized": "wikborg rein",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-53",
+      "label": "Wire Tech AS",
+      "normalized": "wire tech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C02-12a",
+      "label": "WISKA Hoppmann GmbH",
+      "normalized": "wiska hoppmann",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-26f",
+      "label": "Wortelboer anchors and chain-",
+      "normalized": "wortelboer anchors and chain",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-38a",
+      "label": "Wrist Marine Logistics",
+      "normalized": "wrist marine logistics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-38a",
+      "label": "Wrist Ship Supply A/S",
+      "normalized": "wrist ship supply",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C03-26",
+      "label": "Yara Clean Ammonia Norge AS",
+      "normalized": "yara clean ammonia norge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C03-26",
+      "label": "Yara Marine Technologies AS",
+      "normalized": "yara marine technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-35c",
+      "label": "Zenitel Norway AS",
+      "normalized": "zenitel norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-12a",
+      "label": "ZF Friedrichshafen AG",
+      "normalized": "zf friedrichshafen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C04-10c",
+      "label": "Øglænd System",
+      "normalized": "gl nd system",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C02-30a",
+      "label": "Øwre-Johnsen",
+      "normalized": "wre johnsen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-34b",
+      "label": "AAG Aalborg Gummivarefabrik",
+      "normalized": "aag aalborg gummivarefabrik",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 59,
+      "stand": "C01-39",
+      "label": "Aalesund Protective Wear AS",
+      "normalized": "aalesund protective wear",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-04e",
+      "label": "A&P Group Ltd.",
+      "normalized": "a p",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-41",
+      "label": "ABB",
+      "normalized": "abb",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-24",
+      "label": "ABS",
+      "normalized": "abs",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-24",
+      "label": "ABS Wavesight",
+      "normalized": "abs wavesight",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-10",
+      "label": "ACCOMAR Marine Interior AS",
+      "normalized": "accomar marine interior",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-30d",
+      "label": "ACM Energy",
+      "normalized": "acm energy",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-04",
+      "label": "ACUA Ocean",
+      "normalized": "acua ocean",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-45",
+      "label": "Ada Shipyard",
+      "normalized": "ada shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-52",
+      "label": "ADRIA WINCH",
+      "normalized": "adria winch",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-14",
+      "label": "Adwatec",
+      "normalized": "adwatec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-35",
+      "label": "Ahlsell Norge AS",
+      "normalized": "ahlsell norge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-26d",
+      "label": "ALIS",
+      "normalized": "alis",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-23",
+      "label": "ALTANLAR",
+      "normalized": "altanlar",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-14",
+      "label": "Amokabel Norway",
+      "normalized": "amokabel norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-04",
+      "label": "Anemoi Marine Technologies",
+      "normalized": "anemoi marine technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-28",
+      "label": "API",
+      "normalized": "api",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-05",
+      "label": "Armach Robotics",
+      "normalized": "armach robotics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-31",
+      "label": "Art Shipyard",
+      "normalized": "art shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-04",
+      "label": "Artemis Technologies",
+      "normalized": "artemis technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-37",
+      "label": "ASIME",
+      "normalized": "asime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-12",
+      "label": "ASRY",
+      "normalized": "asry",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-30",
+      "label": "Astander Shipyard",
+      "normalized": "astander shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-30",
+      "label": "Astibal Shipyard",
+      "normalized": "astibal shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-30",
+      "label": "Astican Shipyard",
+      "normalized": "astican shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-31",
+      "label": "Asyad Dry Dock",
+      "normalized": "asyad dry dock",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-33",
+      "label": "BAUTA Group",
+      "normalized": "bauta",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-33",
+      "label": "Berg Propulsion Production AB",
+      "normalized": "berg propulsion production",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-25",
+      "label": "Besenzoni",
+      "normalized": "besenzoni",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-26a",
+      "label": "Besiktas Marine",
+      "normalized": "besiktas marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-31",
+      "label": "Besiktas Shipyard",
+      "normalized": "besiktas shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-14",
+      "label": "Blokland Non Ferro B.V.",
+      "normalized": "blokland non ferro b v",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-22",
+      "label": "BLRT Grupp as",
+      "normalized": "blrt grupp",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-14",
+      "label": "Blücher Norge AS",
+      "normalized": "blucher norge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-35",
+      "label": "BMATechnology",
+      "normalized": "bmatechnology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-04",
+      "label": "BMT",
+      "normalized": "bmt",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-31",
+      "label": "Bohamet S.A.",
+      "normalized": "bohamet",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-12",
+      "label": "Boilerman Service International",
+      "normalized": "boilerman service international",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-29",
+      "label": "Bolidt Shipdeck Coverings",
+      "normalized": "bolidt shipdeck coverings",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-12",
+      "label": "BREDO - Dry Docks GmbH",
+      "normalized": "bredo dry docks",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-31",
+      "label": "Brødrene Fürst AS",
+      "normalized": "br drene furst",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-38d",
+      "label": "Bømlo Skipsservice AS",
+      "normalized": "b mlo skipsservice",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-24c",
+      "label": "Cadmatic",
+      "normalized": "cadmatic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-31",
+      "label": "Carell",
+      "normalized": "carell",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-26b",
+      "label": "Celiktrans Shipyard",
+      "normalized": "celiktrans shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-37",
+      "label": "Cemre Shipyard",
+      "normalized": "cemre shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-13",
+      "label": "CHINA NATIONAL SHIPBUILD-",
+      "normalized": "china national shipbuild",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-25",
+      "label": "CHINA SHIPPING MARINE",
+      "normalized": "china shipping marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-35",
+      "label": "Chugoku Marine Paint",
+      "normalized": "chugoku marine paint",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-10",
+      "label": "CITA DESIGN",
+      "normalized": "cita design",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-12d",
+      "label": "Clarksons",
+      "normalized": "clarksons",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-12",
+      "label": "Core Power",
+      "normalized": "core power",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-12a",
+      "label": "Daewoo Shipbuilding & Marine",
+      "normalized": "daewoo shipbuilding marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-12",
+      "label": "Dakarnave Shipyard SA",
+      "normalized": "dakarnave shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-24i",
+      "label": "Deltamarin",
+      "normalized": "deltamarin",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-31",
+      "label": "Detyens Shipyards",
+      "normalized": "detyens shipyards",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-38",
+      "label": "Digital Ship",
+      "normalized": "digital ship",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-34",
+      "label": "DMT Marine Equipment",
+      "normalized": "dmt marine equipment",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-12",
+      "label": "DNV",
+      "normalized": "dnv",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-10",
+      "label": "DNV Veracity",
+      "normalized": "dnv veracity",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-34",
+      "label": "Drydocks World Dubai",
+      "normalized": "drydocks world dubai",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-41",
+      "label": "ECHANDIA",
+      "normalized": "echandia",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-04",
+      "label": "Ecomar Propulsion",
+      "normalized": "ecomar propulsion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-38",
+      "label": "ELKON",
+      "normalized": "elkon",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D03-24b",
+      "label": "Elomatic Oy",
+      "normalized": "elomatic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-04",
+      "label": "Eminox",
+      "normalized": "eminox",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-24",
+      "label": "Enoc",
+      "normalized": "enoc",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-24",
+      "label": "EURO-WELD",
+      "normalized": "euro weld",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-38b",
+      "label": "Fiskerstrand Verft as",
+      "normalized": "fiskerstrand verft",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D02-38e",
+      "label": "Fitjar Mekaniske Verksted AS",
+      "normalized": "fitjar mekaniske verksted",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-03",
+      "label": "FKAB Marine Design",
+      "normalized": "fkab marine design",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D01-27",
+      "label": "FLENDER GmbH",
+      "normalized": "flender",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D04-40",
+      "label": "Fortaco Group",
+      "normalized": "fortaco",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D06-59",
+      "label": "Fosen Yard",
+      "normalized": "fosen yard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 62,
+      "stand": "D05-30",
+      "label": "Frydenbø Industri AS",
+      "normalized": "frydenb industri",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-12e",
+      "label": "GE Power Conversion",
+      "normalized": "ge power conversion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-12i",
+      "label": "Gemak Gemi Insaat San. Ve Tic",
+      "normalized": "gemak gemi insaat san ve tic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-30a",
+      "label": "GEPA Fiberglass",
+      "normalized": "gepa fiberglass",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-14",
+      "label": "GESAB Göteborgs Energy Sys-",
+      "normalized": "gesab goteborgs energy sys",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-08",
+      "label": "GF Piping Systems",
+      "normalized": "gf piping systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-25",
+      "label": "GIANNESCHI PUMPS AND",
+      "normalized": "gianneschi pumps and",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-31",
+      "label": "Gibdock",
+      "normalized": "gibdock",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-30b",
+      "label": "Gisbir",
+      "normalized": "gisbir",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D02-30",
+      "label": "GMC Yard",
+      "normalized": "gmc yard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-18h",
+      "label": "GNTP (Gyeongnam Tech-",
+      "normalized": "gntp gyeongnam tech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D02-26",
+      "label": "GONDAN Shipbuilders",
+      "normalized": "gondan shipbuilders",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-17",
+      "label": "GPBM Nordic AB",
+      "normalized": "gpbm nordic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D02-38f",
+      "label": "Green Yard Kleven AS",
+      "normalized": "green yard kleven",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-24f",
+      "label": "Groke Technologies",
+      "normalized": "groke technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-26c",
+      "label": "Guray",
+      "normalized": "guray",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-14",
+      "label": "HAMMAN",
+      "normalized": "hamman",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-31",
+      "label": "Hanseatic Marine Services",
+      "normalized": "hanseatic marine services",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-04",
+      "label": "Harland & Wolff",
+      "normalized": "harland wolff",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-17",
+      "label": "Hat-San Shipyard",
+      "normalized": "hat san shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D02-40",
+      "label": "HAV Design",
+      "normalized": "hav design",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D02-40",
+      "label": "HAV Hydrogen AS",
+      "normalized": "hav hydrogen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-05",
+      "label": "Havyard Leirvik AS",
+      "normalized": "havyard leirvik",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D02-38c",
+      "label": "Heim Maritime AS",
+      "normalized": "heim maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-49",
+      "label": "HELINOR Energy AS",
+      "normalized": "helinor energy",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-49",
+      "label": "HELINOR Marine AS",
+      "normalized": "helinor marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-39",
+      "label": "Helkama Bica Oy",
+      "normalized": "helkama bica",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-24e",
+      "label": "Helsinki Shipyard",
+      "normalized": "helsinki shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D02-25",
+      "label": "Hempel Norway AS",
+      "normalized": "hempel norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-56",
+      "label": "HOL Ship Service AS",
+      "normalized": "hol ship service",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-05",
+      "label": "Holland Shipyards B.V.",
+      "normalized": "holland shipyards b v",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-12e",
+      "label": "Hyundai Heavy Industries Co.,",
+      "normalized": "hyundai heavy industries",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Hyundai Heavy Industries Co. Ltd.",
+          "country": "South Korea"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-12c",
+      "label": "Hyundai Mipo Dockyard Co.,",
+      "normalized": "hyundai mipo dockyard",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Hyundai Mipo Dockyard Co. Ltd.",
+          "country": "South Korea"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-12b",
+      "label": "Hyundai Samho Heavy Indus-",
+      "normalized": "hyundai samho heavy indus",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-30a",
+      "label": "ICDAS",
+      "normalized": "icdas",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-10a",
+      "label": "ICE",
+      "normalized": "ice",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-26e",
+      "label": "Ide Marine",
+      "normalized": "ide marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-24",
+      "label": "ILS Ship Design & Engineering",
+      "normalized": "ils ship design engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-31",
+      "label": "IMC Shipyard (Zhoushan)",
+      "normalized": "imc shipyard zhoushan",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-37",
+      "label": "Ingeteam Power Technology,",
+      "normalized": "ingeteam power technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-49",
+      "label": "International Paint/Akzo Nobel",
+      "normalized": "international paint akzo nobel",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-19",
+      "label": "IRI/The Marshall Islands Reg-",
+      "normalized": "iri the marshall islands reg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-07",
+      "label": "Jiangsu Masada Heavy Indus-",
+      "normalized": "jiangsu masada heavy indus",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-05",
+      "label": "JIAXING RONGSHENG LIFE-",
+      "normalized": "jiaxing rongsheng life",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-04",
+      "label": "Jotun AS",
+      "normalized": "jotun",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-12d",
+      "label": "K Shipbuilding Co., LTD.",
+      "normalized": "k shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-18g",
+      "label": "KANGRIM Heavy Industries",
+      "normalized": "kangrim heavy industries",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-18",
+      "label": "KASS(Korea Autonomous Sur-",
+      "normalized": "kass korea autonomous sur",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-12",
+      "label": "Kemel Europe Limited",
+      "normalized": "kemel europe",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-31",
+      "label": "Keppel Offshore & Marine Ltd",
+      "normalized": "keppel offshore marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-12",
+      "label": "KET Marine International BV",
+      "normalized": "ket marine international",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-18B",
+      "label": "KOAI CO., LTD",
+      "normalized": "koai",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-18",
+      "label": "Korea Marine Equipment As-",
+      "normalized": "korea marine equipment",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-12",
+      "label": "Korea Offshore & Shipbuilding",
+      "normalized": "korea offshore shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-18",
+      "label": "Korean Register",
+      "normalized": "korean register",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-26b",
+      "label": "Kurtek",
+      "normalized": "kurtek",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-30",
+      "label": "Kuzey Star Shipyard",
+      "normalized": "kuzey star shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-16",
+      "label": "Kymar Group AS",
+      "normalized": "kymar",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-18l",
+      "label": "LAB021",
+      "normalized": "lab021",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-37",
+      "label": "LBI FOUNDRIES - your partner",
+      "normalized": "lbi foundries your partner",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-02",
+      "label": "LENOL DMCC",
+      "normalized": "lenol dmcc",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-12",
+      "label": "Lisnave Estaleiros Navais, S.A.",
+      "normalized": "lisnave estaleiros navais",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-30c",
+      "label": "LOCA",
+      "normalized": "loca",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-21",
+      "label": "LOS Marine AS",
+      "normalized": "los marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-16",
+      "label": "MariApps Marine Solutions",
+      "normalized": "mariapps marine solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-12",
+      "label": "Marine Jet Power",
+      "normalized": "marine jet power",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-08",
+      "label": "Marine Parts & Propulsion og",
+      "normalized": "marine parts propulsion og",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-40",
+      "label": "Maritime Advanced Research",
+      "normalized": "maritime advanced research",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D03-24",
+      "label": "Maritime Finland Pavilion",
+      "normalized": "maritime finland pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-42",
+      "label": "Maritime Montering AS",
+      "normalized": "maritime montering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D04-26d",
+      "label": "MARSIS",
+      "normalized": "marsis",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-48",
+      "label": "MAS Fluid Control AS",
+      "normalized": "mas fluid control",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D06-39",
+      "label": "Maskinering AS",
+      "normalized": "maskinering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D05-19",
+      "label": "MAURIC",
+      "normalized": "mauric",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 63,
+      "stand": "D01-25",
+      "label": "MCT Brattberg AB",
+      "normalized": "mct brattberg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-26a",
+      "label": "MED MARINE",
+      "normalized": "med marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-16",
+      "label": "Memphis Marine & Offshore",
+      "normalized": "memphis marine offshore",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-18",
+      "label": "Meson Group",
+      "normalized": "meson",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-03",
+      "label": "Metalcolour",
+      "normalized": "metalcolour",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-25",
+      "label": "Metalships & Docks",
+      "normalized": "metalships docks",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D04-12",
+      "label": "MPCC",
+      "normalized": "mpcc",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-62",
+      "label": "MSR GRYFIA S.A.",
+      "normalized": "msr gryfia",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D02-17",
+      "label": "Myklebust Verft AS",
+      "normalized": "myklebust verft",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-18k",
+      "label": "Mytec Co., Ltd",
+      "normalized": "mytec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D04-12",
+      "label": "Nauta SA. Shiprepair Yard",
+      "normalized": "nauta sa shiprepair yard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-50",
+      "label": "NDAR - SSI",
+      "normalized": "ndar ssi",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-20",
+      "label": "Netaman Shipyards",
+      "normalized": "netaman shipyards",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-42",
+      "label": "Newport Shipping",
+      "normalized": "newport shipping",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-28",
+      "label": "Norse Shipyard",
+      "normalized": "norse shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-22",
+      "label": "Norsepower",
+      "normalized": "norsepower",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D02-38",
+      "label": "Norske skipsverft",
+      "normalized": "norske skipsverft",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-04",
+      "label": "Ocean Infinity",
+      "normalized": "ocean infinity",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-17",
+      "label": "OceanTec",
+      "normalized": "oceantec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-37",
+      "label": "Palfinger Marine",
+      "normalized": "palfinger marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D04-04",
+      "label": "Panasia Co. Ltd",
+      "normalized": "panasia",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-26",
+      "label": "PCS Group AS",
+      "normalized": "pcs",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-43",
+      "label": "Polish Baltic Company",
+      "normalized": "polish baltic company",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-44",
+      "label": "PowerCell Sweden AB",
+      "normalized": "powercell sweden",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-10b",
+      "label": "Progress Rail Services",
+      "normalized": "progress rail services",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-12c",
+      "label": "Protea",
+      "normalized": "protea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-31",
+      "label": "Qingdao Beihai Shipbuilding",
+      "normalized": "qingdao beihai shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-04d",
+      "label": "Rab Microfluidics Ltd",
+      "normalized": "rab microfluidics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-17",
+      "label": "Rapp Bomek",
+      "normalized": "rapp bomek",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-29",
+      "label": "Remontowa S.A.",
+      "normalized": "remontowa",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-27",
+      "label": "Remontowa Shipbuilding",
+      "normalized": "remontowa shipbuilding",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-38",
+      "label": "RINA",
+      "normalized": "rina",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-12a",
+      "label": "Rivertrace Ltd.",
+      "normalized": "rivertrace",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-44",
+      "label": "RMK Marine",
+      "normalized": "rmk marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-35",
+      "label": "RMS Marine Service Company",
+      "normalized": "rms marine service company",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D04-12",
+      "label": "Rotterdam Ship Repairs",
+      "normalized": "rotterdam ship repairs",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-16",
+      "label": "Roxtec AS",
+      "normalized": "roxtec",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-18f",
+      "label": "S.U.G.Co.,Ltd",
+      "normalized": "s u g",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-21",
+      "label": "Saint-Gobain Marine",
+      "normalized": "saint gobain marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-26",
+      "label": "Salt Ship Design",
+      "normalized": "salt ship design",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-12f",
+      "label": "Samsung Heavy Industries Co.",
+      "normalized": "samsung heavy industries",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Samsung Heavy Industries Co. Ltd.",
+          "country": "South Korea"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-30b",
+      "label": "SANMAR",
+      "normalized": "sanmar",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-18e",
+      "label": "SCHAFFENGOTT Co., Ltd.",
+      "normalized": "schaffengott",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D02-31",
+      "label": "SCHOTTEL GmbH",
+      "normalized": "schottel",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-18d",
+      "label": "Seadronix Corp.",
+      "normalized": "seadronix",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-34",
+      "label": "SEAM",
+      "normalized": "seam",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-12b",
+      "label": "Seatrade/Informa Markets UK",
+      "normalized": "seatrade informa markets uk",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-30c",
+      "label": "Sedef  Shipyard",
+      "normalized": "sedef shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D04-42",
+      "label": "Sefine Shipyard",
+      "normalized": "sefine shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-24",
+      "label": "Servi Group",
+      "normalized": "servi",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-32",
+      "label": "SHANDONG SHENLI RIGGING",
+      "normalized": "shandong shenli rigging",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-01",
+      "label": "Shell Marine",
+      "normalized": "shell marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D02-37",
+      "label": "Shift & Yinson",
+      "normalized": "shift yinson",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-07",
+      "label": "ShipNor",
+      "normalized": "shipnor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-12",
+      "label": "Skipsteknisk AS",
+      "normalized": "skipsteknisk",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-04",
+      "label": "Sonardyne",
+      "normalized": "sonardyne",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-50",
+      "label": "SSI",
+      "normalized": "ssi",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D02-39",
+      "label": "Steerprop Ltd.",
+      "normalized": "steerprop",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-31",
+      "label": "Storm & Bull Shipping",
+      "normalized": "storm bull shipping",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-45",
+      "label": "Sunbo Industries",
+      "normalized": "sunbo industries",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-58",
+      "label": "Sundless",
+      "normalized": "sundless",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-60",
+      "label": "Syncrolift",
+      "normalized": "syncrolift",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-60",
+      "label": "Techano Oceanlift",
+      "normalized": "techano oceanlift",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-14",
+      "label": "Techmarin Solutions AS",
+      "normalized": "techmarin solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-33",
+      "label": "Tecnicomar SpA",
+      "normalized": "tecnicomar",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D01-30",
+      "label": "Tersan Shipyard",
+      "normalized": "tersan shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-18c",
+      "label": "THE SAFETY CO.,LTD.",
+      "normalized": "the safety",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D03-18a",
+      "label": "Toads Co.,Ltd.",
+      "normalized": "toads",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-23",
+      "label": "TRASF ECO SRL",
+      "normalized": "trasf eco srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D04-12",
+      "label": "Turbo Service International",
+      "normalized": "turbo service international",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D04-30",
+      "label": "Turkish national pavilion",
+      "normalized": "turkish national pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-12",
+      "label": "UK Government",
+      "normalized": "uk government",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D05-12",
+      "label": "UK Pavilion",
+      "normalized": "uk pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D02-13",
+      "label": "Ulstein Group",
+      "normalized": "ulstein",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 64,
+      "stand": "D06-22",
+      "label": "UNIMARS GROUP",
+      "normalized": "unimars",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D04-12",
+      "label": "UQP stand",
+      "normalized": "uqp stand",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D06-46",
+      "label": "Uzmar Shipyard",
+      "normalized": "uzmar shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D03-24d",
+      "label": "V.A.V. GROUP",
+      "normalized": "v a v",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D03-24a",
+      "label": "Valmet",
+      "normalized": "valmet",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Valmet OYJ",
+          "country": "Finland"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D05-30",
+      "label": "Van Halteren Technologies",
+      "normalized": "van halteren technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D02-22",
+      "label": "Vard Group",
+      "normalized": "vard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D01-11",
+      "label": "Ventiq AS",
+      "normalized": "ventiq",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D02-35",
+      "label": "VestnesOcean",
+      "normalized": "vestnesocean",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D06-26",
+      "label": "Vickers Oils",
+      "normalized": "vickers oils",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D06-47",
+      "label": "Viega GmbH & Co. KG",
+      "normalized": "viega gmbh co kg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D03-18j",
+      "label": "VINSSEN",
+      "normalized": "vinssen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D03-40",
+      "label": "Wartsila Marine",
+      "normalized": "wartsila marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D01-40",
+      "label": "WE Tech Solutions Oy",
+      "normalized": "we tech solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D01-38",
+      "label": "Westcon",
+      "normalized": "westcon",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D02-23",
+      "label": "WinGD",
+      "normalized": "wingd",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D06-32",
+      "label": "WinKong Marine Engineering",
+      "normalized": "winkong marine engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D02-37",
+      "label": "Yinson GreenTech",
+      "normalized": "yinson greentech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D02-38",
+      "label": "Yinson Production",
+      "normalized": "yinson production",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D06-54",
+      "label": "YUIL Co., Ltd.",
+      "normalized": "yuil",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D02-28",
+      "label": "Zamakona Yard",
+      "normalized": "zamakona yard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D06-02",
+      "label": "ZHEJIANG SHUANGNIAO AN-",
+      "normalized": "zhejiang shuangniao an",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 65,
+      "stand": "D04-34",
+      "label": "Özata Shipyard",
+      "normalized": "ozata shipyard",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-22",
+      "label": "AB Volvo Penta",
+      "normalized": "ab volvo penta",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-15",
+      "label": "Accelleron",
+      "normalized": "accelleron",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-37",
+      "label": "AHO",
+      "normalized": "aho",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-58b",
+      "label": "Alba Graduate Business School",
+      "normalized": "alba graduate business school",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-19",
+      "label": "Alfa Laval Nordic AS",
+      "normalized": "alfa laval nordic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-26",
+      "label": "ALLWEILER AS",
+      "normalized": "allweiler",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-61",
+      "label": "ALSTOM HYDROGENE",
+      "normalized": "alstom hydrogene",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-66",
+      "label": "AMOGY",
+      "normalized": "amogy",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-11",
+      "label": "Anlegg og Marine Service",
+      "normalized": "anlegg og marine service",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-37",
+      "label": "Aries Marine & Engineering",
+      "normalized": "aries marine engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-04C",
+      "label": "ATP SPA",
+      "normalized": "atp",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-05",
+      "label": "Berg-Hansen Marine & Busi-",
+      "normalized": "berg hansen marine busi",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-19",
+      "label": "Bergen Engines",
+      "normalized": "bergen engines",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-58j",
+      "label": "BI Norwegian Business School",
+      "normalized": "bi norwegian business school",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-04e",
+      "label": "BOAT LIFT SRL",
+      "normalized": "boat lift srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-12",
+      "label": "Bollfilter Nordic ApS",
+      "normalized": "bollfilter nordic aps",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-23",
+      "label": "BRUNVOLL",
+      "normalized": "brunvoll",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-24",
+      "label": "Brødrene Dahl AS",
+      "normalized": "br drene dahl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-29",
+      "label": "Bulbous Agency",
+      "normalized": "bulbous agency",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-43",
+      "label": "CaeTek AS / cDynamics AS",
+      "normalized": "caetek as cdynamics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-38",
+      "label": "Castrol",
+      "normalized": "castrol",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-43",
+      "label": "CDynamics",
+      "normalized": "cdynamics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-27",
+      "label": "Chevron Marine Products",
+      "normalized": "chevron marine products",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-13",
+      "label": "CM Technologies",
+      "normalized": "cm technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-25",
+      "label": "Davi Turbo AS",
+      "normalized": "davi turbo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-02",
+      "label": "Dellner Bubenzer",
+      "normalized": "dellner bubenzer",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-04B",
+      "label": "DESMON SRL",
+      "normalized": "desmon srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-33",
+      "label": "Dimo",
+      "normalized": "dimo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-10",
+      "label": "Ditech Filter Solutions",
+      "normalized": "ditech filter solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-32",
+      "label": "Dongguan Changyuan Spray-",
+      "normalized": "dongguan changyuan spray",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-43",
+      "label": "DONGGUAN PAN AMERICAN",
+      "normalized": "dongguan pan american",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-39",
+      "label": "Dream Learn Work",
+      "normalized": "dream learn work",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-07",
+      "label": "Ellingsen Indutech AS",
+      "normalized": "ellingsen indutech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-26",
+      "label": "EMP Secure",
+      "normalized": "emp secure",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-60",
+      "label": "ENERNITE",
+      "normalized": "enernite",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-47",
+      "label": "Enova",
+      "normalized": "enova",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-12",
+      "label": "Enwa Water Technology AS",
+      "normalized": "enwa water technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-60",
+      "label": "ESA BIC NORWAY",
+      "normalized": "esa bic norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-04j",
+      "label": "F.LLI RAZETO & CASARETO SPA",
+      "normalized": "f lli razeto casareto",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-13",
+      "label": "Finnøy Gear & Propeller",
+      "normalized": "finn y gear propeller",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-31",
+      "label": "Frydenbø Industri",
+      "normalized": "frydenb industri",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E01-02",
+      "label": "GHIBSON ITALIA SRL",
+      "normalized": "ghibson italia srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-57",
+      "label": "Glocal Green",
+      "normalized": "glocal green",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-30",
+      "label": "Goltens Group of companies",
+      "normalized": "goltens group of companies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-54",
+      "label": "GreenH",
+      "normalized": "greenh",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-05",
+      "label": "Gulf Oil Marine Ltd.",
+      "normalized": "gulf oil marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-55",
+      "label": "H-TEC SYSTEMS",
+      "normalized": "h tec systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-35",
+      "label": "H+H Engineering & Service",
+      "normalized": "h h engineering service",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-60",
+      "label": "H2Cluster",
+      "normalized": "h2cluster",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-44",
+      "label": "H2SITE - Onboard ammonia",
+      "normalized": "h2site onboard ammonia",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-26",
+      "label": "Hatteland Group",
+      "normalized": "hatteland",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-14",
+      "label": "Headway",
+      "normalized": "headway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-48",
+      "label": "Hexagon Purus Maritime",
+      "normalized": "hexagon purus maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-13",
+      "label": "Hug Engineering",
+      "normalized": "hug engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-01",
+      "label": "Hydac AS",
+      "normalized": "hydac",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-06",
+      "label": "Hydra Pipe AS",
+      "normalized": "hydra pipe",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-51",
+      "label": "Hydraserv AS",
+      "normalized": "hydraserv",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-59",
+      "label": "Hydrogenious LOHC Maritime",
+      "normalized": "hydrogenious lohc maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-68",
+      "label": "Hyke",
+      "normalized": "hyke",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-50",
+      "label": "Hyon AS",
+      "normalized": "hyon",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-63",
+      "label": "Hyrex - Taking the lead in zero",
+      "normalized": "hyrex taking the lead in zero",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-07",
+      "label": "HAAKON ELLINGSEN AS",
+      "normalized": "haakon ellingsen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E01-18",
+      "label": "IB MATERIALS",
+      "normalized": "ib materials",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-60",
+      "label": "INVENTAS",
+      "normalized": "inventas",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-04",
+      "label": "Italian Pavilion",
+      "normalized": "italian pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-60",
+      "label": "Kjeller innovasjon",
+      "normalized": "kjeller innovasjon",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-56",
+      "label": "KraftPowercon Sweden AB",
+      "normalized": "kraftpowercon sweden",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-20",
+      "label": "Kumera AS",
+      "normalized": "kumera",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-21",
+      "label": "Lagersmit Sealing Solutions BV",
+      "normalized": "lagersmit sealing solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E04-04",
+      "label": "Lokit Polymer Pte Ltd.",
+      "normalized": "lokit polymer pte",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E01-16",
+      "label": "Lucky Dolphin Marine Services",
+      "normalized": "lucky dolphin marine services",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E02-04a",
+      "label": "MAESTRINI SRL",
+      "normalized": "maestrini srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-38",
+      "label": "MAN Energy Solutions",
+      "normalized": "man energy solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 68,
+      "stand": "E03-19",
+      "label": "Marelli Motori SRL",
+      "normalized": "marelli motori srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-46",
+      "label": "MARGEN",
+      "normalized": "margen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-15",
+      "label": "Marinetrans",
+      "normalized": "marinetrans",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-49",
+      "label": "Maritime Battery forum",
+      "normalized": "maritime battery forum",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-04f",
+      "label": "MELCAL SpA",
+      "normalized": "melcal",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-57",
+      "label": "METHANOL INSTITUTE",
+      "normalized": "methanol institute",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-58e",
+      "label": "MLA College",
+      "normalized": "mla college",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-58c",
+      "label": "National University of Singa-",
+      "normalized": "national university of singa",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-60",
+      "label": "NEO MONITORS",
+      "normalized": "neo monitors",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-42",
+      "label": "Neuman & Esser",
+      "normalized": "neuman esser",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-11",
+      "label": "Nidec Leroy-Somer",
+      "normalized": "nidec leroy somer",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-34",
+      "label": "Nogva",
+      "normalized": "nogva",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-72",
+      "label": "Nordic Booster",
+      "normalized": "nordic booster",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-18",
+      "label": "NORTH SEA MARITIME AS /",
+      "normalized": "north sea maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-20",
+      "label": "Norwegian Greentech AS",
+      "normalized": "norwegian greentech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-52",
+      "label": "Norwegian Hydrogen",
+      "normalized": "norwegian hydrogen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-52",
+      "label": "Norwest Marine Service AS",
+      "normalized": "norwest marine service",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-58h",
+      "label": "NTNU",
+      "normalized": "ntnu",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-41",
+      "label": "Ortlinghaus-Werke GmbH",
+      "normalized": "ortlinghaus werke",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-01",
+      "label": "Oshaug Metall AS",
+      "normalized": "oshaug metall",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-07",
+      "label": "PANOLIN Distribution",
+      "normalized": "panolin distribution",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-12",
+      "label": "PG Flow Solutions AS",
+      "normalized": "pg flow solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-52",
+      "label": "PK OEM",
+      "normalized": "pk oem",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-18",
+      "label": "Pon Power AS",
+      "normalized": "pon power",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-06",
+      "label": "Purestream by Atlantium",
+      "normalized": "purestream by atlantium",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-26",
+      "label": "RamBase",
+      "normalized": "rambase",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-10",
+      "label": "RECOM INDUSTRIALE S.R.L.",
+      "normalized": "recom industriale s r l",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-29",
+      "label": "Regal Rexnord",
+      "normalized": "regal rexnord",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Regal Rexnord Corp.",
+          "country": "United States"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-31",
+      "label": "RENK",
+      "normalized": "renk",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-02",
+      "label": "Riviera Maritime Media",
+      "normalized": "riviera maritime media",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E01-02",
+      "label": "Rubinetterie Bresciane Bonomi",
+      "normalized": "rubinetterie bresciane bonomi",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-07",
+      "label": "Rubix",
+      "normalized": "rubix",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-09",
+      "label": "Sandtorv Maskin",
+      "normalized": "sandtorv maskin",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-04i",
+      "label": "SCHIAVETTI ENZO SAS",
+      "normalized": "schiavetti enzo sas",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-08",
+      "label": "Senda Shipping Engineering &",
+      "normalized": "senda shipping engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-45",
+      "label": "Shipshave",
+      "normalized": "shipshave",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-05",
+      "label": "SLX Group",
+      "normalized": "slx",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-11",
+      "label": "Spectro | Jet-Care",
+      "normalized": "spectro jet care",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-40",
+      "label": "Stadt AS",
+      "normalized": "stadt",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-19",
+      "label": "StormGeo",
+      "normalized": "stormgeo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-70",
+      "label": "Stryvo",
+      "normalized": "stryvo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-46",
+      "label": "Stöhr Valves",
+      "normalized": "stohr valves",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-67",
+      "label": "Surplus Map",
+      "normalized": "surplus map",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-60",
+      "label": "SYRENNA",
+      "normalized": "syrenna",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-09",
+      "label": "The Viswa Group",
+      "normalized": "the viswa",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-22",
+      "label": "Thordon Bearings Inc.",
+      "normalized": "thordon bearings",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-04h",
+      "label": "TimelapseLab - Remote ship-",
+      "normalized": "timelapselab remote ship",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-41",
+      "label": "TMC TRANSFORMERS",
+      "normalized": "tmc transformers",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-15",
+      "label": "Total Marine Solutions",
+      "normalized": "total marine solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-16",
+      "label": "TotalEnergies Lubrifiants",
+      "normalized": "totalenergies lubrifiants",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-01",
+      "label": "Trelleborg Sealing Solutions",
+      "normalized": "trelleborg sealing solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-58a",
+      "label": "UArctic",
+      "normalized": "uarctic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-09",
+      "label": "Unimarine Group",
+      "normalized": "unimarine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-58f",
+      "label": "Urban Ocean@OsloMet",
+      "normalized": "urban ocean oslomet",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-60",
+      "label": "USEA",
+      "normalized": "usea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-60",
+      "label": "VAKE AS",
+      "normalized": "vake",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E01-02",
+      "label": "Valbia S.r.l.",
+      "normalized": "valbia s r l",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E01-02",
+      "label": "VALPRES S.r.l.",
+      "normalized": "valpres s r l",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-60",
+      "label": "Vane Ocean Technologies",
+      "normalized": "vane ocean technologies",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-04d",
+      "label": "VELERIA SAN GIORGIO SRL",
+      "normalized": "veleria san giorgio srl",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E01-24",
+      "label": "VessTech Group",
+      "normalized": "vesstech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-16",
+      "label": "Volvo Maskin AS",
+      "normalized": "volvo maskin",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-20",
+      "label": "Vulkan Skandinavia AS",
+      "normalized": "vulkan skandinavia",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-37",
+      "label": "Wake Media",
+      "normalized": "wake media",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E03-36",
+      "label": "WEG Scandinavia",
+      "normalized": "weg scandinavia",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-23",
+      "label": "Wilhelmsen",
+      "normalized": "wilhelmsen",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-58i",
+      "label": "WMU",
+      "normalized": "wmu",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-34",
+      "label": "Yanmar",
+      "normalized": "yanmar",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E04-34",
+      "label": "Yanmar & Maritim Motor",
+      "normalized": "yanmar maritim motor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-26",
+      "label": "Ydra",
+      "normalized": "ydra",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 69,
+      "stand": "E02-49",
+      "label": "Yxney Maritime",
+      "normalized": "yxney maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-58",
+      "label": "4C Offshore",
+      "normalized": "4c offshore",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "4Subsea",
+      "normalized": "4subsea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-35",
+      "label": "AILIVESIM",
+      "normalized": "ailivesim",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-18",
+      "label": "Alma Clean Power",
+      "normalized": "alma clean power",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-39",
+      "label": "Alternative Energy Solutions",
+      "normalized": "alternative energy solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-08",
+      "label": "Ammonia-powered shipping",
+      "normalized": "ammonia powered shipping",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-01",
+      "label": "Arribatec Marine",
+      "normalized": "arribatec marine",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-44",
+      "label": "Arundo Analytics",
+      "normalized": "arundo analytics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-28",
+      "label": "Attender",
+      "normalized": "attender",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-28",
+      "label": "Attender-Go",
+      "normalized": "attender go",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-29",
+      "label": "Avo Consulting",
+      "normalized": "avo consulting",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-08",
+      "label": "AZANE FUEL SOLUTIONS",
+      "normalized": "azane fuel solutions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-14",
+      "label": "Ballard Power Systems Europe",
+      "normalized": "ballard power systems europe",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-36",
+      "label": "Bassoe Technology",
+      "normalized": "bassoe technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-36",
+      "label": "Brevik Engineering & Bassoe",
+      "normalized": "brevik engineering bassoe",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-19",
+      "label": "CCF Baltija Riga",
+      "normalized": "ccf baltija riga",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-08",
+      "label": "Chowgule SBD",
+      "normalized": "chowgule sbd",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "F01-09",
+      "label": "Corvus Energy AS",
+      "normalized": "corvus energy",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-30e",
+      "label": "CR Ocean Engineering, LLC",
+      "normalized": "cr ocean engineering",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-26",
+      "label": "CWS",
+      "normalized": "cws",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-60",
+      "label": "Daphne Technology",
+      "normalized": "daphne technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-24",
+      "label": "DAYANG OFFSHORE EQUIP-",
+      "normalized": "dayang offshore equip",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "Deep Sea Anchors",
+      "normalized": "deep sea anchors",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-07",
+      "label": "DONGYANG MFG",
+      "normalized": "dongyang mfg",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "DWO",
+      "normalized": "dwo",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-15",
+      "label": "Eiken Maritime AS",
+      "normalized": "eiken maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-46",
+      "label": "eyeGauge",
+      "normalized": "eyegauge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-18",
+      "label": "Fjellstrand AS",
+      "normalized": "fjellstrand",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-49",
+      "label": "Fjuel",
+      "normalized": "fjuel",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-18",
+      "label": "GARANT SAFETY",
+      "normalized": "garant safety",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-31",
+      "label": "Globetech",
+      "normalized": "globetech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "HAUGALAND VEKST",
+      "normalized": "haugaland vekst",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "F01-31",
+      "label": "Hegnar Media",
+      "normalized": "hegnar media",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-43",
+      "label": "Helitracks AS",
+      "normalized": "helitracks",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "Invest in Rogaland",
+      "normalized": "invest in rogaland",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-34",
+      "label": "IP Huse AS",
+      "normalized": "ip huse",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-18",
+      "label": "Iverson eFuels",
+      "normalized": "iverson efuels",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-14",
+      "label": "KATRADIS ROPES INDUSRTY",
+      "normalized": "katradis ropes indusrty",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "U-02",
+      "label": "Kockumation Group",
+      "normalized": "kockumation",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-31",
+      "label": "Lattice International",
+      "normalized": "lattice international",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-22",
+      "label": "Leclanché E-Mobility",
+      "normalized": "leclanche e mobility",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-34",
+      "label": "MacGregor",
+      "normalized": "macgregor",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "U-01",
+      "label": "Marinfloc AB",
+      "normalized": "marinfloc",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-30c",
+      "label": "Maritime Blue",
+      "normalized": "maritime blue",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "F01-13",
+      "label": "Mercy Ships Norge",
+      "normalized": "mercy ships norge",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "METCentre",
+      "normalized": "metcentre",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-09",
+      "label": "Miko Group",
+      "normalized": "miko",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "Miros",
+      "normalized": "miros",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T02-45",
+      "label": "MORE Medical",
+      "normalized": "more medical",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-16",
+      "label": "Mosmatic AG",
+      "normalized": "mosmatic",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-34",
+      "label": "Motus Technology AS",
+      "normalized": "motus technology",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-49",
+      "label": "MRPC",
+      "normalized": "mrpc",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-05",
+      "label": "Nanjing Sandemarine Informa-",
+      "normalized": "nanjing sandemarine informa",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-57",
+      "label": "Naval Architect",
+      "normalized": "naval architect",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-08",
+      "label": "NAVIGARE LOGISTICS AS",
+      "normalized": "navigare logistics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-18",
+      "label": "NCE Maritime CleanTech",
+      "normalized": "nce maritime cleantech",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T02-47",
+      "label": "Nordic Fender",
+      "normalized": "nordic fender",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-18",
+      "label": "Norled",
+      "normalized": "norled",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "NorSea group",
+      "normalized": "norsea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-51",
+      "label": "Nortech AI",
+      "normalized": "nortech ai",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "Norwegian Offshore Wind",
+      "normalized": "norwegian offshore wind",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-32",
+      "label": "NOV",
+      "normalized": "nov",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-41",
+      "label": "Ocean Solution",
+      "normalized": "ocean solution",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "Offshore & Trawl Supply AS",
+      "normalized": "offshore trawl supply",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "Offshore Health Services AS",
+      "normalized": "offshore health services",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "OSC",
+      "normalized": "osc",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T01-27",
+      "label": "OSM Thome",
+      "normalized": "osm thome",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-42",
+      "label": "Polyform",
+      "normalized": "polyform",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-37",
+      "label": "PurEmissions",
+      "normalized": "puremissions",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-16",
+      "label": "RM Group",
+      "normalized": "rm",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-47",
+      "label": "Safetytech Accelerator",
+      "normalized": "safetytech accelerator",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-30d",
+      "label": "Saildrone, Inc.",
+      "normalized": "saildrone",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T02-43",
+      "label": "Sayfr",
+      "normalized": "sayfr",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 72,
+      "stand": "T03-33",
+      "label": "Sea",
+      "normalized": "sea",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-41",
+      "label": "Seaonics AS",
+      "normalized": "seaonics",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-45",
+      "label": "SEAWARENESS",
+      "normalized": "seawareness",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-07",
+      "label": "Sick AB",
+      "normalized": "sick",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-06",
+      "label": "SIMS PUMP",
+      "normalized": "sims pump",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-20",
+      "label": "Simwave",
+      "normalized": "simwave",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "F01-17",
+      "label": "Sjømannskirken - Norsk Kirke i",
+      "normalized": "sj mannskirken norsk kirke i",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-42",
+      "label": "SOFT",
+      "normalized": "soft",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-42",
+      "label": "Sorce gallileo, Odfjell wind",
+      "normalized": "sorce gallileo odfjell wind",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-32",
+      "label": "Spear Power Systems",
+      "normalized": "spear power systems",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-42",
+      "label": "Spoor Ai",
+      "normalized": "spoor ai",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-30a",
+      "label": "Spurs Marine Manufacturing",
+      "normalized": "spurs marine manufacturing",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "F01-33",
+      "label": "Strømmes",
+      "normalized": "str mmes",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-42",
+      "label": "Subc3d",
+      "normalized": "subc3d",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-18",
+      "label": "Sustainable Energy Norwegian",
+      "normalized": "sustainable energy norwegian",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-03",
+      "label": "Suzhou Jiumei Fiberglass Co.,",
+      "normalized": "suzhou jiumei fiberglass",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-03",
+      "label": "Swagelok Norway",
+      "normalized": "swagelok norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-03",
+      "label": "Swagelok Norway",
+      "normalized": "swagelok norway",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-17",
+      "label": "TANG MARINE SERVICE COM-",
+      "normalized": "tang marine service com",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-53",
+      "label": "Techgarden",
+      "normalized": "techgarden",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-11",
+      "label": "TecnoVeritas",
+      "normalized": "tecnoveritas",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-49",
+      "label": "Tectrans AS",
+      "normalized": "tectrans",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-20",
+      "label": "Telenor Maritime",
+      "normalized": "telenor maritime",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-10",
+      "label": "Tess",
+      "normalized": "tess",
+      "fund_exact_name_candidates": [
+        {
+          "holding": "Tess Holdings Co. Ltd.",
+          "country": "Japan"
+        }
+      ],
+      "state": "exact_name_to_verify"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-58",
+      "label": "TGS",
+      "normalized": "tgs",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-63",
+      "label": "TradeWinds",
+      "normalized": "tradewinds",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-30b",
+      "label": "USA Pavilion",
+      "normalized": "usa pavilion",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-08",
+      "label": "Viridis Bulk Carriers AS",
+      "normalized": "viridis bulk carriers",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-42",
+      "label": "Westcon Helgeland AS",
+      "normalized": "westcon helgeland",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-42",
+      "label": "WindPorp",
+      "normalized": "windporp",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T03-55",
+      "label": "Yangzhou Yiliyuan Imp&Exp",
+      "normalized": "yangzhou yiliyuan imp exp",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    },
+    {
+      "pdf_page": 73,
+      "stand": "T01-36",
+      "label": "Yantai  CIMC Raffles Offshore",
+      "normalized": "yantai cimc raffles offshore",
+      "fund_exact_name_candidates": [],
+      "state": "unresolved"
+    }
+  ]
+}

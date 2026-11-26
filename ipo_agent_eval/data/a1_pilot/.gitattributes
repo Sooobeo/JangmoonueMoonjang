@@ -1,0 +1,2 @@
+# Preserve the exact bytes referenced by the filing and assignment SHA-256 records.
+* -text

@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.aet-tankers.com/media-centre/aet-highlights/aet-highlights-july-2023",
+    "file": null,
+    "error": "403 Client Error: Forbidden for url: https://www.aet-tankers.com/media-centre/aet-highlights/aet-highlights-july-2023"
+  },
+  {
+    "file": "wilhelmsen_scope_2020.html",
+    "url": "https://www.wilhelmsen.com/investors/reports-and-presentations/sustainability2020/about-our-report/reporting-boundary/",
+    "sha256": "4d698ed1e57f75e1c68b9faa6cbf9e71858ded8e1faa2019279cf407935f775a"
+  },
+  {
+    "file": "kog_group_202302.html",
+    "url": "https://www.kongsberg.com/news/news-archive/2023/kongsberg-gruppen-asas-annual-report-for-2022/",
+    "sha256": "6ffd1cff950837f0f2498eb2d13499a3e173babfa67561a948ccd558aa0c30e2"
+  }
+]

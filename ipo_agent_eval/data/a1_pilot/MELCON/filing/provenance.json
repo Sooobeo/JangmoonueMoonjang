@@ -1,0 +1,38 @@
+{
+  "case_id": "MELCON-DEV-01",
+  "issuer": "멜콘",
+  "cohort": "DEVELOPMENT",
+  "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000194",
+  "receipt_no": "20260821000368",
+  "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000368",
+  "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000191",
+  "family_versions": [
+    {
+      "receipt": "20260929000191",
+      "caption": "2026.09.29 [발행조건확정] 증권신고서(지분증권)"
+    },
+    {
+      "receipt": "20260909000381",
+      "caption": "2026.09.09 [정정] 증권신고서(지분증권)"
+    },
+    {
+      "receipt": "20260821000368",
+      "caption": "2026.08.21 증권신고서(지분증권)"
+    }
+  ],
+  "date_kst": "2026-08-21",
+  "precision": "minute",
+  "dart_title": "멜콘/증권신고서(지분증권)/2026.08.21",
+  "dcm_no": "11546008",
+  "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20260821000368&dcm_no=11546008",
+  "pdf_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+  "bytes": 2394330,
+  "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2026.08.21&textCrpCik=01028933&currentPage=1&maxResults=100",
+  "published_kst": "2026-08-21T14:42+09:00",
+  "retrieval": "verified",
+  "cover_pdf_page": 3,
+  "pdf_pages": 433,
+  "earnings_basis": "2026년 상반기 실적, 일회성 이익 조정 후 연환산",
+  "method_period_pdf_page": 208,
+  "price_table_pdf_page": 208
+}

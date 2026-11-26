@@ -1,0 +1,370 @@
+[
+  {
+    "corp": "00540863",
+    "name": "GST",
+    "listing": "083450",
+    "registry_code": "29271",
+    "historical": "20260814001221",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "01288827",
+    "name": "HPSP",
+    "listing": "403870",
+    "registry_code": "29271",
+    "historical": "20260814004015",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00579999",
+    "name": "고영",
+    "listing": "098460",
+    "registry_code": "29271",
+    "historical": "20260814003639",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "01080252",
+    "name": "넥스틴",
+    "listing": "348210",
+    "registry_code": "29271",
+    "historical": "20260814003931",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "00521390",
+    "name": "뉴파워프라즈마",
+    "listing": "144960",
+    "registry_code": "29271",
+    "historical": "20260814001986",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00784184",
+    "name": "동원파츠",
+    "listing": "0162D0",
+    "registry_code": "29271",
+    "historical": null,
+    "in_applicant_table": false
+  },
+  {
+    "corp": "00624509",
+    "name": "디바이스",
+    "listing": "187870",
+    "registry_code": "29271",
+    "historical": "20260814001720",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "01573381",
+    "name": "레이저쎌",
+    "listing": "412350",
+    "registry_code": "29271",
+    "historical": "20260814002668",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00447760",
+    "name": "미래컴퍼니",
+    "listing": "049950",
+    "registry_code": "29271",
+    "historical": "20260813000068",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00544577",
+    "name": "브이엠",
+    "listing": "089970",
+    "registry_code": "29271",
+    "historical": "20260813001486",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00659161",
+    "name": "싸이맥스",
+    "listing": "160980",
+    "registry_code": "29271",
+    "historical": "20260814000884",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00605328",
+    "name": "씨앤지하이테크",
+    "listing": "264660",
+    "registry_code": "29271",
+    "historical": "20260813000962",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00298377",
+    "name": "아이씨디",
+    "listing": "040910",
+    "registry_code": "29271",
+    "historical": "20260814002631",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "00298340",
+    "name": "에스티아이",
+    "listing": "039440",
+    "registry_code": "29271",
+    "historical": "20260814001073",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "01307593",
+    "name": "에이아이코리아",
+    "listing": "364950",
+    "registry_code": "29271",
+    "historical": "20260814003479",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00611736",
+    "name": "엑시콘",
+    "listing": "092870",
+    "registry_code": "29271",
+    "historical": "20260814001521",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00484682",
+    "name": "엘오티베큠",
+    "listing": "083310",
+    "registry_code": "29271",
+    "historical": "20260814003425",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00530556",
+    "name": "예스티",
+    "listing": "122640",
+    "registry_code": "29271",
+    "historical": "20260814000104",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00866451",
+    "name": "워트",
+    "listing": "396470",
+    "registry_code": "29271",
+    "historical": "20260807000181",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00260569",
+    "name": "유니셈",
+    "listing": "036200",
+    "registry_code": "29271",
+    "historical": "20260814000905",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00540447",
+    "name": "유니테스트",
+    "listing": "086390",
+    "registry_code": "29271",
+    "historical": "20260814000772",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00531014",
+    "name": "유진테크",
+    "listing": "084370",
+    "registry_code": "29271",
+    "historical": "20260814003622",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00246417",
+    "name": "이오테크닉스",
+    "listing": "039030",
+    "registry_code": "29271",
+    "historical": "20260814001118",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "01383229",
+    "name": "저스템",
+    "listing": "417840",
+    "registry_code": "29271",
+    "historical": "20260812000566",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00666204",
+    "name": "제너셈",
+    "listing": "217190",
+    "registry_code": "29271",
+    "historical": "20260813000859",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00442570",
+    "name": "제우스",
+    "listing": "079370",
+    "registry_code": "29271",
+    "historical": "20260814003337",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "00493185",
+    "name": "제이스로보틱스",
+    "listing": "090470",
+    "registry_code": "29271",
+    "historical": "20260814002750",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "01309421",
+    "name": "제이엔비",
+    "listing": "452160",
+    "registry_code": "29271",
+    "historical": "20260814000389",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00365457",
+    "name": "제이티",
+    "listing": "089790",
+    "registry_code": "29271",
+    "historical": "20260814001018",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00492894",
+    "name": "젬백스",
+    "listing": "082270",
+    "registry_code": "29271",
+    "historical": "20260814004196",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00958327",
+    "name": "지앤비에스 에코",
+    "listing": "382800",
+    "registry_code": "29271",
+    "historical": "20260813000171",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00153621",
+    "name": "참엔지니어링",
+    "listing": "009310",
+    "registry_code": "29271",
+    "historical": "20260814002040",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "01638387",
+    "name": "케이지에이",
+    "listing": "455180",
+    "registry_code": "29271",
+    "historical": "20260814002235",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00997812",
+    "name": "코미코",
+    "listing": "183300",
+    "registry_code": "29271",
+    "historical": "20260814003614",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00365934",
+    "name": "코세스",
+    "listing": "089890",
+    "registry_code": "29271",
+    "historical": "20260814002531",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00524421",
+    "name": "테스",
+    "listing": "095610",
+    "registry_code": "29271",
+    "historical": "20260813000486",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00535676",
+    "name": "테크윙",
+    "listing": "089030",
+    "registry_code": "29271",
+    "historical": "20260814001211",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00867098",
+    "name": "티로보틱스",
+    "listing": "117730",
+    "registry_code": "29271",
+    "historical": "20260814003794",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "01146220",
+    "name": "팸텍",
+    "listing": "271830",
+    "registry_code": "29271",
+    "historical": "20260814002911",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "00325112",
+    "name": "프로텍",
+    "listing": "053610",
+    "registry_code": "29271",
+    "historical": "20260814000560",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "01365825",
+    "name": "피에스케이",
+    "listing": "319660",
+    "registry_code": "29271",
+    "historical": "20260814000731",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "00208444",
+    "name": "피에스케이홀딩스",
+    "listing": "031980",
+    "registry_code": "29271",
+    "historical": "20260814000743",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00161383",
+    "name": "한미반도체",
+    "listing": "042700",
+    "registry_code": "29271",
+    "historical": "20260814003665",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "00367400",
+    "name": "모티브링크",
+    "listing": "463480",
+    "registry_code": "26294",
+    "historical": "20260814000910",
+    "in_applicant_table": false
+  },
+  {
+    "corp": "00925587",
+    "name": "위드텍",
+    "listing": "348350",
+    "registry_code": "27213",
+    "historical": "20260814001848",
+    "in_applicant_table": true
+  },
+  {
+    "corp": "01357446",
+    "name": "퓨런티어",
+    "listing": "370090",
+    "registry_code": "27213",
+    "historical": "20260813001157",
+    "in_applicant_table": false
+  }
+]

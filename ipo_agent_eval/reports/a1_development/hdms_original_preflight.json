@@ -1,0 +1,79 @@
+{
+  "source_sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+  "pages": 572,
+  "original_item_anchors": 11,
+  "same_rater_repeat_sample": [
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05",
+    "H06"
+  ],
+  "per_reconstructed_from_published_caps_and_profit": "31.50755066736863570293297479",
+  "disclosed_market_cap_to_price_krw": "106112.6106218850421627365518",
+  "published_price_krw": 106113,
+  "rounding_and_unit_checks": {
+    "diluted_shares": 44870190,
+    "published_cap_million_krw": 4761293,
+    "bridge": "4,761,293 million KRW / 44,870,190 shares",
+    "reported_offer_band_krw": [
+      73300,
+      83400
+    ],
+    "displayed_discount_endpoints": [
+      "0.214",
+      "0.309"
+    ],
+    "exact_from_displayed_discount_before_band_rounding": [
+      "73324.083",
+      "83404.818"
+    ]
+  },
+  "estimated_alternatives_using_published_inputs": {
+    "H01": {
+      "price_krw": "73678.69984610262768139308249",
+      "absolute_change_from_published_P0": "0.3056581206251578253240123030"
+    },
+    "H02": {
+      "price_krw": "100496.9208052886627009967609",
+      "absolute_change_from_published_P0": "0.05292545865927207127310733935"
+    },
+    "H03": {
+      "price_krw": "112705.3435614124535394126662",
+      "absolute_change_from_published_P0": "0.06212569205858333606073399301"
+    },
+    "H04": {
+      "price_krw": "105837.0513705924107218340568",
+      "absolute_change_from_published_P0": "0.002600516707732222047872958073"
+    },
+    "H05": {
+      "price_krw": "105411.7998831613731212806420",
+      "absolute_change_from_published_P0": "0.006608051010136617367517250478"
+    },
+    "H06": {
+      "price_krw": "107577.8387398242243188520776",
+      "absolute_change_from_published_P0": "0.01380451725824568449532175699"
+    },
+    "H07": {
+      "price_krw": "108702.2928788254997070363873",
+      "absolute_change_from_published_P0": "0.02440127862585639560691326510"
+    }
+  },
+  "a0": {
+    "execution_status": "PREFLIGHT_COMPLETE",
+    "model_calls": 0,
+    "docs": [
+      "DOC-01"
+    ],
+    "isolated_input_files": [
+      "case_manifest.jsonl",
+      "chunks.jsonl",
+      "documents.jsonl",
+      "manual.md",
+      "raw/DOC-01.pdf"
+    ],
+    "run_id": "20261124T074836Z_A0_0df2c880"
+  },
+  "calculated_at_utc": "2026-11-24T07:48:37.951234+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "HDMS",
+  "version": "development-1",
+  "source_receipt": "20240325000947",
+  "source_sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+  "page_numbering": "physical_pdf_one_based",
+  "pilot_K": 1,
+  "proposed_material_price_change": 0.05,
+  "qualitative_standard_for_rater_confirmation": "공개 원문에서 중요한 반대 근거 누락 또는 사실 오적용이 확인되고, 이를 반영하면 비교기업 포함·이익 기간 또는 배수 집계 결론을 바꿀 수 있는 경우. 평가자가 모델 결과를 보기 전에 기준을 확인한다.",
+  "subtype": {
+    "id": "MARINE_AFTERMARKET",
+    "axis": "신조·초도 장비 공급 대 운항선 부품·정비·개조 서비스",
+    "mapping": "주관사가 그 후보 자체의 선박 인도 후 부품·정비·개조 서비스 매출이나 사업을 비교기업 채택의 근거로 명시한 경우 연결한다. 선박산업 관련성, 장비 제조 또는 발행사 부품 수요에 대한 간접 영향만 제시하면 미연결이다.",
+    "priority": 1
+  },
+  "items": [
+    {"id":"H01","label":"2023년 온기 지배주주 귀속 이익 적용","page":237,"also":[355,359],"anchor":"지배주주지분 기준 순이익","alternative":"2022년 온기 지배기업 소유주지분 이익 104,926,507,806원을 사용하고 다른 조건은 유지","double_grade":true},
+    {"id":"H02","label":"HD한국조선해양 포함","page":251,"also":[248,250,269],"anchor":"AM 사업의 부품/서비스 수요에 영향을 미치","alternative":"해당 기업만 제외하고 나머지 3개 PER의 산술평균","subtype":null,"mapping_reason":"엔진 취급과 조선업이 발행사의 사후 부품수요에 미치는 영향을 명시","double_grade":true},
+    {"id":"H03","label":"Alfa Laval 포함","page":255,"also":[248,250,253,269],"anchor":"Aftermarket 솔루션 제공을 주력 사업","alternative":"해당 기업만 제외하고 나머지 3개 PER의 산술평균","subtype":"MARINE_AFTERMARKET","mapping_reason":"선박 기자재와 사후 서비스의 직접 제공을 선정 근거로 제시","double_grade":true},
+    {"id":"H04","label":"Kongsberg Gruppen 포함","page":260,"also":[248,250,258,262,269],"anchor":"Aftermarket 서비스 사업부의 특성","alternative":"해당 기업만 제외하고 나머지 3개 PER의 산술평균","subtype":"MARINE_AFTERMARKET","mapping_reason":"해양 부문의 사후 서비스와 부품 공급을 비교 근거로 제시","double_grade":true},
+    {"id":"H05","label":"Wärtsilä 포함","page":266,"also":[248,250,265,269],"anchor":"서비스 상품이","alternative":"해당 기업만 제외하고 나머지 3개 PER의 산술평균","subtype":"MARINE_AFTERMARKET","mapping_reason":"Marine Power의 운항선 서비스와 친환경 개조를 비교 근거로 제시","double_grade":true},
+    {"id":"H06","label":"비교기업 PER의 산술평균 적용","page":270,"also":[237,269],"anchor":"평균 PER 거래배수","alternative":"같은 네 기업의 PER 중앙값","double_grade":true},
+    {"id":"H07","label":"비교기업 기준주가의 기간과 선택","page":269,"also":[249,267,268],"anchor":"1개월 평균 주가","alternative":"3월 14일 종가를 네 기업에 일괄 적용","double_grade":false},
+    {"id":"H08","label":"기준시가총액과 지배주주순이익의 환산·단위","page":269,"also":[267,268],"anchor":"기준시가총액 및 지배주주순이익 변환","alternative":"독립 대조로 오류가 확인되면 같은 통화 기준으로 재계산","double_grade":false},
+    {"id":"H09","label":"공모 및 희석을 반영한 적용 주식 수","page":270,"also":[237],"anchor":"공모 후 잠재주식수","alternative":"독립 확인한 신주·구주·옵션 구성을 적용","double_grade":false},
+    {"id":"H10","label":"주당 평가가액 산식과 표시 정밀도","page":270,"also":[237,269],"anchor":"주당 평가가액 산출 내역","alternative":"원문 단위와 최대 가용 정밀도로 재계산","double_grade":false},
+    {"id":"H11","label":"평가가액에서 희망 공모가 범위로의 할인 적용","page":270,"also":[237,271],"anchor":"평가액 대비 할인율","alternative":"공시 할인율로 밴드 양 끝을 재계산한다. 할인만 바꾸는 경우 주당 평가가액 자체의 변화는 0이다.","double_grade":false}
+  ]
+}

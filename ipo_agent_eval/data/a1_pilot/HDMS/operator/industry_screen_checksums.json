@@ -1,0 +1,236 @@
+{
+  "decision_version": "HDMS-pilot-industry-1",
+  "decision_time": "2026-11-24T16:50:36.734012+09:00",
+  "files": [
+    {
+      "path": "filing/20240325000947.pdf",
+      "sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+      "bytes": 8218330
+    },
+    {
+      "path": "operator/nor_shipping_2023_stands.json",
+      "sha256": "03d1e98b99618ccc2353bb3ef1546ce20b9417223f972da48a7998467c6e31bc",
+      "bytes": 188321
+    },
+    {
+      "path": "operator/industry_candidate_finance.json",
+      "sha256": "1ac4e02165e6e16419bda0a74197dff9f250aca01a3f66d6860db611b49e3715",
+      "bytes": 2794
+    },
+    {
+      "path": "operator/industry_screen_decision.json",
+      "sha256": "7b50b5f50d3026f6c495ad07a2b94cd7ecda7c65a078533105c3393b086d104e",
+      "bytes": 8397
+    },
+    {
+      "path": "operator/candidate_sources/002380_business.html",
+      "sha256": "e0ffa400b049783a33aac94a359fbf82d6b91c6d8503484b9e3a697ea95ea946",
+      "bytes": 5945
+    },
+    {
+      "path": "operator/candidate_sources/002380_daily_quote_response.txt",
+      "sha256": "ef7be06f43ec2a076d97449ecd9c6c3cc0c7736165b408c397409cfef4ce0505",
+      "bytes": 1361
+    },
+    {
+      "path": "operator/candidate_sources/002380_financials.html",
+      "sha256": "152ac1e40b9070577e3f811ba98640edbcd19e1ac9abb3b46bdda367341e88a4",
+      "bytes": 26201
+    },
+    {
+      "path": "operator/candidate_sources/002380_segments.html",
+      "sha256": "4a328b816093d27e0c335320abc410cd6572a7e3bbf5a9362ca043ccbc121b2b",
+      "bytes": 27824
+    },
+    {
+      "path": "operator/candidate_sources/002380_shares.html",
+      "sha256": "78a2fa10361ea98acf6b9d41e7b44ebfc68bf6ec66cf99f9f0b45b0b3e938938",
+      "bytes": 21305
+    },
+    {
+      "path": "operator/candidate_sources/009540_daily_quote_response.txt",
+      "sha256": "b3d3a6d4d50e06a355aa57c5d4bf7fddd54e7fad4a0b14e0eeb39d581ce7b050",
+      "bytes": 1378
+    },
+    {
+      "path": "operator/candidate_sources/009540_daum_quote_response.json",
+      "sha256": "2955add8948faa32fa034eb3b69b38918a8ec466a4f9a1016cd17c0199fe6f3f",
+      "bytes": 8518
+    },
+    {
+      "path": "operator/candidate_sources/009540_quote_crosscheck.json",
+      "sha256": "8088e9937a99cc6e471354ff79064f796484f4bd080ca78fb86507feabdb8f44",
+      "bytes": 876
+    },
+    {
+      "path": "operator/candidate_sources/010140_business.html",
+      "sha256": "48d066f00cb76bce22c2902e37bdb6fb42ecb10f6f40d9d60033a7e2d1c9d7e9",
+      "bytes": 4278
+    },
+    {
+      "path": "operator/candidate_sources/010140_daily_quote_response.txt",
+      "sha256": "f27905675230e8d52134322a84b6f98209e0f1a92f7836f0640b56fa252e67fd",
+      "bytes": 1242
+    },
+    {
+      "path": "operator/candidate_sources/010140_financials.html",
+      "sha256": "477f1c715e56c54523d42cfa633899b439e7e9ca0ed3276dedf4862e8f8cf29e",
+      "bytes": 23928
+    },
+    {
+      "path": "operator/candidate_sources/010140_segments.html",
+      "sha256": "3b7a174ec7ac574290d80fbe658dd573a6eca6d45503e72e73d5c7f25c3e0fd8",
+      "bytes": 4966
+    },
+    {
+      "path": "operator/candidate_sources/010140_shares.html",
+      "sha256": "06a3f6ad43d8aec75e0eb75c390a9558c8cd3e3d07606b7c5940060164ef93db",
+      "bytes": 20344
+    },
+    {
+      "path": "operator/candidate_sources/036460_business.html",
+      "sha256": "6a8537abf9790a311bbc0635afffcf527391fbcae1f13cece7cb75a16f86d4b9",
+      "bytes": 8497
+    },
+    {
+      "path": "operator/candidate_sources/036460_daily_quote_response.txt",
+      "sha256": "16ffb504c35ff9d0924fea1437b86f4c3370fe062d75efdba40f48390d57e872",
+      "bytes": 1284
+    },
+    {
+      "path": "operator/candidate_sources/036460_financials.html",
+      "sha256": "c07bdd595eeeb2d6be24a7e3730396ff2e891aa8eb3e57b365b3c23efe470ef6",
+      "bytes": 31337
+    },
+    {
+      "path": "operator/candidate_sources/036460_segments.html",
+      "sha256": "79a229fa4ea15d0ffe06b04d34c705ed11143fe7c1e9123b5193310604231ded",
+      "bytes": 33257
+    },
+    {
+      "path": "operator/candidate_sources/036460_shares.html",
+      "sha256": "dc406499ffa772f71579508fca5c1266ae47ea483153e3e3997a940e30e441e6",
+      "bytes": 18200
+    },
+    {
+      "path": "operator/candidate_sources/042660_business.html",
+      "sha256": "5534660c015fa6fce5092854c46d71516b1aa58eef72fdd56c61df50b8382866",
+      "bytes": 11090
+    },
+    {
+      "path": "operator/candidate_sources/042660_daily_quote_response.txt",
+      "sha256": "523012d45c5699fe930a65efc1425b5adf3e394af72d58f38dadd83c18e0ed88",
+      "bytes": 1307
+    },
+    {
+      "path": "operator/candidate_sources/042660_dart_through_20240314.html",
+      "sha256": "ebd7b381aeb16a754dade7348dcf1cb6213640f061cef8c4d43ad8097f63d2aa",
+      "bytes": 33732
+    },
+    {
+      "path": "operator/candidate_sources/042660_daum_quote_response.json",
+      "sha256": "60f874b4a9157d55e1bf1e95074632ce75bc6eaf388efd784f3a179967c918f5",
+      "bytes": 8408
+    },
+    {
+      "path": "operator/candidate_sources/042660_financials.html",
+      "sha256": "a518ed2b13b9ec5340604c09ed345dd74189e781e8dfd844d7665236585db08d",
+      "bytes": 24030
+    },
+    {
+      "path": "operator/candidate_sources/042660_name_history.html",
+      "sha256": "1babcee67d6cf0e767a808e0771d4a88d39950e65192b19b2abe2e64ebbd586d",
+      "bytes": 9499
+    },
+    {
+      "path": "operator/candidate_sources/042660_quote_crosscheck.json",
+      "sha256": "1197e189b5170092a9ab70138c0d54b82d476460183d49ca8df41cc8e875edf7",
+      "bytes": 854
+    },
+    {
+      "path": "operator/candidate_sources/042660_segments.html",
+      "sha256": "1be461b2075451308851d7ee727ff4ed3a14c3badf6bcc2b0beafd7757b87bb8",
+      "bytes": 7390
+    },
+    {
+      "path": "operator/candidate_sources/042660_shares.html",
+      "sha256": "62813ee26da81a1a014c6154a05f32bac9cac0023f8d27e14d65d1c7fd7331bc",
+      "bytes": 14652
+    },
+    {
+      "path": "operator/candidate_sources/329180_business.html",
+      "sha256": "9736591a40c9363e4dfe9a5d610f49b1452246189f65db55fe7b4393b80a24c0",
+      "bytes": 11634
+    },
+    {
+      "path": "operator/candidate_sources/329180_daily_quote_response.txt",
+      "sha256": "3fc00f810ebc98f4d2a7d1ea2155e2829baf0b1b6d0b7263398d8ad7ab6f3634",
+      "bytes": 1352
+    },
+    {
+      "path": "operator/candidate_sources/329180_financials.html",
+      "sha256": "57ff78170f4d03e7887c961a2ba6bbe5475417f8a5658dda3c8646c7daf2d8c5",
+      "bytes": 24578
+    },
+    {
+      "path": "operator/candidate_sources/329180_segments.html",
+      "sha256": "5faeff03930fd360c8f153147b6a0b7cd27c536200f67bf30ab51f621fa19e67",
+      "bytes": 9027
+    },
+    {
+      "path": "operator/candidate_sources/329180_shares.html",
+      "sha256": "df26c6f992992ca60510ca8e467815367ed445d959e605754fdab6e72b12193c",
+      "bytes": 6990
+    },
+    {
+      "path": "operator/candidate_sources/busan_kormarine_20231019.pdf",
+      "sha256": "26b236f2388715031bfc0c9bbb8d65bb6365d54fc1463d875b1ac5af6f92ec55",
+      "bytes": 616662
+    },
+    {
+      "path": "operator/candidate_sources/dart_manifest.json",
+      "sha256": "0ce6f3c972cd892849740450c62425ad7250b7d25b67af6cc216f16259bdaff7",
+      "bytes": 8210
+    },
+    {
+      "path": "operator/candidate_sources/hd_ksoe_20230608.html",
+      "sha256": "2b3f945e02140be0917efc2df4ccd2f63e3946f8f6ae8bfe3784e1f3deffe011",
+      "bytes": 22951
+    },
+    {
+      "path": "operator/candidate_sources/industry_sources.json",
+      "sha256": "09dc16f5c74ab0493b38f09cae360c1848b49f8b0f1dd0927b4e68d1412ef4f4",
+      "bytes": 1553
+    },
+    {
+      "path": "operator/candidate_sources/kog_group_202302.html",
+      "sha256": "6ffd1cff950837f0f2498eb2d13499a3e173babfa67561a948ccd558aa0c30e2",
+      "bytes": 140410
+    },
+    {
+      "path": "operator/candidate_sources/nor_shipping_2023_guide.pdf",
+      "sha256": "38bc7cfb3a215d07bbbca0d06fbebc6ae80dfd69d5538a639c082b167aa57f94",
+      "bytes": 10321960
+    },
+    {
+      "path": "operator/candidate_sources/quote_manifest.json",
+      "sha256": "ba3c6a12b61f576536fbe42e4dee9a9b41eebbd03c6e9db6fa8ab7357875c6b0",
+      "bytes": 2355
+    },
+    {
+      "path": "operator/candidate_sources/relationship_sources.json",
+      "sha256": "c1632999829d426f18fc23eec0adbdfdf4e566227cd7c73236fdcc3fb9b90b48",
+      "bytes": 777
+    },
+    {
+      "path": "operator/candidate_sources/vanguard_20231031.pdf",
+      "sha256": "0c500d35e75108df3eb7a979408011517da9a844ccd2d4f19a493b1356970669",
+      "bytes": 576640
+    },
+    {
+      "path": "operator/candidate_sources/wilhelmsen_scope_2020.html",
+      "sha256": "4d698ed1e57f75e1c68b9faa6cbf9e71858ded8e1faa2019279cf407935f775a",
+      "bytes": 60315
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "canary_ineligible_non_target_financial_filter",
+  "source_basis": "Vanguard listed holding and Nor-Shipping D03-12a historical name; Busan KORMARINE contemporaneous named direct issuer. DART 2023-05-23 trade name change archived in 042660_name_history.html.",
+  "annual_filing": "20240313001198",
+  "filing_reference": "candidate_sources/dart_manifest.json",
+  "revenue_split_pct": {
+    "merchant_ship_products": 73.8,
+    "offshore_and_special_vessel_products": 25.1,
+    "other_services_and_transport": 1.1
+  },
+  "public_period_profit_to_owners_krw": 159886000000,
+  "issued_common_shares_20231231_published_20240313": 306358899,
+  "share_count_asof_note": "연말 발행주식수. 2024-01-01~03-14 DART 27건 검색 후 주식 발행/감자 관련 제목을 발견하지 못했다. 3/14 거래소 상장주식수 스냅샷은 추가 대조 대상.",
+  "public_market_quotes": {
+    "method": "신고서 물리267쪽에 표시한 관측일 20개. 국내 03/01 휴장일은 직전 종가. 03/14 포함 마지막 5관측과 전기간 20관측 평균을 계산.",
+    "daily_quote_by_filing_date": {
+      "2024-02-15": 22650,
+      "2024-02-16": 22500,
+      "2024-02-20": 22050,
+      "2024-02-21": 22150,
+      "2024-02-22": 21750,
+      "2024-02-23": 21900,
+      "2024-02-26": 22950,
+      "2024-02-27": 24150,
+      "2024-02-28": 24300,
+      "2024-02-29": 23600,
+      "2024-03-01": 23600,
+      "2024-03-04": 22900,
+      "2024-03-05": 22500,
+      "2024-03-06": 22300,
+      "2024-03-07": 22700,
+      "2024-03-08": 22550,
+      "2024-03-11": 24450,
+      "2024-03-12": 24250,
+      "2024-03-13": 24250,
+      "2024-03-14": 27000
+    },
+    "krw_day": 27000,
+    "krw_week": 24500.0,
+    "krw_month": 23225.0,
+    "chosen_krw": 23225.0,
+    "naver_url": "https://api.finance.naver.com/siseJson.naver?symbol=042660&requestType=1&startTime=20240215&endTime=20240314&timeframe=day",
+    "daum_url": "https://finance.daum.net/api/charts/A042660/days?limit=25&to=2024-03-15%2000%3A00%3A00",
+    "naver_daum_equal_dates": 20,
+    "control_validation": "동일 방식으로 HD한국조선해양의 DART 물리267쪽 공시 종가열 19/20 일치. 03/04 두 시세 제공처 107,800원 vs 신고서 113,800원이다. 원문 독립 대조 차이로 운영 기록에 보존. Yahoo 별도 대조에서 두 종목 모두 2/15만 불일치.",
+    "period_cutoff": "종가 성격·거래일은 근거로 사용. 보관한 조회 응답은 현재 제공업체의 과거시세 사본."
+  },
+  "indicative_per": 44.50161633460716,
+  "screen": "원본 물리244쪽 BICS 조선. 물리246쪽 재무 단계 26행 3년 기준 USD 매출 CAGR –1.7%, 탈락 X. 영업모델과 별개인 재무요건까지 건드리므로 배정 불가."
+}

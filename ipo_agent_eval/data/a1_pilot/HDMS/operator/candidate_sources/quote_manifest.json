@@ -1,0 +1,42 @@
+[
+  {
+    "stock_code": "329180",
+    "file": "329180_daily_quote_response.txt",
+    "sha256": "3fc00f810ebc98f4d2a7d1ea2155e2829baf0b1b6d0b7263398d8ad7ab6f3634",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=329180&requestType=1&startTime=20240215&endTime=20240314&timeframe=day",
+    "rows": 20,
+    "asof": "각 거래일 종가 시계열. 현재 조회값의 당시 공표 버전·수정주가 여부 미확인, 운영자 재계산용."
+  },
+  {
+    "stock_code": "010140",
+    "file": "010140_daily_quote_response.txt",
+    "sha256": "f27905675230e8d52134322a84b6f98209e0f1a92f7836f0640b56fa252e67fd",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=010140&requestType=1&startTime=20240215&endTime=20240314&timeframe=day",
+    "rows": 20,
+    "asof": "각 거래일 종가 시계열. 현재 조회값의 당시 공표 버전·수정주가 여부 미확인, 운영자 재계산용."
+  },
+  {
+    "stock_code": "042660",
+    "file": "042660_daily_quote_response.txt",
+    "sha256": "523012d45c5699fe930a65efc1425b5adf3e394af72d58f38dadd83c18e0ed88",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=042660&requestType=1&startTime=20240215&endTime=20240314&timeframe=day",
+    "rows": 20,
+    "asof": "각 거래일 종가 시계열. 현재 조회값의 당시 공표 버전·수정주가 여부 미확인, 운영자 재계산용."
+  },
+  {
+    "stock_code": "036460",
+    "file": "036460_daily_quote_response.txt",
+    "sha256": "16ffb504c35ff9d0924fea1437b86f4c3370fe062d75efdba40f48390d57e872",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=036460&requestType=1&startTime=20240215&endTime=20240314&timeframe=day",
+    "rows": 20,
+    "asof": "각 거래일 종가 시계열. 현재 조회값의 당시 공표 버전·수정주가 여부 미확인, 운영자 재계산용."
+  },
+  {
+    "stock_code": "002380",
+    "file": "002380_daily_quote_response.txt",
+    "sha256": "ef7be06f43ec2a076d97449ecd9c6c3cc0c7736165b408c397409cfef4ce0505",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=002380&requestType=1&startTime=20240215&endTime=20240314&timeframe=day",
+    "rows": 20,
+    "asof": "각 거래일 종가 시계열. 현재 조회값의 당시 공표 버전·수정주가 여부 미확인, 운영자 재계산용."
+  }
+]

@@ -1,0 +1,711 @@
+{
+  "purpose": "최초 신고서의 버전·시점·과거 실적 PER 적격성 재심사",
+  "scope": "평가 후보 12곳과 HD현대마린솔루션 외 개발 5곳. 최종 평가 표본 결정 및 자연 쟁점 채점은 후속 단계.",
+  "checks": [
+    "DART 투자설명서의 관련 지분증권 신고서와 정정본·원본 양쪽 본문선택 이력에서 가장 이른 유일한 비정정 접수를 확인했다.",
+    "공식 PDF의 원본 SHA-256, 표지 회사명·날짜·물리 쪽을 확인했다. DART 일별 목록에서 접수번호·날짜가 정확히 같은 행에만 시·분을 기록했다.",
+    "최초본 발행사 적용 이익의 실적 기간과 PER 산정표를 확인했다. 기록한 물리 쪽의 기간 표지어와 PER를 PyMuPDF와 pypdf 두 추출기로 대조했다."
+  ],
+  "time_rule": "일자 정밀도면 최초 신고서와 이전 날짜의 검증 자료만 허용. 같은 날 자료에는 별도 선공개 증거가 필요하다. 분 단위 시각도 같은 분 내 자료의 선후를 보증하지 않는다.",
+  "verified": 17,
+  "cases": [
+    {
+      "case_id": "MELCON-DEV-01",
+      "issuer": "멜콘",
+      "cohort": "DEVELOPMENT",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000194",
+      "receipt_no": "20260821000368",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000368",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000191",
+      "family_versions": [
+        {
+          "receipt": "20260929000191",
+          "caption": "2026.09.29 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20260909000381",
+          "caption": "2026.09.09 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20260821000368",
+          "caption": "2026.08.21 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2026-08-21",
+      "precision": "minute",
+      "dart_title": "멜콘/증권신고서(지분증권)/2026.08.21",
+      "dcm_no": "11546008",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20260821000368&dcm_no=11546008",
+      "pdf_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+      "bytes": 2394330,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2026.08.21&textCrpCik=01028933&currentPage=1&maxResults=100",
+      "published_kst": "2026-08-21T14:42+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 433,
+      "earnings_basis": "2026년 상반기 실적, 일회성 이익 조정 후 연환산",
+      "method_period_pdf_page": 208,
+      "price_table_pdf_page": 208
+    },
+    {
+      "case_id": "DTS-DEV-01",
+      "issuer": "디티에스",
+      "cohort": "DEVELOPMENT",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000323",
+      "receipt_no": "20260911000314",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000314",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000308",
+      "family_versions": [
+        {
+          "receipt": "20261012000308",
+          "caption": "2026.10.12 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20261001000078",
+          "caption": "2026.10.01 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20260911000314",
+          "caption": "2026.09.11 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2026-09-11",
+      "precision": "minute",
+      "dart_title": "디티에스/증권신고서(지분증권)/2026.09.11",
+      "dcm_no": "11576462",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20260911000314&dcm_no=11576462",
+      "pdf_sha256": "96199e9eddbef33513103beb3b29b498e3e40c1f86f7fa7761451de659067449",
+      "bytes": 9178384,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2026.09.11&textCrpCik=00534729&currentPage=1&maxResults=100",
+      "published_kst": "2026-09-11T15:04+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 470,
+      "earnings_basis": "2026년 반기 순이익 연환산",
+      "method_period_pdf_page": 256,
+      "price_table_pdf_page": 256
+    },
+    {
+      "case_id": "SHINSUNGST-DEV-01",
+      "issuer": "신성에스티",
+      "cohort": "DEVELOPMENT",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231006000225",
+      "receipt_no": "20230816000299",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230816000299",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231006000228",
+      "family_versions": [
+        {
+          "receipt": "20231006000228",
+          "caption": "2023.10.06 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231006000189",
+          "caption": "2023.10.06 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230905000372",
+          "caption": "2023.09.05 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230828000633",
+          "caption": "2023.08.28 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230828000342",
+          "caption": "2023.08.28 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230816000299",
+          "caption": "2023.08.16 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-08-16",
+      "precision": "minute",
+      "dart_title": "신성에스티/증권신고서(지분증권)/2023.08.16",
+      "dcm_no": "9396331",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230816000299&dcm_no=9396331",
+      "pdf_sha256": "49864c64e86783a264736fadefa2750a0b3b118a083ebaae3f0085e2f30d370d",
+      "bytes": 2996565,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.08.16&textCrpCik=00761183&currentPage=1&maxResults=100",
+      "published_kst": "2023-08-16T17:20+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 361,
+      "earnings_basis": "2023년 반기 실적 연환산",
+      "method_period_pdf_page": 177,
+      "price_table_pdf_page": 177
+    },
+    {
+      "case_id": "ALT-DEV-01",
+      "issuer": "에이엘티",
+      "cohort": "DEVELOPMENT",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230714000229",
+      "receipt_no": "20230525000223",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230525000223",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230714000210",
+      "family_versions": [
+        {
+          "receipt": "20230714000210",
+          "caption": "2023.07.14 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230619000156",
+          "caption": "2023.06.19 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230619000054",
+          "caption": "2023.06.19 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230525000223",
+          "caption": "2023.05.25 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-05-25",
+      "precision": "minute",
+      "dart_title": "에이엘티/증권신고서(지분증권)/2023.05.25",
+      "dcm_no": "9289166",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230525000223&dcm_no=9289166",
+      "pdf_sha256": "0076235bc5e09409e6672906f18339fffbdd29e04c68feb387ffdf32ecb6de0b",
+      "bytes": 3203971,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.05.25&textCrpCik=00493325&currentPage=1&maxResults=100",
+      "published_kst": "2023-05-25T13:48+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 412,
+      "earnings_basis": "2022년 4~12월 법인세차감전이익과 2023년 1~3월 순이익 합산",
+      "method_period_pdf_page": 193,
+      "price_table_pdf_page": 193
+    },
+    {
+      "case_id": "MILLIE-DEV-01",
+      "issuer": "밀리의서재",
+      "cohort": "DEVELOPMENT",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282",
+      "receipt_no": "20230821000374",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230821000374",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000280",
+      "family_versions": [
+        {
+          "receipt": "20230915000280",
+          "caption": "2023.09.15 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230911000305",
+          "caption": "2023.09.11 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230907000247",
+          "caption": "2023.09.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230821000374",
+          "caption": "2023.08.21 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-08-21",
+      "precision": "minute",
+      "dart_title": "KT밀리의서재/증권신고서(지분증권)/2023.08.21",
+      "dcm_no": "9400715",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230821000374&dcm_no=9400715",
+      "pdf_sha256": "813d0cb42427c1c7134e3e4fd7b77102531a502d8100ab722bfd52a14009ccfa",
+      "bytes": 3928201,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.08.21&textCrpCik=01467451&currentPage=1&maxResults=100",
+      "published_kst": "2023-08-21T16:23+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 422,
+      "earnings_basis": "2023년 반기 순이익 연환산",
+      "method_period_pdf_page": 225,
+      "price_table_pdf_page": 225
+    },
+    {
+      "case_id": "GIGAVIS-EVAL-01",
+      "issuer": "기가비스",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230512000029",
+      "receipt_no": "20230331002184",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230331002184",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230512000026",
+      "family_versions": [
+        {
+          "receipt": "20230512000026",
+          "caption": "2023.05.12 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230413000970",
+          "caption": "2023.04.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230331002184",
+          "caption": "2023.03.31 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-03-31",
+      "precision": "minute",
+      "dart_title": "기가비스/증권신고서(지분증권)/2023.03.31",
+      "dcm_no": "9128536",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+      "pdf_sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+      "bytes": 6543793,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.03.31&textCrpCik=00765569&currentPage=1&maxResults=100",
+      "published_kst": "2023-03-31T14:19+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 392,
+      "earnings_basis": "2022년 연간 순이익, 주식보상비용 조정",
+      "method_period_pdf_page": 234,
+      "price_table_pdf_page": 234
+    },
+    {
+      "case_id": "MANYO-EVAL-01",
+      "issuer": "마녀공장",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230524000327",
+      "receipt_no": "20230407002556",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230407002556",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230524000321",
+      "family_versions": [
+        {
+          "receipt": "20230524000321",
+          "caption": "2023.05.24 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230426000619",
+          "caption": "2023.04.26 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230421000497",
+          "caption": "2023.04.21 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230407002556",
+          "caption": "2023.04.07 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-04-07",
+      "precision": "minute",
+      "dart_title": "마녀공장/증권신고서(지분증권)/2023.04.07",
+      "dcm_no": "9185882",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+      "pdf_sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+      "bytes": 3759958,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.04.07&textCrpCik=01136977&currentPage=1&maxResults=100",
+      "published_kst": "2023-04-07T15:51+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 348,
+      "earnings_basis": "2022년 연간 순이익",
+      "method_period_pdf_page": 185,
+      "price_table_pdf_page": 185
+    },
+    {
+      "case_id": "SLSBIO-EVAL-01",
+      "issuer": "에스엘에스바이오",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230926000456",
+      "receipt_no": "20230818000362",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230818000362",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230926000450",
+      "family_versions": [
+        {
+          "receipt": "20230926000450",
+          "caption": "2023.09.26 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230912000200",
+          "caption": "2023.09.12 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230831001247",
+          "caption": "2023.08.31 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230818000362",
+          "caption": "2023.08.18 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-08-18",
+      "precision": "minute",
+      "dart_title": "에스엘에스바이오/증권신고서(지분증권)/2023.08.18",
+      "dcm_no": "9398584",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230818000362&dcm_no=9398584",
+      "pdf_sha256": "b7f7503a1d2d235eaeba279cda7279e0399fcc75796b1acdb1db9c7b71a13d29",
+      "bytes": 3623238,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.08.18&textCrpCik=01112700&currentPage=1&maxResults=100",
+      "published_kst": "2023-08-18T16:15+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 337,
+      "earnings_basis": "2023년 2분기 기준 최근 12개월(LTM)",
+      "method_period_pdf_page": 229,
+      "price_table_pdf_page": 229
+    },
+    {
+      "case_id": "ECOEYE-EVAL-01",
+      "issuer": "에코아이",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231109000220",
+      "receipt_no": "20230925000332",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230925000332",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231109000215",
+      "family_versions": [
+        {
+          "receipt": "20231109000215",
+          "caption": "2023.11.09 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231013000582",
+          "caption": "2023.10.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231012000139",
+          "caption": "2023.10.12 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230925000332",
+          "caption": "2023.09.25 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-25",
+      "precision": "minute",
+      "dart_title": "에코아이/증권신고서(지분증권)/2023.09.25",
+      "dcm_no": "9441449",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230925000332&dcm_no=9441449",
+      "pdf_sha256": "87281e7a2f57a862c5630c7e0f516b4557e9634b1114fd4c6471b12726637bce",
+      "bytes": 4912910,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.25&textCrpCik=01218299&currentPage=1&maxResults=100",
+      "published_kst": "2023-09-25T15:50+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 430,
+      "earnings_basis": "2022년 3분기~2023년 2분기 최근 4개 분기 합산",
+      "method_period_pdf_page": 235,
+      "price_table_pdf_page": 235
+    },
+    {
+      "case_id": "HANSSAK-EVAL-01",
+      "issuer": "한싹",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230918000119",
+      "receipt_no": "20230822000424",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230822000424",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230918000117",
+      "family_versions": [
+        {
+          "receipt": "20230918000117",
+          "caption": "2023.09.18 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230904000255",
+          "caption": "2023.09.04 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230822000424",
+          "caption": "2023.08.22 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-08-22",
+      "precision": "minute",
+      "dart_title": "한싹/증권신고서(지분증권)/2023.08.22",
+      "dcm_no": "9403098",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230822000424&dcm_no=9403098",
+      "pdf_sha256": "e593ec87ed8918336505c9d623801c30dfa1a1b26faa5b5506e0ef761ce38a4c",
+      "bytes": 4879256,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.08.22&textCrpCik=01602638&currentPage=1&maxResults=100",
+      "published_kst": "2023-08-22T17:53+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 384,
+      "earnings_basis": "2022년 3분기~2023년 2분기 최근 4개 분기 합산",
+      "method_period_pdf_page": 233,
+      "price_table_pdf_page": 233
+    },
+    {
+      "case_id": "INSWAVE-EVAL-01",
+      "issuer": "인스웨이브시스템즈",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230913000348",
+      "receipt_no": "20230728000416",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230728000416",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230913000346",
+      "family_versions": [
+        {
+          "receipt": "20230913000346",
+          "caption": "2023.09.13 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230829000705",
+          "caption": "2023.08.29 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230818000277",
+          "caption": "2023.08.18 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230728000416",
+          "caption": "2023.07.28 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-07-28",
+      "precision": "date",
+      "dart_title": "인스웨이브/증권신고서(지분증권)/2023.07.28",
+      "dcm_no": "9366184",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230728000416&dcm_no=9366184",
+      "pdf_sha256": "17f86e8a90916a359a7b4868d62e9b4344cf0281a31381f657a73a45bbb06153",
+      "bytes": 4593636,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.07.28&textCrpCik=01222113&currentPage=1&maxResults=100",
+      "daily_lookup": "exact_receipt_minute_unconfirmed",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 407,
+      "earnings_basis": "2022년 2분기~2023년 1분기 최근 4개 분기, 비경상 손실 조정",
+      "method_period_pdf_page": 234,
+      "price_table_pdf_page": 234
+    },
+    {
+      "case_id": "SYSTEEL-EVAL-01",
+      "issuer": "에스와이스틸텍",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231031000078",
+      "receipt_no": "20230927000587",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230927000587",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231031000076",
+      "family_versions": [
+        {
+          "receipt": "20231031000076",
+          "caption": "2023.10.31 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231018000194",
+          "caption": "2023.10.18 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230927000587",
+          "caption": "2023.09.27 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-27",
+      "precision": "minute",
+      "dart_title": "에스와이스틸텍/증권신고서(지분증권)/2023.09.27",
+      "dcm_no": "9445986",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230927000587&dcm_no=9445986",
+      "pdf_sha256": "26520a9bd78af9e00562c078f0ce4cbeb2513dd5f36ba3b91be24369059a11a4",
+      "bytes": 2568347,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.27&textCrpCik=01135084&currentPage=1&maxResults=100",
+      "published_kst": "2023-09-27T14:41+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 314,
+      "earnings_basis": "2022년 3분기~2023년 2분기 최근 4개 분기 합산",
+      "method_period_pdf_page": 187,
+      "price_table_pdf_page": 187
+    },
+    {
+      "case_id": "APR-EVAL-01",
+      "issuer": "에이피알",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240213000795",
+      "receipt_no": "20231222000680",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231222000680",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240213000787",
+      "family_versions": [
+        {
+          "receipt": "20240213000787",
+          "caption": "2024.02.13 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240206000142",
+          "caption": "2024.02.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240117000342",
+          "caption": "2024.01.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240111000393",
+          "caption": "2024.01.11 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231222000680",
+          "caption": "2023.12.22 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-12-22",
+      "precision": "minute",
+      "dart_title": "에이피알/증권신고서(지분증권)/2023.12.22",
+      "dcm_no": "9552788",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231222000680&dcm_no=9552788",
+      "pdf_sha256": "016d335b14ce55ac97be78079b37c1f82dea5203c4b839cd34ede50cb17e1fe8",
+      "bytes": 4324866,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.12.22&textCrpCik=01190568&currentPage=1&maxResults=100",
+      "published_kst": "2023-12-22T17:36+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 475,
+      "earnings_basis": "2023년 3분기 누적 실적 연환산",
+      "method_period_pdf_page": 256,
+      "price_table_pdf_page": 256
+    },
+    {
+      "case_id": "SANIL-EVAL-01",
+      "issuer": "산일전기",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240717000412",
+      "receipt_no": "20240621000553",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240621000553",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240717000410",
+      "family_versions": [
+        {
+          "receipt": "20240717000410",
+          "caption": "2024.07.17 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240712000005",
+          "caption": "2024.07.12 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240705000171",
+          "caption": "2024.07.05 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240621000553",
+          "caption": "2024.06.21 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2024-06-21",
+      "precision": "minute",
+      "dart_title": "산일전기/증권신고서(지분증권)/2024.06.21",
+      "dcm_no": "9996904",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240621000553&dcm_no=9996904",
+      "pdf_sha256": "54234ec003028fca37b3a0e788aa8dc072dbdebf94220a8dc9b40b19371398de",
+      "bytes": 5495793,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2024.06.21&textCrpCik=00366438&currentPage=1&maxResults=100",
+      "published_kst": "2024-06-21T16:30+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 416,
+      "earnings_basis": "2024년 1분기 기준 최근 12개월(LTM), 주식보상비용 조정",
+      "method_period_pdf_page": 252,
+      "price_table_pdf_page": 252
+    },
+    {
+      "case_id": "JEONJIN-EVAL-01",
+      "issuer": "전진건설로봇",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240807000292",
+      "receipt_no": "20240710000686",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240710000686",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240807000288",
+      "family_versions": [
+        {
+          "receipt": "20240807000288",
+          "caption": "2024.08.07 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240724000079",
+          "caption": "2024.07.24 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240710000686",
+          "caption": "2024.07.10 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2024-07-10",
+      "precision": "minute",
+      "dart_title": "전진건설로봇/증권신고서(지분증권)/2024.07.10",
+      "dcm_no": "10022425",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240710000686&dcm_no=10022425",
+      "pdf_sha256": "7b0b71325ade079e2ea62525a802d89a31e7834c8599ac7dbcae6ce7c34b2aee",
+      "bytes": 3034590,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2024.07.10&textCrpCik=00372129&currentPage=1&maxResults=100",
+      "published_kst": "2024-07-10T16:41+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 380,
+      "earnings_basis": "2024년 1분기 기준 최근 12개월(LTM)",
+      "method_period_pdf_page": 179,
+      "price_table_pdf_page": 190
+    },
+    {
+      "case_id": "TRUEN-EVAL-01",
+      "issuer": "트루엔",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230503000321",
+      "receipt_no": "20230404002347",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230404002347",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230503000315",
+      "family_versions": [
+        {
+          "receipt": "20230503000315",
+          "caption": "2023.05.03 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230420000174",
+          "caption": "2023.04.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230404002347",
+          "caption": "2023.04.04 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-04-04",
+      "precision": "minute",
+      "dart_title": "트루엔/증권신고서(지분증권)/2023.04.04",
+      "dcm_no": "9156227",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+      "pdf_sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+      "bytes": 4382557,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.04.04&textCrpCik=01134216&currentPage=1&maxResults=100",
+      "published_kst": "2023-04-04T15:44+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 375,
+      "earnings_basis": "2022년 연간 순이익",
+      "method_period_pdf_page": 195,
+      "price_table_pdf_page": 195
+    },
+    {
+      "case_id": "PHILENERGY-EVAL-01",
+      "issuer": "필에너지",
+      "cohort": "EVALUATION_CANDIDATE",
+      "prospectus_url_for_identification_only": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230704000143",
+      "receipt_no": "20230518000227",
+      "registration_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230518000227",
+      "family_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230704000142",
+      "family_versions": [
+        {
+          "receipt": "20230704000142",
+          "caption": "2023.07.04 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230704000141",
+          "caption": "2023.07.04 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230607000327",
+          "caption": "2023.06.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230518000227",
+          "caption": "2023.05.18 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-05-18",
+      "precision": "minute",
+      "dart_title": "필에너지/증권신고서(지분증권)/2023.05.18",
+      "dcm_no": "9280930",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+      "pdf_sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+      "bytes": 3962181,
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.05.18&textCrpCik=01488320&currentPage=1&maxResults=100",
+      "published_kst": "2023-05-18T15:55+09:00",
+      "retrieval": "verified",
+      "cover_pdf_page": 3,
+      "pdf_pages": 392,
+      "earnings_basis": "2023년 1분기 기준 최근 12개월(LTM), 파생상품평가손실 조정",
+      "method_period_pdf_page": 185,
+      "price_table_pdf_page": 185
+    }
+  ]
+}
