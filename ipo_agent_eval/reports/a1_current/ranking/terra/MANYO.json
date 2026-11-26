@@ -1,0 +1,329 @@
+{
+  "case": "MANYO",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "MANYO-08",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-09",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-11",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-12",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-02",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-03",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-04",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-05",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-06",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-07",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-10",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-01",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "MANYO-08"
+    ],
+    "operational": [
+      "MANYO-08"
+    ],
+    "waiting": [
+      "MANYO-09",
+      "MANYO-11",
+      "MANYO-12"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "MANYO-11",
+        "action": "사람 검토",
+        "priority": 90,
+        "reason": "A0의 매출 구성 미확인은 E6으로 해소된다. 2022년 생활용품이 매출의 64%이고 직접 생산공장 등을 운영해 발행사의 주력 매출원 및 외부 생산 방식과 차이가 크다. 공시된 화장품 매출 30% 이상 선별 기준은 통과했지만 최종 비교 적합성에 관한 C의 제외 제안을 검토할 필요가 있다. 적격 대안의 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E6",
+          "PDF-177",
+          "PDF-182"
+        ],
+        "question_or_request": "생활용품 중심 매출과 직접 생산 구조에도 애경산업을 유지한 근거 및 배수 비교의 적절성을 검토해 주세요.",
+        "tie_key": "90",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-12",
+        "action": "사람 검토",
+        "priority": 88,
+        "reason": "A0의 사업 구성 미확인은 E10으로 해소된다. 2022년 화장품은 매출의 54.37%이고 기계·필름과 음반·음원 기획은 합계 40.73%다. 공시된 30% 이상 선별 기준은 통과했지만 발행사와 비화장품 매출원 차이가 커 C의 제외 제안을 검토할 필요가 있다. 적격 대안의 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E10",
+          "PDF-177",
+          "PDF-182"
+        ],
+        "question_or_request": "비화장품 사업 비중에도 브이티지엠피를 유지한 근거와 해당 기업 전체 배수를 화장품 비교에 사용하는 적절성을 검토해 주세요.",
+        "tie_key": "88",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-09",
+        "action": "사람 검토",
+        "priority": 80,
+        "reason": "A0의 세부 구성 미확인은 E8로 해소된다. 2022년 립틴트와 아이섀도가 매출의 74%로 발행사의 기초·클렌징 중심 구성과 다르다. C의 제외 제안은 검토할 만하나 제품 차이만으로 부적격을 확정할 수 없다. 최종 비교기업에 포함됐고 적격 대안의 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E8",
+          "PDF-182"
+        ],
+        "question_or_request": "색조 제품 집중도를 고려해 아이패밀리에스씨를 유지한 근거와 비교배수의 적절성을 검토해 주세요.",
+        "tie_key": "80",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-08",
+        "action": "사람 검토",
+        "priority": 72,
+        "reason": "A0와 C 모두 제품 구성 차이를 확인했다. 같은 2022년 매출 기준 발행사는 앰플·세럼과 클렌징이 주력인 반면 클리오는 포인트·베이스 메이크업이 78%다. 외부 OEM·ODM 생산이라는 공통점도 있어 차이만으로 제외를 확정할 수 없다. 최종 비교기업에 포함됐으며 적격 대안의 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E7",
+          "PDF-182"
+        ],
+        "question_or_request": "제품 구성 차이에도 클리오를 비교기업으로 유지한 근거와 수익성·배수 비교의 적절성을 검토해 주세요.",
+        "tie_key": "72",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-04",
+        "action": "기록 보관",
+        "priority": 35,
+        "reason": "원문은 최종 5개사 배수와 평균 21.15배, 50배 이상 제외 기준 및 코리아나의 83.89배를 제시한다. 표시된 5개 배수의 산술평균은 21.158배여서 공시값과 소폭 차이가 있으나 절사 여부는 확인되지 않는다. 차이만으로 중대 오류나 집계 방식의 부적절성을 확정할 수 없다.",
+        "evidence_ids": [
+          "PDF-177",
+          "PDF-184"
+        ],
+        "question_or_request": "",
+        "tie_key": "35",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-10",
+        "action": "기록 보관",
+        "priority": 30,
+        "reason": "A0의 제품 구성 미확인은 E5로 해소된다. 2022년 보습·기초 화장품 비중 96%는 발행사 주력과 가깝다. 원문은 재무 선별 기준 통과와 최종 선정, 적용 PER 8.66배도 제시한다. 원료·건강기능식품 취급은 차이지만 제공 근거만으로 중대한 비교 부적합을 확정하기 어렵다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E5",
+          "PDF-177",
+          "PDF-182",
+          "PDF-184"
+        ],
+        "question_or_request": "",
+        "tie_key": "30",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-02",
+        "action": "기록 보관",
+        "priority": 25,
+        "reason": "C는 귀속 범위를 미확인으로 보았으나, 신고서 원문은 발행사와 비교기업 모두 2022년 지배지분 순이익 기준이라고 명시한다. E3·E4만으로 손익 귀속액을 독립 검증할 수는 없지만, 신고서상 적용 범위의 갈림은 해소된다.",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "PDF-183",
+          "PDF-184",
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "25",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-06",
+        "action": "기록 보관",
+        "priority": 22,
+        "reason": "C는 검토 범위 밖으로 두었다. 원문 이익·주식 수·PER을 사용한 B 계산은 22,336.72원으로 공시된 22,337원과 표시 정밀도 내에서 일치한다. 평가표의 22.337과 할인표의 22,337원은 표기 차이로 확인된다.",
+        "evidence_ids": [
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "22",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-01",
+        "action": "기록 보관",
+        "priority": 20,
+        "reason": "A0와 C의 기간 선택은 일치한다. 원문상 발행사와 비교기업에 모두 2022년 실적을 적용했으며, 분석기준일은 2023년 3월 31일이다. 제공 자료에서 이후 완료된 연간 실적은 확인되지 않는다.",
+        "evidence_ids": [
+          "E3",
+          "PDF-182",
+          "PDF-184",
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "20",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-07",
+        "action": "기록 보관",
+        "priority": 19,
+        "reason": "C는 검토 범위 밖으로 두었다. 22,337원에 공시 할인율 46.28%~37.32%를 적용하면 희망밴드 12,000~14,000원에 대체로 부합하며, 확정가는 수요예측 후 결정 예정이라고 공시했다.",
+        "evidence_ids": [
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "19",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-03",
+        "action": "기록 보관",
+        "priority": 18,
+        "reason": "C는 검토 범위 밖으로 두었다. 원문에는 2023년 3월 2~31일 평균과 3월 31일 종가 중 낮은 값을 선택한 기준 및 관측치가 제시돼 A0의 기간·선택 설명을 뒷받침한다. 특정 시점 주가에 의존하는 한계도 공시됐다.",
+        "evidence_ids": [
+          "PDF-182",
+          "PDF-183",
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "18",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-05",
+        "action": "기록 보관",
+        "priority": 16,
+        "reason": "C는 검토 범위 밖으로 두었다. 원문상 기존 14,318,260주에 신주 2,000,000주와 의무인수 60,000주를 더한 16,378,260주를 적용해 A0의 공모 후 희석 반영 설명과 일치한다.",
+        "evidence_ids": [
+          "PDF-184",
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "16",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "MANYO-11"
+    ],
+    "operational": [
+      "MANYO-11"
+    ],
+    "waiting": [
+      "MANYO-12",
+      "MANYO-09",
+      "MANYO-08"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-182",
+    "PDF-183",
+    "PDF-184",
+    "PDF-185"
+  ],
+  "lookup_run": "reports/a1_current/live/MANYO/A1_LOOK/355ebfefc762541d/20261126T041307Z_A1_LOOK_6560292c",
+  "decision_run": "reports/a1_current/live/MANYO/A1_SELECT/6d95f00e2a2d3f2c/20261126T041318Z_A1_SELECT_c372ac38",
+  "triz": [
+    {
+      "item_id": "MANYO-01",
+      "scope": "발행사의 2022년 연간 실제 당기순이익을 적용 이익의 기간으로 검토한다.",
+      "original_facing_assessment": "양 역할에서 최초 수용을 재현했고 표시 형식 변경·핵심 근거 제거에도 기대대로 구별했다.",
+      "role_checks": {
+        "A0": {
+          "original_reproduced": true,
+          "format_preserved": true,
+          "direction_responsive": true
+        },
+        "C": {
+          "original_reproduced": true,
+          "format_preserved": true,
+          "direction_responsive": true
+        }
+      },
+      "price_effect_verified": false
+    }
+  ],
+  "common_item_count": 12,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "E1",
+    "E10",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "PDF-177",
+    "PDF-182",
+    "PDF-183",
+    "PDF-184",
+    "PDF-185"
+  ],
+  "selector_seconds": 39.714,
+  "lookup_method": "compact_catalog_recovery_v1",
+  "selector_condition": "TERRA"
+}

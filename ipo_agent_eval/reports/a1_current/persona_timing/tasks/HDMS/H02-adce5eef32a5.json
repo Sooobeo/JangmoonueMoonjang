@@ -1,0 +1,54 @@
+{
+  "case": "HDMS",
+  "item_id": "H02",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:06:18.176+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "adce5eef32a53d835b5278463436c1dd64752ecc57e67d7590b34085c91e33c0",
+  "source_pdf_sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+  "source_registry_sha256": "485723e10d35bd96191eb9b0dacc1d2739e9ffb138ad622d04397307cc13d281",
+  "authorized_physical_pages": [
+    248,
+    250,
+    251,
+    269
+  ],
+  "packet_prep_seconds": 0.708716,
+  "evidence_dir": "reports/a1_current/proxy/HDMS/PERSONA_adce5eef32a53d835b/983b6f1e2e6b56d2",
+  "review_call_wrapper_seconds": 23.870921,
+  "quote_and_boundary_verification_seconds": 0.022613,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "신고서는 HD한국조선해양의 조선 사업이 발행사의 AM 부품·서비스 수요와 연관되고 양사가 선박용 대형·중형엔진을 취급한다는 근거로 HD한국조선해양을 최종 비교회사 4개사에 포함해 적용 PER을 산출했다.",
+    "checked_basis_or_arithmetic": "HD한국조선해양의 2023년 연결 매출 중 조선 비중은 83.1%로 공시된 조선업 매출 기준 30%를 충족한다. 물리 269쪽의 기준시가총액과 2023년 온기 지배주주순이익(각각 백만원)으로 PER을 재계산하면 HD한국조선해양은 8,093,614 ÷ 221,682 ≈ 36.51배다. 나머지 3개사의 입력값까지 적용한 단순평균은 (8,093,614 ÷ 221,682 + 20,837,071 ÷ 812,835 + 14,757,028 ÷ 464,742 + 11,916,525 ÷ 370,862) ÷ 4 ≈ 31.50배로 공시된 31.5배와 일치한다. HD한국조선해양을 제외하면 3개사 평균은 약 29.83배다.",
+    "outcome": "근거 확인",
+    "finding": "최종 명단과 PER 산식 양쪽에서 HD한국조선해양의 포함을 확인했다. 다만 발행사의 2023년 연결 매출은 선박 인도 후 서비스가 100%인 반면, HD한국조선해양은 조선 매출이 83.1%여서 양사의 주된 매출원은 다르다. 신고서는 평가기준일 현재 두 회사가 계열사이지만 양사 간 지분 관계가 없다고 설명한다. 또한 같은 2023년 온기 지배주주순이익이 물리 251쪽 요약 연결 재무정보에는 221,711백만원, 물리 269쪽 PER 표에는 221,682백만원으로 기재돼 29백만원 차이가 난다. 어느 값을 적용해도 소수 첫째 자리 PER은 36.5배다.",
+    "follow_up": "순이익 차이의 원인을 확인하려면 HD한국조선해양의 2023년 감사보고서상 지배기업 소유주 귀속 순이익을 PER 산출에 사용한 Bloomberg 원자료 및 주관사 산출표와 대조한다. 사업 유사성의 정도를 판단하려면 HD한국조선해양의 선박용 엔진·부품 매출을 신조선용 공급과 인도 후 서비스로 나눈 내역이 필요하다.",
+    "citations": [
+      {
+        "physical_page": 248,
+        "locator": "「사업 유사성 기준 3차 비교회사 선정 결과」 7번 행, 최근 결산 회계년도 매출 구성",
+        "quote": "조선 83.1%, 해양플랜트 6.0%, 엔진기계 7.7%, 그린에너지 2.5%, 기타 0.7%"
+      },
+      {
+        "physical_page": 250,
+        "locator": "「최종 비교회사 선정결과 요약」 최종 비교회사 명단",
+        "quote": "HD한국조선해양, ALFA LAVAL AB, KONGSBERG GRUPPEN ASA, WARTSILA OYJ ABP"
+      },
+      {
+        "physical_page": 269,
+        "locator": "「2023년 온기 기준 PER 산출」 PER 행",
+        "quote": "PER            (C)=(A)/(B)                         36.5                     25.6                     31.8                     32.1"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:06:42.780+09:00",
+  "original_review_service_seconds": 23.76,
+  "actual_end_to_end_seconds": 24.603814,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

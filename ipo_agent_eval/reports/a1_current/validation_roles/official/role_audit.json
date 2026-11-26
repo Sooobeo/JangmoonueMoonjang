@@ -1,0 +1,98 @@
+{
+  "base_sha256": "a67fe919fb32951b0ddc539d77b41e274e40aa59e10e996ba6847c5ceea27f20",
+  "cost": {
+    "GIGAVIS": {
+      "A0": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 25799,
+        "output_tokens": 2406,
+        "elapsed_seconds": 35.289,
+        "known_usage_cost_usd_standard_uncached": 0.037829
+      },
+      "C": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 1306,
+        "output_tokens": 1555,
+        "elapsed_seconds": 24.14,
+        "known_usage_cost_usd_standard_uncached": 0.009081
+      }
+    },
+    "TRUEN": {
+      "A0": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 21694,
+        "output_tokens": 1661,
+        "elapsed_seconds": 27.202,
+        "known_usage_cost_usd_standard_uncached": 0.029999
+      },
+      "C": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 1196,
+        "output_tokens": 1607,
+        "elapsed_seconds": 25.668,
+        "known_usage_cost_usd_standard_uncached": 0.009231
+      }
+    },
+    "MANYO": {
+      "A0": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 22257,
+        "output_tokens": 2024,
+        "elapsed_seconds": 26.595,
+        "known_usage_cost_usd_standard_uncached": 0.032377
+      },
+      "C": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 1375,
+        "output_tokens": 1862,
+        "elapsed_seconds": 25.841,
+        "known_usage_cost_usd_standard_uncached": 0.010685
+      }
+    },
+    "PHILENERGY": {
+      "A0": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 23281,
+        "output_tokens": 2608,
+        "elapsed_seconds": 36.987,
+        "known_usage_cost_usd_standard_uncached": 0.036321
+      },
+      "C": {
+        "model_calls": 1,
+        "format_repairs": 0,
+        "input_tokens": 1290,
+        "output_tokens": 1383,
+        "elapsed_seconds": 18.745,
+        "known_usage_cost_usd_standard_uncached": 0.008205
+      }
+    }
+  },
+  "response_ids": [
+    "resp_03edee6fb2c3c473016b07affde8f087d0a82827f638f1b8e2",
+    "resp_04462576ffca2446016b07affdfb2087d098c650bae9f29a8b",
+    "resp_05b15611281c3e3d016b07b017011087d0ba669d0641e87b0e",
+    "resp_06fb65c0d2842239016b07b01fe4d887d0ac752ddac02a544d",
+    "resp_0a7ca9b6a9a9c335016b07b0151a0887d0ba82c6c07825dc79",
+    "resp_0cd32fc0a4f5604f016b07affde89c87d097012d67fb0f5b62",
+    "resp_0e3840a8f6aaa5fe016b07affdf5d487d096d19a0364c3bdc1",
+    "resp_0fe4351ca0c74c67016b07b013709887d099e54db15348f8ef"
+  ],
+  "case_comparability": {
+    "GIGAVIS": 6,
+    "TRUEN": 4,
+    "MANYO": 6,
+    "PHILENERGY": 5
+  },
+  "three_reviews": [
+    "원본의 모든 지정항목·물리 쪽·직접 인용을 다시 대조하고 각 회사당 진짜 보조 후보 하나를 확인했다.",
+    "8개의 실전 API 요청 본문과 동결 자료·역할별 스키마·도구 미제공·이전 응답 미연결을 대조했다.",
+    "45개 최종 행·참조 ID·후보별 독립 출처·역할별 비용을 대조하고 가격 자료 없는 제안은 제한했다."
+  ]
+}

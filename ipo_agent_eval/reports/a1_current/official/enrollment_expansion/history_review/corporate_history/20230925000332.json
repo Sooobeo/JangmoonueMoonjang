@@ -1,0 +1,26 @@
+{
+  "corp_code": "01218299",
+  "receipt": "20230925000332",
+  "window_start": "19990101",
+  "window_end": "20230925",
+  "validated_target_in_final_window": true,
+  "queries": [
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?currentPage=1&maxResults=100&publicType=C001&sort=date&series=asc&startDate=19990101&endDate=20081231&textCrpCik=01218299",
+      "response_sha256": "8512555b551412e580fc15ed049bcc87a818698f096a1083c9ed44bc254bb9e4",
+      "total_in_interval": 0
+    },
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?currentPage=1&maxResults=100&publicType=C001&sort=date&series=asc&startDate=20090101&endDate=20181231&textCrpCik=01218299",
+      "response_sha256": "8512555b551412e580fc15ed049bcc87a818698f096a1083c9ed44bc254bb9e4",
+      "total_in_interval": 0
+    },
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?currentPage=1&maxResults=100&publicType=C001&sort=date&series=asc&startDate=20190101&endDate=20230925&textCrpCik=01218299",
+      "response_sha256": "4fa81ddd187654a56930a0584bb0791c575b75ab9cf51b10ebb9ff72b54aa9ce",
+      "total_in_interval": 1
+    }
+  ],
+  "prior_relevant_title_records": [],
+  "row_count": 1
+}

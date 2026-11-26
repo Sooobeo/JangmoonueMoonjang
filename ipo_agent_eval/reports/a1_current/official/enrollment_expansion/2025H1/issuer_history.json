@@ -1,0 +1,174 @@
+{
+  "20250107000412": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250107&textCrpCik=01747977&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "b9476df7a66a7bd0cf192217698e82443673b064b034aba8b834ff92db21bfbd",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250113000179": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250113&textCrpCik=00404941&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "d1e758d013697d595e330f224b85649e0d6bf7058d56f949a7076006d18a5293",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250120000464": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250120&textCrpCik=01563667&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "d0d7d6908750d2207dd8349fd1c93a7041cf742f48ff138285e94211b4bf4ab6",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250204000251": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250204&textCrpCik=01210677&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "bc43e70ff3a8c50a557853e02381a3925ccfecd4c83c9eeb80c3012751effe0d",
+    "reported_total": 5,
+    "earlier_initial_or_withdrawal_titles": [
+      {
+        "receipt": "20241016000133",
+        "title": "증권신고서(지분증권)",
+        "withdrawal_notice": true,
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000133"
+      },
+      {
+        "receipt": "20241101000386",
+        "title": "[기재정정] 증권신고서(지분증권)",
+        "withdrawal_notice": true,
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000386"
+      },
+      {
+        "receipt": "20241106000006",
+        "title": "투자설명서",
+        "withdrawal_notice": true,
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000006"
+      },
+      {
+        "receipt": "20241112000372",
+        "title": "철회신고서",
+        "withdrawal_notice": false,
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000372"
+      }
+    ]
+  },
+  "20250207000496": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250207&textCrpCik=01803927&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "1e9043e5739b0bb302186fce07efc3c105a759ca2afc22b6089dac0539245d50",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250213001825": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250213&textCrpCik=00406222&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "3c741f60bba5dc195aa7c0dff4efe643a9d617dd48124bb9bec8ed5d1d1e3a9a",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250214002621": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250214&textCrpCik=00765897&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "fe4bb8aab9fdf8926f8e1503ecc1a434b4679e740cb407a3271209f3c1e3a661",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250320001180": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250320&textCrpCik=00488244&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "f2cf928208e6a36cb708b8fb10f6689c151821ba0478daacf058ad4b1d48d653",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250324000841": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250324&textCrpCik=01657197&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "573e74b1d5248a04c4c119e073db5a760772c8d8a08ffcfc1863a14f907fb80d",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250325000608": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250325&textCrpCik=01649204&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "2d3623a20301aeab5af7f7581c0385ab0a168f674ffa3956252c97957d0ff991",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250328002012": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250328&textCrpCik=00204323&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "194773bc53432d388dcf6526cd71959f59c96a2e522b6d95fb2a08a8a56177b0",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250502000339": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250502&textCrpCik=00874168&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "93637dc2aa8b8fe182a648954aff09486815660fb4e815a359ad70c23fc9d2e9",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250502000416": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250502&textCrpCik=01221752&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "7256786e282ec0c5ce9fb355c7ceb194a3158ca2f816a62a45ff8f789427068a",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250528000616": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250528&textCrpCik=01708163&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "b254fd9284d834f5b25e15bd72c53a66d59cb21473a7465d17de749e93d681f0",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250529000633": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250529&textCrpCik=00255257&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "dd840ad9c993143eee018661452cd9a66c2a863dbb4da5e89719413bd18033c1",
+    "reported_total": 7,
+    "earlier_initial_or_withdrawal_titles": [
+      {
+        "receipt": "20230309000705",
+        "title": "증권신고서(지분증권)",
+        "withdrawal_notice": false,
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230309000705"
+      }
+    ]
+  },
+  "20250616000353": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250616&textCrpCik=00141583&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "a57fe339501164c302d6d8bf9b43732ad9c557b06a32e07d9239103b53613d21",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250624000370": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250624&textCrpCik=00182696&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "97c98e13907cbce85d5ac3fa9ef9a814230ee674e34049632d02dce1dea54ed0",
+    "reported_total": 2,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250625000450": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250625&textCrpCik=01294110&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "4d536b696485e4e0fd21cf0354cf1946825c9dad8db39b9cc3862b48fc1ab7cc",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250627000439": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250627&textCrpCik=00185301&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "7a03b803af8b84b06acbfd42a8449f858073579f08d17049db996472dae540ac",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  },
+  "20250630000790": {
+    "state": "verified",
+    "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250630&textCrpCik=00683061&maxResults=100&sort=date&series=asc&currentPage=1",
+    "response_sha256": "5c5b06912180d148a79beece61e5c73193fbc162ee063b290d150ff864472603",
+    "reported_total": 1,
+    "earlier_initial_or_withdrawal_titles": []
+  }
+}

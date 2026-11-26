@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-26T04:05:12.078192+00:00",
+  "cases": [
+    "GIGAVIS",
+    "TRUEN",
+    "MANYO",
+    "PHILENERGY"
+  ],
+  "packets_sha256": {
+    "GIGAVIS/a0_input.json": "575dc7894a17786406b7176a73624fd1e5640e06cefc8c5a8de287db74541b60",
+    "GIGAVIS/c_packet.json": "366c9c4164e58e012b85811d4f0711ef4dbcead3e89ea3183fabc3e0184c424d",
+    "GIGAVIS/c_private.json": "3f762027e6f931910e4e91774db8bf8e5e72943be5bca3b45f52b1ec101f4484",
+    "TRUEN/a0_input.json": "776a8ff71590cb462000ec758837bbc1df32c0c9389e4793e77412b6b54b6741",
+    "TRUEN/c_packet.json": "01a4fcc811fd0c5021304dfb209758a75c64723edd93e5be0757d4fd2ae81398",
+    "TRUEN/c_private.json": "05a9829df4e8d1b7d3f5dceff0b1d183999acb9c8f2aa9a3a79887946252d4d8",
+    "MANYO/a0_input.json": "2d5b966882cce3fce009f8b0aafea0945517e2d47fb7d614c63f0130ceb61626",
+    "MANYO/c_packet.json": "32beb97cfebfadb3b7126eeec04e26a65b7fc1830cb7a16ddda0038559d2d3d0",
+    "MANYO/c_private.json": "a95b70db7810324d7832843377b55f7c6dd517837704995803697385e455a559",
+    "PHILENERGY/a0_input.json": "e9e71b64f045fe1bcb111b503ab91b3f3d3799664e76dcc352a3e13808d6894c",
+    "PHILENERGY/c_packet.json": "e25cfd2754d1b960e29ac3e7161b05e1e850940b84265b04f6d3e9b0ac1382b9",
+    "PHILENERGY/c_private.json": "f388f33d7ae1b1133211541d69eafdb2db396df0eaa455bdfc5ed0221a1d2966"
+  },
+  "rule": "For every original item, both roles must independently support the same core proposition within comparable scope. Inspect material contrary evidence, substantiate its resolution with actual, dated primary evidence; exclude unresolved counterevidence, generic same-sector coincidence, mismatched causal grounds, or facts pivotal to only one role. No exclusion based on proxy results or grading. A qualified case must support a semantic-preserving transformation and an actual directional evidence intervention with prespecified predictions for each role. Include all qualifying dual accepts, not just J2.",
+  "screening": "Use a fresh official screening call with official roles, source excerpts and claim scope only. No grades, rankings, proxy labels, prior eligibility, test outcomes, or operator suggestions about individual items. Apply structural comparability/citation gates first. Final material and expectations freeze before any test answer.",
+  "assessor_exposure": "The orchestrating assistant previously saw TRUEN references during the separate proxy H2 task. Every official role, eligibility screen and perturbation evaluation is stateless with only its own explicit, grade-free inputs. No reference grades reopened or supplied in this task.",
+  "roles": "Per-role/case independent official Responses calls. A0 uses item-targeted initial-filing pages. Neutral C receives issuer and masked candidates including real supplementary candidates, no selection labels. Compared to rejected legacy VC request, same packet and base instruction, generic method fields and clarification added; no specific earnings adjustment named.",
+  "expected": "Original: reproduce supported core fact. Format: same support and decision after reordering unchanged statements. Directional: withdraw support when the crucial evidence is removed and any remaining evidence is insufficient, or change to contradictory if the predeclared alternative actually contradicts it. Record state and decision separately. No financial conclusion inferred from partial product overlap."
+}

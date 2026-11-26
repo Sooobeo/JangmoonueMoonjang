@@ -1,0 +1,1589 @@
+[
+  {
+    "receipt": "20230818000362",
+    "issuer": "에스엘에스바이오",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 2,
+      "판정 유보": 2
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 8,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 3,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20230818000362-08"
+    ],
+    "operating_ai": [
+      "20230818000362-08"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20230818000362-08"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 2,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230818000362",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230925000332",
+    "issuer": "에코아이",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 5,
+      "판정 유보": 4,
+      "비중대 쟁점": 1
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": 0,
+    "n_optional_known_other": 6,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20230925000332-09"
+    ],
+    "operating_ai": [
+      "20230925000332-10"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20230925000332-10"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 4,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230925000332",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230822000424",
+    "issuer": "한싹",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": false,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "A0 문항별 쪽·사유 응답 검증 실패"
+    ],
+    "A0_complete": false,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 7,
+      "판정 유보": 1,
+      "비중대 쟁점": 3
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": null,
+    "rule_top_eligible_tie_group": null,
+    "operating_rule": null,
+    "operating_ai": null,
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230822000424",
+    "fallback": "mandatory_only",
+    "fallback_items": []
+  },
+  {
+    "receipt": "20230728000416",
+    "issuer": "인스웨이브시스템즈",
+    "registered_items": 13,
+    "gradebook_complete": true,
+    "ranking_complete": false,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "A0 문항별 쪽·사유 응답 검증 실패"
+    ],
+    "A0_complete": false,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "비중대 쟁점": 2,
+      "수용 가능": 5,
+      "판정 유보": 6
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": null,
+    "rule_top_eligible_tie_group": null,
+    "operating_rule": null,
+    "operating_ai": null,
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230728000416",
+    "fallback": "mandatory_only",
+    "fallback_items": []
+  },
+  {
+    "receipt": "20230927000587",
+    "issuer": "에스와이스틸텍",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 1,
+      "판정 유보": 3
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 0,
+    "rule_top_eligible_tie_group": "이관 적격 후보 없음",
+    "operating_rule": [],
+    "operating_ai": [],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [],
+    "tie_policy_material": [],
+    "pending_excluded": 3,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230927000587",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20231222000680",
+    "issuer": "에이피알",
+    "registered_items": 16,
+    "gradebook_complete": false,
+    "ranking_complete": false,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "A1 출력 한도 초과",
+      "독립 채점 문항 허용 쪽 위반"
+    ],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": null,
+    "self_exposed_in_C": true,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": null,
+    "rule_top_eligible_tie_group": null,
+    "operating_rule": null,
+    "operating_ai": null,
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231222000680",
+    "fallback": "rule",
+    "fallback_items": [
+      "20231222000680-03"
+    ]
+  },
+  {
+    "receipt": "20240621000553",
+    "issuer": "산일전기",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 5,
+      "비중대 쟁점": 2,
+      "중대 쟁점": 1,
+      "판정 유보": 2
+    },
+    "self_exposed_in_C": true,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": 1,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 7,
+    "rank_status": "AI 하락",
+    "concordance_rule": "1",
+    "concordance_ai": "6/7",
+    "delta_fraction": "-1/7",
+    "delta": -0.14285714285714285,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20240621000553-08"
+    ],
+    "operating_ai": [
+      "20240621000553-05"
+    ],
+    "operating_material_rule": [
+      "20240621000553-08"
+    ],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20240621000553-08"
+    ],
+    "tie_policy_material": [
+      "20240621000553-08"
+    ],
+    "pending_excluded": 2,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240621000553",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20240710000686",
+    "issuer": "전진건설로봇",
+    "registered_items": 9,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 4,
+      "비중대 쟁점": 3,
+      "판정 유보": 2
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20240710000686-04"
+    ],
+    "operating_ai": [
+      "20240710000686-04"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20240710000686-04"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 2,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240710000686",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20241010000504",
+    "issuer": "사이냅소프트",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "비중대 쟁점": 2,
+      "수용 가능": 5,
+      "판정 유보": 3
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 0,
+    "rule_top_eligible_tie_group": "이관 적격 후보 없음",
+    "operating_rule": [],
+    "operating_ai": [
+      "20241010000504-01"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [],
+    "tie_policy_material": [],
+    "pending_excluded": 3,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000504",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20241018000518",
+    "issuer": "벡트로보틱스",
+    "registered_items": 9,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "비중대 쟁점": 2,
+      "수용 가능": 6,
+      "판정 유보": 1
+    },
+    "self_exposed_in_C": true,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": 0,
+    "n_optional_known_other": 8,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20241018000518-03"
+    ],
+    "operating_ai": [
+      "20241018000518-09"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20241018000518-09"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 1,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000518",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20241118000273",
+    "issuer": "모티브링크",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 1,
+      "판정 유보": 3
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20241118000273-01"
+    ],
+    "operating_ai": [
+      "20241118000273-09"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20241118000273-07"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 3,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000273",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20241129001313",
+    "issuer": "피아이이",
+    "registered_items": 10,
+    "gradebook_complete": false,
+    "ranking_complete": true,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "독립 채점 문항 허용 쪽 위반"
+    ],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": null,
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20241129001313-01"
+    ],
+    "operating_ai": [
+      "20241129001313-08"
+    ],
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001313",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20241205000577",
+    "issuer": "LG씨엔에스",
+    "registered_items": 10,
+    "gradebook_complete": false,
+    "ranking_complete": true,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "독립 채점 문항 허용 쪽 위반"
+    ],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": null,
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20241205000577-08"
+    ],
+    "operating_ai": [
+      "20241205000577-08"
+    ],
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000577",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20241213000457",
+    "issuer": "위너스일렉",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 1,
+      "판정 유보": 3
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20241213000457-08"
+    ],
+    "operating_ai": [
+      "20241213000457-10"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20241213000457-10"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 3,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000457",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230823000258",
+    "issuer": "레뷰코퍼레이션",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 1,
+      "중대 쟁점": 1,
+      "판정 유보": 3
+    },
+    "self_exposed_in_C": true,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": 1,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 7,
+    "rank_status": "동률",
+    "concordance_rule": "1",
+    "concordance_ai": "1",
+    "delta_fraction": "0",
+    "delta": 0.0,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20230823000258-08"
+    ],
+    "operating_ai": [
+      "20230823000258-08"
+    ],
+    "operating_material_rule": [
+      "20230823000258-08"
+    ],
+    "operating_material_ai": [
+      "20230823000258-08"
+    ],
+    "tie_policy_operating": [
+      "20230823000258-08"
+    ],
+    "tie_policy_material": [
+      "20230823000258-08"
+    ],
+    "pending_excluded": 3,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230823000258",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20240305000170",
+    "issuer": "노브랜드",
+    "registered_items": 15,
+    "gradebook_complete": true,
+    "ranking_complete": false,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "시점에 맞는 보충 후보 자료 미확보"
+    ],
+    "A0_complete": true,
+    "C_complete": false,
+    "reference_grade_counts": {
+      "수용 가능": 7,
+      "비중대 쟁점": 1,
+      "판정 유보": 7
+    },
+    "self_exposed_in_C": null,
+    "any_direct_exposed_in_C": null,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": null,
+    "rule_top_eligible_tie_group": null,
+    "operating_rule": null,
+    "operating_ai": null,
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240305000170",
+    "fallback": "mandatory_only",
+    "fallback_items": []
+  },
+  {
+    "receipt": "20250107000412",
+    "issuer": "엘케이켐",
+    "registered_items": 13,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 9,
+      "판정 유보": 4
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": 0,
+    "n_optional_known_other": 9,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20250107000412-01"
+    ],
+    "operating_ai": [
+      "20250107000412-13"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250107000412-01"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 4,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250107000412",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250908000140",
+    "issuer": "이노테크",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 7,
+      "비중대 쟁점": 3,
+      "판정 유보": 1
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 10,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20250908000140-08"
+    ],
+    "operating_ai": [
+      "20250908000140-08"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250908000140-08"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 1,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250908000140",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230906000217",
+    "issuer": "유투바이오",
+    "registered_items": 9,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "비중대 쟁점": 2,
+      "수용 가능": 6,
+      "판정 유보": 1
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 8,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 0,
+    "rule_top_eligible_tie_group": "이관 적격 후보 없음",
+    "operating_rule": [],
+    "operating_ai": [
+      "20230906000217-08"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [],
+    "tie_policy_material": [],
+    "pending_excluded": 1,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230906000217",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20240520000263",
+    "issuer": "시프트업",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 7,
+      "판정 유보": 3
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20240520000263-10"
+    ],
+    "operating_ai": [
+      "20240520000263-10"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20240520000263-10"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 3,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240520000263",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250120000464",
+    "issuer": "더즌",
+    "registered_items": 10,
+    "gradebook_complete": false,
+    "ranking_complete": true,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "독립 채점 문항 허용 쪽 위반"
+    ],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": null,
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20250120000464-10"
+    ],
+    "operating_ai": [
+      "20250120000464-10"
+    ],
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250120000464",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250908000329",
+    "issuer": "세나테크놀로지",
+    "registered_items": 14,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 9,
+      "비중대 쟁점": 1,
+      "판정 유보": 4
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 10,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20250908000329-12"
+    ],
+    "operating_ai": [
+      "20250908000329-12"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250908000329-12"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 4,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250908000329",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230911000405",
+    "issuer": "비아이매트릭스",
+    "registered_items": 10,
+    "gradebook_complete": false,
+    "ranking_complete": true,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "독립 채점 문항 허용 쪽 위반"
+    ],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": null,
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20230911000405-08"
+    ],
+    "operating_ai": [
+      "20230911000405-08"
+    ],
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230911000405",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20240621000344",
+    "issuer": "티디에스팜",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 7,
+      "판정 유보": 3
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20240621000344-10"
+    ],
+    "operating_ai": [
+      "20240621000344-10"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20240621000344-10"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 3,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240621000344",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250207000496",
+    "issuer": "에이유브랜즈",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 5
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 11,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 4,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20250207000496-08"
+    ],
+    "operating_ai": [
+      "20250207000496-10"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250207000496-10"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 0,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250207000496",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250930000546",
+    "issuer": "아로마티카",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 7,
+      "판정 유보": 4
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 7,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20250930000546-08"
+    ],
+    "operating_ai": [
+      "20250930000546-08"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250930000546-08"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 4,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250930000546",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230912000404",
+    "issuer": "워트",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "비중대 쟁점": 4,
+      "수용 가능": 5,
+      "중대 쟁점": 2
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 2,
+    "n_optional_known_other": 9,
+    "pairwise_comparisons": 18,
+    "rank_status": "AI 상승",
+    "concordance_rule": "8/9",
+    "concordance_ai": "1",
+    "delta_fraction": "1/9",
+    "delta": 0.1111111111111111,
+    "rule_top_eligible_tie_count": 4,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20230912000404-02"
+    ],
+    "operating_ai": [
+      "20230912000404-11"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [
+      "20230912000404-11"
+    ],
+    "tie_policy_operating": [
+      "20230912000404-11"
+    ],
+    "tie_policy_material": [
+      "20230912000404-11"
+    ],
+    "pending_excluded": 0,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230912000404",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250320001180",
+    "issuer": "원일티엔아이",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 5,
+      "판정 유보": 4,
+      "비중대 쟁점": 1
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 6,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20250320001180-07"
+    ],
+    "operating_ai": [
+      "20250320001180-09"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250320001180-08"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 4,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001180",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20251001000684",
+    "issuer": "씨엠티엑스",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 8,
+      "비중대 쟁점": 1,
+      "판정 유보": 2
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 9,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 4,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20251001000684-04"
+    ],
+    "operating_ai": [
+      "20251001000684-04"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20251001000684-04"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 2,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001000684",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230915000263",
+    "issuer": "에이직랜드",
+    "registered_items": 12,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 10,
+      "비중대 쟁점": 2
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 12,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 0,
+    "rule_top_eligible_tie_group": "이관 적격 후보 없음",
+    "operating_rule": [],
+    "operating_ai": [
+      "20230915000263-05"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [],
+    "tie_policy_material": [],
+    "pending_excluded": 0,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000263",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250324000841",
+    "issuer": "바이오비쥬",
+    "registered_items": 14,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 2,
+      "판정 유보": 6
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 0,
+    "n_optional_known_other": 8,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20250324000841-08"
+    ],
+    "operating_ai": [
+      "20250324000841-08"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250324000841-08"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 6,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250324000841",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20251103000252",
+    "issuer": "삼진식품",
+    "registered_items": 10,
+    "gradebook_complete": false,
+    "ranking_complete": true,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "독립 채점 문항 허용 쪽 위반"
+    ],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": null,
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 2,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20251103000252-03"
+    ],
+    "operating_ai": [
+      "20251103000252-10"
+    ],
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251103000252",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230915000281",
+    "issuer": "유진테크놀로지",
+    "registered_items": 10,
+    "gradebook_complete": true,
+    "ranking_complete": false,
+    "pair_complete": false,
+    "selection_or_grading_failure": [
+      "A0 문항별 쪽·사유 응답 검증 실패"
+    ],
+    "A0_complete": false,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 6,
+      "비중대 쟁점": 4
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": null,
+    "n_optional_known_other": null,
+    "pairwise_comparisons": null,
+    "rank_status": "미완료",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": null,
+    "rule_top_eligible_tie_group": null,
+    "operating_rule": null,
+    "operating_ai": null,
+    "operating_material_rule": null,
+    "operating_material_ai": null,
+    "tie_policy_operating": null,
+    "tie_policy_material": null,
+    "pending_excluded": null,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000281",
+    "fallback": "mandatory_only",
+    "fallback_items": [
+      "20230915000281-06"
+    ]
+  },
+  {
+    "receipt": "20250325000608",
+    "issuer": "달바글로벌",
+    "registered_items": 12,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 8,
+      "판정 유보": 4
+    },
+    "self_exposed_in_C": true,
+    "any_direct_exposed_in_C": true,
+    "n_optional_material": 0,
+    "n_optional_known_other": 8,
+    "pairwise_comparisons": 0,
+    "rank_status": "공통 필수 밖에 확정 중대 없음",
+    "concordance_rule": null,
+    "concordance_ai": null,
+    "delta_fraction": null,
+    "delta": null,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20250325000608-08"
+    ],
+    "operating_ai": [
+      "20250325000608-08"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20250325000608-08"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 4,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250325000608",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20251223000517",
+    "issuer": "액스비스",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "중대 쟁점": 1,
+      "수용 가능": 6,
+      "판정 유보": 2,
+      "비중대 쟁점": 2
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 1,
+    "n_optional_known_other": 8,
+    "pairwise_comparisons": 8,
+    "rank_status": "AI 하락",
+    "concordance_rule": "13/16",
+    "concordance_ai": "5/8",
+    "delta_fraction": "-3/16",
+    "delta": -0.1875,
+    "rule_top_eligible_tie_count": 1,
+    "rule_top_eligible_tie_group": "단독 선두",
+    "operating_rule": [
+      "20251223000517-09"
+    ],
+    "operating_ai": [
+      "20251223000517-08"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20251223000517-09"
+    ],
+    "tie_policy_material": [],
+    "pending_excluded": 2,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251223000517",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20230918000204",
+    "issuer": "스톰테크",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "비중대 쟁점": 2,
+      "수용 가능": 7,
+      "중대 쟁점": 2
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 2,
+    "n_optional_known_other": 9,
+    "pairwise_comparisons": 18,
+    "rank_status": "AI 하락",
+    "concordance_rule": "17/18",
+    "concordance_ai": "8/9",
+    "delta_fraction": "-1/18",
+    "delta": -0.05555555555555555,
+    "rule_top_eligible_tie_count": 3,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20230918000204-06"
+    ],
+    "operating_ai": [
+      "20230918000204-09"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [],
+    "tie_policy_operating": [
+      "20230918000204-11"
+    ],
+    "tie_policy_material": [
+      "20230918000204-11"
+    ],
+    "pending_excluded": 0,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230918000204",
+    "fallback": null,
+    "fallback_items": null
+  },
+  {
+    "receipt": "20250328002012",
+    "issuer": "키스트론",
+    "registered_items": 11,
+    "gradebook_complete": true,
+    "ranking_complete": true,
+    "pair_complete": true,
+    "selection_or_grading_failure": [],
+    "A0_complete": true,
+    "C_complete": true,
+    "reference_grade_counts": {
+      "수용 가능": 7,
+      "비중대 쟁점": 2,
+      "판정 유보": 1,
+      "중대 쟁점": 1
+    },
+    "self_exposed_in_C": false,
+    "any_direct_exposed_in_C": false,
+    "n_optional_material": 1,
+    "n_optional_known_other": 9,
+    "pairwise_comparisons": 9,
+    "rank_status": "AI 상승",
+    "concordance_rule": "8/9",
+    "concordance_ai": "1",
+    "delta_fraction": "1/9",
+    "delta": 0.1111111111111111,
+    "rule_top_eligible_tie_count": 4,
+    "rule_top_eligible_tie_group": "공동 선두",
+    "operating_rule": [
+      "20250328002012-02"
+    ],
+    "operating_ai": [
+      "20250328002012-10"
+    ],
+    "operating_material_rule": [],
+    "operating_material_ai": [
+      "20250328002012-10"
+    ],
+    "tie_policy_operating": [
+      "20250328002012-10"
+    ],
+    "tie_policy_material": [
+      "20250328002012-10"
+    ],
+    "pending_excluded": 1,
+    "dart_filing": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250328002012",
+    "fallback": null,
+    "fallback_items": null
+  }
+]

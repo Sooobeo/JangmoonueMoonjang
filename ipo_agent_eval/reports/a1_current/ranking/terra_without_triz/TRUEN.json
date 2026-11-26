@@ -1,0 +1,261 @@
+{
+  "case": "TRUEN",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "TRUEN-03",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-04",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-06",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-07",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-10",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-01",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-02",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-05",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-08",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-09",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "TRUEN-03"
+    ],
+    "operational": [
+      "TRUEN-03"
+    ],
+    "waiting": [
+      "TRUEN-04",
+      "TRUEN-06",
+      "TRUEN-07",
+      "TRUEN-10"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "TRUEN-10",
+        "action": "사람 검토",
+        "priority": 96,
+        "reason": "A0와 C 모두 사업 적합성에 문제를 제기했다. 발행사는 2022년 IP 카메라 매출이 81.94%인 반면, 위세아이텍은 데이터 분석·품질과 AI 개발 플랫폼 중심이어서 주력 제품과 매출원이 다르다. 원문의 선정 기준은 빅데이터·AI 사업도 포함하지만, 이것만으로 직접 비교의 적합성이 해소되지는 않는다. 위세아이텍의 PER 32.33배는 세 회사 평균 22.59배보다 높아 선정 판단이 적용 배수에 영향을 준다. 두 회사 평균 17.73배는 조건부 비교일 뿐 적격 대안이나 오류의 확정 근거는 아니다.",
+        "evidence_ids": [
+          "E2",
+          "E5",
+          "A10",
+          "PDF-187",
+          "PDF-194"
+        ],
+        "question_or_request": "영상보안 카메라 중심 발행사와 제품·매출원이 다른 위세아이텍을 최종 비교기업에 포함한 구체적 이유는 무엇이며, 사업 차이가 PER 비교에 미치는 영향을 어떻게 평가했나요?",
+        "tie_key": "96",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-02",
+        "action": "자료 요청",
+        "priority": 80,
+        "reason": "발행사 적용 이익 7,633백만원은 2022년 별도 당기순이익 7,633,487천원과 반올림 수준에서 일치하므로 A0의 귀속 미확인은 일부 해소된다. 다만 비교기업은 연결재무제표가 주 재무제표인 경우 지배지분 순이익을 사용했다. 발행사의 연결 대상과 지배기업 귀속이익은 제공 자료만으로 확인되지 않아 비교 가능성을 확정할 수 없다.",
+        "evidence_ids": [
+          "E4",
+          "PDF-194",
+          "PDF-195"
+        ],
+        "question_or_request": "발행사의 2022년 연결 대상 유무와, 연결 대상이 있다면 연결 당기순이익 및 지배기업 소유주 귀속 당기순이익을 제출해 주세요. 별도 이익을 적용한 이유도 확인해 주세요.",
+        "tie_key": "80",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-03",
+        "action": "사람 검토",
+        "priority": 74,
+        "reason": "C는 검토 범위 밖이었으나 원문에는 2023년 초 이후·1개월·1주일 평균과 기준일 종가 중 최저값을 택한 사실이 있다. 위세아이텍의 선택값은 16,943원, 기준일 종가는 20,750원이다. 최저값 선택은 관측값 대비 하방으로 작용하지만, 다른 관측값이 적격 기준이라는 사실만으로 기존 선택을 오류로 확정할 수 없다.",
+        "evidence_ids": [
+          "PDF-192",
+          "PDF-194"
+        ],
+        "question_or_request": "네 관측값 중 최저값을 일률 적용한 이유와, 2022년 이익에 대응하는 2023년 주가 관측기간이 비교기업 평가에 적절한지 확인해 주세요.",
+        "tie_key": "74",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-08",
+        "action": "사람 검토",
+        "priority": 70,
+        "reason": "발행사의 2022년 IP 카메라 매출 비중은 81.94%다. 포커스에이치엔에스는 보안 카메라를 취급해 제품상 유사성이 있으나, 원문에 AI CAM 46.1%, NVR 29.6%, DVR 4.8%가 제시되어 제품 구성 차이도 확인된다. A0의 수용 근거와 C의 구성 차이 우려를 함께 고려해야 하며, 비중 차이만으로 부적격이라고 확정할 수는 없다.",
+        "evidence_ids": [
+          "E2",
+          "E7",
+          "A08",
+          "PDF-187"
+        ],
+        "question_or_request": "카메라와 영상저장장치의 매출 구성 차이를 비교기업 선정에서 어떻게 고려했는지 확인해 주세요. 특히 공시된 IP CAM 비중을 포함한 전체 제품 구성을 대조해 주세요.",
+        "tie_key": "70",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-09",
+        "action": "사람 검토",
+        "priority": 68,
+        "reason": "아이디스는 IP 카메라와 영상보안 제품을 판매하므로 A0가 제시한 사업 유사성은 확인된다. 다만 발행사의 2022년 IP 카메라 비중 81.94%에 비해 아이디스의 공시된 Camera 비중은 47.7%, Recorder는 25.1%다. C가 우려한 제품 구성 차이가 실제로 확인되므로 선정 판단에서의 고려 여부를 점검할 필요가 있다.",
+        "evidence_ids": [
+          "E2",
+          "E8",
+          "A09",
+          "PDF-187"
+        ],
+        "question_or_request": "카메라와 레코더·영상관리 제품의 매출 구성 차이를 비교기업 선정과 PER 해석에 어떻게 반영했는지 확인해 주세요.",
+        "tie_key": "68",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-06",
+        "action": "사람 검토",
+        "priority": 65,
+        "reason": "B 계산상 172,471백만원을 10,999,650주로 나눈 값은 약 15,679.68원으로 15,680원 표시에 부합한다. 그러나 같은 원문의 밴드 산출표에는 15,578원이 기재되어 102원, 계산 주당가액의 약 0.65% 차이가 난다. 5% 미만이지만 실제 공시 내부 불일치이므로 원인을 확인해야 한다.",
+        "evidence_ids": [
+          "PDF-195"
+        ],
+        "question_or_request": "밴드 산출표의 15,578원은 오기인지, 별도 조정이나 다른 산식에 따른 값인지 확인해 주세요.",
+        "tie_key": "65",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-07",
+        "action": "사람 검토",
+        "priority": 64,
+        "reason": "원문은 15,578원을 기초로 할인율 36.22%~23.47%와 밴드 10,000~12,000원을 제시한다. 해당 밴드의 할인율은 15,680원 기준으로는 약 36.22%~23.47%, 15,578원 기준으로는 약 35.81%~22.96%여서 기재된 기준가액과 할인율이 일치하지 않는다. 이는 TRUEN-06의 표 간 불일치와 연결된다.",
+        "evidence_ids": [
+          "PDF-195"
+        ],
+        "question_or_request": "희망공모가 밴드 산출에 실제 사용한 평가가액과 할인율을 확인하고, 어느 기재를 정정해야 하는지 검토해 주세요.",
+        "tie_key": "64",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-04",
+        "action": "기록 보관",
+        "priority": 35,
+        "reason": "2022년 이익을 적용한 세 비교기업 PER 16.11배, 19.34배, 32.33배의 산술평균은 표시된 22.59배와 부합한다. A0의 실질적 우려는 평균 방식 자체보다 위세아이텍의 사업 적합성에 관한 것으로 TRUEN-10에서 검토한다. C의 동일 가중 제안도 적격 후보 확정을 전제로 한다.",
+        "evidence_ids": [
+          "PDF-194"
+        ],
+        "question_or_request": "",
+        "tie_key": "35",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-05",
+        "action": "기록 보관",
+        "priority": 25,
+        "reason": "원문은 공모 전 8,424,650주, 공모주식 2,500,000주, 의무인수분 75,000주의 합계 10,999,650주를 적용 주식수로 제시한다. 합계는 맞으며 제공 자료에서 추가 희석요소 누락은 확인되지 않는다. C는 이 항목을 검토하지 않았다.",
+        "evidence_ids": [
+          "PDF-195"
+        ],
+        "question_or_request": "",
+        "tie_key": "25",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-01",
+        "action": "기록 보관",
+        "priority": 20,
+        "reason": "C가 지적한 기준일은 원문에서 2023년 3월 28일로 확인된다. 2022년 연간 이익은 그 기준일의 최근 완료 사업연도 실적이므로 기간에 관한 갈림은 해소된다. 이익의 귀속 범위는 별도 항목에서 검토한다.",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "PDF-194",
+          "PDF-195"
+        ],
+        "question_or_request": "",
+        "tie_key": "20",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "TRUEN-10"
+    ],
+    "operational": [
+      "TRUEN-10"
+    ],
+    "waiting": [
+      "TRUEN-03",
+      "TRUEN-08",
+      "TRUEN-09",
+      "TRUEN-06",
+      "TRUEN-07"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-192",
+    "PDF-193",
+    "PDF-194",
+    "PDF-195"
+  ],
+  "lookup_run": "reports/a1_current/live/TRUEN/A1_LOOK/fa8e5afa32a756bf/20261126T040958Z_A1_LOOK_0bcf8e45",
+  "decision_run": "reports/a1_current/live/TRUEN/A1_SELECT/7a2dd17203e38969/20261126T041007Z_A1_SELECT_57cb49d1",
+  "triz": [],
+  "common_item_count": 10,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "PDF-187",
+    "PDF-192",
+    "PDF-193",
+    "PDF-194",
+    "PDF-195"
+  ],
+  "selector_seconds": 45.166000000000004,
+  "lookup_method": "compact_catalog_recovery_v1",
+  "selector_condition": "TERRA"
+}

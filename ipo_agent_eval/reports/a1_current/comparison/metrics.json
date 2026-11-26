@@ -1,0 +1,5391 @@
+{
+  "protocol": "current-dev-1",
+  "scope": "CODEX_PROXY_DEVELOPMENT_AND_VALIDATION",
+  "k": 1,
+  "rows": [
+    {
+      "case": "HDMS",
+      "status": "COMPARED",
+      "cohort": "development",
+      "total_items": 11,
+      "mandatory": [],
+      "material": [
+        "H02"
+      ],
+      "pending": [
+        "H03"
+      ],
+      "known_nonmaterial": [
+        "H01",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11"
+      ],
+      "optional_material": [
+        "H02"
+      ],
+      "optional_nonmaterial": [
+        "H01",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11"
+      ],
+      "optional_pending": [
+        "H03"
+      ],
+      "primary_exclusion_reason": null,
+      "rule": {
+        "concordance": {
+          "score": 1.0,
+          "pairs": 9,
+          "weighted_correct": 9
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [
+            "H02"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "H03"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "H02"
+          ],
+          "rate": 0.09090909090909091,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "H04",
+            "H08"
+          ],
+          "requests": [],
+          "archived": [],
+          "not_routed": [
+            "H01",
+            "H03",
+            "H05",
+            "H06",
+            "H07",
+            "H09",
+            "H10",
+            "H11"
+          ],
+          "missed_status": {},
+          "proxy_seconds": 15.61,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.8333333333333334,
+          1.0
+        ]
+      },
+      "ai": {
+        "concordance": {
+          "score": 1.0,
+          "pairs": 9,
+          "weighted_correct": 9
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [
+            "H02"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "H03"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "H02"
+          ],
+          "rate": 0.09090909090909091,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "H04"
+          ],
+          "requests": [
+            "H03",
+            "H08"
+          ],
+          "archived": [
+            "H01",
+            "H05",
+            "H06",
+            "H07",
+            "H09",
+            "H10",
+            "H11"
+          ],
+          "not_routed": [],
+          "missed_status": {},
+          "proxy_seconds": 15.61,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      "concordance_delta_ai_minus_rule": 0.0,
+      "concordance_delta_pending_bounds": [
+        0.0,
+        0.16666666666666663
+      ],
+      "valid_pending_assignments": 2,
+      "fixed_k": {
+        "rule": {
+          "count": 1,
+          "material_found": [
+            "H02"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "H03"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "H02"
+          ]
+        },
+        "ai": {
+          "count": 1,
+          "material_found": [
+            "H02"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "H03"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "H02"
+          ]
+        },
+        "difference": {
+          "rule_minus_ai": 0,
+          "pending_bounds": [
+            0,
+            0
+          ],
+          "newly_missed_by_ai": [],
+          "newly_found_by_ai": []
+        }
+      },
+      "fixed_curve_by_k": {
+        "1": {
+          "rule": {
+            "count": 1,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "H03"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "H02"
+            ]
+          },
+          "ai": {
+            "count": 1,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "H03"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "H02"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "2": {
+          "rule": {
+            "count": 2,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "H03"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "H02",
+              "H04"
+            ]
+          },
+          "ai": {
+            "count": 2,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "3": {
+          "rule": {
+            "count": 3,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "H03"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08"
+            ]
+          },
+          "ai": {
+            "count": 3,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "4": {
+          "rule": {
+            "count": 4,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "H03"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01"
+            ]
+          },
+          "ai": {
+            "count": 4,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "5": {
+          "rule": {
+            "count": 5,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01",
+              "H03"
+            ]
+          },
+          "ai": {
+            "count": 5,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08",
+              "H05"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "6": {
+          "rule": {
+            "count": 6,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01",
+              "H03",
+              "H07"
+            ]
+          },
+          "ai": {
+            "count": 6,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08",
+              "H05",
+              "H11"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "7": {
+          "rule": {
+            "count": 7,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01",
+              "H03",
+              "H07",
+              "H06"
+            ]
+          },
+          "ai": {
+            "count": 7,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08",
+              "H05",
+              "H11",
+              "H01"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "8": {
+          "rule": {
+            "count": 8,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01",
+              "H03",
+              "H07",
+              "H06",
+              "H05"
+            ]
+          },
+          "ai": {
+            "count": 8,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08",
+              "H05",
+              "H11",
+              "H01",
+              "H07"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "9": {
+          "rule": {
+            "count": 9,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01",
+              "H03",
+              "H07",
+              "H06",
+              "H05",
+              "H09"
+            ]
+          },
+          "ai": {
+            "count": 9,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08",
+              "H05",
+              "H11",
+              "H01",
+              "H07",
+              "H06"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "10": {
+          "rule": {
+            "count": 10,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01",
+              "H03",
+              "H07",
+              "H06",
+              "H05",
+              "H09",
+              "H10"
+            ]
+          },
+          "ai": {
+            "count": 10,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08",
+              "H05",
+              "H11",
+              "H01",
+              "H07",
+              "H06",
+              "H10"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "11": {
+          "rule": {
+            "count": 11,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H04",
+              "H08",
+              "H01",
+              "H03",
+              "H07",
+              "H06",
+              "H05",
+              "H09",
+              "H10",
+              "H11"
+            ]
+          },
+          "ai": {
+            "count": 11,
+            "material_found": [
+              "H02"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "H02",
+              "H03",
+              "H04",
+              "H08",
+              "H05",
+              "H11",
+              "H01",
+              "H07",
+              "H06",
+              "H10",
+              "H09"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        }
+      },
+      "operating_difference": {
+        "rule_minus_ai": 0,
+        "pending_bounds": [
+          0,
+          0
+        ],
+        "newly_missed_by_ai": [],
+        "newly_found_by_ai": [],
+        "transfer_change_ai_minus_rule": 0
+      },
+      "triz": [],
+      "selector_seconds": 107.97,
+      "selector_runs": [
+        "reports/a1_current/proxy/HDMS/A1_LOOK/361b9d628e1a003f",
+        "reports/a1_current/proxy/HDMS/A1_SELECT/74d2b8609009730a"
+      ],
+      "human_minutes": null,
+      "reference_sha256": "5bcbe6ae7374a71862863cff5e3757876b15e2562b1b4a89b362942107ad9a05",
+      "rank_sha256": "b37f6ac42186b2ec95b0c077dfcc941d1db2112d1329bc40080259fdca3eb7dd",
+      "lookup_pages": [
+        "PDF-251",
+        "PDF-269"
+      ],
+      "selector_usage": {
+        "logged_proxy_turns": 2,
+        "usage": {
+          "input_tokens": 129238,
+          "cached_input_tokens": 0,
+          "output_tokens": 4871,
+          "reasoning_output_tokens": 9
+        },
+        "billed_dollars": null,
+        "requested_pdf_pages": [
+          "PDF-251",
+          "PDF-269"
+        ],
+        "requested_page_evidence": [
+          {
+            "requested_ref": "PDF-251",
+            "preexisting_same_page_aliases": [
+              "H-P0251",
+              "PDF-251"
+            ],
+            "preexisting_exact_text_refs": [
+              "PDF-251"
+            ],
+            "net_new_full_normalized_text": false
+          },
+          {
+            "requested_ref": "PDF-269",
+            "preexisting_same_page_aliases": [
+              "H-P0269",
+              "PDF-269"
+            ],
+            "preexisting_exact_text_refs": [
+              "PDF-269"
+            ],
+            "net_new_full_normalized_text": false
+          }
+        ],
+        "net_new_text_pages": []
+      }
+    },
+    {
+      "case": "MELCON",
+      "status": "COMPARED",
+      "cohort": "development",
+      "total_items": 11,
+      "mandatory": [],
+      "material": [
+        "M01",
+        "M03"
+      ],
+      "pending": [],
+      "known_nonmaterial": [
+        "M02",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11"
+      ],
+      "optional_material": [
+        "M01",
+        "M03"
+      ],
+      "optional_nonmaterial": [
+        "M02",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11"
+      ],
+      "optional_pending": [],
+      "primary_exclusion_reason": null,
+      "rule": {
+        "concordance": {
+          "score": 0.9166666666666666,
+          "pairs": 18,
+          "weighted_correct": 16.5
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [
+            "M03"
+          ],
+          "material_missed": [
+            "M01"
+          ],
+          "pending_outside": [],
+          "recall": 0.5,
+          "miss_count_bounds": [
+            1,
+            1
+          ],
+          "items": [
+            "M03"
+          ],
+          "rate": 0.09090909090909091,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "M06",
+            "M01",
+            "M05"
+          ],
+          "requests": [],
+          "archived": [],
+          "not_routed": [
+            "M02",
+            "M04",
+            "M07",
+            "M08",
+            "M09",
+            "M10",
+            "M11"
+          ],
+          "missed_status": {
+            "M01": "waiting"
+          },
+          "proxy_seconds": 19.61,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.9166666666666666,
+          0.9166666666666666
+        ]
+      },
+      "ai": {
+        "concordance": {
+          "score": 0.9444444444444444,
+          "pairs": 18,
+          "weighted_correct": 17
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [
+            "M03"
+          ],
+          "material_missed": [
+            "M01"
+          ],
+          "pending_outside": [],
+          "recall": 0.5,
+          "miss_count_bounds": [
+            1,
+            1
+          ],
+          "items": [
+            "M03"
+          ],
+          "rate": 0.09090909090909091,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "M05",
+            "M06",
+            "M11"
+          ],
+          "requests": [
+            "M01",
+            "M02"
+          ],
+          "archived": [
+            "M04",
+            "M07",
+            "M08",
+            "M09",
+            "M10"
+          ],
+          "not_routed": [],
+          "missed_status": {
+            "M01": "request"
+          },
+          "proxy_seconds": 19.61,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.9444444444444444,
+          0.9444444444444444
+        ]
+      },
+      "concordance_delta_ai_minus_rule": 0.02777777777777779,
+      "concordance_delta_pending_bounds": [
+        0.02777777777777779,
+        0.02777777777777779
+      ],
+      "valid_pending_assignments": 1,
+      "fixed_k": {
+        "rule": {
+          "count": 1,
+          "material_found": [
+            "M03"
+          ],
+          "material_missed": [
+            "M01"
+          ],
+          "pending_outside": [],
+          "recall": 0.5,
+          "miss_count_bounds": [
+            1,
+            1
+          ],
+          "items": [
+            "M03"
+          ]
+        },
+        "ai": {
+          "count": 1,
+          "material_found": [
+            "M03"
+          ],
+          "material_missed": [
+            "M01"
+          ],
+          "pending_outside": [],
+          "recall": 0.5,
+          "miss_count_bounds": [
+            1,
+            1
+          ],
+          "items": [
+            "M03"
+          ]
+        },
+        "difference": {
+          "rule_minus_ai": 0,
+          "pending_bounds": [
+            0,
+            0
+          ],
+          "newly_missed_by_ai": [],
+          "newly_found_by_ai": []
+        }
+      },
+      "fixed_curve_by_k": {
+        "1": {
+          "rule": {
+            "count": 1,
+            "material_found": [
+              "M03"
+            ],
+            "material_missed": [
+              "M01"
+            ],
+            "pending_outside": [],
+            "recall": 0.5,
+            "miss_count_bounds": [
+              1,
+              1
+            ],
+            "items": [
+              "M03"
+            ]
+          },
+          "ai": {
+            "count": 1,
+            "material_found": [
+              "M03"
+            ],
+            "material_missed": [
+              "M01"
+            ],
+            "pending_outside": [],
+            "recall": 0.5,
+            "miss_count_bounds": [
+              1,
+              1
+            ],
+            "items": [
+              "M03"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "2": {
+          "rule": {
+            "count": 2,
+            "material_found": [
+              "M03"
+            ],
+            "material_missed": [
+              "M01"
+            ],
+            "pending_outside": [],
+            "recall": 0.5,
+            "miss_count_bounds": [
+              1,
+              1
+            ],
+            "items": [
+              "M03",
+              "M06"
+            ]
+          },
+          "ai": {
+            "count": 2,
+            "material_found": [
+              "M03"
+            ],
+            "material_missed": [
+              "M01"
+            ],
+            "pending_outside": [],
+            "recall": 0.5,
+            "miss_count_bounds": [
+              1,
+              1
+            ],
+            "items": [
+              "M03",
+              "M05"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "3": {
+          "rule": {
+            "count": 3,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01"
+            ]
+          },
+          "ai": {
+            "count": 3,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "4": {
+          "rule": {
+            "count": 4,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05"
+            ]
+          },
+          "ai": {
+            "count": 4,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "5": {
+          "rule": {
+            "count": 5,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05",
+              "M04"
+            ]
+          },
+          "ai": {
+            "count": 5,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02",
+              "M06"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "6": {
+          "rule": {
+            "count": 6,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05",
+              "M04",
+              "M02"
+            ]
+          },
+          "ai": {
+            "count": 6,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02",
+              "M06",
+              "M11"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "7": {
+          "rule": {
+            "count": 7,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05",
+              "M04",
+              "M02",
+              "M07"
+            ]
+          },
+          "ai": {
+            "count": 7,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02",
+              "M06",
+              "M11",
+              "M04"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "8": {
+          "rule": {
+            "count": 8,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05",
+              "M04",
+              "M02",
+              "M07",
+              "M08"
+            ]
+          },
+          "ai": {
+            "count": 8,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02",
+              "M06",
+              "M11",
+              "M04",
+              "M07"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "9": {
+          "rule": {
+            "count": 9,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05",
+              "M04",
+              "M02",
+              "M07",
+              "M08",
+              "M09"
+            ]
+          },
+          "ai": {
+            "count": 9,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02",
+              "M06",
+              "M11",
+              "M04",
+              "M07",
+              "M09"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "10": {
+          "rule": {
+            "count": 10,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05",
+              "M04",
+              "M02",
+              "M07",
+              "M08",
+              "M09",
+              "M10"
+            ]
+          },
+          "ai": {
+            "count": 10,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02",
+              "M06",
+              "M11",
+              "M04",
+              "M07",
+              "M09",
+              "M08"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "11": {
+          "rule": {
+            "count": 11,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M06",
+              "M01",
+              "M05",
+              "M04",
+              "M02",
+              "M07",
+              "M08",
+              "M09",
+              "M10",
+              "M11"
+            ]
+          },
+          "ai": {
+            "count": 11,
+            "material_found": [
+              "M01",
+              "M03"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "M03",
+              "M05",
+              "M01",
+              "M02",
+              "M06",
+              "M11",
+              "M04",
+              "M07",
+              "M09",
+              "M08",
+              "M10"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        }
+      },
+      "operating_difference": {
+        "rule_minus_ai": 0,
+        "pending_bounds": [
+          0,
+          0
+        ],
+        "newly_missed_by_ai": [],
+        "newly_found_by_ai": [],
+        "transfer_change_ai_minus_rule": 0
+      },
+      "triz": [
+        {
+          "item_id": "M04",
+          "status": "적용 불가",
+          "reason": "전체 원본에서 A0가 워트 개별 사업 적합성을 명시 수용하지 않아 수용 합의가 성립하지 않았다. 분리 발췌는 시험 입력 타당성 점검에 보존했다.",
+          "live_submitted": 0,
+          "runs_path": "M04_triz_runs.json"
+        }
+      ],
+      "selector_seconds": 107.41,
+      "selector_runs": [
+        "reports/a1_current/proxy/MELCON/A1_LOOK/c346fe887dcaffaa",
+        "reports/a1_current/proxy/MELCON/A1_SELECT/f4d47c799f20a7a4"
+      ],
+      "human_minutes": null,
+      "reference_sha256": "5bcbe6ae7374a71862863cff5e3757876b15e2562b1b4a89b362942107ad9a05",
+      "rank_sha256": "d16a9b8dcf77a12b707eff8497d86036bf807ecbcc98ee27e0ccb89a714cc151",
+      "lookup_pages": [
+        "PDF-200",
+        "PDF-203",
+        "PDF-201",
+        "PDF-207"
+      ],
+      "selector_usage": {
+        "logged_proxy_turns": 2,
+        "usage": {
+          "input_tokens": 124304,
+          "cached_input_tokens": 0,
+          "output_tokens": 4797,
+          "reasoning_output_tokens": 27
+        },
+        "billed_dollars": null,
+        "requested_pdf_pages": [
+          "PDF-200",
+          "PDF-203",
+          "PDF-201",
+          "PDF-207"
+        ],
+        "requested_page_evidence": [
+          {
+            "requested_ref": "PDF-200",
+            "preexisting_same_page_aliases": [
+              "M-P0200"
+            ],
+            "preexisting_exact_text_refs": [],
+            "net_new_full_normalized_text": true
+          },
+          {
+            "requested_ref": "PDF-203",
+            "preexisting_same_page_aliases": [
+              "M-P0203",
+              "PDF-203"
+            ],
+            "preexisting_exact_text_refs": [
+              "PDF-203"
+            ],
+            "net_new_full_normalized_text": false
+          },
+          {
+            "requested_ref": "PDF-201",
+            "preexisting_same_page_aliases": [
+              "M-P0201"
+            ],
+            "preexisting_exact_text_refs": [],
+            "net_new_full_normalized_text": true
+          },
+          {
+            "requested_ref": "PDF-207",
+            "preexisting_same_page_aliases": [
+              "M-P0207",
+              "PDF-207"
+            ],
+            "preexisting_exact_text_refs": [
+              "PDF-207"
+            ],
+            "net_new_full_normalized_text": false
+          }
+        ],
+        "net_new_text_pages": [
+          "PDF-200",
+          "PDF-201"
+        ]
+      }
+    },
+    {
+      "case": "GIGAVIS",
+      "status": "COMPARED",
+      "cohort": "validation",
+      "total_items": 12,
+      "mandatory": [],
+      "material": [
+        "GIGAVIS-08"
+      ],
+      "pending": [
+        "GIGAVIS-02"
+      ],
+      "known_nonmaterial": [
+        "GIGAVIS-01",
+        "GIGAVIS-03",
+        "GIGAVIS-04",
+        "GIGAVIS-05",
+        "GIGAVIS-06",
+        "GIGAVIS-07",
+        "GIGAVIS-09",
+        "GIGAVIS-10",
+        "GIGAVIS-11",
+        "GIGAVIS-12"
+      ],
+      "optional_material": [
+        "GIGAVIS-08"
+      ],
+      "optional_nonmaterial": [
+        "GIGAVIS-01",
+        "GIGAVIS-03",
+        "GIGAVIS-04",
+        "GIGAVIS-05",
+        "GIGAVIS-06",
+        "GIGAVIS-07",
+        "GIGAVIS-09",
+        "GIGAVIS-10",
+        "GIGAVIS-11",
+        "GIGAVIS-12"
+      ],
+      "optional_pending": [
+        "GIGAVIS-02"
+      ],
+      "primary_exclusion_reason": null,
+      "rule": {
+        "concordance": {
+          "score": 0.9,
+          "pairs": 10,
+          "weighted_correct": 9.0
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [
+            "GIGAVIS-08"
+          ],
+          "pending_outside": [
+            "GIGAVIS-02"
+          ],
+          "recall": 0.0,
+          "miss_count_bounds": [
+            1,
+            2
+          ],
+          "items": [
+            "GIGAVIS-05"
+          ],
+          "rate": 0.08333333333333333,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "GIGAVIS-08",
+            "GIGAVIS-10"
+          ],
+          "requests": [],
+          "archived": [],
+          "not_routed": [
+            "GIGAVIS-01",
+            "GIGAVIS-02",
+            "GIGAVIS-03",
+            "GIGAVIS-04",
+            "GIGAVIS-06",
+            "GIGAVIS-07",
+            "GIGAVIS-09",
+            "GIGAVIS-11",
+            "GIGAVIS-12"
+          ],
+          "missed_status": {
+            "GIGAVIS-08": "waiting"
+          },
+          "proxy_seconds": 15.5,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.725,
+          0.9090909090909091
+        ]
+      },
+      "ai": {
+        "concordance": {
+          "score": 1.0,
+          "pairs": 10,
+          "weighted_correct": 10
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [
+            "GIGAVIS-08"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "GIGAVIS-02"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "GIGAVIS-08"
+          ],
+          "rate": 0.08333333333333333,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "GIGAVIS-05",
+            "GIGAVIS-10"
+          ],
+          "requests": [
+            "GIGAVIS-03",
+            "GIGAVIS-09",
+            "GIGAVIS-11"
+          ],
+          "archived": [
+            "GIGAVIS-01",
+            "GIGAVIS-02",
+            "GIGAVIS-04",
+            "GIGAVIS-06",
+            "GIGAVIS-07",
+            "GIGAVIS-12"
+          ],
+          "not_routed": [],
+          "missed_status": {},
+          "proxy_seconds": 15.26,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.55,
+          1.0
+        ]
+      },
+      "concordance_delta_ai_minus_rule": 0.09999999999999998,
+      "concordance_delta_pending_bounds": [
+        -0.17499999999999993,
+        0.09090909090909094
+      ],
+      "valid_pending_assignments": 2,
+      "fixed_k": {
+        "rule": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [
+            "GIGAVIS-08"
+          ],
+          "pending_outside": [
+            "GIGAVIS-02"
+          ],
+          "recall": 0.0,
+          "miss_count_bounds": [
+            1,
+            2
+          ],
+          "items": [
+            "GIGAVIS-05"
+          ]
+        },
+        "ai": {
+          "count": 1,
+          "material_found": [
+            "GIGAVIS-08"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "GIGAVIS-02"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "GIGAVIS-08"
+          ]
+        },
+        "difference": {
+          "rule_minus_ai": 1,
+          "pending_bounds": [
+            1,
+            1
+          ],
+          "newly_missed_by_ai": [],
+          "newly_found_by_ai": [
+            "GIGAVIS-08"
+          ]
+        }
+      },
+      "fixed_curve_by_k": {
+        "1": {
+          "rule": {
+            "count": 1,
+            "material_found": [],
+            "material_missed": [
+              "GIGAVIS-08"
+            ],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 0.0,
+            "miss_count_bounds": [
+              1,
+              2
+            ],
+            "items": [
+              "GIGAVIS-05"
+            ]
+          },
+          "ai": {
+            "count": 1,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 1,
+            "pending_bounds": [
+              1,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": [
+              "GIGAVIS-08"
+            ]
+          }
+        },
+        "2": {
+          "rule": {
+            "count": 2,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08"
+            ]
+          },
+          "ai": {
+            "count": 2,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "3": {
+          "rule": {
+            "count": 3,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10"
+            ]
+          },
+          "ai": {
+            "count": 3,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "4": {
+          "rule": {
+            "count": 4,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02"
+            ]
+          },
+          "ai": {
+            "count": 4,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "5": {
+          "rule": {
+            "count": 5,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03"
+            ]
+          },
+          "ai": {
+            "count": 5,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "6": {
+          "rule": {
+            "count": 6,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03",
+              "GIGAVIS-04"
+            ]
+          },
+          "ai": {
+            "count": 6,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09",
+              "GIGAVIS-03"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "7": {
+          "rule": {
+            "count": 7,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03",
+              "GIGAVIS-04",
+              "GIGAVIS-06"
+            ]
+          },
+          "ai": {
+            "count": 7,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09",
+              "GIGAVIS-03",
+              "GIGAVIS-12"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "8": {
+          "rule": {
+            "count": 8,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03",
+              "GIGAVIS-04",
+              "GIGAVIS-06",
+              "GIGAVIS-07"
+            ]
+          },
+          "ai": {
+            "count": 8,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09",
+              "GIGAVIS-03",
+              "GIGAVIS-12",
+              "GIGAVIS-07"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "9": {
+          "rule": {
+            "count": 9,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03",
+              "GIGAVIS-04",
+              "GIGAVIS-06",
+              "GIGAVIS-07",
+              "GIGAVIS-11"
+            ]
+          },
+          "ai": {
+            "count": 9,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09",
+              "GIGAVIS-03",
+              "GIGAVIS-12",
+              "GIGAVIS-07",
+              "GIGAVIS-06"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "10": {
+          "rule": {
+            "count": 10,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03",
+              "GIGAVIS-04",
+              "GIGAVIS-06",
+              "GIGAVIS-07",
+              "GIGAVIS-11",
+              "GIGAVIS-01"
+            ]
+          },
+          "ai": {
+            "count": 10,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "GIGAVIS-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09",
+              "GIGAVIS-03",
+              "GIGAVIS-12",
+              "GIGAVIS-07",
+              "GIGAVIS-06",
+              "GIGAVIS-04"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "11": {
+          "rule": {
+            "count": 11,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03",
+              "GIGAVIS-04",
+              "GIGAVIS-06",
+              "GIGAVIS-07",
+              "GIGAVIS-11",
+              "GIGAVIS-01",
+              "GIGAVIS-09"
+            ]
+          },
+          "ai": {
+            "count": 11,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09",
+              "GIGAVIS-03",
+              "GIGAVIS-12",
+              "GIGAVIS-07",
+              "GIGAVIS-06",
+              "GIGAVIS-04",
+              "GIGAVIS-02"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "12": {
+          "rule": {
+            "count": 12,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-05",
+              "GIGAVIS-08",
+              "GIGAVIS-10",
+              "GIGAVIS-02",
+              "GIGAVIS-03",
+              "GIGAVIS-04",
+              "GIGAVIS-06",
+              "GIGAVIS-07",
+              "GIGAVIS-11",
+              "GIGAVIS-01",
+              "GIGAVIS-09",
+              "GIGAVIS-12"
+            ]
+          },
+          "ai": {
+            "count": 12,
+            "material_found": [
+              "GIGAVIS-08"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "GIGAVIS-08",
+              "GIGAVIS-05",
+              "GIGAVIS-10",
+              "GIGAVIS-11",
+              "GIGAVIS-09",
+              "GIGAVIS-03",
+              "GIGAVIS-12",
+              "GIGAVIS-07",
+              "GIGAVIS-06",
+              "GIGAVIS-04",
+              "GIGAVIS-02",
+              "GIGAVIS-01"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        }
+      },
+      "operating_difference": {
+        "rule_minus_ai": 1,
+        "pending_bounds": [
+          1,
+          1
+        ],
+        "newly_missed_by_ai": [],
+        "newly_found_by_ai": [
+          "GIGAVIS-08"
+        ],
+        "transfer_change_ai_minus_rule": 0
+      },
+      "triz": [],
+      "selector_seconds": 71.29,
+      "selector_runs": [
+        "reports/a1_current/proxy/GIGAVIS/A1_LOOK/4a63446ca4d9fbe3",
+        "reports/a1_current/proxy/GIGAVIS/A1_SELECT/726866c34e5cc3cc"
+      ],
+      "human_minutes": null,
+      "reference_sha256": "47ba4b103de26e130c985c2c8e08c3a512803d1ad96c75b1dcbf517c4190812d",
+      "rank_sha256": "87f00259c67f53a98d2f3cb9a6ef5cafb416d22d06c8d0b32586a0e5afd0139d",
+      "lookup_pages": [
+        "PDF-235"
+      ],
+      "selector_usage": {
+        "logged_proxy_turns": 2,
+        "usage": {
+          "input_tokens": 58817,
+          "cached_input_tokens": 0,
+          "output_tokens": 2987,
+          "reasoning_output_tokens": 96
+        },
+        "billed_dollars": null,
+        "requested_pdf_pages": [
+          "PDF-235"
+        ],
+        "requested_page_evidence": [
+          {
+            "requested_ref": "PDF-235",
+            "preexisting_same_page_aliases": [],
+            "preexisting_exact_text_refs": [],
+            "net_new_full_normalized_text": true
+          }
+        ],
+        "net_new_text_pages": [
+          "PDF-235"
+        ]
+      }
+    },
+    {
+      "case": "TRUEN",
+      "status": "COMPARED",
+      "cohort": "validation",
+      "total_items": 10,
+      "mandatory": [],
+      "material": [
+        "TRUEN-10"
+      ],
+      "pending": [
+        "TRUEN-02"
+      ],
+      "known_nonmaterial": [
+        "TRUEN-01",
+        "TRUEN-03",
+        "TRUEN-04",
+        "TRUEN-05",
+        "TRUEN-06",
+        "TRUEN-07",
+        "TRUEN-08",
+        "TRUEN-09"
+      ],
+      "optional_material": [
+        "TRUEN-10"
+      ],
+      "optional_nonmaterial": [
+        "TRUEN-01",
+        "TRUEN-03",
+        "TRUEN-04",
+        "TRUEN-05",
+        "TRUEN-06",
+        "TRUEN-07",
+        "TRUEN-08",
+        "TRUEN-09"
+      ],
+      "optional_pending": [
+        "TRUEN-02"
+      ],
+      "primary_exclusion_reason": null,
+      "rule": {
+        "concordance": {
+          "score": 0.8125,
+          "pairs": 8,
+          "weighted_correct": 6.5
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [
+            "TRUEN-10"
+          ],
+          "pending_outside": [
+            "TRUEN-02"
+          ],
+          "recall": 0.0,
+          "miss_count_bounds": [
+            1,
+            2
+          ],
+          "items": [
+            "TRUEN-03"
+          ],
+          "rate": 0.1,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "TRUEN-06",
+            "TRUEN-07",
+            "TRUEN-10"
+          ],
+          "requests": [],
+          "archived": [],
+          "not_routed": [
+            "TRUEN-01",
+            "TRUEN-02",
+            "TRUEN-04",
+            "TRUEN-05",
+            "TRUEN-08",
+            "TRUEN-09"
+          ],
+          "missed_status": {
+            "TRUEN-10": "waiting"
+          },
+          "proxy_seconds": 15.96,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.65625,
+          0.8333333333333334
+        ]
+      },
+      "ai": {
+        "concordance": {
+          "score": 1.0,
+          "pairs": 8,
+          "weighted_correct": 8
+        },
+        "operating": {
+          "count": 1,
+          "material_found": [
+            "TRUEN-10"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "TRUEN-02"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "TRUEN-10"
+          ],
+          "rate": 0.1,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "TRUEN-06",
+            "TRUEN-07"
+          ],
+          "requests": [
+            "TRUEN-02",
+            "TRUEN-03",
+            "TRUEN-04"
+          ],
+          "archived": [
+            "TRUEN-01",
+            "TRUEN-05",
+            "TRUEN-08",
+            "TRUEN-09"
+          ],
+          "not_routed": [],
+          "missed_status": {},
+          "proxy_seconds": 15.99,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.875,
+          1.0
+        ]
+      },
+      "concordance_delta_ai_minus_rule": 0.1875,
+      "concordance_delta_pending_bounds": [
+        0.16666666666666663,
+        0.21875
+      ],
+      "valid_pending_assignments": 2,
+      "fixed_k": {
+        "rule": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [
+            "TRUEN-10"
+          ],
+          "pending_outside": [
+            "TRUEN-02"
+          ],
+          "recall": 0.0,
+          "miss_count_bounds": [
+            1,
+            2
+          ],
+          "items": [
+            "TRUEN-03"
+          ]
+        },
+        "ai": {
+          "count": 1,
+          "material_found": [
+            "TRUEN-10"
+          ],
+          "material_missed": [],
+          "pending_outside": [
+            "TRUEN-02"
+          ],
+          "recall": 1.0,
+          "miss_count_bounds": [
+            0,
+            1
+          ],
+          "items": [
+            "TRUEN-10"
+          ]
+        },
+        "difference": {
+          "rule_minus_ai": 1,
+          "pending_bounds": [
+            1,
+            1
+          ],
+          "newly_missed_by_ai": [],
+          "newly_found_by_ai": [
+            "TRUEN-10"
+          ]
+        }
+      },
+      "fixed_curve_by_k": {
+        "1": {
+          "rule": {
+            "count": 1,
+            "material_found": [],
+            "material_missed": [
+              "TRUEN-10"
+            ],
+            "pending_outside": [
+              "TRUEN-02"
+            ],
+            "recall": 0.0,
+            "miss_count_bounds": [
+              1,
+              2
+            ],
+            "items": [
+              "TRUEN-03"
+            ]
+          },
+          "ai": {
+            "count": 1,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "TRUEN-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "TRUEN-10"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 1,
+            "pending_bounds": [
+              1,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": [
+              "TRUEN-10"
+            ]
+          }
+        },
+        "2": {
+          "rule": {
+            "count": 2,
+            "material_found": [],
+            "material_missed": [
+              "TRUEN-10"
+            ],
+            "pending_outside": [
+              "TRUEN-02"
+            ],
+            "recall": 0.0,
+            "miss_count_bounds": [
+              1,
+              2
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06"
+            ]
+          },
+          "ai": {
+            "count": 2,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "TRUEN-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 1,
+            "pending_bounds": [
+              1,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": [
+              "TRUEN-10"
+            ]
+          }
+        },
+        "3": {
+          "rule": {
+            "count": 3,
+            "material_found": [],
+            "material_missed": [
+              "TRUEN-10"
+            ],
+            "pending_outside": [
+              "TRUEN-02"
+            ],
+            "recall": 0.0,
+            "miss_count_bounds": [
+              1,
+              2
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07"
+            ]
+          },
+          "ai": {
+            "count": 3,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "TRUEN-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 1,
+            "pending_bounds": [
+              1,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": [
+              "TRUEN-10"
+            ]
+          }
+        },
+        "4": {
+          "rule": {
+            "count": 4,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [
+              "TRUEN-02"
+            ],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-10"
+            ]
+          },
+          "ai": {
+            "count": 4,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-02"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "5": {
+          "rule": {
+            "count": 5,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-10",
+              "TRUEN-02"
+            ]
+          },
+          "ai": {
+            "count": 5,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-02",
+              "TRUEN-03"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "6": {
+          "rule": {
+            "count": 6,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-10",
+              "TRUEN-02",
+              "TRUEN-04"
+            ]
+          },
+          "ai": {
+            "count": 6,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-02",
+              "TRUEN-03",
+              "TRUEN-04"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "7": {
+          "rule": {
+            "count": 7,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-10",
+              "TRUEN-02",
+              "TRUEN-04",
+              "TRUEN-05"
+            ]
+          },
+          "ai": {
+            "count": 7,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-02",
+              "TRUEN-03",
+              "TRUEN-04",
+              "TRUEN-08"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "8": {
+          "rule": {
+            "count": 8,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-10",
+              "TRUEN-02",
+              "TRUEN-04",
+              "TRUEN-05",
+              "TRUEN-01"
+            ]
+          },
+          "ai": {
+            "count": 8,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-02",
+              "TRUEN-03",
+              "TRUEN-04",
+              "TRUEN-08",
+              "TRUEN-09"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "9": {
+          "rule": {
+            "count": 9,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-10",
+              "TRUEN-02",
+              "TRUEN-04",
+              "TRUEN-05",
+              "TRUEN-01",
+              "TRUEN-08"
+            ]
+          },
+          "ai": {
+            "count": 9,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-02",
+              "TRUEN-03",
+              "TRUEN-04",
+              "TRUEN-08",
+              "TRUEN-09",
+              "TRUEN-01"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "10": {
+          "rule": {
+            "count": 10,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-03",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-10",
+              "TRUEN-02",
+              "TRUEN-04",
+              "TRUEN-05",
+              "TRUEN-01",
+              "TRUEN-08",
+              "TRUEN-09"
+            ]
+          },
+          "ai": {
+            "count": 10,
+            "material_found": [
+              "TRUEN-10"
+            ],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": 1.0,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "TRUEN-10",
+              "TRUEN-06",
+              "TRUEN-07",
+              "TRUEN-02",
+              "TRUEN-03",
+              "TRUEN-04",
+              "TRUEN-08",
+              "TRUEN-09",
+              "TRUEN-01",
+              "TRUEN-05"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        }
+      },
+      "operating_difference": {
+        "rule_minus_ai": 1,
+        "pending_bounds": [
+          1,
+          1
+        ],
+        "newly_missed_by_ai": [],
+        "newly_found_by_ai": [
+          "TRUEN-10"
+        ],
+        "transfer_change_ai_minus_rule": 0
+      },
+      "triz": [
+        {
+          "item_id": "TRUEN-08",
+          "status": "원본 근거 재현",
+          "signal": "양 역할의 원본 제품 중첩 판단이 재현되어 이 항목에 추가 검토 신호를 부여하지 않는다."
+        },
+        {
+          "item_id": "TRUEN-09",
+          "status": "원본 근거 재현",
+          "signal": "양 역할의 원본 제품 중첩 판단이 재현되어 이 항목에 추가 검토 신호를 부여하지 않는다."
+        }
+      ],
+      "selector_seconds": 83.2,
+      "selector_runs": [
+        "reports/a1_current/proxy/TRUEN/A1_LOOK/c15cf6a3ec7d43c3",
+        "reports/a1_current/proxy/TRUEN/A1_SELECT/5dcf31dd37215d4e"
+      ],
+      "human_minutes": null,
+      "reference_sha256": "8af8a8e4bd2c6dbc7ede9dec8d3854a4220697895699f5f882adb497a2d787a3",
+      "rank_sha256": "29c29f17b7efd12c7eafb24c0059d0be34f76121aafce4f67188875e01524193",
+      "lookup_pages": [
+        "PDF-195"
+      ],
+      "selector_usage": {
+        "logged_proxy_turns": 2,
+        "usage": {
+          "input_tokens": 57007,
+          "cached_input_tokens": 20480,
+          "output_tokens": 3506,
+          "reasoning_output_tokens": 12
+        },
+        "billed_dollars": null,
+        "requested_pdf_pages": [
+          "PDF-195"
+        ],
+        "requested_page_evidence": [
+          {
+            "requested_ref": "PDF-195",
+            "preexisting_same_page_aliases": [
+              "PDF-195"
+            ],
+            "preexisting_exact_text_refs": [
+              "PDF-195"
+            ],
+            "net_new_full_normalized_text": false
+          }
+        ],
+        "net_new_text_pages": []
+      }
+    },
+    {
+      "case": "MANYO",
+      "status": "COMPARED",
+      "cohort": "validation",
+      "total_items": 12,
+      "mandatory": [],
+      "material": [],
+      "pending": [
+        "MANYO-09",
+        "MANYO-10",
+        "MANYO-11",
+        "MANYO-12"
+      ],
+      "known_nonmaterial": [
+        "MANYO-01",
+        "MANYO-02",
+        "MANYO-03",
+        "MANYO-04",
+        "MANYO-05",
+        "MANYO-06",
+        "MANYO-07",
+        "MANYO-08"
+      ],
+      "optional_material": [],
+      "optional_nonmaterial": [
+        "MANYO-01",
+        "MANYO-02",
+        "MANYO-03",
+        "MANYO-04",
+        "MANYO-05",
+        "MANYO-06",
+        "MANYO-07",
+        "MANYO-08"
+      ],
+      "optional_pending": [
+        "MANYO-09",
+        "MANYO-10",
+        "MANYO-11",
+        "MANYO-12"
+      ],
+      "primary_exclusion_reason": "no_known_material_outside_mandatory",
+      "rule": {
+        "concordance": null,
+        "operating": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [
+            "MANYO-09",
+            "MANYO-10",
+            "MANYO-11",
+            "MANYO-12"
+          ],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            4
+          ],
+          "items": [
+            "MANYO-04"
+          ],
+          "rate": 0.08333333333333333,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "MANYO-08",
+            "MANYO-09",
+            "MANYO-11",
+            "MANYO-12"
+          ],
+          "requests": [],
+          "archived": [],
+          "not_routed": [
+            "MANYO-01",
+            "MANYO-02",
+            "MANYO-03",
+            "MANYO-05",
+            "MANYO-06",
+            "MANYO-07",
+            "MANYO-10"
+          ],
+          "missed_status": {},
+          "proxy_seconds": 14.61,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.09090909090909091,
+          0.8888888888888888
+        ]
+      },
+      "ai": {
+        "concordance": null,
+        "operating": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [
+            "MANYO-09",
+            "MANYO-10",
+            "MANYO-12"
+          ],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            3
+          ],
+          "items": [
+            "MANYO-11"
+          ],
+          "rate": 0.08333333333333333,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "MANYO-12",
+            "MANYO-08",
+            "MANYO-09"
+          ],
+          "requests": [
+            "MANYO-02",
+            "MANYO-03"
+          ],
+          "archived": [
+            "MANYO-01",
+            "MANYO-04",
+            "MANYO-05",
+            "MANYO-06",
+            "MANYO-07",
+            "MANYO-10"
+          ],
+          "not_routed": [],
+          "missed_status": {},
+          "proxy_seconds": 19.1,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": [
+          0.36363636363636365,
+          1.0
+        ]
+      },
+      "concordance_delta_ai_minus_rule": null,
+      "concordance_delta_pending_bounds": [
+        -0.09090909090909094,
+        0.2727272727272727
+      ],
+      "valid_pending_assignments": 15,
+      "fixed_k": {
+        "rule": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [
+            "MANYO-09",
+            "MANYO-10",
+            "MANYO-11",
+            "MANYO-12"
+          ],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            4
+          ],
+          "items": [
+            "MANYO-04"
+          ]
+        },
+        "ai": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [
+            "MANYO-09",
+            "MANYO-10",
+            "MANYO-12"
+          ],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            3
+          ],
+          "items": [
+            "MANYO-11"
+          ]
+        },
+        "difference": {
+          "rule_minus_ai": 0,
+          "pending_bounds": [
+            0,
+            1
+          ],
+          "newly_missed_by_ai": [],
+          "newly_found_by_ai": []
+        }
+      },
+      "fixed_curve_by_k": {
+        "1": {
+          "rule": {
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-11",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              4
+            ],
+            "items": [
+              "MANYO-04"
+            ]
+          },
+          "ai": {
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ],
+            "items": [
+              "MANYO-11"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "2": {
+          "rule": {
+            "count": 2,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-11",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              4
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08"
+            ]
+          },
+          "ai": {
+            "count": 2,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              2
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              2
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "3": {
+          "rule": {
+            "count": 3,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10",
+              "MANYO-11",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09"
+            ]
+          },
+          "ai": {
+            "count": 3,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              2
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              -1,
+              2
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "4": {
+          "rule": {
+            "count": 4,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              2
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11"
+            ]
+          },
+          "ai": {
+            "count": 4,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "5": {
+          "rule": {
+            "count": 5,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12"
+            ]
+          },
+          "ai": {
+            "count": 5,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "6": {
+          "rule": {
+            "count": 6,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-03"
+            ]
+          },
+          "ai": {
+            "count": 6,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03",
+              "MANYO-02"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "7": {
+          "rule": {
+            "count": 7,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-03",
+              "MANYO-05"
+            ]
+          },
+          "ai": {
+            "count": 7,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03",
+              "MANYO-02",
+              "MANYO-04"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "8": {
+          "rule": {
+            "count": 8,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-03",
+              "MANYO-05",
+              "MANYO-06"
+            ]
+          },
+          "ai": {
+            "count": 8,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03",
+              "MANYO-02",
+              "MANYO-04",
+              "MANYO-10"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "9": {
+          "rule": {
+            "count": 9,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-03",
+              "MANYO-05",
+              "MANYO-06",
+              "MANYO-07"
+            ]
+          },
+          "ai": {
+            "count": 9,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03",
+              "MANYO-02",
+              "MANYO-04",
+              "MANYO-10",
+              "MANYO-06"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "10": {
+          "rule": {
+            "count": 10,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-03",
+              "MANYO-05",
+              "MANYO-06",
+              "MANYO-07",
+              "MANYO-01"
+            ]
+          },
+          "ai": {
+            "count": 10,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03",
+              "MANYO-02",
+              "MANYO-04",
+              "MANYO-10",
+              "MANYO-06",
+              "MANYO-07"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "11": {
+          "rule": {
+            "count": 11,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-10"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              1
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-03",
+              "MANYO-05",
+              "MANYO-06",
+              "MANYO-07",
+              "MANYO-01",
+              "MANYO-02"
+            ]
+          },
+          "ai": {
+            "count": 11,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03",
+              "MANYO-02",
+              "MANYO-04",
+              "MANYO-10",
+              "MANYO-06",
+              "MANYO-07",
+              "MANYO-01"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              1
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "12": {
+          "rule": {
+            "count": 12,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "MANYO-04",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-03",
+              "MANYO-05",
+              "MANYO-06",
+              "MANYO-07",
+              "MANYO-01",
+              "MANYO-02",
+              "MANYO-10"
+            ]
+          },
+          "ai": {
+            "count": 12,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "MANYO-11",
+              "MANYO-12",
+              "MANYO-08",
+              "MANYO-09",
+              "MANYO-03",
+              "MANYO-02",
+              "MANYO-04",
+              "MANYO-10",
+              "MANYO-06",
+              "MANYO-07",
+              "MANYO-01",
+              "MANYO-05"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        }
+      },
+      "operating_difference": {
+        "rule_minus_ai": 0,
+        "pending_bounds": [
+          0,
+          1
+        ],
+        "newly_missed_by_ai": [],
+        "newly_found_by_ai": [],
+        "transfer_change_ai_minus_rule": 0
+      },
+      "triz": [],
+      "selector_seconds": 70.82000000000001,
+      "selector_runs": [
+        "reports/a1_current/proxy/MANYO/A1_LOOK/b4e5a2bfede4f7b1",
+        "reports/a1_current/proxy/MANYO/A1_SELECT/331ed8e5d638bc94"
+      ],
+      "human_minutes": null,
+      "reference_sha256": "305965ee23c3d7f1e494e430b0d53a5ccdf53d2f305eb122b10a6609842d69ad",
+      "rank_sha256": "8e5563e70cc83bdb92c6c7666fc264c2527d1d5e96b482315d13f2ff5e97c440",
+      "lookup_pages": [
+        "PDF-184"
+      ],
+      "selector_usage": {
+        "logged_proxy_turns": 2,
+        "usage": {
+          "input_tokens": 58600,
+          "cached_input_tokens": 0,
+          "output_tokens": 3051,
+          "reasoning_output_tokens": 125
+        },
+        "billed_dollars": null,
+        "requested_pdf_pages": [
+          "PDF-184"
+        ],
+        "requested_page_evidence": [
+          {
+            "requested_ref": "PDF-184",
+            "preexisting_same_page_aliases": [],
+            "preexisting_exact_text_refs": [],
+            "net_new_full_normalized_text": true
+          }
+        ],
+        "net_new_text_pages": [
+          "PDF-184"
+        ]
+      }
+    },
+    {
+      "case": "PHILENERGY",
+      "status": "COMPARED",
+      "cohort": "validation",
+      "total_items": 11,
+      "mandatory": [],
+      "material": [],
+      "pending": [],
+      "known_nonmaterial": [
+        "PHILENERGY-01",
+        "PHILENERGY-02",
+        "PHILENERGY-03",
+        "PHILENERGY-04",
+        "PHILENERGY-05",
+        "PHILENERGY-06",
+        "PHILENERGY-07",
+        "PHILENERGY-08",
+        "PHILENERGY-09",
+        "PHILENERGY-10",
+        "PHILENERGY-11"
+      ],
+      "optional_material": [],
+      "optional_nonmaterial": [
+        "PHILENERGY-01",
+        "PHILENERGY-02",
+        "PHILENERGY-03",
+        "PHILENERGY-04",
+        "PHILENERGY-05",
+        "PHILENERGY-06",
+        "PHILENERGY-07",
+        "PHILENERGY-08",
+        "PHILENERGY-09",
+        "PHILENERGY-10",
+        "PHILENERGY-11"
+      ],
+      "optional_pending": [],
+      "primary_exclusion_reason": "no_known_material_outside_mandatory",
+      "rule": {
+        "concordance": null,
+        "operating": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            0
+          ],
+          "items": [
+            "PHILENERGY-01"
+          ],
+          "rate": 0.09090909090909091,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "PHILENERGY-03",
+            "PHILENERGY-05",
+            "PHILENERGY-08",
+            "PHILENERGY-10"
+          ],
+          "requests": [],
+          "archived": [],
+          "not_routed": [
+            "PHILENERGY-02",
+            "PHILENERGY-04",
+            "PHILENERGY-06",
+            "PHILENERGY-07",
+            "PHILENERGY-09",
+            "PHILENERGY-11"
+          ],
+          "missed_status": {},
+          "proxy_seconds": 12.88,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": null
+      },
+      "ai": {
+        "concordance": null,
+        "operating": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            0
+          ],
+          "items": [
+            "PHILENERGY-08"
+          ],
+          "rate": 0.09090909090909091,
+          "mandatory": 0,
+          "additional": 1,
+          "waiting": [
+            "PHILENERGY-10",
+            "PHILENERGY-05"
+          ],
+          "requests": [
+            "PHILENERGY-07",
+            "PHILENERGY-09",
+            "PHILENERGY-11"
+          ],
+          "archived": [
+            "PHILENERGY-01",
+            "PHILENERGY-02",
+            "PHILENERGY-03",
+            "PHILENERGY-04",
+            "PHILENERGY-06"
+          ],
+          "not_routed": [],
+          "missed_status": {},
+          "proxy_seconds": 13.56,
+          "proxy_items_timed": 1,
+          "human_minutes": null
+        },
+        "concordance_pending_bounds": null
+      },
+      "concordance_delta_ai_minus_rule": null,
+      "concordance_delta_pending_bounds": null,
+      "valid_pending_assignments": 0,
+      "fixed_k": {
+        "rule": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            0
+          ],
+          "items": [
+            "PHILENERGY-01"
+          ]
+        },
+        "ai": {
+          "count": 1,
+          "material_found": [],
+          "material_missed": [],
+          "pending_outside": [],
+          "recall": null,
+          "miss_count_bounds": [
+            0,
+            0
+          ],
+          "items": [
+            "PHILENERGY-08"
+          ]
+        },
+        "difference": {
+          "rule_minus_ai": 0,
+          "pending_bounds": [
+            0,
+            0
+          ],
+          "newly_missed_by_ai": [],
+          "newly_found_by_ai": []
+        }
+      },
+      "fixed_curve_by_k": {
+        "1": {
+          "rule": {
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01"
+            ]
+          },
+          "ai": {
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "2": {
+          "rule": {
+            "count": 2,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03"
+            ]
+          },
+          "ai": {
+            "count": 2,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "3": {
+          "rule": {
+            "count": 3,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05"
+            ]
+          },
+          "ai": {
+            "count": 3,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "4": {
+          "rule": {
+            "count": 4,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08"
+            ]
+          },
+          "ai": {
+            "count": 4,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "5": {
+          "rule": {
+            "count": 5,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08",
+              "PHILENERGY-10"
+            ]
+          },
+          "ai": {
+            "count": 5,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-05"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "6": {
+          "rule": {
+            "count": 6,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-04"
+            ]
+          },
+          "ai": {
+            "count": 6,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-05",
+              "PHILENERGY-03"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "7": {
+          "rule": {
+            "count": 7,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-04",
+              "PHILENERGY-06"
+            ]
+          },
+          "ai": {
+            "count": 7,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-05",
+              "PHILENERGY-03",
+              "PHILENERGY-01"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "8": {
+          "rule": {
+            "count": 8,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-04",
+              "PHILENERGY-06",
+              "PHILENERGY-07"
+            ]
+          },
+          "ai": {
+            "count": 8,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-05",
+              "PHILENERGY-03",
+              "PHILENERGY-01",
+              "PHILENERGY-07"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "9": {
+          "rule": {
+            "count": 9,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-04",
+              "PHILENERGY-06",
+              "PHILENERGY-07",
+              "PHILENERGY-09"
+            ]
+          },
+          "ai": {
+            "count": 9,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-05",
+              "PHILENERGY-03",
+              "PHILENERGY-01",
+              "PHILENERGY-07",
+              "PHILENERGY-04"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "10": {
+          "rule": {
+            "count": 10,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-04",
+              "PHILENERGY-06",
+              "PHILENERGY-07",
+              "PHILENERGY-09",
+              "PHILENERGY-11"
+            ]
+          },
+          "ai": {
+            "count": 10,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-05",
+              "PHILENERGY-03",
+              "PHILENERGY-01",
+              "PHILENERGY-07",
+              "PHILENERGY-04",
+              "PHILENERGY-02"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        },
+        "11": {
+          "rule": {
+            "count": 11,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-01",
+              "PHILENERGY-03",
+              "PHILENERGY-05",
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-04",
+              "PHILENERGY-06",
+              "PHILENERGY-07",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-02"
+            ]
+          },
+          "ai": {
+            "count": 11,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              0
+            ],
+            "items": [
+              "PHILENERGY-08",
+              "PHILENERGY-10",
+              "PHILENERGY-09",
+              "PHILENERGY-11",
+              "PHILENERGY-05",
+              "PHILENERGY-03",
+              "PHILENERGY-01",
+              "PHILENERGY-07",
+              "PHILENERGY-04",
+              "PHILENERGY-02",
+              "PHILENERGY-06"
+            ]
+          },
+          "difference": {
+            "rule_minus_ai": 0,
+            "pending_bounds": [
+              0,
+              0
+            ],
+            "newly_missed_by_ai": [],
+            "newly_found_by_ai": []
+          }
+        }
+      },
+      "operating_difference": {
+        "rule_minus_ai": 0,
+        "pending_bounds": [
+          0,
+          0
+        ],
+        "newly_missed_by_ai": [],
+        "newly_found_by_ai": [],
+        "transfer_change_ai_minus_rule": 0
+      },
+      "triz": [],
+      "selector_seconds": 76.05,
+      "selector_runs": [
+        "reports/a1_current/proxy/PHILENERGY/A1_LOOK/4c7679b1398a00d9",
+        "reports/a1_current/proxy/PHILENERGY/A1_SELECT/74b7e5e02141b661"
+      ],
+      "human_minutes": null,
+      "reference_sha256": "68caef2cdade5c3dbf54a516b55f8e90990cf115f8185909e70eec992b84b126",
+      "rank_sha256": "3e808521fc768b89d1e3f724152388c5c14155f836d534c971115875fe49b003",
+      "lookup_pages": [
+        "PDF-183"
+      ],
+      "selector_usage": {
+        "logged_proxy_turns": 2,
+        "usage": {
+          "input_tokens": 58119,
+          "cached_input_tokens": 20480,
+          "output_tokens": 2926,
+          "reasoning_output_tokens": 238
+        },
+        "billed_dollars": null,
+        "requested_pdf_pages": [
+          "PDF-183"
+        ],
+        "requested_page_evidence": [
+          {
+            "requested_ref": "PDF-183",
+            "preexisting_same_page_aliases": [],
+            "preexisting_exact_text_refs": [],
+            "net_new_full_normalized_text": true
+          }
+        ],
+        "net_new_text_pages": [
+          "PDF-183"
+        ]
+      }
+    }
+  ],
+  "development": {
+    "expected_cases": 2,
+    "complete_pairs": 2,
+    "valid_concordance_pairs": 2,
+    "primary_equal_issuer_ai_minus_rule": 0.013888888888888895,
+    "descriptive_95_t_interval": [
+      -0.16258617689131527,
+      0.19036395466909306
+    ],
+    "pending_bounds_on_primary_matched_cohort": [
+      0.013888888888888895,
+      0.09722222222222221
+    ],
+    "known_material": 3,
+    "fixed_same_k": {
+      "rule": {
+        "material_missed": 1,
+        "material_found": 2
+      },
+      "ai": {
+        "material_missed": 1,
+        "material_found": 2
+      }
+    },
+    "operating": {
+      "rule": {
+        "transfers": 2,
+        "total_items": 22,
+        "transfer_rate": 0.09090909090909091,
+        "wait": 5,
+        "requests": 0,
+        "material_missed": 1,
+        "proxy_seconds": 35.22
+      },
+      "ai": {
+        "transfers": 2,
+        "total_items": 22,
+        "transfer_rate": 0.09090909090909091,
+        "wait": 4,
+        "requests": 4,
+        "material_missed": 1,
+        "proxy_seconds": 35.22
+      }
+    },
+    "fixed_same_k_miss_delta_pending_bounds": [
+      0,
+      0
+    ],
+    "operating_miss_delta_pending_bounds": [
+      0,
+      0
+    ],
+    "ai_newly_missed_material_items": [],
+    "known_operating_additional_miss_ceiling_satisfied": true,
+    "human_minutes": null
+  },
+  "validation": {
+    "expected_cases": 4,
+    "complete_pairs": 4,
+    "valid_concordance_pairs": 2,
+    "primary_equal_issuer_ai_minus_rule": 0.14375,
+    "descriptive_95_t_interval": [
+      -0.41214645720764304,
+      0.6996464572076431
+    ],
+    "pending_bounds_on_primary_matched_cohort": [
+      -0.004166666666666652,
+      0.15482954545454547
+    ],
+    "known_material": 2,
+    "fixed_same_k": {
+      "rule": {
+        "material_missed": 2,
+        "material_found": 0
+      },
+      "ai": {
+        "material_missed": 0,
+        "material_found": 2
+      }
+    },
+    "operating": {
+      "rule": {
+        "transfers": 4,
+        "total_items": 45,
+        "transfer_rate": 0.08888888888888889,
+        "wait": 13,
+        "requests": 0,
+        "material_missed": 2,
+        "proxy_seconds": 58.95
+      },
+      "ai": {
+        "transfers": 4,
+        "total_items": 45,
+        "transfer_rate": 0.08888888888888889,
+        "wait": 9,
+        "requests": 11,
+        "material_missed": 0,
+        "proxy_seconds": 63.91
+      }
+    },
+    "fixed_same_k_miss_delta_pending_bounds": [
+      2,
+      3
+    ],
+    "operating_miss_delta_pending_bounds": [
+      2,
+      3
+    ],
+    "ai_newly_missed_material_items": [],
+    "known_operating_additional_miss_ceiling_satisfied": true,
+    "human_minutes": null
+  },
+  "validation_reference_feasibility": [
+    {
+      "case": "GIGAVIS",
+      "material_outside_mandatory": 1,
+      "known_nonmaterial_outside_mandatory": 10,
+      "pending_outside_mandatory": 1,
+      "mandatory_table_present": true,
+      "primary_classes_present": true
+    },
+    {
+      "case": "TRUEN",
+      "material_outside_mandatory": 1,
+      "known_nonmaterial_outside_mandatory": 8,
+      "pending_outside_mandatory": 1,
+      "mandatory_table_present": true,
+      "primary_classes_present": true
+    },
+    {
+      "case": "MANYO",
+      "material_outside_mandatory": 0,
+      "known_nonmaterial_outside_mandatory": 8,
+      "pending_outside_mandatory": 4,
+      "mandatory_table_present": true,
+      "primary_classes_present": false
+    },
+    {
+      "case": "PHILENERGY",
+      "material_outside_mandatory": 0,
+      "known_nonmaterial_outside_mandatory": 11,
+      "pending_outside_mandatory": 0,
+      "mandatory_table_present": true,
+      "primary_classes_present": false
+    }
+  ],
+  "separate_selector_technical_attempts": [
+    {
+      "case": "MANYO",
+      "stage": "A1_LOOK",
+      "status": "TIMED_OUT",
+      "timeout_seconds": 180,
+      "tokens": null,
+      "billed_dollars": null,
+      "source": "최초 조회 실행의 180초 제한 종료를 운영 로그에서 확인. 프로세스 종료 후 출력과 사용량을 회수하지 못했다.",
+      "handling": "별도 조회 재실행과 선별 제출은 성공했다. 이 실패 시간과 미확인 사용량은 결과의 성공 선별 시간 및 실제 운영 목록 확인 시간과 분리했다."
+    }
+  ],
+  "sample_plan": {
+    "reserved_outcomes_opened": 0,
+    "reserved_count": 8,
+    "alpha_two_sided": 0.05,
+    "target_power": 0.8,
+    "validation_valid": 2,
+    "validation_examined": 4,
+    "validation_observed_rate": 0.5,
+    "validation_exact_95_percent_eligibility_interval": [
+      0.06758598648854294,
+      0.932414013511457
+    ],
+    "eight_valid_minimum_detectable_standardized_paired_effect": 1.1560346779947352,
+    "assumptions": [
+      {
+        "assumed_standardized_paired_effect": 0.5,
+        "valid_pairs_needed": 34,
+        "power_if_all_eight_valid": 0.23207700463899156,
+        "total_enrollment_at_90_percent_probability_of_enough_valid": {
+          "1.0": 34,
+          "0.8": 47,
+          "0.7": 55,
+          "0.5": 79
+        }
+      },
+      {
+        "assumed_standardized_paired_effect": 0.6,
+        "valid_pairs_needed": 24,
+        "power_if_all_eight_valid": 0.3117432267646594,
+        "total_enrollment_at_90_percent_probability_of_enough_valid": {
+          "1.0": 24,
+          "0.8": 34,
+          "0.7": 39,
+          "0.5": 57
+        }
+      },
+      {
+        "assumed_standardized_paired_effect": 0.7,
+        "valid_pairs_needed": 19,
+        "power_if_all_eight_valid": 0.4013973788021734,
+        "total_enrollment_at_90_percent_probability_of_enough_valid": {
+          "1.0": 19,
+          "0.8": 27,
+          "0.7": 32,
+          "0.5": 46
+        }
+      },
+      {
+        "assumed_standardized_paired_effect": 0.8,
+        "valid_pairs_needed": 15,
+        "power_if_all_eight_valid": 0.49638204624383425,
+        "total_enrollment_at_90_percent_probability_of_enough_valid": {
+          "1.0": 15,
+          "0.8": 22,
+          "0.7": 25,
+          "0.5": 37
+        }
+      },
+      {
+        "assumed_standardized_paired_effect": 1.0,
+        "valid_pairs_needed": 10,
+        "power_if_all_eight_valid": 0.6808339582062665,
+        "total_enrollment_at_90_percent_probability_of_enough_valid": {
+          "1.0": 10,
+          "0.8": 15,
+          "0.7": 18,
+          "0.5": 26
+        }
+      },
+      {
+        "assumed_standardized_paired_effect": 1.2,
+        "valid_pairs_needed": 8,
+        "power_if_all_eight_valid": 0.8279200603832426,
+        "total_enrollment_at_90_percent_probability_of_enough_valid": {
+          "1.0": 8,
+          "0.8": 12,
+          "0.7": 14,
+          "0.5": 21
+        }
+      }
+    ],
+    "notes": "Power planning only. Validation selection is fixed and modest. No efficacy inference."
+  }
+}

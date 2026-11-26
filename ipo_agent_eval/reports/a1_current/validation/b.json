@@ -1,0 +1,205 @@
+{
+  "GIGAVIS": {
+    "mandatory": [],
+    "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+    "receipt": "20230331002184",
+    "earnings_unit": "백만원",
+    "facts": {
+      "earnings": {
+        "page": 234,
+        "row": "적용 당기순이익",
+        "value": "37,848",
+        "excerpt": "적용 당기순이익                            (A)                     37,848"
+      },
+      "per": {
+        "page": 234,
+        "row": "적용 PER(배)",
+        "value": "21.80",
+        "excerpt": "적용 PER(배)                            (B)                      21.80"
+      },
+      "shares": {
+        "page": 234,
+        "row": "적용 주식수(주)",
+        "value": "12,675,758",
+        "excerpt": "적용 주식수(주)                          (D)                 12,675,758"
+      },
+      "price": {
+        "page": 234,
+        "row": "주당 평가가액(원)",
+        "value": "65,082",
+        "excerpt": "주당 평가가액(원)                    (E)=(C)÷(D)                 65,082"
+      },
+      "equity": {
+        "page": 234,
+        "row": "평가 시가총액",
+        "value": "824,968",
+        "excerpt": "평가 시가총액                      (C)=(A)X(B)                824,968"
+      }
+    },
+    "rules": [
+      {
+        "rule": "price_at_print_precision",
+        "status": "통과",
+        "delta": "0.34063793265854397030931",
+        "tolerance": "0.5394453728132076992949849626",
+        "recalculated": "65082.34063793265854397030931"
+      }
+    ],
+    "price_impact_fraction": {},
+    "alternative_coverage": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유.",
+    "scope": "주당가액과 표 간 일관성에 대한 원문 대조. 그 외 정성 중대 쟁점은 독립 판정에서 평가."
+  },
+  "TRUEN": {
+    "mandatory": [],
+    "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+    "receipt": "20230404002347",
+    "earnings_unit": "백만원",
+    "facts": {
+      "earnings": {
+        "page": 195,
+        "row": "2022년 당기순이익",
+        "value": "7,633",
+        "excerpt": "2022년 당기순이익              7,633 백만원                          (A)"
+      },
+      "per": {
+        "page": 195,
+        "row": "적용 PER 배수",
+        "value": "22.59",
+        "excerpt": "적용 PER 배수                  22.59 배               (B) 최종 유사기업 3개사 평균"
+      },
+      "shares": {
+        "page": 195,
+        "row": "적용 주식수",
+        "value": "10,999,650",
+        "excerpt": "적용 주식수                10,999,650 주              (D) 희석 요소 반영 주식수"
+      },
+      "price": {
+        "page": 195,
+        "row": "주당 평가가액",
+        "value": "15,680",
+        "excerpt": "주당 평가가액                  15,680                       (E) = (C) ÷ (D)"
+      },
+      "equity": {
+        "page": 195,
+        "row": "평가 시가총액",
+        "value": "172,471",
+        "excerpt": "평가 시가총액              172,471 백만원                  (C) = (A) x (B)"
+      }
+    },
+    "rules": [
+      {
+        "rule": "price_at_print_precision",
+        "status": "통과",
+        "delta": "-0.31928288627365416172333",
+        "tolerance": "0.5454559917815566858945511903",
+        "recalculated": "15679.68071711372634583827667"
+      },
+      {
+        "rule": "discount_table_price_consistency",
+        "status": "불일치",
+        "page": 195,
+        "excerpt": "상대가치 주당 평가가액                            15,578 원",
+        "price_difference_krw": 102,
+        "fraction_of_calculated": "0.006505102040816326530612244898",
+        "materiality": "price discrepancy below 5%; qualitative impact assessed separately"
+      }
+    ],
+    "price_impact_fraction": {},
+    "alternative_coverage": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유.",
+    "scope": "주당가액과 표 간 일관성에 대한 원문 대조. 그 외 정성 중대 쟁점은 독립 판정에서 평가."
+  },
+  "MANYO": {
+    "mandatory": [],
+    "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+    "receipt": "20230407002556",
+    "earnings_unit": "원",
+    "facts": {
+      "earnings": {
+        "page": 185,
+        "row": "적용 당기순이익",
+        "value": "17,297,237,363",
+        "excerpt": "적용 당기순이익                       17,297,237,363           A, 주1)"
+      },
+      "per": {
+        "page": 185,
+        "row": "적용 PER",
+        "value": "21.15",
+        "excerpt": "적용 PER                                   21.15          D, 주3)"
+      },
+      "shares": {
+        "page": 185,
+        "row": "적용 주식수",
+        "value": "16,378,260",
+        "excerpt": "적용 주식수                             16,378,260           B, 주2)"
+      },
+      "price": {
+        "page": 185,
+        "row": "비교가치 주당 평가가액",
+        "value": "22,337",
+        "excerpt": "비교가치 주당 평가가액                         22,337원"
+      }
+    },
+    "rules": [
+      {
+        "rule": "price_at_print_precision",
+        "status": "통과",
+        "delta": "-0.28228838411406339867605",
+        "tolerance": "5.780547922367821734421116773",
+        "recalculated": "22336.71771161588593660132395"
+      },
+      {
+        "rule": "punctuation",
+        "status": "표기 상이",
+        "page": 185,
+        "note": "22.337 printed in valuation table; separate discount table gives 22,337원."
+      }
+    ],
+    "price_impact_fraction": {},
+    "alternative_coverage": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유.",
+    "scope": "주당가액과 표 간 일관성에 대한 원문 대조. 그 외 정성 중대 쟁점은 독립 판정에서 평가."
+  },
+  "PHILENERGY": {
+    "mandatory": [],
+    "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+    "receipt": "20230518000227",
+    "earnings_unit": "원",
+    "facts": {
+      "earnings": {
+        "page": 185,
+        "row": "적용 당기순이익",
+        "value": "15,745,462,646",
+        "excerpt": "적용 당기순이익                       15,745,462,646           A, 주1)"
+      },
+      "per": {
+        "page": 185,
+        "row": "적용 PER 배수",
+        "value": "27.9",
+        "excerpt": "적용 PER 배수                                   27.9          D, 주3)"
+      },
+      "shares": {
+        "page": 185,
+        "row": "적용 주식수",
+        "value": "10,611,793",
+        "excerpt": "적용 주식수                             10,611,793           B, 주2)"
+      },
+      "price": {
+        "page": 185,
+        "row": "주당 평가가액",
+        "value": "41,404",
+        "excerpt": "주당 평가가액                               41,404        E = C × D"
+      }
+    },
+    "rules": [
+      {
+        "rule": "price_at_print_precision",
+        "status": "통과",
+        "delta": "-6.81030515766751198407281",
+        "tolerance": "74.68851199792532703945506664",
+        "recalculated": "41397.18969484233248801592719"
+      }
+    ],
+    "price_impact_fraction": {},
+    "alternative_coverage": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유.",
+    "scope": "주당가액과 표 간 일관성에 대한 원문 대조. 그 외 정성 중대 쟁점은 독립 판정에서 평가."
+  }
+}

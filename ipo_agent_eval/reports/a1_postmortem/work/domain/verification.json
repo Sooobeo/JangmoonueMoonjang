@@ -1,0 +1,157 @@
+{
+  "operational_membership": {
+    "membership_checks": 582,
+    "rule": 23,
+    "ai": 26,
+    "rule_material": 2,
+    "ai_material": 3
+  },
+  "local_links": [
+    "../../../../../update%20plan/A1_본평가_동결_프로토콜.md",
+    "../../../a1_current/official/enrollment_expansion/roster.json",
+    "../../../a1_current/official/enrollment_expansion/모집규칙.md",
+    "../../../a1_main/v1/analysis/results.json",
+    "../../../a1_main/v1/blind/20230818000362/source_audit.json",
+    "domain_counts.json",
+    "verification.json"
+  ],
+  "pdf_markers": [
+    {
+      "case": "20230818000362",
+      "page": 223,
+      "verified_terms": [
+        "한독",
+        "의료기기"
+      ]
+    },
+    {
+      "case": "20230818000362",
+      "page": 228,
+      "verified_terms": [
+        "27.61",
+        "38.14",
+        "23.57",
+        "21.13"
+      ]
+    },
+    {
+      "case": "20230818000362",
+      "page": 256,
+      "verified_terms": [
+        "88.1"
+      ]
+    },
+    {
+      "case": "20250328002012",
+      "page": 222,
+      "verified_terms": [
+        "KOBELCOWIRE",
+        "8.06",
+        "5미만",
+        "PER10배미만"
+      ]
+    },
+    {
+      "case": "20250328002012",
+      "page": 226,
+      "verified_terms": [
+        "11.55"
+      ]
+    },
+    {
+      "case": "20230918000204",
+      "page": 185,
+      "verified_terms": [
+        "54.4",
+        "43.0",
+        "97.6"
+      ]
+    },
+    {
+      "case": "20230918000204",
+      "page": 188,
+      "verified_terms": [
+        "18.28",
+        "46.12",
+        "4.28",
+        "7.35"
+      ]
+    },
+    {
+      "case": "20230918000204",
+      "page": 213,
+      "verified_terms": [
+        "98.9"
+      ]
+    },
+    {
+      "case": "20251223000517",
+      "page": 279,
+      "verified_terms": [
+        "3,901,797,615",
+        "5,202,396,820"
+      ]
+    },
+    {
+      "case": "20251223000517",
+      "page": 374,
+      "verified_terms": [
+        "3,185,024,840",
+        "375,381,280"
+      ]
+    },
+    {
+      "case": "20250325000608",
+      "page": 175,
+      "verified_terms": [
+        "37.62",
+        "12.07"
+      ]
+    },
+    {
+      "case": "20250325000608",
+      "page": 184,
+      "verified_terms": [
+        "20.99"
+      ]
+    },
+    {
+      "case": "20240621000553",
+      "page": 252,
+      "verified_terms": [
+        "6,872"
+      ]
+    },
+    {
+      "case": "20240621000553",
+      "page": 348,
+      "verified_terms": [
+        "562,121"
+      ]
+    },
+    {
+      "case": "20230912000404",
+      "page": 174,
+      "verified_terms": [
+        "92.77",
+        "49.65"
+      ]
+    },
+    {
+      "case": "20230912000404",
+      "page": 180,
+      "verified_terms": [
+        "23.19"
+      ]
+    },
+    {
+      "case": "20230912000404",
+      "page": 209,
+      "verified_terms": [
+        "63.37"
+      ]
+    }
+  ],
+  "frozen_results_sha256": "236d44e250052d85e8b9ba34abb827140eaffb02c79051e977ffc0737c71efb7",
+  "counts_file_sha256": "a28935c81cf33ef57ff925797e96760754fdbd125def9e8e672b295b43774171"
+}

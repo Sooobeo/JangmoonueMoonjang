@@ -1,0 +1,167 @@
+{
+  "protocol": "ipo-persona-time-1",
+  "ordered_union": [
+    {
+      "case": "MANYO",
+      "item_id": "MANYO-08"
+    },
+    {
+      "case": "HDMS",
+      "item_id": "H02"
+    },
+    {
+      "case": "PHILENERGY",
+      "item_id": "PHILENERGY-01"
+    },
+    {
+      "case": "GIGAVIS",
+      "item_id": "GIGAVIS-08"
+    },
+    {
+      "case": "MANYO",
+      "item_id": "MANYO-11"
+    },
+    {
+      "case": "TRUEN",
+      "item_id": "TRUEN-03"
+    },
+    {
+      "case": "MANYO",
+      "item_id": "MANYO-04"
+    },
+    {
+      "case": "MELCON",
+      "item_id": "M03"
+    },
+    {
+      "case": "PHILENERGY",
+      "item_id": "PHILENERGY-10"
+    },
+    {
+      "case": "TRUEN",
+      "item_id": "TRUEN-10"
+    },
+    {
+      "case": "PHILENERGY",
+      "item_id": "PHILENERGY-08"
+    },
+    {
+      "case": "GIGAVIS",
+      "item_id": "GIGAVIS-05"
+    }
+  ],
+  "ranked_sources": {
+    "proxy": {
+      "HDMS": {
+        "rank_sha256": "b37f6ac42186b2ec95b0c077dfcc941d1db2112d1329bc40080259fdca3eb7dd",
+        "rule": [
+          "H02"
+        ],
+        "ai": [
+          "H02"
+        ]
+      },
+      "MELCON": {
+        "rank_sha256": "d16a9b8dcf77a12b707eff8497d86036bf807ecbcc98ee27e0ccb89a714cc151",
+        "rule": [
+          "M03"
+        ],
+        "ai": [
+          "M03"
+        ]
+      },
+      "GIGAVIS": {
+        "rank_sha256": "87f00259c67f53a98d2f3cb9a6ef5cafb416d22d06c8d0b32586a0e5afd0139d",
+        "rule": [
+          "GIGAVIS-05"
+        ],
+        "ai": [
+          "GIGAVIS-08"
+        ]
+      },
+      "TRUEN": {
+        "rank_sha256": "29c29f17b7efd12c7eafb24c0059d0be34f76121aafce4f67188875e01524193",
+        "rule": [
+          "TRUEN-03"
+        ],
+        "ai": [
+          "TRUEN-10"
+        ]
+      },
+      "MANYO": {
+        "rank_sha256": "8e5563e70cc83bdb92c6c7666fc264c2527d1d5e96b482315d13f2ff5e97c440",
+        "rule": [
+          "MANYO-04"
+        ],
+        "ai": [
+          "MANYO-11"
+        ]
+      },
+      "PHILENERGY": {
+        "rank_sha256": "3e808521fc768b89d1e3f724152388c5c14155f836d534c971115875fe49b003",
+        "rule": [
+          "PHILENERGY-01"
+        ],
+        "ai": [
+          "PHILENERGY-08"
+        ]
+      }
+    },
+    "terra": {
+      "HDMS": {
+        "rank_sha256": "82c7bd55fd660960da12f9028108494d6c9bc607186f7c2bf42c5332ff9947d0",
+        "rule": [
+          "H02"
+        ],
+        "ai": [
+          "H02"
+        ]
+      },
+      "MELCON": {
+        "rank_sha256": "55000f7565a0ae47b568b4f348fe92eefa542ac7cea11a318f2505612c6518f5",
+        "rule": [
+          "M03"
+        ],
+        "ai": [
+          "M03"
+        ]
+      },
+      "GIGAVIS": {
+        "rank_sha256": "9bcd276d8d4e3002065867b8adcaaa6d90f9b23f00f547b5bc8b2c6ea9b46a7f",
+        "rule": [
+          "GIGAVIS-05"
+        ],
+        "ai": [
+          "GIGAVIS-08"
+        ]
+      },
+      "TRUEN": {
+        "rank_sha256": "08e517f1f27618116b335d824776c92c7c1a5b5d5a39a8a81989ce45906fae08",
+        "rule": [
+          "TRUEN-03"
+        ],
+        "ai": [
+          "TRUEN-10"
+        ]
+      },
+      "MANYO": {
+        "rank_sha256": "c0a8e6135ffd2f79c259ed9092856749494b8e6973de4321afaf6514b8256455",
+        "rule": [
+          "MANYO-08"
+        ],
+        "ai": [
+          "MANYO-11"
+        ]
+      },
+      "PHILENERGY": {
+        "rank_sha256": "8ab7838665d2f834911f964957df462c15c9f4712c4eb31a36f628ffd5c937e1",
+        "rule": [
+          "PHILENERGY-01"
+        ],
+        "ai": [
+          "PHILENERGY-10"
+        ]
+      }
+    }
+  }
+}

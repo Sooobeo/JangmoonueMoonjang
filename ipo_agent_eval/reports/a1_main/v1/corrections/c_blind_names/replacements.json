@@ -1,0 +1,510 @@
+{
+  "20230925000332": {
+    "E12": [
+      {
+        "literal": "포스코 그룹",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20230822000424": {
+    "E17": [
+      {
+        "literal": "SK브로드밴드",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "KT",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20231222000680": {
+    "E6": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E8": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E15": [
+      {
+        "literal": "LAWSON",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "로손",
+        "replacement": "[기업]"
+      }
+    ],
+    "E23": [
+      {
+        "literal": "GMP",
+        "replacement": "[기업]"
+      }
+    ],
+    "E30": [
+      {
+        "literal": "UCH CREDIT MICROCREDIT COMPANY.,LLC",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "[기업]투네트웍스",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "유씨에이치파트너스",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "삼화로지텍",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20240621000553": {
+    "E6": [
+      {
+        "literal": "농업회사법인(주)전원",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "에스디벤처캐피탈",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "에스디파트너스",
+        "replacement": "[기업]"
+      }
+    ],
+    "E16": [
+      {
+        "literal": "한국전력",
+        "replacement": "[기업]"
+      }
+    ],
+    "E17": [
+      {
+        "literal": "LS ELECTRIC",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20241018000518": {
+    "E1": [
+      {
+        "literal": "VECT",
+        "replacement": "[기업]"
+      }
+    ],
+    "E2": [
+      {
+        "literal": "이솔정보통신",
+        "replacement": "[기업]"
+      }
+    ],
+    "E11": [
+      {
+        "literal": "JVC",
+        "replacement": "[기업]"
+      }
+    ],
+    "E12": [
+      {
+        "literal": "INTER-M",
+        "replacement": "[기업]"
+      }
+    ],
+    "E13": [
+      {
+        "literal": "INTER-M",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20241205000577": {
+    "E16": [
+      {
+        "literal": "하나",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "신한",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20241213000457": {
+    "E5": [
+      {
+        "literal": "EATON",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "이튼",
+        "replacement": "[기업]"
+      }
+    ],
+    "E18": [
+      {
+        "literal": "청호나이스",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "세라젬",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20230823000258": {
+    "E13": [
+      {
+        "literal": "everysing",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "DearU",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "에브리싱",
+        "replacement": "[기업]"
+      }
+    ],
+    "E14": [
+      {
+        "literal": "DearU",
+        "replacement": "[기업]"
+      }
+    ],
+    "E15": [
+      {
+        "literal": "DearU",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250107000412": {
+    "E21": [
+      {
+        "literal": "퓨릿",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250120000464": {
+    "E14": [
+      {
+        "literal": "더존ICT그룹",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250908000329": {
+    "E1": [
+      {
+        "literal": "SENA",
+        "replacement": "[기업]"
+      }
+    ],
+    "E13": [
+      {
+        "literal": "KOCOM",
+        "replacement": "[기업]"
+      }
+    ],
+    "E14": [
+      {
+        "literal": "KOCOM",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20240621000344": {
+    "E11": [
+      {
+        "literal": "SCD US, INC",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250207000496": {
+    "E1": [
+      {
+        "literal": "ZENNAR LTD",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "젠나",
+        "replacement": "[기업]"
+      }
+    ],
+    "E19": [
+      {
+        "literal": "09WOMEN",
+        "replacement": "[기업]"
+      }
+    ],
+    "E21": [
+      {
+        "literal": "09WOMEN",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250930000546": {
+    "E7": [
+      {
+        "literal": "잇츠스킨",
+        "replacement": "[기업]"
+      }
+    ],
+    "E8": [
+      {
+        "literal": "잇츠스킨",
+        "replacement": "[기업]"
+      }
+    ],
+    "E11": [
+      {
+        "literal": "GMP",
+        "replacement": "[기업]"
+      }
+    ],
+    "E14": [
+      {
+        "literal": "토니인베스트먼트",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "메가코스",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "태성산업",
+        "replacement": "[기업]"
+      }
+    ],
+    "E18": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E19": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E20": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E21": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E22": [
+      {
+        "literal": "퓨릿",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20230912000404": {
+    "E1": [
+      {
+        "literal": "세메스",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "ATI",
+        "replacement": "[기업]"
+      }
+    ],
+    "E10": [
+      {
+        "literal": "FST",
+        "replacement": "[기업]"
+      }
+    ],
+    "E11": [
+      {
+        "literal": "FST",
+        "replacement": "[기업]"
+      }
+    ],
+    "E12": [
+      {
+        "literal": "FST",
+        "replacement": "[기업]"
+      }
+    ],
+    "E16": [
+      {
+        "literal": "UNISEM",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250320001180": {
+    "E18": [
+      {
+        "literal": "포스코",
+        "replacement": "○○"
+      },
+      {
+        "literal": "한전",
+        "replacement": "○○"
+      }
+    ]
+  },
+  "20251001000684": {
+    "E9": [
+      {
+        "literal": "하나에스앤비인베스트먼트",
+        "replacement": "[기업]"
+      }
+    ],
+    "E15": [
+      {
+        "literal": "KNJ",
+        "replacement": "[기업]"
+      }
+    ],
+    "E16": [
+      {
+        "literal": "KNJ",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20230915000263": {
+    "E11": [
+      {
+        "literal": "Fidelix",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250324000841": {
+    "E22": [
+      {
+        "literal": "SAMSUNG Medison",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "Hyundai Mobis",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "INFAC",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "GE",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20250325000608": {
+    "E6": [
+      {
+        "literal": "UCH CREDIT MICROCREDIT COMPANY.,LLC",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "[기업]투네트웍스",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "유씨에이치파트너스",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "삼화로지텍",
+        "replacement": "[기업]"
+      }
+    ],
+    "E10": [
+      {
+        "literal": "더샘인터내셔날",
+        "replacement": "[기업]"
+      }
+    ],
+    "E22": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E23": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E24": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ],
+    "E25": [
+      {
+        "literal": "더페이스샵",
+        "replacement": "[기업]"
+      }
+    ]
+  },
+  "20251223000517": {
+    "E6": [
+      {
+        "literal": "엠.오.티",
+        "replacement": "[기업]"
+      }
+    ],
+    "E13": [
+      {
+        "literal": "KOSES",
+        "replacement": "[기업]"
+      }
+    ],
+    "E14": [
+      {
+        "literal": "[기업] TRANSPORTATION PHILIPPINES INC",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "PT. [기업] RAILWAY INDONESIA",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "[기업]제2호일반사모부동산투자유한회사",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "프렌드 스마트밸런스1호",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "파빌리온남양주피에프브이",
+        "replacement": "[기업]"
+      },
+      {
+        "literal": "대아인베스트먼트",
+        "replacement": "[기업]"
+      }
+    ]
+  }
+}

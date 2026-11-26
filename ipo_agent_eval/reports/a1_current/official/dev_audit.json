@@ -1,0 +1,245 @@
+{
+  "scope": "Terra development only",
+  "model": "gpt-6.1-terra",
+  "labels_canonical_sha256": "fbd2a92f83c2dc01c6e9fd3aa44495ceda7716182121b4d7f56ab2b969a0d24a",
+  "cases": {
+    "HDMS": {
+      "roles": {
+        "a0_run": {
+          "run_id": "20261126T020801Z_A0_5ca3139e",
+          "model_calls": 12,
+          "input_tokens": 639211,
+          "output_tokens": 10718,
+          "elapsed_seconds": 148.432,
+          "known_usage_cost_usd_standard_uncached": 0.692801,
+          "evidence_dir": "reports/a1_current/j2/runs/HDMS/a0_original/20261126T020801Z_A0_5ca3139e"
+        },
+        "c_run": {
+          "run_id": "20261126T040439Z_A1_BLIND_B_8f7a8243",
+          "model_calls": 1,
+          "input_tokens": 1115,
+          "output_tokens": 1665,
+          "elapsed_seconds": 31.069,
+          "known_usage_cost_usd_standard_uncached": 0.00944,
+          "evidence_dir": "reports/a1_current/j2/runs/HDMS/c_original/20261126T040439Z_A1_BLIND_B_8f7a8243"
+        }
+      },
+      "c_packet_sha256": "3ade6677b91a603ec906f757211a25b3ad54579f942041324a3b7e8e21ff5e1e",
+      "c_citations_verified": 7,
+      "items": 11,
+      "J2": {
+        "H02": {
+          "a0": "미확인",
+          "c": "문제 제기",
+          "pair": "미확인 포함"
+        },
+        "H03": {
+          "a0": "미확인",
+          "c": "미확인",
+          "pair": "미확인 포함"
+        },
+        "H04": {
+          "a0": "미확인",
+          "c": "문제 제기",
+          "pair": "미확인 포함"
+        },
+        "H05": {
+          "a0": "미확인",
+          "c": "문제 제기",
+          "pair": "미확인 포함"
+        }
+      },
+      "eligible_paid_triz": 0,
+      "new_paid_triz_calls": 0,
+      "paid_selector_attempts": [
+        {
+          "stage": "A1_LOOK",
+          "run_id": "20261126T040613Z_A1_LOOK_fa77dd5c",
+          "status": "FAILED",
+          "scope": "recorded request",
+          "request_token_cap": 1100,
+          "provider_incomplete_reason": "max_output_tokens",
+          "known_input_tokens": 39857,
+          "known_output_tokens": 1100,
+          "model_calls": 1,
+          "seconds": 18.698,
+          "known_uncached_estimate_usd": 0.045357,
+          "accounted_ceiling_usd": 0.055321,
+          "evidence_dir": "reports/a1_current/live/HDMS/A1_LOOK/3301f22e94dc03b8/20261126T040613Z_A1_LOOK_fa77dd5c"
+        },
+        {
+          "stage": "A1_LOOK",
+          "run_id": "20261126T040803Z_A1_LOOK_a27c7e7b",
+          "status": "FAILED",
+          "scope": "recorded request",
+          "request_token_cap": 2000,
+          "provider_incomplete_reason": "max_output_tokens",
+          "known_input_tokens": 39857,
+          "known_output_tokens": 2000,
+          "model_calls": 1,
+          "seconds": 30.196,
+          "known_uncached_estimate_usd": 0.049857,
+          "accounted_ceiling_usd": 0.059821,
+          "evidence_dir": "reports/a1_current/live/HDMS/A1_LOOK/831daa02332d0ab3/20261126T040803Z_A1_LOOK_a27c7e7b"
+        },
+        {
+          "stage": "A1_LOOK",
+          "run_id": "20261126T040948Z_A1_LOOK_8857fd83",
+          "status": "SUBMITTED",
+          "scope": "compact lookup recovery",
+          "request_token_cap": 1100,
+          "provider_incomplete_reason": null,
+          "known_input_tokens": 1800,
+          "known_output_tokens": 270,
+          "model_calls": 1,
+          "seconds": 8.038,
+          "known_uncached_estimate_usd": 0.00315,
+          "accounted_ceiling_usd": 0.0036,
+          "evidence_dir": "reports/a1_current/live/HDMS/A1_LOOK/abf64f934131a607/20261126T040948Z_A1_LOOK_8857fd83"
+        },
+        {
+          "stage": "A1_SELECT",
+          "run_id": "20261126T040958Z_A1_SELECT_24ea3951",
+          "status": "SUBMITTED",
+          "scope": "recorded request",
+          "request_token_cap": 3800,
+          "provider_incomplete_reason": null,
+          "known_input_tokens": 42565,
+          "known_output_tokens": 3166,
+          "model_calls": 1,
+          "seconds": 40.402,
+          "known_uncached_estimate_usd": 0.058395,
+          "accounted_ceiling_usd": 0.069036,
+          "evidence_dir": "reports/a1_current/live/HDMS/A1_SELECT/d55dd92601076b2d/20261126T040958Z_A1_SELECT_24ea3951"
+        }
+      ],
+      "selector_aggregate": {
+        "known_input_tokens": "124079",
+        "known_output_tokens": "6536",
+        "model_calls": "4",
+        "seconds": "97.334",
+        "known_uncached_estimate_usd": "0.156759",
+        "accounted_ceiling_usd": "0.187778"
+      },
+      "aggregate_within_caps": true,
+      "case_matched_final_request": true,
+      "additional_k": 1,
+      "rule_fixed_k": [
+        "H02"
+      ],
+      "ai_fixed_k": [
+        "H02"
+      ],
+      "ai_operational": [
+        "H02"
+      ],
+      "lookup_requested_pages": [
+        251,
+        260,
+        266,
+        269
+      ],
+      "fresh_full_text_pages_among_lookup": [],
+      "selector_result": "reports/a1_current/ranking/terra/HDMS.json"
+    },
+    "MELCON": {
+      "roles": {
+        "a0_run": {
+          "run_id": "20261126T020853Z_A0_1e3b7afd",
+          "model_calls": 16,
+          "input_tokens": 741776,
+          "output_tokens": 10518,
+          "elapsed_seconds": 158.646,
+          "known_usage_cost_usd_standard_uncached": 0.794366,
+          "evidence_dir": "reports/a1_current/j2/runs/MELCON/a0_original/20261126T020853Z_A0_1e3b7afd"
+        },
+        "c_run": {
+          "run_id": "20261126T021124Z_A1_BLIND_B_47612493",
+          "model_calls": 1,
+          "input_tokens": 941,
+          "output_tokens": 1153,
+          "elapsed_seconds": 20.76,
+          "known_usage_cost_usd_standard_uncached": 0.006706,
+          "evidence_dir": "reports/a1_current/j2/runs/MELCON/c_original/20261126T021124Z_A1_BLIND_B_47612493"
+        }
+      },
+      "c_packet_sha256": "a7f38c69b347c2ad0160f0b962342a3744242e7f92b0868dea931e61d7a4ba7b",
+      "c_citations_verified": 4,
+      "items": 11,
+      "J2": {
+        "M03": {
+          "a0": "문제 제기",
+          "c": "문제 제기",
+          "pair": "양쪽 문제 제기"
+        },
+        "M04": {
+          "a0": "미확인",
+          "c": "수용",
+          "pair": "미확인 포함"
+        }
+      },
+      "eligible_paid_triz": 0,
+      "new_paid_triz_calls": 0,
+      "paid_selector_attempts": [
+        {
+          "stage": "A1_LOOK",
+          "run_id": "20261126T040449Z_A1_LOOK_a11f8845",
+          "status": "SUBMITTED",
+          "scope": "recorded request",
+          "request_token_cap": 1100,
+          "provider_incomplete_reason": null,
+          "known_input_tokens": 36390,
+          "known_output_tokens": 681,
+          "model_calls": 1,
+          "seconds": 12.722,
+          "known_uncached_estimate_usd": 0.039795,
+          "accounted_ceiling_usd": 0.048892,
+          "evidence_dir": "reports/a1_current/live/MELCON/A1_LOOK/0706e9f796364b5a/20261126T040449Z_A1_LOOK_a11f8845"
+        },
+        {
+          "stage": "A1_SELECT",
+          "run_id": "20261126T040503Z_A1_SELECT_fe5a09bd",
+          "status": "SUBMITTED",
+          "scope": "recorded request",
+          "request_token_cap": 3800,
+          "provider_incomplete_reason": null,
+          "known_input_tokens": 41049,
+          "known_output_tokens": 3453,
+          "model_calls": 1,
+          "seconds": 49.382,
+          "known_uncached_estimate_usd": 0.058314,
+          "accounted_ceiling_usd": 0.068576,
+          "evidence_dir": "reports/a1_current/live/MELCON/A1_SELECT/eeff9c58a9256bf7/20261126T040503Z_A1_SELECT_fe5a09bd"
+        }
+      ],
+      "selector_aggregate": {
+        "known_input_tokens": "77439",
+        "known_output_tokens": "4134",
+        "model_calls": "2",
+        "seconds": "62.104",
+        "known_uncached_estimate_usd": "0.098109",
+        "accounted_ceiling_usd": "0.117468"
+      },
+      "aggregate_within_caps": true,
+      "case_matched_final_request": true,
+      "additional_k": 1,
+      "rule_fixed_k": [
+        "M03"
+      ],
+      "ai_fixed_k": [
+        "M03"
+      ],
+      "ai_operational": [
+        "M03"
+      ],
+      "lookup_requested_pages": [
+        200,
+        202,
+        203,
+        204
+      ],
+      "fresh_full_text_pages_among_lookup": [],
+      "selector_result": "reports/a1_current/ranking/terra/MELCON.json"
+    }
+  }
+}

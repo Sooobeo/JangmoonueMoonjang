@@ -1,0 +1,42 @@
+{
+  "date_kst": "2026-11-27",
+  "role": "Primary document recovery before any main cohort response or grade",
+  "checks": [
+    {
+      "ticker": "166090",
+      "issuer_cutoff": "2025-10-01",
+      "receipt": "20250814004445",
+      "result": "Latest receipt and cover in pinned archive, three issuer-authored original sections recovered from a separate full filing mirror.",
+      "record": "c_source/archive_reports/2025-10-01/166090/report.json"
+    },
+    {
+      "ticker": "000390",
+      "issuer_cutoff": "2023-12-22",
+      "receipt": "20231114000626",
+      "result": "Three original XML SECTION-2 elements located by their own titles in oversized filing chunks classified under the articles of incorporation.",
+      "record": "c_source/archive_reports/2023-12-22/000390/report.json"
+    },
+    {
+      "ticker": "119860",
+      "issuer_cutoff": "2023-08-23",
+      "receipt": "20230814002024",
+      "exchange_path_identifier": "20230814004949",
+      "result": "Separate OpenDART XBRL filing register confirms the receipt. Receipt-specific body mirror returned 404 for both identifiers. No usable historical archive capture was obtained. Issuer's results presentation is a different document.",
+      "record": "c_source/opendart_xbrl/119860/list.html"
+    },
+    {
+      "ticker": "323230",
+      "issuer_cutoff": "2024-03-05",
+      "receipt": "20231114002644",
+      "result": "Quarterly filing is registered. Independent narrative mirror had no copy, data archive lacked this ticker's DART text, financial XBRL alone had no verified products/business excerpt.",
+      "record": "c_source/opendart_xbrl/323230/provenance.json"
+    },
+    {
+      "ticker": "024810",
+      "issuer_cutoff": "2024-12-13",
+      "receipt": "20241114000068",
+      "result": "No pre-cutoff periodic report in the pinned narrative archive. Independent report mirror returned 404. Financial statements did not establish the product excerpt.",
+      "record": "c_source/opendart_xbrl/024810/provenance.json"
+    }
+  ]
+}

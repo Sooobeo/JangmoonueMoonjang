@@ -25,8 +25,18 @@ def wire_dumps(value):
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
 
 
+def audit_file(path):
+    """Return a path usable for both reading and writing deep Windows audit files."""
+    path = Path(path)
+    if sys.platform == "win32" and len(str(path.absolute())) >= 248:
+        absolute = str(path.absolute())
+        if not absolute.startswith("\\\\?\\"):
+            path = Path("\\\\?\\UNC\\" + absolute[2:] if absolute.startswith("\\\\") else "\\\\?\\" + absolute)
+    return path
+
+
 def write_json(path, value):
-    Path(path).write_text(dumps(value) + "\n", encoding="utf-8")
+    audit_file(path).write_text(dumps(value) + "\n", encoding="utf-8")
 
 
 class RunV2:
@@ -154,12 +164,12 @@ class RunV2:
                          "next_retry_attempt": attempt + 1, "same_request_sha256": fingerprint,
                          "unknown_usage_reservation_retained": True})
         raw = response.model_dump(mode="json") if hasattr(response, "model_dump") else response
-        write_json(self.directory / f"{stem}_response.json", raw)
         self.returned_models.append(raw.get("model"))
         usage = raw.get("usage")
         if not isinstance(usage, dict) or any(type(usage.get(k)) is not int or usage[k] < 0 for k in ("input_tokens", "output_tokens")):
             self._reserve_unknown_usage(stage, estimate, frozen_request["max_output_tokens"])
             self.log("model_usage_missing", {"stage": stage, "usage_unknown": True})
+            write_json(self.directory / f"{stem}_response.json", raw)
             raise RuntimeError("USAGE_MISSING")
         self.input_tokens += usage["input_tokens"]
         self.output_tokens += usage["output_tokens"]
@@ -168,6 +178,7 @@ class RunV2:
         self.cost_ceiling_usd = input_cost_ceiling(self.config, self.input_tokens) + self.output_tokens * self.config["price_output_per_million_usd"] / 1e6
         self.log("model_call_completed", {"stage": stage, "response_id": raw.get("id"),
                  "returned_model": raw.get("model"), "status": raw.get("status"), "usage": usage})
+        write_json(self.directory / f"{stem}_response.json", raw)
         self.check_time()
         if self.input_tokens > self.config["input_tokens_target_max"] or self.output_tokens > self.config["output_tokens_max"]:
             raise BudgetError("ACTUAL_TOKEN_LIMIT_EXCEEDED")

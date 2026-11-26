@@ -1,0 +1,25 @@
+{
+  "status": "SUBMITTED",
+  "engine": "Codex CLI / ChatGPT",
+  "thread_id": "01a215a7-df66-7ab1-a719-2106cdae5d3f",
+  "version": "codex-cli 0.171.0-alpha.13.2",
+  "elapsed_seconds": 38.134,
+  "usage": {
+    "input_tokens": 22302,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1591,
+    "reasoning_output_tokens": 0
+  },
+  "returncode": 0,
+  "tool_events": [],
+  "packet_sha256": "3ade6677b91a603ec906f757211a25b3ad54579f942041324a3b7e8e21ff5e1e",
+  "candidate_coverage": {
+    "missing_candidates": [],
+    "unknown_candidates": [],
+    "duplicate_candidates": [],
+    "unknown_evidence_ids": [],
+    "candidates_without_citations": []
+  },
+  "historical_api_source_unchanged": true
+}

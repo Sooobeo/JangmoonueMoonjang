@@ -1,0 +1,561 @@
+{
+  "rows": [
+    {
+      "receipt": "20230823000258",
+      "corp_code": "01468061",
+      "issuer": "레뷰코퍼레이션",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230823000258&dcm_no=9404106",
+      "pdf_sha256": "d9697cdf1a042a649ddc07348cc3dd0b1ed6e67a74310a2fb3e66160f45aaeec",
+      "pdf_pages": 537,
+      "family_metadata": [
+        {
+          "receipt": "20230918000162",
+          "caption": "2023.09.18 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230906000189",
+          "caption": "2023.09.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230823000258",
+          "caption": "2023.08.23 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-08-23",
+      "official_title": "레뷰코퍼레이션/증권신고서(지분증권)/2023.08.23",
+      "status": "ELIGIBLE",
+      "period_or_method": "2023년 반기 기준 최근 12개월 지배주주 순이익에 무형자산상각비를 가산한 과거 실적 PER",
+      "reason": "발행사 적용이익 5,941백만원과 적용 PER 32.61배로 주당 17,016원을 산정했다.",
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 317,
+        "quote": "적용 순이익은 2023년 반기 기준 최근 12개월 (지배주주) 순이익 5,255,631,730원"
+      },
+      "adopted_per_anchor": {
+        "page": 317,
+        "quote": "적용 PER(배) (D) 32.61 배"
+      },
+      "adopted_price_anchor": {
+        "page": 317,
+        "quote": "17,016 원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230823&publicType=C001&sort=date&series=asc&textCrpCik=01468061&currentPage=1",
+      "history_response_sha256": "f539b23963eac49d0217a25540cd43e51bbc37dcf4d0fa0d8180116a809f87df",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.08.23&textCrpCik=01468061&currentPage=1&maxResults=100",
+      "daily_sha256": "c74509cae22483a52946e2ce2f3555a9c8d44936afa0cb718a5452edf4527ed5",
+      "published_kst": "2023-08-23T15:20+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230823000258",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230823000258.pdf"
+    },
+    {
+      "receipt": "20230906000217",
+      "corp_code": "01026616",
+      "issuer": "유투바이오",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230906000217&dcm_no=9421961",
+      "pdf_sha256": "5fc0c1d71b2f2fe00f4f145e088561920933ba8a333866244f04585b2031a6ae",
+      "pdf_pages": 389,
+      "family_metadata": [
+        {
+          "receipt": "20231020000557",
+          "caption": "2023.10.20 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230919000041",
+          "caption": "2023.09.19 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230906000371",
+          "caption": "2023.09.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230906000217",
+          "caption": "2023.09.06 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-06",
+      "official_title": "지구홀딩스/증권신고서(지분증권)/2023.09.06",
+      "status": "ELIGIBLE",
+      "dart_index_issuer": "지구홀딩스",
+      "issuer_name_anchor": {
+        "page": 3,
+        "quote": "주식회사 유투바이오"
+      },
+      "period_or_method": "2023년 반기 실제 순이익의 2배 연환산 PER",
+      "reason": "발행사 반기 연환산 순이익 2,472,060천원에 20.50배를 적용했다. 인수 산정표와 밴드가 모두 주당 4,490원을 기준으로 한다.",
+      "ipo_status_anchor": {
+        "page": 26,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 219,
+        "quote": "당기순이익은 2023년 반기순이익을 연환산(2배)한 기준으로 산정하였습니다."
+      },
+      "adopted_per_anchor": {
+        "page": 219,
+        "quote": "적용 PER(C) 20.50배"
+      },
+      "adopted_price_anchor": {
+        "page": 219,
+        "quote": "비교가치 주당 평가가액 4,490원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230906&publicType=C001&sort=date&series=asc&textCrpCik=01026616&currentPage=1",
+      "history_response_sha256": "650e0f7919a7dbbb141bef800567e3f1a09d23b314d11ba51a25c708054fd341",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.06&textCrpCik=01026616&currentPage=1&maxResults=100",
+      "daily_sha256": "ff9b4bf1346b4301cc9fb1330d1d35d5370e73ebe67e9d187311911ade56e4fb",
+      "published_kst": "2023-09-06T15:03+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230906000217",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230906000217.pdf"
+    },
+    {
+      "receipt": "20230911000405",
+      "corp_code": "01462739",
+      "issuer": "비아이매트릭스",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230911000405&dcm_no=9426985",
+      "pdf_sha256": "6ee4c8c9e35960eb0e36093906a7583bfa14d51b169196ad17face30f76adf2d",
+      "pdf_pages": 334,
+      "family_metadata": [
+        {
+          "receipt": "20231027000507",
+          "caption": "2023.10.27 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231026000353",
+          "caption": "2023.10.26 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230925000554",
+          "caption": "2023.09.25 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230911000405",
+          "caption": "2023.09.11 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-11",
+      "official_title": "비아이매트릭스/증권신고서(지분증권)/2023.09.11",
+      "status": "ELIGIBLE",
+      "reason": "발행사의 2023년 반기 말 최근 4개 분기 실적을 조정한 순이익에 PER을 적용하고, 그 방법의 주당 평가가액을 희망공모가액에 적용했다.",
+      "period_or_method": "2022년 3분기~2023년 2분기 실제 지배기업 순이익 2,607,249,836원에 파생상품평가손실을 가산한 3,543백만원에 PER 26.49배를 적용. 공모가액 산출표의 기준은 12,915원.",
+      "ipo_status_anchor": {
+        "page": 24,
+        "quote": "본 주식은 한국거래소 내 코스닥시장 상장을 목적으로 모집하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 182,
+        "quote": "적용 당기순이익은 발행회사 (주)비아이매트릭스의 최근 4개분기"
+      },
+      "adopted_per_anchor": {
+        "page": 182,
+        "quote": "26.49배"
+      },
+      "adopted_price_anchor": {
+        "page": 182,
+        "quote": "12,915 원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230911&publicType=C001&sort=date&series=asc&textCrpCik=01462739&currentPage=1",
+      "history_response_sha256": "9e935762cfa84d4b5f73169bffe0a132e17a04c7f44d02658b46c951d619d4bf",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.11&textCrpCik=01462739&currentPage=1&maxResults=100",
+      "daily_sha256": "b4f174edfad76af391d9d4079dbebdcd63f1807ef2dbc56560657563c8973d3a",
+      "published_kst": "2023-09-11T17:30+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230911000405",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230911000405.pdf"
+    },
+    {
+      "receipt": "20230912000404",
+      "corp_code": "00866451",
+      "issuer": "워트",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230912000404&dcm_no=9428531",
+      "pdf_sha256": "0f7cf2fcd249ddcc2372e4788c8ad38da66ac4aac444cf8f8a9779a20b3e9aa1",
+      "pdf_pages": 325,
+      "family_metadata": [
+        {
+          "receipt": "20231013000580",
+          "caption": "2023.10.13 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230926000587",
+          "caption": "2023.09.26 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230912000404",
+          "caption": "2023.09.12 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-12",
+      "official_title": "워트/증권신고서(지분증권)/2023.09.12",
+      "status": "ELIGIBLE",
+      "reason": "워트의 2023년 2분기 기준 LTM 당기순이익에 PER 23.19배를 적용해 희망 공모가액 산정의 기준을 정했다.",
+      "period_or_method": "2023년 2분기 기준 과거 12개월 실제 순이익 4,500,303천원 × 23.19배. 주당 평가가격 6,395원.",
+      "ipo_status_anchor": {
+        "page": 25,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 180,
+        "quote": "적용 순이익은 2023년 2분기 기준 과거 12개월(LTM) 당기순이익입니다."
+      },
+      "adopted_per_anchor": {
+        "page": 180,
+        "quote": "23.19 배"
+      },
+      "adopted_price_anchor": {
+        "page": 181,
+        "quote": "6,395원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230912&publicType=C001&sort=date&series=asc&textCrpCik=00866451&currentPage=1",
+      "history_response_sha256": "e19266754cb2b9045f947de8cf2113b96c194fdf95ef3596fad2556607025c26",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.12&textCrpCik=00866451&currentPage=1&maxResults=100",
+      "daily_sha256": "7e3f8e857cc528ba6c54ca6b3c88d764b22633409fffc16745a499a7c93b61b2",
+      "published_kst": "2023-09-12T17:30+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230912000404",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230912000404.pdf"
+    },
+    {
+      "receipt": "20230915000263",
+      "corp_code": "01540453",
+      "issuer": "에이직랜드",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230915000263&dcm_no=9432666",
+      "pdf_sha256": "a07ce5775d3dd289bacb8bae30a546e3078a6d08e78cbd2ce2e81bd626df35ea",
+      "pdf_pages": 617,
+      "family_metadata": [
+        {
+          "receipt": "20231031000244",
+          "caption": "2023.10.31 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231006000128",
+          "caption": "2023.10.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230915000263",
+          "caption": "2023.09.15 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-15",
+      "official_title": "에이직랜드/증권신고서(지분증권)/2023.09.15",
+      "status": "ELIGIBLE",
+      "reason": "2023년 반기 기준 과거 12개월의 실제 발행사 순이익에서 평가손익을 조정했다. 해당 PER 산정치를 희망 공모가액에 적용했다.",
+      "period_or_method": "2023년 반기 기준 과거 12개월 지배기업 소유주 귀속 실제 당기순이익을 조정한 6,175백만원 × 53.7배. 주당 30,998원으로 밴드 19,100~21,400원 산정.",
+      "ipo_status_anchor": {
+        "page": 36,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 352,
+        "quote": "적용 순이익은 2023년 반기 기준 과거 12개월의 지배기업 소유주 귀속 당기순이익입니다."
+      },
+      "adopted_per_anchor": {
+        "page": 352,
+        "quote": "53.7 배"
+      },
+      "adopted_price_anchor": {
+        "page": 352,
+        "quote": "상기 PER Valuation 결과를 적용한 ㈜에이직랜드의 희망 공모가액은 아래와 같습니다."
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230915&publicType=C001&sort=date&series=asc&textCrpCik=01540453&currentPage=1",
+      "history_response_sha256": "c43c34b301b6dade1102080afdf07e9649bea3c1302207af117889c039878392",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.15&textCrpCik=01540453&currentPage=1&maxResults=100",
+      "daily_sha256": "95328ee07033210df65bcee6c143470ff14131da778c90eb59477c74f60638dc",
+      "published_kst": "2023-09-15T15:30+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000263",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230915000263.pdf"
+    },
+    {
+      "receipt": "20230915000281",
+      "corp_code": "01085026",
+      "issuer": "유진테크놀로지",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230915000281&dcm_no=9432733",
+      "pdf_sha256": "434af89a11967718447b26cb5ff0bd4145aeca7732359f2831ec13aac16b4eaf",
+      "pdf_pages": 353,
+      "family_metadata": [
+        {
+          "receipt": "20231019000208",
+          "caption": "2023.10.19 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231005000149",
+          "caption": "2023.10.05 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230915000281",
+          "caption": "2023.09.15 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-15",
+      "official_title": "유진테크놀로지/증권신고서(지분증권)/2023.09.15",
+      "status": "ELIGIBLE",
+      "reason": "유진테크놀로지의 2023년 반기 말 최근 4개 분기 실제 지배기업 귀속 이익과 PER 27.03배로 산정된 주당 평가가액을 희망공모가액에 썼다.",
+      "period_or_method": "2022년 3분기~2023년 2분기 실적 5,386,034,982원 × 27.03배. 주당 20,879원으로 밴드 12,800~14,500원 산정.",
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 221,
+        "quote": "지배기업 당기순이익 5,386,034,982원 기준입니다."
+      },
+      "adopted_per_anchor": {
+        "page": 221,
+        "quote": "27.03배"
+      },
+      "adopted_price_anchor": {
+        "page": 222,
+        "quote": "20,879원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230915&publicType=C001&sort=date&series=asc&textCrpCik=01085026&currentPage=1",
+      "history_response_sha256": "d539fb37842a72e581d742c0153be8ad1c6bd3301e3c0ae823921a617b8c8a6d",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.15&textCrpCik=01085026&currentPage=1&maxResults=100",
+      "daily_sha256": "49d368fa75cae52b30c32b4ded49fad224763dab6938811f59b9ea2239c58935",
+      "published_kst": "2023-09-15T15:39+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000281",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230915000281.pdf"
+    },
+    {
+      "receipt": "20230918000204",
+      "corp_code": "01226270",
+      "issuer": "스톰테크",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230918000204&dcm_no=9434018",
+      "pdf_sha256": "71af5b360fc8ba15fe78bd72e115d38ca03aa461bcd2c147a88afa6315dc9dba",
+      "pdf_pages": 312,
+      "family_metadata": [
+        {
+          "receipt": "20231108000512",
+          "caption": "2023.11.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231108000232",
+          "caption": "2023.11.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231012000098",
+          "caption": "2023.10.12 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231005000166",
+          "caption": "2023.10.05 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230918000204",
+          "caption": "2023.09.18 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-18",
+      "official_title": "스톰테크/증권신고서(지분증권)/2023.09.18",
+      "status": "ELIGIBLE",
+      "reason": "발행사의 반기 말 최근 12개월 당기순이익과 PER 18.28배를 활용한 주당 평가가액이 희망 공모가액의 기준이다.",
+      "period_or_method": "2023년 반기 기준 과거 12개월 실제 당기순이익 9,515백만원 × 18.28배. 주당 평가가액 12,934원으로 밴드 8,000~9,500원 산정.",
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 188,
+        "quote": "적용순이익은 2023년반기기준 최근 12개월 당기순이익을 적용하였습니다."
+      },
+      "adopted_per_anchor": {
+        "page": 188,
+        "quote": "18.28"
+      },
+      "adopted_price_anchor": {
+        "page": 190,
+        "quote": "주당평가가액은 12,934원으로 산정하였으며"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230918&publicType=C001&sort=date&series=asc&textCrpCik=01226270&currentPage=1",
+      "history_response_sha256": "9b96c6c935a67777a5161f14459f24af3a4cb3bf3f2fb6ec409b5e5a5a832305",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.18&textCrpCik=01226270&currentPage=1&maxResults=100",
+      "daily_sha256": "5a95f156e5bade4b16788cf84c8fb400383ed5f64998b219cf9a92ddc611da40",
+      "published_kst": "2023-09-18T16:00+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230918000204",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230918000204.pdf"
+    },
+    {
+      "receipt": "20230918000269",
+      "corp_code": "01497124",
+      "issuer": "캡스톤파트너스",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230918000269&dcm_no=9434312",
+      "pdf_sha256": "d8264fe4bbb588f4f2582c927a271fc3161e356ab494fc98fffe00a43f862e8b",
+      "pdf_pages": 311,
+      "family_metadata": [
+        {
+          "receipt": "20231103000318",
+          "caption": "2023.11.03 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231025000554",
+          "caption": "2023.10.25 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231005000514",
+          "caption": "2023.10.05 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230918000269",
+          "caption": "2023.09.18 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-18",
+      "official_title": "캡스톤파트너스/증권신고서(지분증권)/2023.09.18",
+      "status": "ELIGIBLE",
+      "reason": "두 개의 발행사 실적 기간별 PER 평가액을 산술평균했고, 그 주당액을 공모가액 밴드에 반영했다. 두 구성 값 모두 과거 실적에서 산출했다.",
+      "period_or_method": "2022년 실제 당기순이익 6,124백만원 × 14.45배와 2023년 반기 실제 이익 연환산 1,881백만원 × 17.67배의 기업가치 산술평균. 주당 4,229원으로 밴드 3,200~3,600원 산정.",
+      "ipo_status_anchor": {
+        "page": 28,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 183,
+        "quote": "2023년 반기는 연환산 순이익"
+      },
+      "adopted_per_anchor": {
+        "page": 183,
+        "quote": "인 17.67배를 적용한 기업가치평가액 33,238백만원을 산술평균하여 산출한 60,856백만원"
+      },
+      "adopted_price_anchor": {
+        "page": 184,
+        "quote": "4,229원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230918&publicType=C001&sort=date&series=asc&textCrpCik=01497124&currentPage=1",
+      "history_response_sha256": "9b7a7acb47d647c910b8a28f271547b8724a5784835cb5185906b2461ed19e4a",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.18&textCrpCik=01497124&currentPage=1&maxResults=100",
+      "daily_sha256": "529e839596f3fe0624bb5aea3a18006dab119d7eaea9dcf610a079f2bad3ef9e",
+      "published_kst": "2023-09-18T16:47+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230918000269",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230918000269.pdf"
+    },
+    {
+      "receipt": "20230926000349",
+      "corp_code": "00923516",
+      "issuer": "메가터치",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230926000349&dcm_no=9443101",
+      "pdf_sha256": "d39389c0ff76b7548e60b19cf4e318a65eee3137592fb676a14e7f78ffde9fc6",
+      "pdf_pages": 387,
+      "family_metadata": [
+        {
+          "receipt": "20231030000175",
+          "caption": "2023.10.30 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231017000257",
+          "caption": "2023.10.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230926000349",
+          "caption": "2023.09.26 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-09-26",
+      "official_title": "메가터치/증권신고서(지분증권)/2023.09.26",
+      "status": "ELIGIBLE",
+      "period_or_method": "2023년 반기 기준 최근 네 분기 실제 발행사 순이익 PER",
+      "reason": "발행사 순이익 3,366백만원과 30.79배로 주당 4,989원을 구하고 희망 밴드 출발값으로 사용했다.",
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 264,
+        "quote": "적용순이익은 동사의 2023년 반기 LTM 기준의 적용 순이익으로"
+      },
+      "adopted_per_anchor": {
+        "page": 264,
+        "quote": "적용 PER 30.79배"
+      },
+      "adopted_price_anchor": {
+        "page": 265,
+        "quote": "주당 평가가액 4,989원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20230926&publicType=C001&sort=date&series=asc&textCrpCik=00923516&currentPage=1",
+      "history_response_sha256": "a135fd2024353babb26941e8737563f3f7c6975dd9a444e11199873ea5b6f78f",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.09.26&textCrpCik=00923516&currentPage=1&maxResults=100",
+      "daily_sha256": "d678c89e85ba6383555a8b46c7d5a57e2f8cff1edf8883c14f52ddf1130e0d2b",
+      "published_kst": "2023-09-26T14:56+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230926000349",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20230926000349.pdf"
+    },
+    {
+      "receipt": "20231013000470",
+      "corp_code": "00367710",
+      "issuer": "동인기연",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231013000470&dcm_no=9459267",
+      "pdf_sha256": "b5d39375e290a45cb3e0a79ef3c293fa7ebf60f63a26887402f895bbc8c18cb9",
+      "pdf_pages": 581,
+      "family_metadata": [
+        {
+          "receipt": "20231108000361",
+          "caption": "2023.11.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231102000208",
+          "caption": "2023.11.02 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231013000470",
+          "caption": "2023.10.13 증권신고서(지분증권)"
+        }
+      ],
+      "date_kst": "2023-10-13",
+      "official_title": "동인기연/증권신고서(지분증권)/2023.10.13",
+      "status": "ELIGIBLE",
+      "period_or_method": "2023년 반기 기준 최근 네 분기 실제 발행사 순이익 PER",
+      "reason": "발행사 적용이익 26,803,963,724원에 12.22배를 적용한 주당 50,310원이 실제 밴드의 기준이다.",
+      "ipo_status_anchor": {
+        "page": 37,
+        "quote": "본 주식은 유가증권시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 325,
+        "quote": "적용순이익은 동사의 2023년 반기 LTM 기준의 적용 순이익으로"
+      },
+      "adopted_per_anchor": {
+        "page": 325,
+        "quote": "적용 PER 12.22"
+      },
+      "adopted_price_anchor": {
+        "page": 326,
+        "quote": "주당 평가가액 50,310 원"
+      },
+      "history_url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20140101&endDate=20231013&publicType=C001&sort=date&series=asc&textCrpCik=00367710&currentPage=1",
+      "history_response_sha256": "7f3848438fcc3dfb50559fe4135b823d2794da0e8be604a97c8d4924eb35369f",
+      "lookback_start": "2014-01-01",
+      "earlier_public_case_reports": [],
+      "daily_url": "https://dart.fss.or.kr/dsac001/mainAll.do?selectDate=2023.10.13&textCrpCik=00367710&currentPage=1&maxResults=100",
+      "daily_sha256": "55616b96b8900248968a4aa0b99c2378f0f0a78608d58f437c5a0f1db80ab794",
+      "published_kst": "2023-10-13T16:42+09:00",
+      "time_precision": "minute",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231013000470",
+      "shared_cache": "%TEMP%/ipo_a1_initial_registrations/20231013000470.pdf"
+    }
+  ],
+  "stop_receipt": "20231013000470",
+  "known_model_calls": 0
+}

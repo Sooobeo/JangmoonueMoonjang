@@ -1,0 +1,2309 @@
+{
+  "cases": {
+    "GIGAVIS": {
+      "case": "GIGAVIS",
+      "items": [
+        {
+          "item_id": "GIGAVIS-01",
+          "question_type": "J1",
+          "question": "발행사 적용 이익의 기간",
+          "a0": {
+            "state": "수용",
+            "reason": "발행사와 비교기업 모두 2022년 온기 이익을 기준으로 하여 기간이 일치한다. 다만 발행사 이익에는 별도 조정이 적용됐다.",
+            "evidence_ids": [
+              "A01"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "수용",
+            "reason": "제공된 가장 최근의 완결 연간 자료인 2022년을 사용한다. 2020·2021년 비교 수치는 재작성됐고 감사받지 않았다.",
+            "evidence_ids": [
+              "E2"
+            ],
+            "comparable": true,
+            "scope": "발행사 이익 기간",
+            "native_choice": "LATEST_COMPLETE_FY",
+            "original_choice": "LATEST_COMPLETE_FY",
+            "original_mapping_physical_page": 234,
+            "limit": "발행사 자료로 기간·귀속에 관한 독립 제안의 방향만 비교한다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-02",
+          "question_type": "J1",
+          "question": "이익의 회계상 귀속 범위",
+          "a0": {
+            "state": "미확인",
+            "reason": "비교기업은 지배지분 귀속 순이익을 사용했으나, 제시된 해당 설명만으로 발행사 이익의 연결·별도 및 지배지분 귀속 범위를 확인하기 어렵다.",
+            "evidence_ids": [
+              "A02"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "수용",
+            "reason": "2022년 개별 재무제표가 있고 연결 요약재무정보는 해당사항이 없다.",
+            "evidence_ids": [
+              "E2"
+            ],
+            "comparable": true,
+            "scope": "발행사 이익 귀속",
+            "native_choice": "STANDALONE",
+            "original_choice": "STANDALONE",
+            "original_mapping_physical_page": 295,
+            "limit": "발행사 자료로 기간·귀속에 관한 독립 제안의 방향만 비교한다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-03",
+          "question_type": "J3",
+          "question": "비교기업 기준주가의 관측기간·선택",
+          "a0": {
+            "state": "수용",
+            "reason": "평가기준일을 포함한 1개월 평균, 1주일 평균 및 기준일 주가 중 최저값을 사용해 단기 주가 변동의 영향을 완화했다.",
+            "evidence_ids": [
+              "A03"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-04",
+          "question_type": "J3",
+          "question": "비교기업 PER의 집계 방식",
+          "a0": {
+            "state": "수용",
+            "reason": "네 비교기업의 PER을 동일 비중으로 평균한 값은 반올림하면 21.80배다. 기업별 배수 차이는 크지만 계산 자체는 일치한다.",
+            "evidence_ids": [
+              "A04"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "후보별 배수와 재무자료가 없어 평균이나 중앙값을 선택할 근거가 부족하다.",
+            "evidence_ids": [],
+            "comparable": false,
+            "scope": "집계",
+            "native_choice": "UNKNOWN",
+            "original_choice": "UNWEIGHTED_MEAN",
+            "original_mapping_physical_page": 234,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-05",
+          "question_type": "J3",
+          "question": "발행사 적용 주식 수",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "기재된 발행주식총수 10,605,000주와 신주모집 2,218,258주의 합은 12,823,258주로, 적용 주식수 12,675,758주와 147,500주 차이가 난다. 차이에 대한 설명이 필요하다.",
+            "evidence_ids": [
+              "A05"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-06",
+          "question_type": "J3",
+          "question": "주당 평가가액 계산",
+          "a0": {
+            "state": "수용",
+            "reason": "평가 시가총액을 기재된 적용 주식수로 나눈 주당 65,082원은 반올림 범위에서 맞는다. 다만 적용 주식수 자체의 불일치는 별도로 검토해야 한다.",
+            "evidence_ids": [
+              "A06"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-07",
+          "question_type": "J3",
+          "question": "공모가 할인율과 밴드",
+          "a0": {
+            "state": "수용",
+            "reason": "주당 평가가액 65,082원에 할인율 47.14%와 39.00%를 각각 적용하면 공모희망가액 하단과 상단이 제시된 밴드와 부합한다.",
+            "evidence_ids": [
+              "A07"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-08",
+          "question_type": "J1",
+          "question": "주식보상비용 또는 파생상품 손익 조정",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "일회성·비현금 비용이라는 조정 근거는 있으나, 임직원 보상비용을 당기순이익에 전액 가산하면 적용 이익이 크게 증가한다. 비교기업은 공시 순이익을 사용하므로 조정의 비대칭성과 법인세 효과를 함께 검토할 필요가 있다.",
+            "evidence_ids": [
+              "A08"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "조정할 비용의 성격과 금액에 관한 자료가 없다. 비경상 항목과 조정의 지속가능성에 관한 자료가 필요하다.",
+            "evidence_ids": [
+              "E3"
+            ],
+            "comparable": false,
+            "scope": "비경상 손익 조정",
+            "native_choice": "UNKNOWN",
+            "original_choice": "ADJUST_DOCUMENTED_ITEMS",
+            "original_mapping_physical_page": 234,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-09",
+          "question_type": "J2",
+          "question": "고영테크놀러지의 사업 비교 적합성",
+          "a0": {
+            "state": "수용",
+            "reason": "광학 기술과 반도체 기판 검사라는 공통점이 있다. 고영은 주로 외관, 발행사는 내층을 검사하는 차이가 있어 비교 시 이를 감안해야 한다.",
+            "evidence_ids": [
+              "A09"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "생산용 자동광학검사장비라는 공통점은 있으나, 납도포검사장비가 연결 매출의 39.6%를 차지한다. 패키지 기판 검사와의 실제 매출·고객 유사성 및 재무조건을 확인해야 한다.",
+            "evidence_ids": [
+              "E1",
+              "E6"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-10",
+          "question_type": "J2",
+          "question": "파크시스템스의 사업 비교 적합성",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "반도체 계측과 수율 관리라는 연관성은 있으나, 파크시스템스의 주력인 AFM은 탐침과 시료 간 상호작용을 이용하는 계측 장비로 발행사의 광학 영상 검사와 기술 원리가 다르다. 연구용 장비 매출도 상당해 비교 적합성에 중요한 제약이 있다.",
+            "evidence_ids": [
+              "A10"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "원자현미경 중심 사업으로 발행기업의 패키지 기판 결함 검사·수리 설비와 제품 및 용도가 다르다. 연구용 매출도 약 30%를 차지한다.",
+            "evidence_ids": [
+              "E1",
+              "E5"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "EXCLUDE"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-11",
+          "question_type": "J2",
+          "question": "넥스틴의 사업 비교 적합성",
+          "a0": {
+            "state": "수용",
+            "reason": "넥스틴은 광학 패턴 결함 검사 장비를 제조해 검사 기술의 연관성이 있다. 다만 주로 웨이퍼 전공정에 쓰인다는 차이는 비교 시 유의해야 한다.",
+            "evidence_ids": [
+              "A11"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "광학 방식으로 반도체 회로패턴 결함을 검출한다는 점은 유사하다. 다만 웨이퍼 전공정과 패키지 기판 검사라는 공정 차이가 있어 매출 구성, 고객군 및 재무조건을 확인해야 한다.",
+            "evidence_ids": [
+              "E1",
+              "E8"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "GIGAVIS-12",
+          "question_type": "J2",
+          "question": "인텍플러스의 사업 비교 적합성",
+          "a0": {
+            "state": "수용",
+            "reason": "인텍플러스는 광학 검사와 FC-BGA용 기판 검사라는 공통점이 있다. 다만 외관 검사 중심으로 발행사의 내층 검사와 기술적 차이가 있다.",
+            "evidence_ids": [
+              "A12"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "수용",
+            "reason": "사업 유사성에 근거한 잠정 포함이다. 반도체 패키지 등 외관검사장비 매출 비중이 커 발행기업의 패키지 기판 광학검사 사업과 가깝다. 다만 플립칩 장비도 매출의 31.7%이고 디스플레이·이차전지 장비도 판매하므로 사업 혼합 차이가 배수에 영향을 줄 수 있다. 재무조건과 배수 확인은 필요하다.",
+            "evidence_ids": [
+              "E1",
+              "E4"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "INCLUDE"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        }
+      ],
+      "sources": {
+        "E1": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "source_group": "20230331002184",
+          "physical_page": 261,
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "published": "2023-03-31",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비와 불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다.",
+          "verbatim_anchors": [
+            "반도체 패키지용 기판 제조 공정",
+            "불량의 수리를 통한 수율 향상",
+            "자동화 설비",
+            "소프트웨어"
+          ]
+        },
+        "E2": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "source_group": "20230331002184",
+          "physical_page": 295,
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "published": "2023-03-31",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "2022년 K-IFRS 개별 연간 재무제표가 있다. 연결 요약재무정보는 해당사항이 없으며, 2021·2020년 비교 수치는 재작성되어 감사받지 않은 재무제표로 제시됐다.",
+          "verbatim_anchors": [
+            "요약개별재무정보",
+            "감사받지 않은",
+            "해당사항이 없습니다"
+          ]
+        },
+        "E3": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "source_group": "20230331002184",
+          "physical_page": 298,
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "published": "2023-03-31",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "2022년 영업이익은 33,825,685,615원, 법인세비용은 6,185,959,981원이었다.",
+          "verbatim_anchors": [
+            "33,825,685,615",
+            "6,185,959,981"
+          ]
+        },
+        "E4": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230320000930&dcmNo=9076888&eleId=11&offset=103685&length=8288&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/064290/products.html",
+          "sha256": "c744bcc4bd536536142513123852c1eacc626ff21ab5bb6142ed327775807fec",
+          "source_group": "20230320000930",
+          "published": "20230320",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230320000930",
+          "excerpt": "2022년 반도체 패키지·SSD·메모리 모듈 외관검사장비가 매출 59.0%, 반도체 플립칩 외관검사장비가 31.7%였다. 디스플레이와 이차전지 외관검사 장비도 판매했다.",
+          "verbatim_anchors": [
+            "반도체 PKG, SSD, MEMORY MODULE 외관 검사장비",
+            "70,062 59.0(%)",
+            "37,689 31.7(%)",
+            "2차전지 CELL 외관검사"
+          ]
+        },
+        "E5": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230320001011&dcmNo=9077301&eleId=10&offset=61317&length=2030&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/140860/business.html",
+          "sha256": "0a23fdbfc5bb083dfe9b633a206d68e18e6dbee079826aa6af8b40f0bb7fac70",
+          "source_group": "20230320001011",
+          "published": "20230320",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230320001011",
+          "excerpt": "원자현미경을 개발·생산한다. 연결 누적 매출 중 연구용 약 30%, 산업용 약 65%, 기타 소모품·서비스 약 4%였다.",
+          "verbatim_anchors": [
+            "원자현미경",
+            "연구용 약 30%, 산업용 약 65%",
+            "기타 소모품 및 서비스가 약 4%"
+          ]
+        },
+        "E6": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230314001195&dcmNo=9055587&eleId=11&offset=78407&length=5891&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/098460/products.html",
+          "sha256": "75c1c91cddbccbda29149c843a77533993df19085f53aee0346c6ecef2177b83",
+          "source_group": "20230314001195",
+          "published": "20230314",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230314001195",
+          "excerpt": "전자제품·반도체 생산용 3차원 검사장비를 판매한다. 2022년 연결 매출에서 3D 자동광학검사장비는 51.0%, 3D 납도포검사장비는 39.6%였다.",
+          "verbatim_anchors": [
+            "3D SPI, 3D AOI",
+            "140,603 51.0%",
+            "108,969 39.6%"
+          ]
+        },
+        "E7": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230317000628&dcmNo=9070166&eleId=10&offset=63187&length=1656&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/322310/business.html",
+          "sha256": "eecd449e24fe66311ecabf629ac2d4e54c76811f5a0b4b8b86ffc48d76b35535",
+          "source_group": "20230317000628",
+          "published": "20230317",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230317000628",
+          "excerpt": "반도체 노광공정에서 웨이퍼의 상부 회로패턴과 하부 회로패턴 간 정렬 상태를 계측하는 장비가 가장 큰 매출 비중을 차지한다.",
+          "verbatim_anchors": [
+            "반도체 제조 전공정 중 노광공정 장비",
+            "가장 많은 매출 비중을 차지하고 있는 Overlay 계측 장비",
+            "하부 패턴과 상부 패턴 간의 정렬상태"
+          ]
+        },
+        "E8": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230317000481&dcmNo=9069617&eleId=10&offset=79876&length=2354&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/348210/business.html",
+          "sha256": "7d0bf3e77f9b2536e6b699c1080791a3cdd5fca14fb7f0c0896cf7a00e1b3d26",
+          "source_group": "20230317000481",
+          "published": "20230317",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230317000481",
+          "excerpt": "반도체 전공정 웨이퍼에 형성된 전기회로 패턴의 결함을 검출하는 광학 검사장비를 제조한다.",
+          "verbatim_anchors": [
+            "반도체 전(前)공정 패턴 결함 검사 장비",
+            "웨이퍼 표면에 형성된 전기 회로",
+            "당사가 제조하고 있는 광학 검사 장비"
+          ]
+        },
+        "A01": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 233,
+          "excerpt": "동사의 2022년 온기 당기순이익에 적용하였습니다.",
+          "origin": "original_filing"
+        },
+        "A02": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 233,
+          "excerpt": "비교회사의 2022년 온기 당기순이익(지배지분)",
+          "origin": "original_filing"
+        },
+        "A03": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 232,
+          "excerpt": "기준주가=Min[A,B,C]",
+          "origin": "original_filing"
+        },
+        "A04": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 234,
+          "excerpt": "적용 PER 배수                                     21.80배",
+          "origin": "original_filing"
+        },
+        "A05": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 235,
+          "excerpt": "2,218,258주를 합산하여 총 12,675,758주를 적용하였습니다.",
+          "origin": "original_filing"
+        },
+        "A06": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 234,
+          "excerpt": "주당 평가가액(원)                    (E)=(C)÷(D)                 65,082",
+          "origin": "original_filing"
+        },
+        "A07": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 235,
+          "excerpt": "공모희망가액 밴드                                       34,400 ~ 39,700 원",
+          "origin": "original_filing"
+        },
+        "A08": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 235,
+          "excerpt": "해당 비용을 당기순이익에 가산",
+          "origin": "original_filing"
+        },
+        "A09": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 228,
+          "excerpt": "기가비스의 장비는 반도체 기판의 내층을 검사한다는 측면에서 차이점이 존재",
+          "origin": "original_filing"
+        },
+        "A10": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 229,
+          "excerpt": "원자현미경(AFM)을 제조하는 사업",
+          "origin": "original_filing"
+        },
+        "A11": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 230,
+          "excerpt": "넥스틴의 장비는 전공정에서 주로 사용된다는 점",
+          "origin": "original_filing"
+        },
+        "A12": {
+          "source_group": "20230331002184",
+          "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+          "physical_page": 231,
+          "excerpt": "기가비스는 반도체 기판 내층의 회로와 선폭을 검사한다는 측면에서 기술적 차이점을 보이고 있습니다.",
+          "origin": "original_filing"
+        }
+      },
+      "source_index": "reports/a1_current/validation_roles/GIGAVIS/c_private.json",
+      "supplementary": [
+        {
+          "name": "오로스테크놀로지",
+          "item_id": null,
+          "ticker": "322310",
+          "supplementary": true,
+          "decision": {
+            "candidate_id": "C4",
+            "decision": "EXCLUDE",
+            "reason": "주력 장비는 웨이퍼 노광공정의 회로패턴 정렬 계측용으로, 발행기업의 패키지 기판 결함 검사·수리와 공정 및 기능이 다르다.",
+            "evidence_ids": [
+              "E1",
+              "E7"
+            ]
+          }
+        }
+      ],
+      "aligned_acceptance_j2": [
+        "GIGAVIS-12"
+      ],
+      "official_H1_eligible": true,
+      "b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "common_b_rules": [
+        {
+          "rule": "price_at_print_precision",
+          "status": "통과",
+          "delta": "0.34063793265854397030931",
+          "tolerance": "0.5394453728132076992949849626",
+          "recalculated": "65082.34063793265854397030931"
+        }
+      ],
+      "price_impact_fraction": {},
+      "proxy_role_coverage": false,
+      "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+      "run_paths": {
+        "A0": "reports/a1_current/validation_roles/official/GIGAVIS/A0/result.json",
+        "C": "reports/a1_current/validation_roles/official/GIGAVIS/C_neutral/result.json"
+      },
+      "review": [
+        {
+          "round": 1,
+          "check": "역할별 별도 세션, 도구 실행 없음, 입력 해시와 개별 원문 근거 확인",
+          "remedy": "회사·선정 단서가 있는 운영자 자료는 C 입력에서 제외했다."
+        },
+        {
+          "round": 2,
+          "check": "가린 후보 판정과 15개 해당 항목/4개 부가 후보를 운영자 단계에서 대조",
+          "remedy": "C의 REVIEW는 유보 묶음으로 매핑해 단순 증거 부족을 반대로 분류하지 않았다."
+        },
+        {
+          "round": 3,
+          "check": "모든 원본 항목과 참조 근거 ID의 존재, 공통 B와 역할의 분리 확인",
+          "remedy": "후보별 시장배수·주식수·할인율과 구체적인 비경상 항목이 없는 C에 확정 가격영향·방법 일치 판정을 부여하지 않았다."
+        }
+      ]
+    },
+    "TRUEN": {
+      "case": "TRUEN",
+      "items": [
+        {
+          "item_id": "TRUEN-01",
+          "question_type": "J1",
+          "question": "발행사 적용 이익의 기간",
+          "a0": {
+            "state": "수용",
+            "reason": "최근 완료 사업연도인 2022년 당기순이익을 적용해 추정이익 사용에 따른 불확실성을 피했습니다.",
+            "evidence_ids": [
+              "A01"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "제공된 2022년 연간 이익을 잠정 사용한다. 기준일이 없어 이를 최근 완료 회계연도라고 확정할 수 없다.",
+            "evidence_ids": [
+              "E3",
+              "E4"
+            ],
+            "comparable": false,
+            "scope": "발행사 이익 기간",
+            "native_choice": "OTHER",
+            "original_choice": "LATEST_COMPLETE_FY",
+            "original_mapping_physical_page": 195,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-02",
+          "question_type": "J1",
+          "question": "이익의 회계상 귀속 범위",
+          "a0": {
+            "state": "미확인",
+            "reason": "비교기업의 연결 기준 이익은 지배지분 순이익이라고 명시했지만, 제시된 발행사 적용 이익 7,633백만원의 개별·연결 및 지배지분 귀속 범위는 확인되지 않습니다.",
+            "evidence_ids": [
+              "A02"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "수용",
+            "reason": "별도 순이익만 제공되어 잠정 선택한다. 종속기업과 연결·지배기업 귀속이익 자료를 확인한 후 확정해야 한다.",
+            "evidence_ids": [
+              "E3",
+              "E4"
+            ],
+            "comparable": true,
+            "scope": "발행사 이익 귀속",
+            "native_choice": "STANDALONE",
+            "original_choice": "STANDALONE",
+            "original_mapping_physical_page": 263,
+            "limit": "발행사 자료로 기간·귀속에 관한 독립 제안의 방향만 비교한다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-03",
+          "question_type": "J3",
+          "question": "비교기업 기준주가의 관측기간·선택",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "단기 변동성을 줄이려는 취지는 있으나 네 관측값 중 최저값을 택하면 하방 편향이 생깁니다. 특히 위세아이텍은 기준주가 16,943원이 기준일 종가 20,750원보다 크게 낮습니다.",
+            "evidence_ids": [
+              "A03"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-04",
+          "question_type": "J3",
+          "question": "비교기업 PER의 집계 방식",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "단순평균 22.59배의 계산은 맞지만, 사업 유사성이 낮은 위세아이텍의 32.33배가 평균을 높입니다. 나머지 두 영상보안 기업만의 평균은 약 17.73배입니다.",
+            "evidence_ids": [
+              "A04"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "가중 근거가 없어 적격 후보의 PER을 동일 가중하는 방식을 잠정 제안한다. 후보 재무정보와 배수 확보 후 적용 가능성을 확인해야 한다.",
+            "evidence_ids": [
+              "E2",
+              "E6",
+              "E7",
+              "E8"
+            ],
+            "comparable": false,
+            "scope": "집계",
+            "native_choice": "UNWEIGHTED_MEAN",
+            "original_choice": "UNWEIGHTED_MEAN",
+            "original_mapping_physical_page": 195,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-05",
+          "question_type": "J3",
+          "question": "발행사 적용 주식 수",
+          "a0": {
+            "state": "수용",
+            "reason": "공모 전 주식에 공모주식과 주관사 의무인수분을 더한 상장예정 주식 수를 분모로 사용했으며 합계도 맞습니다. 제시된 자료에서 추가 희석요소의 누락은 확인되지 않습니다.",
+            "evidence_ids": [
+              "A05"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-06",
+          "question_type": "J3",
+          "question": "주당 평가가액 계산",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "172,471백만원을 10,999,650주로 나눈 약 15,680원은 타당하지만, 같은 쪽의 밴드 산출 기준은 15,578원으로 달라 불일치합니다.",
+            "evidence_ids": [
+              "A06"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-07",
+          "question_type": "J3",
+          "question": "공모가 할인율과 밴드",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "1만~1만2천원의 할인율 36.22%~23.47%는 약 15,680원 기준으로 계산됩니다. 공시상 밴드의 기준인 15,578원에 적용하면 약 35.81%~22.97%여서 일치하지 않습니다.",
+            "evidence_ids": [
+              "A07"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-08",
+          "question_type": "J2",
+          "question": "포커스에이치엔에스의 사업 비교 적합성",
+          "a0": {
+            "state": "수용",
+            "reason": "AI 카메라와 녹화장비가 매출의 큰 부분을 차지해 발행사의 영상보안 사업과 제품상 비교 가능성이 있습니다. 다만 제품별 비중 차이는 유의해야 합니다.",
+            "evidence_ids": [
+              "A08"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "보안 카메라와 네트워크 카메라 사업은 발행기업과 유사하다. 반면 영상저장장치와 물리보안 솔루션도 취급하므로 카메라 매출 비중이 낮다면 비교성이 약해질 수 있다. 제품별 매출과 재무조건 확인이 필요하다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E7"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-09",
+          "question_type": "J2",
+          "question": "아이디스의 사업 비교 적합성",
+          "a0": {
+            "state": "수용",
+            "reason": "카메라, 영상보안 녹화장비 및 영상관리시스템을 판매하므로 발행사의 영상보안 사업과 비교할 구체적 근거가 있습니다.",
+            "evidence_ids": [
+              "A09"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "IP 카메라와 영상보안 제품을 개발·생산·판매하므로 사업상 유사성이 높다. 다만 레코더와 영상관리 소프트웨어의 매출 비중이 크다면 카메라 중심 발행기업과 차이가 생길 수 있다. 제품별 매출과 재무조건 확인이 필요하다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E8"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "TRUEN-10",
+          "question_type": "J2",
+          "question": "위세아이텍의 사업 비교 적합성",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "빅데이터와 AI라는 기술적 접점은 있으나 매출은 빅데이터 분석·품질과 AI 개발 플랫폼 중심입니다. 영상보안 카메라 중심 발행사와 제품·시장 유사성이 제한적입니다.",
+            "evidence_ids": [
+              "A10"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "AI 개발·데이터 분석 소프트웨어 중심으로, IP 카메라가 매출의 대부분인 발행기업과 주력 제품 및 매출원이 다르다. 직접 비교기업으로 보기 어렵다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E5"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "EXCLUDE"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        }
+      ],
+      "sources": {
+        "E1": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "source_group": "20230404002347",
+          "physical_page": 219,
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "published": "2023-04-04",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "디지털 영상감시시스템과 IoT를 영위한다. IP 카메라, 영상 압축·전송과 스트리밍 제품을 개발한다.",
+          "verbatim_anchors": [
+            "디지털 영상감시시스템 사업과 IoT",
+            "IP 카메라",
+            "영상스트리밍솔루션"
+          ]
+        },
+        "E2": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "source_group": "20230404002347",
+          "physical_page": 226,
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "published": "2023-04-04",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "2022년 매출에서 IP 카메라는 81.94%, 영상 스트리밍 솔루션은 7.97%, IoT 기기는 8.46%였다.",
+          "verbatim_anchors": [
+            "81.94%",
+            "7.97%",
+            "8.46%"
+          ]
+        },
+        "E3": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "source_group": "20230404002347",
+          "physical_page": 263,
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "published": "2023-04-04",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "K-IFRS 별도 요약재무정보에서 2022년 12월 연간 매출 38,831,801천원, 영업이익 9,009,324천원을 제시했다.",
+          "verbatim_anchors": [
+            "요약별도재무정보",
+            "38,831,801",
+            "9,009,324"
+          ]
+        },
+        "E4": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "source_group": "20230404002347",
+          "physical_page": 264,
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "published": "2023-04-04",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "2022년 별도 당기순이익은 7,633,487천원이었다.",
+          "verbatim_anchors": [
+            "당기순이익 7,633,487"
+          ]
+        },
+        "E5": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230316000868&dcmNo=9064702&eleId=10&offset=65441&length=1413&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/065370/business.html",
+          "sha256": "e6eff4a95c542d83fcb4aebc7df40c8984f6fffce69ccd1c2da39e5475973f7c",
+          "source_group": "20230316000868",
+          "published": "20230316",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230316000868",
+          "excerpt": "코딩 없이 다양한 산업 데이터를 학습시키는 AI 개발 플랫폼, 빅데이터의 품질관리 및 분석 소프트웨어를 공급한다.",
+          "verbatim_anchors": [
+            "코딩없이 AI 프로젝트를 수행",
+            "빅데이터 분야는 빅데이터 품질관리와 분석",
+            "토탈 소프트웨어(SW)"
+          ]
+        },
+        "E6": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230316000688&dcmNo=9063882&eleId=11&offset=69189&length=3520&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/303530/products.html",
+          "sha256": "f535e4611f7790196e125332a606dd0399484f05547fb7ebe8a69aeaea2c74e6",
+          "source_group": "20230316000688",
+          "published": "20230316",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230316000688",
+          "excerpt": "공공기관에 보안용 하드웨어·소프트웨어의 통합 영상관제 플랫폼을 공급한다. 2022년 매출 구성표에서 영상인식은 80.43%, 데이터 플랫폼은 12.50%였다.",
+          "verbatim_anchors": [
+            "주로 보안 관련 솔루션을 공공부문에 제공",
+            "영상인식 61,459 80.43",
+            "데이터 플랫폼 9,554 12.50"
+          ]
+        },
+        "E7": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230322000076&dcmNo=9086568&eleId=10&offset=78045&length=1472&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/331380/business.html",
+          "sha256": "b316f56bce00180be3196492041be21e39b1806f2b7feb6355ad291bdbebac48",
+          "source_group": "20230322000076",
+          "published": "20230322",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230322000076",
+          "excerpt": "보안용 카메라와 영상저장장치를 제조하고 물리보안 솔루션을 개발·판매한다. 영상저장장치와 네트워크·인공지능 카메라 등을 취급한다.",
+          "verbatim_anchors": [
+            "보안용 카메라 제조, 보안용 저장장치 제조",
+            "영상저장장치(DVR, NVR), 카메라(Analog, IP, AI)"
+          ]
+        },
+        "E8": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000600&dcmNo=9080126&eleId=10&offset=89185&length=1518&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/143160/business.html",
+          "sha256": "1c5f0a52c91218c2860990923f18af57deb6d76b62bf0635e7de798775ceb6e2",
+          "source_group": "20230321000600",
+          "published": "20230321",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321000600",
+          "excerpt": "IP 기반 영상보안용 레코더, 고해상도 IP 카메라와 영상관리 소프트웨어를 개발·생산·판매한다.",
+          "verbatim_anchors": [
+            "레코더 및 고해상도 IP 카메라와 VMS를 포함한 영상보안 토탈 솔루션을 개발, 생산, 판매"
+          ]
+        },
+        "A01": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 195,
+          "excerpt": "2022년 당기순이익              7,633 백만원",
+          "origin": "original_filing"
+        },
+        "A02": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 194,
+          "excerpt": "지배지분 순이익 기준으로 계산하였",
+          "origin": "original_filing"
+        },
+        "A03": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 192,
+          "excerpt": "기준주가 (Min[(A), (B), (C), (D)])",
+          "origin": "original_filing"
+        },
+        "A04": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 194,
+          "excerpt": "위세아이텍               3,870      16,943       7,383,954     125,107     32.33",
+          "origin": "original_filing"
+        },
+        "A05": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 195,
+          "excerpt": "공모 전 주식수 8,424,650주 + 공모주식 2,500,000주 + 주관사",
+          "origin": "original_filing"
+        },
+        "A06": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 195,
+          "excerpt": "상대가치 주당 평가가액                            15,578 원",
+          "origin": "original_filing"
+        },
+        "A07": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 195,
+          "excerpt": "주당 평가가액 15,578원을 기초로 하여 36.22% ~ 23.47%",
+          "origin": "original_filing"
+        },
+        "A08": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 188,
+          "excerpt": "AI CAM 46.1%, NVR 29.6%, DVR 4.8%, IP CAM",
+          "origin": "original_filing"
+        },
+        "A09": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 188,
+          "excerpt": "영상보안Recorder 25.1%, Camera 47.7%, VMS 등,",
+          "origin": "original_filing"
+        },
+        "A10": {
+          "source_group": "20230404002347",
+          "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+          "physical_page": 189,
+          "excerpt": "빅데이터(분석과 품질) 67.3%, AI 개발 플랫폼",
+          "origin": "original_filing"
+        }
+      },
+      "source_index": "reports/a1_current/validation_roles/TRUEN/c_private.json",
+      "supplementary": [
+        {
+          "name": "이노뎁",
+          "item_id": null,
+          "ticker": "303530",
+          "supplementary": true,
+          "decision": {
+            "candidate_id": "C2",
+            "decision": "REVIEW",
+            "reason": "영상관제 분야에서 접점이 있으나 공공기관 대상 통합 플랫폼과 영상인식 중심 매출은 발행기업의 IP 카메라 중심 구조와 다를 수 있다. 영상인식 매출의 제품별 구성, 공공 매출 의존도와 재무조건을 확인해야 한다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E6"
+            ]
+          }
+        }
+      ],
+      "aligned_acceptance_j2": [],
+      "official_H1_eligible": true,
+      "b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "common_b_rules": [
+        {
+          "rule": "price_at_print_precision",
+          "status": "통과",
+          "delta": "-0.31928288627365416172333",
+          "tolerance": "0.5454559917815566858945511903",
+          "recalculated": "15679.68071711372634583827667"
+        },
+        {
+          "rule": "discount_table_price_consistency",
+          "status": "불일치",
+          "page": 195,
+          "excerpt": "상대가치 주당 평가가액                            15,578 원",
+          "price_difference_krw": 102,
+          "fraction_of_calculated": "0.006505102040816326530612244898",
+          "materiality": "price discrepancy below 5%; qualitative impact assessed separately"
+        }
+      ],
+      "price_impact_fraction": {},
+      "proxy_role_coverage": false,
+      "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+      "run_paths": {
+        "A0": "reports/a1_current/validation_roles/official/TRUEN/A0/result.json",
+        "C": "reports/a1_current/validation_roles/official/TRUEN/C_neutral/result.json"
+      },
+      "review": [
+        {
+          "round": 1,
+          "check": "역할별 별도 세션, 도구 실행 없음, 입력 해시와 개별 원문 근거 확인",
+          "remedy": "회사·선정 단서가 있는 운영자 자료는 C 입력에서 제외했다."
+        },
+        {
+          "round": 2,
+          "check": "가린 후보 판정과 15개 해당 항목/4개 부가 후보를 운영자 단계에서 대조",
+          "remedy": "C의 REVIEW는 유보 묶음으로 매핑해 단순 증거 부족을 반대로 분류하지 않았다."
+        },
+        {
+          "round": 3,
+          "check": "모든 원본 항목과 참조 근거 ID의 존재, 공통 B와 역할의 분리 확인",
+          "remedy": "후보별 시장배수·주식수·할인율과 구체적인 비경상 항목이 없는 C에 확정 가격영향·방법 일치 판정을 부여하지 않았다."
+        }
+      ]
+    },
+    "MANYO": {
+      "case": "MANYO",
+      "items": [
+        {
+          "item_id": "MANYO-01",
+          "question_type": "J1",
+          "question": "발행사 적용 이익의 기간",
+          "a0": {
+            "state": "수용",
+            "reason": "미래 추정치가 아닌 2022년 실제 당기순이익을 적용해 비교기업의 이익 기간과 일치시켰다.",
+            "evidence_ids": [
+              "A01"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "수용",
+            "reason": "최신 완료 회계연도의 연간 이익을 제안한다. 제공된 2022년 수치는 잠정 기준이며, 평가 기준일과 이후 완료 회계연도 존재 여부를 확인해야 한다.",
+            "evidence_ids": [
+              "E3"
+            ],
+            "comparable": true,
+            "scope": "발행사 이익 기간",
+            "native_choice": "LATEST_COMPLETE_FY",
+            "original_choice": "LATEST_COMPLETE_FY",
+            "original_mapping_physical_page": 185,
+            "limit": "발행사 자료로 기간·귀속에 관한 독립 제안의 방향만 비교한다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-02",
+          "question_type": "J1",
+          "question": "이익의 회계상 귀속 범위",
+          "a0": {
+            "state": "수용",
+            "reason": "발행사와 비교기업 모두 2022년 지배지분 당기순이익을 기준으로 하여 귀속 범위를 맞췄다.",
+            "evidence_ids": [
+              "A02"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "2022년 연결 자본에 비지배지분 표시액은 없지만, 제공된 당기순이익의 연결 범위와 지배기업 소유주 귀속액은 명시되지 않았다. 해당 손익계산서가 필요하다.",
+            "evidence_ids": [
+              "E3",
+              "E4"
+            ],
+            "comparable": false,
+            "scope": "발행사 이익 귀속",
+            "native_choice": "UNKNOWN",
+            "original_choice": "CONSOLIDATED_PARENT",
+            "original_mapping_physical_page": 184,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-03",
+          "question_type": "J3",
+          "question": "비교기업 기준주가의 관측기간·선택",
+          "a0": {
+            "state": "수용",
+            "reason": "1개월 평균 종가와 분석기준일 종가 중 낮은 가격을 택해 단기 주가 변동의 영향을 완화했다. 다만 특정 시점의 시장가격에 의존하는 한계는 남는다.",
+            "evidence_ids": [
+              "A03"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-04",
+          "question_type": "J3",
+          "question": "비교기업 PER의 집계 방식",
+          "a0": {
+            "state": "수용",
+            "reason": "최종 선정된 5개사의 PER을 평균하고 50배 이상인 코리아나는 제외했다. 표시된 5개 수치의 평균은 21.158배로 공시된 21.15배와 소폭 차이가 있으나, 절사 여부는 명시되지 않았다.",
+            "evidence_ids": [
+              "A04"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "후보별 배수가 없어 평균과 중앙값 중 어느 방식이 적절한지 판단할 근거가 없다.",
+            "evidence_ids": [],
+            "comparable": false,
+            "scope": "집계",
+            "native_choice": "UNKNOWN",
+            "original_choice": "UNWEIGHTED_MEAN",
+            "original_mapping_physical_page": 184,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-05",
+          "question_type": "J3",
+          "question": "발행사 적용 주식 수",
+          "a0": {
+            "state": "수용",
+            "reason": "기존 발행주식에 신주모집과 주선인 의무인수분을 합산한 공모 후 주식 수를 적용해 공모에 따른 희석을 반영했다.",
+            "evidence_ids": [
+              "A05"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-06",
+          "question_type": "J3",
+          "question": "주당 평가가액 계산",
+          "a0": {
+            "state": "수용",
+            "reason": "2022년 이익을 공모 후 주식 수로 나눈 주당순이익에 비교기업 평균 PER을 적용했다. 표시된 EPS는 반올림 수치이므로 이를 그대로 곱한 값과 평가가액에 소폭 차이가 난다.",
+            "evidence_ids": [
+              "A06"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-07",
+          "question_type": "J3",
+          "question": "공모가 할인율과 밴드",
+          "a0": {
+            "state": "수용",
+            "reason": "평가가액 22,337원에 제시된 할인율을 적용하면 희망밴드 12,000~14,000원과 대체로 일치한다. 확정가는 수요예측 후 결정될 예정이었다.",
+            "evidence_ids": [
+              "A07"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-08",
+          "question_type": "J2",
+          "question": "클리오의 사업 비교 적합성",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "자체 브랜드 화장품 회사라는 공통점은 있으나, 발행사의 주력은 기초 스킨케어와 클렌징인 반면 클리오는 색조·베이스 메이크업 비중이 높아 제품 구성의 차이가 크다.",
+            "evidence_ids": [
+              "A08"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "외부 OEM·ODM 생산 방식은 발행기업과 유사하지만, 매출의 78%가 포인트·베이스 메이크업이고 스킨케어는 19%다. 제품 구성 차이가 수익성과 배수에 미칠 영향을 재무자료와 함께 검토해야 한다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E7"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-09",
+          "question_type": "J2",
+          "question": "아이패밀리에스씨의 사업 비교 적합성",
+          "a0": {
+            "state": "미확인",
+            "reason": "사업 유사성 선별 기준은 통과했지만, 제공된 원문만으로는 아이패밀리에스씨의 세부 제품 구성과 발행사 주력 제품의 비교 적합성을 충분히 확인하기 어렵다.",
+            "evidence_ids": [
+              "A09"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "립틴트와 아이섀도가 매출의 74%를 차지해 기초 스킨케어·클렌징 중심인 발행기업과 주력 제품이 다르다. 화장품 외 사업도 5% 존재한다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E8"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "EXCLUDE"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-10",
+          "question_type": "J2",
+          "question": "네오팜의 사업 비교 적합성",
+          "a0": {
+            "state": "미확인",
+            "reason": "사업 유사성 선별 기준은 통과했지만, 제공된 원문만으로는 네오팜의 세부 제품 구성과 발행사 주력 제품의 유사성을 충분히 확인하기 어렵다.",
+            "evidence_ids": [
+              "A10"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "보습·기초 화장품 매출 비중이 96%로 발행기업의 주력 사업과 가깝다. 다만 원료와 건강기능식품도 취급하며, 재무조건과 배수가 없어 최종 포함 여부를 판단할 수 없다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E5"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-11",
+          "question_type": "J2",
+          "question": "애경산업의 사업 비교 적합성",
+          "a0": {
+            "state": "미확인",
+            "reason": "화장품 사업 기준을 통과했지만, 제공된 원문에는 애경산업의 세부 매출 구성이 없어 비화장품 사업과 발행사 주력 제품의 차이를 충분히 평가하기 어렵다.",
+            "evidence_ids": [
+              "A11"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "생활용품이 매출의 64%로 주력이며, 자체 생산공장 등을 운영한다. 기초 화장품 브랜드이자 외부 OEM·ODM 생산을 활용하는 발행기업과 매출원 및 자산구조가 달라 배수 비교에 영향을 줄 수 있다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E6"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "EXCLUDE"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "MANYO-12",
+          "question_type": "J2",
+          "question": "브이티지엠피의 사업 비교 적합성",
+          "a0": {
+            "state": "미확인",
+            "reason": "화장품 사업 선별 기준을 통과했지만, 제공된 원문에는 브이티지엠피의 세부 사업·제품 비중이 없어 발행사와의 비교 적합성을 충분히 확인하기 어렵다.",
+            "evidence_ids": [
+              "A12"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "화장품 매출은 54.37%이며 기계·필름과 음반·음원 기획이 합계 40.73%를 차지한다. 발행기업과 비화장품 매출원 차이가 커 화장품 사업의 비교배수로 사용하기 어렵다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E10"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "EXCLUDE"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        }
+      ],
+      "sources": {
+        "E1": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "source_group": "20230407002556",
+          "physical_page": 214,
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "published": "2023-04-07",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "기초 스킨케어와 클렌징을 주력으로 하는 화장품 브랜드이며 외부 OEM·ODM과 협력하여 생산한다.",
+          "verbatim_anchors": [
+            "기초 스킨케어, 클렌징",
+            "OEM/ODM사와"
+          ]
+        },
+        "E2": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "source_group": "20230407002556",
+          "physical_page": 217,
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "published": "2023-04-07",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "2022년 앰플·세럼 36.72%, 클렌징 35.47%, 스킨케어 21.53%의 매출 비중을 기록했다.",
+          "verbatim_anchors": [
+            "36.72%",
+            "35.47%",
+            "21.53%"
+          ]
+        },
+        "E3": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "source_group": "20230407002556",
+          "physical_page": 238,
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "published": "2023-04-07",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "2022년 연간 매출은 101,835,609,615원, 영업이익은 24,494,754,918원, 당기순이익은 17,297,237,363원이었다.",
+          "verbatim_anchors": [
+            "101,835,609,615",
+            "24,494,754,918",
+            "17,297,237,363"
+          ]
+        },
+        "E4": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "source_group": "20230407002556",
+          "physical_page": 239,
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "published": "2023-04-07",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "2022년 연결 자본은 지배기업 소유주에 귀속되며 비지배지분 표시액은 없다.",
+          "verbatim_anchors": [
+            "지배기업 소유주에게 귀속되는 자본",
+            "비지배지분"
+          ]
+        },
+        "E5": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230315000761&dcmNo=9058555&eleId=11&offset=62596&length=8808&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/092730/products.html",
+          "sha256": "3979c76e6e19128c6e4b2e465c0c08ca9d7b9b0cdb97adc6f9167294ba61bee5",
+          "source_group": "20230315000761",
+          "published": "20230315",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230315000761",
+          "excerpt": "2022년 보습·기초 화장품은 매출의 96.0%였다. 화장품 원료와 건강기능식품도 취급했다.",
+          "verbatim_anchors": [
+            "보습/기초",
+            "80,870 96.0%",
+            "화장품원료",
+            "건강기능식품"
+          ]
+        },
+        "E6": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230315001190&dcmNo=9060403&eleId=10&offset=62717&length=2426&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/018250/business.html",
+          "sha256": "eaac708916cbc262d25f49a80d7099ac9a91293255c459ca7fe6c3abb7c8de63",
+          "source_group": "20230315001190",
+          "published": "20230315",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230315001190",
+          "excerpt": "2022년 화장품과 생활용품의 매출 비중은 각각 36%, 64%였다. 화장품 연구소, 생산공장, 물류센터를 직접 운영하며 국내외 온·오프라인에 판매한다.",
+          "verbatim_anchors": [
+            "화장품 부문이 36%, 생활용품 부문이 64%",
+            "홈쇼핑, 드럭스토어, 온라인, 수출",
+            "생산공장 및 물류센터 등을 자체적으로 운영"
+          ]
+        },
+        "E7": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230316000856&dcmNo=9064656&eleId=10&offset=105902&length=999&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/237880/business.html",
+          "sha256": "92fd7ecc38b613efc255fcda4597538f9714fbb9c88d7b02c7d3567b30c86a39",
+          "source_group": "20230316000856",
+          "published": "20230316",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230316000856",
+          "excerpt": "2022년 매출은 포인트 메이크업 52%, 베이스 메이크업 26%, 스킨케어 19%였다. 온라인과 H&B 매장 등을 통해 판매하며 외부 OEM·ODM 업체에서 생산한다.",
+          "verbatim_anchors": [
+            "포인트 메이크업 52%, 베이스 메이크업 26%, 스킨케어 19%",
+            "국내 및 글로벌 온라인 채널",
+            "국내외 OEM/ODM업체를 활용"
+          ]
+        },
+        "E8": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230323001132&dcmNo=9097557&eleId=11&offset=42447&length=6531&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/114840/products.html",
+          "sha256": "a1691bc13013e052034710588435784782b4d4f9d36fdf62dcf92aca6935972e",
+          "source_group": "20230323001132",
+          "published": "20230323",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230323001132",
+          "excerpt": "2022년 립틴트가 매출 43%, 아이섀도가 31%였고, 웨딩·리빙·앱 등 화장품 외 사업은 5%였다.",
+          "verbatim_anchors": [
+            "립틴트 43%",
+            "아이섀도 31%",
+            "화장품사업부 외 (웨딩/리빙/App)",
+            "5% 7%"
+          ]
+        },
+        "E9": {
+          "key": "products",
+          "title": "2. (제조서비스업)주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230323001247&dcmNo=9098175&eleId=11&offset=74975&length=8680&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/214420/products.html",
+          "sha256": "c820393033a7d4030a0d1e47aa86c443a9a04d795791e0ddfcb984b517d43b56",
+          "source_group": "20230323001247",
+          "published": "20230323",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230323001247",
+          "excerpt": "2022년 연결 매출 중 스킨케어는 47.37%, 메이크업은 14.26%, 기타제품은 25.92%였다. 반려동물 간식 등도 판매했다.",
+          "verbatim_anchors": [
+            "스킨케어",
+            "60,041 47.37",
+            "18,080 14.26",
+            "32,846 25.92",
+            "반려동물 간식"
+          ]
+        },
+        "E10": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000980&dcmNo=9082312&eleId=11&offset=136524&length=10031&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/018290/products.html",
+          "sha256": "8ca2bc6d35f2d9042e1a4ae83599b64b1687554555d674b8f9d0a2e227d92161",
+          "source_group": "20230321000980",
+          "published": "20230321",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321000980",
+          "excerpt": "2022년 매출의 54.37%가 화장품, 15.71%가 라미네이팅 기계·필름, 25.02%가 음반·음원 기획이었다.",
+          "verbatim_anchors": [
+            "37,749 15.71%",
+            "130,608 54.37%",
+            "60,105 25.02%"
+          ]
+        },
+        "A01": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 185,
+          "excerpt": "적용 순이익은 2022년 당기순이익을 적용하여 계산하였습니다.",
+          "origin": "original_filing"
+        },
+        "A02": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 184,
+          "excerpt": "㈜마녀공장의 적용 당기순이익 = 2022년 당기순이익(지배지분)",
+          "origin": "original_filing"
+        },
+        "A03": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 182,
+          "excerpt": "종가의 산술평균과 분석기준일 종가 중 낮은 가액을 기준주가로 적용",
+          "origin": "original_filing"
+        },
+        "A04": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 184,
+          "excerpt": "평균 PER(배)                                                   21.15",
+          "origin": "original_filing"
+        },
+        "A05": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 185,
+          "excerpt": "발행주식총수 14,318,260주에 신주모집 주",
+          "origin": "original_filing"
+        },
+        "A06": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 185,
+          "excerpt": "비교가치 주당 평가가액                         22,337원",
+          "origin": "original_filing"
+        },
+        "A07": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 185,
+          "excerpt": "평가액 대비 할인율                        46.28% ~ 37.32%",
+          "origin": "original_filing"
+        },
+        "A08": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 188,
+          "excerpt": "포인트 메이크업 52.2%, 베이스 메이크업 26.29%",
+          "origin": "original_filing"
+        },
+        "A09": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 180,
+          "excerpt": "아이패밀리에스씨        O              O              O             O           O",
+          "origin": "original_filing"
+        },
+        "A10": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 179,
+          "excerpt": "네오팜            O              O              O             O           O",
+          "origin": "original_filing"
+        },
+        "A11": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 180,
+          "excerpt": "애경산업           O              O              O             O           O",
+          "origin": "original_filing"
+        },
+        "A12": {
+          "source_group": "20230407002556",
+          "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+          "physical_page": 180,
+          "excerpt": "브이티지엠피          O              O              O             O           O",
+          "origin": "original_filing"
+        }
+      },
+      "source_index": "reports/a1_current/validation_roles/MANYO/c_private.json",
+      "supplementary": [
+        {
+          "name": "토니모리",
+          "item_id": null,
+          "ticker": "214420",
+          "supplementary": true,
+          "decision": {
+            "candidate_id": "C5",
+            "decision": "REVIEW",
+            "reason": "스킨케어 매출 비중 47.37%는 비교 가능성을 제공하지만, 메이크업과 기타제품 비중도 각각 14.26%, 25.92%이며 반려동물 간식도 판매한다. 기타제품의 구성과 부문별 수익성·배수를 확인해야 한다.",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E9"
+            ]
+          }
+        }
+      ],
+      "aligned_acceptance_j2": [],
+      "official_H1_eligible": true,
+      "b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "common_b_rules": [
+        {
+          "rule": "price_at_print_precision",
+          "status": "통과",
+          "delta": "-0.28228838411406339867605",
+          "tolerance": "5.780547922367821734421116773",
+          "recalculated": "22336.71771161588593660132395"
+        },
+        {
+          "rule": "punctuation",
+          "status": "표기 상이",
+          "page": 185,
+          "note": "22.337 printed in valuation table; separate discount table gives 22,337원."
+        }
+      ],
+      "price_impact_fraction": {},
+      "proxy_role_coverage": false,
+      "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+      "run_paths": {
+        "A0": "reports/a1_current/validation_roles/official/MANYO/A0/result.json",
+        "C": "reports/a1_current/validation_roles/official/MANYO/C_neutral/result.json"
+      },
+      "review": [
+        {
+          "round": 1,
+          "check": "역할별 별도 세션, 도구 실행 없음, 입력 해시와 개별 원문 근거 확인",
+          "remedy": "회사·선정 단서가 있는 운영자 자료는 C 입력에서 제외했다."
+        },
+        {
+          "round": 2,
+          "check": "가린 후보 판정과 15개 해당 항목/4개 부가 후보를 운영자 단계에서 대조",
+          "remedy": "C의 REVIEW는 유보 묶음으로 매핑해 단순 증거 부족을 반대로 분류하지 않았다."
+        },
+        {
+          "round": 3,
+          "check": "모든 원본 항목과 참조 근거 ID의 존재, 공통 B와 역할의 분리 확인",
+          "remedy": "후보별 시장배수·주식수·할인율과 구체적인 비경상 항목이 없는 C에 확정 가격영향·방법 일치 판정을 부여하지 않았다."
+        }
+      ]
+    },
+    "PHILENERGY": {
+      "case": "PHILENERGY",
+      "items": [
+        {
+          "item_id": "PHILENERGY-01",
+          "question_type": "J1",
+          "question": "발행사 적용 이익의 기간",
+          "a0": {
+            "state": "수용",
+            "reason": "발행사와 비교기업 모두 2023년 1분기까지의 최근 12개월 실적을 사용해 기간이 일치한다. 다만 이익 조정의 타당성은 별도로 검토할 필요가 있다.",
+            "evidence_ids": [
+              "A01"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "2022년 연간이 제공된 최신 완료 회계연도이며 2023년 자료는 1분기뿐이다.",
+            "evidence_ids": [
+              "E2",
+              "E3"
+            ],
+            "comparable": true,
+            "scope": "발행사 이익 기간",
+            "native_choice": "LATEST_COMPLETE_FY",
+            "original_choice": "TRAILING_FOUR_QUARTERS",
+            "original_mapping_physical_page": 185,
+            "limit": "발행사 자료로 기간·귀속에 관한 독립 제안의 방향만 비교한다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-02",
+          "question_type": "J1",
+          "question": "이익의 회계상 귀속 범위",
+          "a0": {
+            "state": "수용",
+            "reason": "발행사와 비교기업에 지배주주 귀속 순이익을 사용하여 연결재무제표상 귀속 범위를 일치시켰다.",
+            "evidence_ids": [
+              "A02"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "수용",
+            "reason": "주주에게 귀속되는 이익 기준으로 지배기업 소유주 귀속 순이익을 제안한다. 별도 표기 사실은 확인되지만 해당 금액은 제공되지 않았다.",
+            "evidence_ids": [
+              "E3"
+            ],
+            "comparable": true,
+            "scope": "발행사 이익 귀속",
+            "native_choice": "CONSOLIDATED_PARENT",
+            "original_choice": "CONSOLIDATED_PARENT",
+            "original_mapping_physical_page": 185,
+            "limit": "발행사 자료로 기간·귀속에 관한 독립 제안의 방향만 비교한다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-03",
+          "question_type": "J3",
+          "question": "비교기업 기준주가의 관측기간·선택",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "표의 1개월 평균은 실제로 5월 12일 값과 같고, 분석기준일 종가 행은 일별 값의 1개월 평균에 해당한다. 두 행이 뒤바뀐 것으로 보인다. 최솟값 선택 결과는 같지만 표의 기간별 표기에 오류가 있다.",
+            "evidence_ids": [
+              "A03"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-04",
+          "question_type": "J3",
+          "question": "비교기업 PER의 집계 방식",
+          "a0": {
+            "state": "수용",
+            "reason": "세 비교기업 PER 17.4배, 32.0배, 34.2배의 단순평균은 반올림하면 27.9배다. 단순평균은 재현 가능하나 기업별 배수 차이는 감안해야 한다.",
+            "evidence_ids": [
+              "A04"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "후보별 배수와 유효 표본이 없어 집계 방식을 선택할 근거가 부족하다.",
+            "evidence_ids": [],
+            "comparable": false,
+            "scope": "집계",
+            "native_choice": "UNKNOWN",
+            "original_choice": "UNWEIGHTED_MEAN",
+            "original_mapping_physical_page": 184,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-05",
+          "question_type": "J3",
+          "question": "발행사 적용 주식 수",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "적용 주식 수가 185쪽의 10,611,793주와 186쪽의 10,613,051주로 불일치한다. 또한 희석가능주식 표에는 291쪽에 공시된 주식매수선택권 412,500주의 반영 여부가 설명되지 않아 희석 범위를 확인하기 어렵다.",
+            "evidence_ids": [
+              "A05"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-06",
+          "question_type": "J3",
+          "question": "주당 평가가액 계산",
+          "a0": {
+            "state": "수용",
+            "reason": "표에 기재된 주당순이익 1,484원에 PER 27.9배를 곱하면 반올림하여 41,404원이다. 다만 이는 적용 이익과 주식 수의 적정성까지 보증하지는 않는다.",
+            "evidence_ids": [
+              "A06"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-07",
+          "question_type": "J3",
+          "question": "공모가 할인율과 밴드",
+          "a0": {
+            "state": "수용",
+            "reason": "41,404원에 할인율 36.48%와 27.54%를 각각 적용하면 약 26,300원과 30,000원이 된다. 산술적으로 밴드와 할인율이 부합한다.",
+            "evidence_ids": [
+              "A07"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "C에는 원 공모가격, 주식수, 할인율 또는 후보 시장가격의 관측치가 없고 해당 산출 결과를 제출하도록 하지 않았다.",
+            "comparable": false,
+            "scope": "C 검토 범위 밖",
+            "evidence_ids": []
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-08",
+          "question_type": "J1",
+          "question": "주식보상비용 또는 파생상품 손익 조정",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "발행사의 2022년 파생상품평가손실 전액을 이익에 가산했지만, 차감하는 2022년 1분기에는 별도 평가 없이 순이익을 사용했다. 가산액이 LTM 기간에 정확히 대응하는지 확인할 수 없고, 비교기업에도 상응하는 조정을 했다는 근거가 부족해 비교 일관성에 의문이 있다.",
+            "evidence_ids": [
+              "A08"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "조정 대상 비용의 금액이나 일회성을 입증하는 자료가 없어 보고 이익을 유지한다.",
+            "evidence_ids": [
+              "E2",
+              "E3"
+            ],
+            "comparable": false,
+            "scope": "비경상 손익 조정",
+            "native_choice": "RETAIN_REPORTED",
+            "original_choice": "ADJUST_DOCUMENTED_ITEMS",
+            "original_mapping_physical_page": 185,
+            "limit": "공통 가격·비경상 손익·구체적인 귀속/기간의 근거가 부족하거나 제안이 조건부/미확정이다."
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-09",
+          "question_type": "J2",
+          "question": "피엔티의 사업 비교 적합성",
+          "a0": {
+            "state": "수용",
+            "reason": "피엔티는 2차전지 전극·조립 장비를 취급해 발행사와 같은 제조장비 가치사슬에 있다. 다만 2022년 매출 구성 표의 기재 비중 합계가 100%를 초과하므로 세부 비중은 주의가 필요하다.",
+            "evidence_ids": [
+              "A09"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "이차전지 사업과 노칭장비는 유사성이 있지만, 해당 사업 비중 74.82%에는 양극·음극재와 분리막 제조도 포함된다. 발행기업의 적층 장비 중심 구조와 비교하려면 소재와 장비별 매출 비중, 재무조건 및 배수가 필요하다.",
+            "evidence_ids": [
+              "E1",
+              "E6"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-10",
+          "question_type": "J2",
+          "question": "에이프로의 사업 비교 적합성",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "에이프로는 같은 2차전지 장비 가치사슬에 있으나 주력은 발행사의 조립공정과 다른 화성공정이다. 더불어 2022년 지배순손실에서 LTM 흑자로 전환했고 2023년 1분기 이익이 LTM 이익을 웃돌아, 최근 이익의 지속성과 비교 가능성에 대한 검토가 중요하다.",
+            "evidence_ids": [
+              "A10"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "이차전지 제조업체에 생산설비를 공급한다는 점은 유사하지만, 주력은 발행기업의 적층 공정과 다른 활성화공정 충방전 장비다. 재무조건과 배수가 없어 최종 포함 여부를 판단하기 어렵다.",
+            "evidence_ids": [
+              "E1",
+              "E5"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        },
+        {
+          "item_id": "PHILENERGY-11",
+          "question_type": "J2",
+          "question": "엔시스의 사업 비교 적합성",
+          "a0": {
+            "state": "수용",
+            "reason": "엔시스는 조립장비가 아닌 검사장비 회사라는 차이는 있지만, 2차전지 제조공정에 사용되는 장비를 주력으로 하므로 가치사슬 기준 비교 대상으로 삼을 근거가 있다.",
+            "evidence_ids": [
+              "A11"
+            ],
+            "comparable": true
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "주문생산 이차전지 설비라는 공통점은 있으나 발행기업의 주력 적층 장비와 달리 머신비전 검사장비가 중심이며 태양전지 설비도 취급한다. 검사장비와 태양전지 설비의 매출 비중, 재무조건 및 배수 확인이 필요하다.",
+            "evidence_ids": [
+              "E1",
+              "E4"
+            ],
+            "comparable": true,
+            "scope": "사업 비교 적합성",
+            "native_decision": "REVIEW"
+          },
+          "price_impact": null,
+          "price_impact_scope": "독립 적격성이 미확정인 대안은 미산출로 고정. 규칙과 AI가 공유."
+        }
+      ],
+      "sources": {
+        "E1": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "source_group": "20230518000227",
+          "physical_page": 223,
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "published": "2023-05-18",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "주문사양에 따른 이차전지 생산설비를 판매한다. 적층(Stacking) 장비는 2022년 매출의 94.5%, 2023년 1분기 93.8%였고, 레이저 노칭 장비와 개조·부품도 취급한다.",
+          "verbatim_anchors": [
+            "Stacking 68,496 93.8%",
+            "179,258 94.5%",
+            "Laser Notching",
+            "개조/부품"
+          ]
+        },
+        "E2": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "source_group": "20230518000227",
+          "physical_page": 257,
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "published": "2023-05-18",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "K-IFRS 연결 자료에서 2022년 영업이익은 16,812,053천원, 연결순이익은 3,723,211천원이었다. 2023년 1분기는 각각 7,546,538천원, 5,659,754천원이었다.",
+          "verbatim_anchors": [
+            "요약연결재무정보",
+            "영업이익 7,546,538 16,812,053",
+            "연결당기순이익 5,659,754 3,723,211"
+          ]
+        },
+        "E3": {
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "source_group": "20230518000227",
+          "physical_page": 262,
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "published": "2023-05-18",
+          "origin": "initial_filing_business_or_financials",
+          "excerpt": "연결포괄손익계산서는 2023년 1분기와 2022년 연간을 함께 제시하고 지배기업 소유주 귀속을 별도로 표기한다.",
+          "verbatim_anchors": [
+            "2023년 01월 01일부터 2023년 03월 31일",
+            "2022년 01월 01일부터 2022년 12월 31일",
+            "지배기업 소유주지분"
+          ]
+        },
+        "E4": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000024&dcmNo=9078150&eleId=10&offset=107534&length=1556&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/333620/business.html",
+          "sha256": "626b44ce0ecfae76c31f006fc9868453712c8681da23adadeed87573589ae616",
+          "source_group": "20230321000024",
+          "published": "20230321",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321000024",
+          "excerpt": "이차전지 배터리의 전극·조립·활성화·모듈 및 팩 공정에 머신비전 검사장비를 주문생산하여 납품한다. 태양전지 셀·모듈 제조설비도 취급한다.",
+          "verbatim_anchors": [
+            "머신비전검사장비",
+            "태양전지 셀 및 모듈 제조설비",
+            "전 공정에 당사의"
+          ]
+        },
+        "E5": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230322001237&dcmNo=9092122&eleId=10&offset=81369&length=5703&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/262260/business.html",
+          "sha256": "48e27b4f0527164671c885368e1d1aa62cbd58fec15e03e3c045da3a1fd0073a",
+          "source_group": "20230322001237",
+          "published": "20230322",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230322001237",
+          "excerpt": "리튬이온 이차전지 생산의 활성화공정에 사용하는 충방전기·고온가압충방전기 등 장비를 개발·생산한다. 주요 고객은 이차전지 제조업체다.",
+          "verbatim_anchors": [
+            "활성화공정에 해당하는 장비",
+            "고온가압충방전기",
+            "당사의 주요 고객은 리튬이온 2차전지 제조업체"
+          ]
+        },
+        "E6": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230320001029&dcmNo=9077462&eleId=11&offset=61569&length=13242&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/137400/products.html",
+          "sha256": "108b59983e47a2dfee750fd3152c899a77df96c298fc3ec0f0416a10abfb4ac6",
+          "source_group": "20230320001029",
+          "published": "20230320",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230320001029",
+          "excerpt": "2022년 양극·음극재·분리막 제조 및 노칭장비를 포함한 이차전지 사업부 비중은 74.82%였다. 소재 사업부는 전자·디스플레이 소재 제조장비 등을 공급했다.",
+          "verbatim_anchors": [
+            "양극 음극재 및 분리막 제조장비 및 노칭장비",
+            "74.82%",
+            "23.34%"
+          ]
+        },
+        "E7": {
+          "key": "business",
+          "title": "1. 사업의 개요",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230323000741&dcmNo=9095641&eleId=10&offset=78018&length=1131&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/299030/business.html",
+          "sha256": "24d41b8db24ca997e657fa5f1198fff0ead8726c1d10b1b1f64cf3bac6b91d05",
+          "source_group": "20230323000741",
+          "published": "20230323",
+          "origin": "candidate_own_2022_annual",
+          "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230323000741",
+          "excerpt": "원형·각형·파우치형 이차전지용 생산 장비를 제작한다. 조립·화성·팩 조립 및 검사공정 장비를 공급하고 일부 극판용 레이저 노칭·커팅 장비도 제작한다.",
+          "verbatim_anchors": [
+            "모든 종류의 이차전지 장비",
+            "조립공정과 화성공정",
+            "레이저 노칭 장비와 레이저 커팅 장비"
+          ]
+        },
+        "A01": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 185,
+          "excerpt": "2023년 1분기 LTM(최종 12개월, 2022년 2분기~2023년 1분기)기준 실적",
+          "origin": "original_filing"
+        },
+        "A02": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 185,
+          "excerpt": "2023년 1분기 LTM(2022년 2분기 ~ 2023년 1분기, 12개월)의 지배지분 순이익입니다.",
+          "origin": "original_filing"
+        },
+        "A03": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 183,
+          "excerpt": "1개월 평균(A)          1,148,430,499,000        242,313,989,540     128,365,143,040",
+          "origin": "original_filing"
+        },
+        "A04": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 184,
+          "excerpt": "평균 PER 배수                                        27.9",
+          "origin": "original_filing"
+        },
+        "A05": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 186,
+          "excerpt": "희석가능주식을 포함한 공모 후 주식수 10,613,051주를 적용주식수로 사용하였습니다.",
+          "origin": "original_filing"
+        },
+        "A06": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 185,
+          "excerpt": "주당 평가가액                               41,404        E = C × D",
+          "origin": "original_filing"
+        },
+        "A07": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 186,
+          "excerpt": "평가액 대비 할인율 주2)                      36.48% ~ 27.54%",
+          "origin": "original_filing"
+        },
+        "A08": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 185,
+          "excerpt": "2022년 1분기 및 2023년 1분기의 경우, 전환사채 전환권에 대한 별도 평가를 수행하지 않아",
+          "origin": "original_filing"
+        },
+        "A09": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 179,
+          "excerpt": "피엔티       2차전지 장비(전극,조립) 74.82%,소재 23.34%,기계설비 12.47%",
+          "origin": "original_filing"
+        },
+        "A10": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 181,
+          "excerpt": "에이프로             79,393         (2,515)         (1,530)       119,183         7,945         7,206   선정",
+          "origin": "original_filing"
+        },
+        "A11": {
+          "source_group": "20230518000227",
+          "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+          "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+          "physical_page": 180,
+          "excerpt": "엔시스       2차전지 장비(검사) 64.14%,setup 대응 34.39%,기타 1.46%                    선정",
+          "origin": "original_filing"
+        }
+      },
+      "source_index": "reports/a1_current/validation_roles/PHILENERGY/c_private.json",
+      "supplementary": [
+        {
+          "name": "하나기술",
+          "item_id": null,
+          "ticker": "299030",
+          "supplementary": true,
+          "decision": {
+            "candidate_id": "C4",
+            "decision": "REVIEW",
+            "reason": "이차전지 조립공정 및 레이저 노칭 장비를 공급해 사업상 유사성이 있다. 다만 화성·팩 조립·검사 등으로 공정 범위가 더 넓고 발행기업처럼 적층 장비에 집중하는지는 불명확하다. 공정별 매출 비중과 재무조건, 배수 확인이 필요하다.",
+            "evidence_ids": [
+              "E1",
+              "E7"
+            ]
+          }
+        }
+      ],
+      "aligned_acceptance_j2": [],
+      "official_H1_eligible": true,
+      "b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "common_b_rules": [
+        {
+          "rule": "price_at_print_precision",
+          "status": "통과",
+          "delta": "-6.81030515766751198407281",
+          "tolerance": "74.68851199792532703945506664",
+          "recalculated": "41397.18969484233248801592719"
+        }
+      ],
+      "price_impact_fraction": {},
+      "proxy_role_coverage": false,
+      "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+      "run_paths": {
+        "A0": "reports/a1_current/validation_roles/official/PHILENERGY/A0/result.json",
+        "C": "reports/a1_current/validation_roles/official/PHILENERGY/C_neutral/result.json"
+      },
+      "review": [
+        {
+          "round": 1,
+          "check": "역할별 별도 세션, 도구 실행 없음, 입력 해시와 개별 원문 근거 확인",
+          "remedy": "회사·선정 단서가 있는 운영자 자료는 C 입력에서 제외했다."
+        },
+        {
+          "round": 2,
+          "check": "가린 후보 판정과 15개 해당 항목/4개 부가 후보를 운영자 단계에서 대조",
+          "remedy": "C의 REVIEW는 유보 묶음으로 매핑해 단순 증거 부족을 반대로 분류하지 않았다."
+        },
+        {
+          "round": 3,
+          "check": "모든 원본 항목과 참조 근거 ID의 존재, 공통 B와 역할의 분리 확인",
+          "remedy": "후보별 시장배수·주식수·할인율과 구체적인 비경상 항목이 없는 C에 확정 가격영향·방법 일치 판정을 부여하지 않았다."
+        }
+      ]
+    }
+  },
+  "n": 45,
+  "condition": "OFFICIAL_TERRA_TARGETED_VALIDATION",
+  "scientific_H1_eligible": true,
+  "method_deviation": "지정한 최초 신고서 항목과 자료를 받은 A0 및 공개 사업 근거에 한정된 C를 회사·역할별 OpenAI Responses 공식 모델로 독립 실행했다. 검증 표본에서의 과제이며 정식 효과 확증 여부는 별도 평가한다.",
+  "method_repair": "앞서 잔액 부족으로 응답이 없던 VC 요청의 중립 자료 묶음을 재사용했다. 일반적인 기간·귀속·집계·손익조정 선택지와 자료 부족 처리 지침을 출력 계약에 추가했다. 기존 대리 답변은 포함하지 않았다.",
+  "raw_cost_usd": null,
+  "usage_records": [
+    "reports/a1_current/validation_roles/official/GIGAVIS/A0/result.json",
+    "reports/a1_current/validation_roles/official/GIGAVIS/C_neutral/result.json",
+    "reports/a1_current/validation_roles/official/TRUEN/A0/result.json",
+    "reports/a1_current/validation_roles/official/TRUEN/C_neutral/result.json",
+    "reports/a1_current/validation_roles/official/MANYO/A0/result.json",
+    "reports/a1_current/validation_roles/official/MANYO/C_neutral/result.json",
+    "reports/a1_current/validation_roles/official/PHILENERGY/A0/result.json",
+    "reports/a1_current/validation_roles/official/PHILENERGY/C_neutral/result.json"
+  ]
+}

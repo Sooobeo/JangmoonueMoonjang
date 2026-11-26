@@ -1,0 +1,907 @@
+{
+  "scope": "무신호 본평가의 AI 실제 운영 이관. 규칙, 대기, 자료요청, 기록보관 및 실패 시 대체 이관은 배제했다.",
+  "protocol": "기존 파일럿의 서로 다른 두 기업에서 비교 가능한 A0와 C가 동일 대상·기간·결정에서 반대 판단을 유지하고, 같은 구체적 기전 때문에 실제 A1 이관되는 조건",
+  "pilot_criteria_sha256": "2d02b411e1904227235675ddc3db3bdc16434d4df1264858d64af2c14c9dd6d6",
+  "source_sha256": "a3eb9f792695e3d1d3f30738b36f836e50d909711797826b407105207b91b96a",
+  "reviews": [
+    "32개 실제 AI 목록을 대조해 운영 31개를 재구성하고 실제 원격 A0·C·A1 응답 및 인용 출처와 맞췄다.",
+    "31건의 원래 이유, 가림 자료 한계, 조건부 포함·배제와 선별 이후 미해결 질문을 각각 대조했다.",
+    "서로 다른 회사 465쌍의 연결 가능성을 대조했다. 유사 주제, 단측 자료 부족, 공동 문제제기와 서로 반대인 같은 판단을 구별했다."
+  ],
+  "rows": [
+    {
+      "issuer": "에스엘에스바이오",
+      "case": "20230818000362",
+      "item": "20230818000362-08",
+      "question": "바이오인프라의 사업 비교 적합성",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": "INCLUDE",
+      "C_local_limit": "조건부 응답",
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08",
+        "E1",
+        "E14",
+        "E15",
+        "E16",
+        "E17"
+      ],
+      "native_response_sha256": {
+        "A0": "d5ae5c11bc79435905fbb8ddbef0bbaf630fe00a7544fdab29da140a87406d3b",
+        "C": "b09b38ee4189483f60984c2f34b843c84e5a54471919d723a297ebf04c531da4",
+        "A1": "6aaad1b3c9dfc3689628aadd779e0eda90a286369e6da42cd21b54a66c3a54f0"
+      },
+      "semantic_group": "conditional_directional_tension",
+      "reason": "A0는 임상 CRO와 품질관리 매출 차이를 들어 중요한 한계를 제기했고, C는 겹치는 용역 때문에 잠정 포함했다. C도 양사 매출 구성 확인을 요구했고 A0는 배제를 확정하지 않았다. 반대 방향에 가장 가까운 1건이다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "에코아이",
+      "case": "20230925000332",
+      "item": "20230925000332-10",
+      "question": "지앤비에스에코의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E10",
+        "E11",
+        "E2",
+        "E8"
+      ],
+      "native_response_sha256": {
+        "A0": "eb4f78466987088ba5527011742c3b0be05a91deef2c2fda41663b6152839336",
+        "C": "f6441c1654d181218139dcefa804dc6afccc162b84dedde8efe29c2a2274291c",
+        "A1": "945123f520b9123fdc14982106309f9b09925c11b52415cd0fd149c3b43b9097"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 해당 회사 매출자료가 없어 적합성 미판정, C는 장비 매출 68.65%를 근거로 배제했다. A0의 포함 확인은 신고서 사실이다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "산일전기",
+      "case": "20240621000553",
+      "item": "20240621000553-05",
+      "question": "발행사 적용 주식 수",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A05"
+      ],
+      "native_response_sha256": {
+        "A0": "5edeaeaba232b3098377838c85154b84b1ec410500953cdbe10183cd273141af",
+        "C": "e488389cc0293650c410663788750a21fc3cb58497193922a919cd2a75da43cc",
+        "A1": "73aa72b5746569cf79d694ba8cb56dbcdc3188bbea5eceefc885a12c2a5de4ac"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "주수 구성합계 오류에 대해 C의 주수 판단이 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "전진건설로봇",
+      "case": "20240710000686",
+      "item": "20240710000686-04",
+      "question": "비교기업 PER의 집계 방식",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A04"
+      ],
+      "native_response_sha256": {
+        "A0": "f8f7c70d1ad09fcd5af01c564668e825f63539fca9388eb3a87dda2251b92f11",
+        "C": "a565cc1d5dc84696eb6a1378498369d82f8cd717ceba15cde360e0b7dd57b6e0",
+        "A1": "5fdd3815831244f69a3e3d15d6796083c8dc95462cf21914e1f2dd2d2d2d8a39"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "PER 분자/분모의 산술 쟁점에 대해 C는 원래 공시의 산술을 검증하지 않았다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "사이냅소프트",
+      "case": "20241010000504",
+      "item": "20241010000504-01",
+      "question": "발행사 적용 이익의 기간",
+      "states": [
+        "수용",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": "UNKNOWN",
+      "C_local_limit": "자료 부족",
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A01",
+        "E4"
+      ],
+      "native_response_sha256": {
+        "A0": "729373ed855ea3aa13f7027ba8f675f35b4e26179ef0143a61b0e8705793a316",
+        "C": "f6d172e0ce249cec9739549cd3722bf90ede89da1ce9d36d9b4abbfb4c2eb372",
+        "A1": "aa347927b7614589bd198cac1da0c60ccb42d17c1712bdb5a075d7298cb7e603"
+      },
+      "semantic_group": "method_not_selected",
+      "reason": "A0는 실제 LTM과 공시 내 2026년 추정 설명의 충돌을 구별했다. C는 최근 연도를 고려하되 특정 기간을 정할 수 없다고 답했다. 다른 기간을 확정한 대립이 아니다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "벡트로보틱스",
+      "case": "20241018000518",
+      "item": "20241018000518-09",
+      "question": "한네트의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A09",
+        "E1",
+        "E2",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ],
+      "native_response_sha256": {
+        "A0": "cd5b7293e92d30215ebf466c354587cbba2861caaf1f9b3d262c1d087c195a9b",
+        "C": "e8e02629a995e173bb04fb58c1c4a1f088a171912a154e55fe28c94cbde9ad0d",
+        "A1": "481fea902c3b6efd1bb0e3af64db54a1738b95c3101c085fad06ec8542e963c6"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 후보 세부사업 부족, C는 CD-VAN·무인기기 매출을 근거로 배제했다. A0의 수용 주장은 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "모티브링크",
+      "case": "20241118000273",
+      "item": "20241118000273-09",
+      "question": "상신전자의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": "INCLUDE",
+      "C_local_limit": "조건부 응답",
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A09",
+        "E1",
+        "E14",
+        "E16",
+        "E17",
+        "E2"
+      ],
+      "native_response_sha256": {
+        "A0": "88a89bf213ade4ffe5a335ad8b7c464b10f59dc889419080e71b5eb68ddfb31e",
+        "C": "6dedd0be9853f562c7daf07f1b7035825b99ea89294dcdf657224b4eaaff69be",
+        "A1": "5256c5618897ec4029e1b4c4c2563a32b41b111672325c28066a5815768a6339"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 상신전자 단독 적합성을 보류했고 C는 가전 필터와 자동차 전력변환 용도의 차이를 인정하며 잠정 포함했다. A0의 반대 결론은 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "피아이이",
+      "case": "20241129001313",
+      "item": "20241129001313-08",
+      "question": "자비스의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "미확인"
+      ],
+      "C_comparable": true,
+      "C_proposal": "REVIEW",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08",
+        "E1",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E2"
+      ],
+      "native_response_sha256": {
+        "A0": "3476dbb0bba711db2551043cf77c3cda041ab20d2e978c45b12d78d68c4a1cce",
+        "C": "e60f8315303ea0812d5f3dee2b45d2fc3b29963e3168d18ea548ca62329545b8",
+        "A1": "3430823b7d667ace9e3e1eba439c222946b6d5314ec11fed2be83d059b528d98"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0가 제품 정보를 확인하지 못했고 C도 검사장비와 소프트웨어 차이에 자료 보강을 요구했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "LG씨엔에스",
+      "case": "20241205000577",
+      "item": "20241205000577-08",
+      "question": "삼성에스디에스의 사업 비교 적합성",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": true,
+      "C_proposal": "REVIEW",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08",
+        "E1",
+        "E2",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ],
+      "native_response_sha256": {
+        "A0": "2e030cdcdd414d7bb8fd80cf2474aada3d403ce37e0cd9eb2e49a745f1cc5f7b",
+        "C": "6b7d9b30fd003cf2528252bafe148c23fdbb81745fc4c8a4bebc7fd486965cfc",
+        "A1": "7012dd7d0a05a9f293ba4427553f546aca33d95ab3d63c0ce1a91f21054d2b28"
+      },
+      "semantic_group": "shared_or_qualified_concern",
+      "reason": "두 역할 모두 IT서비스와 물류의 혼합을 중요한 한계로 보았다. C의 REVIEW는 무조건 수용이 아니다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "위너스일렉",
+      "case": "20241213000457",
+      "item": "20241213000457-10",
+      "question": "HDC랩스의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E13",
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "native_response_sha256": {
+        "A0": "75dba530e90971aa222364d6e9d9291813a0436662bcc2df41169db285c5aa41",
+        "C": "43dbb935a3c890da957d7cb13126028883d3bb849d07498398345776b6742bea",
+        "A1": "1f1808fa631b00920fbbdbc448a7e0f8ffe161a366fa78cffb20161b0c06a94f"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 선정 사실만 확인했고 C는 HDC랩스 건설·관리 용역을 근거로 배제했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "레뷰코퍼레이션",
+      "case": "20230823000258",
+      "item": "20230823000258-08",
+      "question": "무형고정자산상각비의 적용 이익 조정 근거",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08"
+      ],
+      "native_response_sha256": {
+        "A0": "7d7a792d002dad03b2cc8484196a5e928c168aa4769828136bd98465afeddc12",
+        "C": "7f6e4ea06af03cb8fbaaa3903f9a9b96034bffccb732e8e5ec8d326a1f9de0e5",
+        "A1": "c6581eafb1b83ab6939b4c6051c91db5791ee84dfa410af3f5397c8ae642c871"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "역합병 무형자산 상각비 가산·세효과는 C 개별판정 대상 밖이다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "엘케이켐",
+      "case": "20250107000412",
+      "item": "20250107000412-13",
+      "question": "솔브레인의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "미확인"
+      ],
+      "C_comparable": true,
+      "C_proposal": "REVIEW",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A13",
+        "E1",
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "native_response_sha256": {
+        "A0": "c4b30d5afaf73d421b48457d00eb8ec7aa80103a4018e5067c93e33b50312b01",
+        "C": "bbdf89d65c5dcc9af0bb264375bacd60586932b94849d8496e5ba3468f04a8d6",
+        "A1": "17fc5cea204610a3a77338b4b61595625e899b95523f1b607bfdcaae16670c8c"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 솔브레인의 개별 구성을 확인하지 못했고 C는 혼합 반도체 소재 비중을 근거로 재검토했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "이노테크",
+      "case": "20250908000140",
+      "item": "20250908000140-08",
+      "question": "예스티의 사업 비교 적합성",
+      "states": [
+        "문제 제기",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08",
+        "E1",
+        "E13",
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "native_response_sha256": {
+        "A0": "e1ec5f8b34f6e80b8238c7baa3e2ccd7b49fa7a716815e83b53433fcc2f5f72f",
+        "C": "1bdc67ad20e8a04c20d60cdbd9dce94a58cb36cdaa3b2aeb1e1326f6d1223380",
+        "A1": "bfe54a93fd5e7e1dd256e69ded9b60bca95164a2bb730ac7c1cbc84620d05716"
+      },
+      "semantic_group": "shared_or_qualified_concern",
+      "reason": "A0·C 모두 열·가압 장비 및 반도체중심 제품 구성과 발행사 시험장비 차이를 지적했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "유투바이오",
+      "case": "20230906000217",
+      "item": "20230906000217-08",
+      "question": "녹십자엠에스의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "미확인"
+      ],
+      "C_comparable": true,
+      "C_proposal": "REVIEW",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08",
+        "E1",
+        "E11",
+        "E12",
+        "E13",
+        "E14"
+      ],
+      "native_response_sha256": {
+        "A0": "e44c8bc8d0fb386226771bf4c9d12b83dcdd40c18c3cab8cc0f532b70e2644f9",
+        "C": "bebf01dbef8f9aab7f679e5223145832d428f80098eaa08c6f720657c310649d",
+        "A1": "d940bc406f165a823f211b2f4e04fe4d7e1473ee9d2ef2d94272675205cce346"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 진단서비스/기기 전체 설명만 확인했다. C는 진단시약·투석액 비중 점검을 요구했으며 상반된 수용 판단이 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "시프트업",
+      "case": "20240520000263",
+      "item": "20240520000263-10",
+      "question": "KADOKAWA CORP의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E10",
+        "E11",
+        "E12",
+        "E9"
+      ],
+      "native_response_sha256": {
+        "A0": "9489b06d05b4e718ec7a7fd77b479995c1e31db09173f7c9e8390774f44c29c6",
+        "C": "7a9a834c53b0f1281c5645d3d15a312a279b0be93b669b97d6bf9c4b76b01245",
+        "A1": "e51a43feb627ec767b100a6be06241ea028e33fff63f990f38302ba238482e4b"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0의 KADOKAWA 전체 사업구성 미확인과 C의 출판 매출 54.6%에 따른 제외다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "더즌",
+      "case": "20250120000464",
+      "item": "20250120000464-10",
+      "question": "더존비즈온의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E14",
+        "E16",
+        "E17",
+        "E2"
+      ],
+      "native_response_sha256": {
+        "A0": "43210f7386011e230ac9ac7d98666070f4f4285e20762b1196ec7b0fe3747a25",
+        "C": "6b78e077e93ea44413f28e3e2d83c33fd73d631a25c6be82227a0364df800c98",
+        "A1": "19246773b11f11a9dedb5d6124c3843061a58d29be8b3068b17277a827ed4d5b"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 선정 사실을 확인했을 뿐이고 C는 더존비즈온 ERP·클라우드 구성으로 제외했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "세나테크놀로지",
+      "case": "20250908000329",
+      "item": "20250908000329-12",
+      "question": "Shoei Co Ltd의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A12",
+        "E2",
+        "E6",
+        "E7"
+      ],
+      "native_response_sha256": {
+        "A0": "b8e91144e92c4fc7d94d80fc1aaaa7fd2e34fa49d4d858eb2e86228c8b5d5c53",
+        "C": "3b90f62495dd90dbf8516929c6541e5c066f846588e7d15f0074be1c13fb669e",
+        "A1": "dc16ec2d31f6cea67071fc157d236a3445908dba523ad493e99b1c3ea8883bf1"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 Shoei 제품 구성을 확인하지 못했고 C는 헬멧과 웨어러블 통신기기 차이를 제시했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "비아이매트릭스",
+      "case": "20230911000405",
+      "item": "20230911000405-08",
+      "question": "파생상품평가손실의 적용 이익 조정 근거",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08"
+      ],
+      "native_response_sha256": {
+        "A0": "e4020d4d996318dcff3cb985a7b58b336445bc95dfbcfe709887118cf5409618",
+        "C": "3e19bc4300d65a50e25556681c6f67c037cdf68826880027e2a486d4b03f9fbf",
+        "A1": "3b452b596ba23cfb647b5d2e913477ca7e8824de9320684fdbf98889f7091989"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "파생상품평가손실 가산·비교사 이익 대칭성에 대한 C의 반대 판단이 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "티디에스팜",
+      "case": "20240621000344",
+      "item": "20240621000344-10",
+      "question": "광동제약의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E3",
+        "E5"
+      ],
+      "native_response_sha256": {
+        "A0": "e9bd18183f2b5f1677e4c36488e9dcebfe807e35af055301e722699bb38ff2e0",
+        "C": "e7fe24b95b93a46719f9a516d916f12acf186c285896a6719e14177c3c327393",
+        "A1": "9df863d30a19897066995903af862e9df9ec8ca4a6e76905f3f7da7814dbc3a7"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 카타플라스마 판매 기준 통과를 확인하면서도 매출 비교는 유보했고 C는 식음료 비중에 따라 제외했다. 공시 선정조건 충족과 경제적 적합성은 다른 판단이다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "에이유브랜즈",
+      "case": "20250207000496",
+      "item": "20250207000496-10",
+      "question": "크리스에프앤씨의 사업 비교 적합성",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": "조건부 응답",
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "native_response_sha256": {
+        "A0": "99118bbec031a8eb2ae905e46f467451a1e329b84e965bce798db13810ce6b9b",
+        "C": "4fb2eacfe78cb46b102bcce2861233792b9b983636887caa5cba0ce3cd97b16e",
+        "A1": "66516e10e43db2030df0c084bd093cfe59b6beab18d387421d99fa9567f52a32"
+      },
+      "semantic_group": "shared_or_qualified_concern",
+      "reason": "A0와 C 모두 골프웨어와 신발의 제품군 차이에 주의했다. 조건부 제외는 A0의 지지 주장과 대립하지 않는다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "아로마티카",
+      "case": "20250930000546",
+      "item": "20250930000546-08",
+      "question": "LG생활건강의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08",
+        "E1",
+        "E18",
+        "E20"
+      ],
+      "native_response_sha256": {
+        "A0": "9006c00a7e23f9b6f8b41756c73e7ab6e370e3ccc6834deaf58e04303e9f9f99",
+        "C": "59b923c0c31a08ee39b8ed6ea2acb86545652ca352cc30f8f172e39612570fbb",
+        "A1": "363ab32984241724de06f89bd4bb4b5ecb4494c5d4852126bb79f2bc7c305d94"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 LG생활건강 단독 적합성을 판정하지 않았고 C는 생활용품·음료 58%에 근거해 제외했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "워트",
+      "case": "20230912000404",
+      "item": "20230912000404-11",
+      "question": "테크윙의 사업 비교 적합성",
+      "states": [
+        "문제 제기",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A11",
+        "E1",
+        "E5",
+        "E6",
+        "E7",
+        "E8"
+      ],
+      "native_response_sha256": {
+        "A0": "2067a8fbb16cf7ef4965c1d9eed745825a660811b5a43b506228b8c973874a81",
+        "C": "61c6b7a1e42424fe6a49d21036cb7f491385aad192a0c7f8ef4f0f61764af30f",
+        "A1": "35bbfff77f2d3656fdc3374eb7944430bb94607c0dc030980905d33ad159d4dd"
+      },
+      "semantic_group": "shared_or_qualified_concern",
+      "reason": "두 역할 모두 테스트 핸들러와 온습도 제어의 공정·용도 차이를 문제 삼았다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "원일티엔아이",
+      "case": "20250320001180",
+      "item": "20250320001180-09",
+      "question": "비에이치아이의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": "REVIEW",
+      "C_local_limit": "조건부 응답",
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A09",
+        "E1",
+        "E18",
+        "E2",
+        "E20",
+        "E21"
+      ],
+      "native_response_sha256": {
+        "A0": "d2ea8c7f221ffc0dc3d96fc902bc1bd51afa78ea211a46fc9218404341d91cc1",
+        "C": "03cb8fcd7415e9148d33f42c9abe507f43f25424e8de9051dbc0f05970d71c43",
+        "A1": "f891c94a39f251a4a8aa9f9317235b0072ae3804b11e5ea1575760c90642f8a4"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 후보 단독 비교를 유보했고 C도 HRSG·보일러 집중과 발행사 제품의 차이를 제시하면서 세부 구성을 더 확인하자고 했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "씨엠티엑스",
+      "case": "20251001000684",
+      "item": "20251001000684-04",
+      "question": "비교기업 PER의 집계 방식",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A04"
+      ],
+      "native_response_sha256": {
+        "A0": "00a4b614caeb2153d7b58ec7eed567f9988adfa0e257f90494b51eb30ee1fe8d",
+        "C": "b1a2163e0b3abb9e7780d144e94a7ab90344a51847a7222b52dfae7c1fdaa712",
+        "A1": "c37958f2799b8f65e6f732f766d30afe153a9ff250c9cd6844482805ae55ccb7"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "두 회사/세 회사의 PER 평균 구성원 충돌은 C 집계 역할의 공시 적정성 판단 범위 밖이다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "에이직랜드",
+      "case": "20230915000263",
+      "item": "20230915000263-05",
+      "question": "발행사 적용 주식 수",
+      "states": [
+        "수용",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A05"
+      ],
+      "native_response_sha256": {
+        "A0": "2dd4010624ce58d4065a5593f9cbd99cd0f73c81ee8b5f3bad0a68fd53ef5945",
+        "C": "5f1d8251fe7a5d59f7512e60982eae9bfab83b7cac74ca7efd7bd234dc3077e9",
+        "A1": "293ae38fbb7e66c824aeec50724ce42722f0b2a7744cd895415d34e57d3aeaa7"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "신고서 제출일/상장일 기준 옵션 수량에 대한 C의 판단이 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "바이오비쥬",
+      "case": "20250324000841",
+      "item": "20250324000841-08",
+      "question": "전환권부채평가손실의 적용 이익 조정 근거",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08"
+      ],
+      "native_response_sha256": {
+        "A0": "e42f7e701afcb99e86f31b523b5c240618c7f712c4e0b12852c3c3ccaad5a7c6",
+        "C": "4a976ac9ce73ef864ee0861c06b407cea93f5b5d81b61015639e32bc1746d0ca",
+        "A1": "ca7b7336dc9e2b3a4378f1636ac206f9ea967e4c6d6d78b7a64013f721e45e80"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "전환권부채평가손실 가산의 세효과는 C 개별판정 대상 밖이다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "삼진식품",
+      "case": "20251103000252",
+      "item": "20251103000252-10",
+      "question": "사조씨푸드의 사업 비교 적합성",
+      "states": [
+        "미확인",
+        "문제 제기"
+      ],
+      "C_comparable": true,
+      "C_proposal": "EXCLUDE",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E14",
+        "E15",
+        "E16",
+        "E17"
+      ],
+      "native_response_sha256": {
+        "A0": "7029708b2c6c0699f850c3ddc961497c32e4150163d8bdee23571a9ec7f3ac90",
+        "C": "c02f0c0b4b854b40bd790f34f390d9b84359b91e64d38b13981d4033d89eeaac",
+        "A1": "b69fa47bf4ed97176aa36236c0916742f645de9b27d4a3d6afb1a5f6e819819a"
+      },
+      "semantic_group": "one_role_without_counterclaim",
+      "reason": "A0는 사조씨푸드의 사업 구성을 판단할 수 없다고 했고 C는 횟감용 참치 비중으로 제외했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "달바글로벌",
+      "case": "20250325000608",
+      "item": "20250325000608-08",
+      "question": "파생상품평가손실의 적용 이익 조정 근거",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08"
+      ],
+      "native_response_sha256": {
+        "A0": "1c8c89ee270f0cec4d8e6892bbbd53af9625907c1e05b063690df52878fff32a",
+        "C": "e83db600ea93a5f25a29e0dbf4414541bdef184b137ceaddcd0ce7ac5f3c8cbf",
+        "A1": "a005c3b650f0f654bb3a75718a375f24043f197ead2b04f210f275b3f2b00924"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "우선주 전환 평가손실 가산·법인세효과에 대한 반대 C판정이 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "액스비스",
+      "case": "20251223000517",
+      "item": "20251223000517-08",
+      "question": "유형자산처분이익의 적용 이익 조정 근거",
+      "states": [
+        "수용",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": null,
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A08"
+      ],
+      "native_response_sha256": {
+        "A0": "b474039abb6a7e98947508a924517b28b62206e861e89ec74455ffd2c73861e1",
+        "C": "01f2062339ac0dc208e648d43ea2346875db32ff8458edf5c059494a812453e8",
+        "A1": "82620f1294ec1c336ec9b364abd146e01abc156df799b5d1035a7ba209813326"
+      },
+      "semantic_group": "outside_C_role",
+      "reason": "유형자산 처분이익 차감·법인세효과에 대한 C의 반대 판단이 없다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "스톰테크",
+      "case": "20230918000204",
+      "item": "20230918000204-09",
+      "question": "피코그램의 사업 비교 적합성",
+      "states": [
+        "수용",
+        "미확인"
+      ],
+      "C_comparable": false,
+      "C_proposal": "INCLUDE",
+      "C_local_limit": "조건부 응답",
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A09",
+        "E1",
+        "E16",
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "native_response_sha256": {
+        "A0": "f22f0a074a8c35da1a3752a3b7937d31f8f01c96f75951a2aeba67851fb9f71d",
+        "C": "5e88d1b02d70d093f78ee38fed7af786ca52fb1651dfb578998c84f16834006d",
+        "A1": "41d48498895321b3537b6c034302eb4be22fd6788d2f5fcb3c18627d70655baf"
+      },
+      "semantic_group": "shared_or_qualified_concern",
+      "reason": "A0는 필터·정수기부품 비교에 찬성하면서 완제품·배수 차이를 유보했고 C도 정수 부품 유사성에 잠정 포함하며 같은 한계를 지적했다.",
+      "eligible_live_dispute": false
+    },
+    {
+      "issuer": "키스트론",
+      "case": "20250328002012",
+      "item": "20250328002012-10",
+      "question": "KOBELCO WIRE CO LTD의 사업 비교 적합성",
+      "states": [
+        "문제 제기",
+        "미확인"
+      ],
+      "C_comparable": true,
+      "C_proposal": "REVIEW",
+      "C_local_limit": null,
+      "formal_opposition": false,
+      "evidence_ids": [
+        "A10",
+        "E1",
+        "E10",
+        "E9"
+      ],
+      "native_response_sha256": {
+        "A0": "add378f7526d67d68c02ea24ebf896611dbfbaea86343a10d96b95aa136b8b9f",
+        "C": "01025d1a6587212c70ea60238253d0ece892c7ef35ba20d3a6a12a7440b00423",
+        "A1": "e0e6790733acfe9b079b2654f52d2ceb5e324579a8d7b74a635b42aeb1bd93aa"
+      },
+      "semantic_group": "shared_or_qualified_concern",
+      "reason": "두 역할 모두 강선 용도·매출 비교를 확정하지 못했다. A0의 5배/10배 제외 문턱 충돌은 C에게 제시되지 않은 신고서 기준이어서 그 쟁점의 정반대 결론이 없다.",
+      "eligible_live_dispute": false
+    }
+  ],
+  "classification_counts": {
+    "conditional_directional_tension": 1,
+    "one_role_without_counterclaim": 14,
+    "outside_C_role": 9,
+    "method_not_selected": 1,
+    "shared_or_qualified_concern": 6
+  },
+  "total_cross_company_pairs": 465,
+  "cross_company_pair_set_sha256": "0edb99ddf148239d8cbce432b457b35f9bbd0e484db1ac95fc317f6be9a9657e",
+  "surface_directional_tension": [
+    "20230818000362-08"
+  ],
+  "possible_same_mechanism_pairs_even_if_all_tensions_counted": 0,
+  "formally_opposed": 0,
+  "eligible_repeated_groups": [],
+  "condition_met": false,
+  "additional_model_calls": 0,
+  "original_rankings_modified": false,
+  "reference_grades_opened_for_this_review": false
+}

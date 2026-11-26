@@ -1,0 +1,45 @@
+{
+  "target_alpha_two_sided": 0.05,
+  "power": 0.8,
+  "enrollment_probability_of_attaining_target": 0.9,
+  "effect_assumption": 0.8,
+  "panels": {
+    "primary": {
+      "validation_valid": 2,
+      "validation_observed": 4,
+      "eligibility_exact_95_interval": [
+        0.06758598648854294,
+        0.932414013511457
+      ],
+      "assumed_standardized_paired_effect": 0.8,
+      "valid_pairs_needed": 15,
+      "power_if_all_eight_valid": 0.49638204624383425,
+      "total_enrollment_at_90_percent_probability_of_enough_valid": {
+        "1.0": 15,
+        "0.8": 22,
+        "0.7": 25,
+        "0.5": 37
+      }
+    },
+    "secondary": {
+      "validation_valid": 1,
+      "validation_observed": 4,
+      "eligibility_exact_95_interval": [
+        0.006309463209709865,
+        0.8058795503167565
+      ],
+      "assumed_standardized_paired_effect": 0.8,
+      "valid_pairs_needed": 15,
+      "power_if_all_eight_valid": 0.49638204624383425,
+      "total_enrollment_at_90_percent_probability_of_enough_valid": {
+        "1.0": 15,
+        "0.8": 22,
+        "0.7": 25,
+        "0.25": 78
+      }
+    }
+  },
+  "unopened_legacy_issuers": 8,
+  "final_outcomes_opened": 0,
+  "scope": "Planning. Filed-company eligibility precedes outcome-class eligibility. Four validation issuers are retired. The six exposed development and validation issuers are excluded from confirmation."
+}

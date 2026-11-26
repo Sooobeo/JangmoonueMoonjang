@@ -1,0 +1,28 @@
+{
+  "HDMS": {
+    "H01": {"domain": "J1", "judgment": "수용", "claims": ["REVIEW_J1_EARN", "REVIEW_J1_STMT"], "type": "이익 기간·회계 범위", "direction": "지지", "reason": "발행사 공시와 연결손익에서 같은 온기·귀속 범위를 확인했다. 후보별 회계 범위의 외부 확인은 조건으로 남는다."},
+    "H02": {"domain": "J2", "judgment": "미확인", "claims": ["REVIEW_J2_BUSINESS"], "fact_slice": "HD한국조선해양의 2023년 매출은 조선 83.1%, 엔진기계 7.7%", "cite_pages": [251], "type": "매출 구성·수익원", "direction": "조건 설명", "reason": "조선 중심이라는 후보 정보와 공시상 사업 연관성을 언급했다. 개별 사업 적합성의 수용·배제 판정은 붙이지 않았다. 순이익 표 차이는 H08에 연결한다."},
+    "H03": {"domain": "J2", "judgment": "미확인", "claims": ["REVIEW_J2_BUSINESS"], "fact_slice": "ALFA LAVAL은 해양 30.0%, 에너지 30.3%, 식품·수자원 39.7%", "cite_pages": [256], "type": "매출 구성·수익원", "direction": "조건 설명", "reason": "해양·에너지·식품/수자원 매출을 제시했다. 이후 대안 배수는 기계적 민감도라는 한계를 달았고 개별 사업 적합성은 판정하지 않았다."},
+    "H04": {"domain": "J2", "judgment": "미확인", "claims": ["REVIEW_J2_BUSINESS"], "fact_slice": "KONGSBERG에는 해양 애프터마켓 외 국방·항공 사업도 있다.", "cite_pages": [258, 259], "type": "매출 구성·수익원", "direction": "조건 설명", "reason": "해양 사후시장과 방산·항공 사업의 차이를 제시했다. 후보별 사업 적합성에 대한 명시 판정이 없다."},
+    "H05": {"domain": "J2", "judgment": "미확인", "claims": [], "type": "제품·적용 공정", "direction": "조건 설명", "reason": "공시된 포함과 PER 수치만 열거했다. 이 후보의 사업 적합성에 결론과 근거를 함께 연결할 수 없다."},
+    "H06": {"domain": "J3", "judgment": "미확인", "claims": ["REVIEW_J3_INPUT"], "type": "시세·배수·집계", "direction": "조건 설명", "reason": "산술평균과 중앙값 결과를 대조했다. 두 방식 중 공시 선택의 적합성은 조건부로 남겼다."},
+    "H07": {"domain": "J3", "judgment": "미확인", "claims": [], "type": "시세·배수·집계", "direction": "조건 설명", "reason": "대체 기준주가 구간에 대한 원답변 판정과 인용이 없다."},
+    "H08": {"domain": "J2", "judgment": "문제 제기", "claims": ["REVIEW_J2_DIFF"], "type": "재무 특성", "direction": "약화", "reason": "같은 후보의 2023년 지배주주 이익이 두 공시 표에서 29백만원 다르다고 구체적으로 지적했다. 오류 확정은 외부 자료 대조에 달려 있다."},
+    "H09": {"domain": "J4", "judgment": "미확인", "claims": ["REVIEW_J4_SHARES"], "type": "주식 수·희석 및 할인", "direction": "조건 설명", "reason": "포함 항목과 합산 재현은 확인했다. 잠재주식수 범위의 타당성을 별도로 판정하지 않았다."},
+    "H10": {"domain": "J4", "judgment": "수용", "claims": ["REVIEW_J4_PRICE"], "type": "시세·배수·집계", "direction": "지지", "reason": "평가시가총액에서 역산한 약 106,112.61원이 공시 106,113원과 맞는다고 판단했다. 내부 반올림 규칙은 미확인이다."},
+    "H11": {"domain": "J4", "judgment": "미확인", "claims": ["REVIEW_J4_PRICE"], "type": "주식 수·희석 및 할인", "direction": "조건 설명", "reason": "희망 범위를 확인했다. 해당 할인율 선택의 타당성은 판정하지 않았다."}
+  },
+  "MELCON": {
+    "M01": {"domain": "J1", "judgment": "문제 제기", "claims": ["REVIEW_J1_EARN", "REVIEW_J1_PEER_PERIOD"], "type": "이익 기간·회계 범위", "direction": "약화", "reason": "발행사 반기 단순 연환산과 비교기업 최근 4분기의 기간 차이 및 계절성 확인이 필요하다고 지적했다."},
+    "M02": {"domain": "J1", "judgment": "미확인", "claims": ["REVIEW_J1_EARN"], "type": "일회성 손익 조정", "direction": "조건 설명", "reason": "처분이익 919백만원을 제외한 내역은 확인했다. 세후 및 지배주주 귀속 조정액을 확보하지 못해 이 조정 자체의 타당성을 확정하지 않았다."},
+    "M03": {"domain": "J2", "judgment": "문제 제기", "claims": ["REVIEW_J2_BUSINESS"], "type": "제품·적용 공정", "direction": "약화", "reason": "HPSP의 주력 장비와 발행사의 기능 차이가 사업 위험·수익성에 연결된다고 직접 지적했다. 배제 권고는 제시하지 않았다."},
+    "M04": {"domain": "J2", "judgment": "미확인", "claims": ["REVIEW_J2_BUSINESS"], "type": "매출 구성·수익원", "direction": "지지", "reason": "워트의 THC와 발행사 환경제어의 공통점을 지지 근거로 제시했다. 개별 후보의 사업 적합성 수용 판정은 명시하지 않았고 같은 공정의 구체 근거를 인용하지 않았다."},
+    "M05": {"domain": "J1", "judgment": "문제 제기", "claims": ["REVIEW_J1_PEER_PERIOD", "REVIEW_J1_PERIOD_CONFLICT"], "type": "이익 기간·회계 범위", "direction": "약화", "reason": "선정표의 2025년 LTM과 산정표의 2026년 LTM을 구체적으로 대조했고 둘의 설명 차이를 해소하지 못했다."},
+    "M06": {"domain": "J2", "judgment": "문제 제기", "claims": ["REVIEW_J2_BUSINESS", "REVIEW_J2_NUM"], "type": "시세·배수·집계", "direction": "약화", "reason": "두 후보 동일가중에 대해 기능·사업 위험과 수익성 차이를 고려해야 한다고 명시했다."},
+    "M07": {"domain": "J2", "judgment": "미확인", "claims": ["REVIEW_J2_NUM"], "type": "시세·배수·집계", "direction": "조건 설명", "reason": "인용 기준주가를 기록했으나 기준주가 구간의 적절성과 독립 원자료를 확인하지 못했다."},
+    "M08": {"domain": "J2", "judgment": "미확인", "claims": ["REVIEW_J2_NUM"], "type": "시세·배수·집계", "direction": "조건 설명", "reason": "산정표의 주식수·이익은 기록했고 원자료와 비교 범위를 독립 대조하지 않았다."},
+    "M09": {"domain": "J4", "judgment": "미확인", "claims": ["REVIEW_J4_SHARES", "REVIEW_J4_UND"], "type": "주식 수·희석 및 할인", "direction": "조건 설명", "reason": "표에 적힌 수와 합산은 확인했다. 옵션 행사·실제 확정 분모의 경제적 적합성을 별도로 확인해야 한다고 했다."},
+    "M10": {"domain": "J4", "judgment": "수용", "claims": ["REVIEW_J4_VALUE", "REVIEW_J4_SHARES"], "type": "시세·배수·집계", "direction": "지지", "reason": "공시 평가액과 적용 주식으로 주당 약 14,173.30원을 재현해 공시 14,173원과 부합한다고 판단했다. 배수의 숨은 정밀도는 남은 조건이다."},
+    "M11": {"domain": "J4", "judgment": "미확인", "claims": ["REVIEW_J4_VALUE"], "type": "주식 수·희석 및 할인", "direction": "조건 설명", "reason": "희망 가격 범위와 확정가 공란을 확인했다. 할인율 선택을 판단하는 근거는 연결하지 않았다."}
+  }
+}

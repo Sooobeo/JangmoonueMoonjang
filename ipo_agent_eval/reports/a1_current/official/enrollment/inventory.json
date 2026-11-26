@@ -1,0 +1,5093 @@
+{
+  "window": [
+    "20241001",
+    "20241231"
+  ],
+  "search_type": "DART public C001",
+  "order": "original receipt ascending, exact equity title, one non-withdrawn receipt per new company ID",
+  "limits": {
+    "document_inspection": 39,
+    "old_cohort_outcomes_opened": 0,
+    "model_calls": 0
+  },
+  "pages": [
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20241001&endDate=20241231&publicType=C001&sort=date&series=asc&currentPage=1",
+      "response_sha256": "f026f97308cf20bf9307003e758c4722c7600a2480b6583109af17601ee7fbad",
+      "reported_total": 504
+    },
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20241001&endDate=20241231&publicType=C001&sort=date&series=asc&currentPage=2",
+      "response_sha256": "b1a209975f4a09f66111b83a174746e608ee9df378f12fda6d78717a152cf650",
+      "reported_total": 504
+    },
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20241001&endDate=20241231&publicType=C001&sort=date&series=asc&currentPage=3",
+      "response_sha256": "ec7cde6bff0f1e922d2b4274ccf75f53ba19f00570c1a8cd5509754f3636d9d9",
+      "reported_total": 504
+    },
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20241001&endDate=20241231&publicType=C001&sort=date&series=asc&currentPage=4",
+      "response_sha256": "15987fe365e126247b69e1108182410a4512d4817b8d4fd5d04cb11048381adf",
+      "reported_total": 504
+    },
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20241001&endDate=20241231&publicType=C001&sort=date&series=asc&currentPage=5",
+      "response_sha256": "ce4d2876132e1f3b2403c5b967f4bed011f09cfcfd6fc645655e2fe69638f796",
+      "reported_total": 504
+    },
+    {
+      "url": "https://dart.fss.or.kr/dsab001/search.ax?maxResults=100&startDate=20241001&endDate=20241231&publicType=C001&sort=date&series=asc&currentPage=6",
+      "response_sha256": "98d03ea01dd9c80c772eefe74819f892e346a946286c3a6982e13c7beb66dfe8",
+      "reported_total": 504
+    }
+  ],
+  "counts": {
+    "보고서명 범위 밖": 452,
+    "철회 표시·별도 보류": 4,
+    "SPAC": 9,
+    "이번 원문 확인": 39
+  },
+  "rows": [
+    {
+      "receipt": "20241002000027",
+      "corp_code": "01636565",
+      "issuer": "루미르",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000027",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000122",
+      "corp_code": "01153293",
+      "issuer": "제이엘케이",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000122",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000124",
+      "corp_code": "01153293",
+      "issuer": "제이엘케이",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000124",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000138",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000138",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000140",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000140",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000203",
+      "corp_code": "01016309",
+      "issuer": "한켐",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000203",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000206",
+      "corp_code": "01016309",
+      "issuer": "한켐",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000206",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000231",
+      "corp_code": "01284876",
+      "issuer": "인스피언",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000231",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000239",
+      "corp_code": "01284876",
+      "issuer": "인스피언",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000239",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000253",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000253",
+      "inventory_status": "철회 표시·별도 보류"
+    },
+    {
+      "receipt": "20241002000276",
+      "corp_code": "01847550",
+      "issuer": "하나34호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000276",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241002000335",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000335",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241002000363",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000363",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241002000472",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000472",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241004000030",
+      "corp_code": "00311216",
+      "issuer": "에이치엔에스하이텍",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000030",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241004000108",
+      "corp_code": "01784914",
+      "issuer": "클로봇",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000108",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241004000133",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000133",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241004000156",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000156",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241004000196",
+      "corp_code": "01275489",
+      "issuer": "셀비온",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000196",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241004000201",
+      "corp_code": "01275489",
+      "issuer": "셀비온",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000201",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241004000360",
+      "corp_code": "01703849",
+      "issuer": "노머스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000360",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241004000369",
+      "corp_code": "01275489",
+      "issuer": "셀비온",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000369",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000052",
+      "corp_code": "00415868",
+      "issuer": "펩트론",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000052",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000053",
+      "corp_code": "00415868",
+      "issuer": "펩트론",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000053",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000087",
+      "corp_code": "01270749",
+      "issuer": "웨이비스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000087",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000184",
+      "corp_code": "01636565",
+      "issuer": "루미르",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000184",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000424",
+      "corp_code": "00319272",
+      "issuer": "성우",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000424",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000449",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000449",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000461",
+      "corp_code": "01854408",
+      "issuer": "신한제15호스팩",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000461",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000466",
+      "corp_code": "01023211",
+      "issuer": "와이제이링크",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000466",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241007000470",
+      "corp_code": "01023211",
+      "issuer": "와이제이링크",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241007000470",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241008000059",
+      "corp_code": "01588189",
+      "issuer": "씨메스로보틱스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241008000059",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241008000390",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241008000390",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241008000396",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241008000396",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241008000444",
+      "corp_code": "01636565",
+      "issuer": "루미르",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241008000444",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241008000450",
+      "corp_code": "01636565",
+      "issuer": "루미르",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241008000450",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241008000539",
+      "corp_code": "00653194",
+      "issuer": "앱토크롬",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241008000539",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000048",
+      "corp_code": "01480708",
+      "issuer": "HEM파마",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000048",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000123",
+      "corp_code": "01853214",
+      "issuer": "신한제14호스팩",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000123",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000133",
+      "corp_code": "00346407",
+      "issuer": "크레오에스지",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000133",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000134",
+      "corp_code": "00346407",
+      "issuer": "크레오에스지",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000134",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000303",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000303",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000306",
+      "corp_code": "00307028",
+      "issuer": "경남제약",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000306",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000311",
+      "corp_code": "00307028",
+      "issuer": "경남제약",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000311",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000441",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "[첨부정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000441",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000444",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "[첨부정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000444",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000446",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000446",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000500",
+      "corp_code": "01845534",
+      "issuer": "대신밸런스제19호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000500",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241010000504",
+      "corp_code": "01207901",
+      "issuer": "사이냅소프트",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000504",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241010000509",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000509",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000512",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000512",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241010000579",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000579",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241011000205",
+      "corp_code": "01588189",
+      "issuer": "씨메스로보틱스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000205",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000213",
+      "corp_code": "01588189",
+      "issuer": "씨메스로보틱스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000213",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000260",
+      "corp_code": "01270749",
+      "issuer": "웨이비스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000260",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000402",
+      "corp_code": "01563922",
+      "issuer": "엠오티",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000402",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000486",
+      "corp_code": "01866528",
+      "issuer": "교보17호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000486",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241011000490",
+      "corp_code": "01275489",
+      "issuer": "셀비온",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000490",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000495",
+      "corp_code": "01016309",
+      "issuer": "한켐",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000495",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000542",
+      "corp_code": "00311216",
+      "issuer": "에이치엔에스하이텍",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000542",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000544",
+      "corp_code": "00311216",
+      "issuer": "에이치엔에스하이텍",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000544",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000556",
+      "corp_code": "01284876",
+      "issuer": "인스피언",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000556",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000572",
+      "corp_code": "01866528",
+      "issuer": "교보17호스팩",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000572",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241011000622",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241011000622",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000001",
+      "corp_code": "00319272",
+      "issuer": "성우",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000001",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000033",
+      "corp_code": "01784914",
+      "issuer": "클로봇",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000033",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000051",
+      "corp_code": "01641600",
+      "issuer": "에이럭스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000051",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000121",
+      "corp_code": "01588189",
+      "issuer": "씨메스로보틱스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000121",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000124",
+      "corp_code": "01588189",
+      "issuer": "씨메스로보틱스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000124",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000140",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000140",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000148",
+      "corp_code": "01641600",
+      "issuer": "에이럭스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000148",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000287",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000287",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000290",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000290",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000292",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000292",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000293",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000293",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000295",
+      "corp_code": "01274310",
+      "issuer": "이오플로우",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000295",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000301",
+      "corp_code": "01854392",
+      "issuer": "유진스팩11호",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000301",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241014000304",
+      "corp_code": "00653194",
+      "issuer": "앱토크롬",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241014000304",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000052",
+      "corp_code": "01641600",
+      "issuer": "에이럭스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000052",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000072",
+      "corp_code": "00968607",
+      "issuer": "더본코리아",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000072",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000157",
+      "corp_code": "01573336",
+      "issuer": "토모큐브",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000157",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000209",
+      "corp_code": "01605282",
+      "issuer": "닷밀",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000209",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000243",
+      "corp_code": "01703849",
+      "issuer": "노머스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000243",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000264",
+      "corp_code": "01023211",
+      "issuer": "와이제이링크",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000264",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000268",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000268",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000370",
+      "corp_code": "01784914",
+      "issuer": "클로봇",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000370",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000376",
+      "corp_code": "01784914",
+      "issuer": "클로봇",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000376",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000383",
+      "corp_code": "01636565",
+      "issuer": "루미르",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000383",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000409",
+      "corp_code": "01374717",
+      "issuer": "미트박스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000409",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000436",
+      "corp_code": "01203312",
+      "issuer": "케이뱅크",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000436",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000447",
+      "corp_code": "01203312",
+      "issuer": "케이뱅크",
+      "title": "투자설명서",
+      "withdrawal_notice": true,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000447",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241015000458",
+      "corp_code": "01854408",
+      "issuer": "신한제15호스팩",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015000458",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241016000041",
+      "corp_code": "01153293",
+      "issuer": "제이엘케이",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000041",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241016000060",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000060",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241016000062",
+      "corp_code": "01506617",
+      "issuer": "쓰리빌리언",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000062",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241016000084",
+      "corp_code": "01270749",
+      "issuer": "웨이비스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000084",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241016000086",
+      "corp_code": "01270749",
+      "issuer": "웨이비스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000086",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241016000097",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000097",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241016000133",
+      "corp_code": "01210677",
+      "issuer": "씨케이솔루션",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000133",
+      "inventory_status": "철회 표시·별도 보류"
+    },
+    {
+      "receipt": "20241016000264",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000264",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241016000283",
+      "corp_code": "01663116",
+      "issuer": "에어레인",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000283",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241017000024",
+      "corp_code": "01480708",
+      "issuer": "HEM파마",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241017000024",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241017000035",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241017000035",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241017000036",
+      "corp_code": "01641600",
+      "issuer": "에이럭스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241017000036",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241017000154",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241017000154",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241017000199",
+      "corp_code": "00311216",
+      "issuer": "에이치엔에스하이텍",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241017000199",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241018000056",
+      "corp_code": "01663116",
+      "issuer": "에어레인",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000056",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241018000138",
+      "corp_code": "01588189",
+      "issuer": "씨메스로보틱스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000138",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241018000189",
+      "corp_code": "00319272",
+      "issuer": "성우",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000189",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241018000195",
+      "corp_code": "00319272",
+      "issuer": "성우",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000195",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241018000208",
+      "corp_code": "01203312",
+      "issuer": "케이뱅크",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000208",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241018000518",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000518",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241021000031",
+      "corp_code": "01573336",
+      "issuer": "토모큐브",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000031",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241021000063",
+      "corp_code": "01854408",
+      "issuer": "신한제15호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000063",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241021000110",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000110",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241021000237",
+      "corp_code": "01641600",
+      "issuer": "에이럭스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000237",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241021000241",
+      "corp_code": "01641600",
+      "issuer": "에이럭스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000241",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241021000307",
+      "corp_code": "01784914",
+      "issuer": "클로봇",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000307",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241021000311",
+      "corp_code": "01854392",
+      "issuer": "유진스팩11호",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000311",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241021000312",
+      "corp_code": "01854392",
+      "issuer": "유진스팩11호",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241021000312",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000049",
+      "corp_code": "00273110",
+      "issuer": "에스티큐브",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000049",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000050",
+      "corp_code": "00273110",
+      "issuer": "에스티큐브",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000050",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000106",
+      "corp_code": "01480708",
+      "issuer": "HEM파마",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000106",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000107",
+      "corp_code": "01480708",
+      "issuer": "HEM파마",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000107",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000128",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000128",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000130",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000130",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000173",
+      "corp_code": "01270749",
+      "issuer": "웨이비스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000173",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000214",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000214",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000215",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000215",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000268",
+      "corp_code": "00307028",
+      "issuer": "경남제약",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000268",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000271",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000271",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000339",
+      "corp_code": "00415868",
+      "issuer": "펩트론",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000339",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241022000342",
+      "corp_code": "00415868",
+      "issuer": "펩트론",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241022000342",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241023000101",
+      "corp_code": "01857991",
+      "issuer": "디비금융제13호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241023000101",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241023000152",
+      "corp_code": "01663116",
+      "issuer": "에어레인",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241023000152",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241023000153",
+      "corp_code": "01663116",
+      "issuer": "에어레인",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241023000153",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241023000352",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241023000352",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241023000379",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241023000379",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241023000381",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241023000381",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000066",
+      "corp_code": "00968607",
+      "issuer": "더본코리아",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000066",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000192",
+      "corp_code": "00347734",
+      "issuer": "진양화학",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000192",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000213",
+      "corp_code": "00347734",
+      "issuer": "진양화학",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000213",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000255",
+      "corp_code": "01381984",
+      "issuer": "SKAI",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000255",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000266",
+      "corp_code": "01381984",
+      "issuer": "SKAI",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000266",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000268",
+      "corp_code": "00653194",
+      "issuer": "앱토크롬",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000268",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000272",
+      "corp_code": "00653194",
+      "issuer": "앱토크롬",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000272",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000340",
+      "corp_code": "00319272",
+      "issuer": "성우",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000340",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241024000451",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241024000451",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000016",
+      "corp_code": "01506617",
+      "issuer": "쓰리빌리언",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000016",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000068",
+      "corp_code": "01605282",
+      "issuer": "닷밀",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000068",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000126",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000126",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000178",
+      "corp_code": "01854392",
+      "issuer": "유진스팩11호",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000178",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000258",
+      "corp_code": "01854392",
+      "issuer": "유진스팩11호",
+      "title": "[기재정정] 증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000258",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000261",
+      "corp_code": "01573336",
+      "issuer": "토모큐브",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000261",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000263",
+      "corp_code": "01573336",
+      "issuer": "토모큐브",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000263",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000264",
+      "corp_code": "00968607",
+      "issuer": "더본코리아",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000264",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000269",
+      "corp_code": "00968607",
+      "issuer": "더본코리아",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000269",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000382",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000382",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000463",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000463",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241025000552",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000552",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241028000026",
+      "corp_code": "01207901",
+      "issuer": "사이냅소프트",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000026",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241028000070",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000070",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241028000096",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000096",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241028000122",
+      "corp_code": "01641600",
+      "issuer": "에이럭스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000122",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241028000141",
+      "corp_code": "01274310",
+      "issuer": "이오플로우",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000141",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241028000228",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000228",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241028000292",
+      "corp_code": "01847550",
+      "issuer": "하나34호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000292",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241028000339",
+      "corp_code": "00814582",
+      "issuer": "탑런토탈솔루션",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241028000339",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000047",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000047",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000049",
+      "corp_code": "01274310",
+      "issuer": "이오플로우",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000049",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000055",
+      "corp_code": "01274310",
+      "issuer": "이오플로우",
+      "title": "투자설명서",
+      "withdrawal_notice": true,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000055",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000133",
+      "corp_code": "01703849",
+      "issuer": "노머스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000133",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000181",
+      "corp_code": "01208751",
+      "issuer": "아이에스티이",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000181",
+      "inventory_status": "철회 표시·별도 보류"
+    },
+    {
+      "receipt": "20241029000221",
+      "corp_code": "01663116",
+      "issuer": "에어레인",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000221",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000257",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000257",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000394",
+      "corp_code": "01480708",
+      "issuer": "HEM파마",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000394",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000420",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000420",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241029000430",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241029000430",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241030000092",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241030000092",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241030000113",
+      "corp_code": "00102858",
+      "issuer": "고려아연",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241030000113",
+      "inventory_status": "철회 표시·별도 보류"
+    },
+    {
+      "receipt": "20241030000364",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241030000364",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241030000399",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "[기재정정] 증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241030000399",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241031000130",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241031000130",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241031000131",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241031000131",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241031000328",
+      "corp_code": "01573336",
+      "issuer": "토모큐브",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241031000328",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241031000389",
+      "corp_code": "00968607",
+      "issuer": "더본코리아",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241031000389",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241031000407",
+      "corp_code": "00653194",
+      "issuer": "앱토크롬",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241031000407",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241031000452",
+      "corp_code": "01573336",
+      "issuer": "토모큐브",
+      "title": "[기재정정] 증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241031000452",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241031000477",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241031000477",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000003",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000003",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000007",
+      "corp_code": "01845534",
+      "issuer": "대신밸런스제19호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000007",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000071",
+      "corp_code": "01207901",
+      "issuer": "사이냅소프트",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000071",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000085",
+      "corp_code": "01784677",
+      "issuer": "키움히어로제1호스팩",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000085",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000139",
+      "corp_code": "01506617",
+      "issuer": "쓰리빌리언",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000139",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000142",
+      "corp_code": "01506617",
+      "issuer": "쓰리빌리언",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000142",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000247",
+      "corp_code": "01703849",
+      "issuer": "노머스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000247",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000250",
+      "corp_code": "01703849",
+      "issuer": "노머스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000250",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000289",
+      "corp_code": "01605282",
+      "issuer": "닷밀",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000289",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000293",
+      "corp_code": "01605282",
+      "issuer": "닷밀",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000293",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000314",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000314",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000336",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000336",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000364",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000364",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241101000386",
+      "corp_code": "01210677",
+      "issuer": "씨케이솔루션",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000386",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000002",
+      "corp_code": "01563922",
+      "issuer": "엠오티",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000002",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000003",
+      "corp_code": "01866528",
+      "issuer": "교보17호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000003",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000189",
+      "corp_code": "01854408",
+      "issuer": "신한제15호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000189",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000191",
+      "corp_code": "01409095",
+      "issuer": "비트맥스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000191",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000192",
+      "corp_code": "01409095",
+      "issuer": "비트맥스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000192",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000200",
+      "corp_code": "01854408",
+      "issuer": "신한제15호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000200",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000252",
+      "corp_code": "01873272",
+      "issuer": "키움제11호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000252",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241104000275",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000275",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000283",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000283",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000288",
+      "corp_code": "00273110",
+      "issuer": "에스티큐브",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000288",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241104000352",
+      "corp_code": "01455492",
+      "issuer": "데이원컴퍼니",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000352",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241105000031",
+      "corp_code": "00346407",
+      "issuer": "크레오에스지",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000031",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000032",
+      "corp_code": "00346407",
+      "issuer": "크레오에스지",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000032",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000084",
+      "corp_code": "01866926",
+      "issuer": "KB제31호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000084",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241105000112",
+      "corp_code": "01381984",
+      "issuer": "SKAI",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000112",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000117",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000117",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000121",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000121",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000130",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000130",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000131",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000131",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000173",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "투자설명서",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000173",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000174",
+      "corp_code": "00347734",
+      "issuer": "진양화학",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000174",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000198",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000198",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000229",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000229",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241105000240",
+      "corp_code": "01374717",
+      "issuer": "미트박스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241105000240",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000005",
+      "corp_code": "01374717",
+      "issuer": "미트박스",
+      "title": "투자설명서",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000005",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000006",
+      "corp_code": "01210677",
+      "issuer": "씨케이솔루션",
+      "title": "투자설명서",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000006",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000010",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000010",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000011",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000011",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000087",
+      "corp_code": "01563922",
+      "issuer": "엠오티",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000087",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000088",
+      "corp_code": "01563922",
+      "issuer": "엠오티",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000088",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000095",
+      "corp_code": "01847550",
+      "issuer": "하나34호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000095",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000097",
+      "corp_code": "01847550",
+      "issuer": "하나34호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000097",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000110",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000110",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000141",
+      "corp_code": "01866528",
+      "issuer": "교보17호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000141",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000142",
+      "corp_code": "01866528",
+      "issuer": "교보17호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000142",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000152",
+      "corp_code": "01207901",
+      "issuer": "사이냅소프트",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000152",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000153",
+      "corp_code": "01207901",
+      "issuer": "사이냅소프트",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000153",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000175",
+      "corp_code": "01728167",
+      "issuer": "아이지넷",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000175",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241106000243",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000243",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000291",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000291",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000293",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000293",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241106000331",
+      "corp_code": "01590528",
+      "issuer": "아스테라시스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000331",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241107000109",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000109",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000133",
+      "corp_code": "01703849",
+      "issuer": "노머스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000133",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000179",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000179",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000185",
+      "corp_code": "01605282",
+      "issuer": "닷밀",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000185",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000228",
+      "corp_code": "01845534",
+      "issuer": "대신밸런스제19호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000228",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000237",
+      "corp_code": "01845534",
+      "issuer": "대신밸런스제19호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000237",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000305",
+      "corp_code": "01519790",
+      "issuer": "엠앤씨솔루션",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000305",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241107000337",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000337",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000355",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000355",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000357",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "[첨부정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000357",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241107000359",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "[첨부정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000359",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000197",
+      "corp_code": "01854408",
+      "issuer": "신한제15호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000197",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000225",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000225",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000294",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000294",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000305",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000305",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000371",
+      "corp_code": "01853214",
+      "issuer": "신한제14호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000371",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241108000419",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000419",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000515",
+      "corp_code": "01506617",
+      "issuer": "쓰리빌리언",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000515",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000555",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000555",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241108000560",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000560",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241108000570",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "[첨부정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000570",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241111000151",
+      "corp_code": "00415868",
+      "issuer": "펩트론",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241111000151",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241111000152",
+      "corp_code": "00415868",
+      "issuer": "펩트론",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241111000152",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241111000225",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241111000225",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241111000226",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241111000226",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241111000241",
+      "corp_code": "01374717",
+      "issuer": "미트박스",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241111000241",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241112000001",
+      "corp_code": "01445440",
+      "issuer": "위츠",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000001",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241112000145",
+      "corp_code": "01383779",
+      "issuer": "에스켐",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000145",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241112000159",
+      "corp_code": "01847550",
+      "issuer": "하나34호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000159",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241112000168",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000168",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241112000184",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000184",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241112000322",
+      "corp_code": "01563922",
+      "issuer": "엠오티",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000322",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241112000372",
+      "corp_code": "01210677",
+      "issuer": "씨케이솔루션",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000372",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241112000407",
+      "corp_code": "00476939",
+      "issuer": "렉스필드컨트리클럽",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000407",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241112000455",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000455",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241113000165",
+      "corp_code": "00102858",
+      "issuer": "고려아연",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241113000165",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241113000375",
+      "corp_code": "01208751",
+      "issuer": "아이에스티이",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241113000375",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241113000449",
+      "corp_code": "01207901",
+      "issuer": "사이냅소프트",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241113000449",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114000032",
+      "corp_code": "01857991",
+      "issuer": "디비금융제13호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114000032",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114000121",
+      "corp_code": "01845534",
+      "issuer": "대신밸런스제19호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114000121",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114000712",
+      "corp_code": "01409095",
+      "issuer": "비트맥스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114000712",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114000827",
+      "corp_code": "01866528",
+      "issuer": "교보17호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114000827",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114002474",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114002474",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114002497",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114002497",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114002779",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114002779",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241114003009",
+      "corp_code": "00113261",
+      "issuer": "대한광통신",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114003009",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241115000127",
+      "corp_code": "01857991",
+      "issuer": "디비금융제13호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000127",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000128",
+      "corp_code": "01857991",
+      "issuer": "디비금융제13호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000128",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000169",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000169",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000210",
+      "corp_code": "00346407",
+      "issuer": "크레오에스지",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000210",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000259",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000259",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000279",
+      "corp_code": "00296324",
+      "issuer": "큐로홀딩스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000279",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241115000315",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000315",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000318",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000318",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000323",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000323",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241115000345",
+      "corp_code": "00313649",
+      "issuer": "현대바이오",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000345",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241118000129",
+      "corp_code": "00863533",
+      "issuer": "삼양엔씨켐",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000129",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241118000161",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000161",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000172",
+      "corp_code": "00107613",
+      "issuer": "이수페타시스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000172",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241118000189",
+      "corp_code": "01405451",
+      "issuer": "알체라",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000189",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241118000198",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000198",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000206",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000206",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000231",
+      "corp_code": "01274310",
+      "issuer": "이오플로우",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000231",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000240",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000240",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000273",
+      "corp_code": "00367400",
+      "issuer": "모티브링크",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000273",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241118000282",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000282",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000283",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000283",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000288",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000288",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000329",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "[첨부정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000329",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000341",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000341",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241118000342",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000342",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000035",
+      "corp_code": "00273110",
+      "issuer": "에스티큐브",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000035",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000040",
+      "corp_code": "00273110",
+      "issuer": "에스티큐브",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000040",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000047",
+      "corp_code": "00273110",
+      "issuer": "에스티큐브",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000047",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000176",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000176",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000181",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000181",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000207",
+      "corp_code": "00476939",
+      "issuer": "렉스필드컨트리클럽",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000207",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000214",
+      "corp_code": "01455492",
+      "issuer": "데이원컴퍼니",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000214",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000238",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000238",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241119000261",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241119000261",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241120000103",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000103",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241120000115",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000115",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241120000179",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000179",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241120000278",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000278",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241120000398",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000398",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241121000110",
+      "corp_code": "01857991",
+      "issuer": "디비금융제13호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241121000110",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241121000302",
+      "corp_code": "01519790",
+      "issuer": "엠앤씨솔루션",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241121000302",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241121000354",
+      "corp_code": "00415868",
+      "issuer": "펩트론",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241121000354",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241121000487",
+      "corp_code": "00351427",
+      "issuer": "와이즈넛",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241121000487",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241122000223",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241122000223",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241122000507",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241122000507",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241125000204",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241125000204",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241125000206",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241125000206",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241126000001",
+      "corp_code": "01873272",
+      "issuer": "키움제11호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241126000001",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241126000246",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241126000246",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241126000252",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241126000252",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241126000702",
+      "corp_code": "01274310",
+      "issuer": "이오플로우",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": true,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241126000702",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241127000012",
+      "corp_code": "01866926",
+      "issuer": "KB제31호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000012",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241127000088",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "투자설명서",
+      "withdrawal_notice": true,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000088",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241127000230",
+      "corp_code": "01328639",
+      "issuer": "윙입푸드",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000230",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241127000257",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000257",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241127000529",
+      "corp_code": "01728167",
+      "issuer": "아이지넷",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000529",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241127000554",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000554",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241127000682",
+      "corp_code": "00137997",
+      "issuer": "현대차증권",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000682",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241128000619",
+      "corp_code": "01873272",
+      "issuer": "키움제11호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241128000619",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241128000624",
+      "corp_code": "01873272",
+      "issuer": "키움제11호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241128000624",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241128000642",
+      "corp_code": "00197759",
+      "issuer": "미래산업",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241128000642",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241128000916",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241128000916",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241128001099",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241128001099",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129000337",
+      "corp_code": "01519790",
+      "issuer": "엠앤씨솔루션",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129000337",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129000497",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129000497",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129000593",
+      "corp_code": "01866926",
+      "issuer": "KB제31호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129000593",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129000608",
+      "corp_code": "01866926",
+      "issuer": "KB제31호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129000608",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129000929",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129000929",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129001313",
+      "corp_code": "01429220",
+      "issuer": "피아이이",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001313",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241129001360",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001360",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129001371",
+      "corp_code": "00273110",
+      "issuer": "에스티큐브",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001371",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129001451",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001451",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129001454",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001454",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129001587",
+      "corp_code": "00296324",
+      "issuer": "큐로홀딩스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001587",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129001734",
+      "corp_code": "01366000",
+      "issuer": "태성",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001734",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241129002040",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129002040",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241129002047",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129002047",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000059",
+      "corp_code": "01853214",
+      "issuer": "신한제14호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000059",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000108",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000108",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000117",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000117",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000132",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000132",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000158",
+      "corp_code": "00313649",
+      "issuer": "현대바이오",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000158",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000356",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000356",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000360",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000360",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000418",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000418",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241202000423",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241202000423",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241203000012",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241203000012",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241203000034",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241203000034",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241203000040",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241203000040",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241203000151",
+      "corp_code": "01590528",
+      "issuer": "아스테라시스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241203000151",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241203000302",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241203000302",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241203000307",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241203000307",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000042",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000042",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000068",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000068",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000168",
+      "corp_code": "01519790",
+      "issuer": "엠앤씨솔루션",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000168",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000172",
+      "corp_code": "01519790",
+      "issuer": "엠앤씨솔루션",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000172",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000222",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000222",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000229",
+      "corp_code": "00367400",
+      "issuer": "모티브링크",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000229",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000316",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000316",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241204000372",
+      "corp_code": "00863533",
+      "issuer": "삼양엔씨켐",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241204000372",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000003",
+      "corp_code": "01208751",
+      "issuer": "아이에스티이",
+      "title": "투자설명서",
+      "withdrawal_notice": true,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000003",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000013",
+      "corp_code": "01866926",
+      "issuer": "KB제31호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000013",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000035",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000035",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000155",
+      "corp_code": "01873272",
+      "issuer": "키움제11호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000155",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000262",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000262",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000263",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000263",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000287",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000287",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000289",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000289",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000549",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000549",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000556",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000556",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000570",
+      "corp_code": "01455492",
+      "issuer": "데이원컴퍼니",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000570",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241205000577",
+      "corp_code": "00139834",
+      "issuer": "LG씨엔에스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000577",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241206000181",
+      "corp_code": "01274310",
+      "issuer": "이오플로우",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241206000181",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241206000379",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241206000379",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241206000501",
+      "corp_code": "01405451",
+      "issuer": "알체라",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241206000501",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000122",
+      "corp_code": "01453944",
+      "issuer": "벡트로보틱스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000122",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000209",
+      "corp_code": "00863533",
+      "issuer": "삼양엔씨켐",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000209",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000268",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000268",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000270",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000270",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000294",
+      "corp_code": "01208751",
+      "issuer": "아이에스티이",
+      "title": "철회신고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000294",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000315",
+      "corp_code": "00351427",
+      "issuer": "와이즈넛",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000315",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000393",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000393",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241209000399",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241209000399",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000040",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000040",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000172",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000172",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000174",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000174",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000271",
+      "corp_code": "01853214",
+      "issuer": "신한제14호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000271",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000275",
+      "corp_code": "01853214",
+      "issuer": "신한제14호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000275",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000309",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000309",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000450",
+      "corp_code": "00113261",
+      "issuer": "대한광통신",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000450",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000460",
+      "corp_code": "01872219",
+      "issuer": "유안타제17호스팩",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000460",
+      "inventory_status": "SPAC"
+    },
+    {
+      "receipt": "20241210000534",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000534",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000538",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000538",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000541",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000541",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000550",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000550",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241210000560",
+      "corp_code": "01519790",
+      "issuer": "엠앤씨솔루션",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241210000560",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241211000074",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241211000074",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241211000336",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241211000336",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241211000356",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241211000356",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241211000410",
+      "corp_code": "00107613",
+      "issuer": "이수페타시스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241211000410",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241212000146",
+      "corp_code": "01423916",
+      "issuer": "온코크로스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000146",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241212000278",
+      "corp_code": "01265251",
+      "issuer": "츌립앤사이언스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000278",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241212000479",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000479",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241212000508",
+      "corp_code": "01374717",
+      "issuer": "미트박스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000508",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241212000512",
+      "corp_code": "01566248",
+      "issuer": "에코프로에이치엔",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000512",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241212000606",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000606",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241212000615",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000615",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000093",
+      "corp_code": "00220109",
+      "issuer": "알파AI",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000093",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000142",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000142",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000143",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000143",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000317",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000317",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000329",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000329",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000339",
+      "corp_code": "01632912",
+      "issuer": "온코닉테라퓨틱스",
+      "title": "[기재정정] 증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000339",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000442",
+      "corp_code": "01366000",
+      "issuer": "태성",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000442",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000457",
+      "corp_code": "01137860",
+      "issuer": "위너스일렉",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000457",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241213000473",
+      "corp_code": "00351427",
+      "issuer": "와이즈넛",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000473",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000597",
+      "corp_code": "01516890",
+      "issuer": "E8",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000597",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241213000606",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000606",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000612",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000612",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241213000625",
+      "corp_code": "00542898",
+      "issuer": "케이이엠텍",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000625",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241216000043",
+      "corp_code": "00313649",
+      "issuer": "현대바이오",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000043",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241216000045",
+      "corp_code": "00313649",
+      "issuer": "현대바이오",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000045",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241216000137",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000137",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241216000140",
+      "corp_code": "01877126",
+      "issuer": "키움제10호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000140",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241216000182",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000182",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241216000184",
+      "corp_code": "01853214",
+      "issuer": "신한제14호스팩",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000184",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241216000242",
+      "corp_code": "01233465",
+      "issuer": "동국생명과학",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000242",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241216000257",
+      "corp_code": "00867034",
+      "issuer": "듀켐바이오",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000257",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241217000123",
+      "corp_code": "01405451",
+      "issuer": "알체라",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241217000123",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241217000212",
+      "corp_code": "01397903",
+      "issuer": "엔젠바이오",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241217000212",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241217000266",
+      "corp_code": "00296324",
+      "issuer": "큐로홀딩스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241217000266",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241217000484",
+      "corp_code": "01455492",
+      "issuer": "데이원컴퍼니",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241217000484",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241218000183",
+      "corp_code": "01429220",
+      "issuer": "피아이이",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241218000183",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241218000273",
+      "corp_code": "00870065",
+      "issuer": "쓰리에이로직스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241218000273",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241219000027",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241219000027",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241219000047",
+      "corp_code": "01728167",
+      "issuer": "아이지넷",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241219000047",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241219000098",
+      "corp_code": "01455410",
+      "issuer": "파인메딕스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241219000098",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241219000347",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241219000347",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241219000351",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241219000351",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241219000521",
+      "corp_code": "00139834",
+      "issuer": "LG씨엔에스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241219000521",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241220000187",
+      "corp_code": "01405451",
+      "issuer": "알체라",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000187",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241220000442",
+      "corp_code": "01596920",
+      "issuer": "알지노믹스",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000442",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241220000580",
+      "corp_code": "01590528",
+      "issuer": "아스테라시스",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000580",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241220000674",
+      "corp_code": "00525679",
+      "issuer": "차바이오텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000674",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241220000731",
+      "corp_code": "01351080",
+      "issuer": "지아이이노베이션",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000731",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241223000169",
+      "corp_code": "00367400",
+      "issuer": "모티브링크",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000169",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241223000178",
+      "corp_code": "01429220",
+      "issuer": "피아이이",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000178",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241223000181",
+      "corp_code": "01405451",
+      "issuer": "알체라",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000181",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241223000283",
+      "corp_code": "01593668",
+      "issuer": "센서뷰",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000283",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241223000310",
+      "corp_code": "00113261",
+      "issuer": "대한광통신",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000310",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241223000375",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000375",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241223000405",
+      "corp_code": "00306870",
+      "issuer": "손오공",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000405",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241223000473",
+      "corp_code": "00476939",
+      "issuer": "렉스필드컨트리클럽",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000473",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241223000477",
+      "corp_code": "00476939",
+      "issuer": "렉스필드컨트리클럽",
+      "title": "[첨부정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000477",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241224000430",
+      "corp_code": "01022902",
+      "issuer": "애드바이오텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241224000430",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241224000558",
+      "corp_code": "00351427",
+      "issuer": "와이즈넛",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241224000558",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241224000573",
+      "corp_code": "00137997",
+      "issuer": "현대차증권",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241224000573",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241226000073",
+      "corp_code": "01723366",
+      "issuer": "오스템바스큘라",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000073",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241226000162",
+      "corp_code": "00113261",
+      "issuer": "대한광통신",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000162",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241226000163",
+      "corp_code": "00113261",
+      "issuer": "대한광통신",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000163",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241226000174",
+      "corp_code": "01590528",
+      "issuer": "아스테라시스",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000174",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241226000189",
+      "corp_code": "00110583",
+      "issuer": "DH오토웨어",
+      "title": "[기재정정] 투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000189",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241226000426",
+      "corp_code": "01366000",
+      "issuer": "태성",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000426",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241227000260",
+      "corp_code": "00140858",
+      "issuer": "와이엠",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241227000260",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241227000443",
+      "corp_code": "01549472",
+      "issuer": "대진첨단소재",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241227000443",
+      "inventory_status": "이번 원문 확인"
+    },
+    {
+      "receipt": "20241227000575",
+      "corp_code": "00403766",
+      "issuer": "한국첨단소재",
+      "title": "증권발행실적보고서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241227000575",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241230000070",
+      "corp_code": "01455492",
+      "issuer": "데이원컴퍼니",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241230000070",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241230000537",
+      "corp_code": "01233465",
+      "issuer": "동국생명과학",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241230000537",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241230000542",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241230000542",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241230000574",
+      "corp_code": "01516890",
+      "issuer": "E8",
+      "title": "[기재정정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241230000574",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241231000119",
+      "corp_code": "01366000",
+      "issuer": "태성",
+      "title": "[발행조건확정] 증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241231000119",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241231000125",
+      "corp_code": "01366000",
+      "issuer": "태성",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241231000125",
+      "inventory_status": "보고서명 범위 밖"
+    },
+    {
+      "receipt": "20241231000202",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "투자설명서",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241231000202",
+      "inventory_status": "보고서명 범위 밖"
+    }
+  ]
+}

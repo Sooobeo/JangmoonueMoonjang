@@ -1,0 +1,42 @@
+{
+  "study": "H2 one-case exploratory Codex proxy conditional deferral",
+  "frozen_utc": "2026-11-26T02:32:11.771329+00:00",
+  "case": "TRUEN",
+  "information_at_freeze": {
+    "rankings_seen": false,
+    "validation_reference_grades_seen": false,
+    "predictors_seen": [
+      "A0 and C independent proxy labels",
+      "B arithmetic verification",
+      "12 prespecified TRIZ trials, both roles on two items"
+    ]
+  },
+  "hold_candidates_ordered": [
+    "TRUEN-08",
+    "TRUEN-09"
+  ],
+  "selection_rule": "Only these two preselected J2 items may be held. Both independent roles accepted the same core camera-product fact under original and semantic-preserving format, and both withdrew support after removing candidate-camera evidence. Exclude every mandatory B item from hold.",
+  "arms": [
+    "without-signal full H1 selector",
+    "same-signal full H1 selector",
+    "same-signal H2 selector on remaining TRUEN items with full-arm model, contract, budget and evidence lookup settings, followed by the held items in frozen L3 order"
+  ],
+  "held_order": "Use protocol L3 rank and tie break. For equally accepted items with no verified price-impact tie-break, use item ID ascending.",
+  "ranking_commitment": "Write all three rankings, arm provenance and hashes before opening the frozen blind grading reference.",
+  "measures": [
+    "mandatory retention",
+    "number held",
+    "held serious and minor/uncertain reference grades",
+    "top K serious misses for identical K (also show K=1 and common windows as descriptive sensitivity)",
+    "same-grade-excluded pair concordance when reference supports comparison",
+    "incremental selector costs and all twelve trigger test calls with measured tokens, wall time, cumulative task time, lookup activity, marked unpriced and missing setup/human costs"
+  ],
+  "gate": "Exploratory only. No operational deferral without qualifying H1 and protocol threshold evidence. Official API and development prerequisites not met. One case cannot validate H2. Do not impute missing human time, provider bills, or missing serious reference classes.",
+  "preoutcome_input_sha256": {
+    "validation_roles/proxy/labels.json": "48b39695bc1e61e870b9b5768ddf57e89b31972380294676e0ee37a5fd5dacc9",
+    "validation_roles/proxy/labels_triz.json": "984eb56d726b744bb1e1338d51cb994c08b0a50da940bf5699b460ed9eaaf70b",
+    "validation_roles/proxy/triz/audit.json": "ad9038c5b52eb2942152e5c9c9d62e4ef9d3f14ebe1b88e7c5ec7f23491857ac",
+    "validation/b.json": "d92069237446b4a0f41ff1a151565d969ac6a777ba9fae331af75652479276a6",
+    "protocol.json": "ea8082166dbb2c533534e5b46a627b70a68a8988a6cd945ea5ce74a93e933c01"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "verified_utc": "2026-11-26T04:23:24.803993+00:00",
+  "method": "Outcome-blind, only initial DART registration PDF, 1-based physical pages. No model or external-source requests.",
+  "rows": [
+    {
+      "receipt": "20241010000579",
+      "issuer": "DH오토웨어",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000579",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 13,
+      "quote": "금번 (주)디에이치오토웨어의 주주배정후 실권주 일반공모 유상증자",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "1ae46d4959b6a9d94dd47a08e328d64c5ea0bc13558342214d5c45b609c50478"
+    },
+    {
+      "receipt": "20241025000552",
+      "issuer": "와이엠",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000552",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 16,
+      "quote": "금번 (주)와이엠 주주배정 유상증자의 모집주선회사는 현대차증권",
+      "kind": "기존 상장사 주주배정 유상증자",
+      "pdf_sha256": "97ed032f72b9e9a3c90939a13f507c8f0cf91fa4aac4fe4d0466836cd5c6eaa1"
+    },
+    {
+      "receipt": "20241112000407",
+      "issuer": "렉스필드컨트리클럽",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000407",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 12,
+      "quote": "금번 유상증자는 주주배정 방식이며, 모집가액 3,050원은",
+      "kind": "비상장사 기존 주주배정 유상증자. 물리 13쪽에서 유가증권·코스닥에 상장되지 않은 회사라고 기재.",
+      "pdf_sha256": "2285b00be5cd33d5e204762ae18155ffdb9b15c08001be2ac67b4ea94381e364"
+    },
+    {
+      "receipt": "20241114003009",
+      "issuer": "대한광통신",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114003009",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 13,
+      "quote": "당사는 금번 주주배정 후 실권주 일반공모 유상증자로 인해",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모. 기존 발행주식 대비 추가 상장.",
+      "pdf_sha256": "f9de75bceee9ee32f53fa46d7115c4aa615f2fa70f897f62ba8afe0494c5e314"
+    },
+    {
+      "receipt": "20241115000279",
+      "issuer": "큐로홀딩스",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000279",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 22,
+      "quote": "주주배정후 실권주 일반공모",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "afc1ac46f5ebd843e67f72e2499446433e36b50d4d939fdda6ed268a78dc1a55"
+    },
+    {
+      "receipt": "20241115000345",
+      "issuer": "현대바이오",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000345",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 14,
+      "quote": "금번 현대바이오사이언스(주)의 주주배정후 실권주 일반공모 유상증",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "c6e9c2f42e632ab632d2b808408e04dbcc4b641a35d733dd6f6d1c6d2a49c339"
+    },
+    {
+      "receipt": "20241118000172",
+      "issuer": "이수페타시스",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000172",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 19,
+      "quote": "금번 (주)이수페타시스 주주배정후 실권주 일반공모 유상증자",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "2c9c7df7b4d205485441b10afe155b168326f550db03a7db056971528761ad11"
+    },
+    {
+      "receipt": "20241118000189",
+      "issuer": "알체라",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000189",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 28,
+      "quote": "당사의 금번 유상증자는 주주배정 방식으로 신주인수권증서가 발행",
+      "kind": "기존 상장사 주주배정 유상증자. 대표이사 대상 별도 제3자배정과 구분.",
+      "pdf_sha256": "d7f85dda9b35ed4dbf1a2b1eacbf565e876859e9f6892d7ae5d628c09a9b2a84"
+    },
+    {
+      "receipt": "20241120000278",
+      "issuer": "알지노믹스",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000278",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 14,
+      "quote": "당사는 비상장회사로서 거래소 상장회사와 달리 금번 유상증자는 금융투자업자의 인수없이 당사의",
+      "kind": "비상장사 제3자배정 직접공모. 물리 19쪽에 기명식 우선주 318,471주로 기재.",
+      "pdf_sha256": "f30934fa9f8e015210c7e7ddcf2ae49656d64dd1ae3da1e8cffc722fc786af02"
+    },
+    {
+      "receipt": "20241127000682",
+      "issuer": "현대차증권",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000682",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 14,
+      "quote": "금번 현대차증권(주)의 주주배정후 실권주 일반공모 유상증자",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "b4d86f17aedf10c17709a0749a9b9ef2279d18f2294880c9db3bef8def41d48e"
+    }
+  ]
+}

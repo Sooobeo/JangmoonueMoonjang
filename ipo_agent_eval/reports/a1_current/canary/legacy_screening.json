@@ -1,0 +1,84 @@
+{
+  "version": "legacy-v5-screen-current-1",
+  "recorded_at_kst": "2026-11-26T11:25:37+09:00",
+  "status": "NO_ELIGIBLE_PAIR_IN_REVIEWED_CANDIDATES",
+  "eligible_canary_control_pairs": 0,
+  "modified_original_assignments": false,
+  "existing_evaluation_cases_used": false,
+  "pdf_variant_count": 0,
+  "observed_model_calls": {"new": 0, "one_case_expected": 4, "three_case_expected": 18},
+  "cases": {
+    "DTS": {
+      "official_receipt": "20260911000314",
+      "official_pdf_sha256": "96199e9eddbef33513103beb3b29b498e3e40c1f86f7fa7761451de659067449",
+      "price_date": "2026-09-04",
+      "as_of_kst": "2026-09-11T15:04:00+09:00",
+      "original_pdf_pages": [248, 249, 250, 251],
+      "peer": "두산에너빌리티",
+      "decision": "DEFERRED_MISSING_QUALIFYING_SALES_SPLIT",
+      "consolidated_sales_krw_million": 8985938,
+      "division_preadjustment_sales_krw_million": 4155946,
+      "division_sales_adjustment_krw_million": -68624,
+      "division_net_sales_krw_million": 4087322,
+      "division_exports_mixed_krw_million": 2692707,
+      "actual_plant_or_power_sales_min_fraction": 0.3,
+      "required_plant_or_power_sales_krw_million": 2695781.4,
+      "evidence": [
+        {"receipt": "20260814003782", "section": "II.4 매출 및 수주상황", "sha256": "7305c2c4de79c355e6d7b3df4c936179f28360f01f2c7bf6e6f2d097c34efb64"},
+        {"receipt": "20260814003782", "section": "II.2 주요 제품 및 서비스", "sha256": "c2da01bebd9c23e0fc248fb3d65212fc2636dd9a097584f5492ae5e3dbd84f52"},
+        {"receipt": "20260814003782", "section": "연결재무제표 주석 19 영업부문 및 수익 공시", "sha256": "d80f86b2b7c94c3c1f640ea41dc900f9b171b342ec54995bb5f9253618af159a"},
+        {"url": "https://www.doosanenerbility.com/kr/investment/ir/down/535", "pdf_pages": [4, 6], "sha256": "28e5bf12a403536cd3bca2283d5fc0a373b4f4a419d8800152cbf619668fd163"}
+      ]
+    },
+    "HANSUN": {
+      "sample_status": "EXPLORATORY_DEVELOPMENT_OUTSIDE_CURRENT_ROSTER",
+      "krx_registration": "20230130000086",
+      "official_receipt": "20231016000118",
+      "price_date": "2023-10-12",
+      "as_of_kst": "2023-10-16T14:02:00+09:00",
+      "source_basis": "공식 DART 최초 신고서 HTML 목차와 뷰어. PDF 다운로드가 빈 응답이어서 근거는 절·표로 남겼다.",
+      "selected_original_peers": ["코센", "케이에스피", "아스플로"],
+      "fundamentals_eligible_business_count": 10,
+      "minimum_PER_inclusive": 10,
+      "maximum_PER_exclusive": 50,
+      "decision": "NO_ADMISSIBLE_NEW_CONTROL_FOUND",
+      "business_eligible_but_unselected_PER": {
+        "유에스티": 5.44,
+        "태광": 6.22,
+        "성광벤드": 8.29,
+        "하이록코리아": 6.28,
+        "디케이락": 5.11,
+        "비엠티": 5.22,
+        "화성밸브": 6.05
+      },
+      "non_business_eligible_also_in_final_screen": {"태웅": 9.68},
+      "outside_original_pool_test": {"peer": "한국선재", "owner_fraction": 0.7921, "admissible": false},
+      "independent_accounting_crosscheck": {
+        "peer": "하이록코리아",
+        "receipt": "20230814001337",
+        "eligible_product_sales_percentage_components": [41.9, 8.1, 2.2, 31.3],
+        "h1_owner_profit_krw": 26164218730,
+        "ever_issued_shares": 13613232,
+        "cancelled_shares": 757182,
+        "issued_shares_net": 12856050,
+        "aux_market_data_source": "https://fchart.stock.naver.com/sise.nhn?symbol=013030&timeframe=day&count=900&requestType=0",
+        "aux_market_close_by_date": {
+          "2023-09-13": 26000, "2023-09-14": 26200, "2023-09-15": 26950, "2023-09-18": 27050,
+          "2023-09-19": 28300, "2023-09-20": 28350, "2023-09-21": 27900, "2023-09-22": 27800,
+          "2023-09-25": 27750, "2023-09-26": 26750, "2023-09-27": 27250, "2023-10-04": 25850,
+          "2023-10-05": 25650, "2023-10-06": 25650, "2023-10-10": 25200, "2023-10-11": 25600,
+          "2023-10-12": 25800
+        },
+        "chosen_price_krw": 25580,
+        "recalculated_PER": 6.284494148165226
+      },
+      "evidence": [
+        {"receipt": "20231016000118", "section": "IV 인수인의 의견", "sha256": "63635dc67d024b1a6ca7ac21fb620d8a4bafc90eafc04cea877c05f2e1b43bd0"},
+        {"receipt": "20231016000118", "section": "VI 주주에 관한 사항", "sha256": "01b6629d079dfe2426c0c35cfd1a3938d3c11ff80b106b58b05bccec771287af"},
+        {"receipt": "20230814001337", "section": "II.2 주요 제품 및 서비스", "sha256": "9c698096849aabe5242a1af714eefe1b4be09528f5f20cf7b726bcaafecaa05d"},
+        {"receipt": "20230814001337", "section": "III.2 연결재무제표", "sha256": "a59c186b18b78e3bd8957bf50b7e930f0ca730dcaafca9fb247da6d1c93c0141"},
+        {"receipt": "20230814001337", "section": "I.4 주식의 총수 등", "sha256": "5f174bf048ebe6764140bcd3974cd4d44b194130c44425ef5f30ef94fa4266c7"}
+      ]
+    }
+  }
+}

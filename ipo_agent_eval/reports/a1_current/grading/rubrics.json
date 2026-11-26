@@ -1,0 +1,500 @@
+{
+  "version": "codex-proxy-original-v1",
+  "completed_at_kst": "2026-11-26T11:13:42+09:00",
+  "population": "unmodified_original",
+  "review_kind": "codex_proxy",
+  "human_evaluation": false,
+  "same_person_repeat": false,
+  "independent_human_agreement_measured": false,
+  "human_elapsed_seconds": null,
+  "repeats": {
+    "exact_unreconciled_agreement": 10,
+    "rated": 12
+  },
+  "final_grade_counts": {
+    "acceptable": 14,
+    "material": 3,
+    "deferred": 1,
+    "nonmaterial": 4
+  },
+  "coverage": {
+    "HDMS": {
+      "first": 11,
+      "repeat": 6,
+      "agreement": 5,
+      "final_grade_counts": {
+        "acceptable": 8,
+        "material": 1,
+        "deferred": 1,
+        "nonmaterial": 1
+      }
+    },
+    "MELCON": {
+      "first": 11,
+      "repeat": 6,
+      "agreement": 5,
+      "final_grade_counts": {
+        "material": 2,
+        "nonmaterial": 3,
+        "acceptable": 6
+      }
+    }
+  },
+  "audit_ref": "audit.json",
+  "cases": {
+    "HDMS": {
+      "case_id": "HDMS",
+      "operator_case_id": "HDMS",
+      "population": "unmodified_original",
+      "assignment_ref": "sha256:9a910b6abbd1a113dbf2e395be841c415a856d0335cd5e963a3a1420bc30460c",
+      "source_receipt": "20240325000947",
+      "source_sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+      "source_pdf": "data/a1_pilot/HDMS/filing/20240325000947.pdf",
+      "item_roster_sha256": "485723e10d35bd96191eb9b0dacc1d2739e9ffb138ad622d04397307cc13d281",
+      "review_kind": "codex_proxy",
+      "human_ratings": 0,
+      "exact_proxy_agreement_before_reconciliation": 5,
+      "rechecked_items": 6,
+      "items": [
+        {
+          "id": "H01",
+          "grade": "acceptable",
+          "pages": [
+            237,
+            268,
+            355,
+            359
+          ],
+          "source_ref": "237쪽 공모가 산정 요약표 적용 재무수치와 ①, 268쪽 비교가치 산출 방법, 355쪽 요약 연결재무정보와 359쪽 당기순이익의 귀속",
+          "reason": "공시 이익 151,116백만원은 2023년 연결 지배기업 소유주지분 151,116,175,331원을 반올림한 값이다. 후보에도 같은 2023년 온기 지배주주 이익을 썼다. 2022년 적용은 최근 동일 온기가 확보된 상황에서 정당화되지 않는다.",
+          "sensitivity": {
+            "alternative_price_krw": 73678.7,
+            "delta_percent": -30.5658,
+            "basis": "2022년 온기 104,926,507,806원으로만 교체한 참고값"
+          },
+          "label": "2023년 온기 지배주주 귀속 이익 적용",
+          "first_grade": "acceptable",
+          "repeat_grade": "acceptable",
+          "repeat_sample": true
+        },
+        {
+          "id": "H02",
+          "grade": "material",
+          "pages": [
+            242,
+            248,
+            250,
+            251,
+            269
+          ],
+          "source_ref": "242쪽 신조와 인도 후 AM의 경기 민감도, 248쪽 선택 문턱과 발행사 매출, 250~251쪽 한국조선해양 선정 사유·매출·순이익, 269쪽 PER",
+          "reason": "후보의 조선 매출 83.1%는 공시 요건을 충족하고 엔진·고객 기반이 겹친다. 발행사의 인도 후 사업은 신조 조선보다 경기 민감도가 낮다는 중요한 차이를 신고서가 별도로 설명한다. 2021·2022년 순손실 뒤 2023년 흑자로 전환한 신조 중심 후보의 전체 배수를 같은 비중으로 반영할 근거가 부족하다. 제외 대안은 약 −5.29%다.",
+          "sensitivity": {
+            "alternative_price_krw": 100496.92,
+            "delta_percent": -5.2925,
+            "basis": "HD한국조선해양 제외, 나머지 3사 PER 단순평균"
+          },
+          "label": "HD한국조선해양 포함",
+          "first_grade": "material",
+          "repeat_grade": "material",
+          "repeat_sample": true
+        },
+        {
+          "id": "H03",
+          "grade": "deferred",
+          "pages": [
+            248,
+            252,
+            253,
+            255,
+            256,
+            269
+          ],
+          "source_ref": "248쪽 30% 문턱과 Alfa Laval 행, 252~253쪽 제품·서비스 매출 및 해양 수주 도표, 255쪽 선정 근거, 256쪽 연결 매출 구성, 269쪽 PER 표",
+          "reason": "선박 장비와 사후 서비스를 직접 공급한다는 근거가 있다. 해양 매출은 30.0% 표시로 문턱에 걸리고 그룹 사후 서비스 30.3%는 비해양 사업을 포함한다. 해양 사후 서비스 33%는 수주 비중이다. 정확한 해양 매출 분자·분모와 다른 부문의 선박 관련 매출 집계가 있어야 30% 요건 및 배수 포함 여부를 판정할 수 있다.",
+          "sensitivity": {
+            "alternative_price_krw": 112705.34,
+            "delta_percent": 6.2126,
+            "basis": "Alfa Laval 제외 시의 민감도. 적격성 오류 확정 전에는 중대 판정의 근거로 사용하지 않음"
+          },
+          "label": "Alfa Laval 포함",
+          "first_grade": "deferred",
+          "repeat_grade": "deferred",
+          "repeat_sample": true
+        },
+        {
+          "id": "H04",
+          "grade": "acceptable",
+          "pages": [
+            248,
+            258,
+            260,
+            262,
+            269
+          ],
+          "source_ref": "248쪽 Kongsberg 행, 258쪽 Maritime 수주, 260·262쪽 서비스 선정 근거와 연결 매출, 269쪽 PER 표",
+          "reason": "Maritime은 2023년 전사 매출의 49.7%다. 이 부문 도표에서 Global Customer Support는 54%이고 업무 설명에는 선박 사후 부품·정비·업그레이드가 명시된다. 2021·2022년 사후 서비스 47%·46%는 별개의 수주 비중이다. 방산 39.3%는 공개된 전사 사업 구성 차이이며, 직접 서비스의 관련성은 비교를 지지한다.",
+          "sensitivity": {
+            "alternative_price_krw": 105837.05,
+            "delta_percent": -0.2601,
+            "basis": "Kongsberg 제외, 나머지 3사 PER 단순평균"
+          },
+          "label": "Kongsberg Gruppen 포함",
+          "first_grade": "nonmaterial",
+          "repeat_grade": "acceptable",
+          "repeat_sample": true
+        },
+        {
+          "id": "H05",
+          "grade": "acceptable",
+          "pages": [
+            248,
+            265,
+            266,
+            267,
+            269
+          ],
+          "source_ref": "248쪽 Wärtsilä 행, 265~267쪽 해양·에너지 사업과 Marine Power 서비스 매출, 269쪽 PER 표",
+          "reason": "Marine Power가 전사 매출의 42.2%이고 해당 부문 서비스 매출이 60% 이상이다. 선주 대상 예비 부품, 장기계약, 개조가 발행사의 AM·친환경 사업과 직접 대응한다. 43.4%인 에너지 부문은 별도로 공개됐으며, 확인한 근거로 포함을 지지할 수 있다.",
+          "sensitivity": {
+            "alternative_price_krw": 105411.8,
+            "delta_percent": -0.6608,
+            "basis": "Wärtsilä 제외, 나머지 3사 PER 단순평균"
+          },
+          "label": "Wärtsilä 포함",
+          "first_grade": "acceptable",
+          "repeat_grade": "acceptable",
+          "repeat_sample": true
+        },
+        {
+          "id": "H06",
+          "grade": "acceptable",
+          "pages": [
+            249,
+            268,
+            269,
+            270
+          ],
+          "source_ref": "249쪽 비경상 PER 기준, 268쪽 상대가치 산출 방법, 269쪽 개별 PER의 분자·분모, 270쪽 평균 적용 각주",
+          "reason": "표의 기준시가총액을 지배주주이익으로 다시 나눠 산술평균하면 31.50755067배로 공시의 31.5배 표시와 일치한다. 중앙값을 써도 약 1.38% 차이다. 비교기업 적격성은 개별 항목에서 판단했다.",
+          "sensitivity": {
+            "alternative_price_krw": 107577.84,
+            "delta_percent": 1.3805,
+            "basis": "4개 PER의 중앙값"
+          },
+          "label": "비교기업 PER의 산술평균 적용",
+          "first_grade": "acceptable",
+          "repeat_grade": "acceptable",
+          "repeat_sample": true
+        },
+        {
+          "id": "H07",
+          "grade": "nonmaterial",
+          "pages": [
+            267,
+            268,
+            269
+          ],
+          "source_ref": "267~268쪽 20일 종가, 최근 5일 및 20일 평균, 기준주가 MIN 행과 공휴일 각주, 269쪽 주1",
+          "reason": "표의 20거래일과 최근 5거래일을 각각 평균하면 선택은 한국조선해양 주간, Alfa 월간, Kongsberg 주간, Wärtsilä 당일로 재현된다. 일부 비선택 평균의 끝자리가 일반 반올림과 다르고 본문은 시가총액 평균이라고 적지만 표는 종가 평균을 쓴다. 공시 선택과 주당 금액에 미치는 중대 불일치는 확인되지 않는다.",
+          "sensitivity": {
+            "alternative_price_krw": 108702.29,
+            "delta_percent": 2.4401,
+            "basis": "3월 14일 종가 × 회사별 발행 주식 수 × 공시 환율로 시가총액을 바꾼 대안"
+          },
+          "label": "비교기업 기준주가의 기간과 선택",
+          "first_grade": "nonmaterial",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "H08",
+          "grade": "acceptable",
+          "pages": [
+            251,
+            256,
+            262,
+            267,
+            268,
+            269
+          ],
+          "source_ref": "251·256·262·267쪽 회사별 연결 순이익, 268쪽 시가총액·환율, 269쪽 지배주주이익과 환산 주3",
+          "reason": "알파라발 6,330백만 SEK, 콩스버그 3,712백만 NOK, 바르질라 258백만 EUR에 각각 공시 환율을 적용하면 812,835.3·464,742.4·370,862.1백만원이 재현된다. 알파라발 20일 평균 392.595 SEK와 같은 환율로 시총 20,837,071백만원을 재현한다. 자료에 기재된 환산을 검산했다.",
+          "label": "기준시가총액과 지배주주순이익의 환산·단위",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "H09",
+          "grade": "acceptable",
+          "pages": [
+            237,
+            268,
+            270
+          ],
+          "source_ref": "237쪽 요약표 ③, 268쪽 적용주식수 본문, 270쪽 주당 평가가액 산출 내역 B~H행과 희석 각주",
+          "reason": "40,000,000 기발행 + 4,450,000 신주 + 13,510 옵션 + 406,680 우리사주 옵션 잔여분 = 44,870,190주다. 구주 4,450,000주는 소유권 이전이므로 발행 주식 수에 더하지 않았다.",
+          "label": "공모 및 희석을 반영한 적용 주식 수",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "H10",
+          "grade": "acceptable",
+          "pages": [
+            237,
+            269,
+            270,
+            359
+          ],
+          "source_ref": "237쪽 요약 산식, 269~270쪽 PER·평가시총·주당가액 표, 359쪽 원 단위 발행사 지배주주이익",
+          "reason": "평가시총 4,761,293백만원 ÷ 44,870,190주 = 106,112.6106원이다. 개별 원문 자릿수로 재계산한 PER 평균과 원 단위 발행사 이익의 곱으로도 106,112.7789원이다. 두 경로 모두 표시 106,113원을 재현한다.",
+          "label": "주당 평가가액 산식과 표시 정밀도",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "H11",
+          "grade": "acceptable",
+          "pages": [
+            237,
+            270,
+            271
+          ],
+          "source_ref": "237·270쪽 할인율과 희망 공모가 밴드, 271쪽 유가증권시장 비교 할인율 표",
+          "reason": "106,113원에 표시 할인율 30.9%·21.4%를 적용하면 73,324.083원·83,404.818원이다. 제시 밴드 73,300원·83,400원의 역산은 30.9227%·21.4045%로 공시 표시 정밀도에 맞는다. 할인 적용은 주당 평가가액을 바꾸지 않는다.",
+          "label": "평가가액에서 희망 공모가 범위로의 할인 적용",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        }
+      ]
+    },
+    "MELCON": {
+      "case_id": "MELCON",
+      "operator_case_id": "MELCON-DEV-01",
+      "population": "unmodified_original",
+      "assignment_ref": "sha256:69cfe29bd3331563e2ca2d081cce450a44af091ef47caaa9f26682c8d562cd8e",
+      "source_receipt": "20260821000368",
+      "source_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+      "source_pdf": "data/a1_pilot/MELCON/filing/20260821000368.pdf",
+      "item_roster_sha256": "c7bf753657e18486340a80da8c7a52089ea96f34417545d6065efe9c229bfbbb",
+      "review_kind": "codex_proxy",
+      "human_ratings": 0,
+      "exact_proxy_agreement_before_reconciliation": 5,
+      "rechecked_items": 6,
+      "items": [
+        {
+          "id": "M01",
+          "grade": "material",
+          "pages": [
+            163,
+            206,
+            207,
+            208,
+            324,
+            325,
+            348,
+            350
+          ],
+          "source_ref": "163쪽 계절성과 반기 연환산 위험, 206~208쪽 발행사·비교사 이익 기간, 324~325쪽 연결 손익·현금흐름표, 348쪽 투자 손익, 350쪽 당·전반기 지배주주 이익",
+          "reason": "2025년 상반기 매출은 연간의 41.1%, 영업이익은 20.6%였고 신고서는 단순 연환산 위험을 설명한다. 발행사 이익을 비교사와 같은 최근 네 분기로 맞추고, 공시에 실제 적용된 평가·처분이익 차감 정책을 각 기간에 동일하게 적용하면 약 5,987.36백만원이다. 같은 PER과 주식 수에서 공시 대비 약 −13.15%다. 세금과 기타 비경상 항목은 추가 가공하지 않았다.",
+          "sensitivity": {
+            "alternative_price_krw": 12309.42,
+            "delta_percent": -13.1488,
+            "basis": "같은 4분기 기간, 평가·처분이익 차감, 동일 PER·주식 수"
+          },
+          "label": "발행사 반기 이익의 연환산",
+          "first_grade": "material",
+          "repeat_grade": "material",
+          "repeat_sample": true
+        },
+        {
+          "id": "M02",
+          "grade": "nonmaterial",
+          "pages": [
+            193,
+            206,
+            208,
+            224,
+            324,
+            325,
+            348,
+            349
+          ],
+          "source_ref": "193·206쪽 주식 관련 이익 조정 정책, 208쪽 주1과 224쪽 의견, 324~325쪽 원 단위 손익, 348~349쪽 금융수익·원가",
+          "reason": "208쪽 처분이익 919백만원은 평가이익 309,500,000원과 처분이익 609,385,890원의 합계다. 193·206쪽의 주식 관련 이익 차감 범위는 이 합계와 맞는다. 주1의 명칭 정정에 따른 가격 영향은 0원이다. 평가손실 16,900,000원도 대칭 제거하면 약 +0.49%다. 처분만 차감한 경우의 +8.98%는 넓은 조정 정책을 바꾸는 민감도다. 개별 세금 귀속은 확인되지 않는다.",
+          "sensitivity": {
+            "alternative_price_krw": 15446.35,
+            "delta_percent": 8.9843,
+            "basis": "문구대로 처분이익만 제외하고 동일 방식으로 연환산"
+          },
+          "label": "발행사 유가증권 처분이익 조정",
+          "first_grade": "material",
+          "repeat_grade": "nonmaterial",
+          "repeat_sample": true
+        },
+        {
+          "id": "M03",
+          "grade": "material",
+          "pages": [
+            197,
+            200,
+            202,
+            203,
+            207
+          ],
+          "source_ref": "197·200쪽 50% 사업 조건과 HPSP 행, 202~203쪽 HPA 제품 기능과 매출표, 207쪽 HPSP·워트 PER",
+          "reason": "HPSP는 전공정 장비·직접 납품이라는 유사성이 있다. 그러나 2025년 매출 89.1%의 HPA는 트랜지스터 계면을 고압 수소로 처리하는 장비이고, 발행사 THC는 포토 장비에 온·습도가 제어된 환경을 공급한다. HPA의 공정 온도가 제어된다는 사정만으로 온·습도 관련 제품·서비스 매출 50% 요건을 충족한다고 본 근거가 부족하다. 공시가 제외한 다른 전공정 장비와의 분류 차이는 후보 선정 결론을 바꿀 수 있다.",
+          "sensitivity": {
+            "alternative_price_krw": 9443.66,
+            "delta_percent": -33.3686,
+            "basis": "온·습도 매출 조건 근거를 확보하지 못한 HPSP 제외, 워트 PER 유지"
+          },
+          "label": "HPSP의 비교기업 포함",
+          "first_grade": "material",
+          "repeat_grade": "material",
+          "repeat_sample": true
+        },
+        {
+          "id": "M04",
+          "grade": "acceptable",
+          "pages": [
+            200,
+            203,
+            204,
+            205,
+            207
+          ],
+          "source_ref": "200쪽 워트 매출과 멜콘 사업, 203~204쪽 고객·제품 설명 및 204쪽 기간별 매출표·경쟁사, 205쪽 경쟁기업 표, 207쪽 PER",
+          "reason": "워트의 THC는 2025년 온기 매출 73.02%, 2026년 반기 56.67%이고, 트랙 공정과 고객군이 직접 겹친다. 공시 자체가 HBM 후공정 사용도 함께 밝힌다. 전·후공정별 매출은 별도로 보이지 않아 ‘주로 전공정’의 정량 증명에는 한계가 있지만, 사업 비교에 워트를 포함할 직접 근거는 남는다.",
+          "sensitivity": {
+            "alternative_price_krw": 18903.13,
+            "delta_percent": 33.3742,
+            "basis": "워트 제외 시 민감도. 제외를 지지하는 원본 근거는 확인되지 않음"
+          },
+          "label": "워트의 비교기업 포함",
+          "first_grade": "acceptable",
+          "repeat_grade": "acceptable",
+          "repeat_sample": true
+        },
+        {
+          "id": "M05",
+          "grade": "nonmaterial",
+          "pages": [
+            201,
+            205,
+            206,
+            207,
+            208,
+            214
+          ],
+          "source_ref": "201쪽 일반 유사성 주2, 206~208쪽 실제 산정 기간과 지배주주 귀속 주1, 214쪽 2026년 반기 비교기업 지배주주 순이익",
+          "reason": "201쪽 선정 각주는 2025년 2분기 LTM이라고 적지만 206~208쪽 산정표·본문·각주는 2025년 3분기~2026년 2분기 합산이라고 일관되고 같은 PER을 사용한다. 비교기업 반기 귀속도 214쪽에서 확인된다. 연도 표기 충돌을 정정할 필요가 있다. 후보별 네 분기 이익을 이 원문만으로 전부 독립 대조하지 못한 범위를 남긴다.",
+          "label": "비교기업 이익의 적용 기간과 귀속 주체",
+          "first_grade": "nonmaterial",
+          "repeat_grade": "nonmaterial",
+          "repeat_sample": true
+        },
+        {
+          "id": "M06",
+          "grade": "acceptable",
+          "pages": [
+            206,
+            207,
+            208
+          ],
+          "source_ref": "206쪽 산출방법, 207쪽 비교기업 PER 표와 적용 배수, 208쪽 멜콘 평가가치 B행",
+          "reason": "표의 이익과 주식 수, 주가에서 복원한 두 PER의 평균은 26.18192536배다. 두 값의 중앙값도 같은 수다. 개별 후보의 포함 근거는 다른 항목에서 판정했다.",
+          "label": "두 비교기업의 PER 집계 방식",
+          "first_grade": "acceptable",
+          "repeat_grade": "acceptable",
+          "repeat_sample": true
+        },
+        {
+          "id": "M07",
+          "grade": "acceptable",
+          "pages": [
+            201,
+            205,
+            206,
+            207
+          ],
+          "source_ref": "205~206쪽 기준주가 산정 내역 20거래일 종가와 5거래일·월평균·MIN 행, 207쪽 적용 기준주가",
+          "reason": "20거래일 평균은 HPSP 36,372.5원·워트 5,516.5원, 5거래일 평균은 39,120원·6,328원이다. 당일 40,400원·6,170원과 비교해 공시한 최소값 두 개를 재현한다. 단기 급변 배제 목적과 동일 규칙 적용이 공시돼 있다. 당일가만 적용한 상승 폭은 공시 오류로 채점하지 않았다.",
+          "sensitivity": {
+            "alternative_price_krw": 15778.7,
+            "delta_percent": 11.3293,
+            "basis": "8월 14일 종가 일괄 적용 민감도"
+          },
+          "label": "비교기업 기준주가의 기간과 선택",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "M08",
+          "grade": "acceptable",
+          "pages": [
+            206,
+            207
+          ],
+          "source_ref": "206쪽 비교기업 적용주식수 정책, 207쪽 PER 표 주1·주2와 이익·주식 수·EPS·기준주가 행",
+          "reason": "85,727백만원/82,300,000주 = 1,041.64034원, 5,098백만원/16,120,000주 = 316.25310원으로 표시 EPS 1,042원·316원에 맞는다. 표시 이익만 사용하면 워트 PER은 17.44488819배지만 이익 표시 백만원 단위의 허용 범위 안에서 17.45배가 나온다. 반올림 전 이익과 독립 상장주식 수는 이 표에서 제공하지 않는다.",
+          "label": "비교기업 주식 수와 주당순이익 계산",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "M09",
+          "grade": "acceptable",
+          "pages": [
+            206,
+            208,
+            350
+          ],
+          "source_ref": "206쪽 발행사 적용주식수 정의, 208쪽 평가가치 표 D·주3, 350쪽 자본 변동과 발행 주식 수",
+          "reason": "10,000,000 기발행 + 2,500,000 공모 신주 + 75,000 의무인수 + 160,000 옵션 = 12,735,000주다. 재무제표의 기발행 10,000,000주와 공모 후 희석 기준을 혼동하지 않았다.",
+          "label": "공모와 잠재 희석을 반영한 발행사 주식 수",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "M10",
+          "grade": "acceptable",
+          "pages": [
+            206,
+            207,
+            208
+          ],
+          "source_ref": "207쪽 PER 분자·분모 및 주가, 208쪽 발행사 기업가치·주식 수·주당가액 행",
+          "reason": "180,497백만원 ÷ 12,735천주 = 14,173.3019원으로 표시 14,173원을 재현한다. 개별 이익·주가에서 복원한 평균과 공시 적용 이익으로 계산해도 14,173.3956원이다. 표시된 26.18배만 곱할 때의 1원 내외 차이는 입력 표시 정밀도에 따른다.",
+          "label": "기업가치에서 주당 평가가액으로의 환산",
+          "first_grade": "acceptable",
+          "repeat_grade": null,
+          "repeat_sample": false
+        },
+        {
+          "id": "M11",
+          "grade": "nonmaterial",
+          "pages": [
+            208,
+            209,
+            210
+          ],
+          "source_ref": "208쪽 희망공모가액 결정 표, 209~210쪽 동종 신규상장기업 할인율 설명과 표",
+          "reason": "14,173원에 표시 할인율을 적용하면 10,700.615원·12,300.7467원이고, 공시 밴드 역산은 24.50434%·13.21527%다. 상단의 13.21%는 일반 반올림 13.22%와 마지막 자릿수가 다르지만 밴드 차이는 1원 미만이다. 할인은 주당 평가가액을 바꾸지 않는다.",
+          "label": "평가가액 대비 할인 및 희망 공모가 범위",
+          "first_grade": "nonmaterial",
+          "repeat_grade": null,
+          "repeat_sample": false
+        }
+      ]
+    }
+  }
+}

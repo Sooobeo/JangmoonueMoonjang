@@ -1,0 +1,175 @@
+{
+  "case": "GIGAVIS",
+  "receipt": "20230331002184",
+  "sha256": "366c9c4164e58e012b85811d4f0711ef4dbcead3e89ea3183fabc3e0184c424d",
+  "published_cutoff": "2023-03-31T14:19+09:00",
+  "sources": {
+    "E1": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+      "source_group": "20230331002184",
+      "physical_page": 261,
+      "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+      "published": "2023-03-31",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비와 불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다.",
+      "verbatim_anchors": [
+        "반도체 패키지용 기판 제조 공정",
+        "불량의 수리를 통한 수율 향상",
+        "자동화 설비",
+        "소프트웨어"
+      ]
+    },
+    "E2": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+      "source_group": "20230331002184",
+      "physical_page": 295,
+      "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+      "published": "2023-03-31",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "2022년 K-IFRS 개별 연간 재무제표가 있다. 연결 요약재무정보는 해당사항이 없으며, 2021·2020년 비교 수치는 재작성되어 감사받지 않은 재무제표로 제시됐다.",
+      "verbatim_anchors": [
+        "요약개별재무정보",
+        "감사받지 않은",
+        "해당사항이 없습니다"
+      ]
+    },
+    "E3": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230331002184&dcm_no=9128536",
+      "source_group": "20230331002184",
+      "physical_page": 298,
+      "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+      "published": "2023-03-31",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "2022년 영업이익은 33,825,685,615원, 법인세비용은 6,185,959,981원이었다.",
+      "verbatim_anchors": [
+        "33,825,685,615",
+        "6,185,959,981"
+      ]
+    },
+    "E4": {
+      "key": "products",
+      "title": "2. 주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230320000930&dcmNo=9076888&eleId=11&offset=103685&length=8288&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/064290/products.html",
+      "sha256": "c744bcc4bd536536142513123852c1eacc626ff21ab5bb6142ed327775807fec",
+      "source_group": "20230320000930",
+      "published": "20230320",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230320000930",
+      "excerpt": "2022년 반도체 패키지·SSD·메모리 모듈 외관검사장비가 매출 59.0%, 반도체 플립칩 외관검사장비가 31.7%였다. 디스플레이와 이차전지 외관검사 장비도 판매했다.",
+      "verbatim_anchors": [
+        "반도체 PKG, SSD, MEMORY MODULE 외관 검사장비",
+        "70,062 59.0(%)",
+        "37,689 31.7(%)",
+        "2차전지 CELL 외관검사"
+      ]
+    },
+    "E5": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230320001011&dcmNo=9077301&eleId=10&offset=61317&length=2030&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/140860/business.html",
+      "sha256": "0a23fdbfc5bb083dfe9b633a206d68e18e6dbee079826aa6af8b40f0bb7fac70",
+      "source_group": "20230320001011",
+      "published": "20230320",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230320001011",
+      "excerpt": "원자현미경을 개발·생산한다. 연결 누적 매출 중 연구용 약 30%, 산업용 약 65%, 기타 소모품·서비스 약 4%였다.",
+      "verbatim_anchors": [
+        "원자현미경",
+        "연구용 약 30%, 산업용 약 65%",
+        "기타 소모품 및 서비스가 약 4%"
+      ]
+    },
+    "E6": {
+      "key": "products",
+      "title": "2. 주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230314001195&dcmNo=9055587&eleId=11&offset=78407&length=5891&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/098460/products.html",
+      "sha256": "75c1c91cddbccbda29149c843a77533993df19085f53aee0346c6ecef2177b83",
+      "source_group": "20230314001195",
+      "published": "20230314",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230314001195",
+      "excerpt": "전자제품·반도체 생산용 3차원 검사장비를 판매한다. 2022년 연결 매출에서 3D 자동광학검사장비는 51.0%, 3D 납도포검사장비는 39.6%였다.",
+      "verbatim_anchors": [
+        "3D SPI, 3D AOI",
+        "140,603 51.0%",
+        "108,969 39.6%"
+      ]
+    },
+    "E7": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230317000628&dcmNo=9070166&eleId=10&offset=63187&length=1656&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/322310/business.html",
+      "sha256": "eecd449e24fe66311ecabf629ac2d4e54c76811f5a0b4b8b86ffc48d76b35535",
+      "source_group": "20230317000628",
+      "published": "20230317",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230317000628",
+      "excerpt": "반도체 노광공정에서 웨이퍼의 상부 회로패턴과 하부 회로패턴 간 정렬 상태를 계측하는 장비가 가장 큰 매출 비중을 차지한다.",
+      "verbatim_anchors": [
+        "반도체 제조 전공정 중 노광공정 장비",
+        "가장 많은 매출 비중을 차지하고 있는 Overlay 계측 장비",
+        "하부 패턴과 상부 패턴 간의 정렬상태"
+      ]
+    },
+    "E8": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230317000481&dcmNo=9069617&eleId=10&offset=79876&length=2354&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/348210/business.html",
+      "sha256": "7d0bf3e77f9b2536e6b699c1080791a3cdd5fca14fb7f0c0896cf7a00e1b3d26",
+      "source_group": "20230317000481",
+      "published": "20230317",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230317000481",
+      "excerpt": "반도체 전공정 웨이퍼에 형성된 전기회로 패턴의 결함을 검출하는 광학 검사장비를 제조한다.",
+      "verbatim_anchors": [
+        "반도체 전(前)공정 패턴 결함 검사 장비",
+        "웨이퍼 표면에 형성된 전기 회로",
+        "당사가 제조하고 있는 광학 검사 장비"
+      ]
+    }
+  },
+  "links": {
+    "C1": {
+      "name": "인텍플러스",
+      "item_id": "GIGAVIS-12",
+      "ticker": "064290",
+      "supplementary": false
+    },
+    "C2": {
+      "name": "파크시스템스",
+      "item_id": "GIGAVIS-10",
+      "ticker": "140860",
+      "supplementary": false
+    },
+    "C3": {
+      "name": "고영테크놀러지",
+      "item_id": "GIGAVIS-09",
+      "ticker": "098460",
+      "supplementary": false
+    },
+    "C4": {
+      "name": "오로스테크놀로지",
+      "item_id": null,
+      "ticker": "322310",
+      "supplementary": true
+    },
+    "C5": {
+      "name": "넥스틴",
+      "item_id": "GIGAVIS-11",
+      "ticker": "348210",
+      "supplementary": false
+    }
+  },
+  "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+  "control_basis": "동종 제품·공정·고객군을 기준으로 추가한 실재 상장사. 최초 신고서의 최종 선정·제외 여부 및 결론은 가린다. 독립 시장 전수 탐색은 수행하지 않았다.",
+  "checks": [
+    "원본 PDF와 후보 자체 사업보고서의 발행일·문서 해시 및 실제 연속된 근거 문구 대조",
+    "기업 ID 무작위 배정, 후보명·발행사명·공시번호·선정/배제 표시·URL 검사, 전 후보 동일 필드 사용",
+    "동결 항목 J2 전부와 회사별 추가 후보 1곳의 중복/누락 확인, 실제 C 전송물만 묶어 SHA-256·스키마 확인"
+  ]
+}

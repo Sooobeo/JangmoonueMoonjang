@@ -1,0 +1,56 @@
+{
+  "case": "MELCON",
+  "item_id": "M03",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:06:52.135+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "970ae97ef15aed0a619cb68755605ce57d6bf088ee93364bca7b11f7491098af",
+  "source_pdf_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+  "source_registry_sha256": "c7bf753657e18486340a80da8c7a52089ea96f34417545d6065efe9c229bfbbb",
+  "authorized_physical_pages": [
+    197,
+    200,
+    201,
+    202,
+    203,
+    207
+  ],
+  "packet_prep_seconds": 0.300317,
+  "evidence_dir": "reports/a1_current/proxy/MELCON/PERSONA_970ae97ef15aed0a61/ce9df9b414c735b7",
+  "review_call_wrapper_seconds": 25.818966,
+  "quote_and_boundary_verification_seconds": 0.020295,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "대신증권은 HPSP가 반도체 관련 사업, 온도 및 습도 관련 제품·서비스 매출 비중 50% 이상, 주력 제품의 전공정 사용이라는 세 기준을 모두 충족한다고 표시하고 워트와 함께 멜콘의 공모가격 산정 비교기업으로 최종 선정했다.",
+    "checked_basis_or_arithmetic": "3차 선정표의 기준기간인 2025년 온기로 계산하면 HPSP의 고압수소 어닐링장비 매출 154,092,928천원 ÷ 총매출 172,964,572천원 × 100 = 89.1%다. 나머지 10.9%는 부품·AS 매출이다. 89.1%는 장비 품목의 매출 비중으로 확인되지만, 온도 및 습도 관련 매출로 분류한 금액은 별도로 제시되지 않았다. 평가 영향은 2025년 3분기~2026년 2분기 합산 순이익(연결 작성 법인은 지배주주 귀속)과 2026년 8월 14일 상장주식수로 재계산했다. HPSP는 36,373원 ÷ (85,727백만원 × 1,000,000 ÷ 82,300,000주) ≈ 34.92배, 워트는 5,517원 ÷ (5,098백만원 × 1,000,000 ÷ 16,120,000주) ≈ 17.45배다. 반올림 전 두 배수의 평균은 공시 적용 PER인 26.18배로, 워트 단독보다 약 8.73배 높다.",
+    "outcome": "쟁점 확인",
+    "finding": "HPSP의 최종 포함과 전공정 장비 사업의 공통점은 확인된다. 두 회사 모두 고객 사양에 맞춰 수율 개선용 장비를 개발·납품한다. 다만 멜콘의 THC는 포토 공정 장비의 온습도를 제어하고, HPSP의 GENI-SYS는 저온·고압에서 수소를 주입해 소자의 계면 결함을 줄인다. 공시는 어닐링 공정의 온도 조건을 설명하지만, 그 조건이 장비 매출을 ‘온도 및 습도 관련’으로 분류하는 근거인지 설명하지 않는다. 따라서 3차 기준 ②의 충족 표시는 검토 쟁점이며, 실제 충족 여부는 유보한다.",
+    "follow_up": "주관사의 3차 선정 검토표와 ‘온도 및 습도 관련’의 분류 기준, GENI-SYS 제품 사양서, 2025년 품목별 매출 명세를 대조해 어닐링장비 및 부품·AS 중 어떤 매출을 어떤 사유로 분자에 넣었는지 확인한다. 인정 매출이 총매출의 50%인 86,482,286천원 이상인지 검증한다.",
+    "citations": [
+      {
+        "physical_page": 200,
+        "locator": "[3차 - 사업 유사성] 세부 검토기준 ②",
+        "quote": "② 온도 및 습도 관련 제품 / 서비스의 매출 비중이 당해 연도 기준 50% 이상일 것"
+      },
+      {
+        "physical_page": 200,
+        "locator": "[3차 비교기업의 선정] 2025년 온기 HPSP 행, 사업유사성 ①·②·③ 및 선정여부 열",
+        "quote": "HPSP               고압수소 어닐링장비 89.1%, 기타 10.9%                    O          O          O        O"
+      },
+      {
+        "physical_page": 207,
+        "locator": "[2026년 2분기(25년 3분기~26년 2분기) 기준 비교기업 PER 산출] HPSP·워트 PER 및 적용 PER 행",
+        "quote": "PER                                    34.92                            17.45\n\n   적용 PER                                    26.18"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:07:18.275+09:00",
+  "original_review_service_seconds": 25.75,
+  "actual_end_to_end_seconds": 26.140512,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

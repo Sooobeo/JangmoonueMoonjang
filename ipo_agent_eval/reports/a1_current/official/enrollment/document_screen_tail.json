@@ -1,0 +1,676 @@
+{
+  "source_scope": "same DART screen, next 15 receipt-ordered issuers",
+  "counts": {
+    "신규상장 근거 미확인": 14,
+    "PER 산정표 미확인": 1
+  },
+  "rows": [
+    {
+      "receipt": "20241129001313",
+      "corp_code": "01429220",
+      "issuer": "피아이이",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001313",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-11-29",
+      "time_precision": "date",
+      "official_title": "피아이이/증권신고서(지분증권)/2024.11.29",
+      "family_metadata": [
+        {
+          "receipt": "20250116000121",
+          "caption": "2025.01.16 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241223000178",
+          "caption": "2024.12.23 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241218000183",
+          "caption": "2024.12.18 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241129001313",
+          "caption": "2024.11.29 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241129001313&dcm_no=10206601",
+      "pdf_sha256": "77a3b3e953822271e054e19d6af2f1df9b2637a477c9762098766aa992463aec",
+      "pdf_pages": 445,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241129001734",
+      "corp_code": "01366000",
+      "issuer": "태성",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001734",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-11-29",
+      "time_precision": "date",
+      "official_title": "태성/증권신고서(지분증권)/2024.11.29",
+      "family_metadata": [
+        {
+          "receipt": "20250213001113",
+          "caption": "2025.02.13 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250109000018",
+          "caption": "2025.01.09 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241231000119",
+          "caption": "2024.12.31 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241226000426",
+          "caption": "2024.12.26 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241213000442",
+          "caption": "2024.12.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241129001734",
+          "caption": "2024.11.29 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241129001734&dcm_no=10207496",
+      "pdf_sha256": "8a2809614d4ab9b6efc839360998144adb6cf898e9d5ca6bc6a91d816a5182a7",
+      "pdf_pages": 275,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241205000577",
+      "corp_code": "00139834",
+      "issuer": "LG씨엔에스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000577",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-05",
+      "time_precision": "date",
+      "official_title": "LG씨엔에스/증권신고서(지분증권)/2024.12.05",
+      "family_metadata": [
+        {
+          "receipt": "20250117000576",
+          "caption": "2025.01.17 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241219000521",
+          "caption": "2024.12.19 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241205000577",
+          "caption": "2024.12.05 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241205000577&dcm_no=10214371",
+      "pdf_sha256": "6f1bf36ff37a27c9154d37a34596f8239b55faaa2cbf061fabe6cbdcb81e0992",
+      "pdf_pages": 606,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241206000379",
+      "corp_code": "01073261",
+      "issuer": "동방메디컬",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241206000379",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-06",
+      "time_precision": "date",
+      "official_title": "동방메디컬/증권신고서(지분증권)/2024.12.06",
+      "family_metadata": [
+        {
+          "receipt": "20250124000579",
+          "caption": "2025.01.24 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241230000542",
+          "caption": "2024.12.30 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241206000379",
+          "caption": "2024.12.06 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241206000379&dcm_no=10215433",
+      "pdf_sha256": "2f82a46add74b1d2f6ef21f18dc5ed813c8cce6cb9a5c5d6c0963cd102bfbca3",
+      "pdf_pages": 497,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241212000508",
+      "corp_code": "01374717",
+      "issuer": "미트박스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000508",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-12",
+      "time_precision": "date",
+      "official_title": "미트박스/증권신고서(지분증권)/2024.12.12",
+      "family_metadata": [
+        {
+          "receipt": "20250110000703",
+          "caption": "2025.01.10 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250106000343",
+          "caption": "2025.01.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241212000508",
+          "caption": "2024.12.12 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241212000508&dcm_no=10223716",
+      "pdf_sha256": "d2a553340c2a61436aba868c2596e0dd3577afd51da9afa231767078c1893982",
+      "pdf_pages": 473,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241213000457",
+      "corp_code": "01137860",
+      "issuer": "위너스일렉",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000457",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-13",
+      "time_precision": "date",
+      "official_title": "위너스일렉/증권신고서(지분증권)/2024.12.13",
+      "family_metadata": [
+        {
+          "receipt": "20250212000606",
+          "caption": "2025.02.12 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250131000376",
+          "caption": "2025.01.31 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250124000433",
+          "caption": "2025.01.24 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250107000554",
+          "caption": "2025.01.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250107000379",
+          "caption": "2025.01.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241213000457",
+          "caption": "2024.12.13 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241213000457&dcm_no=10226733",
+      "pdf_sha256": "e16a5310ba82eca2c68ebfbf4769edcda4493654b478ba499a514a212ab2d89b",
+      "pdf_pages": 363,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241213000597",
+      "corp_code": "01516890",
+      "issuer": "E8",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000597",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER 산정표 미확인",
+      "date_kst": "2024-12-13",
+      "time_precision": "date",
+      "official_title": "E8/증권신고서(지분증권)/2024.12.13",
+      "family_metadata": [
+        {
+          "receipt": "20250311000910",
+          "caption": "2025.03.11 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250204000325",
+          "caption": "2025.02.04 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250124000780",
+          "caption": "2025.01.24 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250122000422",
+          "caption": "2025.01.22 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250117000539",
+          "caption": "2025.01.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250114000452",
+          "caption": "2025.01.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241230000574",
+          "caption": "2024.12.30 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241213000597",
+          "caption": "2024.12.13 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241213000597&dcm_no=10227470",
+      "pdf_sha256": "415ace2519a5da22a840e4d850199c5bd081203933126aef40362341d4edd306",
+      "pdf_pages": 300,
+      "new_listing_markers_in_first_12_pages": [
+        "코스닥시장상장"
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241216000242",
+      "corp_code": "01233465",
+      "issuer": "동국생명과학",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000242",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-16",
+      "time_precision": "date",
+      "official_title": "동국생명과학/증권신고서(지분증권)/2024.12.16",
+      "family_metadata": [
+        {
+          "receipt": "20250131000480",
+          "caption": "2025.01.31 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250120000478",
+          "caption": "2025.01.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241230000537",
+          "caption": "2024.12.30 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241216000242",
+          "caption": "2024.12.16 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241216000242&dcm_no=10229750",
+      "pdf_sha256": "59826d8144c0f3acd28d8a9b4ccfc32d16662f70d10522a5cdf7f27829e547d0",
+      "pdf_pages": 424,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241220000674",
+      "corp_code": "00525679",
+      "issuer": "차바이오텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000674",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-20",
+      "time_precision": "date",
+      "official_title": "차바이오텍/증권신고서(지분증권)/2024.12.20",
+      "family_metadata": [
+        {
+          "receipt": "20250530000492",
+          "caption": "2025.05.30 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250515000971",
+          "caption": "2025.05.15 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250415000390",
+          "caption": "2025.04.15 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250408002732",
+          "caption": "2025.04.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250407003716",
+          "caption": "2025.04.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250324000670",
+          "caption": "2025.03.24 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250310000897",
+          "caption": "2025.03.10 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250221002578",
+          "caption": "2025.02.21 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250207000862",
+          "caption": "2025.02.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250120000318",
+          "caption": "2025.01.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241220000674",
+          "caption": "2024.12.20 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241220000674&dcm_no=10238245",
+      "pdf_sha256": "c3286a811eeccc6f4b2f152ee4e8e2e78e1f74d805d83557f1adc8568ed14bd8",
+      "pdf_pages": 616,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241220000731",
+      "corp_code": "01351080",
+      "issuer": "지아이이노베이션",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000731",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-20",
+      "time_precision": "date",
+      "official_title": "지아이이노베이션/증권신고서(지분증권)/2024.12.20",
+      "family_metadata": [
+        {
+          "receipt": "20250317000897",
+          "caption": "2025.03.17 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250210000722",
+          "caption": "2025.02.10 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250117000448",
+          "caption": "2025.01.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250107000481",
+          "caption": "2025.01.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241220000731",
+          "caption": "2024.12.20 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241220000731&dcm_no=10238445",
+      "pdf_sha256": "09e0087775c443b8252c0cd99d65c2f9b30d14fc09330266f71cf860b4fc4914",
+      "pdf_pages": 331,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241223000375",
+      "corp_code": "01658831",
+      "issuer": "오름테라퓨틱",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000375",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-23",
+      "time_precision": "date",
+      "official_title": "오름테라퓨틱/증권신고서(지분증권)/2024.12.23",
+      "family_metadata": [
+        {
+          "receipt": "20250203000294",
+          "caption": "2025.02.03 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250110000765",
+          "caption": "2025.01.10 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241223000375",
+          "caption": "2024.12.23 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241223000375&dcm_no=10240041",
+      "pdf_sha256": "01546cd097373c70d3b366cfa9288a9898396d82efdecdb6327623b76d733c4f",
+      "pdf_pages": 479,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241223000405",
+      "corp_code": "00306870",
+      "issuer": "손오공",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000405",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-23",
+      "time_precision": "date",
+      "official_title": "손오공/증권신고서(지분증권)/2024.12.23",
+      "family_metadata": [
+        {
+          "receipt": "20250306000317",
+          "caption": "2025.03.06 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250123000175",
+          "caption": "2025.01.23 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250110000362",
+          "caption": "2025.01.10 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250108000482",
+          "caption": "2025.01.08 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241223000405",
+          "caption": "2024.12.23 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241223000405&dcm_no=10240162",
+      "pdf_sha256": "45ca8b4a7f61bded55d87d8d7013101a1fc323d52819eb4b4c896e2c10fa1f36",
+      "pdf_pages": 262,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241224000430",
+      "corp_code": "01022902",
+      "issuer": "애드바이오텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241224000430",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-24",
+      "time_precision": "date",
+      "official_title": "애드바이오텍/증권신고서(지분증권)/2024.12.24",
+      "family_metadata": [
+        {
+          "receipt": "20250304000465",
+          "caption": "2025.03.04 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250227004789",
+          "caption": "2025.02.27 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250214002237",
+          "caption": "2025.02.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250213001743",
+          "caption": "2025.02.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250124000918",
+          "caption": "2025.01.24 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250110000558",
+          "caption": "2025.01.10 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250109000445",
+          "caption": "2025.01.09 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241224000430",
+          "caption": "2024.12.24 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241224000430&dcm_no=10241828",
+      "pdf_sha256": "b91654c113ea0f8d64560d52e7c7574b9c8817941e8815eaf6bdf787d44f9370",
+      "pdf_pages": 363,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241226000073",
+      "corp_code": "01723366",
+      "issuer": "오스템바스큘라",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000073",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-26",
+      "time_precision": "date",
+      "official_title": "오스템바스큘라/증권신고서(지분증권)/2024.12.26",
+      "family_metadata": [
+        {
+          "receipt": "20250120000445",
+          "caption": "2025.01.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250114000409",
+          "caption": "2025.01.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241226000073",
+          "caption": "2024.12.26 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241226000073&dcm_no=10242758",
+      "pdf_sha256": "2c41c257b7b579628c1f42131be4c4c710955017e7d16e0786081f220b4d54eb",
+      "pdf_pages": 228,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    },
+    {
+      "receipt": "20241227000443",
+      "corp_code": "01549472",
+      "issuer": "대진첨단소재",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241227000443",
+      "inventory_status": "원문 확인 대기",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2024-12-27",
+      "time_precision": "date",
+      "official_title": "대진첨단소재/증권신고서(지분증권)/2024.12.27",
+      "family_metadata": [
+        {
+          "receipt": "20250219001498",
+          "caption": "2025.02.19 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250214000497",
+          "caption": "2025.02.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250122000111",
+          "caption": "2025.01.22 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250120000237",
+          "caption": "2025.01.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250120000132",
+          "caption": "2025.01.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250116000080",
+          "caption": "2025.01.16 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250114000261",
+          "caption": "2025.01.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241227000443",
+          "caption": "2024.12.27 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241227000443&dcm_no=10245716",
+      "pdf_sha256": "bc7262d373970aaa728fda4b6e97d5c1dbcac2fd5a1955af1f3d5d71bfd17168",
+      "pdf_pages": 442,
+      "new_listing_markers_in_first_12_pages": [],
+      "method_tables": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "protocol": "a1-main-v1",
+  "scope": "W13 operational review allocation, isolated persona, timing and denominator design before the input freeze",
+  "live_persona_sessions_in_these_checks": 0,
+  "terra_responses_requests_in_these_checks": 0,
+  "runtime_metadata": {
+    "terra_models_retrieve_id": "gpt-6.1-terra",
+    "codex_login_status": "ChatGPT authenticated",
+    "codex_binary_matches_isolation": true,
+    "codex_catalog_matches_isolation": true,
+    "required_astra_in_model_cache": true,
+    "available_credit": null,
+    "actual_inference_verified_by_these_checks": false
+  },
+  "reviews": [
+    {
+      "round": 1,
+      "subject": "Protocol roles and isolation",
+      "evidence": "scripts/current_persona_time.py ROLE and REVIEW are directly reused. ROLE SHA-256 ef9baf7f16407e31199262ab169cfa09dc47ea49ca31f235d0ca1b51d9b2031b. Canonical schema SHA-256 619240a2a7e4f0a73a087b988b6cb73d7de60f394af6891c49ca67991e7fc4f3. Synthetically intercepted payload had exactly the neutral question and permitted physical-page excerpts. No operator, arm, priority or grading evidence was present. Runtime authentication and model catalog were checked without transmitting evaluation data."
+    },
+    {
+      "round": 2,
+      "subject": "Work allocation and population",
+      "evidence": "tests/test_a1_main_timing.py checks two overlapping operational lists, a rule fallback, a true zero, an unmeasured item and a source shortage. The union is frozen by distinct issuer/item then SHA-256 order and processed serially. Only issuer pairs with all their assigned times known enter paired totals. Fallback is separately labelled. Each arm retains its assigned/observed/missing count. Time review and grading use separate independent sessions."
+    },
+    {
+      "round": 3,
+      "subject": "Elapsed time, retry and missingness",
+      "evidence": "Timed preparation is bound to the original packet digest. Preparation, actual CLI execution and schema/source verification are accounted independently. Whole elapsed includes preparation plus all logged attempts, including an unsuccessful first attempt; valid sessions with an interrupted attempt of unknown duration retain null total. Two exhausted starts retain their observed time separately from the missing valid review. Replaying an item reuses the same measurement. Human time and Codex price remain null."
+    }
+  ],
+  "command": "python -m pytest -q tests/test_a1_main_terra.py tests/test_a1_main_timing.py tests/test_a1_main_analysis.py",
+  "result": "24 passed, no model inference"
+}

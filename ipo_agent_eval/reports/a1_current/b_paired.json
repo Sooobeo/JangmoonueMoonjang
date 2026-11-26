@@ -1,0 +1,83 @@
+[
+  {
+    "case": "HDMS",
+    "pages": [
+      269,
+      270
+    ],
+    "pair": [
+      {
+        "b_provided": false,
+        "price_correct": true,
+        "shares_correct": true,
+        "observations": [],
+        "unresolved": [
+          "표시된 적용 순이익 151,116백만원과 PER 31.5배의 곱은 4,760,154백만원으로, 기재된 평가시가총액 4,761,293백만원과 차이가 있다. 표시 전 정밀도를 적용했는지 원자료 확인이 필요하다.",
+          "적용 순이익은 2023년 온기 지배주주지분 기준이고 희석가능주식수는 신고서 제출일 기준이다. 제공된 발췌에는 정확한 제출일이 없다."
+        ],
+        "run_id": "20261126T020954Z_B_without_6e7aa284",
+        "estimated_usd": 0.008483,
+        "seconds": 23.582,
+        "evidence_dir": "reports/a1_current/live/HDMS/B_without/035491cdae8bee49d1a327904045925bc670da42982e66a591573ec6bb5bbaa4/20261126T020954Z_B_without_6e7aa284"
+      },
+      {
+        "b_provided": true,
+        "price_correct": true,
+        "shares_correct": true,
+        "observations": [],
+        "unresolved": [
+          "적용 순이익은 2023년 온기 지배주주지분 기준이며, 평가기준일은 2024년 3월 14일이다. 표시된 151,116백만원과 31.5배의 곱은 4,760,154백만원으로 신고 시가총액 4,761,293백만원과 다르지만, 표시 정밀도 범위 내 차이여서 오류로 단정할 수 없다. 미반올림 입력값 확인이 필요하다.",
+          "희석가능주식수 420,190주는 신고서 제출일 현재 기준이다. 공모 후 실제 변동 여부는 제공된 최초 신고서만으로 확인할 수 없다."
+        ],
+        "run_id": "20261126T021018Z_B_with_0c9c202d",
+        "estimated_usd": 0.00499,
+        "seconds": 9.457,
+        "evidence_dir": "reports/a1_current/live/HDMS/B_with/55855d8e09c682c50408567b9dcf66161ebc773c1b01704d9402c1ca481d232f/20261126T021018Z_B_with_0c9c202d"
+      }
+    ]
+  },
+  {
+    "case": "MELCON",
+    "pages": [
+      207,
+      208
+    ],
+    "pair": [
+      {
+        "b_provided": true,
+        "price_correct": true,
+        "shares_correct": true,
+        "observations": [
+          {
+            "issue": "비교기업과 발행회사의 적용 이익 기간 차이",
+            "page": 208,
+            "reason": "비교기업 PER는 2025년 3분기부터 2026년 2분기까지의 최근 4개 분기 실적을 사용하지만, 발행회사 이익은 2026년 2분기 이익에서 일회성 이익을 차감한 후 연환산했다. 서로 다른 기간의 이익을 적용하므로 비교가능성에 한계가 있다."
+          }
+        ],
+        "unresolved": [
+          "2026년 2분기 지배주주 당기순이익 4,366백만원이 상반기 누적 이익인지 단일 분기 이익인지 확인이 필요하다. 단일 분기 이익이라면 2배 연환산의 타당성을 확인해야 한다.",
+          "표시된 6,894백만원과 26.18배의 곱은 180,484.92백만원으로 표시 기업가치 180,497백만원과 다르다. 표시 정밀도 범위에서는 가능한 차이이나, 실제 적용한 미반올림 수치 확인이 필요하다.",
+          "비교기업 이익에도 발행회사와 같은 일회성 이익 조정이 적용됐는지는 제시 자료만으로 확인되지 않는다."
+        ],
+        "run_id": "20261126T020954Z_B_with_801fcb63",
+        "estimated_usd": 0.008192,
+        "seconds": 20.651,
+        "evidence_dir": "reports/a1_current/live/MELCON/B_with/a9e7f561212a6effb4ed818cd5f46157b8da5292fcce32c9ae586682d91168f5/20261126T020954Z_B_with_801fcb63"
+      },
+      {
+        "b_provided": false,
+        "price_correct": true,
+        "shares_correct": true,
+        "observations": [],
+        "unresolved": [
+          "표시된 6,894백만원과 PER 26.18배를 그대로 곱하면 180,484.92백만원으로, 신고서의 기업가치 180,497백만원과 다르다. 미표시 자릿수 사용 여부를 확인해야 한다.",
+          "발행회사 이익은 2026년 2분기 이익에서 일회성이익을 차감한 후 연환산한 반면, 비교기업 PER은 2025년 3분기~2026년 2분기 LTM 기준이다. 발행회사 이익 4,366백만원이 상반기 누적액인지와 기간 차이의 적정성을 확인해야 한다."
+        ],
+        "run_id": "20261126T021015Z_B_without_455f0147",
+        "estimated_usd": 0.007178,
+        "seconds": 19.887,
+        "evidence_dir": "reports/a1_current/live/MELCON/B_without/8133169209bb5b0ad63b794b5e849a6a0c2c030351ce6914c13bb86d926fa52c/20261126T021015Z_B_without_455f0147"
+      }
+    ]
+  }
+]

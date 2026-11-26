@@ -1,0 +1,30 @@
+{
+  "case_id": "MELCON",
+  "operator_item_id": "M04",
+  "seed": 261126,
+  "order": {
+    "A0": [
+      "original",
+      "process_evidence_withheld",
+      "format_only"
+    ],
+    "C": [
+      "format_only",
+      "process_evidence_withheld",
+      "original"
+    ]
+  },
+  "scope": "동일 중립 발췌의 항목 단위 독립 호출. 전체 A0/C 원판정 연결 뒤 TRIZ 적용 여부를 별도로 판단",
+  "expected": {
+    "original": "각 역할의 전체 원본 판정을 재현하는지 사후 확인",
+    "format_only": "제시 순서만 뒤집어 판정과 핵심 공정 근거 유지 확인",
+    "process_evidence_withheld": "후보의 포토 전공정 적용을 확인된 공통점에서 제거하고 필요 증빙을 밝힘. HBM 후공정·제품·고객 근거와 종합 수용을 유지할 수 있음"
+  },
+  "variant_sha256": {
+    "original": "9115cfda0f79aeffc746062cf63136f28ec783364dbde21d8dce94ded7adf377",
+    "format_only": "497fdedcaf1407adb96a91957818c42d13ebf990c85c21cf4348b6f9ec5d8791",
+    "process_evidence_withheld": "9ad720115d2186ea5308b64c10170005a81eed3dd18a1ad8c4b3b08824a581ef"
+  },
+  "prompt_sha256": "89d65c2f8321255304ee0efa3bcf2c8992bdb001b2fff62eef0b07c1765cadea",
+  "output_schema_sha256": "ce6a62dd4b363e91ffdacf3c0e618c71c89d7a1ea843a87789ef14e628c2d60d"
+}

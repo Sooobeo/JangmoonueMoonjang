@@ -1,0 +1,255 @@
+{
+  "eligible": {
+    "MANYO": [
+      "MANYO-01"
+    ]
+  },
+  "h1_safety_gate": true,
+  "mandatory_excluded": true,
+  "population": [
+    "GIGAVIS",
+    "TRUEN",
+    "MANYO",
+    "PHILENERGY"
+  ],
+  "source": "official/recovery_protocol.md",
+  "comparisons": [
+    {
+      "case": "MANYO",
+      "held": [
+        "MANYO-01"
+      ],
+      "held_grades": {
+        "MANYO-01": "acceptable"
+      },
+      "trigger": {
+        "evidence_dirs": [
+          "reports/a1_current/live/MANYO/OFFICIAL_ALIGNMENT_MANYO-01/6b3be19b495cfa8c/20261126T040723Z_OFFICIAL_ALIGNMENT_MANYO-01_ffd91fd9",
+          "reports/a1_current/live/MANYO/T01A0o/8f0061c60e9be2f0/20261126T041135Z_T01A0o_1d89053d",
+          "reports/a1_current/live/MANYO/T01A0f/4c539ec1b0db9674/20261126T041146Z_T01A0f_df6253ef",
+          "reports/a1_current/live/MANYO/OFFICIAL_TRIZ_MANYO-01_A0_directional/9c68355a3168d88c/20261126T040930Z_OFFICIAL_TRIZ_MANYO-01_A0_directional_07fd1349",
+          "reports/a1_current/live/MANYO/T01Co/a501537a85c4c85c/20261126T041138Z_T01Co_27980a29",
+          "reports/a1_current/live/MANYO/T01Cf/3c49c3c8508fa16c/20261126T041125Z_T01Cf_17b88b1b",
+          "reports/a1_current/live/MANYO/T01Cd/b2d2326c0f0baa4c/20261126T041135Z_T01Cd_07d62b9d"
+        ],
+        "model_calls": 8,
+        "estimated_usd": 0.033732,
+        "summed_seconds": 75.839,
+        "scope": "matched eligible-item alignment and perturbations. Setup time unavailable."
+      },
+      "additional_held_material": [],
+      "evidence": {
+        "calls": [
+          {
+            "run_id": "20261126T041449Z_A1_LOOK_79532eff",
+            "model_calls": 1,
+            "elapsed_seconds": 9.342,
+            "input_tokens": 1972,
+            "output_tokens": 124,
+            "format_repairs": 0,
+            "known_usage_cost_usd_standard_uncached": 0.002592
+          },
+          {
+            "run_id": "20261126T041500Z_A1_SELECT_1e2a5ccf",
+            "model_calls": 1,
+            "elapsed_seconds": 31.089,
+            "input_tokens": 10058,
+            "output_tokens": 2259,
+            "format_repairs": 0,
+            "known_usage_cost_usd_standard_uncached": 0.021353
+          }
+        ],
+        "lookup_pages": [
+          "PDF-182",
+          "PDF-183",
+          "PDF-184",
+          "PDF-185"
+        ],
+        "new_text_pages": [
+          "PDF-182",
+          "PDF-183",
+          "PDF-184"
+        ]
+      },
+      "arms": {
+        "full_without_signal": {
+          "rank_order": [
+            "MANYO-11",
+            "MANYO-12",
+            "MANYO-08",
+            "MANYO-09",
+            "MANYO-02",
+            "MANYO-10",
+            "MANYO-04",
+            "MANYO-06",
+            "MANYO-03",
+            "MANYO-01",
+            "MANYO-05",
+            "MANYO-07"
+          ],
+          "concordance": null,
+          "fixed_k": {
+            "items": [
+              "MANYO-11"
+            ],
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ]
+          },
+          "operating": {
+            "items": [
+              "MANYO-11"
+            ],
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ]
+          },
+          "selector_seconds": 36.129,
+          "selector_estimated_usd": 0.023845,
+          "selector_plus_eligible_trigger_estimated_usd": 0.023845,
+          "selector_plus_eligible_trigger_summed_seconds": 36.129,
+          "decision_run": "reports/a1_current/live/MANYO/A1_SELECT/dcb95576c58e520c/20261126T041005Z_A1_SELECT_4716443a",
+          "lookup_run": "reports/a1_current/live/MANYO/A1_LOOK/84598fbdd5a2d987/20261126T040957Z_A1_LOOK_99a05ec0"
+        },
+        "full_with_signal": {
+          "rank_order": [
+            "MANYO-11",
+            "MANYO-12",
+            "MANYO-09",
+            "MANYO-08",
+            "MANYO-04",
+            "MANYO-10",
+            "MANYO-02",
+            "MANYO-06",
+            "MANYO-01",
+            "MANYO-07",
+            "MANYO-03",
+            "MANYO-05"
+          ],
+          "concordance": null,
+          "fixed_k": {
+            "items": [
+              "MANYO-11"
+            ],
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ]
+          },
+          "operating": {
+            "items": [
+              "MANYO-11"
+            ],
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ]
+          },
+          "selector_seconds": 39.714,
+          "selector_estimated_usd": 0.02452,
+          "selector_plus_eligible_trigger_estimated_usd": 0.058252,
+          "selector_plus_eligible_trigger_summed_seconds": 115.553,
+          "decision_run": "reports/a1_current/live/MANYO/A1_SELECT/6d95f00e2a2d3f2c/20261126T041318Z_A1_SELECT_c372ac38",
+          "lookup_run": "reports/a1_current/live/MANYO/A1_LOOK/355ebfefc762541d/20261126T041307Z_A1_LOOK_6560292c"
+        },
+        "hold_with_signal": {
+          "rank_order": [
+            "MANYO-11",
+            "MANYO-12",
+            "MANYO-09",
+            "MANYO-08",
+            "MANYO-10",
+            "MANYO-04",
+            "MANYO-02",
+            "MANYO-06",
+            "MANYO-03",
+            "MANYO-05",
+            "MANYO-07",
+            "MANYO-01"
+          ],
+          "concordance": null,
+          "fixed_k": {
+            "items": [
+              "MANYO-11"
+            ],
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ]
+          },
+          "operating": {
+            "items": [
+              "MANYO-11"
+            ],
+            "count": 1,
+            "material_found": [],
+            "material_missed": [],
+            "pending_outside": [
+              "MANYO-09",
+              "MANYO-10",
+              "MANYO-12"
+            ],
+            "recall": null,
+            "miss_count_bounds": [
+              0,
+              3
+            ]
+          },
+          "selector_seconds": 40.431,
+          "selector_estimated_usd": 0.023945,
+          "selector_plus_eligible_trigger_estimated_usd": 0.057677,
+          "selector_plus_eligible_trigger_summed_seconds": 116.27,
+          "decision_run": "reports/a1_current/live/MANYO/A1_SELECT/be6ec20fccf4064d/20261126T041500Z_A1_SELECT_1e2a5ccf",
+          "lookup_run": "reports/a1_current/live/MANYO/A1_LOOK/c83fcc8a53c2f260/20261126T041449Z_A1_LOOK_79532eff"
+        }
+      }
+    }
+  ]
+}

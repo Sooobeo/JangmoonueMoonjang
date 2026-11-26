@@ -1,0 +1,286 @@
+{
+  "cases": {
+    "GIGAVIS": {
+      "original_receipt": "20230331002184",
+      "original_sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+      "frozen_item_count": 12,
+      "frozen_j2_item_count": 4,
+      "neutral_candidate_count": 5,
+      "candidate_sources_published": [
+        "20230314",
+        "20230320"
+      ],
+      "masked_packet_sha256": "366c9c4164e58e012b85811d4f0711ef4dbcead3e89ea3183fabc3e0184c424d",
+      "a0_targeted_input_sha256": "575dc7894a17786406b7176a73624fd1e5640e06cefc8c5a8de287db74541b60",
+      "private_source_index": "reports/a1_current/validation_roles/GIGAVIS/c_private.json",
+      "role_execution": {
+        "V0": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/GIGAVIS/V0/340e03d6f995b6810590d5010a8540e0ab8b81a2fd94e8d0398677fe2356a963/20261126T021445Z_V0_6509e7cd/01_V0_error.json",
+              "stage": "V0",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021445Z_V0_6509e7cd:01:V0",
+              "request_sha256": "340e03d6f995b6810590d5010a8540e0ab8b81a2fd94e8d0398677fe2356a963",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        },
+        "VC": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/GIGAVIS/VC/c71bdd45ca6d3e171f8ea0ffe5471060e5998f89ac43435ad2ea14bd6b892cda/20261126T021735Z_VC_596de181/01_VC_error.json",
+              "stage": "VC",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021735Z_VC_596de181:01:VC",
+              "request_sha256": "c71bdd45ca6d3e171f8ea0ffe5471060e5998f89ac43435ad2ea14bd6b892cda",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        }
+      },
+      "common_b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "price_impact_fraction": {},
+      "official_H1_role_coverage": false,
+      "eligibility": "공식 A0·C의 짝지은 실제 응답이 확보되지 않아 공식 H1 비교 불가. 공통 B와 검증된 가격영향은 별도 필드에 기록한다."
+    },
+    "TRUEN": {
+      "original_receipt": "20230404002347",
+      "original_sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+      "frozen_item_count": 10,
+      "frozen_j2_item_count": 3,
+      "neutral_candidate_count": 4,
+      "candidate_sources_published": [
+        "20230316",
+        "20230322"
+      ],
+      "masked_packet_sha256": "01a4fcc811fd0c5021304dfb209758a75c64723edd93e5be0757d4fd2ae81398",
+      "a0_targeted_input_sha256": "776a8ff71590cb462000ec758837bbc1df32c0c9389e4793e77412b6b54b6741",
+      "private_source_index": "reports/a1_current/validation_roles/TRUEN/c_private.json",
+      "role_execution": {
+        "V0": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/TRUEN/V0/5baf8566d01750529fe99c60b37ec7ae8dbbe42642f133fbc96c6f6815cde04c/20261126T021445Z_V0_65235917/01_V0_error.json",
+              "stage": "V0",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021445Z_V0_65235917:01:V0",
+              "request_sha256": "5baf8566d01750529fe99c60b37ec7ae8dbbe42642f133fbc96c6f6815cde04c",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        },
+        "VC": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/TRUEN/VC/3fb72ab6db77412a33e7e8ad098d6f168e7628759f615735dd7440ea1e0459eb/20261126T021735Z_VC_27f37ada/01_VC_error.json",
+              "stage": "VC",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021735Z_VC_27f37ada:01:VC",
+              "request_sha256": "3fb72ab6db77412a33e7e8ad098d6f168e7628759f615735dd7440ea1e0459eb",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        }
+      },
+      "common_b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "price_impact_fraction": {},
+      "official_H1_role_coverage": false,
+      "eligibility": "공식 A0·C의 짝지은 실제 응답이 확보되지 않아 공식 H1 비교 불가. 공통 B와 검증된 가격영향은 별도 필드에 기록한다."
+    },
+    "MANYO": {
+      "original_receipt": "20230407002556",
+      "original_sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+      "frozen_item_count": 12,
+      "frozen_j2_item_count": 5,
+      "neutral_candidate_count": 6,
+      "candidate_sources_published": [
+        "20230315",
+        "20230323"
+      ],
+      "masked_packet_sha256": "32beb97cfebfadb3b7126eeec04e26a65b7fc1830cb7a16ddda0038559d2d3d0",
+      "a0_targeted_input_sha256": "2d5b966882cce3fce009f8b0aafea0945517e2d47fb7d614c63f0130ceb61626",
+      "private_source_index": "reports/a1_current/validation_roles/MANYO/c_private.json",
+      "role_execution": {
+        "V0": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/MANYO/V0/255388c7ccf2f227fe56d87069a95fe9756b684a303b3ab2a71956c27066bb90/20261126T021445Z_V0_17b6a70d/01_V0_error.json",
+              "stage": "V0",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021445Z_V0_17b6a70d:01:V0",
+              "request_sha256": "255388c7ccf2f227fe56d87069a95fe9756b684a303b3ab2a71956c27066bb90",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        },
+        "VC": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/MANYO/VC/b10360173d92c98c7d824ccf30e2666c2af9fdbbaedb66845540a430aa61e2d2/20261126T021735Z_VC_2ed64a1c/01_VC_error.json",
+              "stage": "VC",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021735Z_VC_2ed64a1c:01:VC",
+              "request_sha256": "b10360173d92c98c7d824ccf30e2666c2af9fdbbaedb66845540a430aa61e2d2",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        }
+      },
+      "common_b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "price_impact_fraction": {},
+      "official_H1_role_coverage": false,
+      "eligibility": "공식 A0·C의 짝지은 실제 응답이 확보되지 않아 공식 H1 비교 불가. 공통 B와 검증된 가격영향은 별도 필드에 기록한다."
+    },
+    "PHILENERGY": {
+      "original_receipt": "20230518000227",
+      "original_sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+      "frozen_item_count": 11,
+      "frozen_j2_item_count": 3,
+      "neutral_candidate_count": 4,
+      "candidate_sources_published": [
+        "20230320",
+        "20230323"
+      ],
+      "masked_packet_sha256": "e25cfd2754d1b960e29ac3e7161b05e1e850940b84265b04f6d3e9b0ac1382b9",
+      "a0_targeted_input_sha256": "e9e71b64f045fe1bcb111b503ab91b3f3d3799664e76dcc352a3e13808d6894c",
+      "private_source_index": "reports/a1_current/validation_roles/PHILENERGY/c_private.json",
+      "role_execution": {
+        "V0": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/PHILENERGY/V0/4ec9c0d48bcb0fd676c90dd6e0819a6ff7c82e44c64dca07839c124b1bf616ff/20261126T021445Z_V0_493b22fb/01_V0_error.json",
+              "stage": "V0",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021445Z_V0_493b22fb:01:V0",
+              "request_sha256": "4ec9c0d48bcb0fd676c90dd6e0819a6ff7c82e44c64dca07839c124b1bf616ff",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        },
+        "VC": {
+          "submitted": false,
+          "audited_errors": [
+            {
+              "file": "reports/a1_current/live/PHILENERGY/VC/50bf403518e0c0dad04c2c0d31d69edbe9698cb59646cc00a05cf1f7f3f401d3/20261126T021735Z_VC_490b21dd/01_VC_error.json",
+              "stage": "VC",
+              "error_type": "RateLimitError",
+              "http_status": 429,
+              "api_error_code": "credit_balance_exhausted",
+              "api_error_param": null,
+              "usage_unknown": true,
+              "retry_attempt": 0,
+              "logical_request_id": "20261126T021735Z_VC_490b21dd:01:VC",
+              "request_sha256": "50bf403518e0c0dad04c2c0d31d69edbe9698cb59646cc00a05cf1f7f3f401d3",
+              "retry_eligible": false
+            }
+          ],
+          "answer": null
+        }
+      },
+      "common_b_source": "reports/a1_current/validation/b.json",
+      "mandatory": [],
+      "price_impact_fraction": {},
+      "official_H1_role_coverage": false,
+      "eligibility": "공식 A0·C의 짝지은 실제 응답이 확보되지 않아 공식 H1 비교 불가. 공통 B와 검증된 가격영향은 별도 필드에 기록한다."
+    }
+  },
+  "historical_identity_checks": {
+    "098460": {
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230314001195&dcmNo=9055587&eleId=4&offset=5439&length=23969&dtd=dart3.xsd",
+      "sha256": "ad43dd49948477c22ea2db1bed5fd366d42220855296af8d8ab399b58be80701",
+      "receipt": "20230314001195",
+      "historical_name": "고영테크놀러지",
+      "snapshot": "reports/a1_current/validation_roles/sources/098460/identity.html",
+      "viewer_title_today": "고영/사업보고서/2023.03.14"
+    },
+    "331380": {
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230322000076&dcmNo=9086568&eleId=4&offset=6076&length=15454&dtd=dart3.xsd",
+      "sha256": "694e7cec5cd9d383eb8a2e418f41d36e2500e726b87a43dfcf94206c3c7d8d31",
+      "receipt": "20230322000076",
+      "historical_name": "포커스에이치엔에스",
+      "snapshot": "reports/a1_current/validation_roles/sources/331380/identity.html",
+      "viewer_title_today": "포커스에이아이/사업보고서/2023.03.22"
+    },
+    "018290": {
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000980&dcmNo=9082312&eleId=4&offset=22148&length=14879&dtd=dart3.xsd",
+      "sha256": "74ec3799db40d0e9195d620b09ab72bb65743f9f638417618d940b11f105c6e7",
+      "receipt": "20230321000980",
+      "historical_name": "브이티지엠피",
+      "snapshot": "reports/a1_current/validation_roles/sources/018290/identity.html",
+      "viewer_title_today": "브이티/사업보고서/2023.03.21"
+    }
+  },
+  "schema_version": 1,
+  "method": "A0는 원본 범위의 항목지정 발췌 검토로 기존 탐색형 전체 A0와 다르다. C는 공개 전기 사업보고서 원자료와 발행사 중립 증거에 기반한 맹검 제안이다. 후보는 전수 모집단이 아니다. 중립 입력에는 비교사별 재무·배수와 적정 공모가격 정답이 없다.",
+  "input_exposure": "검증 네 회사의 참조 채점과 A1 순위는 열람하지 않았다. 협업 슬롯 조회에 이미 종료된 개발 사례의 합계 등급이 표시되었으며 검증 역할의 공급자 요청 입력에는 들어가지 않았다.",
+  "checks": [
+    {
+      "round": 1,
+      "check": "네 원본 버전·해시·물리 페이지와 비교사·추가후보별 연차보고서 원본을 확인했다.",
+      "remedy": "직접 PDF 응답 본문이 비는 경우 DART 뷰어 목차에서 사업 개요·주요 제품의 정식 HTML 문서를 받아 보존했다."
+    },
+    {
+      "round": 2,
+      "check": "동결된 45개 항목과 J2의 15개 원래 기업을 후보 19곳에 연결하고 이름·선정여부를 입력에서 분리했다.",
+      "remedy": "DART 제목에서 현재 명칭이 표시되는 사례는 원 연차보고서의 ‘회사의 개요’에 나온 당시 법적 명칭을 대조했다."
+    },
+    {
+      "round": 3,
+      "check": "동일한 입력을 출처 해시·원문 구절과 재대조하고 공식 모델 응답의 존재 및 오류 코드를 독립 확인했다.",
+      "remedy": "긴 Windows 실행 경로를 짧은 단계명으로 수정했다. 응답이 없는 경우 충전 전 공식 결과·조건 간 측정값을 생성하지 않는다."
+    }
+  ]
+}

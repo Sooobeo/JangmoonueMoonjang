@@ -1,0 +1,56 @@
+{
+  "run_type": "offline_contract_and_source_check",
+  "model_calls": 0,
+  "original_cases": [
+    {
+      "case_id": "HDMS",
+      "items": 11,
+      "source_refs_resolve": true,
+      "a0_input_isolation_confirmed": true,
+      "c_sent_packet_replayed": true,
+      "c_packet_for_next_use_sha256": "3ade6677b91a603ec906f757211a25b3ad54579f942041324a3b7e8e21ff5e1e"
+    },
+    {
+      "case_id": "MELCON",
+      "items": 11,
+      "source_refs_resolve": true,
+      "a0_input_isolation_confirmed": true,
+      "c_sent_packet_replayed": true,
+      "c_packet_for_next_use_sha256": "a7f38c69b347c2ad0160f0b962342a3744242e7f92b0868dea931e61d7a4ba7b"
+    }
+  ],
+  "M04": {
+    "original": {
+      "candidate_evidence_refs": [
+        "E121",
+        "E122",
+        "E123",
+        "E124"
+      ],
+      "photo_evidence_available": true,
+      "hbm_evidence_available": true,
+      "input_sha256": "9115cfda0f79aeffc746062cf63136f28ec783364dbde21d8dce94ded7adf377"
+    },
+    "format_only": {
+      "candidate_evidence_refs": [
+        "E121",
+        "E122",
+        "E123",
+        "E124"
+      ],
+      "photo_evidence_available": true,
+      "hbm_evidence_available": true,
+      "input_sha256": "497fdedcaf1407adb96a91957818c42d13ebf990c85c21cf4348b6f9ec5d8791"
+    },
+    "process_evidence_withheld": {
+      "candidate_evidence_refs": [
+        "E121",
+        "E122",
+        "E124"
+      ],
+      "photo_evidence_available": false,
+      "hbm_evidence_available": true,
+      "input_sha256": "9ad720115d2186ea5308b64c10170005a81eed3dd18a1ad8c4b3b08824a581ef"
+    }
+  }
+}

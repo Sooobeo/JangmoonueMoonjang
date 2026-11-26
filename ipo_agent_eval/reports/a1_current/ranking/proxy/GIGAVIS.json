@@ -1,0 +1,295 @@
+{
+  "case": "GIGAVIS",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "GIGAVIS-05",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-08",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-10",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-02",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-03",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-04",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-06",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-07",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-11",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-01",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-09",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-12",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "GIGAVIS-05"
+    ],
+    "operational": [
+      "GIGAVIS-05"
+    ],
+    "waiting": [
+      "GIGAVIS-08",
+      "GIGAVIS-10"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "GIGAVIS-08",
+        "action": "사람 검토",
+        "priority": 98,
+        "reason": "C가 확인하지 못한 조정 항목과 금액은 원문에서 확인된다. 신고서는 자기주식 무상증여를 현금 유출이 없고 재발하지 않을 거래로 설명한다. 한편 10,097,010천원은 제조원가·CS원가·상여·연구개발비에 인식됐고, 이를 전액 가산하면서 적용 순이익이 27,750,571천원에서 37,847,581천원으로 약 36.4% 늘었다. 거래의 일회성은 조정 근거가 되지만, 임직원 보상비 전액을 세후 이익에 더한 판단과 비교기업 이익과의 일관성은 검토할 가치가 크다.",
+        "evidence_ids": [
+          "PDF-234",
+          "PDF-235",
+          "E3"
+        ],
+        "question_or_request": "통상적인 임직원 보상비와 구분해 전액을 가산한 근거는 무엇이며, 해당 비용의 법인세 효과와 비교기업의 유사 보상비는 적용 이익에 어떻게 반영했는가?",
+        "tie_key": "98",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-05",
+        "action": "사람 검토",
+        "priority": 96,
+        "reason": "C의 검토 범위 밖이지만 A0가 지적한 분모 불일치는 원문에서 확인된다. 주석에 적힌 발행주식총수 10,605,000주와 신주모집 2,218,258주의 합은 12,823,258주다. 주석의 합계와 평가표에 적용한 수량은 모두 12,675,758주로 산술합보다 147,500주 적다. 어느 수량을 정정해야 하는지는 제공된 원문만으로 결정할 수 없다.",
+        "evidence_ids": [
+          "PDF-235",
+          "PDF-234"
+        ],
+        "question_or_request": "신고서 제출일 기준 발행주식에서 공모 후 평가 분모에 이르는 주식 수를 대사하면 147,500주 차이는 어느 항목에서 발생하며, 그 결과 주석과 평가표 중 어디를 정정해야 하는가?",
+        "tie_key": "96",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-10",
+        "action": "사람 검토",
+        "priority": 92,
+        "reason": "A0와 C 모두 파크시스템스의 사업 유사성에 의문을 제기한다. 선정표는 광학 검사 장비로 분류하지만 주력 제품은 원자현미경이고 적용처에는 웨이퍼와 하드디스크가 있다. 연결 누적 매출의 산업용 약 65%와 연구용 약 30%는 용도별 비중으로, 패키지 기판 검사 매출을 식별해 주지 않는다. 이 차이는 네 회사 중 가장 높은 PER인 33.42배를 동일 가중치로 포함할지에 직접 관련된다.",
+        "evidence_ids": [
+          "PDF-226",
+          "A10",
+          "E5",
+          "E1",
+          "PDF-234"
+        ],
+        "question_or_request": "원자현미경 매출 중 기가비스의 패키지 기판 검사·수정과 고객 및 설비투자 수요가 겹치는 부분은 어디이며, 그 범위가 파크시스템스 전체 이익에 기초한 PER를 동일 가중치로 포함할 근거가 되는가?",
+        "tie_key": "92",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-11",
+        "action": "자료 요청",
+        "priority": 82,
+        "reason": "A0의 수용 근거인 광학 결함 검출 기능은 원문과 일치한다. 다만 넥스틴에서 확인되는 검사 대상은 전공정 웨이퍼이고 기가비스의 대상은 패키지 기판이다. 광학 장비 매출 비중만으로는 두 공정의 수요가 얼마나 겹치는지 판단하기 어려워 C가 유보한 사업 적격성은 미해소다.",
+        "evidence_ids": [
+          "A11",
+          "E8",
+          "E1",
+          "PDF-226"
+        ],
+        "question_or_request": "2022년 넥스틴 광학 검사장비 매출을 전공정 웨이퍼와 후공정·패키지 기판 적용처로 구분하고, 각 공정의 주요 고객군과 설비투자 수요를 확인할 수 있는 자료를 요청한다.",
+        "tie_key": "82",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-09",
+        "action": "자료 요청",
+        "priority": 70,
+        "reason": "두 검토자 모두 고영의 포함을 수용했고 기판 검사라는 공통점도 확인된다. 다만 51.0%는 전자제품·반도체 생산용 3D 자동광학검사장비가 2022년 연결 매출에서 차지한 비중이다. 이 중 패키지 기판 검사 몫은 분리되지 않으며 납도포검사장비도 연결 매출의 39.6%다. 기판 검사 기능의 공통점이 회사 전체 PER의 대표성을 얼마나 뒷받침하는지는 남는다.",
+        "evidence_ids": [
+          "A09",
+          "E6",
+          "E1",
+          "PDF-234"
+        ],
+        "question_or_request": "고영의 2022년 연결 매출 기준으로 3D 자동광학검사장비 중 패키지 기판 검사와 전자제품 조립 검사의 매출을 구분한 내역을 요청한다.",
+        "tie_key": "70",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-03",
+        "action": "자료 요청",
+        "priority": 44,
+        "reason": "2023년 3월 24일을 기준으로 1개월 평균종가·1주일 평균종가·기준일 종가 중 최솟값을 쓰는 규칙은 확인된다. C는 시장가격을 검토하지 않았고, 제공된 원문에는 네 회사의 관측값 세 개가 각각 기재돼 있지 않다. 따라서 A0가 수용한 선택 규칙은 확인되지만 회사별 실제 적용까지 검산하려면 원자료가 필요하다.",
+        "evidence_ids": [
+          "A03",
+          "PDF-234"
+        ],
+        "question_or_request": "네 비교기업별 1개월 평균종가, 1주일 평균종가, 기준일 종가와 실제 적용 기준주가를 한 표로 요청한다.",
+        "tie_key": "44",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-12",
+        "action": "기록 보관",
+        "priority": 30,
+        "reason": "A0와 C가 수용한 사업 비교의 직접 근거는 인텍플러스가 FC-BGA용 검사장비를 제조한다는 점이다. 2022년 매출의 59.0%에는 패키지 외에 SSD·메모리 모듈 외관검사가 포함되고 31.7%는 플립칩 외관검사다. 두 비율을 패키지 기판 검사 매출로 합산할 수는 없지만, FC-BGA 장비라는 구체적인 적용처는 사업 기준 포함을 뒷받침한다.",
+        "evidence_ids": [
+          "A12",
+          "E4",
+          "E1",
+          "PDF-226"
+        ],
+        "question_or_request": "추가 질문 없음. 외관검사와 기판 회로패턴 검사의 차이 및 제품군별 매출 범위를 포함 판단과 함께 기록한다.",
+        "tie_key": "30",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-07",
+        "action": "기록 보관",
+        "priority": 25,
+        "reason": "C의 검토 범위 밖이다. 평가액 65,082원에 표시 할인율 47.14%와 39.00%를 적용하면 각각 34,402.35원과 39,700.02원이다. A0의 원 단위 재현 설명은 하단에서 2원 차이가 난다. 다만 공시 밴드 34,400~39,700원에서 역산한 할인율은 소수 둘째 자리에서 공시율과 일치한다. 신고서는 과거 코스닥 상장 사례의 할인율과 금리 상승·시장 변동 위험을 고려한 근거도 제시한다.",
+        "evidence_ids": [
+          "PDF-235",
+          "A07"
+        ],
+        "question_or_request": "추가 질문 없음. 하단 차이는 할인율 표시 정밀도로 설명되며, 분모 확인은 GIGAVIS-05에서 다룬다.",
+        "tie_key": "25",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-06",
+        "action": "기록 보관",
+        "priority": 22,
+        "reason": "C의 검토 범위 밖이다. B 계산에서 평가 시가총액 824,968백만원을 표의 12,675,758주로 나누면 65,082.34원으로, 표시된 65,082원과 원 단위에서 일치한다. A0의 산술 수용은 표의 분모를 전제로 성립한다. 주석의 주식 수 불일치는 별도로 확인해야 한다.",
+        "evidence_ids": [
+          "PDF-234",
+          "PDF-235",
+          "A06"
+        ],
+        "question_or_request": "산식에 대한 추가 질문 없음. GIGAVIS-05에서 적용 주식 수가 정정되면 같은 산식으로 주당가액을 다시 확인한다.",
+        "tie_key": "22",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-04",
+        "action": "기록 보관",
+        "priority": 18,
+        "reason": "C가 확보하지 못한 회사별 기준시가총액과 2022년 온기 지배지분 순이익이 원문에 함께 있다. 각 회사의 시가총액을 해당 이익으로 나눈 PER는 27.68배, 33.42배, 13.50배, 12.59배이고 동일 가중 산술평균은 표시 정밀도에서 21.80배다. A0의 집계 판단은 재현되며 개별 기업의 포함 여부는 사업 비교 항목에서 검토한다.",
+        "evidence_ids": [
+          "PDF-234",
+          "A04"
+        ],
+        "question_or_request": "집계 방식에 대한 추가 질문 없음.",
+        "tie_key": "18",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-02",
+        "action": "기록 보관",
+        "priority": 14,
+        "reason": "A0가 유보한 발행사 이익의 귀속 범위는 C가 제시한 재무제표 범위로 해소된다. 발행사의 2022년 재무제표는 K-IFRS 개별 기준이고 연결 요약재무정보는 해당사항이 없다. 평가표는 이 개별 온기 순이익 27,750,571천원을 조정의 출발점으로 삼았고, 비교기업에는 온기 지배지분 순이익을 적용했다.",
+        "evidence_ids": [
+          "E2",
+          "A02",
+          "PDF-234"
+        ],
+        "question_or_request": "귀속 범위에 대한 추가 질문 없음.",
+        "tie_key": "14",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-01",
+        "action": "기록 보관",
+        "priority": 10,
+        "reason": "발행사에는 2022년 개별 연간 재무제표가 있고 평가표는 2022년 온기 순이익에서 출발한다. 같은 표의 비교기업 이익도 2022년 온기 기준이다. C가 확인한 발행사 기간과 A0가 확인한 양측 집계 기간이 일치한다. 2021·2020년 비교 수치는 재작성된 미감사 수치다.",
+        "evidence_ids": [
+          "E2",
+          "A01",
+          "PDF-234"
+        ],
+        "question_or_request": "적용 기간에 대한 추가 질문 없음.",
+        "tie_key": "10",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "GIGAVIS-08"
+    ],
+    "operational": [
+      "GIGAVIS-08"
+    ],
+    "waiting": [
+      "GIGAVIS-05",
+      "GIGAVIS-10"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-235"
+  ],
+  "lookup_run": "reports/a1_current/proxy/GIGAVIS/A1_LOOK/4a63446ca4d9fbe3",
+  "decision_run": "reports/a1_current/proxy/GIGAVIS/A1_SELECT/726866c34e5cc3cc",
+  "triz": [],
+  "common_item_count": 12,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "PDF-226",
+    "PDF-234",
+    "PDF-235"
+  ],
+  "selector_seconds": 71.29,
+  "selector_condition": "CODEX_PROXY"
+}

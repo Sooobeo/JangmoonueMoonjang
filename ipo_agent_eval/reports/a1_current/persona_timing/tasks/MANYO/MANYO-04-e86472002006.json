@@ -1,0 +1,52 @@
+{
+  "case": "MANYO",
+  "item_id": "MANYO-04",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:06:48.739+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "e864720020063920e6378e270e30b80561ca040d5a0036b137eea83f779739cb",
+  "source_pdf_sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    184,
+    185
+  ],
+  "packet_prep_seconds": 3.364402,
+  "evidence_dir": "reports/a1_current/proxy/MANYO/PERSONA_e864720020063920e6/a2f682376802118c",
+  "review_call_wrapper_seconds": 22.108523,
+  "quote_and_boundary_verification_seconds": 0.014878,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "신고서는 2022년 실적 기준 비교기업 6개사 중 코리아나를 제외한 5개사의 평균 PER를 21.15배로 제시하고, 이를 마녀공장의 주당 평가에 적용했다.",
+    "checked_basis_or_arithmetic": "개별 PER의 분모인 EPS는 2022년 당기순이익(연결 작성사는 지배주주 귀속순이익)을 천원에서 원으로 환산해 분석기준일 상장주식총수로 나눈 값이다. 분자는 2023.03.02~03.31 종가 산술평균과 분석기준일 종가 중 낮은 값이다. 표에서 적용 여부가 O인 클리오·아이패밀리에스씨·애경산업·네오팜·브이티지엠피의 표시 PER를 동일 가중하면 (35.82 + 15.48 + 28.46 + 8.66 + 17.37) ÷ 5 = 21.158배다. X로 표시된 코리아나의 83.89배는 제외했다.",
+    "outcome": "쟁점 확인",
+    "finding": "표시된 5개사 PER의 산술평균을 소수 둘째 자리까지 반올림하면 21.16배로, 공시 및 평가에 적용된 21.15배보다 0.01배 높다. 21.158배를 소수 둘째 자리까지 절사하면 공시값과 일치하지만, 제공된 쪽에는 집계에 사용한 개별 PER의 정밀도와 끝수 처리 방식이 명시돼 있지 않아 차이의 원인은 확정할 수 없다.",
+    "follow_up": "대표주관사의 PER 산정 원장에서 5개사의 반올림 전 EPS와 PER, 평균 산식의 참조 범위, 반올림·절사 적용 단계를 확인해 21.15배를 재현한다.",
+    "citations": [
+      {
+        "physical_page": 184,
+        "locator": "「2022년 실적을 적용한 PER 산정」의 적용 PER·적용 여부·평균 PER 행",
+        "quote": "적용 PER(배)               35.82           15.48           28.46            8.66           17.37           83.89\n\n   적용 여부         O          O          O          O          O            X\n\n   평균 PER(배)                                                   21.15"
+      },
+      {
+        "physical_page": 185,
+        "locator": "비교기업 PER 산정표 주2)·주3)",
+        "quote": "주2)  적용 주식수는 분석기준일 현재 상장주식총수입니다.\n\n주3)  기준주가 = Min(분석기준일로부터 1개월(2023.03.02~2023.03.31)간 종가 산술평균, 분석기준일 종가)"
+      },
+      {
+        "physical_page": 185,
+        "locator": "「㈜마녀공장 PER에 의한 평가가치」의 적용 PER 행",
+        "quote": "적용 PER                                   21.15          D, 주3)"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:07:14.227+09:00",
+  "original_review_service_seconds": 22.06,
+  "actual_end_to_end_seconds": 25.488599,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

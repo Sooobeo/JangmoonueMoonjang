@@ -1,0 +1,53 @@
+{
+  "case_id": "HDMS",
+  "directory": "runs/HDMS/c_original/20261126T040439Z_A1_BLIND_B_8f7a8243",
+  "packet_sha256": "3ade6677b91a603ec906f757211a25b3ad54579f942041324a3b7e8e21ff5e1e",
+  "summary": {
+    "run_id": "20261126T040439Z_A1_BLIND_B_8f7a8243",
+    "condition": "A1_BLIND_B",
+    "mode": "LIVE",
+    "case_id": "HDMS",
+    "repeat": 1,
+    "config_version": "a1-blind-v1",
+    "contract_versions": [
+      "a1-blind-v1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1115,
+    "output_tokens": 1665,
+    "format_repairs": 0,
+    "elapsed_seconds": 31.069,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.00944,
+    "known_usage_cost_usd_standard_uncached": 0.00944,
+    "estimated_cost_krw_at_budget_fx": 13.22,
+    "cost_ceiling_usd": 0.009719,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.009719,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true,
+    "answer_status": "PENDING_INFO",
+    "citation_and_coverage_audit": {
+      "missing_candidates": [],
+      "unknown_candidates": [],
+      "duplicate_candidates": [],
+      "unknown_evidence_ids": [],
+      "candidates_without_citations": []
+    },
+    "response_id": "resp_044e46745084afea016b07afddb74887d0b19f10276038cabf",
+    "variant": "B1",
+    "baseline_run_id": null
+  }
+}

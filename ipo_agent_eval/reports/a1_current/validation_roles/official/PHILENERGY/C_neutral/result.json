@@ -1,0 +1,133 @@
+{
+  "role": "C",
+  "case": "PHILENERGY",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-6.1-terra",
+  "raw_response_id": "resp_06fb65c0d2842239016b07b01fe4d887d0ac752ddac02a544d",
+  "thread_id": "resp_06fb65c0d2842239016b07b01fe4d887d0ac752ddac02a544d",
+  "answer": {
+    "status": "PENDING_INFO",
+    "earnings": {
+      "proposal": "2022년 연간 연결 지배기업 소유주 귀속 순이익을 적용하되, 해당 금액을 확인한다. 문서화된 조정 항목이 없어 보고 이익을 유지한다.",
+      "reason": "2022년은 제공된 최신 완료 회계연도다. 2023년 1분기 이익만으로 연간화하면 계절성과 수주 시점의 영향을 확인할 수 없다. 2022년 연결순이익은 3,723,211천원이지만 지배기업 소유주 귀속액과 동일한지는 제시되지 않았다. 영업이익과 순이익의 차이 원인도 확인이 필요하다.",
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    "aggregation": {
+      "proposal": "비교기업 배수와 재무조건 확인 후 집계 방식을 결정한다.",
+      "reason": "후보별 배수와 재무자료가 없어 유효 표본, 극단값 및 산술평균과 중앙값의 적합성을 판단할 수 없다. EPS 산출자료도 없어 공모가격을 추정하지 않는다.",
+      "evidence_ids": []
+    },
+    "candidates": [
+      {
+        "candidate_id": "C1",
+        "decision": "REVIEW",
+        "reason": "주문생산 이차전지 설비라는 공통점은 있으나 발행기업의 주력 적층 장비와 달리 머신비전 검사장비가 중심이며 태양전지 설비도 취급한다. 검사장비와 태양전지 설비의 매출 비중, 재무조건 및 배수 확인이 필요하다.",
+        "evidence_ids": [
+          "E1",
+          "E4"
+        ]
+      },
+      {
+        "candidate_id": "C2",
+        "decision": "REVIEW",
+        "reason": "이차전지 제조업체에 생산설비를 공급한다는 점은 유사하지만, 주력은 발행기업의 적층 공정과 다른 활성화공정 충방전 장비다. 재무조건과 배수가 없어 최종 포함 여부를 판단하기 어렵다.",
+        "evidence_ids": [
+          "E1",
+          "E5"
+        ]
+      },
+      {
+        "candidate_id": "C3",
+        "decision": "REVIEW",
+        "reason": "이차전지 사업과 노칭장비는 유사성이 있지만, 해당 사업 비중 74.82%에는 양극·음극재와 분리막 제조도 포함된다. 발행기업의 적층 장비 중심 구조와 비교하려면 소재와 장비별 매출 비중, 재무조건 및 배수가 필요하다.",
+        "evidence_ids": [
+          "E1",
+          "E6"
+        ]
+      },
+      {
+        "candidate_id": "C4",
+        "decision": "REVIEW",
+        "reason": "이차전지 조립공정 및 레이저 노칭 장비를 공급해 사업상 유사성이 있다. 다만 화성·팩 조립·검사 등으로 공정 범위가 더 넓고 발행기업처럼 적층 장비에 집중하는지는 불명확하다. 공정별 매출 비중과 재무조건, 배수 확인이 필요하다.",
+        "evidence_ids": [
+          "E1",
+          "E7"
+        ]
+      }
+    ],
+    "methods": {
+      "period": {
+        "choice": "LATEST_COMPLETE_FY",
+        "reason": "2022년 연간이 제공된 최신 완료 회계연도이며 2023년 자료는 1분기뿐이다.",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      "attribution": {
+        "choice": "CONSOLIDATED_PARENT",
+        "reason": "주주에게 귀속되는 이익 기준으로 지배기업 소유주 귀속 순이익을 제안한다. 별도 표기 사실은 확인되지만 해당 금액은 제공되지 않았다.",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      "aggregation": {
+        "choice": "UNKNOWN",
+        "reason": "후보별 배수와 유효 표본이 없어 집계 방식을 선택할 근거가 부족하다.",
+        "evidence_ids": []
+      },
+      "expense": {
+        "choice": "RETAIN_REPORTED",
+        "reason": "조정 대상 비용의 금액이나 일회성을 입증하는 자료가 없어 보고 이익을 유지한다.",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      }
+    }
+  },
+  "tool_item_types": [],
+  "packet_sha256": "e25cfd2754d1b960e29ac3e7161b05e1e850940b84265b04f6d3e9b0ac1382b9",
+  "method": "Independent initial assessment, stateless Responses request with no tools.",
+  "evidence_dir": "reports/a1_current/live/PHILENERGY/VC_NEUTRAL/e7c06dc76d245644/20261126T040551Z_VC_NEUTRAL_36109338",
+  "summary": {
+    "run_id": "20261126T040551Z_VC_NEUTRAL_36109338",
+    "condition": "VC_NEUTRAL",
+    "mode": "LIVE",
+    "case_id": "PHILENERGY",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1290,
+    "output_tokens": 1383,
+    "format_repairs": 0,
+    "elapsed_seconds": 18.745,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.008205,
+    "known_usage_cost_usd_standard_uncached": 0.008205,
+    "estimated_cost_krw_at_budget_fx": 11.49,
+    "cost_ceiling_usd": 0.008528,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.008528,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  }
+}

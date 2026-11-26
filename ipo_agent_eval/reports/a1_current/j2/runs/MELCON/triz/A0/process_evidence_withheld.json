@@ -1,0 +1,52 @@
+{
+  "role": "A0",
+  "variant": "process_evidence_withheld",
+  "directory": "runs/MELCON/triz/A0/20261126T021252Z_J2_A0_ITEM_81a7d477",
+  "input_sha256": "9ad720115d2186ea5308b64c10170005a81eed3dd18a1ad8c4b3b08824a581ef",
+  "summary": {
+    "run_id": "20261126T021252Z_J2_A0_ITEM_81a7d477",
+    "condition": "J2_A0_ITEM",
+    "mode": "LIVE",
+    "case_id": "MELCON-M04",
+    "repeat": 1,
+    "config_version": "current-j2-item-1",
+    "contract_versions": [
+      "extraction_v2",
+      "review_v2"
+    ],
+    "execution_status": "FAILED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "format_repairs": 0,
+    "elapsed_seconds": 0.759,
+    "usage_unknown": true,
+    "estimated_cost_usd_standard_uncached": null,
+    "known_usage_cost_usd_standard_uncached": 0.0,
+    "estimated_cost_krw_at_budget_fx": null,
+    "cost_ceiling_usd": 0.0,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 1401,
+      "output_tokens_max": 3000,
+      "cost_ceiling_usd": 0.016751,
+      "attempts": [
+        {
+          "model_call": 1,
+          "stage": "item_review",
+          "input_tokens_estimated": 1401,
+          "output_tokens_max": 3000,
+          "cost_ceiling_usd": 0.01675125,
+          "note": "Reservation from estimated input and maximum output; unknown actual usage remains unknown."
+        }
+      ]
+    },
+    "accounted_cost_ceiling_usd": 0.016751,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": false,
+    "error_type": "RuntimeError"
+  }
+}

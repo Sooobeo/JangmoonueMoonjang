@@ -1,0 +1,362 @@
+{
+  "roster_sha256": "438e093bf95505b2e00fd8a42b76c6b3c553eaeff5bfeb572c6eac5cfc35ab9f",
+  "issuers": 37,
+  "unique_receipts": 37,
+  "pdf_files": 37,
+  "bytes": 166660355,
+  "source_sha256_verified": 37,
+  "selection_order_reproduced": true,
+  "selection_inputs_sha256": {
+    "reports/a1_development/filing_screening.json": "42270ecdbee7066096553dd2f722e48ea3edc69412347f7e4f7499b02f452f8f",
+    "reports/a1_current/official/enrollment/screened_all.json": "3c5e091bf67517274503195fc89b49e713591cc87fcaa635eb5cc6ad5abce959",
+    "reports/a1_current/official/enrollment_expansion/모집규칙.md": "5849c23425b6c29f4ea7ee011fc9ff4d5963f9bf24aee07299ff0254dd0b0c9d",
+    "reports/a1_current/official/enrollment_expansion/2023H2/eligible.json": "142d063a0e02f66d14524f7d5894e638978fe70bcb238d04337f51433a7911da",
+    "reports/a1_current/official/enrollment_expansion/2024H1/eligible.json": "4c37dd7ba67117b7b32dfbf026b0b64370d0aaa71b740c17df290ed4e016e314",
+    "reports/a1_current/official/enrollment_expansion/2025H1/eligible.json": "b3d1568abeca7a0ed7bf73d8543b19c530c6f517c54a127269f54b0abf0e98d9",
+    "reports/a1_current/official/enrollment_expansion/2025H2/eligible.json": "803686fbd7c5255f19f7e532a0686c5cd61d1bb6d06c013773fc56afcdbf56f3"
+  },
+  "cohorts": {
+    "기존 미사용 8곳": 8,
+    "2024년 4분기 기확보": 6,
+    "2023H2": 7,
+    "2024H1": 3,
+    "2025H1": 7,
+    "2025H2": 6
+  },
+  "second_pdf_decoder": [
+    {
+      "receipt": "20230818000362",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230818000362.json",
+      "history_sha256": "0726eaae37e0fdca2270d042bef1f51ac9c4a137756f223da02eb2fd3b8ecc1d",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 229
+    },
+    {
+      "receipt": "20230925000332",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230925000332.json",
+      "history_sha256": "95ab687a8575ee7b7db9a3a961683614d0310cfc6fbcb517196967b1fbc8088f",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 235
+    },
+    {
+      "receipt": "20230822000424",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230822000424.json",
+      "history_sha256": "bda326542d21f0a2807d921313327668f36baafc84cc724abf7928b6039f644e",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 233
+    },
+    {
+      "receipt": "20230728000416",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230728000416.json",
+      "history_sha256": "bbd562b04aa866ee754db0fc02ef0f0be8000ffaf86f9f959dbcb6d1d9ad7e15",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 234
+    },
+    {
+      "receipt": "20230927000587",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230927000587.json",
+      "history_sha256": "f2b95f967367512039a6adfa334b68bd3ee8c0eefe7fb3a91c39d6beacf2c11b",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 187
+    },
+    {
+      "receipt": "20231222000680",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20231222000680.json",
+      "history_sha256": "45e6a40b91da311a469554b771b0e6fa74fae1e988ad1caabb906244a8b0af03",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 256
+    },
+    {
+      "receipt": "20240621000553",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20240621000553.json",
+      "history_sha256": "2ff472ad11dca5ab02afdd917396204ad3efc15bd1ef2f6029325931548b452c",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 252
+    },
+    {
+      "receipt": "20240710000686",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20240710000686.json",
+      "history_sha256": "4d1438b995a6ea6bcd5cca436f7bb2daa3b1ff513f77e262b0ed3f2a9bc82391",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 190
+    },
+    {
+      "receipt": "20241010000504",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20241010000504.json",
+      "history_sha256": "f5b38787e06738da5716af50e0f3e186ce9f6190a45a2ecb58d4903e5b3303c2",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 180
+    },
+    {
+      "receipt": "20241018000518",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20241018000518.json",
+      "history_sha256": "eb61abfa86b75e444e700290e641e1df899d450cd847273b1acaf3b473ef556f",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 156
+    },
+    {
+      "receipt": "20241118000273",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20241118000273.json",
+      "history_sha256": "7bce0b2339873f1b503774c74a32c96b4d871ab9ec5c9d763b6d1dce3cd10988",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 152
+    },
+    {
+      "receipt": "20241129001313",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20241129001313.json",
+      "history_sha256": "09ec846e7c454c4ec79dc46fe026b03a54bb1fefcd602375571b10ab3e2d7c9e",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 207
+    },
+    {
+      "receipt": "20241205000577",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20241205000577.json",
+      "history_sha256": "0e67fea1928394744603b10397cdff206b4d90b0835486d839186038df6452d1",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 246
+    },
+    {
+      "receipt": "20241213000457",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20241213000457.json",
+      "history_sha256": "1398b329bd128ac77b7138ac11700f7dd28beefb36bb81265e4cf4d2d56fabaa",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 220
+    },
+    {
+      "receipt": "20230823000258",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230823000258.json",
+      "history_sha256": "077baeb3492f120b95fe1f9647cf1ea7628f8099711fb6383b94dcad1a0b758c",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 317
+    },
+    {
+      "receipt": "20240305000170",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2024H1/corporate_history/20240305000170.json",
+      "history_sha256": "6ada09c37e73217659bb3acf45c761dd861b62d4dad0451839b969e082bc15c5",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 297
+    },
+    {
+      "receipt": "20250107000412",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20250107000412.json",
+      "history_sha256": "f157d4eea7bc5a50fd481e8519ed0f02c163b012c68b295594a5fe276556795f",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 154
+    },
+    {
+      "receipt": "20250908000140",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2025H2/corporate_history/20250908000140.json",
+      "history_sha256": "4eb280bbb252b7079d718f049ea6475e6bb3ca85a2c8cf62463407f52679bb92",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 239
+    },
+    {
+      "receipt": "20230906000217",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230906000217.json",
+      "history_sha256": "109a49c9b4b32584ed38220caeadcef6e21c2c41fe3d7c16108ae72bddf5673b",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 219
+    },
+    {
+      "receipt": "20240520000263",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2024H1/corporate_history/20240520000263.json",
+      "history_sha256": "c285af9d16b1f367844b7aa070c06919d094c1efc4cb81f9d50151e7fef51132",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 279
+    },
+    {
+      "receipt": "20250120000464",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20250120000464.json",
+      "history_sha256": "01b43ac1fae401347ff685623080c025f63fdb4d43226e861518922b84e900d5",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 141
+    },
+    {
+      "receipt": "20250908000329",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2025H2/corporate_history/20250908000329.json",
+      "history_sha256": "9facdd462abefb8e9bb60aafe948d629bcd35ed11800f0f4d4d70c62163927c3",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 225
+    },
+    {
+      "receipt": "20230911000405",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230911000405.json",
+      "history_sha256": "15a4a3563f1b49aba3428dbc6c47a287b01452600e0d0f198fa77fb7d5d70bf2",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 182
+    },
+    {
+      "receipt": "20240621000344",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2024H1/corporate_history/20240621000344.json",
+      "history_sha256": "c0e4ec68525163b8827d36f90d0375ad3e6e64882364f834a471fa299039662b",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 250
+    },
+    {
+      "receipt": "20250207000496",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20250207000496.json",
+      "history_sha256": "b780e0dcffd35b61f232a74cdce8f0536b2006009f1a266eca03370c64faef15",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 152
+    },
+    {
+      "receipt": "20250930000546",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2025H2/corporate_history/20250930000546.json",
+      "history_sha256": "da04a2d9d63c4ec2d20740ecc2ee02684d7945fceff9e387ae30ae04f01d0e35",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 258
+    },
+    {
+      "receipt": "20230912000404",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230912000404.json",
+      "history_sha256": "2afac292b5e322329d0dc0b371beb1df05a7656d828bdd5e25f6321b4d101cce",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 180
+    },
+    {
+      "receipt": "20250320001180",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20250320001180.json",
+      "history_sha256": "a3b63f5ea01627d8d0e761e4826b44a4bdb3530bf898f1cd28b1c0ba8a5b0684",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 188
+    },
+    {
+      "receipt": "20251001000684",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2025H2/corporate_history/20251001000684.json",
+      "history_sha256": "20fa2312a757eb507f0b1ce3ce5ff38b046b19da53bf152dce9ad5495cbe4af7",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 230
+    },
+    {
+      "receipt": "20230915000263",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230915000263.json",
+      "history_sha256": "333894edc96d648ea285094f96509e37fa8df8efd625607ee809ad8e5e74f78c",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 352
+    },
+    {
+      "receipt": "20250324000841",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20250324000841.json",
+      "history_sha256": "3d921054192c1a61e0c95dae0a592587cef14d29fa9276373fe13641e4de2a0a",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 176
+    },
+    {
+      "receipt": "20251103000252",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2025H2/corporate_history/20251103000252.json",
+      "history_sha256": "fbcaa49b6105389de58259570e61c3efd952781d868ac993f9e757bee3c77dce",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 227
+    },
+    {
+      "receipt": "20230915000281",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230915000281.json",
+      "history_sha256": "2dbc81be53e141c01727bcae63edfd54de7d7eecdd7fda5e3babd69cb0b45985",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 221
+    },
+    {
+      "receipt": "20250325000608",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20250325000608.json",
+      "history_sha256": "5338ff286f7e22567ff8ad9fa3edf7addec957cf3dbe69b79ea4e907d194b0fa",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 168
+    },
+    {
+      "receipt": "20251223000517",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "2025H2/corporate_history/20251223000517.json",
+      "history_sha256": "7ff05c9837e85819d72ea941b7715d9ad03ddaab5d29aa229a4be51b0d630c46",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 279
+    },
+    {
+      "receipt": "20230918000204",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20230918000204.json",
+      "history_sha256": "4c536cac89f15397a1bfda02ce91021dcecf05e8a63e11ffe10b514460819ebc",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 188
+    },
+    {
+      "receipt": "20250328002012",
+      "sha256_reverified": true,
+      "pages_reverified": true,
+      "history_file": "history_review/corporate_history/20250328002012.json",
+      "history_sha256": "4e90ad78a25003f72c2e2ada4b544d817849972e2cb78a0d175e9e0a411b1972",
+      "pypdf_issuer_quote_exact": true,
+      "pypdf_per_page": 190
+    }
+  ],
+  "scope": "Enrollment and archiving only. No outcome measurements."
+}

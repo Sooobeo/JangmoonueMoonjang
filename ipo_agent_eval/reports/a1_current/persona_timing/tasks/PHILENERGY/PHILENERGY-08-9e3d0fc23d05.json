@@ -1,0 +1,52 @@
+{
+  "case": "PHILENERGY",
+  "item_id": "PHILENERGY-08",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:07:09.373+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "9e3d0fc23d05b22088b972eed519760c09558976cd8ca48f19170a8198f0a702",
+  "source_pdf_sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    184,
+    185
+  ],
+  "packet_prep_seconds": 3.569101,
+  "evidence_dir": "reports/a1_current/proxy/PHILENERGY/PERSONA_9e3d0fc23d05b22088/e711c065bc7e5723",
+  "review_call_wrapper_seconds": 25.214182,
+  "quote_and_boundary_verification_seconds": 0.043864,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "필에너지는 전환사채 전환권 평가손실이 비현금 비용이고 상장 후 보통주 전환 시 해당 전환권이 자본으로 재분류된다는 이유로 2022년 지배주주 당기순이익에 평가손실을 가산했으며, 2022년·2023년 1분기에는 전환권을 별도 평가하지 않아 각 분기 지배주주 당기순이익을 그대로 적용했다고 공시했다.",
+    "checked_basis_or_arithmetic": "백만원 단위로 2022년 지배주주 당기순이익 3,723 + 전환권 평가손실 8,134 = 적용 순이익 11,857이다. 원 단위 표에서 2022년 연간 조정 순이익 11,857,478,410원 − 2022년 1분기 순이익 1,771,770,012원 + 2023년 1분기 순이익 5,659,754,248원 = 2023년 1분기 말 기준 최근 12개월 적용 순이익 15,745,462,646원이다. 이를 적용 주식수 10,611,793주로 나누면 원 단위 반올림 시 1,484원이며, 표시된 주당순이익과 PER을 곱하면 1,484원 × 27.9배 = 41,403.6원으로 공시 주당 평가가액 41,404원과 일치한다.",
+    "outcome": "쟁점 확인",
+    "finding": "연간 전환권 평가손실 8,134백만원을 가산한 금액이 최근 12개월 적용 순이익에 반영된 사실과 산식은 확인된다. 다만 두 1분기 말에 별도 평가를 수행하지 않았으므로 실제 평가손익이 0원이었는지는 확인할 수 없다. 비현금성에 관한 설명과 전환 시 재분류된다는 조건만으로는 연간 손실 가산이 최근 12개월 이익을 비교기업의 PER 분모와 같은 기준으로 산정한 것인지 판단하기 어렵다.",
+    "follow_up": "2022년 말 전환권 평가보고서와 관련 분개로 평가손실 원 단위 금액 및 법인세 효과를 대사하고, 두 1분기 말의 평가 생략 근거와 평가손익 산출자료를 확인한다. 전환사채 계약서의 보통주 전환 조건과 비교기업별 PER 분모의 전환권 평가손익 조정 여부도 대조한다.",
+    "citations": [
+      {
+        "physical_page": 185,
+        "locator": "「㈜필에너지 PER에 의한 평가가치」 주1), 2022년 연간 조정 설명",
+        "quote": "2022년 지배주주 당기순이익 3,723백만원에 전환사채 전환권에 대한 파생상품평가손실인 8,134백만원을 가산하여"
+      },
+      {
+        "physical_page": 185,
+        "locator": "같은 표 주1), 최근 12개월 적용 당기순이익 산출 행",
+        "quote": "적용 당기순이익    11,857,478,410    1,771,770,012     5,659,754,248     15,745,462,646"
+      },
+      {
+        "physical_page": 185,
+        "locator": "같은 표 주1), 두 1분기 적용 순이익 설명",
+        "quote": "2022년 1분기 및 2023년 1분기의 경우, 전환사채 전환권에 대한 별도 평가를 수행하지 않아"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:07:38.201+09:00",
+  "original_review_service_seconds": 25.17,
+  "actual_end_to_end_seconds": 28.827968,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

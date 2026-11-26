@@ -1,0 +1,1768 @@
+{
+  "window": "2025-07-01 through 2025-12-31",
+  "source_only": true,
+  "model_api_calls": 0,
+  "total_candidates": 61,
+  "counts": {
+    "not_domestic_IPO": 38,
+    "ipo_forecast_PER": 13,
+    "ipo_other_multiple": 4,
+    "ipo_historical_PER": 6
+  },
+  "new_true_positives": [],
+  "frozen_positives_not_reproduced": [],
+  "prior_note_missing": 8,
+  "three_reviews": [
+    "Compared complete locator/method receipt sets and all PDF SHA-256 values. Identified the purpose from the original filing offering table at a physical page.",
+    "Read the issuer's applied valuation formula from the original PDF. Earlier-note misses were classified from the offering table. Distinguish issuer results from peer-only figures or reference calculations.",
+    "Compared independently classified positives to the frozen set after the screen; independently checked the original listing and dated period quotes, issuer price table, net income and PER with pypdf."
+  ],
+  "rows": [
+    {
+      "receipt": "20250716000278",
+      "issuer": "코난테크놀로지",
+      "corp_code": "00601988",
+      "pdf_sha256": "f6bbf5e2838394137cf24e574299b23577d98b41e8525a3efd24f7c2fb4ea64f",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250716000278&dcm_no=10725099",
+      "date_kst": "2025-07-16",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250716000278",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "보통주 1,000,000 500 29,050 29,050,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250801001053",
+      "issuer": "티앤알바이오팹",
+      "corp_code": "01109937",
+      "pdf_sha256": "b0c88b4b10bb5ef56d1389f9c71ade9d477fa39f15c6968ec245f17f3862fc8c",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250801001053&dcm_no=10747745",
+      "date_kst": "2025-08-01",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250801001053",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 26,
+        "physical_page": 26,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 26,
+        "physical_page": 26,
+        "quote": "보통주 15,904,582 500 2,515 40,000,023,730 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250812000753",
+      "issuer": "에스투더블유",
+      "corp_code": "01803635",
+      "pdf_sha256": "d3157aaba5b5d24f71be1a563cf28467a61f1a6637bcb52b40d72b7447e289fa",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250812000753&dcm_no=10757913",
+      "date_kst": "2025-08-12",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250812000753",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 33,
+        "physical_page": 33,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 195,
+        "physical_page": 195,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) × 유사기업 PER(②) ÷ 주식수(③)× {1-할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 195,
+        "physical_page": 195,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 195,
+        "physical_page": 195,
+        "quote": "평가모형 PER - 다. 희망공모가액의 산출방법"
+      }
+    },
+    {
+      "receipt": "20250818000170",
+      "issuer": "엑셀세라퓨틱스",
+      "corp_code": "01492217",
+      "pdf_sha256": "b26e8d82720d73a517917d8c32733d2d62f0411b649c8a6834d3716e442d1246",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250818000170&dcm_no=10775743",
+      "date_kst": "2025-08-18",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250818000170",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 24,
+        "physical_page": 24,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 24,
+        "physical_page": 24,
+        "quote": "보통주 6,355,932 500 2,360 14,999,999,520 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250818000195",
+      "issuer": "코아스템켐온",
+      "corp_code": "00989664",
+      "pdf_sha256": "f9da72f01a748879071f1b550d2d80bc5243828f8a25b656f05b651fa248a812",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250818000195&dcm_no=10775911",
+      "date_kst": "2025-08-18",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250818000195",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "보통주 20,000,000 500 1,890 37,800,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250818000241",
+      "issuer": "샤페론",
+      "corp_code": "01387164",
+      "pdf_sha256": "6be9897dc26a99c880a335abecc5d7700586cc25e6c537200547a48a3863c377",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250818000241&dcm_no=10776074",
+      "date_kst": "2025-08-18",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250818000241",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "보통주 16,100,000 500 1,866 30,042,600,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250818000250",
+      "issuer": "이노스페이스",
+      "corp_code": "01700587",
+      "pdf_sha256": "a7e8b53e536f2cb36b025c6143a1bc9b7b4c6420ca5ad039ad5f8c374770698a",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250818000250&dcm_no=10776108",
+      "date_kst": "2025-08-18",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250818000250",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 36,
+        "physical_page": 36,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 36,
+        "physical_page": 36,
+        "quote": "보통주 4,300,000 1,000 10,950 47,085,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250821000397",
+      "issuer": "명인제약",
+      "corp_code": "00179489",
+      "pdf_sha256": "20dc97350d87b86d79532851423b72f83d50a2fa3eaa2cae275b726a706cce1e",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250821000397&dcm_no=10779777",
+      "date_kst": "2025-08-21",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250821000397",
+      "family_earliest": true,
+      "preexisting_method_note_count": 5,
+      "ipo_status_anchor": {
+        "page": 33,
+        "physical_page": 33,
+        "quote": "인수 예 유가증권시장 신규상장"
+      },
+      "classification": "ipo_other_multiple",
+      "issuer_valuation_anchor": {
+        "page": 192,
+        "physical_page": 192,
+        "quote": "적용산식 {2025년 2분기 기준 최근 4개분기(LTM) EBITDA(①) × 비교기업 평균 EV/EBITDA(②) - 순차입금(③)} ÷ 주식수(④) × {1-할인율(⑤)}"
+      },
+      "period_or_method": "EV/EBITDA",
+      "applied_financials_anchor": {
+        "page": 192,
+        "physical_page": 192,
+        "quote": "적용 재무수치 실적치 (2025년 반기 기준 과거 12개월(LTM) EBITDA)"
+      },
+      "valuation_model_anchor": {
+        "page": 192,
+        "physical_page": 192,
+        "quote": "평가모형 EV/EBITDA"
+      }
+    },
+    {
+      "receipt": "20250821000639",
+      "issuer": "노타",
+      "corp_code": "01810477",
+      "pdf_sha256": "9f09b7085cbb744d8df1d37a9daafe3a65ba9f6b55e064876fa1d14e6b9b5de5",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250821000639&dcm_no=10780746",
+      "date_kst": "2025-08-21",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250821000639",
+      "family_earliest": true,
+      "preexisting_method_note_count": 6,
+      "ipo_status_anchor": {
+        "page": 36,
+        "physical_page": 36,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 220,
+        "physical_page": 220,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 220,
+        "physical_page": 220,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 220,
+        "physical_page": 220,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20250822000238",
+      "issuer": "큐리오시스",
+      "corp_code": "01786958",
+      "pdf_sha256": "da1de6585ffdcce6bcf1c23272da77dba87e7e980b908dbedee49c5206c5f2b5",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250822000238&dcm_no=10781807",
+      "date_kst": "2025-08-22",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250822000238",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 29,
+        "physical_page": 29,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 185,
+        "physical_page": 185,
+        "quote": "적용산식 추정당기순이익 현재가치(①) × 비교대상회사 PER(②) ÷ 주식수(③) × {1-할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 185,
+        "physical_page": 185,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 185,
+        "physical_page": 185,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20250822000389",
+      "issuer": "LK삼양",
+      "corp_code": "00992543",
+      "pdf_sha256": "35cebc5e98cb091792ae7e7321606d7b19d5ada25cce3bc4d6016c4bbf0d6fe3",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250822000389&dcm_no=10782436",
+      "date_kst": "2025-08-22",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250822000389",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "주주배정후 실 보통주 19,720,000 100 1,217 23,999,240,000 권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250828001280",
+      "issuer": "로보티즈",
+      "corp_code": "00946030",
+      "pdf_sha256": "35c83194debff035da81ef8a9b7ce4a397fe2571885951e99805e03c6ee42fdf",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250828001280&dcm_no=10790329",
+      "date_kst": "2025-08-28",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250828001280",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "보통주 1,349,528 500 74,100 100,000,024,800 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250829002128",
+      "issuer": "알에스오토메이션",
+      "corp_code": "00858124",
+      "pdf_sha256": "d404f70101a8fee3ef3f4ae5475a5752b655c153508685f96e6720743bae0338",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250829002128&dcm_no=10794319",
+      "date_kst": "2025-08-29",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250829002128",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "보통주 3,536,700 500 11,310 40,000,077,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250829002133",
+      "issuer": "에이비온",
+      "corp_code": "00977377",
+      "pdf_sha256": "f5df47770b1c84edb9c4668fd95fcebfc9b0a2ca171f1fab499339fe4975c16a",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250829002133&dcm_no=10794343",
+      "date_kst": "2025-08-29",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250829002133",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 20,
+        "physical_page": 20,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 20,
+        "physical_page": 20,
+        "quote": "보통주 20,600,000 500 3,850 79,310,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250903000304",
+      "issuer": "넥스트칩",
+      "corp_code": "01515864",
+      "pdf_sha256": "a8281a8ca212360d56cc299086adba62ab67333f53593255c0971eeadf075f78",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250903000304&dcm_no=10798630",
+      "date_kst": "2025-09-03",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250903000304",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 20,
+        "physical_page": 20,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 20,
+        "physical_page": 20,
+        "quote": "보통주 12,700,000 500 1,911 24,269,700,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250905000488",
+      "issuer": "포바이포",
+      "corp_code": "01513699",
+      "pdf_sha256": "0c47d4356e9132da096dc8484a366bc69d52908f50b4c5127de39c25c9bc6937",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250905000488&dcm_no=10802029",
+      "date_kst": "2025-09-05",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250905000488",
+      "family_earliest": true,
+      "preexisting_method_note_count": 4,
+      "ipo_status_anchor": {
+        "page": 15,
+        "physical_page": 15,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 15,
+        "physical_page": 15,
+        "quote": "보통주 3,100,000 500 9,630 29,853,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250908000140",
+      "issuer": "이노테크",
+      "corp_code": "01745173",
+      "pdf_sha256": "7acf86e8623d86af38d21314f46dffce82083dd5996471853ce425d309ca07d2",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250908000140&dcm_no=10802756",
+      "date_kst": "2025-09-08",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250908000140",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 30,
+        "physical_page": 30,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_historical_PER",
+      "issuer_valuation_anchor": {
+        "page": 217,
+        "physical_page": 217,
+        "quote": "적용산식 2025년도 상반기 기준 과거 12개월(LTM) 당기순이익(①) × 비교회사 PER(②) ÷ 주식수(③) × {1-할인율(④)}"
+      },
+      "period_or_method": "2025년 반기 기준 LTM 당기순이익",
+      "applied_financials_anchor": {
+        "page": 217,
+        "physical_page": 217,
+        "quote": "적용 재무수치 실적치 (2025년도 상반기 기준 과거 12개월(LTM) 당기순이익 )"
+      },
+      "valuation_model_anchor": {
+        "page": 217,
+        "physical_page": 217,
+        "quote": "평가모형 PER"
+      },
+      "price_table_anchors": [
+        {
+          "page": 239,
+          "physical_page": 239,
+          "quote": "[PER에 의한 ㈜이노테크의 평가가치]"
+        },
+        {
+          "page": 239,
+          "physical_page": 239,
+          "quote": "적용 당기순이익 (A) 8,571,572 천원 주1)"
+        },
+        {
+          "page": 239,
+          "physical_page": 239,
+          "quote": "적용 PER (D) 19.09 배"
+        }
+      ],
+      "numeric_price_table_physical_page": 239,
+      "supplied_price_table_physical_page": 239,
+      "independent_pdf_decoder_price_table_check": true
+    },
+    {
+      "receipt": "20250908000326",
+      "issuer": "딥노이드",
+      "corp_code": "01344831",
+      "pdf_sha256": "801f26498e718d62ef996046fa46fe547e397d544690881296dbe46c0d8f00bf",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250908000326&dcm_no=10803356",
+      "date_kst": "2025-09-08",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250908000326",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 17,
+        "physical_page": 17,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 17,
+        "physical_page": 17,
+        "quote": "보통주 6,835,444 500 3,950 27,000,003,800 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250908000329",
+      "issuer": "세나테크놀로지",
+      "corp_code": "01010615",
+      "pdf_sha256": "d12278a43d21bdb27dca0de5772222057c50efb573db35864c058108812f1569",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250908000329&dcm_no=10803396",
+      "date_kst": "2025-09-08",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250908000329",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 32,
+        "physical_page": 32,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_historical_PER",
+      "issuer_valuation_anchor": {
+        "page": 201,
+        "physical_page": 201,
+        "quote": "적용산식 2025년 반기 LTM 기준 매출 컷오프 효과를 반영한 당기순이익(①) X 유사기업 PER(②)÷주식수(③) X {1-할인율(④)}"
+      },
+      "period_or_method": "2025년 반기 LTM, 매출 컷오프 조정 당기순이익",
+      "applied_financials_anchor": {
+        "page": 201,
+        "physical_page": 201,
+        "quote": "적용 재무수치 실적치"
+      },
+      "valuation_model_anchor": {
+        "page": 201,
+        "physical_page": 201,
+        "quote": "평가모형 PER"
+      },
+      "price_table_anchors": [
+        {
+          "page": 225,
+          "physical_page": 225,
+          "quote": "[PER Multiple에 의한 ㈜세나테크놀로지의 평가가치]"
+        },
+        {
+          "page": 225,
+          "physical_page": 225,
+          "quote": "적용 당기순이익 (A) 20,549 백만원 주1)"
+        },
+        {
+          "page": 225,
+          "physical_page": 225,
+          "quote": "적용 PER (B) 26.76배 -"
+        }
+      ],
+      "numeric_price_table_physical_page": 225,
+      "supplied_price_table_physical_page": 225,
+      "independent_pdf_decoder_price_table_check": true
+    },
+    {
+      "receipt": "20250912000512",
+      "issuer": "신테카바이오",
+      "corp_code": "01344336",
+      "pdf_sha256": "a63ce43c2b3bdd69fed93ca854b06de4ecfd2db1b3989020b47b7d18d52ce38c",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250912000512&dcm_no=10810192",
+      "date_kst": "2025-09-12",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250912000512",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "보통주 9,000,000 500 3,585 32,265,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250917000281",
+      "issuer": "아이진",
+      "corp_code": "00945457",
+      "pdf_sha256": "9c48afb5a0388e4db326a0018ec513464378931f6fd86a51fe828d6e235bde48",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250917000281&dcm_no=10813882",
+      "date_kst": "2025-09-17",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250917000281",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 15,
+        "physical_page": 15,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 15,
+        "physical_page": 15,
+        "quote": "보통주 16,200,000,000 500 1,980 32,076,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250917000312",
+      "issuer": "그린광학",
+      "corp_code": "00677486",
+      "pdf_sha256": "a1323212b18995d0604b53a465e8f223766466b71b882460729af3a4f89c0814",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250917000312&dcm_no=10814007",
+      "date_kst": "2025-09-17",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250917000312",
+      "family_earliest": true,
+      "preexisting_method_note_count": 4,
+      "ipo_status_anchor": {
+        "page": 35,
+        "physical_page": 35,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 203,
+        "physical_page": 203,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 203,
+        "physical_page": 203,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 203,
+        "physical_page": 203,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20250917000387",
+      "issuer": "KBI동양철관",
+      "corp_code": "00117629",
+      "pdf_sha256": "902e74d519c9c99d7d6d5d19c1d5a171bcc6c112c0219d866868cc6dfabe3ea7",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250917000387&dcm_no=10814379",
+      "date_kst": "2025-09-17",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250917000387",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 18,
+        "physical_page": 18,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 18,
+        "physical_page": 18,
+        "quote": "보통주 23,866,000 1,000 2,095 49,999,270,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250918000341",
+      "issuer": "레이저쎌",
+      "corp_code": "01573381",
+      "pdf_sha256": "f96ea5ed9154fd1e6404e1b09b919a16f119652a2a108b716b9b3ccf1be02922",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250918000341&dcm_no=10815533",
+      "date_kst": "2025-09-18",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250918000341",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "보통주 4,300,000 500 2,155 9,266,500,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250922000191",
+      "issuer": "비츠로넥스텍",
+      "corp_code": "01194607",
+      "pdf_sha256": "68cf350bd837c2a457eb2f9a4ee1cb973e81b8ec689cd768c3e5a4e4d1a4cde2",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250922000191&dcm_no=10818379",
+      "date_kst": "2025-09-22",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250922000191",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 37,
+        "physical_page": 37,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 264,
+        "physical_page": 264,
+        "quote": "적용산식 [추정 당기순이익 현재가치(①) x 유사기업 PER(②)] ÷ 적용 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 264,
+        "physical_page": 264,
+        "quote": "적용 재무수치 추정치 (2027년 온기 기준 당기순이익)"
+      },
+      "valuation_model_anchor": {
+        "page": 264,
+        "physical_page": 264,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20250922000293",
+      "issuer": "더핑크퐁컴퍼니",
+      "corp_code": "01138364",
+      "pdf_sha256": "99f9e3d81c9a306e16db0f666aea03f09e39e287d1f869ea17547a7c8d6df1d3",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250922000293&dcm_no=10818869",
+      "date_kst": "2025-09-22",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250922000293",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 30,
+        "physical_page": 30,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_other_multiple",
+      "issuer_valuation_anchor": {
+        "page": 227,
+        "physical_page": 227,
+        "quote": "[2025년 반기 LTM 기준 EBITDA(①) x 유사기업 EV/EBITDA(②) - 순차입금(③)"
+      },
+      "period_or_method": "EV/EBITDA",
+      "applied_financials_anchor": {
+        "page": 227,
+        "physical_page": 227,
+        "quote": "적용 재무수치 실적치 (2025년 반기 LTM 기준 EBITDA)"
+      },
+      "valuation_model_anchor": {
+        "page": 227,
+        "physical_page": 227,
+        "quote": "평가모형 EV/EBITDA"
+      }
+    },
+    {
+      "receipt": "20250923000366",
+      "issuer": "한온시스템",
+      "corp_code": "00161125",
+      "pdf_sha256": "322b9014995b5ade58306ba4f92bb3a577ca00c808cb82c1f6e8fea31f89449e",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250923000366&dcm_no=10819827",
+      "date_kst": "2025-09-23",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250923000366",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "보통주 347,500,000 100 2,590 900,025,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250924000456",
+      "issuer": "노을",
+      "corp_code": "01494118",
+      "pdf_sha256": "c0bd9483abb1764e4c795b1eaba5ee757ef6d142a82aaf82b6d45db6ce0ff9cf",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250924000456&dcm_no=10821951",
+      "date_kst": "2025-09-24",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250924000456",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "보통주 14,344,263 500 2,440 35,000,001,720 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20250926000717",
+      "issuer": "나라스페이스테크놀로지",
+      "corp_code": "01787355",
+      "pdf_sha256": "d65a8e4d656eb73d867689223d9747e861ea5175e8d82ff182b006343e86756e",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250926000717&dcm_no=10826077",
+      "date_kst": "2025-09-26",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250926000717",
+      "family_earliest": true,
+      "preexisting_method_note_count": 6,
+      "ipo_status_anchor": {
+        "page": 29,
+        "physical_page": 29,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 241,
+        "physical_page": 241,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 241,
+        "physical_page": 241,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 241,
+        "physical_page": 241,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20250929000504",
+      "issuer": "에임드바이오",
+      "corp_code": "01781999",
+      "pdf_sha256": "449e77d9295f71b515a8ca891f2e64600709688a6eca82801cd9f47e51db708a",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250929000504&dcm_no=10827936",
+      "date_kst": "2025-09-29",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250929000504",
+      "family_earliest": true,
+      "preexisting_method_note_count": 4,
+      "ipo_status_anchor": {
+        "page": 31,
+        "physical_page": 31,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 245,
+        "physical_page": 245,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 245,
+        "physical_page": 245,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 245,
+        "physical_page": 245,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20250930000546",
+      "issuer": "아로마티카",
+      "corp_code": "01381805",
+      "pdf_sha256": "315c61f145d739c16cdfa966d5e876954b62e165b6facc3f22da0e839757519a",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250930000546&dcm_no=10829466",
+      "date_kst": "2025-09-30",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250930000546",
+      "family_earliest": true,
+      "preexisting_method_note_count": 4,
+      "ipo_status_anchor": {
+        "page": 35,
+        "physical_page": 35,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_historical_PER",
+      "issuer_valuation_anchor": {
+        "page": 239,
+        "physical_page": 239,
+        "quote": "적용산식 2025년 반기 LTM 기준 당기순이익 (①) x 유사기업의 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2025년 반기 LTM 당기순이익",
+      "applied_financials_anchor": {
+        "page": 239,
+        "physical_page": 239,
+        "quote": "적용 재무수치 실적치 (2025년 반기 LTM 기준 당기순이익)"
+      },
+      "valuation_model_anchor": {
+        "page": 239,
+        "physical_page": 239,
+        "quote": "평가모형 PER"
+      },
+      "price_table_anchors": [
+        {
+          "page": 258,
+          "physical_page": 258,
+          "quote": "[PER에 의한 ㈜아로마티카의 평가가치]"
+        },
+        {
+          "page": 258,
+          "physical_page": 258,
+          "quote": "적용 당기순이익 (A) 4,924,595,951원 주1)"
+        },
+        {
+          "page": 258,
+          "physical_page": 258,
+          "quote": "적용 PER (D) 25.98배 -"
+        }
+      ],
+      "numeric_price_table_physical_page": 258,
+      "supplied_price_table_physical_page": 258,
+      "independent_pdf_decoder_price_table_check": true
+    },
+    {
+      "receipt": "20251001000684",
+      "issuer": "씨엠티엑스",
+      "corp_code": "01529982",
+      "pdf_sha256": "b0faffa27fe730904c8b406da3c667a4637457c1c985c4c312e26f9f96e79eac",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251001000684&dcm_no=10833117",
+      "date_kst": "2025-10-01",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001000684",
+      "family_earliest": true,
+      "preexisting_method_note_count": 6,
+      "ipo_status_anchor": {
+        "page": 33,
+        "physical_page": 33,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_historical_PER",
+      "issuer_valuation_anchor": {
+        "page": 209,
+        "physical_page": 209,
+        "quote": "적용산식 2025년 반기 연환산 조정 당기순이익(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2025년 반기 연환산 조정 당기순이익",
+      "price_table_anchors": [
+        {
+          "page": 230,
+          "physical_page": 230,
+          "quote": "[PER에 의한 ㈜씨엠티엑스의 평가가치]"
+        },
+        {
+          "page": 230,
+          "physical_page": 230,
+          "quote": "적용 당기순이익 45,655 백만원 D=Cx2 주3"
+        },
+        {
+          "page": 230,
+          "physical_page": 230,
+          "quote": "적용 PER 19.2 배 G"
+        }
+      ],
+      "numeric_price_table_physical_page": 230,
+      "supplied_price_table_physical_page": 230,
+      "initially_supplied_price_table_physical_page": 231,
+      "price_table_page_note": "숫자 표는 물리 230쪽이고 231쪽에는 반기 조정순이익을 2배 연환산한 산식 주석이 이어진다.",
+      "independent_pdf_decoder_price_table_check": true
+    },
+    {
+      "receipt": "20251002000396",
+      "issuer": "쿼드메디슨",
+      "corp_code": "01671285",
+      "pdf_sha256": "97d36c4395bebda67946aaec2d5cf4737ecbb55a785233a91f075828c59752b2",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251002000396&dcm_no=10834652",
+      "date_kst": "2025-10-02",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251002000396",
+      "family_earliest": true,
+      "preexisting_method_note_count": 4,
+      "ipo_status_anchor": {
+        "page": 28,
+        "physical_page": 28,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 196,
+        "physical_page": 196,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 196,
+        "physical_page": 196,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 196,
+        "physical_page": 196,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20251013000342",
+      "issuer": "비보존 제약",
+      "corp_code": "00533191",
+      "pdf_sha256": "7a39240b74e653b1f2d29bd672573e610409598e985b3affe50254cfaae8a6f2",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251013000342&dcm_no=10837868",
+      "date_kst": "2025-10-13",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251013000342",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "보통주 10,615,000 2,500 4,710 49,996,650,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251013000348",
+      "issuer": "성원에너텍",
+      "corp_code": "01368637",
+      "pdf_sha256": "7b7e6a6a17b1ad143832f278880231cf1429d5dcbedd897a373e6f6fc185b427",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251013000348&dcm_no=10837916",
+      "date_kst": "2025-10-13",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251013000348",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 22,
+        "physical_page": 22,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 22,
+        "physical_page": 22,
+        "quote": "보통주 18,800,000 500 1,039 19,533,200,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251014000264",
+      "issuer": "이지스",
+      "corp_code": "01211889",
+      "pdf_sha256": "a571b82c16fb5f0d71408a6acf847328bc99b0bf69615f053e4cc740a923c7e1",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251014000264&dcm_no=10839019",
+      "date_kst": "2025-10-14",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251014000264",
+      "family_earliest": true,
+      "preexisting_method_note_count": 5,
+      "ipo_status_anchor": {
+        "page": 32,
+        "physical_page": 32,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 206,
+        "physical_page": 206,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 206,
+        "physical_page": 206,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 206,
+        "physical_page": 206,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20251015000268",
+      "issuer": "페스카로",
+      "corp_code": "01817920",
+      "pdf_sha256": "df9251e5c77ea3052758c8f49c936011cd6355a6bd09819697a006c76d22b03e",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251015000268&dcm_no=10840608",
+      "date_kst": "2025-10-15",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251015000268",
+      "family_earliest": true,
+      "preexisting_method_note_count": 4,
+      "ipo_status_anchor": {
+        "page": 31,
+        "physical_page": 31,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 256,
+        "physical_page": 256,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 256,
+        "physical_page": 256,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 256,
+        "physical_page": 256,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20251015000386",
+      "issuer": "티엠씨",
+      "corp_code": "00949161",
+      "pdf_sha256": "b29936a26152109ba25c211d10570ccff7a86cfa0a932672dea0242e80b192c7",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251015000386&dcm_no=10841139",
+      "date_kst": "2025-10-15",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251015000386",
+      "family_earliest": true,
+      "preexisting_method_note_count": 5,
+      "ipo_status_anchor": {
+        "page": 32,
+        "physical_page": 32,
+        "quote": "인수 예 유가증권시장 신규상장"
+      },
+      "classification": "ipo_other_multiple",
+      "issuer_valuation_anchor": {
+        "page": 196,
+        "physical_page": 196,
+        "quote": "적용산식 2024년 온기 기준 및 2025년 반기 기준 산정 평균 기업가치[{(① x ③) + (② x ④)} / 2] - 순차입금(⑥) + 신주모집유입자금(⑦) ÷ 주식수(⑧) x {1 - 할인율(⑨)}"
+      },
+      "period_or_method": "EV/EBITDA",
+      "applied_financials_anchor": {
+        "page": 196,
+        "physical_page": 196,
+        "quote": "적용 재무수치 2024년 온기 EBITDA와 2025년 반기 연환산 EBITDA의 평균"
+      },
+      "valuation_model_anchor": {
+        "page": 196,
+        "physical_page": 196,
+        "quote": "평가모형 EV/EBITDA"
+      }
+    },
+    {
+      "receipt": "20251015000416",
+      "issuer": "시지트로닉스",
+      "corp_code": "01284751",
+      "pdf_sha256": "44f7caceb4def611b3f4b2888ef6bddab12d6ddb894f717e334913e30583d3e7",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251015000416&dcm_no=10841336",
+      "date_kst": "2025-10-15",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251015000416",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 17,
+        "physical_page": 17,
+        "quote": "주선 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 17,
+        "physical_page": 17,
+        "quote": "보통주 1,800,000 500 4,435 7,983,000,000 주주배정"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251017000210",
+      "issuer": "세미파이브",
+      "corp_code": "01627363",
+      "pdf_sha256": "97b10d2667f05d031a68fa11e9807ea87733ecf2b2db2b092e69e064b429f867",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251017000210&dcm_no=10843368",
+      "date_kst": "2025-10-17",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251017000210",
+      "family_earliest": true,
+      "preexisting_method_note_count": 4,
+      "ipo_status_anchor": {
+        "page": 34,
+        "physical_page": 34,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 375,
+        "physical_page": 375,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 375,
+        "physical_page": 375,
+        "quote": "적용재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 375,
+        "physical_page": 375,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20251017000558",
+      "issuer": "파워큐브세미",
+      "corp_code": "01776410",
+      "pdf_sha256": "5e91a3198902229821340c84f7637b81621529e2f1e696f0792c50ad4208f3ed",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251017000558&dcm_no=10844759",
+      "date_kst": "2025-10-17",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251017000558",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 18,
+        "physical_page": 18,
+        "quote": "직접공모 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 18,
+        "physical_page": 18,
+        "quote": "우선주 511,586 100 6,646 3,400,000,556 제3자배정"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251020000109",
+      "issuer": "아크릴",
+      "corp_code": "01829819",
+      "pdf_sha256": "542ce0761f8a040695952654fd15d3988c52469694316a007595a249d56b6db2",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251020000109&dcm_no=10845205",
+      "date_kst": "2025-10-20",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251020000109",
+      "family_earliest": true,
+      "preexisting_method_note_count": 5,
+      "ipo_status_anchor": {
+        "page": 40,
+        "physical_page": 40,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 234,
+        "physical_page": 234,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 234,
+        "physical_page": 234,
+        "quote": "적용 재무수치 추정치 (2027년 추정 당기순이익)"
+      },
+      "valuation_model_anchor": {
+        "page": 234,
+        "physical_page": 234,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20251020000254",
+      "issuer": "리브스메드",
+      "corp_code": "01385005",
+      "pdf_sha256": "006f326d742f53f9aeedc5583249e16328b87e4db19180d4b70faac1d83f3969",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251020000254&dcm_no=10845849",
+      "date_kst": "2025-10-20",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251020000254",
+      "family_earliest": true,
+      "preexisting_method_note_count": 5,
+      "ipo_status_anchor": {
+        "page": 37,
+        "physical_page": 37,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_forecast_PER",
+      "issuer_valuation_anchor": {
+        "page": 227,
+        "physical_page": 227,
+        "quote": "적용산식 추정 당기순이익 현재가치(①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "발행사 추정 순이익에 PER 적용",
+      "applied_financials_anchor": {
+        "page": 227,
+        "physical_page": 227,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 227,
+        "physical_page": 227,
+        "quote": "평가모형 PER"
+      }
+    },
+    {
+      "receipt": "20251029000297",
+      "issuer": "LS전선",
+      "corp_code": "00683283",
+      "pdf_sha256": "ee9400a18e43ab82273b647e9d4760b6d0560cdb0e4292f7ac8ef41a39b69490",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251029000297&dcm_no=10857222",
+      "date_kst": "2025-10-29",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251029000297",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 16,
+        "physical_page": 16,
+        "quote": "주선 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 16,
+        "physical_page": 16,
+        "quote": "보통주 1,780,459 5,000 88,500 157,570,621,500 주주배정"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251031000544",
+      "issuer": "형지엘리트",
+      "corp_code": "00441243",
+      "pdf_sha256": "add2531f578036f8cfd6320c340bb404c581b4c9284d9e393047cdab51236358",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251031000544&dcm_no=10861857",
+      "date_kst": "2025-10-31",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251031000544",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "보통주 23,000,000 500 928 21,344,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251103000252",
+      "issuer": "삼진식품",
+      "corp_code": "01370322",
+      "pdf_sha256": "10766ea68a0e26ca168dad36f493f463b389af9c8704e5ce5b6954402b6899a4",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251103000252&dcm_no=10863188",
+      "date_kst": "2025-11-03",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251103000252",
+      "family_earliest": true,
+      "preexisting_method_note_count": 5,
+      "ipo_status_anchor": {
+        "page": 33,
+        "physical_page": 33,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_historical_PER",
+      "issuer_valuation_anchor": {
+        "page": 209,
+        "physical_page": 209,
+        "quote": "적용산식 2025년 반기 기준 당기순이익 연환산(①) × 유사기업 PER(②) ÷ 주식수(③)× {1-할인율(④)}"
+      },
+      "period_or_method": "2025년 반기 지배기업 당기순이익 연환산",
+      "applied_financials_anchor": {
+        "page": 209,
+        "physical_page": 209,
+        "quote": "적용 재무수치 추정치"
+      },
+      "valuation_model_anchor": {
+        "page": 209,
+        "physical_page": 209,
+        "quote": "평가모형 PER - 다. 희망공모가액의 산출방법"
+      },
+      "source_discrepancy": "요약표의 적용 재무수치 칸에는 추정치라고 기재했으나 같은 표의 적용산식은 이미 종료한 2025년 반기 순이익의 연환산이다. 주당 평가가치 숫자표의 적용 순이익과 PER를 별도로 대조했다.",
+      "price_table_anchors": [
+        {
+          "page": 227,
+          "physical_page": 227,
+          "quote": "[삼진식품㈜의 PER에 의한 평가가치]"
+        },
+        {
+          "page": 227,
+          "physical_page": 227,
+          "quote": "적용 당기순이익(백만원) 5,363 A (주1)"
+        },
+        {
+          "page": 227,
+          "physical_page": 227,
+          "quote": "적용 PER(배) 19.17 B"
+        }
+      ],
+      "numeric_price_table_physical_page": 227,
+      "supplied_price_table_physical_page": 227,
+      "independent_pdf_decoder_price_table_check": true
+    },
+    {
+      "receipt": "20251105000215",
+      "issuer": "코이즈",
+      "corp_code": "00807397",
+      "pdf_sha256": "a5f82907e3fafff1ff4270290e669ac9f7873816ee8401a6e5ac04595f0d157c",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251105000215&dcm_no=10865756",
+      "date_kst": "2025-11-05",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251105000215",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 25,
+        "physical_page": 25,
+        "quote": "주선 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 25,
+        "physical_page": 25,
+        "quote": "보통주 3,000,000 500 5,080 15,240,000,000 주주배정"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251107000501",
+      "issuer": "인베니아",
+      "corp_code": "00409371",
+      "pdf_sha256": "812d2b4d506e64e7801d22f56767a65d000750fcc59d530c6f74d6b49690af90",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251107000501&dcm_no=10869344",
+      "date_kst": "2025-11-07",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251107000501",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 15,
+        "physical_page": 15,
+        "quote": "주선 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 15,
+        "physical_page": 15,
+        "quote": "보통주 8,000,000 500 1,633 13,064,000,000 주주배정"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251118000168",
+      "issuer": "케이디비생명보험",
+      "corp_code": "00104069",
+      "pdf_sha256": "7b66a49f64d62d202b5919fd96e552b683a778c512d9677c57f0cadef89fef32",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251118000168&dcm_no=10886600",
+      "date_kst": "2025-11-18",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251118000168",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "주선 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "보통주 103,000,000 5,000 5,000 515,000,000,000 주주배정"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251121000467",
+      "issuer": "라온피플",
+      "corp_code": "01251489",
+      "pdf_sha256": "b509f25b1d804560c1b9dab28121da6222acdfd42c2536ec1e4598689af99b6c",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251121000467&dcm_no=10892306",
+      "date_kst": "2025-11-21",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251121000467",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "보통주 14,500,000 500 1,761 25,534,500,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251121000494",
+      "issuer": "아이씨에이치",
+      "corp_code": "01302853",
+      "pdf_sha256": "ec5ea99d28fd2db88124a6efb70653052497f462461ff262c9ccd44e8103743c",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251121000494&dcm_no=10892612",
+      "date_kst": "2025-11-21",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251121000494",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "보통주 8,000,000 500 1,126 9,008,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251128001691",
+      "issuer": "진양폴리우레탄",
+      "corp_code": "00160375",
+      "pdf_sha256": "c618f289e9c0dc4d9b13344b2df92213182a03192ec6efa7ee0dbed464d9c2c6",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251128001691&dcm_no=10903323",
+      "date_kst": "2025-11-28",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128001691",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 14,
+        "physical_page": 14,
+        "quote": "보통주 6,700,000 500 2,860 19,162,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251128001844",
+      "issuer": "에스에너지",
+      "corp_code": "00585538",
+      "pdf_sha256": "df7bc35f9e9172e20ff0a2369f73ff5642e74dd5b73366615bd5b8d45abecb62",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251128001844&dcm_no=10903637",
+      "date_kst": "2025-11-28",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128001844",
+      "family_earliest": true,
+      "preexisting_method_note_count": 1,
+      "ipo_status_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 21,
+        "physical_page": 21,
+        "quote": "보통주 14,000,000 500 933 13,062,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251201000570",
+      "issuer": "덕양에너젠",
+      "corp_code": "01516933",
+      "pdf_sha256": "1341953b780996fbafa2f4a696cc588bdb9c7665b43562b9d07c9b32dcadb956",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251201000570&dcm_no=10905691",
+      "date_kst": "2025-12-01",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251201000570",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 37,
+        "physical_page": 37,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_other_multiple",
+      "issuer_valuation_anchor": {
+        "page": 278,
+        "physical_page": 278,
+        "quote": "[2025년 3분기 연환산 기준 EBITDA(①) x 유사기업 EV/EBITDA(②) - 순차입금(③) + 공모유입자금(④) + 비지배지분(⑤) ]"
+      },
+      "period_or_method": "EV/EBITDA",
+      "applied_financials_anchor": {
+        "page": 278,
+        "physical_page": 278,
+        "quote": "적용 재무수치 실적치 (2025년 3분기 연환산 기준 EBITDA)"
+      },
+      "valuation_model_anchor": {
+        "page": 278,
+        "physical_page": 278,
+        "quote": "평가모형 EV/EBITDA"
+      }
+    },
+    {
+      "receipt": "20251205000435",
+      "issuer": "진양홀딩스",
+      "corp_code": "00646732",
+      "pdf_sha256": "f57b5429e5ae63fe6303fc39e873c3326e092caf9e0b930e632397e4ef980628",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251205000435&dcm_no=10912210",
+      "date_kst": "2025-12-05",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251205000435",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 16,
+        "physical_page": 16,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 16,
+        "physical_page": 16,
+        "quote": "보통주 8,004,708 500 2,410 19,291,346,280 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251211000453",
+      "issuer": "트리니티항공",
+      "corp_code": "00671376",
+      "pdf_sha256": "175817d53db38d1dc3b0efda7b1bb7015e8fb9f6addfc5d255849c71e73c2715",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251211000453&dcm_no=10919865",
+      "date_kst": "2025-12-11",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251211000453",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 16,
+        "physical_page": 16,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 15,
+        "physical_page": 15,
+        "quote": "보통주 76,985,450 100 1,185 91,227,758,250 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251212000554",
+      "issuer": "한국첨단소재",
+      "corp_code": "00403766",
+      "pdf_sha256": "575d70963bc244f8f0583ea7e830ac400ce31643e02d92e9f1ab0f38243dae93",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251212000554&dcm_no=10922301",
+      "date_kst": "2025-12-12",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251212000554",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 22,
+        "physical_page": 22,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 22,
+        "physical_page": 22,
+        "quote": "보통주 15,000,000 500 2,085 31,275,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251219000464",
+      "issuer": "아미코젠",
+      "corp_code": "00545734",
+      "pdf_sha256": "dda816364fa9a2982ee8aa5f374908daedb009948e4d71bf404f0827e7d86974",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251219000464&dcm_no=10933825",
+      "date_kst": "2025-12-19",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251219000464",
+      "family_earliest": true,
+      "preexisting_method_note_count": 0,
+      "ipo_status_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "주선 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 19,
+        "physical_page": 19,
+        "quote": "보통주 14,925,374 500 2,010 30,000,001,740 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251223000517",
+      "issuer": "액스비스",
+      "corp_code": "01554508",
+      "pdf_sha256": "e233d4dedaf378660270bd523f70e50fd77e3c66777cc86e4f4474d779a299aa",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251223000517&dcm_no=10938011",
+      "date_kst": "2025-12-23",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251223000517",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 36,
+        "physical_page": 36,
+        "quote": "인수 예 코스닥시장 신규상장"
+      },
+      "classification": "ipo_historical_PER",
+      "issuer_valuation_anchor": {
+        "page": 253,
+        "physical_page": 253,
+        "quote": "[2025년 3분기 연환산 기준 순이익(①) x 유사기업 PER(②)]"
+      },
+      "period_or_method": "2025년 3분기 누적 순이익 연환산",
+      "applied_financials_anchor": {
+        "page": 253,
+        "physical_page": 253,
+        "quote": "적용 재무수치 실적치 (2025년 3분기 연환산 기준 순이익)"
+      },
+      "valuation_model_anchor": {
+        "page": 253,
+        "physical_page": 253,
+        "quote": "평가모형 PER"
+      },
+      "price_table_anchors": [
+        {
+          "page": 279,
+          "physical_page": 279,
+          "quote": "[PER에 의한 ㈜액스비스의 평가가치]"
+        },
+        {
+          "page": 279,
+          "physical_page": 279,
+          "quote": "적용 당기순이익 (A) 5,202,396,820 원 주1)"
+        },
+        {
+          "page": 279,
+          "physical_page": 279,
+          "quote": "적용 PER (D) 27.60 배 -"
+        }
+      ],
+      "numeric_price_table_physical_page": 279,
+      "supplied_price_table_physical_page": 279,
+      "independent_pdf_decoder_price_table_check": true
+    },
+    {
+      "receipt": "20251223000710",
+      "issuer": "에이텀",
+      "corp_code": "01444380",
+      "pdf_sha256": "35578239b634a7ccdd1fd74594928a077379729f94ff6f21feed8aac52030c3c",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251223000710&dcm_no=10938743",
+      "date_kst": "2025-12-23",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251223000710",
+      "family_earliest": true,
+      "preexisting_method_note_count": 3,
+      "ipo_status_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 23,
+        "physical_page": 23,
+        "quote": "보통주 4,000,000 500 2,810 11,240,000,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    },
+    {
+      "receipt": "20251229000567",
+      "issuer": "캠시스",
+      "corp_code": "00330044",
+      "pdf_sha256": "5d043d66998bca96beea4bfa314322448859a256d18df6e16c45f5b92e2a9669",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251229000567&dcm_no=10945872",
+      "date_kst": "2025-12-29",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251229000567",
+      "family_earliest": true,
+      "preexisting_method_note_count": 2,
+      "ipo_status_anchor": {
+        "page": 17,
+        "physical_page": 17,
+        "quote": "인수 아니오 해당없음 해당없음"
+      },
+      "classification": "not_domestic_IPO",
+      "issuer_valuation_anchor": {
+        "page": 17,
+        "physical_page": 17,
+        "quote": "보통주 14,460,000 500 2,075 30,004,500,000 주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "신규상장 목적이 아닌 주식 발행. 발행방식은 원문 모집표에 기재."
+    }
+  ]
+}

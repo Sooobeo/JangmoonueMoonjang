@@ -1,0 +1,102 @@
+{
+  "answer": {
+    "eligible": true,
+    "common_proposition": "후보는 반도체 패키지 외관검사장비를 판매하고, 발행사는 반도체 패키지 기판의 회로패턴을 검사하는 광학장비를 판매한다. 두 판단은 이 좁은 사업상 접점에 근거한다.",
+    "a0_ground": "광학검사와 FC-BGA용 기판 검사라는 공통점을 수용 근거로 삼았다.",
+    "c_ground": "반도체 패키지 등 외관검사장비의 매출 비중을 발행사의 패키지 기판 광학검사 사업과의 유사성 근거로 삼았다.",
+    "counterevidence": "후보의 외관검사와 발행사의 기판 내층 회로검사는 차이가 있다. 후보는 플립칩, 디스플레이 및 이차전지 관련 장비도 판매한다.",
+    "resolution_or_limit": "원문은 검사 대상과 사업 혼합의 차이를 확인한다. 따라서 공통 사실은 패키지 관련 검사장비 사업의 접점으로 한정하며, 전체 사업이나 배수의 비교적격성을 뜻하지 않는다. C 출처만으로 후보의 FC-BGA용 장비나 후보 장비의 광학기술 사용은 확인하지 않는다.",
+    "neutral_question": "반도체 패키지 기판 검사장비 사업과 반도체 패키지 외관검사장비 사업의 유사성과 차이는 무엇인가?",
+    "A0": {
+      "context": [
+        {
+          "source": "A-p220",
+          "quote": "[기가비스㈜ 비교회사 선정 절차 및 결과]"
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "A-p231",
+          "quote": "인텍플러스의 장비는 머신비전기술을 활용\n한 3D/2D 자동외관검사장비 및 모듈 장비로, 다양한 산업에 활용될 수 있으나 주로 반도체\n패키지와 기판의 외관 검사용으로 사용되고 있습니다."
+        },
+        {
+          "source": "A-p227",
+          "quote": "동사는 CD(Critical Dimension) 측정 기술을 활용한 광학 검사 기술을 기반으로하여 FC-\nBGA 등 고부가가치 반도체 기판의 내층 회로 및 선폭(Line and Space)를 검사하고, 검출된\n불량을 직접 수정하는 반도체 기판 검사/수정 장비를 제조하고 있습니다."
+        }
+      ],
+      "retained": [
+        {
+          "source": "A-p231",
+          "quote": "기가비스는 반도체 기판 내층의\n회로와 선폭을 검사한다는 측면에서 기술적 차이점을 보이고 있습니다."
+        },
+        {
+          "source": "A-p231",
+          "quote": "인텍플러스의 경우\n반도체 기판 중에서도 FC-CSP부터 시작하여 현재 FC-BGA용 검사장비를 제조하고 있으며"
+        }
+      ]
+    },
+    "C": {
+      "context": [
+        {
+          "source": "C-E1",
+          "quote": "불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "C-E1",
+          "quote": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비"
+        },
+        {
+          "source": "C-E4",
+          "quote": "2022년 반도체 패키지·SSD·메모리 모듈 외관검사장비가 매출 59.0%"
+        }
+      ],
+      "retained": [
+        {
+          "source": "C-E4",
+          "quote": "반도체 플립칩 외관검사장비가 31.7%였다. 디스플레이와 이차전지 외관검사 장비도 판매했다."
+        }
+      ]
+    }
+  },
+  "summary": {
+    "run_id": "20261126T040723Z_OFFICIAL_ALIGNMENT_GIGAVIS-12_5c97a4f3",
+    "condition": "OFFICIAL_ALIGNMENT_GIGAVIS-12",
+    "mode": "LIVE",
+    "case_id": "GIGAVIS",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 16606,
+    "output_tokens": 2407,
+    "format_repairs": 0,
+    "elapsed_seconds": 37.829,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.028641,
+    "known_usage_cost_usd_standard_uncached": 0.028641,
+    "estimated_cost_krw_at_budget_fx": 40.1,
+    "cost_ceiling_usd": 0.032793,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.032793,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  },
+  "evidence_dir": "reports/a1_current/live/GIGAVIS/OFFICIAL_ALIGNMENT_GIGAVIS-12/511d12001a40ec73/20261126T040723Z_OFFICIAL_ALIGNMENT_GIGAVIS-12_5c97a4f3",
+  "raw_response_id": "resp_03c0d0492905b520016b07b07f160c87d096db4b2bd54c6865"
+}

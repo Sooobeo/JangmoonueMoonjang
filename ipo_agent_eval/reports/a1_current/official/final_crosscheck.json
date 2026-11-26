@@ -1,0 +1,539 @@
+{
+  "status": "VERIFIED",
+  "scope": "Independent offline raw reference/rank arithmetic and usage ledgers. No requests sent.",
+  "checked_at_kst": "2026-11-26T13:18:59+09:00",
+  "metrics_sha256": "e71944a463dbe68d6e9dca750cd92a63ba4c7707940aa7595dac445394b94f19",
+  "panels": {
+    "primary": {
+      "known_material": 2,
+      "valid_paired_companies": [
+        "GIGAVIS",
+        "TRUEN"
+      ],
+      "delta_fraction": "7/40",
+      "delta": 0.175,
+      "arms": {
+        "rule": {
+          "k1_recovered": 0,
+          "operating_recovered": 0,
+          "operating_transfers": 4,
+          "wait": 13,
+          "requests": 0,
+          "equal_company_concordance": "33/40"
+        },
+        "ai": {
+          "k1_recovered": 2,
+          "operating_recovered": 2,
+          "operating_transfers": 4,
+          "wait": 13,
+          "requests": 6,
+          "equal_company_concordance": "1"
+        }
+      },
+      "cases": [
+        {
+          "case": "GIGAVIS",
+          "reference_sha256": "47ba4b103de26e130c985c2c8e08c3a512803d1ad96c75b1dcbf517c4190812d",
+          "material": [
+            "GIGAVIS-08"
+          ],
+          "pending": [
+            "GIGAVIS-02"
+          ],
+          "rule": {
+            "concordance": "9/10",
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "GIGAVIS-05"
+            ],
+            "operating_ids": [
+              "GIGAVIS-05"
+            ],
+            "wait": 2,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": "1",
+            "k1_recovered": [
+              "GIGAVIS-08"
+            ],
+            "operating_recovered": [
+              "GIGAVIS-08"
+            ],
+            "k1_ids": [
+              "GIGAVIS-08"
+            ],
+            "operating_ids": [
+              "GIGAVIS-08"
+            ],
+            "wait": 3,
+            "requests": 1
+          }
+        },
+        {
+          "case": "TRUEN",
+          "reference_sha256": "8af8a8e4bd2c6dbc7ede9dec8d3854a4220697895699f5f882adb497a2d787a3",
+          "material": [
+            "TRUEN-10"
+          ],
+          "pending": [
+            "TRUEN-02"
+          ],
+          "rule": {
+            "concordance": "3/4",
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "TRUEN-03"
+            ],
+            "operating_ids": [
+              "TRUEN-03"
+            ],
+            "wait": 4,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": "1",
+            "k1_recovered": [
+              "TRUEN-10"
+            ],
+            "operating_recovered": [
+              "TRUEN-10"
+            ],
+            "k1_ids": [
+              "TRUEN-10"
+            ],
+            "operating_ids": [
+              "TRUEN-10"
+            ],
+            "wait": 5,
+            "requests": 1
+          }
+        },
+        {
+          "case": "MANYO",
+          "reference_sha256": "305965ee23c3d7f1e494e430b0d53a5ccdf53d2f305eb122b10a6609842d69ad",
+          "material": [],
+          "pending": [
+            "MANYO-09",
+            "MANYO-10",
+            "MANYO-11",
+            "MANYO-12"
+          ],
+          "rule": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "MANYO-08"
+            ],
+            "operating_ids": [
+              "MANYO-08"
+            ],
+            "wait": 3,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "MANYO-11"
+            ],
+            "operating_ids": [
+              "MANYO-11"
+            ],
+            "wait": 3,
+            "requests": 0
+          }
+        },
+        {
+          "case": "PHILENERGY",
+          "reference_sha256": "68caef2cdade5c3dbf54a516b55f8e90990cf115f8185909e70eec992b84b126",
+          "material": [],
+          "pending": [],
+          "rule": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "PHILENERGY-01"
+            ],
+            "operating_ids": [
+              "PHILENERGY-01"
+            ],
+            "wait": 4,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "PHILENERGY-08"
+            ],
+            "operating_ids": [
+              "PHILENERGY-10"
+            ],
+            "wait": 2,
+            "requests": 4
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "known_material": 1,
+      "valid_paired_companies": [
+        "GIGAVIS"
+      ],
+      "delta_fraction": "1/18",
+      "delta": 0.05555555555555555,
+      "arms": {
+        "rule": {
+          "k1_recovered": 0,
+          "operating_recovered": 0,
+          "operating_transfers": 4,
+          "wait": 13,
+          "requests": 0,
+          "equal_company_concordance": "17/18"
+        },
+        "ai": {
+          "k1_recovered": 1,
+          "operating_recovered": 1,
+          "operating_transfers": 4,
+          "wait": 13,
+          "requests": 6,
+          "equal_company_concordance": "1"
+        }
+      },
+      "cases": [
+        {
+          "case": "GIGAVIS",
+          "reference_sha256": "84f743e1b3cb543531e1b879d9dfe8ba6e1509ebb05b0549da17961fd950c8fe",
+          "material": [
+            "GIGAVIS-08"
+          ],
+          "pending": [
+            "GIGAVIS-02",
+            "GIGAVIS-10"
+          ],
+          "rule": {
+            "concordance": "17/18",
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "GIGAVIS-05"
+            ],
+            "operating_ids": [
+              "GIGAVIS-05"
+            ],
+            "wait": 2,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": "1",
+            "k1_recovered": [
+              "GIGAVIS-08"
+            ],
+            "operating_recovered": [
+              "GIGAVIS-08"
+            ],
+            "k1_ids": [
+              "GIGAVIS-08"
+            ],
+            "operating_ids": [
+              "GIGAVIS-08"
+            ],
+            "wait": 3,
+            "requests": 1
+          }
+        },
+        {
+          "case": "TRUEN",
+          "reference_sha256": "c4c41c227da30109712b4a2eba78cd88f5d03a86978517b8cee155f938bcd017",
+          "material": [],
+          "pending": [
+            "TRUEN-02"
+          ],
+          "rule": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "TRUEN-03"
+            ],
+            "operating_ids": [
+              "TRUEN-03"
+            ],
+            "wait": 4,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "TRUEN-10"
+            ],
+            "operating_ids": [
+              "TRUEN-10"
+            ],
+            "wait": 5,
+            "requests": 1
+          }
+        },
+        {
+          "case": "MANYO",
+          "reference_sha256": "6adf0417219ce578ecbb0f2794f7fa30b6a574ae2b497ee2eedaecb0efb42781",
+          "material": [],
+          "pending": [
+            "MANYO-09",
+            "MANYO-10",
+            "MANYO-11",
+            "MANYO-12"
+          ],
+          "rule": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "MANYO-08"
+            ],
+            "operating_ids": [
+              "MANYO-08"
+            ],
+            "wait": 3,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "MANYO-11"
+            ],
+            "operating_ids": [
+              "MANYO-11"
+            ],
+            "wait": 3,
+            "requests": 0
+          }
+        },
+        {
+          "case": "PHILENERGY",
+          "reference_sha256": "d83e4d29245b6d625070967c5ce5678fd52eccb74f3892725796ec5c047326aa",
+          "material": [],
+          "pending": [],
+          "rule": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "PHILENERGY-01"
+            ],
+            "operating_ids": [
+              "PHILENERGY-01"
+            ],
+            "wait": 4,
+            "requests": 0
+          },
+          "ai": {
+            "concordance": null,
+            "k1_recovered": [],
+            "operating_recovered": [],
+            "k1_ids": [
+              "PHILENERGY-08"
+            ],
+            "operating_ids": [
+              "PHILENERGY-10"
+            ],
+            "wait": 2,
+            "requests": 4
+          }
+        }
+      ]
+    }
+  },
+  "persona_timing": {
+    "sha256": "a3d3bab35cc0d4ff034592828081aae05d7a992bdb345a6fd39a28749a61f2ef",
+    "rank_links_exact": {
+      "HDMS": {
+        "rank_sha256": "82c7bd55fd660960da12f9028108494d6c9bc607186f7c2bf42c5332ff9947d0",
+        "rule": [
+          "H02"
+        ],
+        "ai": [
+          "H02"
+        ]
+      },
+      "MELCON": {
+        "rank_sha256": "55000f7565a0ae47b568b4f348fe92eefa542ac7cea11a318f2505612c6518f5",
+        "rule": [
+          "M03"
+        ],
+        "ai": [
+          "M03"
+        ]
+      },
+      "GIGAVIS": {
+        "rank_sha256": "9bcd276d8d4e3002065867b8adcaaa6d90f9b23f00f547b5bc8b2c6ea9b46a7f",
+        "rule": [
+          "GIGAVIS-05"
+        ],
+        "ai": [
+          "GIGAVIS-08"
+        ]
+      },
+      "TRUEN": {
+        "rank_sha256": "08e517f1f27618116b335d824776c92c7c1a5b5d5a39a8a81989ce45906fae08",
+        "rule": [
+          "TRUEN-03"
+        ],
+        "ai": [
+          "TRUEN-10"
+        ]
+      },
+      "MANYO": {
+        "rank_sha256": "c0a8e6135ffd2f79c259ed9092856749494b8e6973de4321afaf6514b8256455",
+        "rule": [
+          "MANYO-08"
+        ],
+        "ai": [
+          "MANYO-11"
+        ]
+      },
+      "PHILENERGY": {
+        "rank_sha256": "8ab7838665d2f834911f964957df462c15c9f4712c4eb31a36f628ffd5c937e1",
+        "rule": [
+          "PHILENERGY-01"
+        ],
+        "ai": [
+          "PHILENERGY-10"
+        ]
+      }
+    }
+  },
+  "h2": {
+    "case": "MANYO",
+    "held": "MANYO-01",
+    "eligible_trigger": {
+      "calls": 8,
+      "seconds": 75.839,
+      "usd": 0.033732
+    },
+    "trigger_runs": [
+      {
+        "id": "20261126T040723Z_OFFICIAL_ALIGNMENT_MANYO-01_ffd91fd9",
+        "stage": "OFFICIAL_ALIGNMENT_MANYO-01",
+        "calls": 2,
+        "seconds": 36.587,
+        "usd": 0.023282
+      },
+      {
+        "id": "20261126T041135Z_T01A0o_1d89053d",
+        "stage": "T01A0o",
+        "calls": 1,
+        "seconds": 2.92,
+        "usd": 0.001234
+      },
+      {
+        "id": "20261126T041146Z_T01A0f_df6253ef",
+        "stage": "T01A0f",
+        "calls": 1,
+        "seconds": 5.631,
+        "usd": 0.002439
+      },
+      {
+        "id": "20261126T040930Z_OFFICIAL_TRIZ_MANYO-01_A0_directional_07fd1349",
+        "stage": "OFFICIAL_TRIZ_MANYO-01_A0_directional",
+        "calls": 1,
+        "seconds": 9.855,
+        "usd": 0.00133
+      },
+      {
+        "id": "20261126T041138Z_T01Co_27980a29",
+        "stage": "T01Co",
+        "calls": 1,
+        "seconds": 7.091,
+        "usd": 0.002739
+      },
+      {
+        "id": "20261126T041125Z_T01Cf_17b88b1b",
+        "stage": "T01Cf",
+        "calls": 1,
+        "seconds": 9.139,
+        "usd": 0.001739
+      },
+      {
+        "id": "20261126T041135Z_T01Cd_07d62b9d",
+        "stage": "T01Cd",
+        "calls": 1,
+        "seconds": 4.616,
+        "usd": 0.000969
+      }
+    ],
+    "arms": {
+      "full_without_signal": {
+        "selector": {
+          "calls": 2,
+          "seconds": 36.129,
+          "usd": 0.023845
+        },
+        "inclusive": {
+          "calls": 2,
+          "seconds": 36.129,
+          "usd": 0.023845
+        },
+        "run_ids": [
+          "20261126T040957Z_A1_LOOK_99a05ec0",
+          "20261126T041005Z_A1_SELECT_4716443a"
+        ]
+      },
+      "full_with_signal": {
+        "selector": {
+          "calls": 2,
+          "seconds": 39.714,
+          "usd": 0.02452
+        },
+        "inclusive": {
+          "calls": 10,
+          "seconds": 115.553,
+          "usd": 0.058252
+        },
+        "run_ids": [
+          "20261126T041307Z_A1_LOOK_6560292c",
+          "20261126T041318Z_A1_SELECT_c372ac38"
+        ]
+      },
+      "hold_with_signal": {
+        "selector": {
+          "calls": 2,
+          "seconds": 40.431,
+          "usd": 0.023945
+        },
+        "inclusive": {
+          "calls": 10,
+          "seconds": 116.27,
+          "usd": 0.057677
+        },
+        "run_ids": [
+          "20261126T041449Z_A1_LOOK_79532eff",
+          "20261126T041500Z_A1_SELECT_1e2a5ccf"
+        ]
+      }
+    },
+    "hold_minus_signal_full": {
+      "calls": 0,
+      "seconds": 0.717,
+      "usd": -0.000575
+    },
+    "hold_minus_no_signal_full": {
+      "calls": 8,
+      "seconds": 80.141,
+      "usd": 0.033832
+    },
+    "unique_calls_across_three_arms_and_trigger": 14,
+    "scope": "Known standard-uncached estimates. Matched eligible-item screen and six perturbations included; preliminary selector recovery, other issuers, and unmeasured setup excluded."
+  }
+}

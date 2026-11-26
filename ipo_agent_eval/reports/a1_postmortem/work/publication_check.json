@@ -1,0 +1,51 @@
+{
+  "frozen_input_sha256": "236d44e250052d85e8b9ba34abb827140eaffb02c79051e977ffc0737c71efb7",
+  "company_rows": 37,
+  "policy_switches": 9,
+  "rendered_pages": [
+    {
+      "heading": "무엇이 실패했고 무엇을 배웠나",
+      "body_end_pt": 635.6
+    },
+    {
+      "heading": "여섯 기업에서 갈린 첫 선택",
+      "body_end_pt": 739.1
+    },
+    {
+      "heading": "적용 범위를 가른 자료와 질문",
+      "body_end_pt": 688.5
+    },
+    {
+      "heading": "한 자리의 배정 방식을 바꿔 본 결과",
+      "body_end_pt": 627.5
+    },
+    {
+      "heading": "공통으로 만들 부분과 기업마다 바꿀 부분",
+      "body_end_pt": 686.5
+    },
+    {
+      "heading": "다음 실험에서 반증할 가설",
+      "body_end_pt": 762.2
+    }
+  ],
+  "native_tables": 6,
+  "text_blocks_verified_across_formats": 152,
+  "local_link_counts": {
+    "work/domain/evidence.md": 9,
+    "work/mechanisms/중대쟁점_사례분석.md": 21,
+    "work/statistics/README.md": 7,
+    "공모가_검토_AI_사후분석.md": 9,
+    "공식_참고자료와_근거.md": 3,
+    "분석_진행기록.md": 13
+  },
+  "deliverable_sha256": {
+    "공모가_검토_AI_사후분석.md": "b8cebc6a89a17f3042c8eb1bacb713223f4205ed810af0627071181afdd80ecb",
+    "공모가_검토_AI_사후분석.docx": "39385db8081ff31571348d29de1cbdf57796a0c37f376c9302771a3aa21d0c32",
+    "공모가_검토_AI_사후분석.html": "4bda8ee01a96b2bad5d8631b954c9166ca204f18fe8f1cf12b0143ccf809c58d",
+    "공식_참고자료와_근거.md": "55bb4f340a96d5d3ee25bd925fe9c8119404ef2d526d77e114826e7cedd11f37",
+    "분석_진행기록.md": "f4246f7705dd4d39e05096a1a2ca8dcf29fcc973f612ef23bafae501ef517561",
+    "work/statistics/기업별_37곳_결과.csv": "a20a9b9c74e50ec7c48b4a30251058d4486305c809c2273f9ddcd5ef5a68655a",
+    "work/mechanisms/중대쟁점_사례분석.md": "79d347b655a886847b8452d35329a3a09ffee5b785bbb56c637fb94bca4ce4a2"
+  },
+  "rendered_pdf_sha256": "ad90ddb62f1c4bed55543554729d4db2e69a8c8a023f578fcb14c7f559b1d476"
+}

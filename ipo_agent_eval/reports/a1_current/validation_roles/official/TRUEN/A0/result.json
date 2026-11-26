@@ -1,0 +1,123 @@
+{
+  "role": "A0",
+  "case": "TRUEN",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-6.1-terra",
+  "raw_response_id": "resp_04462576ffca2446016b07affdfb2087d098c650bae9f29a8b",
+  "thread_id": "resp_04462576ffca2446016b07affdfb2087d098c650bae9f29a8b",
+  "answer": {
+    "items": [
+      {
+        "item_id": "TRUEN-01",
+        "state": "수용",
+        "reason": "최근 완료 사업연도인 2022년 당기순이익을 적용해 추정이익 사용에 따른 불확실성을 피했습니다.",
+        "physical_page": 195,
+        "quote": "2022년 당기순이익              7,633 백만원"
+      },
+      {
+        "item_id": "TRUEN-02",
+        "state": "미확인",
+        "reason": "비교기업의 연결 기준 이익은 지배지분 순이익이라고 명시했지만, 제시된 발행사 적용 이익 7,633백만원의 개별·연결 및 지배지분 귀속 범위는 확인되지 않습니다.",
+        "physical_page": 194,
+        "quote": "지배지분 순이익 기준으로 계산하였"
+      },
+      {
+        "item_id": "TRUEN-03",
+        "state": "문제 제기",
+        "reason": "단기 변동성을 줄이려는 취지는 있으나 네 관측값 중 최저값을 택하면 하방 편향이 생깁니다. 특히 위세아이텍은 기준주가 16,943원이 기준일 종가 20,750원보다 크게 낮습니다.",
+        "physical_page": 192,
+        "quote": "기준주가 (Min[(A), (B), (C), (D)])"
+      },
+      {
+        "item_id": "TRUEN-04",
+        "state": "문제 제기",
+        "reason": "단순평균 22.59배의 계산은 맞지만, 사업 유사성이 낮은 위세아이텍의 32.33배가 평균을 높입니다. 나머지 두 영상보안 기업만의 평균은 약 17.73배입니다.",
+        "physical_page": 194,
+        "quote": "위세아이텍               3,870      16,943       7,383,954     125,107     32.33"
+      },
+      {
+        "item_id": "TRUEN-05",
+        "state": "수용",
+        "reason": "공모 전 주식에 공모주식과 주관사 의무인수분을 더한 상장예정 주식 수를 분모로 사용했으며 합계도 맞습니다. 제시된 자료에서 추가 희석요소의 누락은 확인되지 않습니다.",
+        "physical_page": 195,
+        "quote": "공모 전 주식수 8,424,650주 + 공모주식 2,500,000주 + 주관사"
+      },
+      {
+        "item_id": "TRUEN-06",
+        "state": "문제 제기",
+        "reason": "172,471백만원을 10,999,650주로 나눈 약 15,680원은 타당하지만, 같은 쪽의 밴드 산출 기준은 15,578원으로 달라 불일치합니다.",
+        "physical_page": 195,
+        "quote": "상대가치 주당 평가가액                            15,578 원"
+      },
+      {
+        "item_id": "TRUEN-07",
+        "state": "문제 제기",
+        "reason": "1만~1만2천원의 할인율 36.22%~23.47%는 약 15,680원 기준으로 계산됩니다. 공시상 밴드의 기준인 15,578원에 적용하면 약 35.81%~22.97%여서 일치하지 않습니다.",
+        "physical_page": 195,
+        "quote": "주당 평가가액 15,578원을 기초로 하여 36.22% ~ 23.47%"
+      },
+      {
+        "item_id": "TRUEN-08",
+        "state": "수용",
+        "reason": "AI 카메라와 녹화장비가 매출의 큰 부분을 차지해 발행사의 영상보안 사업과 제품상 비교 가능성이 있습니다. 다만 제품별 비중 차이는 유의해야 합니다.",
+        "physical_page": 188,
+        "quote": "AI CAM 46.1%, NVR 29.6%, DVR 4.8%, IP CAM"
+      },
+      {
+        "item_id": "TRUEN-09",
+        "state": "수용",
+        "reason": "카메라, 영상보안 녹화장비 및 영상관리시스템을 판매하므로 발행사의 영상보안 사업과 비교할 구체적 근거가 있습니다.",
+        "physical_page": 188,
+        "quote": "영상보안Recorder 25.1%, Camera 47.7%, VMS 등,"
+      },
+      {
+        "item_id": "TRUEN-10",
+        "state": "문제 제기",
+        "reason": "빅데이터와 AI라는 기술적 접점은 있으나 매출은 빅데이터 분석·품질과 AI 개발 플랫폼 중심입니다. 영상보안 카메라 중심 발행사와 제품·시장 유사성이 제한적입니다.",
+        "physical_page": 189,
+        "quote": "빅데이터(분석과 품질) 67.3%, AI 개발 플랫폼"
+      }
+    ]
+  },
+  "tool_item_types": [],
+  "packet_sha256": "776a8ff71590cb462000ec758837bbc1df32c0c9389e4793e77412b6b54b6741",
+  "method": "Independent initial assessment, stateless Responses request with no tools.",
+  "evidence_dir": "reports/a1_current/live/TRUEN/V0/a6c576898fc7c3b8/20261126T040514Z_V0_00a6e964",
+  "summary": {
+    "run_id": "20261126T040514Z_V0_00a6e964",
+    "condition": "V0",
+    "mode": "LIVE",
+    "case_id": "TRUEN",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 21694,
+    "output_tokens": 1661,
+    "format_repairs": 0,
+    "elapsed_seconds": 27.202,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.029999,
+    "known_usage_cost_usd_standard_uncached": 0.029999,
+    "estimated_cost_krw_at_budget_fx": 42.0,
+    "cost_ceiling_usd": 0.035422,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.035422,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  }
+}

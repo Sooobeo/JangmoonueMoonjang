@@ -1,0 +1,23 @@
+{
+  "case": "HDMS",
+  "official_roles": {
+    "a0_run": "20261126T020801Z_A0_5ca3139e",
+    "c_run": "20261126T040439Z_A1_BLIND_B_8f7a8243"
+  },
+  "official_model": "gpt-6.1-terra",
+  "prompt_sha256": "1f1d2b6b2fe7f5134796df06ada0e8a592fdda16b546dcc5d686ed03e7b6bb7d",
+  "J1_items": [
+    "H01"
+  ],
+  "order": [
+    "baseline",
+    "expanded"
+  ],
+  "input_hashes": {
+    "baseline": "4636fe48e68c0c6fdc246fca6535396e0d82d5ec5fb6029c09782673fbf9994d",
+    "expanded": "4636fe48e68c0c6fdc246fca6535396e0d82d5ec5fb6029c09782673fbf9994d"
+  },
+  "common_baseline_excerpts": "c520c36d44f0a1a8184f114dde65a5855732dfa52510869f97fbebf8bb56926b",
+  "added_pages": [],
+  "scope": "same-prompt post-hoc development comparison of the expanded accounting coverage and scenario, not a new H1 outcome"
+}

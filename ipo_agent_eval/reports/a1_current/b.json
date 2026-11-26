@@ -1,0 +1,410 @@
+{
+  "cases": [
+    {
+      "version": "B-dev-1",
+      "case_id": "HDMS",
+      "receipt": "20240325000947",
+      "sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+      "published": "2024-03-25",
+      "facts": {
+        "earnings": {
+          "page": 269,
+          "row": "적용 순이익",
+          "display": "151,116",
+          "unit": "백만원",
+          "excerpt": "적용 순이익                 (A)         백만원                     151,116",
+          "source_status": "통과"
+        },
+        "per": {
+          "page": 269,
+          "row": "적용 PER 거래배수",
+          "display": "31.5",
+          "unit": "배",
+          "excerpt": "적용 PER 거래배수                                                          31.5",
+          "source_status": "통과"
+        },
+        "equity": {
+          "page": 270,
+          "row": "평가시가총액",
+          "display": "4,761,293",
+          "unit": "백만원",
+          "excerpt": "평가시가총액          (C) = (A) * (B)      백만원                    4,761,293",
+          "source_status": "통과"
+        },
+        "existing": {
+          "page": 270,
+          "row": "공모 전 발행주식수",
+          "display": "40,000,000",
+          "unit": "주",
+          "excerpt": "공모 전 발행주식수             (B)          주                     40,000,000",
+          "source_status": "통과"
+        },
+        "new": {
+          "page": 270,
+          "row": "신주모집주식수",
+          "display": "4,450,000",
+          "unit": "주",
+          "excerpt": "신주모집주식수              (D)          주                      4,450,000",
+          "source_status": "통과"
+        },
+        "secondary": {
+          "page": 270,
+          "row": "구주매출주식수",
+          "display": "4,450,000",
+          "unit": "주",
+          "excerpt": "구주매출주식수               (E)          주                      4,450,000",
+          "source_status": "통과"
+        },
+        "options": {
+          "page": 270,
+          "row": "희석가능주식수",
+          "display": "420,190",
+          "unit": "주",
+          "excerpt": "희석가능주식수              (G)          주                       420,190",
+          "source_status": "통과"
+        },
+        "shares": {
+          "page": 270,
+          "row": "공모 후 잠재주식수",
+          "display": "44,870,190",
+          "unit": "주",
+          "excerpt": "공모 후 잠재주식수       (H) = (F) + (G)       주                     44,870,190",
+          "source_status": "통과"
+        },
+        "price": {
+          "page": 270,
+          "row": "주당 평가가액",
+          "display": "106,113",
+          "unit": "원",
+          "excerpt": "주당 평가가액               (I) = (A) / (H)        원                       106,113",
+          "source_status": "통과"
+        }
+      },
+      "period_scope": {
+        "page": 270,
+        "source_phrases": [
+          "2023년 온기 지배주주지분 기준 순이익",
+          "비교회사의 평균 PER"
+        ]
+      },
+      "rules": [
+        {
+          "rule": "share_bridge",
+          "status": "통과",
+          "calculated": "44870190",
+          "reported": "44870190",
+          "delta": "0",
+          "tolerance": "0",
+          "input_ids": [
+            "existing",
+            "new",
+            "options",
+            "shares"
+          ]
+        },
+        {
+          "rule": "equity_at_display_precision",
+          "status": "통과",
+          "calculated": "4760154.0",
+          "reported": "4761293",
+          "delta": "-1139.0",
+          "tolerance": "7572.075",
+          "input_ids": [
+            "earnings",
+            "per",
+            "equity"
+          ]
+        },
+        {
+          "rule": "price_from_equity",
+          "status": "통과",
+          "calculated": "106112.6106218850421627365518175875787466",
+          "reported": "106113",
+          "delta": "-0.3893781149578372634481824124",
+          "tolerance": "0.5",
+          "input_ids": [
+            "equity",
+            "shares",
+            "price"
+          ]
+        }
+      ],
+      "mandatory": [],
+      "elapsed_seconds": 0.137
+    },
+    {
+      "version": "B-dev-1",
+      "case_id": "MELCON",
+      "receipt": "20260821000368",
+      "sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+      "published": "2026-08-21T14:42+09:00",
+      "facts": {
+        "earnings": {
+          "page": 208,
+          "row": "적용 당기순이익(백만원)",
+          "display": "6,894",
+          "unit": "백만원",
+          "excerpt": "적용 당기순이익(백만원)                           6,894           A(주1)",
+          "source_status": "통과"
+        },
+        "per": {
+          "page": 208,
+          "row": "적용 PER(배)",
+          "display": "26.18",
+          "unit": "배",
+          "excerpt": "적용 PER(배)                               26.18           B",
+          "source_status": "통과"
+        },
+        "equity": {
+          "page": 208,
+          "row": "기업가치 평가액(백만원)",
+          "display": "180,497",
+          "unit": "백만원",
+          "excerpt": "기업가치 평가액(백만원)                        180,497          C=A*B",
+          "source_status": "통과"
+        },
+        "existing": {
+          "page": 208,
+          "row": "기발행보통주식수",
+          "display": "10,000,000",
+          "unit": "주",
+          "excerpt": "기발행보통주식수          10,000,000    보통주식수",
+          "source_status": "통과"
+        },
+        "new": {
+          "page": 208,
+          "row": "공모 신주발행주식",
+          "display": "2,500,000",
+          "unit": "주",
+          "excerpt": "공모 신주발행주식                    IPO 공모 시 신주발행 주식                                             2,500,000             수                    수",
+          "source_status": "통과"
+        },
+        "underwriter": {
+          "page": 208,
+          "row": "상장주선인 의무인",
+          "display": "75,000",
+          "unit": "주",
+          "excerpt": "상장주선인 의무인                                               75,000  주관사 의무 인수분             수분",
+          "source_status": "통과"
+        },
+        "options": {
+          "page": 208,
+          "row": "주식매수선택권",
+          "display": "160,000",
+          "unit": "주",
+          "excerpt": "주식매수선택권              160,000   주식매수선택권",
+          "source_status": "통과"
+        },
+        "shares": {
+          "page": 208,
+          "row": "적용 주식수(천주)",
+          "display": "12,735",
+          "unit": "천주",
+          "excerpt": "적용 주식수(천주)                            12,735           D(주2)",
+          "source_status": "통과"
+        },
+        "price": {
+          "page": 208,
+          "row": "주당 평가가액(원)",
+          "display": "14,173",
+          "unit": "원",
+          "excerpt": "주당 평가가액(원)                            14,173          E=C/D",
+          "source_status": "통과"
+        }
+      },
+      "period_scope": {
+        "page": 208,
+        "source_phrases": [
+          "2026년 2분기 지배주주 당기순이익",
+          "3,447백만원을 연환산",
+          "최근 4개분기"
+        ]
+      },
+      "rules": [
+        {
+          "rule": "share_bridge",
+          "status": "통과",
+          "calculated": "12735000",
+          "reported": "12735000",
+          "delta": "0",
+          "tolerance": "0",
+          "input_ids": [
+            "existing",
+            "new",
+            "options",
+            "underwriter",
+            "shares"
+          ]
+        },
+        {
+          "rule": "equity_at_display_precision",
+          "status": "통과",
+          "calculated": "180484.92",
+          "reported": "180497",
+          "delta": "-12.08",
+          "tolerance": "48.0625",
+          "input_ids": [
+            "earnings",
+            "per",
+            "equity"
+          ]
+        },
+        {
+          "rule": "price_from_equity",
+          "status": "통과",
+          "calculated": "14173.30192383195916764821358460934432666",
+          "reported": "14173",
+          "delta": "0.3019238319591676482135846093",
+          "tolerance": "0.5",
+          "input_ids": [
+            "equity",
+            "shares",
+            "price"
+          ]
+        }
+      ],
+      "mandatory": [],
+      "elapsed_seconds": 0.138
+    }
+  ],
+  "injected_checks": [
+    {
+      "case": "HDMS",
+      "fixture": "original",
+      "rule": "price_from_equity",
+      "status": "통과",
+      "calculated": "106112.6106218850421627365518175875787466",
+      "reported": "106113",
+      "delta": "-0.3893781149578372634481824124",
+      "tolerance": "0.5",
+      "input_ids": [
+        "equity",
+        "shares",
+        "price"
+      ]
+    },
+    {
+      "case": "HDMS",
+      "fixture": "price_plus_1000",
+      "rule": "price_from_equity",
+      "status": "불일치",
+      "calculated": "106112.6106218850421627365518175875787466",
+      "reported": "107113",
+      "delta": "-1000.389378114957837263448182",
+      "tolerance": "0.5",
+      "input_ids": [
+        "equity",
+        "shares",
+        "price"
+      ]
+    },
+    {
+      "case": "HDMS",
+      "fixture": "missing_price",
+      "rule": "price_from_equity",
+      "status": "미확인",
+      "missing": [
+        "price"
+      ]
+    },
+    {
+      "case": "MELCON",
+      "fixture": "original",
+      "rule": "price_from_equity",
+      "status": "통과",
+      "calculated": "14173.30192383195916764821358460934432666",
+      "reported": "14173",
+      "delta": "0.3019238319591676482135846093",
+      "tolerance": "0.5",
+      "input_ids": [
+        "equity",
+        "shares",
+        "price"
+      ]
+    },
+    {
+      "case": "MELCON",
+      "fixture": "price_plus_1000",
+      "rule": "price_from_equity",
+      "status": "불일치",
+      "calculated": "14173.30192383195916764821358460934432666",
+      "reported": "15173",
+      "delta": "-999.6980761680408323517864154",
+      "tolerance": "0.5",
+      "input_ids": [
+        "equity",
+        "shares",
+        "price"
+      ]
+    },
+    {
+      "case": "MELCON",
+      "fixture": "missing_price",
+      "rule": "price_from_equity",
+      "status": "미확인",
+      "missing": [
+        "price"
+      ]
+    }
+  ],
+  "threshold_fixtures": [
+    [
+      [
+        "55"
+      ],
+      50,
+      true
+    ],
+    [
+      [
+        "50"
+      ],
+      50,
+      true
+    ],
+    [
+      [
+        "42"
+      ],
+      50,
+      false
+    ],
+    [
+      [
+        "31",
+        "20"
+      ],
+      30,
+      true
+    ],
+    [
+      [
+        "29",
+        "20"
+      ],
+      30,
+      false
+    ],
+    [
+      [
+        "29",
+        "31"
+      ],
+      30,
+      true
+    ],
+    [
+      [
+        "30",
+        "20"
+      ],
+      30,
+      true
+    ]
+  ],
+  "review": [
+    "pinned receipt, hash, period and physical row locators",
+    "recalculated share components, units and displayed-precision intervals",
+    "two sets of normal, wrong and missing price inputs; seven inclusive threshold/OR cases"
+  ]
+}

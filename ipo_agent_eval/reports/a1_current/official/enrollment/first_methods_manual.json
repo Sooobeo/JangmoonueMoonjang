@@ -1,0 +1,299 @@
+{
+  "method": "main report titles/families + first offering and actual appraisal references. Historic PER anchor independently decoded with pypdf.",
+  "rows": [
+    {
+      "receipt": "20241002000335",
+      "issuer": "파인메딕스",
+      "corp_code": "01455410",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000335",
+      "pdf_sha256": "34e7705cb5a7c769c068125e0474b3e0c402c243b01279d7f703acee98b2be76",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 520,
+      "ipo_status_anchor": {
+        "page": 23,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 199,
+        "quote": "2027년 추정 순이익의 현재가치                       4,754 백만원   C=A/[(1+B)^3.25]"
+      },
+      "period_or_method": "2027년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241004000133",
+      "issuer": "쓰리에이로직스",
+      "corp_code": "00870065",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000133",
+      "pdf_sha256": "65b63fecb57503a2ea28a1cc7b416b622206b1d6e7e9a9e43f40f64d27601d06",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 497,
+      "ipo_status_anchor": {
+        "page": 38,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 293,
+        "quote": "추정 당기순이익      2026년     백만원              17,272              (B)"
+      },
+      "period_or_method": "2026~2027년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241010000504",
+      "issuer": "사이냅소프트",
+      "corp_code": "01207901",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000504",
+      "pdf_sha256": "d3b8e0025e92d9d808c40dc06be9e7a6e9149c8e7e949e3f7545e7669a8bf558",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "document_pages": 407,
+      "ipo_status_anchor": {
+        "page": 26,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 180,
+        "quote": "적용산식                   2024년 반기 LTM 기준 당기순이익 (①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2024년 반기 말 LTM 실적",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241016000097",
+      "issuer": "온코닉테라퓨틱스",
+      "corp_code": "01632912",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000097",
+      "pdf_sha256": "279f0d3c6d7fad8f8b04ca57dc7b2678c53e705bc190bce819b2d072af552e7f",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 452,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 199,
+        "quote": "동사의 주당 평가가액은 동사의 2027년 추정 주당순이익의 현가를 기준으로 PER를 적용하"
+      },
+      "period_or_method": "2027년 추정 주당순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241016000264",
+      "issuer": "온코크로스",
+      "corp_code": "01423916",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000264",
+      "pdf_sha256": "7b422b9798eb85dc238a8652f7513a4f432d6f86c7619c3fde4abb20233dcbbd",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 430,
+      "ipo_status_anchor": {
+        "page": 33,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 219,
+        "quote": "2027년 추정 순이익                         10,447 백만원       A (주1), (주2)"
+      },
+      "period_or_method": "2027~2028년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241018000518",
+      "issuer": "벡트로보틱스",
+      "corp_code": "01453944",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000518",
+      "pdf_sha256": "dd4c8537b9b8aec15dbb8bc136cbfc7411b2fbff255226e24d4456c9515b65fe",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "document_pages": 368,
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 156,
+        "quote": "적용산식      2024년 반기 LTM 기준 당기순이익 (①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2024년 반기 말 LTM 실적",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241104000352",
+      "issuer": "데이원컴퍼니",
+      "corp_code": "01455492",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000352",
+      "pdf_sha256": "ba55323ac9b699e28ef0c35482b6947d2d4d07a3a526b117fb640d907f483514",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 408,
+      "ipo_status_anchor": {
+        "page": 32,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 176,
+        "quote": "적용산식                    2024년 2분기 매출액의 연환산(①) x 유사기업 PSR(②) ÷ 주식수(③)"
+      },
+      "period_or_method": "2024년 2분기 매출 연환산 PSR",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241106000175",
+      "issuer": "아이지넷",
+      "corp_code": "01728167",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000175",
+      "pdf_sha256": "7126df8352d008e1fe0b123ba3a08b92b9e8b98dcedc507ae55f5352331972ff",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 487,
+      "ipo_status_anchor": {
+        "page": 23,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 217,
+        "quote": "2026년 추정 당기순이익을 회계기준일 및 공모시점을 고려하여 연 할인율 20.00%를 적용"
+      },
+      "period_or_method": "2026년 추정 당기순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241106000331",
+      "issuer": "아스테라시스",
+      "corp_code": "01590528",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000331",
+      "pdf_sha256": "96c81b5473185e182b386944b676f9acfeb02ad7a6a19746b908368fa1b466ed",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 392,
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 153,
+        "quote": "2024년 추정 당기순이익                        6,599 백만원            A (주1)"
+      },
+      "period_or_method": "2024년 추정 이익을 3분기말 현재가치로 할인",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241107000305",
+      "issuer": "엠앤씨솔루션",
+      "corp_code": "01519790",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000305",
+      "pdf_sha256": "ea9e6c2c2f1637de900562e7a6be18e478015c704efba741682aedec4453d590",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 487,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 198,
+        "quote": "적용산식                     {2024년 온기 추정 EBITDA(①) × 비교기업 평균 EV/EBITDA(②) - 순차입금(③)} ÷ 주식수(④) × {1-할인율(⑤)}"
+      },
+      "period_or_method": "온기 추정 EBITDA에 EV/EBITDA",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241108000555",
+      "issuer": "듀켐바이오",
+      "corp_code": "00867034",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000555",
+      "pdf_sha256": "1b6b3b5d3fd28ec256498ede24cef258f881faad61e07f2203eeb94feb655e81",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 522,
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 200,
+        "quote": "적용산식                   2024년 3분기 LTM 기준 매출액(①) x 유사기업 PSR(②) ÷ 적용주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2024년 3분기 LTM 매출 PSR",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241118000129",
+      "issuer": "삼양엔씨켐",
+      "corp_code": "00863533",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000129",
+      "pdf_sha256": "0a5ea91073e50f4afc0386d391c5c1945b63f4c4fab9b95145b2fccd075902f5",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 358,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 178,
+        "quote": "적용산식                    [{2024년도 3분기 연환산 EBITDA (①) × 비교회사 EV/EBITDA(②) - 순차입금(③)}÷ 주식수(④)] × {1-할인율(⑤)}"
+      },
+      "period_or_method": "2024년 3분기 연환산 EBITDA에 EV/EBITDA",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241118000273",
+      "issuer": "모티브링크",
+      "corp_code": "00367400",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000273",
+      "pdf_sha256": "d9bac816885dd8d9848d9dab2432420b214042fa65e1061128c84b4ec7a1b85f",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "document_pages": 344,
+      "ipo_status_anchor": {
+        "page": 28,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 152,
+        "quote": "적용 재무수치              실적치 (2024년 3분기 기준 연환산 지배기업지분 당기순이익)"
+      },
+      "period_or_method": "2024년 3분기 실적 연환산 지배기업 귀속",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    },
+    {
+      "receipt": "20241121000487",
+      "issuer": "와이즈넛",
+      "corp_code": "00351427",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241121000487",
+      "pdf_sha256": "e919e308076aaf73b8e14d77bbb15c3b4da6c467baf97167c8f70eea69671c76",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 508,
+      "ipo_status_anchor": {
+        "page": 28,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 198,
+        "quote": "2026년 추정 순이익                         18,569 백만원        A (주1) , (주2)"
+      },
+      "period_or_method": "2026년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": []
+    }
+  ]
+}

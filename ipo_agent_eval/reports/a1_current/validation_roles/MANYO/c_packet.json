@@ -1,0 +1,88 @@
+{
+  "issuer_evidence": [
+    {
+      "evidence_id": "E1",
+      "text": "기초 스킨케어와 클렌징을 주력으로 하는 화장품 브랜드이며 외부 OEM·ODM과 협력하여 생산한다."
+    },
+    {
+      "evidence_id": "E2",
+      "text": "2022년 앰플·세럼 36.72%, 클렌징 35.47%, 스킨케어 21.53%의 매출 비중을 기록했다."
+    },
+    {
+      "evidence_id": "E3",
+      "text": "2022년 연간 매출은 101,835,609,615원, 영업이익은 24,494,754,918원, 당기순이익은 17,297,237,363원이었다."
+    },
+    {
+      "evidence_id": "E4",
+      "text": "2022년 연결 자본은 지배기업 소유주에 귀속되며 비지배지분 표시액은 없다."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "C1",
+      "business": [
+        {
+          "evidence_id": "E5",
+          "text": "2022년 보습·기초 화장품은 매출의 96.0%였다. 화장품 원료와 건강기능식품도 취급했다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C2",
+      "business": [
+        {
+          "evidence_id": "E6",
+          "text": "2022년 화장품과 생활용품의 매출 비중은 각각 36%, 64%였다. 화장품 연구소, 생산공장, 물류센터를 직접 운영하며 국내외 온·오프라인에 판매한다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C3",
+      "business": [
+        {
+          "evidence_id": "E7",
+          "text": "2022년 매출은 포인트 메이크업 52%, 베이스 메이크업 26%, 스킨케어 19%였다. 온라인과 H&B 매장 등을 통해 판매하며 외부 OEM·ODM 업체에서 생산한다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C4",
+      "business": [
+        {
+          "evidence_id": "E8",
+          "text": "2022년 립틴트가 매출 43%, 아이섀도가 31%였고, 웨딩·리빙·앱 등 화장품 외 사업은 5%였다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C5",
+      "business": [
+        {
+          "evidence_id": "E9",
+          "text": "2022년 연결 매출 중 스킨케어는 47.37%, 메이크업은 14.26%, 기타제품은 25.92%였다. 반려동물 간식 등도 판매했다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C6",
+      "business": [
+        {
+          "evidence_id": "E10",
+          "text": "2022년 매출의 54.37%가 화장품, 15.71%가 라미네이팅 기계·필름, 25.02%가 음반·음원 기획이었다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    }
+  ]
+}

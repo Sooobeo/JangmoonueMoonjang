@@ -1,9 +1,10 @@
 import json
 
 import pytest
-
-from ipo_eval.runtime_v2 import RunV2
 from test_budget_v2 import state
+
+from ipo_eval import runtime_v2
+from ipo_eval.runtime_v2 import RunV2
 
 
 class FakeClient:
@@ -26,8 +27,8 @@ def runtime(tmp_path, result):
 
 
 def response(**updates):
-    return {**{"id": "SYNTHETIC", "model": "gpt-6.1-terra", "status": "completed",
-               "usage": {"input_tokens": 100, "output_tokens": 50}, "output": []}, **updates}
+    return {"id": "SYNTHETIC", "model": "gpt-6.1-terra", "status": "completed",
+               "usage": {"input_tokens": 100, "output_tokens": 50}, "output": [], **updates}
 
 
 @pytest.mark.parametrize("raw,code", [
@@ -54,6 +55,35 @@ def test_unknown_usage_is_never_reported_as_zero_total_cost(tmp_path):
     assert summary["estimated_cost_usd_standard_uncached"] is None
     assert len(run.client.calls) == 1
     assert "SECRET_SENTINEL" not in "".join(p.read_text(encoding="utf-8") for p in run.directory.glob("*"))
+
+
+def test_response_audit_write_failure_preserves_received_usage(tmp_path, monkeypatch):
+    run = runtime(tmp_path, response())
+    write = runtime_v2.write_json
+
+    def fail_response_file(path, value):
+        if path.name.endswith("_response.json"):
+            raise OSError("audit storage failed")
+        write(path, value)
+
+    monkeypatch.setattr(runtime_v2, "write_json", fail_response_file)
+    with pytest.raises(OSError, match="audit storage failed"):
+        run.request("probe", run.base_request([], 1000), "EXPLORING", 4000)
+    result = run.finish("FAILED")
+    assert (result["input_tokens"], result["output_tokens"]) == (100, 50)
+    assert result["known_usage_cost_usd_standard_uncached"] > 0
+    assert len(run.client.calls) == 1
+
+
+def test_deep_response_audit_path_round_trip(tmp_path):
+    directory = tmp_path / ("r" * 80)
+    directory.mkdir()
+    target = directory / ("s" * 145 + "_response.json")
+    try:
+        runtime_v2.write_json(target, {"ok": True})
+        assert json.loads(runtime_v2.audit_file(target).read_bytes()) == {"ok": True}
+    finally:
+        runtime_v2.audit_file(target).unlink(missing_ok=True)
 
 
 def test_original_usage_and_reasoning_items_are_retained(tmp_path):

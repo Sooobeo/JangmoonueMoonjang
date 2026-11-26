@@ -1,0 +1,667 @@
+{
+  "formal_TRIZ_eligible": false,
+  "regression_only": true,
+  "rows": [
+    {
+      "order": 1,
+      "role": "A0",
+      "variant": "original",
+      "legacy": "reports/a1_current/j2/runs/MELCON/triz/A0/20261126T021249Z_J2_A0_ITEM_a849ab91",
+      "legacy_error_sha256": "0bdaf0bfe06473c5c06a32e748135099d01c2a7de928c2adac6b75dd0bd9bc23",
+      "payload_sha256": "9115cfda0f79aeffc746062cf63136f28ec783364dbde21d8dce94ded7adf377",
+      "request_file_sha256": "801fa18b21da605e39e4558325979b2c739f7d513a66b10403eee46acb434954",
+      "request_wire_sha256": "b04401fe22a7f318f1fdb6c299d09b65c7218204a41bea06b1677fac81341719",
+      "actual_run_dir": "reports/a1_current/official/excerpt_feasibility/runs/A0/1/20261126T042034Z_J2_A0_ITEM_2aa5a35e",
+      "raw_response_id": "resp_00b3a979dabc91c7016b07b39692d487d091f989dcca250b7b",
+      "answer": {
+        "judgment": "수용",
+        "reason": "양사의 THC가 포토 전공정의 트랙에 적용되고, 고객군과 맞춤 제작 방식도 유사하다. 후보의 2026년 반기 매출에서 THC가 56.67%를 차지해 주요 사업의 비교 근거도 있다. 다만 발행사의 제품별 매출 구성과 후보의 공정별 매출 구성은 확인되지 않았다.",
+        "facts": [
+          {
+            "dimension": "제품",
+            "fact": "발행사는 THC와 XPS를 보유하며, 후보의 주요 환경제어 제품은 THC, FFU, TCU다.",
+            "evidence_refs": [
+              "E101",
+              "E121"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "발행사의 THC는 포토 전공정 트랙과 연계되며, 후보의 THC도 포토 전공정 트랙 장비에 설치돼 코팅·현상 단계에 제어된 공기를 공급한다. 발행사의 XPS는 노광 장비와 연계된다.",
+            "evidence_refs": [
+              "E101",
+              "E123"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "후보는 HBM 후공정의 트랙 설비에도 THC를 공급하고 성능을 검증한 뒤 관련 공정에 계속 공급했다. 발행사의 HBM 후공정 적용은 제시된 자료에서 확인되지 않는다.",
+            "evidence_refs": [
+              "E101",
+              "E124"
+            ]
+          },
+          {
+            "dimension": "매출 구성",
+            "fact": "후보의 2026년 반기 총매출 12,036백만원 중 THC 매출은 6,820백만원으로 56.67%다.",
+            "evidence_refs": [
+              "E121"
+            ]
+          },
+          {
+            "dimension": "고객",
+            "fact": "양사의 주요 고객은 반도체 제조사와 장비사다. 발행사는 공정 조건에 따라 맞춤 제작하고 장비 평가를 받으며, 후보는 주문 사양에 맞춰 설계·제작하고 평가 및 설치 후 납품한다.",
+            "evidence_refs": [
+              "E101",
+              "E122"
+            ]
+          }
+        ],
+        "open_conditions": [
+          "발행사의 THC·XPS 등 제품별 매출 구성",
+          "후보의 THC 매출 중 포토 전공정과 HBM 후공정 등 적용 공정별 비중",
+          "후보의 노광 장비 연계 제품 또는 적용 여부와 FFU·TCU의 매출 비중",
+          "발행사의 HBM 후공정 적용 여부"
+        ]
+      },
+      "summary": {
+        "run_id": "20261126T042034Z_J2_A0_ITEM_2aa5a35e",
+        "condition": "J2_A0_ITEM",
+        "mode": "LIVE",
+        "case_id": "MELCON-M04",
+        "repeat": 1,
+        "config_version": "current-j2-item-1",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 0,
+        "input_tokens": 602,
+        "output_tokens": 758,
+        "format_repairs": 0,
+        "elapsed_seconds": 14.582,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.004392,
+        "known_usage_cost_usd_standard_uncached": 0.004392,
+        "estimated_cost_krw_at_budget_fx": 6.15,
+        "cost_ceiling_usd": 0.004542,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.004542,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "actual_model_answer": true
+      },
+      "evidence_ids_checked": [
+        "E101",
+        "E121",
+        "E122",
+        "E123",
+        "E124"
+      ]
+    },
+    {
+      "order": 2,
+      "role": "A0",
+      "variant": "process_evidence_withheld",
+      "legacy": "reports/a1_current/j2/runs/MELCON/triz/A0/20261126T021252Z_J2_A0_ITEM_81a7d477",
+      "legacy_error_sha256": "05c192edb4ca30eaf7edb24dcd1296eb7710f330d2ebdef471906e3132c947c3",
+      "payload_sha256": "9ad720115d2186ea5308b64c10170005a81eed3dd18a1ad8c4b3b08824a581ef",
+      "request_file_sha256": "6f00f6976b15a13a2eb278a7ed72cdaecac4b6ff20b3dcb5b9619e8341d6c89b",
+      "request_wire_sha256": "b2d838243d05e5398bf3857c0206ca27d4c2c2fe9be5e31b5ecb3743832a7ad4",
+      "actual_run_dir": "reports/a1_current/official/excerpt_feasibility/runs/A0/2/20261126T042049Z_J2_A0_ITEM_50beac57",
+      "raw_response_id": "resp_0fa94a1d60b7889c016b07b3a20b0887d08cf8e95b793e0414",
+      "answer": {
+        "judgment": "미확인",
+        "reason": "양사는 THC 제품과 고객 유형에서 공통점이 있다. 다만 확인된 트랙 적용은 발행사의 포토 전공정과 후보의 HBM 후공정으로 서로 다르다. 트랙 설비라는 공통점만으로 동일 공정 적용을 인정하기 어렵고, 발행사의 매출 구성도 확인되지 않아 PER 비교 적합성을 확정할 수 없다.",
+        "facts": [
+          {
+            "dimension": "제품",
+            "fact": "발행사는 THC와 XPS를 보유하고, 후보의 주요 환경제어 제품은 THC, FFU, TCU다.",
+            "evidence_refs": [
+              "E101",
+              "E121"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "발행사의 THC는 포토 전공정 트랙에, XPS는 노광 장비에 연계된다. 후보는 HBM 후공정 트랙 설비에 THC를 공급하고 성능을 검증했다.",
+            "evidence_refs": [
+              "E101",
+              "E124"
+            ]
+          },
+          {
+            "dimension": "매출 구성",
+            "fact": "후보의 2026년 반기 THC 매출은 6,820백만원으로 총매출의 56.67%다.",
+            "evidence_refs": [
+              "E121"
+            ]
+          },
+          {
+            "dimension": "고객",
+            "fact": "양사의 주요 고객 유형은 반도체 제조사와 장비사다. 양사 모두 고객 또는 공정 조건에 맞춰 제작하고 평가를 받는다.",
+            "evidence_refs": [
+              "E101",
+              "E122"
+            ]
+          }
+        ],
+        "open_conditions": [
+          "후보의 THC가 포토 전공정 트랙에도 적용되는지 확인 필요",
+          "발행사의 제품별 매출 구성과 후보의 THC 적용 공정별 매출 구성 확인 필요"
+        ]
+      },
+      "summary": {
+        "run_id": "20261126T042049Z_J2_A0_ITEM_50beac57",
+        "condition": "J2_A0_ITEM",
+        "mode": "LIVE",
+        "case_id": "MELCON-M04",
+        "repeat": 1,
+        "config_version": "current-j2-item-1",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 0,
+        "input_tokens": 561,
+        "output_tokens": 816,
+        "format_repairs": 0,
+        "elapsed_seconds": 12.02,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.004641,
+        "known_usage_cost_usd_standard_uncached": 0.004641,
+        "estimated_cost_krw_at_budget_fx": 6.5,
+        "cost_ceiling_usd": 0.004781,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.004781,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "actual_model_answer": true
+      },
+      "evidence_ids_checked": [
+        "E101",
+        "E121",
+        "E122",
+        "E124"
+      ]
+    },
+    {
+      "order": 3,
+      "role": "A0",
+      "variant": "format_only",
+      "legacy": "reports/a1_current/j2/runs/MELCON/triz/A0/20261126T021253Z_J2_A0_ITEM_3d3ab146",
+      "legacy_error_sha256": "f3620bdb676924bdabaca45abebbe02152c0b98fb7303de6c00dc62196820536",
+      "payload_sha256": "497fdedcaf1407adb96a91957818c42d13ebf990c85c21cf4348b6f9ec5d8791",
+      "request_file_sha256": "0d1a7c63c1951bda9e6d9186e8614774264b1b42e4928fb36d864863aa654f4c",
+      "request_wire_sha256": "f8e098dbc78d228f2195c3f27d657637fdb5ae9c1fffbe698f748961891b2f1f",
+      "actual_run_dir": "reports/a1_current/official/excerpt_feasibility/runs/A0/3/20261126T042103Z_J2_A0_ITEM_19ae4844",
+      "raw_response_id": "resp_0fe50cbacc7e3064016b07b3af239887d08c24669b4da99503",
+      "answer": {
+        "judgment": "수용",
+        "reason": "양사 모두 THC의 포토 전공정 트랙 적용과 반도체 제조사·장비사 대상 맞춤 제작이 확인돼 사업 구조상 PER 비교 후보로 수용할 수 있다. 다만 발행사의 매출 구성과 후보의 XPS 대응 제품은 확인되지 않아 비교의 한계가 있다.",
+        "facts": [
+          {
+            "dimension": "제품",
+            "fact": "발행사는 THC와 XPS를 보유하고, 후보의 주요 환경제어 제품은 THC·FFU·TCU다. 후보 THC는 코팅·현상 단계에 제어된 공기를 공급한다.",
+            "evidence_refs": [
+              "E101",
+              "E121",
+              "E123"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "발행사의 THC는 포토 전공정 트랙에, 후보의 THC도 포토 전공정 트랙 장비에 적용된다. 후보는 별도로 HBM 후공정 트랙 설비에도 THC를 공급했다.",
+            "evidence_refs": [
+              "E101",
+              "E123",
+              "E124"
+            ]
+          },
+          {
+            "dimension": "매출 구성",
+            "fact": "후보의 2026년 반기 총매출 중 THC 비중은 56.67%다.",
+            "evidence_refs": [
+              "E121"
+            ]
+          },
+          {
+            "dimension": "고객",
+            "fact": "양사의 주요 고객은 반도체 제조사와 장비사다. 양사 모두 고객 요구나 공정 조건에 맞춰 제작하고 평가를 받는다.",
+            "evidence_refs": [
+              "E101",
+              "E122"
+            ]
+          }
+        ],
+        "open_conditions": [
+          "발행사의 제품별 매출 비중은 확인되지 않았다.",
+          "발행사의 HBM 후공정 적용 여부와 후보의 XPS 대응 제품·노광 장비 적용 여부는 확인되지 않았다.",
+          "발행사 THC의 구체적인 공기 공급 기능은 제공 자료에서 확인되지 않았다."
+        ]
+      },
+      "summary": {
+        "run_id": "20261126T042103Z_J2_A0_ITEM_19ae4844",
+        "condition": "J2_A0_ITEM",
+        "mode": "LIVE",
+        "case_id": "MELCON-M04",
+        "repeat": 1,
+        "config_version": "current-j2-item-1",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 0,
+        "input_tokens": 602,
+        "output_tokens": 472,
+        "format_repairs": 0,
+        "elapsed_seconds": 6.661,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.002962,
+        "known_usage_cost_usd_standard_uncached": 0.002962,
+        "estimated_cost_krw_at_budget_fx": 4.15,
+        "cost_ceiling_usd": 0.003113,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.003113,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "actual_model_answer": true
+      },
+      "evidence_ids_checked": [
+        "E101",
+        "E121",
+        "E122",
+        "E123",
+        "E124"
+      ]
+    },
+    {
+      "order": 1,
+      "role": "C",
+      "variant": "format_only",
+      "legacy": "reports/a1_current/j2/runs/MELCON/triz/C/20261126T021249Z_J2_C_ITEM_6005b983",
+      "legacy_error_sha256": "0dd7eb52efa475a6c326ac40d3d8c7ea887cd96c31a6ca8600df5460b6db2613",
+      "payload_sha256": "497fdedcaf1407adb96a91957818c42d13ebf990c85c21cf4348b6f9ec5d8791",
+      "request_file_sha256": "0d1a7c63c1951bda9e6d9186e8614774264b1b42e4928fb36d864863aa654f4c",
+      "request_wire_sha256": "f8e098dbc78d228f2195c3f27d657637fdb5ae9c1fffbe698f748961891b2f1f",
+      "actual_run_dir": "reports/a1_current/official/excerpt_feasibility/runs/C/1/20261126T042034Z_J2_C_ITEM_8f835ce1",
+      "raw_response_id": "resp_055b7ceb0e53acaf016b07b396406087d08864d6ba7977090d",
+      "answer": {
+        "judgment": "수용",
+        "reason": "양사는 THC가 포토 전공정의 트랙에 적용되고, 반도체 제조사와 장비사를 고객으로 하는 점에서 비교 가능성이 있다. 다만 발행사의 매출 구성과 후보의 HBM 후공정 공급 비중은 확인되지 않아 사업 구조의 차이를 완전히 평가할 수 없다.",
+        "facts": [
+          {
+            "dimension": "제품",
+            "fact": "후보의 주요 환경제어 제품은 THC, FFU, TCU다. 후보의 THC는 코팅 및 현상 단계에 제어된 공기를 공급한다.",
+            "evidence_refs": [
+              "E121",
+              "E123"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "발행사의 THC와 후보의 THC는 각각 포토 전공정의 트랙에 적용된다. 발행사의 XPS는 노광 장비와 연계된다.",
+            "evidence_refs": [
+              "E101",
+              "E123"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "후보는 HBM 후공정의 트랙 설비에도 THC를 공급해 성능을 검증하고 이후 관련 공정에 계속 공급했다.",
+            "evidence_refs": [
+              "E124"
+            ]
+          },
+          {
+            "dimension": "매출 구성",
+            "fact": "후보의 2026년 반기 총매출은 12,036백만원이며, 이 중 THC는 6,820백만원으로 56.67%다.",
+            "evidence_refs": [
+              "E121"
+            ]
+          },
+          {
+            "dimension": "고객",
+            "fact": "양사의 주요 고객은 반도체 제조사와 장비사다. 양사 모두 사양 또는 공정 조건에 맞춰 제작하고 평가를 받는다.",
+            "evidence_refs": [
+              "E101",
+              "E122"
+            ]
+          }
+        ],
+        "open_conditions": [
+          "발행사의 제품별·공정별 매출 구성은 확인되지 않았다.",
+          "후보의 THC 매출 중 포토 전공정과 HBM 후공정의 비중은 확인되지 않았다.",
+          "발행사의 HBM 후공정 적용 여부와 후보의 XPS 취급 여부는 확인되지 않았다."
+        ]
+      },
+      "summary": {
+        "run_id": "20261126T042034Z_J2_C_ITEM_8f835ce1",
+        "condition": "J2_C_ITEM",
+        "mode": "LIVE",
+        "case_id": "MELCON-M04",
+        "repeat": 1,
+        "config_version": "current-j2-item-1",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 0,
+        "input_tokens": 602,
+        "output_tokens": 707,
+        "format_repairs": 0,
+        "elapsed_seconds": 13.679,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.004137,
+        "known_usage_cost_usd_standard_uncached": 0.004137,
+        "estimated_cost_krw_at_budget_fx": 5.79,
+        "cost_ceiling_usd": 0.004287,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.004287,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "actual_model_answer": true
+      },
+      "evidence_ids_checked": [
+        "E101",
+        "E121",
+        "E122",
+        "E123",
+        "E124"
+      ]
+    },
+    {
+      "order": 2,
+      "role": "C",
+      "variant": "process_evidence_withheld",
+      "legacy": "reports/a1_current/j2/runs/MELCON/triz/C/20261126T021251Z_J2_C_ITEM_85ae21bf",
+      "legacy_error_sha256": "70f28db05b4961ec1a32bfba57ea053fb7fc69d25f83fdcfd5f219074bd1c7f0",
+      "payload_sha256": "9ad720115d2186ea5308b64c10170005a81eed3dd18a1ad8c4b3b08824a581ef",
+      "request_file_sha256": "6f00f6976b15a13a2eb278a7ed72cdaecac4b6ff20b3dcb5b9619e8341d6c89b",
+      "request_wire_sha256": "b2d838243d05e5398bf3857c0206ca27d4c2c2fe9be5e31b5ecb3743832a7ad4",
+      "actual_run_dir": "reports/a1_current/official/excerpt_feasibility/runs/C/2/20261126T042049Z_J2_C_ITEM_9465b3e4",
+      "raw_response_id": "resp_025d9e867b39254a016b07b3a1595c87d0a12c6b066555841d",
+      "answer": {
+        "judgment": "수용",
+        "reason": "THC 제품, 반도체 제조사·장비사 고객, 주문 사양에 따른 제작 방식이 유사해 사업 구조 측면에서 제한적으로 수용할 수 있다. 다만 확인된 트랙 적용은 발행사의 포토 전공정과 후보의 HBM 후공정으로 달라 동일 공정 적용이 확인된 것은 아니다.",
+        "facts": [
+          {
+            "dimension": "제품",
+            "fact": "발행사는 THC와 XPS를 보유하며, 후보의 주요 환경제어 제품은 THC, FFU, TCU다.",
+            "evidence_refs": [
+              "E101",
+              "E121"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "발행사 THC는 포토 전공정 트랙과 연계되며, 후보는 HBM 후공정 트랙에 THC를 공급해 성능을 검증하고 이후 관련 공정에 계속 공급했다.",
+            "evidence_refs": [
+              "E101",
+              "E124"
+            ]
+          },
+          {
+            "dimension": "매출 구성",
+            "fact": "후보의 2026년 반기 총매출 12,036백만원 중 THC 매출은 6,820백만원으로 56.67%다.",
+            "evidence_refs": [
+              "E121"
+            ]
+          },
+          {
+            "dimension": "고객",
+            "fact": "양사의 주요 고객은 반도체 제조사와 장비사다.",
+            "evidence_refs": [
+              "E101",
+              "E122"
+            ]
+          },
+          {
+            "dimension": "기타",
+            "fact": "발행사는 공정 조건에 따라 맞춤 제작하고 장비를 평가받으며, 후보는 주문 사양에 맞춰 설계·제작하고 평가 및 설치 후 납품한다.",
+            "evidence_refs": [
+              "E101",
+              "E122"
+            ]
+          }
+        ],
+        "open_conditions": [
+          "발행사의 제품별 매출 구성과 THC의 매출 비중 확인",
+          "후보의 포토 전공정 및 발행사의 HBM 후공정 적용 여부 확인",
+          "양사의 적용 공정 차이가 수익성과 PER 비교에 미치는 영향 확인"
+        ]
+      },
+      "summary": {
+        "run_id": "20261126T042049Z_J2_C_ITEM_9465b3e4",
+        "condition": "J2_C_ITEM",
+        "mode": "LIVE",
+        "case_id": "MELCON-M04",
+        "repeat": 1,
+        "config_version": "current-j2-item-1",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 0,
+        "input_tokens": 561,
+        "output_tokens": 929,
+        "format_repairs": 0,
+        "elapsed_seconds": 11.945,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.005206,
+        "known_usage_cost_usd_standard_uncached": 0.005206,
+        "estimated_cost_krw_at_budget_fx": 7.29,
+        "cost_ceiling_usd": 0.005346,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.005346,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "actual_model_answer": true
+      },
+      "evidence_ids_checked": [
+        "E101",
+        "E121",
+        "E122",
+        "E124"
+      ]
+    },
+    {
+      "order": 3,
+      "role": "C",
+      "variant": "original",
+      "legacy": "reports/a1_current/j2/runs/MELCON/triz/C/20261126T021252Z_J2_C_ITEM_02a09ab9",
+      "legacy_error_sha256": "d820cdcc5fa880d3b5105c1444644d9f2499b3aed258d9397daa0536bc7f4ed6",
+      "payload_sha256": "9115cfda0f79aeffc746062cf63136f28ec783364dbde21d8dce94ded7adf377",
+      "request_file_sha256": "801fa18b21da605e39e4558325979b2c739f7d513a66b10403eee46acb434954",
+      "request_wire_sha256": "b04401fe22a7f318f1fdb6c299d09b65c7218204a41bea06b1677fac81341719",
+      "actual_run_dir": "reports/a1_current/official/excerpt_feasibility/runs/C/3/20261126T042102Z_J2_C_ITEM_01703231",
+      "raw_response_id": "resp_0df6645032a157f4016b07b3ae689c87d0930b4bb7b60ff55e",
+      "answer": {
+        "judgment": "수용",
+        "reason": "양사 모두 THC를 포토 전공정의 트랙 장비에 적용하고, 반도체 제조사와 장비사를 고객으로 하여 맞춤 제작한다. 후보의 THC는 2026년 반기 매출의 56.67%를 차지해 비교 제품으로서 비중도 크다. 다만 발행사의 매출 구성과 후보의 노광 장비 연계 제품 여부는 확인이 필요하다.",
+        "facts": [
+          {
+            "dimension": "제품",
+            "fact": "발행사는 THC와 XPS를 보유하며, 후보의 주요 환경제어 제품은 THC, FFU, TCU다.",
+            "evidence_refs": [
+              "E101",
+              "E121"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "발행사의 THC는 포토 전공정의 트랙과 연계된다. 후보의 THC는 포토 전공정 트랙 장비에 설치되어 코팅 및 현상 단계에 제어된 공기를 공급한다.",
+            "evidence_refs": [
+              "E101",
+              "E123"
+            ]
+          },
+          {
+            "dimension": "적용 공정",
+            "fact": "발행사의 XPS는 노광 장비와 연계된다. 후보는 HBM 후공정의 트랙 설비에 THC를 공급해 성능을 검증했고 이후 관련 공정에 계속 공급했다.",
+            "evidence_refs": [
+              "E101",
+              "E124"
+            ]
+          },
+          {
+            "dimension": "매출 구성",
+            "fact": "후보의 2026년 반기 총매출 12,036백만원 중 THC 매출은 6,820백만원으로 56.67%다.",
+            "evidence_refs": [
+              "E121"
+            ]
+          },
+          {
+            "dimension": "고객",
+            "fact": "양사의 주요 고객은 반도체 제조사와 장비사다. 발행사는 공정 조건에 따라 맞춤 제작하고 장비를 평가받으며, 후보는 주문 사양에 맞춰 설계·제작하고 평가 및 설치 후 납품한다.",
+            "evidence_refs": [
+              "E101",
+              "E122"
+            ]
+          }
+        ],
+        "open_conditions": [
+          "발행사 THC가 후보처럼 코팅 및 현상 단계에 적용되는지는 확인되지 않았다.",
+          "발행사의 제품별 매출 구성과 후보의 노광 장비 연계 제품 여부를 확인할 필요가 있다.",
+          "후보의 HBM 후공정 관련 매출 비중은 확인되지 않았다."
+        ]
+      },
+      "summary": {
+        "run_id": "20261126T042102Z_J2_C_ITEM_01703231",
+        "condition": "J2_C_ITEM",
+        "mode": "LIVE",
+        "case_id": "MELCON-M04",
+        "repeat": 1,
+        "config_version": "current-j2-item-1",
+        "contract_versions": [
+          "extraction_v2",
+          "review_v2"
+        ],
+        "execution_status": "SUBMITTED",
+        "model": "gpt-6.1-terra",
+        "returned_models": [
+          "gpt-6.1-terra"
+        ],
+        "model_calls": 1,
+        "tool_calls": 0,
+        "input_tokens": 602,
+        "output_tokens": 746,
+        "format_repairs": 0,
+        "elapsed_seconds": 9.492,
+        "usage_unknown": false,
+        "estimated_cost_usd_standard_uncached": 0.004332,
+        "known_usage_cost_usd_standard_uncached": 0.004332,
+        "estimated_cost_krw_at_budget_fx": 6.06,
+        "cost_ceiling_usd": 0.004482,
+        "transient_retries": 0,
+        "unknown_usage_reservation": {
+          "input_tokens_estimated": 0,
+          "output_tokens_max": 0,
+          "cost_ceiling_usd": 0.0,
+          "attempts": []
+        },
+        "accounted_cost_ceiling_usd": 0.004482,
+        "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+        "actual_model_answer": true
+      },
+      "evidence_ids_checked": [
+        "E101",
+        "E121",
+        "E122",
+        "E123",
+        "E124"
+      ]
+    }
+  ],
+  "observed_standalone": {
+    "A0": {
+      "full_official_original_state": "미확인",
+      "standalone_original": "수용",
+      "matches_full_original": false,
+      "format_only": "수용",
+      "after_removal": "미확인",
+      "format_preserves_judgment_and_process_citation": true,
+      "after_removal_candidate_photo_process_now_requires_evidence": true
+    },
+    "C": {
+      "full_official_original_state": "수용",
+      "standalone_original": "수용",
+      "matches_full_original": true,
+      "format_only": "수용",
+      "after_removal": "수용",
+      "format_preserves_judgment_and_process_citation": true,
+      "after_removal_candidate_photo_process_now_requires_evidence": true
+    }
+  },
+  "unchanged_source_full_labels_sha256": "5ed7ff8a475d4500486262de40597d7eb223e8fc0b015037b7a5d227f85fc1dc",
+  "interpretation": "A0 moved from its full-filing unknown to acceptance on the isolated excerpt; C reproduced acceptance. Both maintained judgment and the process citation after reordering. Removing E123 caused both roles to request evidence for candidate photolithography application. A0 changed overall judgment to unknown, while C conditionally retained acceptance on other evidence.",
+  "summary": {
+    "valid_answers": 6,
+    "observed_parallel_span_seconds": 37.331,
+    "calls": 6,
+    "known_standard_uncached_usd_estimate": 0.02567,
+    "input_tokens": 3530,
+    "output_tokens": 4428,
+    "cumulative_seconds": 68.379
+  },
+  "three_reviews": [
+    "Checked six archived 429 files, order, user packets, schema, prompt and exact complete request hashes before new calls.",
+    "Validated actual provider responses against frozen schema and every cited ID against the corresponding sent packet.",
+    "Checked independent response IDs and usage against raw records, preserved all original failure files and official label/rank paths."
+  ]
+}

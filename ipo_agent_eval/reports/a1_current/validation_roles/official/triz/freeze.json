@@ -1,0 +1,1026 @@
+{
+  "base_labels_sha256": "a67fe919fb32951b0ddc539d77b41e274e40aa59e10e996ba6847c5ceea27f20",
+  "rules_sha256": "35476f5c7e133d05de6ddca588052f85d97cfd50ab0df5b708453d734d6ab5dc",
+  "eligibility": {
+    "GIGAVIS-01": {
+      "eligible": true,
+      "common_proposition": "발행사 적용 이익의 기간은 2022년 온기다.",
+      "a0_ground": "발행사와 비교기업의 2022년 온기 이익을 사용했으며, 발행사 이익에는 별도 조정이 적용됐다.",
+      "c_ground": "발행사의 가장 최근 완결 연간 자료로 2022년 개별 재무제표를 사용한다.",
+      "counterevidence": "2020·2021년 비교 수치는 재작성되어 감사받지 않았고, 발행사 적용 이익에는 주식보상비용이 가산됐다.",
+      "resolution_or_limit": "이 한계들은 발행사 이익의 2022년 온기라는 공통 기간을 뒤집지 않는다. 비교기업의 기간 일치나 이익 조정의 적절성까지 공통 판단으로 확장하지 않는다.",
+      "neutral_question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+      "screen_hash": "1a316aaf28d849b6039ebf8cf24b79294caf2bf70ff64166cf9499288fc1f1b7",
+      "screen_run": "reports/a1_current/live/GIGAVIS/OFFICIAL_ALIGNMENT_GIGAVIS-01/1225b87d46f5b6e6/20261126T040723Z_OFFICIAL_ALIGNMENT_GIGAVIS-01_bf4a5c96"
+    },
+    "GIGAVIS-02": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-03": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-04": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-05": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-06": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-07": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-08": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-09": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-10": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-11": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "GIGAVIS-12": {
+      "eligible": true,
+      "common_proposition": "후보는 반도체 패키지 외관검사장비를 판매하고, 발행사는 반도체 패키지 기판의 회로패턴을 검사하는 광학장비를 판매한다. 두 판단은 이 좁은 사업상 접점에 근거한다.",
+      "a0_ground": "광학검사와 FC-BGA용 기판 검사라는 공통점을 수용 근거로 삼았다.",
+      "c_ground": "반도체 패키지 등 외관검사장비의 매출 비중을 발행사의 패키지 기판 광학검사 사업과의 유사성 근거로 삼았다.",
+      "counterevidence": "후보의 외관검사와 발행사의 기판 내층 회로검사는 차이가 있다. 후보는 플립칩, 디스플레이 및 이차전지 관련 장비도 판매한다.",
+      "resolution_or_limit": "원문은 검사 대상과 사업 혼합의 차이를 확인한다. 따라서 공통 사실은 패키지 관련 검사장비 사업의 접점으로 한정하며, 전체 사업이나 배수의 비교적격성을 뜻하지 않는다. C 출처만으로 후보의 FC-BGA용 장비나 후보 장비의 광학기술 사용은 확인하지 않는다.",
+      "neutral_question": "발행사와 후보의 검사장비 사업에 직접 겹치는 적용 대상이 확인되는가? 차이와 한계를 함께 검토하라.",
+      "screen_hash": "62c4ac790bfd481e2609db03d1cc838945addb9418d25ae7949174005ddfa798",
+      "screen_run": "reports/a1_current/live/GIGAVIS/OFFICIAL_ALIGNMENT_GIGAVIS-12/511d12001a40ec73/20261126T040723Z_OFFICIAL_ALIGNMENT_GIGAVIS-12_5c97a4f3"
+    },
+    "TRUEN-01": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-02": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-03": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-04": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-05": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-06": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-07": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-08": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-09": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "TRUEN-10": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-01": {
+      "eligible": true,
+      "common_proposition": "발행사의 2022년 연간 실제 당기순이익을 적용 이익의 기간으로 검토한다.",
+      "a0_ground": "2022년 당기순이익을 적용했고, 유사회사의 실적 기준 PER도 2022년 이익을 사용했다.",
+      "c_ground": "2022년 연간 당기순이익을 최신 완료 회계연도 이익의 잠정 기준으로 제안했다.",
+      "counterevidence": "C의 자료만으로는 평가 기준일과 2022년 이후 완료된 회계연도의 존재 여부를 확인할 수 없다.",
+      "resolution_or_limit": "공통 검사는 2022년 연간 실제 당기순이익으로 한정한다. C가 제안한 최신 완료 회계연도인지 여부는 확정하지 않는다.",
+      "neutral_question": "발행사에 적용할 이익의 기간은 무엇인가?",
+      "screen_hash": "3c695c382a54a8ceac02a55022a022f896027e91f11f162a83a972b718eeb1c6",
+      "screen_run": "reports/a1_current/live/MANYO/OFFICIAL_ALIGNMENT_MANYO-01/6b3be19b495cfa8c/20261126T040723Z_OFFICIAL_ALIGNMENT_MANYO-01_ffd91fd9"
+    },
+    "MANYO-02": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-03": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-04": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-05": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-06": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-07": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-08": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-09": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-10": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-11": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "MANYO-12": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-01": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-02": {
+      "eligible": true,
+      "common_proposition": "발행사 이익의 귀속 범위를 지배기업 소유주 기준으로 살펴볼 수 있다.",
+      "a0_ground": "발행사 평가에 지배주주 당기순이익을 기초로 사용했다. 2022년 금액에는 파생상품평가손실을 가산했다.",
+      "c_ground": "지배기업 소유주 귀속 순이익을 제안했고, 연결포괄손익계산서의 별도 귀속 표기를 확인했다.",
+      "counterevidence": "C 자료에는 지배기업 소유주 귀속 금액이 제공되지 않는다. 또한 A의 2022년 적용 이익은 귀속 순이익에 조정을 가한 금액이다.",
+      "resolution_or_limit": "금액의 일치나 비교기업까지 포함한 귀속 범위의 일치는 확인할 수 없다. 검사는 발행사 이익의 귀속 기준에 관한 방향으로 한정한다.",
+      "neutral_question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+      "screen_hash": "1a7eabe62779b4f4aabf0871963f786e937d3a37010dc75c7182d95b2da3caf6",
+      "screen_run": "reports/a1_current/live/PHILENERGY/OFFICIAL_ALIGNMENT_PHILENERGY-02/1ffc319a15141e47/20261126T040723Z_OFFICIAL_ALIGNMENT_PHILENERGY-02_97c8f9e3"
+    },
+    "PHILENERGY-03": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-04": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-05": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-06": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-07": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-08": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-09": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-10": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    },
+    "PHILENERGY-11": {
+      "eligible": false,
+      "reason": "역할 양측의 비교 가능한 수용 합의가 없음."
+    }
+  },
+  "tasks": [
+    {
+      "item": "MANYO-01",
+      "case": "MANYO",
+      "role": "A0",
+      "form": "directional",
+      "payload_hash": "374d1077278b7ec209c2455fd7834192f7ff8bef50855ffda17fe89330da2be0",
+      "pivots": [
+        "F2",
+        "F3"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    },
+    {
+      "item": "GIGAVIS-01",
+      "case": "GIGAVIS",
+      "role": "A0",
+      "form": "format",
+      "payload_hash": "3111f944ab0fa8aeacfc9d3c367ccb24bb239bc28a1f71ed460462c7ceed03cf",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "PHILENERGY-02",
+      "case": "PHILENERGY",
+      "role": "C",
+      "form": "format",
+      "payload_hash": "5f9c844b1d2531ebfca08d84e578349039cb59d426f860f72d410f263f75c715",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "GIGAVIS-12",
+      "case": "GIGAVIS",
+      "role": "C",
+      "form": "format",
+      "payload_hash": "a7ce38cc18488ac988fdd62fbce1e44ff89718755b16736c3ed958f6506076b5",
+      "pivots": [
+        "F3",
+        "F4"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "PHILENERGY-02",
+      "case": "PHILENERGY",
+      "role": "A0",
+      "form": "original",
+      "payload_hash": "55b35e6588c6e15a332a7728430f4d1afcf7fc32deedcb3e3a47d5d1d12638ff",
+      "pivots": [
+        "F2",
+        "F3"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "GIGAVIS-01",
+      "case": "GIGAVIS",
+      "role": "C",
+      "form": "format",
+      "payload_hash": "6c90ed196b9db35a3cb581de2955a8a7dc1a9e6c258d1b37532837507f1dcf12",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "GIGAVIS-01",
+      "case": "GIGAVIS",
+      "role": "A0",
+      "form": "directional",
+      "payload_hash": "c74498fbec0c83e1e76500307c9e407b1a0a725b535112d0409df63adf596a6e",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    },
+    {
+      "item": "GIGAVIS-12",
+      "case": "GIGAVIS",
+      "role": "C",
+      "form": "original",
+      "payload_hash": "0be5d47b29d2e3c3f4da19540faf7c4f49e4f1a9c21044a9ae4252ff71b916d5",
+      "pivots": [
+        "F3",
+        "F4"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "GIGAVIS-12",
+      "case": "GIGAVIS",
+      "role": "A0",
+      "form": "original",
+      "payload_hash": "4b3f895350ca1a8b68848bde4e15fcb6fc4f0a2b87f7100852171e2efbd64992",
+      "pivots": [
+        "F3",
+        "F4"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "MANYO-01",
+      "case": "MANYO",
+      "role": "C",
+      "form": "format",
+      "payload_hash": "09329c3e92100d8af00c8bd8e41127540f8bb861939ab5118ddc065f5feb1bb7",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "PHILENERGY-02",
+      "case": "PHILENERGY",
+      "role": "C",
+      "form": "directional",
+      "payload_hash": "19b77ec9fe0e016f0b708061d6355a90c1525aed5877957c3e4ec78d85518e29",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    },
+    {
+      "item": "GIGAVIS-01",
+      "case": "GIGAVIS",
+      "role": "A0",
+      "form": "original",
+      "payload_hash": "9a26413bdbc2ffb7b470253be77ed9417cbd631e3b1e7352ea0b02535858f369",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "GIGAVIS-01",
+      "case": "GIGAVIS",
+      "role": "C",
+      "form": "directional",
+      "payload_hash": "aab0d086e79c4ca6e535f0bc2761034f9e42c846bef505d0e0ce8b322ed03ae2",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    },
+    {
+      "item": "MANYO-01",
+      "case": "MANYO",
+      "role": "C",
+      "form": "directional",
+      "payload_hash": "e9d3b8ffa245ca711be8f80fcbd8493bdcdbdcdcfcd600f68655afcaa6de93da",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    },
+    {
+      "item": "MANYO-01",
+      "case": "MANYO",
+      "role": "A0",
+      "form": "original",
+      "payload_hash": "195276933e2c383fec13aaae098a24e60ee55c091526c408c539b7354b240b5d",
+      "pivots": [
+        "F2",
+        "F3"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "MANYO-01",
+      "case": "MANYO",
+      "role": "C",
+      "form": "original",
+      "payload_hash": "6dc7d88559e38019a26be373c67f9b97a4aadabd5b5543783bf59ddb4afb14b3",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "PHILENERGY-02",
+      "case": "PHILENERGY",
+      "role": "A0",
+      "form": "directional",
+      "payload_hash": "0bf7b05693df63db1b33d9155c7eea790f5bbec542044e090ebc7c2b78addd32",
+      "pivots": [
+        "F2",
+        "F3"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    },
+    {
+      "item": "GIGAVIS-12",
+      "case": "GIGAVIS",
+      "role": "A0",
+      "form": "format",
+      "payload_hash": "1437f86581911029e3653bb4a528af57b14ac4a6ef455b56c585414f5626348d",
+      "pivots": [
+        "F3",
+        "F4"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "GIGAVIS-12",
+      "case": "GIGAVIS",
+      "role": "C",
+      "form": "directional",
+      "payload_hash": "6ed700eae36a575288a51af8fbbdc632fa56f645ff28221de083b23919c6ef66",
+      "pivots": [
+        "F3",
+        "F4"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    },
+    {
+      "item": "GIGAVIS-01",
+      "case": "GIGAVIS",
+      "role": "C",
+      "form": "original",
+      "payload_hash": "cbe1d3678aa3387c21a8c435d45b1277a61d41aa4b0029d0094178a64c7a15c2",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "PHILENERGY-02",
+      "case": "PHILENERGY",
+      "role": "C",
+      "form": "original",
+      "payload_hash": "6e1200e7590d2a790a379bf44f43fb5489982487e8ddfe373ff502821f19ee39",
+      "pivots": [
+        "F2"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "MANYO-01",
+      "case": "MANYO",
+      "role": "A0",
+      "form": "format",
+      "payload_hash": "ad9da4e1f619924fd5aec89ba5c26a6c4a5a52e5984411c902768e14629f04f7",
+      "pivots": [
+        "F2",
+        "F3"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "PHILENERGY-02",
+      "case": "PHILENERGY",
+      "role": "A0",
+      "form": "format",
+      "payload_hash": "c5b91c04b9179304ae3cdc41fd3ad7e548585cc0d2a7ada9e192b121f3ea457b",
+      "pivots": [
+        "F2",
+        "F3"
+      ],
+      "expected_support": "proven",
+      "expected_decision": "수용"
+    },
+    {
+      "item": "GIGAVIS-12",
+      "case": "GIGAVIS",
+      "role": "A0",
+      "form": "directional",
+      "payload_hash": "5916a470bce08f7f05f73a6b78ad5a9cf07129e3201deea65c65820562ce6064",
+      "pivots": [
+        "F3",
+        "F4"
+      ],
+      "expected_support": "unknown",
+      "expected_decision": "미확인"
+    }
+  ],
+  "materials": {
+    "GIGAVIS-01": {
+      "A0": {
+        "original": {
+          "question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+          "issuer": "기가비스",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "PER(주가수익비율)는 특정주식의 주당 시가를 주당 순이익(EPS)으로 나눈 수치로, 주가가 1주당 수\n익의 몇 배인지를 나타내는 비율입니다."
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "PER을 적용한 상대가치는 공시된 감사보고서 및 사업보고서 상의 재무수치를 기준으로 산출한 비교\n회사의 2022년 온기 당기순이익(지배지분)을 바탕으로 산출된 PER을 동사의 2022년 온기 당기순이\n익에 적용하였습니다."
+            },
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "이는 현금의 유출이 없는 회계적이며 비경상적인 비용이기 때문에 이를 당기순이익에 가산하여 적\n용하였습니다."
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+          "issuer": "기가비스",
+          "evidence": [
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "이는 현금의 유출이 없는 회계적이며 비경상적인 비용이기 때문에 이를 당기순이익에 가산하여 적\n용하였습니다."
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "PER을 적용한 상대가치는 공시된 감사보고서 및 사업보고서 상의 재무수치를 기준으로 산출한 비교\n회사의 2022년 온기 당기순이익(지배지분)을 바탕으로 산출된 PER을 동사의 2022년 온기 당기순이\n익에 적용하였습니다."
+            },
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "PER(주가수익비율)는 특정주식의 주당 시가를 주당 순이익(EPS)으로 나눈 수치로, 주가가 1주당 수\n익의 몇 배인지를 나타내는 비율입니다."
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+          "issuer": "기가비스",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "PER(주가수익비율)는 특정주식의 주당 시가를 주당 순이익(EPS)으로 나눈 수치로, 주가가 1주당 수\n익의 몇 배인지를 나타내는 비율입니다."
+            },
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "이는 현금의 유출이 없는 회계적이며 비경상적인 비용이기 때문에 이를 당기순이익에 가산하여 적\n용하였습니다."
+            }
+          ]
+        }
+      },
+      "C": {
+        "original": {
+          "question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비와 불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+            },
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "2022년 K-IFRS 개별 연간 재무제표가 있다."
+            },
+            {
+              "id": "F3",
+              "subject": "발행사 자료",
+              "text": "연결 요약재무정보는 해당사항이 없으며"
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+          "evidence": [
+            {
+              "id": "F3",
+              "subject": "발행사 자료",
+              "text": "연결 요약재무정보는 해당사항이 없으며"
+            },
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "2022년 K-IFRS 개별 연간 재무제표가 있다."
+            },
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비와 불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비와 불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+            },
+            {
+              "id": "F3",
+              "subject": "발행사 자료",
+              "text": "연결 요약재무정보는 해당사항이 없으며"
+            }
+          ]
+        }
+      }
+    },
+    "GIGAVIS-12": {
+      "A0": {
+        "original": {
+          "question": "발행사와 후보의 검사장비 사업에 직접 겹치는 적용 대상이 확인되는가? 차이와 한계를 함께 검토하라.",
+          "issuer": "기가비스",
+          "candidate": "인텍플러스",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "동사는 CD(Critical Dimension) 측정 기술을 활용한 광학 검사 기술을 기반으로하여 FC-\nBGA 등 고부가가치 반도체 기판의 내층 회로 및 선폭(Line and Space)를 검사하고, 검출된\n불량을 직접 수정하는 반도체 기판 검사/수정 장비를 제조하고 있습니다."
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "기가비스는 반도체 기판 내층의\n회로와 선폭을 검사한다는 측면에서 기술적 차이점을 보이고 있습니다."
+            },
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "인텍플러스의 장비는 머신비전기술을 활용\n한 3D/2D 자동외관검사장비 및 모듈 장비로, 다양한 산업에 활용될 수 있으나 주로 반도체\n패키지와 기판의 외관 검사용으로 사용되고 있습니다."
+            },
+            {
+              "id": "F4",
+              "subject": "최초 신고서",
+              "text": "인텍플러스의 경우\n반도체 기판 중에서도 FC-CSP부터 시작하여 현재 FC-BGA용 검사장비를 제조하고 있으며"
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사와 후보의 검사장비 사업에 직접 겹치는 적용 대상이 확인되는가? 차이와 한계를 함께 검토하라.",
+          "issuer": "기가비스",
+          "candidate": "인텍플러스",
+          "evidence": [
+            {
+              "id": "F4",
+              "subject": "최초 신고서",
+              "text": "인텍플러스의 경우\n반도체 기판 중에서도 FC-CSP부터 시작하여 현재 FC-BGA용 검사장비를 제조하고 있으며"
+            },
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "인텍플러스의 장비는 머신비전기술을 활용\n한 3D/2D 자동외관검사장비 및 모듈 장비로, 다양한 산업에 활용될 수 있으나 주로 반도체\n패키지와 기판의 외관 검사용으로 사용되고 있습니다."
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "기가비스는 반도체 기판 내층의\n회로와 선폭을 검사한다는 측면에서 기술적 차이점을 보이고 있습니다."
+            },
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "동사는 CD(Critical Dimension) 측정 기술을 활용한 광학 검사 기술을 기반으로하여 FC-\nBGA 등 고부가가치 반도체 기판의 내층 회로 및 선폭(Line and Space)를 검사하고, 검출된\n불량을 직접 수정하는 반도체 기판 검사/수정 장비를 제조하고 있습니다."
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사와 후보의 검사장비 사업에 직접 겹치는 적용 대상이 확인되는가? 차이와 한계를 함께 검토하라.",
+          "issuer": "기가비스",
+          "candidate": "인텍플러스",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "동사는 CD(Critical Dimension) 측정 기술을 활용한 광학 검사 기술을 기반으로하여 FC-\nBGA 등 고부가가치 반도체 기판의 내층 회로 및 선폭(Line and Space)를 검사하고, 검출된\n불량을 직접 수정하는 반도체 기판 검사/수정 장비를 제조하고 있습니다."
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "기가비스는 반도체 기판 내층의\n회로와 선폭을 검사한다는 측면에서 기술적 차이점을 보이고 있습니다."
+            }
+          ]
+        }
+      },
+      "C": {
+        "original": {
+          "question": "발행사와 후보의 검사장비 사업에 직접 겹치는 적용 대상이 확인되는가? 차이와 한계를 함께 검토하라.",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+            },
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비"
+            },
+            {
+              "id": "F3",
+              "subject": "후보 자료",
+              "text": "2022년 반도체 패키지·SSD·메모리 모듈 외관검사장비가 매출 59.0%"
+            },
+            {
+              "id": "F4",
+              "subject": "후보 자료",
+              "text": "반도체 플립칩 외관검사장비가 31.7%였다."
+            },
+            {
+              "id": "F5",
+              "subject": "후보 자료",
+              "text": "디스플레이와 이차전지 외관검사 장비도 판매했다."
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사와 후보의 검사장비 사업에 직접 겹치는 적용 대상이 확인되는가? 차이와 한계를 함께 검토하라.",
+          "evidence": [
+            {
+              "id": "F5",
+              "subject": "후보 자료",
+              "text": "디스플레이와 이차전지 외관검사 장비도 판매했다."
+            },
+            {
+              "id": "F4",
+              "subject": "후보 자료",
+              "text": "반도체 플립칩 외관검사장비가 31.7%였다."
+            },
+            {
+              "id": "F3",
+              "subject": "후보 자료",
+              "text": "2022년 반도체 패키지·SSD·메모리 모듈 외관검사장비가 매출 59.0%"
+            },
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비"
+            },
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사와 후보의 검사장비 사업에 직접 겹치는 적용 대상이 확인되는가? 차이와 한계를 함께 검토하라.",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+            },
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비"
+            },
+            {
+              "id": "F5",
+              "subject": "후보 자료",
+              "text": "디스플레이와 이차전지 외관검사 장비도 판매했다."
+            }
+          ]
+        }
+      }
+    },
+    "MANYO-01": {
+      "A0": {
+        "original": {
+          "question": "발행사에 적용할 이익의 기간은 무엇인가?",
+          "issuer": "마녀공장",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "【㈜마녀공장 PER에 의한 평가가치】"
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "주1)  적용 순이익은 2022년 당기순이익을 적용하여 계산하였습니다."
+            },
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "2022년 1월 ~       2021년 1월 ~       2020년 1월 ~\n     구분\n                       2022년 12월        2021년 12월       2020년 12월\n\n매출액                        101,835,609,615      62,620,416,556       39,302,269,504\n\n영업이익                       24,494,754,918      17,707,605,109        6,530,194,463\n\n법인세비용차감전순이익          22,137,953,992      18,047,834,014        6,336,822,174\n\n당기순이익                     17,297,237,363      14,166,997,783        5,353,364,209"
+            },
+            {
+              "id": "F4",
+              "subject": "최초 신고서",
+              "text": "주3)  적용 PER는 유사회사의 2022년 당기순이익(지배지분) 실적 기준 PER입니다."
+            },
+            {
+              "id": "F5",
+              "subject": "최초 신고서",
+              "text": "분석기준일로부터 1개월(2023.03.02~2023.03.31)"
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사에 적용할 이익의 기간은 무엇인가?",
+          "issuer": "마녀공장",
+          "evidence": [
+            {
+              "id": "F5",
+              "subject": "최초 신고서",
+              "text": "분석기준일로부터 1개월(2023.03.02~2023.03.31)"
+            },
+            {
+              "id": "F4",
+              "subject": "최초 신고서",
+              "text": "주3)  적용 PER는 유사회사의 2022년 당기순이익(지배지분) 실적 기준 PER입니다."
+            },
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "2022년 1월 ~       2021년 1월 ~       2020년 1월 ~\n     구분\n                       2022년 12월        2021년 12월       2020년 12월\n\n매출액                        101,835,609,615      62,620,416,556       39,302,269,504\n\n영업이익                       24,494,754,918      17,707,605,109        6,530,194,463\n\n법인세비용차감전순이익          22,137,953,992      18,047,834,014        6,336,822,174\n\n당기순이익                     17,297,237,363      14,166,997,783        5,353,364,209"
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "주1)  적용 순이익은 2022년 당기순이익을 적용하여 계산하였습니다."
+            },
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "【㈜마녀공장 PER에 의한 평가가치】"
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사에 적용할 이익의 기간은 무엇인가?",
+          "issuer": "마녀공장",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "【㈜마녀공장 PER에 의한 평가가치】"
+            },
+            {
+              "id": "F4",
+              "subject": "최초 신고서",
+              "text": "주3)  적용 PER는 유사회사의 2022년 당기순이익(지배지분) 실적 기준 PER입니다."
+            },
+            {
+              "id": "F5",
+              "subject": "최초 신고서",
+              "text": "분석기준일로부터 1개월(2023.03.02~2023.03.31)"
+            }
+          ]
+        }
+      },
+      "C": {
+        "original": {
+          "question": "발행사에 적용할 이익의 기간은 무엇인가?",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "기초 스킨케어와 클렌징을 주력으로 하는 화장품 브랜드이며 외부 OEM·ODM과 협력하여 생산한다."
+            },
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "2022년 연간 매출은 101,835,609,615원, 영업이익은 24,494,754,918원, 당기순이익은 17,297,237,363원이었다."
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사에 적용할 이익의 기간은 무엇인가?",
+          "evidence": [
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "2022년 연간 매출은 101,835,609,615원, 영업이익은 24,494,754,918원, 당기순이익은 17,297,237,363원이었다."
+            },
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "기초 스킨케어와 클렌징을 주력으로 하는 화장품 브랜드이며 외부 OEM·ODM과 협력하여 생산한다."
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사에 적용할 이익의 기간은 무엇인가?",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "기초 스킨케어와 클렌징을 주력으로 하는 화장품 브랜드이며 외부 OEM·ODM과 협력하여 생산한다."
+            }
+          ]
+        }
+      }
+    },
+    "PHILENERGY-02": {
+      "A0": {
+        "original": {
+          "question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+          "issuer": "필에너지",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "[㈜필에너지 PER에 의한 평가가치]"
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "2022년 지배주주 당기순이익 3,723백만원에 전환사채 전환권에 대한 파생상품평가손실인 8,134백만원을 가산하여"
+            },
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "2022년 1분기 및 2023년 1분기의 경우, 전환사채 전환권에 대한 별도 평가를 수행하지 않아 지배주주 당기순\n\n   이익을 적용 당기순이익으로 사용하였습니다."
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+          "issuer": "필에너지",
+          "evidence": [
+            {
+              "id": "F3",
+              "subject": "최초 신고서",
+              "text": "2022년 1분기 및 2023년 1분기의 경우, 전환사채 전환권에 대한 별도 평가를 수행하지 않아 지배주주 당기순\n\n   이익을 적용 당기순이익으로 사용하였습니다."
+            },
+            {
+              "id": "F2",
+              "subject": "최초 신고서",
+              "text": "2022년 지배주주 당기순이익 3,723백만원에 전환사채 전환권에 대한 파생상품평가손실인 8,134백만원을 가산하여"
+            },
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "[㈜필에너지 PER에 의한 평가가치]"
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+          "issuer": "필에너지",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "최초 신고서",
+              "text": "[㈜필에너지 PER에 의한 평가가치]"
+            }
+          ]
+        }
+      },
+      "C": {
+        "original": {
+          "question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "K-IFRS 연결 자료에서 2022년 영업이익은 16,812,053천원, 연결순이익은 3,723,211천원이었다."
+            },
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "연결포괄손익계산서는 2023년 1분기와 2022년 연간을 함께 제시하고 지배기업 소유주 귀속을 별도로 표기한다."
+            }
+          ]
+        },
+        "format": {
+          "question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+          "evidence": [
+            {
+              "id": "F2",
+              "subject": "발행사 자료",
+              "text": "연결포괄손익계산서는 2023년 1분기와 2022년 연간을 함께 제시하고 지배기업 소유주 귀속을 별도로 표기한다."
+            },
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "K-IFRS 연결 자료에서 2022년 영업이익은 16,812,053천원, 연결순이익은 3,723,211천원이었다."
+            }
+          ]
+        },
+        "directional": {
+          "question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+          "evidence": [
+            {
+              "id": "F1",
+              "subject": "발행사 자료",
+              "text": "K-IFRS 연결 자료에서 2022년 영업이익은 16,812,053천원, 연결순이익은 3,723,211천원이었다."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "schema_hash": "172845bdb52522268371d9fd82a6f211fb43a0c34bf226f031ad055d64ebaa81",
+  "instruction_hash": "d2e05dd3f66f03537b0a5d0ab29b23354f0385d440311b61527abdb14c6210cb",
+  "pretrial_design_checks": "양 역할 모두 검토 대상 원래 질문에서 기간·귀속 등 정답 단서를 재노출하지 않는다. GIGAVIS-12의 잔존 FC-BGA·플립칩 검사 근거를 핵심 후보 근거로 이동해 방향 조건에서 모두 제거한다. 두 회사에서 실제 중첩이 있는지를 질문한다. GIGAVIS-01의 보상비용 잔존 문구에서 불필요한 연도 단서를 제거한다. 모든 인용 조각을 역할별 출처에 재대조한다.",
+  "frozen_utc": "2026-11-26T04:09:13.000602+00:00"
+}

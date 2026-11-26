@@ -1,0 +1,1406 @@
+{
+  "scope": "동결 평가 완료 기업 27곳·291문항. 기초 자료는 그대로 두고 사후에 교차 집계했다.",
+  "cases_with_confirmed_material": [
+    {
+      "issuer": "산일전기",
+      "case": "20240621000553",
+      "rule_concordance": "1",
+      "ai_concordance": "6/7",
+      "difference": "-1/7",
+      "issue_count": 10,
+      "lookup_pages": [
+        252,
+        323,
+        348,
+        244
+      ],
+      "new_page_ids_added_by_lookup": [
+        "PDF-244",
+        "PDF-348"
+      ],
+      "entries": [
+        {
+          "item": "20240621000553-05",
+          "question": "발행사 적용 주식 수",
+          "family": "J3",
+          "grade": "비중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "기발행 23,945,200주, 모집 5,600,000주, 주식매수선택권 725,250주의 합은 30,270,450주로, 공시된 적용 주식수보다 900,000주 적다.",
+            "comparable": true,
+            "physical_page": 253,
+            "evidence_ids": [
+              "A05"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "역할상 비교 불가",
+            "comparable": false,
+            "evidence_ids": []
+          },
+          "rule": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20240621000553-05"
+            ],
+            "eligible": true,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20240621000553-05"
+            ],
+            "eligible": true,
+            "selected": true,
+            "action": "사람 검토",
+            "priority": 98,
+            "reason": "A0가 지적한 대로 기발행·모집·선택권의 합은 30,270,450주로 공시 합계 및 적용 주식수보다 900,000주 적다. 구성표의 산술 불일치는 확인되지만 어느 행이 잘못되었거나 누락되었는지는 확정할 수 없다. 구성 합계를 분모로 쓰는 B의 가정에서는 주당 약 36,019원으로 약 2.96% 높아진다. C는 역할상 판단하지 않았다.",
+            "evidence_ids": [
+              "PDF-253",
+              "D252.b1a23a03f1"
+            ]
+          }
+        },
+        {
+          "item": "20240621000553-08",
+          "question": "주식보상비용의 적용 이익 조정 근거",
+          "family": "J1",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "2023년 우리사주 관련 비용을 일회성으로 제거했으나 2024년 1분기에도 주식보상비용이 계상되어, 주식보상비용 전체를 일회성으로 일반화하기 어렵다. 다만 두 비용이 같은 보상에서 발생했는지는 확인되지 않는다.",
+            "comparable": true,
+            "physical_page": 348,
+            "evidence_ids": [
+              "A08"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "역할상 비교 불가",
+            "comparable": false,
+            "evidence_ids": []
+          },
+          "rule": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20240621000553-08"
+            ],
+            "eligible": true,
+            "selected": true
+          },
+          "ai": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20240621000553-08"
+            ],
+            "eligible": true,
+            "selected": false,
+            "action": "사람 검토",
+            "priority": 93,
+            "reason": "공시는 2023년 우리사주 할인 취득에 따른 비용 6,872백만원을 비현금·비경상 일회성으로 보아 가산했다. 반면 2024년 1분기에도 주식보상비용 562,121천원이 계상되어 A0의 추가 검토 지적은 유효하다. 두 비용이 같은 보상에서 발생했는지는 확인되지 않아 조정 오류로 단정할 수 없다. B의 동일 LTM 조정 제거 가정은 주당 약 30,442원, 약 12.98% 감소다. C는 역할상 판단하지 않았다.",
+            "evidence_ids": [
+              "PDF-252",
+              "PDF-348"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 252쪽은 우리사주 할인발행 6,872백만원 전액을 제외했고 348쪽은 다음 분기에도 주식보상비용 562,121천원을 계상한다. 같은 약정으로 단정하지 않아도 동일기간 보고이익을 그대로 사용하는 대안은 확인된다. 52,979.5백만원에서 가산액을 빼면 12.97% 감소한다. 252쪽 연간 39,038+6,872와 조정치 45,865의 45백만원 차이를 반영해도 감소율은 약 12.9%다. 다른 PER·주식수 없이 5%를 넘는다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20240621000553/first/accepted.json",
+              "page": 348,
+              "quote": "주식보상비용                                      562,121"
+            },
+            {
+              "source": "blind/20240621000553/second/accepted.json",
+              "page": 348,
+              "quote": "562,121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "issuer": "레뷰코퍼레이션",
+      "case": "20230823000258",
+      "rule_concordance": "1",
+      "ai_concordance": "1",
+      "difference": "0",
+      "issue_count": 11,
+      "lookup_pages": [
+        299,
+        316,
+        317,
+        416
+      ],
+      "new_page_ids_added_by_lookup": [
+        "PDF-299",
+        "PDF-416"
+      ],
+      "entries": [
+        {
+          "item": "20230823000258-08",
+          "question": "무형고정자산상각비의 적용 이익 조정 근거",
+          "family": "J1",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "역합병 취득 무형자산의 일시적·비현금성 상각이라는 가산 이유는 있으나, 비현금 비용이라는 사실만으로 경제적 비용이 아니라고 단정하기 어렵다. 세후 순이익에 상각비 전액을 가산하면서 세금효과를 설명하지 않았고, 비교기업은 공시 순이익 기준이어서 조정의 대칭성도 부족하다.",
+            "comparable": true,
+            "physical_page": 317,
+            "evidence_ids": [
+              "A08"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "역할상 비교 불가",
+            "comparable": false,
+            "evidence_ids": []
+          },
+          "rule": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20230823000258-08"
+            ],
+            "eligible": true,
+            "selected": true
+          },
+          "ai": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20230823000258-08"
+            ],
+            "eligible": true,
+            "selected": true,
+            "action": "사람 검토",
+            "priority": 94,
+            "reason": "원문은 역합병 취득 무형자산의 상각을 비현금·일시적 비용으로 보아 최근 12개월 상각비 685,567,560원을 가산했다. 그러나 세후 순이익에 전액을 가산한 세금효과와 비교기업에 대응 조정이 필요한지는 설명이 부족하다. 동일 기간 가산을 제거하는 B의 가정 대안은 약 15,052원으로 공시 평가액보다 약 11.54% 낮지만, 영향만으로 조정이 오류라는 뜻은 아니다. C는 역할상 비교하지 않았다.",
+            "evidence_ids": [
+              "PDF-317",
+              "PDF-316"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 317쪽의 5년 정액 상각은 종료 예정이나 440쪽의 영업비용으로 실제 발생했고 316쪽 비교 배수는 지배주주 보고이익 기준이다. 같은 보고 기준으로 5,255,631,730원×32.61÷11,385,920주≈15,052원으로 공시 17,016원 대비 11.5% 낮다. 기간과 주식수가 같고 발행사만 가산한 차이가 5%를 넘는다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20230823000258/first/accepted.json",
+              "page": 317,
+              "quote": "해당 비용을 당기순이익에 가산"
+            },
+            {
+              "source": "blind/20230823000258/second/accepted.json",
+              "page": 317,
+              "quote": "해당 비용을 당기순이익에 가산"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "issuer": "워트",
+      "case": "20230912000404",
+      "rule_concordance": "8/9",
+      "ai_concordance": "1",
+      "difference": "1/9",
+      "issue_count": 11,
+      "lookup_pages": [
+        180,
+        239,
+        176,
+        143
+      ],
+      "new_page_ids_added_by_lookup": [
+        "PDF-143"
+      ],
+      "entries": [
+        {
+          "item": "20230912000404-02",
+          "question": "이익의 회계상 귀속 범위",
+          "family": "J1",
+          "grade": "수용 가능",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "선택한 연결 손익계산서는 지배기업 소유주 귀속 순이익도 제시하지만, 그 수치로 계산한 LTM 이익은 4,492,201,432원이다. 평가에 적용된 4,500,303천원과 일치하지 않아 선택한 자료만으로 적용 이익의 귀속 범위를 확정하기 어렵다.",
+            "comparable": true,
+            "physical_page": 239,
+            "evidence_ids": [
+              "A02"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "순이익의 연결·별도 및 지배기업 귀속 여부가 제시되지 않았다.",
+            "comparable": false,
+            "evidence_ids": [
+              "E4"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20230912000404-02",
+              "20230912000404-03",
+              "20230912000404-08",
+              "20230912000404-11"
+            ],
+            "eligible": true,
+            "selected": true
+          },
+          "ai": {
+            "rank_after_tie_break": 3,
+            "all_items_with_same_priority": [
+              "20230912000404-02"
+            ],
+            "eligible": false,
+            "selected": false,
+            "action": "자료 요청",
+            "priority": 72,
+            "reason": "A0의 차이 제기는 유효하다. 원문의 연결 지배기업 소유주 귀속 순이익으로 같은 LTM을 계산하면 4,492,201,432원으로, 적용액 4,500,303,000원보다 8,101,568원 작다. 해당 연결 검산 대안의 주당 가격은 약 6,383원으로 공시 가격 대비 약 0.18% 낮지만, 적용 이익의 실제 귀속은 확인되지 않아 오류로 확정할 수 없다.",
+            "evidence_ids": [
+              "PDF-239",
+              "PDF-180"
+            ]
+          }
+        },
+        {
+          "item": "20230912000404-08",
+          "question": "HPSP의 사업 비교 적합성",
+          "family": "J2",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "HPSP는 반도체 전공정 장비업체라는 공통점이 있지만, 주력은 고압수소 열처리 장비다. 발행사의 초정밀 온습도 제어장비와 공정 및 제품 기능이 달라 직접 비교에는 중요한 한계가 있다.",
+            "comparable": true,
+            "physical_page": 174,
+            "evidence_ids": [
+              "A08"
+            ]
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "반도체 전공정 장비라는 공통점은 있으나, 고압 수소 어닐링으로 트랜지스터 계면특성을 개선하는 장비가 주력이다. 2023년 반기 매출의 92.77%가 해당 장비로, 발행기업의 공정 환경제어 사업과 기능과 매출원이 다르다.",
+            "comparable": true,
+            "evidence_ids": [
+              "E1",
+              "E17",
+              "E18",
+              "E19"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 3,
+            "all_items_with_same_priority": [
+              "20230912000404-02",
+              "20230912000404-03",
+              "20230912000404-08",
+              "20230912000404-11"
+            ],
+            "eligible": true,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20230912000404-08"
+            ],
+            "eligible": true,
+            "selected": false,
+            "action": "사람 검토",
+            "priority": 93,
+            "reason": "A0와 C의 문제 제기는 원문에서 뒷받침된다. HPSP는 반도체 전공정 장비라는 공통점이 있지만 고압수소 어닐링으로 소자 계면특성을 개선하며, 2023년 반기 매출의 92.77%가 해당 장비다. 워트의 공정 환경제어 장비와 기능이 다르다. HPSP PER 30.64배는 평균 23.19배보다 높아 선정 판단이 가격에 중요하지만, 차이만으로 제외나 오류를 확정하지 않는다.",
+            "evidence_ids": [
+              "E1",
+              "E17",
+              "E18",
+              "E19",
+              "PDF-180"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 174쪽의 HPSP 매출 92.77%는 고압수소 열처리 장비이고 209쪽 발행사 매출 63.37%는 포토트랙 온습도 제어 장비다. 같은 전공정이라는 이유만으로 기능 차이를 설명하기 어렵고 칠러 장비사 GST는 제외됐다. 180쪽 HPSP 제외 평균 (12.95+11.25+37.93)/3=20.71배는 23.19배보다 10.7% 낮다. 제품 근거와 가격 영향이 함께 있다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20230912000404/first/accepted.json",
+              "page": 174,
+              "quote": "반도체 전공정 고압수소 열처리 장비(GENI-SYS) 92.77%"
+            },
+            {
+              "source": "blind/20230912000404/second/accepted.json",
+              "page": 174,
+              "quote": "반도체 전공정 고압수소 열처리 장비(GENI-SYS) 92.77%"
+            }
+          ]
+        },
+        {
+          "item": "20230912000404-11",
+          "question": "테크윙의 사업 비교 적합성",
+          "family": "J2",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "테크윙은 온도제어 기능이 있는 장비를 취급하지만 주력은 테스트 핸들러다. 발행사의 전공정 환경 온습도 제어장비와 사용 공정 및 목적이 달라 비교 적합성에 한계가 있다.",
+            "comparable": true,
+            "physical_page": 174,
+            "evidence_ids": [
+              "A11"
+            ]
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "반도체·디스플레이 장비 고객군은 겹치지만, 주력인 시험·검사장비와 관련 부품은 발행기업의 공정 환경제어 장비와 기능이 다르다. 제시된 매출도 검사장비와 교체용 키트에 관한 것으로 직접적인 환경제어 사업의 근거가 없다.",
+            "comparable": true,
+            "evidence_ids": [
+              "E1",
+              "E5",
+              "E6",
+              "E7",
+              "E8"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 4,
+            "all_items_with_same_priority": [
+              "20230912000404-02",
+              "20230912000404-03",
+              "20230912000404-08",
+              "20230912000404-11"
+            ],
+            "eligible": true,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20230912000404-11"
+            ],
+            "eligible": true,
+            "selected": true,
+            "action": "사람 검토",
+            "priority": 95,
+            "reason": "A0와 C의 문제 제기는 원문에서 뒷받침된다. 테크윙은 시험·검사장비와 관련 부품을 제공하며, 워트의 공정 환경제어 장비와 목적이 다르다. 온도제어 기능과 고객 산업의 일부 공통점만으로 사업 전체의 비교 가능성을 확정하기 어렵다. 테크윙 PER 37.93배는 네 회사 중 가장 높아 선정 판단이 가격에 중요하지만, 이를 이유로 제외나 오류를 자동 확정하지 않는다.",
+            "evidence_ids": [
+              "E1",
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "A11",
+              "PDF-180"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 174쪽에서 테스트 핸들러 49.65%, 관련 부품 44.53%로 검사 단계 매출이 지배적이다. 209쪽 발행사 주력인 노광트랙 환경제어 장비와 목적·공정이 다르며 다른 검사장비 업체를 제외한 사례와 대조된다. 180쪽 제외 평균 (30.64+12.95+11.25)/3=18.28배, 원 평균 대비 약 21.2% 감소를 확인했다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20230912000404/first/accepted.json",
+              "page": 174,
+              "quote": "반도체 온도제어 테스트 핸들러 장비 49.65%"
+            },
+            {
+              "source": "blind/20230912000404/second/accepted.json",
+              "page": 174,
+              "quote": "반도체 온도제어 테스트 핸들러 장비 49.65%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "issuer": "액스비스",
+      "case": "20251223000517",
+      "rule_concordance": "13/16",
+      "ai_concordance": "5/8",
+      "difference": "-3/16",
+      "issue_count": 11,
+      "lookup_pages": [
+        279,
+        373,
+        278,
+        351
+      ],
+      "new_page_ids_added_by_lookup": [
+        "PDF-351"
+      ],
+      "entries": [
+        {
+          "item": "20251223000517-01",
+          "question": "발행사 적용 이익의 기간",
+          "family": "J1",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "수용",
+            "reason": "2025년 1~9월 누적 순이익을 조정한 뒤 4/3을 곱해 연환산한 이익을 적용했다. LTM 실적은 사용하지 않았다.",
+            "comparable": true,
+            "physical_page": 279,
+            "evidence_ids": [
+              "A01"
+            ]
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "제시된 최신 완료 회계연도인 2024년을 우선 사용한다. 최근 4개 분기 산출에 필요한 분기별 이익은 제시되지 않았다.",
+            "comparable": true,
+            "evidence_ids": [
+              "E4",
+              "E5"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20251223000517-01",
+              "20251223000517-10"
+            ],
+            "eligible": true,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 4,
+            "all_items_with_same_priority": [
+              "20251223000517-01"
+            ],
+            "eligible": true,
+            "selected": false,
+            "action": "사람 검토",
+            "priority": 84,
+            "reason": "A0의 2025년 3분기 누적이익 연환산 선택은 원문과 일치하며, 비교기업도 같은 기간의 연환산 이익을 사용했다. C가 제안한 2024년 완료 사업연도를 반드시 우선해야 한다는 근거는 없다. 다만 공시의 계절성 비중대 판단과 달리 2024년 영업이익은 연간 24.16억원, 1~9월 누적 -1.02억원으로 연말에 집중되어 있어 원인 확인이 필요하다. 이것만으로 반복적인 계절성이나 오류가 입증되지는 않는다.",
+            "evidence_ids": [
+              "PDF-279",
+              "PDF-278",
+              "PDF-373"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 279쪽 조정 9개월 이익 3,901,797,615원×4/3=5,202,396,820원이다. 373~374쪽 전년 연간 지배순익 3,185,024,840원에서 9개월 −375,381,280원을 빼면 직전 4분기 3,560,406,120원이다. 이를 동일한 조정 9개월에 합친 LTM 7,462,203,735원은 공시 연환산 대비 43.44% 크다. 이 직전 분기를 배제하는 계절성 설명이 산정 판단에 중요하다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20251223000517/first/accepted.json",
+              "page": 374,
+              "quote": "(375,381,280)"
+            },
+            {
+              "source": "blind/20251223000517/second/accepted.json",
+              "page": 279,
+              "quote": "계절성이 유의적인 영향을 미치는 산업이 아니며"
+            }
+          ]
+        },
+        {
+          "item": "20251223000517-08",
+          "question": "유형자산처분이익의 적용 이익 조정 근거",
+          "family": "J1",
+          "grade": "수용 가능",
+          "a0": {
+            "state": "수용",
+            "reason": "유형자산처분이익은 통상적인 장비 영업실적과 구분되는 이익이므로 누적 순이익에서 차감하고 세효과를 더하는 조정은 합리적이다.",
+            "comparable": true,
+            "physical_page": 279,
+            "evidence_ids": [
+              "A08"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "역할상 비교 불가",
+            "comparable": false,
+            "evidence_ids": []
+          },
+          "rule": {
+            "rank_after_tie_break": 4,
+            "all_items_with_same_priority": [
+              "20251223000517-08"
+            ],
+            "eligible": false,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20251223000517-08"
+            ],
+            "eligible": true,
+            "selected": true,
+            "action": "사람 검토",
+            "priority": 89,
+            "reason": "유형자산처분이익 784,841,147원을 차감하고 예상 세효과를 더한 산술은 맞지만, 제공 원문만으로 처분의 성격과 반복성을 확인해 A0의 합리성 판단을 확정하기는 어렵다. 두 조정을 함께 제거하는 가정의 주당가액은 약 17,487원으로 공시 대비 16.47% 높으나, 이는 오류의 증거가 아니다.",
+            "evidence_ids": [
+              "PDF-279"
+            ]
+          }
+        },
+        {
+          "item": "20251223000517-09",
+          "question": "유형자산처분이익 관련 예상 법인세효과의 적용 이익 조정 근거",
+          "family": "J1",
+          "grade": "비중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "공시된 1억 4,203만원은 처분이익만을 과세표준으로 놓고 세율 구간을 적용한 계산과 일치한다. 그러나 처분이익 제거에 따른 실제 증분 세효과는 전체 과세표준 등에 좌우된다. 연결 법인세는 수익으로 표시되어 있어, 공시 계산만으로 조정액의 타당성을 확인하기 어렵다.",
+            "comparable": true,
+            "physical_page": 374,
+            "evidence_ids": [
+              "A09"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "역할상 비교 불가",
+            "comparable": false,
+            "evidence_ids": []
+          },
+          "rule": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20251223000517-09"
+            ],
+            "eligible": true,
+            "selected": true
+          },
+          "ai": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20251223000517-09"
+            ],
+            "eligible": false,
+            "selected": false,
+            "action": "자료 요청",
+            "priority": 90,
+            "reason": "공시는 처분이익에 법인세율 구간과 지방소득세를 적용한 예상 세효과 142,031,800원을 더한다. 실제 증분 세효과는 과세표준과 세무조정 등에 좌우되므로 A0가 제기한 쟁점은 남는다. 연결 법인세수익 표시만으로 조정 오류를 확정할 수는 없다. 16.47% 대안은 처분이익과 세효과를 함께 제거한 영향이지 세효과만의 영향이 아니다.",
+            "evidence_ids": [
+              "PDF-279",
+              "A09"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "issuer": "스톰테크",
+      "case": "20230918000204",
+      "rule_concordance": "17/18",
+      "ai_concordance": "8/9",
+      "difference": "-1/18",
+      "issue_count": 11,
+      "lookup_pages": [
+        185,
+        188,
+        253,
+        255
+      ],
+      "new_page_ids_added_by_lookup": [
+        "PDF-185",
+        "PDF-255"
+      ],
+      "entries": [
+        {
+          "item": "20230918000204-06",
+          "question": "주당 평가가액 계산",
+          "family": "J3",
+          "grade": "비중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "표의 시가총액을 주식 수로 나누면 약 12,934원이지만, 시가총액 산식이 곱셈이 아닌 덧셈으로 표기돼 있다. 또한 기초 적용순이익 9,515백만원은 재무제표로 계산한 최근 12개월 순이익 약 9,566백만원과 차이가 있어 평가액의 기초 계산을 확인하기 어렵다.",
+            "comparable": true,
+            "physical_page": 188,
+            "evidence_ids": [
+              "A06"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "역할상 비교 불가",
+            "comparable": false,
+            "evidence_ids": []
+          },
+          "rule": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20230918000204-06",
+              "20230918000204-10",
+              "20230918000204-11"
+            ],
+            "eligible": true,
+            "selected": true
+          },
+          "ai": {
+            "rank_after_tie_break": 6,
+            "all_items_with_same_priority": [
+              "20230918000204-06"
+            ],
+            "eligible": false,
+            "selected": false,
+            "action": "기록 보관",
+            "priority": 30,
+            "reason": "공시 산식의 (A)+(B)는 이익에 PER을 적용하는 계산과 맞지 않는 표기다. 다만 B 계산상 9,515백만원×18.28배와 공시 시가총액의 차이는 표시 정밀도 범위 안이며, 공시 시가총액을 주식 수로 나눈 12,934원도 부합한다. 적용순이익의 별도 불일치는 01번에 기록했다.",
+            "evidence_ids": [
+              "PDF-188",
+              "PDF-255"
+            ]
+          }
+        },
+        {
+          "item": "20230918000204-09",
+          "question": "피코그램의 사업 비교 적합성",
+          "family": "J2",
+          "grade": "수용 가능",
+          "a0": {
+            "state": "수용",
+            "reason": "피코그램의 주요 제품은 정수기 필터로, 정수기 부품을 제조하는 발행사와 사업 연관성이 있다. 다만 제품 자체는 발행사의 피팅 등과 다르고 높은 PER의 영향에 유의해야 한다.",
+            "comparable": true,
+            "physical_page": 167,
+            "evidence_ids": [
+              "A09"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "정수기용 필터와 필터조립체를 제조하므로 발행기업과 정수 관련 부품 사업이 겹친다. 반대 근거로 2023년 반기 매출의 32.02%는 정수기 완제품이고 46.91%는 필터여서, 발행기업의 유로 부품과 제품 구성 및 수익성이 다를 수 있다. 배수 영향의 방향은 자료만으로 알 수 없으며, 포함은 추가 재무검증을 전제로 한다.",
+            "comparable": false,
+            "evidence_ids": [
+              "E1",
+              "E16",
+              "E17",
+              "E18",
+              "E19"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 11,
+            "all_items_with_same_priority": [
+              "20230918000204-02",
+              "20230918000204-03",
+              "20230918000204-04",
+              "20230918000204-05",
+              "20230918000204-07",
+              "20230918000204-08",
+              "20230918000204-09"
+            ],
+            "eligible": false,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20230918000204-09"
+            ],
+            "eligible": true,
+            "selected": true,
+            "action": "사람 검토",
+            "priority": 92,
+            "reason": "필터·필터조립체라는 정수 부품의 공통점이 있으나 2023년 반기 매출은 필터 46.91%, 정수기 완제품 32.02%로 발행사의 유로 부품과 구성 차이가 있다. 공시 PER 46.12배는 네 회사 중 가장 높아 선택 판단이 평균에 중요하다. C의 조건부 포함과 A0의 수용만으로 차이가 해소되지는 않으며 높은 배수만으로 제외를 확정하지 않는다.",
+            "evidence_ids": [
+              "E1",
+              "E16",
+              "E18",
+              "E19",
+              "PDF-185",
+              "PDF-188"
+            ]
+          }
+        },
+        {
+          "item": "20230918000204-10",
+          "question": "쿠쿠홈시스의 사업 비교 적합성",
+          "family": "J2",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "정수기 산업이라는 공통점은 있지만 쿠쿠홈시스는 일시불·렌탈 정수기 등 완성품 중심인 반면 발행사는 피팅 등 부품 중심이다. 제품 단계와 렌탈 사업모델의 차이는 비교 적합성에 중요한 반대 근거다.",
+            "comparable": true,
+            "physical_page": 185,
+            "evidence_ids": [
+              "A10"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "주력 렌탈제품과 일시불 매출이 정수기 등 생활가전 중심이라는 점에서 발행기업의 부품 제조와 차이가 있다. 제시된 일시불 매출 비중은 57.32%지만 나머지 매출의 전체 구성과 제조·렌탈 수익구조가 충분히 제시되지 않아 최종 판정에는 추가 자료가 필요하다.",
+            "comparable": false,
+            "evidence_ids": [
+              "E1",
+              "E20",
+              "E21",
+              "E22",
+              "E23"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20230918000204-06",
+              "20230918000204-10",
+              "20230918000204-11"
+            ],
+            "eligible": true,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 3,
+            "all_items_with_same_priority": [
+              "20230918000204-10"
+            ],
+            "eligible": true,
+            "selected": false,
+            "action": "사람 검토",
+            "priority": 85,
+            "reason": "정수기 산업이라는 공통점에도 생활가전 일시불·렌탈 사업과 발행사의 부품 제조는 사업 단계와 수익구조가 다르다. 공시의 일시불 정수기 등 54.4%, 렌탈 정수기 등 43.0%는 묶음 항목이며, C가 제시한 2023년 반기 일시불 57.32%와 기준을 확인하지 않은 채 직접 비교할 수 없다. A0와 C가 지적한 비교 적합성은 추가 판단이 필요하다.",
+            "evidence_ids": [
+              "E1",
+              "E20",
+              "E21",
+              "E22",
+              "PDF-185",
+              "PDF-188"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 185쪽의 정수기 등 일시불 54.4%·렌탈 43.0%는 완제품 렌탈사 사업, 213쪽 발행사 매출 98.9%는 부품 피팅 등이다. 최종수요 공통성과 수익모델·가치사슬 차이를 구분할 설명이 부족하다. 188쪽 4.28배를 빼면 (15.36+46.12+7.35)/3=22.94배로 공시 18.28배보다 25.5% 높아 실제 편입 판단에 중요하다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20230918000204/first/accepted.json",
+              "page": 185,
+              "quote": "렌탈 정수기 등 43.0%"
+            },
+            {
+              "source": "blind/20230918000204/reconcile/accepted.json",
+              "page": 185,
+              "quote": "렌탈 정수기 등 43.0%"
+            }
+          ]
+        },
+        {
+          "item": "20230918000204-11",
+          "question": "코웨이의 사업 비교 적합성",
+          "family": "J2",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "정수기 관련 사업이라는 공통점은 있으나 코웨이는 청정기·비데 등 완성품도 포함해 피팅 등 부품 중심인 발행사와 제품 구성이 다르다. 묶음 비중만으로 정수기만의 매출 비중도 확인할 수 없다.",
+            "comparable": true,
+            "physical_page": 185,
+            "evidence_ids": [
+              "A11"
+            ]
+          },
+          "c": {
+            "state": "문제 제기",
+            "reason": "정수기 관련 사업이라는 공통점은 있으나, 발행기업은 유로 제어·연결 부품을 제조하는 반면 후보는 환경가전 완제품의 렌탈·멤버십이 중심이다. 연결 매출의 92.1%가 렌탈로 제시되어 수익구조가 크게 다르다.",
+            "comparable": true,
+            "evidence_ids": [
+              "E1",
+              "E4",
+              "E6"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 3,
+            "all_items_with_same_priority": [
+              "20230918000204-06",
+              "20230918000204-10",
+              "20230918000204-11"
+            ],
+            "eligible": true,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20230918000204-11"
+            ],
+            "eligible": true,
+            "selected": false,
+            "action": "사람 검토",
+            "priority": 90,
+            "reason": "A0와 C 모두 제품·사업모델 차이를 지적한다. 코웨이의 2023년 반기 연결 매출 중 렌탈은 92.1%인 반면 발행사는 피팅·밸브 등 부품을 생산한다. 공시의 정수기·청정기·비데 등 97.6%는 묶음 비중이므로 정수기 단독 비중은 확인되지 않는다. 정수 관련성만으로 선정이 충분한지 검토하되 제외를 자동 확정하지 않는다.",
+            "evidence_ids": [
+              "E1",
+              "E4",
+              "E6",
+              "PDF-185",
+              "PDF-188"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 185쪽 코웨이 97.6%는 정수기·청정기·비데 합계인데 이를 정수기 의존도와 매출구조 유사성의 근거로 제시했다. 213쪽 피팅 등 98.9%인 발행사와 가치사슬 차이도 있다. 188쪽 코웨이 제외 평균 (15.36+46.12+4.28)/3=21.92배로 약 19.9% 높다. 실제 정수기 단독 비중이 낮다고 단정할 수는 없다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20230918000204/first/accepted.json",
+              "page": 185,
+              "quote": "정수기, 청정기, 비데 등 97.6%"
+            },
+            {
+              "source": "blind/20230918000204/reconcile/accepted.json",
+              "page": 185,
+              "quote": "정수기, 청정기, 비데 등 97.6%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "issuer": "키스트론",
+      "case": "20250328002012",
+      "rule_concordance": "8/9",
+      "ai_concordance": "1",
+      "difference": "1/9",
+      "issue_count": 11,
+      "lookup_pages": [
+        222,
+        226,
+        227,
+        337
+      ],
+      "new_page_ids_added_by_lookup": [
+        "PDF-222"
+      ],
+      "entries": [
+        {
+          "item": "20250328002012-02",
+          "question": "이익의 회계상 귀속 범위",
+          "family": "J1",
+          "grade": "수용 가능",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "선택 문구는 당기 재무제표를 개별재무제표라고 하지만, 같은 쪽에서 처분 전 종속기업 손익을 연결기준으로 반영했다고 명시한다. 따라서 선택 문구만으로 적용 이익의 귀속 범위를 단정하기 어렵다.",
+            "comparable": true,
+            "physical_page": 337,
+            "evidence_ids": [
+              "A02"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "제시된 순이익이 별도인지 연결인지, 연결이라면 지배기업 귀속분인지 확인할 수 없다.",
+            "comparable": false,
+            "evidence_ids": [
+              "E4"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20250328002012-02",
+              "20250328002012-09",
+              "20250328002012-10",
+              "20250328002012-11"
+            ],
+            "eligible": true,
+            "selected": true
+          },
+          "ai": {
+            "rank_after_tie_break": 2,
+            "all_items_with_same_priority": [
+              "20250328002012-02"
+            ],
+            "eligible": false,
+            "selected": false,
+            "action": "자료 요청",
+            "priority": 85,
+            "reason": "원문은 당기 재무제표를 개별재무제표라고 하면서 처분 전 종속기업 손익은 연결기준으로 반영했다고 한다. C의 미확인과 A0의 문제 제기를 해소할 귀속·반영 범위가 불명확하다. 비교기업 PER은 2024년 지배주주 당기순이익 기준이다.",
+            "evidence_ids": [
+              "PDF-337",
+              "PDF-226",
+              "PDF-227"
+            ]
+          }
+        },
+        {
+          "item": "20250328002012-10",
+          "question": "KOBELCO WIRE CO LTD의 사업 비교 적합성",
+          "family": "J2",
+          "grade": "중대 쟁점",
+          "a0": {
+            "state": "문제 제기",
+            "reason": "강선 제품은 비교 근거가 되지만 와이어로프 비중도 34%여서 발행사의 전자부품용·케이블용 와이어 중심 구성과 차이가 있다. 또한 같은 쪽의 PER 제외기준은 5배 미만과 10배 미만으로 서로 다르게 기재되어 있어 PER 8.06배 기업의 선정 근거도 불명확하다.",
+            "comparable": true,
+            "physical_page": 222,
+            "evidence_ids": [
+              "A10"
+            ]
+          },
+          "c": {
+            "state": "미확인",
+            "reason": "특수강선 사업은 선재라는 공통점이 있지만 PC 관련 제품과 스프링·특수선이 언급되어 발행기업의 전자부품·케이블용 와이어와 용도가 다를 수 있다. 전체 사업의 매출 구성과 연간 수익성·배수가 없어 비교 가능성을 확정할 수 없다.",
+            "comparable": true,
+            "evidence_ids": [
+              "E1",
+              "E9",
+              "E10"
+            ]
+          },
+          "rule": {
+            "rank_after_tie_break": 3,
+            "all_items_with_same_priority": [
+              "20250328002012-02",
+              "20250328002012-09",
+              "20250328002012-10",
+              "20250328002012-11"
+            ],
+            "eligible": true,
+            "selected": false
+          },
+          "ai": {
+            "rank_after_tie_break": 1,
+            "all_items_with_same_priority": [
+              "20250328002012-10"
+            ],
+            "eligible": true,
+            "selected": true,
+            "action": "사람 검토",
+            "priority": 95,
+            "reason": "사업구성 차이에 더해 원문 선정기준은 PER 5배 미만 제외라고 쓰면서 표에는 10배 미만 제외라고 기재했고, 8.06배인 회사를 선정했다. C가 사업 전체 구성과 배수를 미확인으로 본 부분은 신고서의 제품군 비중과 2024년 PER로 일부 보완된다. 단순 제외 시 평균 PER은 13.295배로 약 15.1% 높지만, 그 영향만으로 제외를 확정할 수 없다.",
+            "evidence_ids": [
+              "PDF-222",
+              "PDF-226",
+              "E1",
+              "E9",
+              "E10"
+            ]
+          },
+          "frozen_source_audit_basis": "물리 222쪽은 본문 하한 5배 미만 제외와 표의 10배 미만 제외를 함께 제시하며 KOBELCO 8.06배에 적용 O라고 표기한다. 둘 중 어떤 기준인지에 따라 선정이 뒤바뀐다. 226쪽 다른 두 회사 평균 (14.04+12.55)/2=13.295배는 전체 11.55배보다 약 15.1% 높아 중대한 직접 증거다.",
+          "direct_citations_verified": [
+            {
+              "source": "blind/20250328002012/first/accepted.json",
+              "page": 222,
+              "quote": "비경상적 Multiple(PER 50배 초과, 5미만)에 해당되지 않는 기업"
+            },
+            {
+              "source": "blind/20250328002012/second/accepted.json",
+              "page": 222,
+              "quote": "PER 10배 미만, 50배 초"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "counts_on_complete_issuers": {
+    "eligible": {
+      "rule": {
+        "비중대 쟁점": 18,
+        "판정 유보": 20,
+        "중대 쟁점": 8,
+        "수용 가능": 11
+      },
+      "ai": {
+        "비중대 쟁점": 17,
+        "판정 유보": 33,
+        "중대 쟁점": 8,
+        "수용 가능": 11
+      }
+    },
+    "actually_selected": {
+      "rule": {
+        "비중대 쟁점": 8,
+        "판정 유보": 6,
+        "중대 쟁점": 2,
+        "수용 가능": 7
+      },
+      "ai": {
+        "비중대 쟁점": 8,
+        "판정 유보": 10,
+        "중대 쟁점": 3,
+        "수용 가능": 5
+      }
+    },
+    "family": {
+      "J1": {
+        "수용 가능": 59,
+        "중대 쟁점": 3,
+        "비중대 쟁점": 6,
+        "판정 유보": 2
+      },
+      "J3": {
+        "수용 가능": 104,
+        "비중대 쟁점": 28,
+        "판정 유보": 3
+      },
+      "J2": {
+        "비중대 쟁점": 9,
+        "판정 유보": 60,
+        "수용 가능": 12,
+        "중대 쟁점": 5
+      }
+    },
+    "ai_action": {
+      "기록 보관": {
+        "수용 가능": 144,
+        "비중대 쟁점": 22,
+        "판정 유보": 9
+      },
+      "사람 검토": {
+        "비중대 쟁점": 17,
+        "판정 유보": 33,
+        "수용 가능": 11,
+        "중대 쟁점": 8
+      },
+      "자료 요청": {
+        "수용 가능": 20,
+        "판정 유보": 23,
+        "비중대 쟁점": 4
+      }
+    }
+  },
+  "operating_confirmed_material": {
+    "rule_only": 1,
+    "both": 1,
+    "neither": 4,
+    "ai_only": 2
+  },
+  "frozen_rule_and_ai_full_ranking_hits_for_equal_seats": {
+    "1": {
+      "rule": 2,
+      "ai": 3
+    },
+    "2": {
+      "rule": 4,
+      "ai": 6
+    },
+    "3": {
+      "rule": 7,
+      "ai": 7
+    },
+    "4": {
+      "rule": 8,
+      "ai": 8
+    }
+  },
+  "posthoc_rule_top_tie_sensitivity": {
+    "scope": "실제 이관 자격과 점수는 고정하고 같은 최상위 안의 순서만 바꿀 때 확인된 중대 회수 건수.",
+    "firms_with_at_least_one_eligible": 23,
+    "totals": {
+      "with_tie": 13,
+      "all_options_material": 2,
+      "at_least_one_option_material": 5,
+      "registered_ascending_id": 2,
+      "reverse_id_example": 4
+    },
+    "equal_probability_expected_count": "41/12",
+    "case_detail": {
+      "20230818000362": {
+        "issuer": "에스엘에스바이오",
+        "top_eligible_tie_group": [
+          "20230818000362-08",
+          "20230818000362-09",
+          "20230818000362-10"
+        ],
+        "known_material": []
+      },
+      "20230925000332": {
+        "issuer": "에코아이",
+        "top_eligible_tie_group": [
+          "20230925000332-09",
+          "20230925000332-10"
+        ],
+        "known_material": []
+      },
+      "20240621000553": {
+        "issuer": "산일전기",
+        "top_eligible_tie_group": [
+          "20240621000553-08"
+        ],
+        "known_material": [
+          "20240621000553-08"
+        ]
+      },
+      "20240710000686": {
+        "issuer": "전진건설로봇",
+        "top_eligible_tie_group": [
+          "20240710000686-04",
+          "20240710000686-06"
+        ],
+        "known_material": []
+      },
+      "20241018000518": {
+        "issuer": "벡트로보틱스",
+        "top_eligible_tie_group": [
+          "20241018000518-03",
+          "20241018000518-09"
+        ],
+        "known_material": []
+      },
+      "20241118000273": {
+        "issuer": "모티브링크",
+        "top_eligible_tie_group": [
+          "20241118000273-01",
+          "20241118000273-07"
+        ],
+        "known_material": []
+      },
+      "20241213000457": {
+        "issuer": "위너스일렉",
+        "top_eligible_tie_group": [
+          "20241213000457-08",
+          "20241213000457-10"
+        ],
+        "known_material": []
+      },
+      "20230823000258": {
+        "issuer": "레뷰코퍼레이션",
+        "top_eligible_tie_group": [
+          "20230823000258-08"
+        ],
+        "known_material": [
+          "20230823000258-08"
+        ]
+      },
+      "20250107000412": {
+        "issuer": "엘케이켐",
+        "top_eligible_tie_group": [
+          "20250107000412-01"
+        ],
+        "known_material": []
+      },
+      "20250908000140": {
+        "issuer": "이노테크",
+        "top_eligible_tie_group": [
+          "20250908000140-08",
+          "20250908000140-10"
+        ],
+        "known_material": []
+      },
+      "20240520000263": {
+        "issuer": "시프트업",
+        "top_eligible_tie_group": [
+          "20240520000263-10"
+        ],
+        "known_material": []
+      },
+      "20250908000329": {
+        "issuer": "세나테크놀로지",
+        "top_eligible_tie_group": [
+          "20250908000329-12"
+        ],
+        "known_material": []
+      },
+      "20240621000344": {
+        "issuer": "티디에스팜",
+        "top_eligible_tie_group": [
+          "20240621000344-10"
+        ],
+        "known_material": []
+      },
+      "20250207000496": {
+        "issuer": "에이유브랜즈",
+        "top_eligible_tie_group": [
+          "20250207000496-08",
+          "20250207000496-09",
+          "20250207000496-10",
+          "20250207000496-11"
+        ],
+        "known_material": []
+      },
+      "20250930000546": {
+        "issuer": "아로마티카",
+        "top_eligible_tie_group": [
+          "20250930000546-08"
+        ],
+        "known_material": []
+      },
+      "20230912000404": {
+        "issuer": "워트",
+        "top_eligible_tie_group": [
+          "20230912000404-02",
+          "20230912000404-03",
+          "20230912000404-08",
+          "20230912000404-11"
+        ],
+        "known_material": [
+          "20230912000404-08",
+          "20230912000404-11"
+        ]
+      },
+      "20250320001180": {
+        "issuer": "원일티엔아이",
+        "top_eligible_tie_group": [
+          "20250320001180-07",
+          "20250320001180-08"
+        ],
+        "known_material": []
+      },
+      "20251001000684": {
+        "issuer": "씨엠티엑스",
+        "top_eligible_tie_group": [
+          "20251001000684-04",
+          "20251001000684-05",
+          "20251001000684-08",
+          "20251001000684-11"
+        ],
+        "known_material": []
+      },
+      "20250324000841": {
+        "issuer": "바이오비쥬",
+        "top_eligible_tie_group": [
+          "20250324000841-08"
+        ],
+        "known_material": []
+      },
+      "20250325000608": {
+        "issuer": "달바글로벌",
+        "top_eligible_tie_group": [
+          "20250325000608-08"
+        ],
+        "known_material": []
+      },
+      "20251223000517": {
+        "issuer": "액스비스",
+        "top_eligible_tie_group": [
+          "20251223000517-09"
+        ],
+        "known_material": []
+      },
+      "20230918000204": {
+        "issuer": "스톰테크",
+        "top_eligible_tie_group": [
+          "20230918000204-06",
+          "20230918000204-10",
+          "20230918000204-11"
+        ],
+        "known_material": [
+          "20230918000204-10",
+          "20230918000204-11"
+        ]
+      },
+      "20250328002012": {
+        "issuer": "키스트론",
+        "top_eligible_tie_group": [
+          "20250328002012-02",
+          "20250328002012-09",
+          "20250328002012-10",
+          "20250328002012-11"
+        ],
+        "known_material": [
+          "20250328002012-10"
+        ]
+      }
+    }
+  },
+  "upstream_states_on_known_material": {
+    "a0": {
+      "문제 제기": 7,
+      "수용": 1
+    },
+    "c": {
+      "역할상 비교 불가": 2,
+      "문제 제기": 4,
+      "미확인": 2
+    }
+  },
+  "checks": [
+    "완료 기업마다 두 순위와 합친 역할 기록의 문항 집합을 독립 등급표와 대조했다.",
+    "원순위에서 이관 자격이 있는 첫 문항을 골라 동결한 실제 이관 목록과 대조했다. 고정 1~4자리에서의 중대 건수도 공개 민감도 표와 일치했다.",
+    "8건마다 중대 등급을 부여한 채점자의 실제 인용을 해당 문항에 허용된 물리 쪽의 원문 문자열과 대조했다. 공백 및 유니코드 정규화 후 모두 일치했다."
+  ],
+  "frozen_source_sha256_relative_to_v1": {
+    "analysis/results.json": "236d44e250052d85e8b9ba34abb827140eaffb02c79051e977ffc0737c71efb7",
+    "analysis/publication_pair_crosscheck.json": "2710855f48697635696f97c6694ca737d026fd5f165ff1b7026cc2d6d1b7ad39",
+    "terra/20230818000362/ranking.json": "a65de820a6bc443187f5eb21c77b26623f804794bb90fffb1fce50979dc92fee",
+    "blind/20230818000362/sealed.json": "5ec8c2ac97aacbbe06fcd173aa97a9800658fa34dd0e911c54aeee4ef15f46fd",
+    "terra/20230818000362/merged.json": "2905bfed8915628252f89ca8fd071bdff56c31e235de555c3639a9a9b9aecaca",
+    "terra/20230925000332/ranking.json": "84a0b965549cea5a3f298a1933d2322cfcb7b4281854411ff07526f3b04baf22",
+    "blind/20230925000332/sealed.json": "1c0576cbab6101d406b31d22f32ca2811c7a6b83eb2601bb56b3d06069df6986",
+    "terra/20230925000332/merged.json": "442ce4c7890614a05d38677ad41b5fa39f06d09714a18fbf6ac56e75012130d6",
+    "terra/20230927000587/ranking.json": "a21bb842e47c62428dac4cffd4b159456b195b8838b8f7945dc38de7101c8329",
+    "blind/20230927000587/sealed.json": "2d9c7c15bce18bc9809dc39e5d821179ce0f0c673d5c5c08c979c508f84cfbb5",
+    "terra/20230927000587/merged.json": "cacaf0261d5c9448479d6058cb5f88419313ea072356aaa1a3c29cd62cc37063",
+    "terra/20240621000553/ranking.json": "852ec2361dfefd08476303463361d343f5d46f141f41bbc6549c9d2e6b76bd72",
+    "blind/20240621000553/sealed.json": "1a7b4ed043df8ec78920208061bc187d87691278bd90f690a3a457a9857abaad",
+    "terra/20240621000553/merged.json": "bab9e9a9ad254d28a2482443eb315d757a23471ab61897911e942afe09a3fc43",
+    "issuers/20240621000553/grading.json": "9aba48ef7bd01c3bb4fb7b385ab6d684e7d87a12caa352a2948f61a570346d25",
+    "blind/20240621000553/first/accepted.json": "6495dcff65230ce80a2eb817bf4d13bf3dd8c9b9e13da36fb9ece96d24b90f85",
+    "blind/20240621000553/second/accepted.json": "33bdf6f71b3ecea777cd5b159e243f00cceaea302054bc5e3f396a82e116c301",
+    "blind/20240621000553/reconcile/accepted.json": "b7a0f967b897dfbdf70c7aea3085cb844bdc614c295396b81f2d884777d48cfb",
+    "blind/20240621000553/source_audit.json": "be6f4f708fc730309c60cb79bbe9d520fcd61b57645b1dd4e353665676ccb2a7",
+    "terra/20240710000686/ranking.json": "aa67db484cace1b81e4b85f9e05f6fd1bf21c1d562a21a022a8a32c8fefe6ace",
+    "blind/20240710000686/sealed.json": "40e4c0d8152946322e1742073f77757c7708ac281c4a2598820f8c2c8f7d232b",
+    "terra/20240710000686/merged.json": "99e408bdc07f9ebe00660bbb94d45e6d217fe9812997cf03bd60de382e0ccf8b",
+    "terra/20241010000504/ranking.json": "cae7492b36167dd81213bf667f2c92071d2c9bbdbad12e889b4f5207927ed298",
+    "blind/20241010000504/sealed.json": "65f7102199df217dbdf29ccc12ea505dd93e54f332fe39d2f4103c7298b80c9e",
+    "terra/20241010000504/merged.json": "97bae95e68d85b470f5cd833980c32b9034d5d561a6e07097fb091840748dcdd",
+    "terra/20241018000518/ranking.json": "03aa936126ed0720052d7050a52cd04a16c3d17a51851efcdb9fdd83e4a61b90",
+    "blind/20241018000518/sealed.json": "253e3266a8d6f93c710ae92564f9f30a1b9a31b35f39eee134f696cdfae912fa",
+    "terra/20241018000518/merged.json": "6bf93103576a23a7b6a326f5c3ef1017467f7286cc4cefeffc626a4797ef6049",
+    "terra/20241118000273/ranking.json": "16033c4c3d4b8a41a1f3596a72be55c8463b4106e2862132b9fb3297f5fb5581",
+    "blind/20241118000273/sealed.json": "2f8e761f942462332664f0fc9a3db0b0b57a9c7e1b7739d994010693389b32c9",
+    "terra/20241118000273/merged.json": "c80ad88b3880413ac368962febe384d964b21b088ed3b2d6cd7bc9ec1514d71a",
+    "terra/20241213000457/ranking.json": "47e8ff94ea38b197c6056c794493ff7f022f893b2e980cd225b52ca546b8e741",
+    "blind/20241213000457/sealed.json": "43f39e848611d943f17dfc1239987ad14beefa5f6ae5781c7203301cef13c3eb",
+    "terra/20241213000457/merged.json": "24027cc871edaa6c93f781f7025b226d9e460ed5554db15fa55c6536a7139cba",
+    "terra/20230823000258/ranking.json": "6cdbe7ef8b7269e30ffe8540298cccd518820d403ffce00a4cf861725efe4e1d",
+    "blind/20230823000258/sealed.json": "2a2a4eacdb3ee57ce0b4d2073ba8375659d95d8bcdf2e31b98686b9537f8bf30",
+    "terra/20230823000258/merged.json": "c6ba8b4e7c63e4f4431e08873787dcaf6c975aa2be48df71fd1cebf03890449d",
+    "issuers/20230823000258/grading.json": "4dc0bd32c8ed2884fc0cdd238db929d727f4c0593707a75bafc9d6bf3266ccbf",
+    "blind/20230823000258/first/accepted.json": "53760782d79997da6edb2e48061b48a631d760865b1592082122723bfc5079b8",
+    "blind/20230823000258/second/accepted.json": "c60d92357bc4430a8fa7e960eed6abcbcb0ee440f9ed35920d296239a80439d5",
+    "blind/20230823000258/reconcile/accepted.json": "4065edb63b49966e5a8326d06bf657ebc3a0f5cf10820ad9f657b9372d7b1b20",
+    "blind/20230823000258/source_audit.json": "8100b99dda841888826ce2ae5ff9395bfc9e2abf925e4261c757775f8fefa514",
+    "terra/20250107000412/ranking.json": "7383cd4c644b064cb04bb35b0b76fa9700ce66d8312ec5bd53c25a55653f1ecd",
+    "blind/20250107000412/sealed.json": "ff303485786f7d4e02cbd9dedc3328346d6862ee20bbe4c1bf4a5cf2ba43cc9b",
+    "terra/20250107000412/merged.json": "dd0719329272be935df467369e48fa5e31b798f37045c758ac5ddbd327a6ae5d",
+    "terra/20250908000140/ranking.json": "f16e593c1a362fce8053e0ee5059e9487847d6c4f81c1caaee784ddf6a139a1e",
+    "blind/20250908000140/sealed.json": "5f898b70479972f25063fbad0f2251f746a25018cce16fd6ce2c4fa5a6ca68d5",
+    "terra/20250908000140/merged.json": "5e6d12f9e18db8330594220b457efff6593cd5a45887fb6a61ce13fc2960484c",
+    "terra/20230906000217/ranking.json": "5edc65324fa85f279ac5f9cec8a66086ef941c3031c1ef737b04a1804d571fc6",
+    "blind/20230906000217/sealed.json": "e935ecfc1403fc6a374426a63893bfc5682fba6854eeb92085f6d13d74c67ee0",
+    "terra/20230906000217/merged.json": "b1b54c03f5273f693d9b2da1da6185c57655941f85e0970fd05ee36f4a0838a0",
+    "terra/20240520000263/ranking.json": "c46023d185cdf0d66b20647c746fba33db8634453ec532d8c09981b77fe7e71f",
+    "blind/20240520000263/sealed.json": "c18a94a154f52de0f67a962ff8fe381ba1baa68fd8b563b05f3229094167ade3",
+    "terra/20240520000263/merged.json": "2be59292ea5739312d4e8a50e828e760061e2a858325ffffca726e1167b4afce",
+    "terra/20250908000329/ranking.json": "dc74fb4a9eee218a6ade2f7a8890dddba00be9a4a556a1770b45745e5465f645",
+    "blind/20250908000329/sealed.json": "b0eabedd2ad52dceaf750acad84fba87c15e81172a086c3af81768de23a75455",
+    "terra/20250908000329/merged.json": "0ef49d7a6a38008f72b129c0f3c5a7c770aabf8ad41c1ff29a9b626cccd0ec81",
+    "terra/20240621000344/ranking.json": "6843e67175ed978833e6b5e929a9bb9ba9d0ddc15430da1dd390230810b093b0",
+    "blind/20240621000344/sealed.json": "b2939a7cf473ab56e325dcfd3587195d7e82f4155cf9910ed70dab2db8ee2328",
+    "terra/20240621000344/merged.json": "3ff09cd9dd44c40ec19cc2fac77bd02f7417c4debd55cff6fc186d071eeabb62",
+    "terra/20250207000496/ranking.json": "e8b64f07874284c26988362d9146436deed3d8e139d1a730454478db4de0ccbf",
+    "blind/20250207000496/sealed.json": "d1e5379a1169518d032286e0ddfff7151bfe97f8e792cd69419ba01d5d5b49b9",
+    "terra/20250207000496/merged.json": "294d8935147aab3312225313f7dddcbc419f8ffbf201826fb06f24c1d11bf157",
+    "terra/20250930000546/ranking.json": "7cb40899d72f976543b467c4ad6b23a62c1a2d44e414c779d9aef8f173b4336e",
+    "blind/20250930000546/sealed.json": "e4ed90f175806ce9789b3f3314808a20288ef3bbb4d072ea0a8d01b4db9e644d",
+    "terra/20250930000546/merged.json": "6ea82395405c8156bec5b9609f0c2e17df6018fba7e6ab04ce794ba9b39099d3",
+    "terra/20230912000404/ranking.json": "b2b6a31d9b85b7dc2fc8fd0df300e24ab9640aec7a0ccfcf4997778307677622",
+    "blind/20230912000404/sealed.json": "b96916157afd966fa85cfde414764e9c8ba5e818027d5cd8c62bcad170585a2b",
+    "terra/20230912000404/merged.json": "9273c07974c9bcc60c3b361974dc1510841b766d2aa34c907d5d595a4bf44d16",
+    "issuers/20230912000404/grading.json": "1a5dc9a84f27af5b2331719bcab42e96370904eac87fa047755defd81dc18374",
+    "blind/20230912000404/first/accepted.json": "366260cda3226478b19c06a02daeae8212fac845645b884c501d473112126169",
+    "blind/20230912000404/second/accepted.json": "430fa8734d9b04fdb07f23c982a8398b07935f01db6bfe30557d98d5a537a56e",
+    "blind/20230912000404/source_audit.json": "e3a9f0321bd430c525640a410c6d27e6dd928e709a1ff89774dcb1bcdf565468",
+    "terra/20250320001180/ranking.json": "fc33b918d01030ddafcf131244c99f80f7847c5181d8d906022392c03e940bc6",
+    "blind/20250320001180/sealed.json": "83202e1c7d7ccd6870231c655a5ee69f943954ab785284702e664663d4282c8b",
+    "terra/20250320001180/merged.json": "5d59fb641b518b9f37410e7bc92a3734853820a2e6c846b010118ba4602bf156",
+    "terra/20251001000684/ranking.json": "0852907254033dc38071cf2fb8e697fbfce071ec683e891dca6711aee44d3c1b",
+    "blind/20251001000684/sealed.json": "c54cd699d1f14257aa7d04020e1fa5c3b1a7cf3d518d2016a9b4532d0b21c9cc",
+    "terra/20251001000684/merged.json": "4e342f836c51b015d4387bba15b5503bd360a08b90cd39885662a5d9efc37372",
+    "terra/20230915000263/ranking.json": "8272818ad77b11cba4f1315b847682067b2e4260e4a9084d258be74f92c1f98c",
+    "blind/20230915000263/sealed.json": "263b3f4990a4b283b9bacfdb4c45995bbc3ee4d86d5014cbda8695e356799aee",
+    "terra/20230915000263/merged.json": "567e74a677ec728dced3180e885e3d95d14d30639f1566ceae9778c8383ffbcf",
+    "terra/20250324000841/ranking.json": "19288ad431dcd94cb248f6bfb56cbf68669a9b82516f047db287f8a31f7d4694",
+    "blind/20250324000841/sealed.json": "75c0546497b86fb3092316284b9419b9ba7c3eaa35afd1c62a80964bfda07c65",
+    "terra/20250324000841/merged.json": "2dfea64edbc6125678ec61a82e1cde1d6ef88332f93efbb0525d66abebed4899",
+    "terra/20250325000608/ranking.json": "8cae734e13c7c82ac99453c92e1dbe9ca5ea42cf1ad70fc9cad626b4959e0552",
+    "blind/20250325000608/sealed.json": "0678b4b8e56b855ac6ad57267a969e448f8a2ff222171443bfccfd3038e86e7e",
+    "terra/20250325000608/merged.json": "ffc285139a400f273004ba49242e93f92c8c2f0870c2a639ea9efdbb86e3264e",
+    "terra/20251223000517/ranking.json": "2fa2b5a2f237b3287f079bbce38842025c591db0bbede359cb52bcced65b4ad5",
+    "blind/20251223000517/sealed.json": "351a0d1f106269d9b3a34f1d6e66dcbecc9d217b12d704125ede1b2ae248bfd7",
+    "terra/20251223000517/merged.json": "5dbd74e81084a5d32875f0594b3a6572ff5e146890dafcebcc0331423db4edf3",
+    "issuers/20251223000517/grading.json": "f641ce41dedcc7e5a83b84d5963b62376f18541bdf13fa616492274caef6199a",
+    "blind/20251223000517/first/accepted.json": "18952c3c3c77fd400df85987c88d6a618965d6661a8331a91b97481145f7e9f2",
+    "blind/20251223000517/second/accepted.json": "6bd13de5f89df7db65050aae54c3ca03552af0cca90b846e403ed7ed34824895",
+    "blind/20251223000517/reconcile/accepted.json": "44e8e32689e4115788ef9d9d016b43f3b2c374e6d65cc362ad23966b1d9d89de",
+    "blind/20251223000517/source_audit.json": "6c0a2b9b07781e51fff5229d031f09c2a91a2bfad61d17cf743e77461abffcff",
+    "terra/20230918000204/ranking.json": "771a4ddcc1f60e4636b40e6b62f684ceec26fb8bd20bda173f8e5015c063db62",
+    "blind/20230918000204/sealed.json": "ff5965482127be483ab7128e9d10b874d5bbf7592c708bd9329b770f9fd36514",
+    "terra/20230918000204/merged.json": "0adefbb8cba9742b4095230a52a4b2448eb49f6bec308a140536f789a8fd32d5",
+    "issuers/20230918000204/grading.json": "f9650e47fc6b5d651de054251c877e23b592a75a53304fe00e5f56c4a655966f",
+    "blind/20230918000204/first/accepted.json": "a3d5f1d2f6ef5a3ab4cdfee854309857dcb6a176393ce5e15ad7af9efdfbc2b8",
+    "blind/20230918000204/second/accepted.json": "f7e107c3421b61981a605fae9ea1bde350aff42a89615f6b8b1168eb13459d8e",
+    "blind/20230918000204/reconcile/accepted.json": "5ed82714a5ce8bff1181b83a4627a9c45894d4500534903baecf3cd5b76381b3",
+    "blind/20230918000204/source_audit.json": "fa61827ba0383ebe00cd0df3f8faaefd1dd772da151e26bcb2b14df04b73211a",
+    "terra/20250328002012/ranking.json": "cbe76ae593c80da6d7828486139c149c0ec5e20a24a01603597e635f413d56a1",
+    "blind/20250328002012/sealed.json": "3d30b5e33dea4ece881f87c694fc06d9443ae6295a0ce88fefddcaf0d51fb6fd",
+    "terra/20250328002012/merged.json": "fe33ebad11a30c2498d26d2214da1d4162c0909126225091d8f5050d02c3dc13",
+    "issuers/20250328002012/grading.json": "af157a2969da828ed04cbd4aea93c599cd1c61a2a76c45b81e741a77ae168c5b",
+    "blind/20250328002012/first/accepted.json": "16608305dd016a5b812d8c41b69ae448a5af0e5a3459cb9b51cce83a539e31b1",
+    "blind/20250328002012/second/accepted.json": "5be0b2a2a7adf760274795b24a9a1b60ea1879e126b90d7d965e4037bff48024",
+    "blind/20250328002012/reconcile/accepted.json": "958ce338d9060ab48d668a92560888891f9e6a49bc43a961e7718db6b9b08f4b",
+    "blind/20250328002012/source_audit.json": "14e66533b3762213988191dcaa4c85813b49baf36e1b15ef5ffca973c3bad2bf"
+  }
+}

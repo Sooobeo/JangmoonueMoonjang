@@ -1,0 +1,507 @@
+{
+  "scope": "exact original/effective C wire, source mapping and propagation into actual selector input",
+  "manifest_sha256": "90722ed014b685d1f6d6834ba3f5033628bd62bd1f237871f6ee68106b630831",
+  "checked_citations": 1117,
+  "exposure_by_actual_wire": {
+    "20230818000362": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20230925000332": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20230822000424": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20230927000587": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20230728000416": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20240710000686": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20240621000553": {
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20231222000680": {
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20241010000504": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20241118000273": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20241018000518": {
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20241129001313": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20241213000457": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20241205000577": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20230823000258": {
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250908000140": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250107000412": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true
+    },
+    "20230906000217": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20240520000263": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250908000329": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250120000464": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20240621000344": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20230911000405": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250930000546": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250207000496": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250320001180": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20230912000404": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20230915000263": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250324000841": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20251001000684": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20251103000252": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250325000608": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20230915000281": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20251223000517": {
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20250328002012": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    },
+    "20230918000204": {
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true
+    }
+  },
+  "actual": {
+    "20230818000362": {
+      "C": [
+        4
+      ],
+      "A1_SELECT": [
+        96
+      ]
+    },
+    "20230925000332": {
+      "C": [
+        5
+      ],
+      "A1_SELECT": [
+        97
+      ]
+    },
+    "20230822000424": {
+      "C": [
+        9
+      ],
+      "A1_SELECT": []
+    },
+    "20230927000587": {
+      "C": [
+        10
+      ],
+      "A1_SELECT": [
+        95
+      ]
+    },
+    "20230728000416": {
+      "C": [
+        13
+      ],
+      "A1_SELECT": []
+    },
+    "20240710000686": {
+      "C": [
+        18
+      ],
+      "A1_SELECT": [
+        103
+      ]
+    },
+    "20240621000553": {
+      "C": [
+        19
+      ],
+      "A1_SELECT": [
+        101
+      ]
+    },
+    "20231222000680": {
+      "C": [
+        20
+      ],
+      "A1_SELECT": [
+        100
+      ]
+    },
+    "20241010000504": {
+      "C": [
+        24
+      ],
+      "A1_SELECT": [
+        106
+      ]
+    },
+    "20241118000273": {
+      "C": [
+        26
+      ],
+      "A1_SELECT": [
+        109
+      ]
+    },
+    "20241018000518": {
+      "C": [
+        28
+      ],
+      "A1_SELECT": [
+        107
+      ]
+    },
+    "20241129001313": {
+      "C": [
+        33
+      ],
+      "A1_SELECT": [
+        111
+      ]
+    },
+    "20241213000457": {
+      "C": [
+        34
+      ],
+      "A1_SELECT": [
+        115
+      ]
+    },
+    "20241205000577": {
+      "C": [
+        35
+      ],
+      "A1_SELECT": [
+        113
+      ]
+    },
+    "20230823000258": {
+      "C": [
+        39
+      ],
+      "A1_SELECT": [
+        118
+      ]
+    },
+    "20250908000140": {
+      "C": [
+        43
+      ],
+      "A1_SELECT": [
+        121
+      ]
+    },
+    "20250107000412": {
+      "C": [
+        44
+      ],
+      "A1_SELECT": [
+        119
+      ]
+    },
+    "20230906000217": {
+      "C": [
+        46
+      ],
+      "A1_SELECT": [
+        124
+      ]
+    },
+    "20240520000263": {
+      "C": [
+        52
+      ],
+      "A1_SELECT": [
+        125
+      ]
+    },
+    "20250908000329": {
+      "C": [
+        53
+      ],
+      "A1_SELECT": [
+        130
+      ]
+    },
+    "20250120000464": {
+      "C": [
+        54
+      ],
+      "A1_SELECT": [
+        127
+      ]
+    },
+    "20240621000344": {
+      "C": [
+        58
+      ],
+      "A1_SELECT": [
+        133
+      ]
+    },
+    "20230911000405": {
+      "C": [
+        62
+      ],
+      "A1_SELECT": [
+        131
+      ]
+    },
+    "20250930000546": {
+      "C": [
+        63
+      ],
+      "A1_SELECT": [
+        137
+      ]
+    },
+    "20250207000496": {
+      "C": [
+        64
+      ],
+      "A1_SELECT": [
+        136
+      ]
+    },
+    "20250320001180": {
+      "C": [
+        68
+      ],
+      "A1_SELECT": [
+        142
+      ]
+    },
+    "20230912000404": {
+      "C": [
+        69
+      ],
+      "A1_SELECT": [
+        139
+      ]
+    },
+    "20230915000263": {
+      "C": [
+        73
+      ],
+      "A1_SELECT": [
+        146
+      ]
+    },
+    "20250324000841": {
+      "C": [
+        74
+      ],
+      "A1_SELECT": [
+        148
+      ]
+    },
+    "20251001000684": {
+      "C": [
+        75
+      ],
+      "A1_SELECT": [
+        143
+      ]
+    },
+    "20251103000252": {
+      "C": [
+        82
+      ],
+      "A1_SELECT": [
+        149
+      ]
+    },
+    "20250325000608": {
+      "C": [
+        83
+      ],
+      "A1_SELECT": [
+        151
+      ]
+    },
+    "20230915000281": {
+      "C": [
+        85
+      ],
+      "A1_SELECT": []
+    },
+    "20251223000517": {
+      "C": [
+        87
+      ],
+      "A1_SELECT": [
+        154
+      ]
+    },
+    "20250328002012": {
+      "C": [
+        90
+      ],
+      "A1_SELECT": [
+        157
+      ]
+    },
+    "20230918000204": {
+      "C": [
+        91
+      ],
+      "A1_SELECT": [
+        155
+      ]
+    }
+  }
+}

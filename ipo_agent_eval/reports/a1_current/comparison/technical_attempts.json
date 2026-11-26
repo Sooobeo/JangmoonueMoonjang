@@ -1,0 +1,12 @@
+[
+  {
+    "case": "MANYO",
+    "stage": "A1_LOOK",
+    "status": "TIMED_OUT",
+    "timeout_seconds": 180,
+    "tokens": null,
+    "billed_dollars": null,
+    "source": "최초 조회 실행의 180초 제한 종료를 운영 로그에서 확인. 프로세스 종료 후 출력과 사용량을 회수하지 못했다.",
+    "handling": "별도 조회 재실행과 선별 제출은 성공했다. 이 실패 시간과 미확인 사용량은 결과의 성공 선별 시간 및 실제 운영 목록 확인 시간과 분리했다."
+  }
+]

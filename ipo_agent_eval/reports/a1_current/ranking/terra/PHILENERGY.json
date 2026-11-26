@@ -1,0 +1,294 @@
+{
+  "case": "PHILENERGY",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "PHILENERGY-01",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-03",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-05",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-08",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-10",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-04",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-06",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-07",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-09",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-11",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-02",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "PHILENERGY-01"
+    ],
+    "operational": [
+      "PHILENERGY-01"
+    ],
+    "waiting": [
+      "PHILENERGY-03",
+      "PHILENERGY-05",
+      "PHILENERGY-08",
+      "PHILENERGY-10"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "PHILENERGY-08",
+        "action": "자료 요청",
+        "priority": 98,
+        "reason": "원문은 2022년 파생상품평가손실 8,134백만원을 가산하면서 양 분기에는 별도 평가 없이 지배주주 순이익을 사용했다고 밝힌다. 가산액이 적용 이익 15,745백만원에 비해 커 기간 대응과 비교기업 조정 일관성이 중요하다. C의 미확인은 조정 오류의 확정이 아니며, 현재 자료만으로 LTM에 적합한 조정액을 확정할 수 없다.",
+        "evidence_ids": [
+          "PDF-185",
+          "A08"
+        ],
+        "question_or_request": "2022년 및 각 분기의 전환권 평가손익 발생·측정 내역, 세후 조정액과 LTM 귀속 근거, 비교기업의 상응 손익 및 조정 여부를 제공해 달라.",
+        "tie_key": "98",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-10",
+        "action": "사람 검토",
+        "priority": 92,
+        "reason": "A0와 C 모두 발행사의 적층 장비와 에이프로의 활성화공정 장비 사이 사업 차이를 지적한다. 원문에서 에이프로의 2022년 지배순손실과 LTM 흑자 전환도 확인되며, 2023년 1분기 순이익은 LTM 순이익보다 크다. 세 비교기업 중 하나이므로 선정과 이익 지속성 검토가 중요하지만, 제외가 확정된 것은 아니다.",
+        "evidence_ids": [
+          "E1",
+          "E5",
+          "PDF-184",
+          "PDF-185"
+        ],
+        "question_or_request": "공정 차이에도 비교기업으로 선정한 이유와 2023년 1분기 이익의 지속성, 해당 LTM PER을 비교에 사용하는 근거는 무엇인가?",
+        "tie_key": "92",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-05",
+        "action": "사람 검토",
+        "priority": 88,
+        "reason": "A0가 지적한 적용 주식 수 불일치가 원문에서 확인된다. 평가표는 10,611,793주, 설명과 구성표는 10,613,051주로 1,258주 차이가 난다. 또한 주식매수선택권 412,500주가 공시되어 있으나 희석가능주식 구성표에는 별도로 나타나지 않는다. 선택권의 희석 반영 방식은 확정할 수 없다.",
+        "evidence_ids": [
+          "PDF-185",
+          "PDF-186",
+          "PDF-291"
+        ],
+        "question_or_request": "실제 평가에 사용한 주식 수와 1,258주 차이의 원인은 무엇인가? 주식매수선택권의 행사·교부 방식과 희석주식 수 반영 여부 및 산정 근거를 확인해 달라.",
+        "tie_key": "88",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-01",
+        "action": "사람 검토",
+        "priority": 85,
+        "reason": "A0의 기간 일치 판단은 원문에서 확인된다. 발행사와 비교기업 모두 2022년 2분기~2023년 1분기 LTM을 사용했다. 다만 C가 제안한 2022년 연간 기준과 달리 원문의 방법 설명에는 ‘최근 사업연도’라고도 적혀 있다. 2022년 연간 기준으로 바꾸면 에이프로가 순손실이므로 비교기업 선정에도 영향이 있을 수 있으나, 대안의 적격성은 확정되지 않았다.",
+        "evidence_ids": [
+          "PDF-184",
+          "PDF-185",
+          "E2",
+          "E3"
+        ],
+        "question_or_request": "‘최근 사업연도’라는 방법 설명과 실제 LTM 적용을 어떻게 정합적으로 설명하는가? LTM 선택 및 연간 순손실 비교기업의 포함 근거도 확인해 달라.",
+        "tie_key": "85",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-09",
+        "action": "자료 요청",
+        "priority": 80,
+        "reason": "발행사는 적층 장비가 2022년 매출의 94.5%인 반면, 피엔티의 74.82%는 노칭장비 외 양극·음극재 및 분리막 제조 관련 범위를 포함한 사업부 비중이다. 따라서 A0의 가치사슬 유사성만으로 장비별 비교 적합성을 확정하기 어렵다. A09의 표시 비중 합계도 100%를 초과해 분모와 중복 여부 확인이 필요하다.",
+        "evidence_ids": [
+          "E1",
+          "E6",
+          "A09"
+        ],
+        "question_or_request": "피엔티의 노칭 등 장비별 매출 비중과 사업부별 비중의 분모·중복 여부, 발행사와의 재무조건 및 배수 비교 근거를 제공해 달라.",
+        "tie_key": "80",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-11",
+        "action": "자료 요청",
+        "priority": 75,
+        "reason": "발행사의 주력 적층 장비와 달리 엔시스는 검사장비 중심이고 태양전지 설비도 취급한다. 원문은 이차전지 검사장비와 setup 대응 비중을 제시하지만 setup의 세부 범위와 태양전지 관련 비중은 확인되지 않아 A0의 가치사슬 기준 수용을 추가 점검해야 한다.",
+        "evidence_ids": [
+          "E1",
+          "E4",
+          "A11"
+        ],
+        "question_or_request": "엔시스의 검사장비·setup 대응·태양전지 설비 매출 구성과 setup의 내용, 발행사 대비 재무조건 및 배수 비교 근거를 제공해 달라.",
+        "tie_key": "75",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-03",
+        "action": "자료 요청",
+        "priority": 64,
+        "reason": "A0는 1개월 평균과 기준일 행이 바뀌었다고 지적했지만, 제공된 A03은 1개월 평균 한 행만 보여 주므로 뒤바뀜과 최솟값 선택 결과를 독립 확인할 수 없다. C는 이 항목을 검토하지 않았다.",
+        "evidence_ids": [
+          "A03",
+          "PDF-185"
+        ],
+        "question_or_request": "기간별 기준시가총액 전체 표와 2023년 4월 13일~5월 12일 일별 종가·적용 주식 수를 제공해 행 표기와 선택값을 대조해 달라.",
+        "tie_key": "64",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-04",
+        "action": "기록 보관",
+        "priority": 18,
+        "reason": "C는 후보별 배수 부족으로 미확인했으나, 원문은 세 PER을 17.4배, 32.0배, 34.2배로 제시한다. 단순평균은 27.9배로 재현되어 A0의 산술 판단이 확인된다. 이는 비교기업 자체의 적격성까지 확정하는 것은 아니다.",
+        "evidence_ids": [
+          "PDF-184"
+        ],
+        "question_or_request": "",
+        "tie_key": "18",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-02",
+        "action": "기록 보관",
+        "priority": 15,
+        "reason": "A0와 C의 지배기업 소유주 귀속 기준 합의는 원문 재검토로 뒷받침된다. 비교기업은 지배지분 순이익을 사용했고 발행사도 지배주주 순이익에 조정을 가해 적용했다. 수용 합의 점검의 형식상 미충족만으로 귀속 범위 오류를 뜻하지는 않는다.",
+        "evidence_ids": [
+          "PDF-185",
+          "E3",
+          "A02"
+        ],
+        "question_or_request": "",
+        "tie_key": "15",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-06",
+        "action": "기록 보관",
+        "priority": 12,
+        "reason": "원문에 표시된 EPS 1,484원과 PER 27.9배의 곱은 반올림 시 41,404원이다. B의 표시 정밀도 기준 재계산도 통과했다. 이는 이익 조정이나 적용 주식 수의 적정성을 보증하지 않는다.",
+        "evidence_ids": [
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "12",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-07",
+        "action": "기록 보관",
+        "priority": 10,
+        "reason": "41,404원에 할인율 36.48%와 27.54%를 적용하면 각각 약 26,300원과 30,000원으로 원문의 희망밴드와 부합한다. 할인율 자체의 적정성까지 입증하는 것은 아니다.",
+        "evidence_ids": [
+          "PDF-186"
+        ],
+        "question_or_request": "",
+        "tie_key": "10",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "PHILENERGY-08"
+    ],
+    "operational": [
+      "PHILENERGY-10"
+    ],
+    "waiting": [
+      "PHILENERGY-05",
+      "PHILENERGY-01"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-184",
+    "PDF-185",
+    "PDF-186",
+    "PDF-291"
+  ],
+  "lookup_run": "reports/a1_current/live/PHILENERGY/A1_LOOK/3851ec15a7c964c5/20261126T041307Z_A1_LOOK_67d95a4e",
+  "decision_run": "reports/a1_current/live/PHILENERGY/A1_SELECT/3851c59d91ec0e51/20261126T041318Z_A1_SELECT_fce90881",
+  "triz": [
+    {
+      "item_id": "PHILENERGY-02",
+      "scope": "발행사 이익의 귀속 범위를 지배기업 소유주 기준으로 살펴볼 수 있다.",
+      "original_facing_assessment": "역할별 원본 수용 재현 또는 근거 안정성·반응성 검증이 일부 충족되지 않아 이 수용 합의를 추가로 지지하기 어렵다.",
+      "role_checks": {
+        "C": {
+          "original_reproduced": true,
+          "format_preserved": true,
+          "direction_responsive": true
+        },
+        "A0": {
+          "original_reproduced": true,
+          "format_preserved": false,
+          "direction_responsive": true
+        }
+      },
+      "price_effect_verified": false
+    }
+  ],
+  "common_item_count": 11,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "PDF-177",
+    "PDF-184",
+    "PDF-185",
+    "PDF-186",
+    "PDF-291"
+  ],
+  "selector_seconds": 45.065,
+  "lookup_method": "compact_catalog_recovery_v1",
+  "selector_condition": "TERRA"
+}

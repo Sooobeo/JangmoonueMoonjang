@@ -1,0 +1,140 @@
+{
+  "role": "C",
+  "case": "GIGAVIS",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-6.1-terra",
+  "raw_response_id": "resp_03edee6fb2c3c473016b07affde8f087d0a82827f638f1b8e2",
+  "thread_id": "resp_03edee6fb2c3c473016b07affde8f087d0a82827f638f1b8e2",
+  "answer": {
+    "status": "PENDING_INFO",
+    "earnings": {
+      "proposal": "PER 적용을 전제로 2022년 K-IFRS 개별 연간 당기순이익을 우선 검토한다. 다만 당기순이익과 조정 항목 자료가 없어 적용 이익은 확정할 수 없다.",
+      "reason": "제공된 가장 최근 연간 재무제표는 2022년 개별 재무제표이며 연결 정보는 해당사항이 없다. 영업이익에서 법인세비용만 차감해서는 영업외 손익 등을 반영한 당기순이익을 구할 수 없다. 당기순이익, 비경상 항목의 내용과 금액, 적용 주식 수가 필요하다.",
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    "aggregation": {
+      "proposal": "비교기업 배수의 집계 방식은 확정하지 않는다.",
+      "reason": "후보별 배수와 산출 기준, 재무조건이 없어 분포나 이상치를 확인할 수 없다. 비교 가능한 기간의 순이익, 주식 수, 주가와 배수 자료를 확보한 뒤 집계 방식을 선택해야 한다.",
+      "evidence_ids": []
+    },
+    "candidates": [
+      {
+        "candidate_id": "C1",
+        "decision": "INCLUDE",
+        "reason": "사업 유사성에 근거한 잠정 포함이다. 반도체 패키지 등 외관검사장비 매출 비중이 커 발행기업의 패키지 기판 광학검사 사업과 가깝다. 다만 플립칩 장비도 매출의 31.7%이고 디스플레이·이차전지 장비도 판매하므로 사업 혼합 차이가 배수에 영향을 줄 수 있다. 재무조건과 배수 확인은 필요하다.",
+        "evidence_ids": [
+          "E1",
+          "E4"
+        ]
+      },
+      {
+        "candidate_id": "C2",
+        "decision": "EXCLUDE",
+        "reason": "원자현미경 중심 사업으로 발행기업의 패키지 기판 결함 검사·수리 설비와 제품 및 용도가 다르다. 연구용 매출도 약 30%를 차지한다.",
+        "evidence_ids": [
+          "E1",
+          "E5"
+        ]
+      },
+      {
+        "candidate_id": "C3",
+        "decision": "REVIEW",
+        "reason": "생산용 자동광학검사장비라는 공통점은 있으나, 납도포검사장비가 연결 매출의 39.6%를 차지한다. 패키지 기판 검사와의 실제 매출·고객 유사성 및 재무조건을 확인해야 한다.",
+        "evidence_ids": [
+          "E1",
+          "E6"
+        ]
+      },
+      {
+        "candidate_id": "C4",
+        "decision": "EXCLUDE",
+        "reason": "주력 장비는 웨이퍼 노광공정의 회로패턴 정렬 계측용으로, 발행기업의 패키지 기판 결함 검사·수리와 공정 및 기능이 다르다.",
+        "evidence_ids": [
+          "E1",
+          "E7"
+        ]
+      },
+      {
+        "candidate_id": "C5",
+        "decision": "REVIEW",
+        "reason": "광학 방식으로 반도체 회로패턴 결함을 검출한다는 점은 유사하다. 다만 웨이퍼 전공정과 패키지 기판 검사라는 공정 차이가 있어 매출 구성, 고객군 및 재무조건을 확인해야 한다.",
+        "evidence_ids": [
+          "E1",
+          "E8"
+        ]
+      }
+    ],
+    "methods": {
+      "period": {
+        "choice": "LATEST_COMPLETE_FY",
+        "reason": "제공된 가장 최근의 완결 연간 자료인 2022년을 사용한다. 2020·2021년 비교 수치는 재작성됐고 감사받지 않았다.",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      "attribution": {
+        "choice": "STANDALONE",
+        "reason": "2022년 개별 재무제표가 있고 연결 요약재무정보는 해당사항이 없다.",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      "aggregation": {
+        "choice": "UNKNOWN",
+        "reason": "후보별 배수와 재무자료가 없어 평균이나 중앙값을 선택할 근거가 부족하다.",
+        "evidence_ids": []
+      },
+      "expense": {
+        "choice": "UNKNOWN",
+        "reason": "조정할 비용의 성격과 금액에 관한 자료가 없다. 비경상 항목과 조정의 지속가능성에 관한 자료가 필요하다.",
+        "evidence_ids": [
+          "E3"
+        ]
+      }
+    }
+  },
+  "tool_item_types": [],
+  "packet_sha256": "366c9c4164e58e012b85811d4f0711ef4dbcead3e89ea3183fabc3e0184c424d",
+  "method": "Independent initial assessment, stateless Responses request with no tools.",
+  "evidence_dir": "reports/a1_current/live/GIGAVIS/VC_NEUTRAL/4ee313637aee666b/20261126T040514Z_VC_NEUTRAL_836ee684",
+  "summary": {
+    "run_id": "20261126T040514Z_VC_NEUTRAL_836ee684",
+    "condition": "VC_NEUTRAL",
+    "mode": "LIVE",
+    "case_id": "GIGAVIS",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1306,
+    "output_tokens": 1555,
+    "format_repairs": 0,
+    "elapsed_seconds": 24.14,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.009081,
+    "known_usage_cost_usd_standard_uncached": 0.009081,
+    "estimated_cost_krw_at_budget_fx": 12.71,
+    "cost_ceiling_usd": 0.009407,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.009407,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  }
+}

@@ -1,0 +1,951 @@
+{
+  "20230818000362": {
+    "facts": {
+      "earnings": {
+        "value": "2826",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "27.61",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "7674103",
+        "unit": "주"
+      },
+      "price": {
+        "value": "10167",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "78026",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20230925000332": {
+    "facts": {
+      "earnings": {
+        "value": "17474",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "23.24",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "9883312",
+        "unit": "주"
+      },
+      "price": {
+        "value": "41085",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "406056",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20230822000424": {
+    "facts": {
+      "earnings": {
+        "value": "4155",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "18.03",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "5447675",
+        "unit": "주"
+      },
+      "price": {
+        "value": "13752",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "74915",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20230728000416": {
+    "facts": {
+      "earnings": {
+        "value": "6675",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "24.04",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "4956526",
+        "unit": "주"
+      },
+      "price": {
+        "value": "32374",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "160462",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": [
+      [
+        "파생상품평가손실",
+        234,
+        "437,715,372"
+      ]
+    ]
+  },
+  "20230927000587": {
+    "facts": {
+      "earnings": {
+        "value": "9640",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "5.95",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "30610000",
+        "unit": "주"
+      },
+      "price": {
+        "value": "1874",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "57366",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20231222000680": {
+    "facts": {
+      "earnings": {
+        "value": "76587421321",
+        "unit": "원"
+      },
+      "per": {
+        "value": "25.07",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "7796228",
+        "unit": "주"
+      },
+      "price": {
+        "value": "246237",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20240621000553": {
+    "facts": {
+      "earnings": {
+        "value": "52979533558",
+        "unit": "원"
+      },
+      "per": {
+        "value": "20.58",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "31170450",
+        "unit": "주"
+      },
+      "price": {
+        "value": "34984",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "주식보상비용",
+        252,
+        "6,872백만원"
+      ]
+    ]
+  },
+  "20240710000686": {
+    "facts": {
+      "earnings": {
+        "value": "29505976938",
+        "unit": "원"
+      },
+      "per": {
+        "value": "10.02",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "15360574",
+        "unit": "주"
+      },
+      "price": {
+        "value": "19253",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20241010000504": {
+    "facts": {
+      "earnings": {
+        "value": "6808900",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "25.2",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "5037023",
+        "unit": "주"
+      },
+      "price": {
+        "value": "34016",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "171341",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20241018000518": {
+    "facts": {
+      "earnings": {
+        "value": "3173279",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "21.21",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "13707500",
+        "unit": "주"
+      },
+      "price": {
+        "value": "4910",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20241118000273": {
+    "facts": {
+      "earnings": {
+        "value": "3204073519",
+        "unit": "원"
+      },
+      "per": {
+        "value": "27.95",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "12390358",
+        "unit": "주"
+      },
+      "price": {
+        "value": "7227",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20241129001313": {
+    "facts": {
+      "earnings": {
+        "value": "11980772212",
+        "unit": "원"
+      },
+      "per": {
+        "value": "28.93",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "36093000",
+        "unit": "주"
+      },
+      "price": {
+        "value": "9600",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20241205000577": {
+    "facts": {
+      "earnings": {
+        "value": "383656",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "22.6",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "96885948",
+        "unit": "주"
+      },
+      "price": {
+        "value": "89378",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "8659465",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20241213000457": {
+    "facts": {
+      "earnings": {
+        "value": "2881965231",
+        "unit": "원"
+      },
+      "per": {
+        "value": "24.4",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "6851000",
+        "unit": "주"
+      },
+      "price": {
+        "value": "10264",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20230823000258": {
+    "facts": {
+      "earnings": {
+        "value": "5941",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "32.61",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "11385920",
+        "unit": "주"
+      },
+      "price": {
+        "value": "17016",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "무형고정자산상각비",
+        317,
+        "685,,567,560"
+      ]
+    ]
+  },
+  "20240305000170": {
+    "facts": {
+      "earnings": {
+        "value": "11107927455",
+        "unit": "원"
+      },
+      "per": {
+        "value": "11.33",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "9950113",
+        "unit": "주"
+      },
+      "price": {
+        "value": "12648",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "세무조사 법인세비용",
+        297,
+        "3,511백만원"
+      ]
+    ]
+  },
+  "20250107000412": {
+    "facts": {
+      "earnings": {
+        "value": "8196631",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "23.42",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "6424676",
+        "unit": "주"
+      },
+      "price": {
+        "value": "29883",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "파생상품평가이익",
+        166,
+        "2,842,927"
+      ],
+      [
+        "파생상품평가손실",
+        166,
+        "5,206,244"
+      ]
+    ]
+  },
+  "20250908000140": {
+    "facts": {
+      "earnings": {
+        "value": "8571572",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "19.09",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "8876900",
+        "unit": "주"
+      },
+      "price": {
+        "value": "18437",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20230906000217": {
+    "facts": {
+      "earnings": {
+        "value": "2472060",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "20.50",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "11287196",
+        "unit": "주"
+      },
+      "price": {
+        "value": "4490",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "50677219",
+        "unit": "천원"
+      }
+    },
+    "adjustments": []
+  },
+  "20240520000263": {
+    "facts": {
+      "earnings": {
+        "value": "106595",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "39.25",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "59411720",
+        "unit": "주"
+      },
+      "price": {
+        "value": "70421",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20250120000464": {
+    "facts": {
+      "earnings": {
+        "value": "11760417",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "33.70",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "23967758",
+        "unit": "주"
+      },
+      "price": {
+        "value": "16537",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20250908000329": {
+    "facts": {
+      "earnings": {
+        "value": "20549",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "26.76",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "5862700",
+        "unit": "주"
+      },
+      "price": {
+        "value": "93788",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "549849",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": [
+      [
+        "매출 컷오프 매출액",
+        226,
+        "5,156 백만원"
+      ],
+      [
+        "매출 컷오프 매출원가",
+        226,
+        "4,396 백만원"
+      ],
+      [
+        "재고자산 미실현이익",
+        226,
+        "1,481 백만원"
+      ],
+      [
+        "매출 컷오프 법인세 효과",
+        226,
+        "489 백만원"
+      ]
+    ]
+  },
+  "20230911000405": {
+    "facts": {
+      "earnings": {
+        "value": "3543",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "26.49",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "7266940",
+        "unit": "주"
+      },
+      "price": {
+        "value": "13022",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "93849",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": [
+      [
+        "파생상품평가손실",
+        182,
+        "935,750,175"
+      ]
+    ]
+  },
+  "20240621000344": {
+    "facts": {
+      "earnings": {
+        "value": "4392286",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "17.27",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "5530000",
+        "unit": "주"
+      },
+      "price": {
+        "value": "13717",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20250207000496": {
+    "facts": {
+      "earnings": {
+        "value": "10658266",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "23.21",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "14260000",
+        "unit": "주"
+      },
+      "price": {
+        "value": "17348",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20250930000546": {
+    "facts": {
+      "earnings": {
+        "value": "4924595951",
+        "unit": "원"
+      },
+      "per": {
+        "value": "25.98",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "12802170",
+        "unit": "주"
+      },
+      "price": {
+        "value": "9994",
+        "unit": "원"
+      }
+    },
+    "adjustments": []
+  },
+  "20230912000404": {
+    "facts": {
+      "earnings": {
+        "value": "4500303",
+        "unit": "천원"
+      },
+      "per": {
+        "value": "23.19",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "16320000",
+        "unit": "주"
+      },
+      "price": {
+        "value": "6395",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "104362",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20250320001180": {
+    "facts": {
+      "earnings": {
+        "value": "7871",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "24.42",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "8381030",
+        "unit": "주"
+      },
+      "price": {
+        "value": "22929",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "192167",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20251001000684": {
+    "facts": {
+      "earnings": {
+        "value": "45655",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "19.2",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "9608767",
+        "unit": "주"
+      },
+      "price": {
+        "value": "91066",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "상환전환우선주 평가손실",
+        230,
+        "68,612 백만원"
+      ]
+    ]
+  },
+  "20230915000263": {
+    "facts": {
+      "earnings": {
+        "value": "6175",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "53.7",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "10693960",
+        "unit": "주"
+      },
+      "price": {
+        "value": "30998",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "331494",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": [
+      [
+        "파생상품평가이익",
+        352,
+        "69                     69"
+      ],
+      [
+        "파생상품평가손실",
+        352,
+        "1,381"
+      ]
+    ]
+  },
+  "20250324000841": {
+    "facts": {
+      "earnings": {
+        "value": "8120389961",
+        "unit": "원"
+      },
+      "per": {
+        "value": "25.48",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "15524430",
+        "unit": "주"
+      },
+      "price": {
+        "value": "13326",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "전환권부채평가손실",
+        190,
+        "932,214,457"
+      ]
+    ]
+  },
+  "20251103000252": {
+    "facts": {
+      "earnings": {
+        "value": "5363",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "19.17",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "9987",
+        "unit": "천주"
+      },
+      "price": {
+        "value": "10300",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "102790",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20230915000281": {
+    "facts": {
+      "earnings": {
+        "value": "5386",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "27.03",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "6971484",
+        "unit": "주"
+      },
+      "price": {
+        "value": "20879",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "1456",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20250325000608": {
+    "facts": {
+      "earnings": {
+        "value": "48382137423",
+        "unit": "원"
+      },
+      "per": {
+        "value": "20.99",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "12704165",
+        "unit": "주"
+      },
+      "price": {
+        "value": "79942",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "파생상품평가손실",
+        184,
+        "32,973,160,000"
+      ]
+    ]
+  },
+  "20251223000517": {
+    "facts": {
+      "earnings": {
+        "value": "5202396820",
+        "unit": "원"
+      },
+      "per": {
+        "value": "27.60",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "9563740",
+        "unit": "주"
+      },
+      "price": {
+        "value": "15014",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "유형자산처분이익",
+        279,
+        "784,841,147"
+      ],
+      [
+        "유형자산처분이익 관련 예상 법인세효과",
+        279,
+        "142,031,800"
+      ]
+    ]
+  },
+  "20230918000204": {
+    "facts": {
+      "earnings": {
+        "value": "9515",
+        "unit": "백만원"
+      },
+      "per": {
+        "value": "18.28",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "13446090",
+        "unit": "주"
+      },
+      "price": {
+        "value": "12934",
+        "unit": "원"
+      },
+      "equity": {
+        "value": "173914",
+        "unit": "백만원"
+      }
+    },
+    "adjustments": []
+  },
+  "20250328002012": {
+    "facts": {
+      "earnings": {
+        "value": "6914894248",
+        "unit": "원"
+      },
+      "per": {
+        "value": "11.55",
+        "unit": "배"
+      },
+      "shares": {
+        "value": "17848110",
+        "unit": "주"
+      },
+      "price": {
+        "value": "4470",
+        "unit": "원"
+      }
+    },
+    "adjustments": [
+      [
+        "중단영업손익",
+        227,
+        "1,862,364,274"
+      ]
+    ]
+  }
+}

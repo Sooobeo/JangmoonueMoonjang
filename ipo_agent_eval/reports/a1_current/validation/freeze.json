@@ -1,0 +1,255 @@
+{
+  "GIGAVIS": {
+    "receipt": "20230331002184",
+    "sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+    "items": [
+      {
+        "item_id": "GIGAVIS-01",
+        "question_type": "J1",
+        "question": "발행사 적용 이익의 기간"
+      },
+      {
+        "item_id": "GIGAVIS-02",
+        "question_type": "J1",
+        "question": "이익의 회계상 귀속 범위"
+      },
+      {
+        "item_id": "GIGAVIS-03",
+        "question_type": "J3",
+        "question": "비교기업 기준주가의 관측기간·선택"
+      },
+      {
+        "item_id": "GIGAVIS-04",
+        "question_type": "J3",
+        "question": "비교기업 PER의 집계 방식"
+      },
+      {
+        "item_id": "GIGAVIS-05",
+        "question_type": "J3",
+        "question": "발행사 적용 주식 수"
+      },
+      {
+        "item_id": "GIGAVIS-06",
+        "question_type": "J3",
+        "question": "주당 평가가액 계산"
+      },
+      {
+        "item_id": "GIGAVIS-07",
+        "question_type": "J3",
+        "question": "공모가 할인율과 밴드"
+      },
+      {
+        "item_id": "GIGAVIS-08",
+        "question_type": "J1",
+        "question": "주식보상비용 또는 파생상품 손익 조정"
+      },
+      {
+        "item_id": "GIGAVIS-09",
+        "question_type": "J2",
+        "question": "고영테크놀러지의 사업 비교 적합성"
+      },
+      {
+        "item_id": "GIGAVIS-10",
+        "question_type": "J2",
+        "question": "파크시스템스의 사업 비교 적합성"
+      },
+      {
+        "item_id": "GIGAVIS-11",
+        "question_type": "J2",
+        "question": "넥스틴의 사업 비교 적합성"
+      },
+      {
+        "item_id": "GIGAVIS-12",
+        "question_type": "J2",
+        "question": "인텍플러스의 사업 비교 적합성"
+      }
+    ],
+    "packet_hash": "4d62ea488a9aaddeecbef2bb63b1f5c2b629def32d2b71777e84a6b72056326f"
+  },
+  "TRUEN": {
+    "receipt": "20230404002347",
+    "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+    "items": [
+      {
+        "item_id": "TRUEN-01",
+        "question_type": "J1",
+        "question": "발행사 적용 이익의 기간"
+      },
+      {
+        "item_id": "TRUEN-02",
+        "question_type": "J1",
+        "question": "이익의 회계상 귀속 범위"
+      },
+      {
+        "item_id": "TRUEN-03",
+        "question_type": "J3",
+        "question": "비교기업 기준주가의 관측기간·선택"
+      },
+      {
+        "item_id": "TRUEN-04",
+        "question_type": "J3",
+        "question": "비교기업 PER의 집계 방식"
+      },
+      {
+        "item_id": "TRUEN-05",
+        "question_type": "J3",
+        "question": "발행사 적용 주식 수"
+      },
+      {
+        "item_id": "TRUEN-06",
+        "question_type": "J3",
+        "question": "주당 평가가액 계산"
+      },
+      {
+        "item_id": "TRUEN-07",
+        "question_type": "J3",
+        "question": "공모가 할인율과 밴드"
+      },
+      {
+        "item_id": "TRUEN-08",
+        "question_type": "J2",
+        "question": "포커스에이치엔에스의 사업 비교 적합성"
+      },
+      {
+        "item_id": "TRUEN-09",
+        "question_type": "J2",
+        "question": "아이디스의 사업 비교 적합성"
+      },
+      {
+        "item_id": "TRUEN-10",
+        "question_type": "J2",
+        "question": "위세아이텍의 사업 비교 적합성"
+      }
+    ],
+    "packet_hash": "927090154a1c5d6b46c1dce03ea1022d6a0cc50237d1671c5d8704eecd5f5618"
+  },
+  "MANYO": {
+    "receipt": "20230407002556",
+    "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+    "items": [
+      {
+        "item_id": "MANYO-01",
+        "question_type": "J1",
+        "question": "발행사 적용 이익의 기간"
+      },
+      {
+        "item_id": "MANYO-02",
+        "question_type": "J1",
+        "question": "이익의 회계상 귀속 범위"
+      },
+      {
+        "item_id": "MANYO-03",
+        "question_type": "J3",
+        "question": "비교기업 기준주가의 관측기간·선택"
+      },
+      {
+        "item_id": "MANYO-04",
+        "question_type": "J3",
+        "question": "비교기업 PER의 집계 방식"
+      },
+      {
+        "item_id": "MANYO-05",
+        "question_type": "J3",
+        "question": "발행사 적용 주식 수"
+      },
+      {
+        "item_id": "MANYO-06",
+        "question_type": "J3",
+        "question": "주당 평가가액 계산"
+      },
+      {
+        "item_id": "MANYO-07",
+        "question_type": "J3",
+        "question": "공모가 할인율과 밴드"
+      },
+      {
+        "item_id": "MANYO-08",
+        "question_type": "J2",
+        "question": "클리오의 사업 비교 적합성"
+      },
+      {
+        "item_id": "MANYO-09",
+        "question_type": "J2",
+        "question": "아이패밀리에스씨의 사업 비교 적합성"
+      },
+      {
+        "item_id": "MANYO-10",
+        "question_type": "J2",
+        "question": "네오팜의 사업 비교 적합성"
+      },
+      {
+        "item_id": "MANYO-11",
+        "question_type": "J2",
+        "question": "애경산업의 사업 비교 적합성"
+      },
+      {
+        "item_id": "MANYO-12",
+        "question_type": "J2",
+        "question": "브이티지엠피의 사업 비교 적합성"
+      }
+    ],
+    "packet_hash": "df16ecbd1ee5450556c3ab89eff7863a9fdc324a34df85549b2bf9004f785edd"
+  },
+  "PHILENERGY": {
+    "receipt": "20230518000227",
+    "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+    "items": [
+      {
+        "item_id": "PHILENERGY-01",
+        "question_type": "J1",
+        "question": "발행사 적용 이익의 기간"
+      },
+      {
+        "item_id": "PHILENERGY-02",
+        "question_type": "J1",
+        "question": "이익의 회계상 귀속 범위"
+      },
+      {
+        "item_id": "PHILENERGY-03",
+        "question_type": "J3",
+        "question": "비교기업 기준주가의 관측기간·선택"
+      },
+      {
+        "item_id": "PHILENERGY-04",
+        "question_type": "J3",
+        "question": "비교기업 PER의 집계 방식"
+      },
+      {
+        "item_id": "PHILENERGY-05",
+        "question_type": "J3",
+        "question": "발행사 적용 주식 수"
+      },
+      {
+        "item_id": "PHILENERGY-06",
+        "question_type": "J3",
+        "question": "주당 평가가액 계산"
+      },
+      {
+        "item_id": "PHILENERGY-07",
+        "question_type": "J3",
+        "question": "공모가 할인율과 밴드"
+      },
+      {
+        "item_id": "PHILENERGY-08",
+        "question_type": "J1",
+        "question": "주식보상비용 또는 파생상품 손익 조정"
+      },
+      {
+        "item_id": "PHILENERGY-09",
+        "question_type": "J2",
+        "question": "피엔티의 사업 비교 적합성"
+      },
+      {
+        "item_id": "PHILENERGY-10",
+        "question_type": "J2",
+        "question": "에이프로의 사업 비교 적합성"
+      },
+      {
+        "item_id": "PHILENERGY-11",
+        "question_type": "J2",
+        "question": "엔시스의 사업 비교 적합성"
+      }
+    ],
+    "packet_hash": "39c3b2d7b4ea57d490fb4d958837184f0cbb72680b00a26a5850216a4f78ade5"
+  }
+}

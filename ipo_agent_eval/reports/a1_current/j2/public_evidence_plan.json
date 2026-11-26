@@ -1,0 +1,55 @@
+{
+  "HDMS": {
+    "scope": "회사의 선박 사후서비스와 조선·해양 장비를 대조하는 개발 편의 표본. 원본 대조 대상 4곳과 당시 독립 자체 자료를 확인한 추가 후보 3곳을 포함했다. 독립 전수 모집단이나 적격성은 아직 확정되지 않았다.",
+    "issuer": [
+      {"id": "E11", "page": 284, "anchor": "AM 사업은 조선 및 해운사", "text": "발행사는 조선·해운사, 용선사 및 선박관리사에 운항선 부품·유지보수와 연료 공급 서비스를 제공한다."},
+      {"id": "E12", "page": 285, "anchor": "42.4%", "text": "2023년 총매출의 약 42.4%는 AM 부품·서비스, 41.4%는 선박 연료 공급, 11.8%는 개조, 4.4%는 선박 제어 기술이다. 엔진 서비스와 친환경 개조를 제공한다."}
+    ],
+    "candidates": [
+      {"id": "C14", "name": "삼성중공업", "item": null, "facts": [
+        {"id": "E14", "published": "2024-03-15", "archive": "HDMS/operator/candidate_sources/010140_business.html", "receipt": "20240315000850", "section": "사업의 개요", "anchor": "해양", "text": "조선·해양 사업은 선박 및 해양플랜트 신조를 주로 수행한다. 운항선 사후서비스 매출은 제시된 절에서 별도 확인되지 않는다."}
+      ]},
+      {"id": "C22", "name": "Kongsberg Gruppen", "item": "H04", "facts": [
+        {"id": "E22", "published": "2024-02-09", "url": "https://www.kongsberg.com/news/news-archive/2024/kongsberg-secured-nok-65-billion-in-order-intake-and-achieved-28-per-cent-growth-in-revenues-in-2023/", "section": "Solid growth and strong order intake in Q4", "anchor": "order intake from the aftermarket continues to increase", "text": "해양 부문은 신조선 발주와 기존 선박 사후시장 수주를 구분해 공시했다. 2023년 말 회사 전체에는 방산·항공우주와 해양 등 여러 사업이 있다."}
+      ]},
+      {"id": "C37", "name": "Wilhelmsen", "item": null, "facts": [
+        {"id": "E37", "published": "2024-02-15", "archive": "HDMS/operator/foreign_evidence/euronext_20240215_fy23.pdf", "url": "https://live.euronext.com/sites/default/files/company_press_releases/attachments_oslo/2024/02/15/611047_Wilhelmsen%20Q4%202023%20report.pdf", "page": 6, "section": "Segment information·Maritime Services", "anchor": "Ships Service, Port Services, Ship Management", "text": "해양 서비스 부문에서 선박 서비스, 항만 서비스와 선박 관리를 운영한다. 2023년 4분기 이 부문의 수익은 187백만 달러다."}
+      ]},
+      {"id": "C43", "name": "Wärtsilä", "item": "H05", "facts": [
+        {"id": "E43", "published": "2024-01-31", "url": "https://www.wartsila.com/docs/default-source/investors/financial-materials/interim-reports/2023-financial-statements-bulletin.pdf", "page": 10, "section": "2023 Financial Statements Bulletin·Marine Power", "anchor": "Service net sales increased", "text": "선박 동력 부문의 2023년 연간 순매출 2,540백만 유로 중 서비스가 1,665백만 유로, 장비가 875백만 유로다. 2023년 4분기에는 전년 동기보다 서비스가 6%, 장비가 44% 증가했다."}
+      ]},
+      {"id": "C58", "name": "한화오션", "item": null, "facts": [
+        {"id": "E58", "published": "2024-03-13", "archive": "HDMS/operator/candidate_sources/042660_business.html", "receipt": "20240313001198", "section": "사업의 개요", "anchor": "상선", "text": "상선·해양 및 특수선 사업을 영위한다. 특수선 관련 유지보수가 있더라도, 제시된 부문만으로 상업 운항선 사후서비스 매출 비중을 확인하기 어렵다."}
+      ]},
+      {"id": "C63", "name": "HD한국조선해양", "item": "H02", "facts": [
+        {"id": "E63", "published": "2024-03-21", "receipt": "20240321000061", "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240321000061&dcmNo=9745662&eleId=11&offset=181157&length=13002&dtd=dart4.xsd", "section": "주요 제품 및 서비스·경영 부문 연결 외부매출", "anchor": "17,694,375", "text": "2023년 연결매출은 신조선 중심 조선 83.1%, 선박용 엔진 등을 포함한 엔진기계 7.7%, 해양플랜트 6.0%였다. 운항선 부품·정비 매출은 이 표에서 따로 표시되지 않는다."}
+      ]},
+      {"id": "C79", "name": "Alfa Laval", "item": "H03", "facts": [
+        {"id": "E79", "published": "2024-02-06", "url": "https://www.alfalaval.com/globalassets/documents/investors/english/quarterly-publications/2023/2023-q4-presentationx.pdf", "page": 6, "section": "Marine division", "anchor": "Strong growth in Service", "text": "해양 부문은 2023년 4분기 펌핑 시스템 수요와 서비스 성장을 보고했다. 이 자료는 해양 서비스의 연간 매출 비중을 별도 제시하지 않는다."}
+      ]}
+    ]
+  },
+  "MELCON": {
+    "scope": "반도체 공정 장비의 기능·공정·고객을 대조하는 개발 편의 표본. 원본 대조 대상 2곳과 독립 당시 사업 자료가 있는 추가 후보 2곳이다. 독립 전수 모집단의 결과는 확보되지 않았다.",
+    "issuer": [
+      {"id": "E101", "page": 317, "anchor": "Track 설비와 노광기", "text": "발행사의 THC는 포토 전공정의 트랙과, XPS는 노광 장비와 연계된다. 주요 고객은 반도체 제조사 및 장비사이며 공정 조건에 따라 맞춤 제작하고 장비를 평가받는다."}
+    ],
+    "candidates": [
+      {"id": "C12", "name": "GST", "item": null, "facts": [
+        {"id": "E112", "published": "2026-08-14", "archive": "MELCON/operator/083450_half_products_20260814001221.html", "receipt": "20260814001221", "section": "주요 제품 및 서비스", "anchor": "17.5", "text": "2026년 반기 제품군은 스크러버가 주력이고, 공정 온도 조절용 칠러는 해당 기간 총매출의 17.5%다."}
+      ]},
+      {"id": "C26", "name": "워트", "item": "M04", "facts": [
+        {"id": "E121", "published": "2026-08-07", "receipt": "20260807000181", "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=11&offset=63269&length=4310&dtd=dart4.xsd", "section": "주요 제품 및 서비스", "anchor": "56.67", "text": "주요 환경제어 제품은 THC, FFU, TCU다. 2026년 반기 총매출 12,036백만원 중 THC는 6,820백만원(56.67%)이다."},
+        {"id": "E122", "published": "2026-08-07", "receipt": "20260807000181", "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=10&offset=59280&length=3985&dtd=dart4.xsd", "section": "사업의 개요·주요 고객과 공급 방식", "anchor": "주요 고객사로는", "text": "주요 고객은 반도체 제조사와 장비사다. 주문 사양에 맞춰 설계·제작하고 평가 및 설치 후 납품한다."},
+        {"id": "E123", "published": "2026-08-07", "receipt": "20260807000181", "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=10&offset=59280&length=3985&dtd=dart4.xsd", "section": "사업의 개요·THC 적용 공정", "anchor": "Photo공정과 후공정인 HBM반도체", "text": "THC는 포토 전공정의 트랙 장비에 설치돼 코팅 및 현상 단계에 제어된 공기를 공급한다."},
+        {"id": "E124", "published": "2026-08-07", "receipt": "20260807000181", "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=10&offset=59280&length=3985&dtd=dart4.xsd", "section": "사업의 개요·HBM 공급과 성능 검증", "anchor": "HBM 공정용 트랙 설비에 THC를 공급", "text": "HBM 후공정의 트랙 설비에 THC를 공급해 성능을 검증했으며 이후 관련 공정에 계속 공급했다."}
+      ]},
+      {"id": "C54", "name": "유니셈", "item": null, "facts": [
+        {"id": "E154", "published": "2026-08-14", "archive": "MELCON/operator/036200_half_products_20260814000905.html", "receipt": "20260814000905", "section": "주요 제품 및 서비스", "anchor": "38.7", "text": "공정 장비로 가스 스크러버와 온도 조절용 칠러를 공급한다. 2026년 반기 칠러 매출은 전체의 38.7%이며 온도조절 부품 서비스 비중은 따로 식별되지 않는다."}
+      ]},
+      {"id": "C88", "name": "HPSP", "item": "M03", "facts": [
+        {"id": "E188", "published": "2026-08-14", "receipt": "20260814004015", "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004015&dcmNo=11539409&eleId=11&offset=153533&length=9099&dtd=dart4.xsd", "section": "주요 제품 및 서비스·매출실적", "anchor": "89.2%", "text": "고압 수소 어닐링 장비는 반도체 전공정에서 소자 계면을 개선한다. 2026년 반기 매출의 89.2%가 해당 장비였고, 나머지는 부품·AS였다. 국내외 반도체 제조사가 고객이다."}
+      ]}
+    ]
+  }
+}

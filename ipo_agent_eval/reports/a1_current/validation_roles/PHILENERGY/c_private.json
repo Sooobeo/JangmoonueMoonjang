@@ -1,0 +1,152 @@
+{
+  "case": "PHILENERGY",
+  "receipt": "20230518000227",
+  "sha256": "e25cfd2754d1b960e29ac3e7161b05e1e850940b84265b04f6d3e9b0ac1382b9",
+  "published_cutoff": "2023-05-18T15:55+09:00",
+  "sources": {
+    "E1": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+      "source_group": "20230518000227",
+      "physical_page": 223,
+      "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+      "published": "2023-05-18",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "주문사양에 따른 이차전지 생산설비를 판매한다. 적층(Stacking) 장비는 2022년 매출의 94.5%, 2023년 1분기 93.8%였고, 레이저 노칭 장비와 개조·부품도 취급한다.",
+      "verbatim_anchors": [
+        "Stacking 68,496 93.8%",
+        "179,258 94.5%",
+        "Laser Notching",
+        "개조/부품"
+      ]
+    },
+    "E2": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+      "source_group": "20230518000227",
+      "physical_page": 257,
+      "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+      "published": "2023-05-18",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "K-IFRS 연결 자료에서 2022년 영업이익은 16,812,053천원, 연결순이익은 3,723,211천원이었다. 2023년 1분기는 각각 7,546,538천원, 5,659,754천원이었다.",
+      "verbatim_anchors": [
+        "요약연결재무정보",
+        "영업이익 7,546,538 16,812,053",
+        "연결당기순이익 5,659,754 3,723,211"
+      ]
+    },
+    "E3": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230518000227&dcm_no=9280930",
+      "source_group": "20230518000227",
+      "physical_page": 262,
+      "sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+      "published": "2023-05-18",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "연결포괄손익계산서는 2023년 1분기와 2022년 연간을 함께 제시하고 지배기업 소유주 귀속을 별도로 표기한다.",
+      "verbatim_anchors": [
+        "2023년 01월 01일부터 2023년 03월 31일",
+        "2022년 01월 01일부터 2022년 12월 31일",
+        "지배기업 소유주지분"
+      ]
+    },
+    "E4": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000024&dcmNo=9078150&eleId=10&offset=107534&length=1556&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/333620/business.html",
+      "sha256": "626b44ce0ecfae76c31f006fc9868453712c8681da23adadeed87573589ae616",
+      "source_group": "20230321000024",
+      "published": "20230321",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321000024",
+      "excerpt": "이차전지 배터리의 전극·조립·활성화·모듈 및 팩 공정에 머신비전 검사장비를 주문생산하여 납품한다. 태양전지 셀·모듈 제조설비도 취급한다.",
+      "verbatim_anchors": [
+        "머신비전검사장비",
+        "태양전지 셀 및 모듈 제조설비",
+        "전 공정에 당사의"
+      ]
+    },
+    "E5": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230322001237&dcmNo=9092122&eleId=10&offset=81369&length=5703&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/262260/business.html",
+      "sha256": "48e27b4f0527164671c885368e1d1aa62cbd58fec15e03e3c045da3a1fd0073a",
+      "source_group": "20230322001237",
+      "published": "20230322",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230322001237",
+      "excerpt": "리튬이온 이차전지 생산의 활성화공정에 사용하는 충방전기·고온가압충방전기 등 장비를 개발·생산한다. 주요 고객은 이차전지 제조업체다.",
+      "verbatim_anchors": [
+        "활성화공정에 해당하는 장비",
+        "고온가압충방전기",
+        "당사의 주요 고객은 리튬이온 2차전지 제조업체"
+      ]
+    },
+    "E6": {
+      "key": "products",
+      "title": "2. 주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230320001029&dcmNo=9077462&eleId=11&offset=61569&length=13242&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/137400/products.html",
+      "sha256": "108b59983e47a2dfee750fd3152c899a77df96c298fc3ec0f0416a10abfb4ac6",
+      "source_group": "20230320001029",
+      "published": "20230320",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230320001029",
+      "excerpt": "2022년 양극·음극재·분리막 제조 및 노칭장비를 포함한 이차전지 사업부 비중은 74.82%였다. 소재 사업부는 전자·디스플레이 소재 제조장비 등을 공급했다.",
+      "verbatim_anchors": [
+        "양극 음극재 및 분리막 제조장비 및 노칭장비",
+        "74.82%",
+        "23.34%"
+      ]
+    },
+    "E7": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230323000741&dcmNo=9095641&eleId=10&offset=78018&length=1131&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/299030/business.html",
+      "sha256": "24d41b8db24ca997e657fa5f1198fff0ead8726c1d10b1b1f64cf3bac6b91d05",
+      "source_group": "20230323000741",
+      "published": "20230323",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230323000741",
+      "excerpt": "원형·각형·파우치형 이차전지용 생산 장비를 제작한다. 조립·화성·팩 조립 및 검사공정 장비를 공급하고 일부 극판용 레이저 노칭·커팅 장비도 제작한다.",
+      "verbatim_anchors": [
+        "모든 종류의 이차전지 장비",
+        "조립공정과 화성공정",
+        "레이저 노칭 장비와 레이저 커팅 장비"
+      ]
+    }
+  },
+  "links": {
+    "C1": {
+      "name": "엔시스",
+      "item_id": "PHILENERGY-11",
+      "ticker": "333620",
+      "supplementary": false
+    },
+    "C2": {
+      "name": "에이프로",
+      "item_id": "PHILENERGY-10",
+      "ticker": "262260",
+      "supplementary": false
+    },
+    "C3": {
+      "name": "피엔티",
+      "item_id": "PHILENERGY-09",
+      "ticker": "137400",
+      "supplementary": false
+    },
+    "C4": {
+      "name": "하나기술",
+      "item_id": null,
+      "ticker": "299030",
+      "supplementary": true
+    }
+  },
+  "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+  "control_basis": "동종 제품·공정·고객군을 기준으로 추가한 실재 상장사. 최초 신고서의 최종 선정·제외 여부 및 결론은 가린다. 독립 시장 전수 탐색은 수행하지 않았다.",
+  "checks": [
+    "원본 PDF와 후보 자체 사업보고서의 발행일·문서 해시 및 실제 연속된 근거 문구 대조",
+    "기업 ID 무작위 배정, 후보명·발행사명·공시번호·선정/배제 표시·URL 검사, 전 후보 동일 필드 사용",
+    "동결 항목 J2 전부와 회사별 추가 후보 1곳의 중복/누락 확인, 실제 C 전송물만 묶어 SHA-256·스키마 확인"
+  ]
+}

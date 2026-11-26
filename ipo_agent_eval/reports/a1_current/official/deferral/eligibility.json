@@ -1,0 +1,16 @@
+{
+  "eligible": {
+    "MANYO": [
+      "MANYO-01"
+    ]
+  },
+  "h1_safety_gate": true,
+  "mandatory_excluded": true,
+  "population": [
+    "GIGAVIS",
+    "TRUEN",
+    "MANYO",
+    "PHILENERGY"
+  ],
+  "source": "official/recovery_protocol.md"
+}

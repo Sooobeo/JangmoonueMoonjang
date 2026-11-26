@@ -1,0 +1,342 @@
+[
+  {
+    "case": "MELCON",
+    "item_id": "M03",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+    "physical_pages": [
+      203,
+      197,
+      200,
+      201,
+      202,
+      207
+    ],
+    "answer": {
+      "status": "unresolved",
+      "finding": "HPSP가 워트와 함께 멜콘의 최종 비교기업에 포함된 사실은 확인된다. 공모가 산정에도 HPSP의 PER 34.92배와 워트의 17.45배를 반영해 26.18배를 적용했다. 남은 쟁점은 HPSP가 3차 사업유사성 기준 중 ‘온도 및 습도 관련 제품 / 서비스’ 매출 비중 50% 요건을 충족했는지다. 신고서는 반도체 전공정 장비의 개발·제조 및 고객 인증 후 반복 수주를 두 회사의 공통점으로 설명한다. 그러나 선정표는 HPSP의 2025년 매출을 고압수소 어닐링장비 89.1%와 기타 10.9%로만 나누고 해당 요건에 O를 표시했다. 제공된 페이지에는 이 중 어떤 매출을 온도 및 습도 관련 매출로 분류했는지 확인할 근거가 없다.",
+      "citations": [
+        {
+          "physical_page": 202,
+          "quote": "대표주관회사인 대신증권㈜는 상기 선정기준을 충족하는 HPSP, 워트 2개사를 최종 유사회\n사로 선정하였습니다."
+        },
+        {
+          "physical_page": 200,
+          "quote": "   사업유사성   ② 온도 및 습도 관련 제품 / 서비스의 매출 비중이 당해 연도 기준 50% 이상일 것"
+        },
+        {
+          "physical_page": 200,
+          "quote": "      HPSP               고압수소 어닐링장비 89.1%, 기타 10.9%                    O          O          O        O"
+        },
+        {
+          "physical_page": 203,
+          "quote": "개발·제작하여 납품하고 인증을 통과한 이후 반복적으로 수주가 이루어진다는 점에서, 반도\n체 제조사 및 글로벌 장비사를 대상으로 초정밀 환경제어 장비를 공급하는 동사의 반도체 전\n공정 장비 사업모델과 유사한 것으로 판단됩니다."
+        },
+        {
+          "physical_page": 207,
+          "quote": "       PER                                    34.92                            17.45\n\n   적용 PER                                    26.18"
+        }
+      ],
+      "open_question": "50% 요건 충족 여부를 확인하려면 대신증권이 적용한 ‘온도 및 습도 관련 제품 / 서비스’의 분류 기준과 HPSP의 2025년 품목별 산출 내역이 필요하다. 산출 내역에는 고압수소 어닐링장비 매출을 해당 범주에 포함했는지, 그 판단 근거는 무엇인지, 해당 매출액이 전체 매출의 몇 퍼센트인지가 제시되어야 한다."
+    },
+    "proxy_seconds": 19.61,
+    "evidence_dir": "reports/a1_current/proxy/MELCON/OP_M03/62d496f8561fe7ab",
+    "human_minutes": null
+  },
+  {
+    "case": "HDMS",
+    "item_id": "H02",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+    "physical_pages": [
+      251,
+      248,
+      250,
+      269
+    ],
+    "answer": {
+      "status": "adequately_supported",
+      "finding": "HD한국조선해양은 HD현대마린솔루션의 최종 비교회사 4개사에 포함됐습니다. 250쪽의 최종 명단에 회사명이 있고, 269쪽의 공모가 평가에도 HD한국조선해양의 PER 36.5배가 반영됐습니다. 4개사의 적용 PER은 31.5배입니다. 주관사들은 조선업이 선박 부품·서비스 수요에 미치는 영향과 양사가 취급하는 대형·중형 선박엔진의 공통점을 선정 근거로 들었습니다.",
+      "citations": [
+        {
+          "physical_page": 250,
+          "quote": "   HD한국조선해양, ALFA LAVAL AB, KONGSBERG GRUPPEN ASA, WARTSILA OYJ ABP\n                           [총 4개사]"
+        },
+        {
+          "physical_page": 251,
+          "quote": "는 조선업의 특성을 보유하고 있으며, 에이치디현대마린솔루션㈜이 주력하는 선박용 대형,\n중형엔진을 취급하고 있다는 점에서 에이치디현대마린솔루션㈜과 산업적, 사업적 유사성이\n존재하는 것으로 판단되어 최종 비교기업으로 선정하였습니다."
+        },
+        {
+          "physical_page": 269,
+          "quote": "      PER            (C)=(A)/(B)                         36.5                     25.6                     31.8                     32.1\n\n     적용 PER 거래배수                                                          31.5"
+        }
+      ],
+      "open_question": "포함 여부는 확인됐습니다. 다만 조선업 중심인 HD한국조선해양과 선박 인도 후 서비스가 주력인 HD현대마린솔루션의 사업구조 차이가 PER 비교에 미친 영향은 제공된 페이지에서 정량화되지 않았습니다."
+    },
+    "proxy_seconds": 15.61,
+    "evidence_dir": "reports/a1_current/proxy/HDMS/OP_H02/e9339f8b4a101e76",
+    "human_minutes": null
+  },
+  {
+    "case": "PHILENERGY",
+    "item_id": "PHILENERGY-01",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+    "physical_pages": [
+      185,
+      184
+    ],
+    "answer": {
+      "status": "adequately_supported",
+      "finding": "발행사 ㈜필에너지가 PER 평가에 적용한 당기순이익의 기간은 2022년 2분기부터 2023년 1분기까지의 12개월(LTM)이다. 2022년 연간 조정 순이익에서 2022년 1분기 순이익을 빼고 2023년 1분기 순이익을 더한 금액은 15,745,462,646원으로, 발행사 평가표의 적용 당기순이익과 일치한다.",
+      "citations": [
+        {
+          "physical_page": 185,
+          "quote": "   적용 순이익은 2023년 1분기 LTM(최종 12개월, 2022년 2분기~2023년 1분기)기준 실적으로, 그 계산 내역은 다음과 같습니다."
+        },
+        {
+          "physical_page": 185,
+          "quote": "             구분          2022년(A)     2022년 1분기(B)   2023년 1분기(C)      A-B+C\n\n         적용 당기순이익    11,857,478,410    1,771,770,012     5,659,754,248     15,745,462,646"
+        }
+      ],
+      "open_question": "적용 기간에 관해 남은 의문은 없다. 제공된 표와 주석으로 기간과 산식은 확인되며, 2022년 순이익에 가산한 파생상품평가손실의 적정성은 별도 검토 사항이다."
+    },
+    "proxy_seconds": 12.88,
+    "evidence_dir": "reports/a1_current/proxy/PHILENERGY/OP_PHILENERGY-01/409264cf8b2919d1",
+    "human_minutes": null
+  },
+  {
+    "case": "PHILENERGY",
+    "item_id": "PHILENERGY-08",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+    "physical_pages": [
+      185,
+      184
+    ],
+    "answer": {
+      "status": "verified_issue",
+      "finding": "필에너지는 PER 평가에 사용할 2022년 순이익을 산정할 때 지배주주 당기순이익 3,723백만원에 전환사채 전환권의 파생상품평가손실 8,134백만원을 가산해 11,857백만원을 적용했다. 신고서는 해당 손실이 현금 유출을 수반하지 않고 상장 후 전환사채가 보통주로 전환되면 자본으로 재분류된다는 점을 가산 사유로 들었다. 2022년과 2023년 각 1분기에는 전환권을 별도로 평가하지 않아 지배주주 당기순이익을 그대로 사용했다. 이 방식으로 산출한 2023년 1분기 기준 최근 12개월 적용 당기순이익은 15,745,462,646원이다.",
+      "citations": [
+        {
+          "physical_page": 185,
+          "quote": "   이에 해당 파생상품평가손실을 가산하여 적용 당기순이익을 산정하였습니다."
+        },
+        {
+          "physical_page": 185,
+          "quote": "         적용 당기순이익    11,857,478,410    1,771,770,012     5,659,754,248     15,745,462,646"
+        }
+      ],
+      "open_question": "제공된 페이지에서는 주식보상비용 조정 여부를 확인할 수 없다. 이를 확인하려면 해당 기간의 주식보상비용 인식액을 보여주는 재무제표 주석과 그 금액을 PER 평가용 순이익에 반영했는지 보여주는 조정 명세가 필요하다."
+    },
+    "proxy_seconds": 13.56,
+    "evidence_dir": "reports/a1_current/proxy/PHILENERGY/OP_PHILENERGY-08/472043668a6c9cb3",
+    "human_minutes": null
+  },
+  {
+    "case": "TRUEN",
+    "item_id": "TRUEN-03",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+    "physical_pages": [
+      195,
+      194
+    ],
+    "answer": {
+      "status": "adequately_supported",
+      "finding": "분석기준일은 2023년 3월 28일이다. 비교기업별로 연초 이후 59영업일(1월 2일~3월 28일), 최근 19영업일(3월 2일~3월 28일), 최근 5영업일(3월 22일~3월 28일)의 종가 산술평균 세 값과 기준일 당일 종가를 비교해 최저값을 기준주가로 적용했다. 표에 기재된 기준주가는 포커스에이치엔에스 2,271원, 아이디스 21,960원, 위세아이텍 16,943원이다.",
+      "citations": [
+        {
+          "physical_page": 194,
+          "quote": "주2) 2023년 3월 28일을 분석기준일로 하여 2023년 초 이후 분석기준일까지 (2023년 1월 2일 ~\n2023년 3월 28일, 59영업일) 종가의 산술평균, 분석기준일로부터 1개월 전부터 분석기준일까지\n(2023년 3월 2일 ~ 2023년 3월 28일, 19영업일) 종가의 산술평균, 분석기준일로부터 1주일 전부터\n분석기준일까지 (2023년 3월 22일 ~ 2023년 3월 28일, 5영업일) 종가의 산술평균 및 분석기준일\n2023년 3월 28일 종가 중 가장 낮은 값을 기준가액으로 적용하였습니다."
+        }
+      ],
+      "open_question": "각 회사에서 어느 기간의 평균 또는 당일 종가가 최저였는지는 제공된 표만으로 확인할 수 없다. 이를 검증하려면 회사별 네 후보값의 비교표 또는 해당 관측기간의 일별 종가가 필요하다."
+    },
+    "proxy_seconds": 15.96,
+    "evidence_dir": "reports/a1_current/proxy/TRUEN/OP_TRUEN-03/af966c567db0e143",
+    "human_minutes": null
+  },
+  {
+    "case": "GIGAVIS",
+    "item_id": "GIGAVIS-05",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+    "physical_pages": [
+      234,
+      233
+    ],
+    "answer": {
+      "status": "unresolved",
+      "finding": "기가비스가 주당 평가가액 산정에 적용한 주식 수는 12,675,758주다. 신고서는 제출일 기준 보통주식 수에 공모주식 수를 더했다고 설명한다. 다만 제공된 페이지에는 두 항목의 개별 수량이 없어 합계가 12,675,758주와 일치하는지는 검증할 수 없다.",
+      "citations": [
+        {
+          "physical_page": 234,
+          "quote": "         적용 주식수(주)                          (D)                 12,675,758"
+        },
+        {
+          "physical_page": 234,
+          "quote": "※ 적용주식수는 보수적인 관점에서 증권신고서 제출일 기준일 현재 보통주식수에 공모주식수를 합\n산하여 적용하였습니다."
+        }
+      ],
+      "open_question": "합계를 검증하려면 최초 신고서 제출일 기준 보통주식 수와 적용 주식 수에 합산한 공모주식 수를 각각 확인할 수 있는 산출 내역이 필요하다."
+    },
+    "proxy_seconds": 15.5,
+    "evidence_dir": "reports/a1_current/proxy/GIGAVIS/OP_GIGAVIS-05/8ddd741c586c64e9",
+    "human_minutes": null
+  },
+  {
+    "case": "TRUEN",
+    "item_id": "TRUEN-10",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+    "physical_pages": [
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "answer": {
+      "status": "unresolved",
+      "finding": "트루엔의 비교기업 선정 기준에는 영상보안·스마트홈 사업과 별도로 AI·빅데이터 사업이 포함된다. 신고서는 위세아이텍을 AI·빅데이터 기업으로 분류하고, 2022년 매출을 빅데이터 분석·품질 67.3%, AI 개발 플랫폼 32.7%로 제시했다. 위세아이텍은 최종 3개사에 선정됐고, PER 32.33배가 트루엔 평가에 적용된 평균 22.59배에 반영됐다. 다만 제공된 페이지에는 트루엔의 대응 제품과 매출 비중, 양사의 고객 산업을 대조한 자료가 없어 사업 비교의 적합성은 미해결이다.",
+      "citations": [
+        {
+          "physical_page": 188,
+          "quote": "영상보안 및 스마트홈 사업 혹은 인사, 금융, 헬스케어 등 특정 산업 제외한 빅데이터 분석 및 AI 관\n련 사업을 영위할 것"
+        },
+        {
+          "physical_page": 189,
+          "quote": "                       빅데이터(분석과 품질) 67.3%, AI 개발 플랫폼\n   위세아이텍       AI/빅데이터\n                                    32.7%"
+        },
+        {
+          "physical_page": 194,
+          "quote": "   위세아이텍               3,870      16,943       7,383,954     125,107     32.33"
+        },
+        {
+          "physical_page": 195,
+          "quote": "   적용 PER 배수                  22.59 배               (B) 최종 유사기업 3개사 평균"
+        }
+      ],
+      "open_question": "트루엔의 어떤 제품이 위세아이텍의 빅데이터 분석·품질 제품이나 AI 개발 플랫폼과 용도 및 고객 산업에서 겹치는가? 이를 판단하려면 양사의 2022년 제품별 용도, 매출 비중, 주요 고객 산업을 같은 기준으로 대조한 자료가 필요하다."
+    },
+    "proxy_seconds": 15.99,
+    "evidence_dir": "reports/a1_current/proxy/TRUEN/OP_TRUEN-10/0b9cd0b1f471b4fe",
+    "human_minutes": null
+  },
+  {
+    "case": "GIGAVIS",
+    "item_id": "GIGAVIS-08",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+    "physical_pages": [
+      234,
+      233
+    ],
+    "answer": {
+      "status": "verified_issue",
+      "finding": "기가비스는 IPO 주당 평가가액을 산정할 때 2022년 당기순이익 27,750,571천원에 주식보상비용 10,097,010천원 전액을 가산해 37,847,581천원을 적용했다. 이 비용은 보유 자기주식을 우리사주조합에 무상증여하면서 인식한 금액이다. 신고서는 영업과 무관하고 현금 유출이 없는 비경상 비용이라는 점을 가산 사유로 제시했다.",
+      "citations": [
+        {
+          "physical_page": 234,
+          "quote": "적용 당기순이익은 2022년 온기 당기순이익(27,750,571천원)에서 주식보상비용\n       (10,097,010천원)을 가산한 금액(37,847,581천원)입니다."
+        },
+        {
+          "physical_page": 233,
+          "quote": "익에 적용하였습니다. 다만, 동사는 2022년 영업과는 무관한 비용인 주식보상비용이 발생하였으며,\n이는 현금의 유출이 없는 회계적이며 비경상적인 비용이기 때문에 이를 당기순이익에 가산하여 적\n용하였습니다."
+        }
+      ],
+      "open_question": "제공된 산식에 표시된 조정은 주식보상비용 가산뿐이다. 해당 비용의 비경상성을 독립적으로 판단하려면 연도별 우리사주 무상증여 및 주식보상 내역이 필요하다. 파생상품 손익의 발생이나 별도 조정 여부를 확인하려면 관련 재무제표 주석과 평가이익 조정 명세가 필요하다."
+    },
+    "proxy_seconds": 15.26,
+    "evidence_dir": "reports/a1_current/proxy/GIGAVIS/OP_GIGAVIS-08/8edee628794eb0d2",
+    "human_minutes": null
+  },
+  {
+    "case": "MANYO",
+    "item_id": "MANYO-04",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+    "physical_pages": [
+      185,
+      184
+    ],
+    "answer": {
+      "status": "adequately_supported",
+      "finding": "적용 PER 21.15배는 ‘적용 여부’가 O인 5개사의 PER를 동일한 비중으로 산술평균한 값이다. 클리오 35.82배, 아이패밀리에스씨 15.48배, 애경산업 28.46배, 네오팜 8.66배, 브이티지엠피 17.37배의 합계는 105.79배다. 이를 5로 나눈 21.158배는 소수 둘째 자리에서 절사하면 공시값 21.15배와 일치한다. X로 표시된 코리아나의 83.89배는 평균에서 제외됐다.",
+      "citations": [
+        {
+          "physical_page": 184,
+          "quote": "   적용 PER(배)               35.82           15.48           28.46            8.66           17.37           83.89"
+        },
+        {
+          "physical_page": 184,
+          "quote": "   적용 여부         O          O          O          O          O            X"
+        },
+        {
+          "physical_page": 184,
+          "quote": "   평균 PER(배)                                                   21.15"
+        },
+        {
+          "physical_page": 185,
+          "quote": "      적용 PER                                   21.15          D, 주3)"
+        }
+      ],
+      "open_question": "통상적인 반올림을 적용하면 표에 표시된 5개사 PER의 평균은 21.16배다. 실제로 절사했는지, 표시 전 수치로 계산했는지 확인하려면 원계산표와 소수점 처리 기준이 필요하다. 제공된 페이지에는 코리아나의 제외 사유도 명시돼 있지 않다."
+    },
+    "proxy_seconds": 14.61,
+    "evidence_dir": "reports/a1_current/proxy/MANYO/OP_MANYO-04/dd787fe81a82da36",
+    "human_minutes": null
+  },
+  {
+    "case": "MANYO",
+    "item_id": "MANYO-11",
+    "status": "CODEX_PROXY_REVIEWED",
+    "original_pdf_sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+    "physical_pages": [
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
+    ],
+    "answer": {
+      "status": "unresolved",
+      "finding": "신고서는 애경산업을 1차에서 ‘치약, 비누 및 기타 세제 제조업’으로 분류했다. 2차에서는 화장품 매출 비중 30% 이상, 자체 기초·색조화장품 브랜드 보유, 마스크팩 및 화장품 소재 생산·매출이 각각 주업이 아니라는 네 기준을 모두 충족한 것으로 표시했다. 애경산업은 최종 유사회사 5개사에 포함됐고, 애경산업의 PER 28.46배는 마녀공장 평가에 적용한 평균 PER 21.15배에 반영됐다. 다만 제공된 페이지에는 애경산업의 실제 화장품 매출 비중과 사업부문별 이익이 제시되지 않아, 회사 전체 PER가 기초 스킨케어·클렌징을 주력으로 하는 마녀공장의 사업을 얼마나 잘 반영하는지는 판단하기 어렵다.",
+      "citations": [
+        {
+          "physical_page": 178,
+          "quote": "    치약, 비누 및 기타 세제 제조업\n                       애경산업, 케이엠제약, 메디앙스 등 3개사\n               (C20422)"
+        },
+        {
+          "physical_page": 179,
+          "quote": "① 화장품 사업 매출 비중이 30% 이상일 것\n② 자체 기초화장품 또는 색조화장품 브랜드를 보유하고 있을 것\n③ 마스크팩 생산 및 매출을 주업으로 하는 회사가 아닐 것\n④ 화장품 소재 생산 및 매출을 주업으로 하는 회사가 아닐 것"
+        },
+        {
+          "physical_page": 180,
+          "quote": "   애경산업           O              O              O             O           O"
+        },
+        {
+          "physical_page": 182,
+          "quote": "           클리오, 아이패밀리에스씨, 네오팜, 애경산업, 브이티지엠피\n                           [총 5개사]"
+        },
+        {
+          "physical_page": 184,
+          "quote": "   적용 PER(배)               35.82           15.48           28.46            8.66           17.37           83.89\n\n   적용 여부         O          O          O          O          O            X\n\n   평균 PER(배)                                                   21.15"
+        }
+      ],
+      "open_question": "2022년 애경산업의 화장품 부문이 전체 매출과 영업이익에서 차지한 비중은 얼마이며, 화장품 매출 중 마녀공장의 주력 제품군과 겹치는 비중은 어느 정도인가? 이를 확인하려면 애경산업의 화장품·비화장품 부문별 매출액과 영업이익, 양사의 같은 기간 제품군별 매출 내역이 필요하다."
+    },
+    "proxy_seconds": 19.1,
+    "evidence_dir": "reports/a1_current/proxy/MANYO/OP_MANYO-11/b8afe59f5aa8d86b",
+    "human_minutes": null
+  }
+]

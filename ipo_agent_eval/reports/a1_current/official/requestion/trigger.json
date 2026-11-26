@@ -1,0 +1,619 @@
+{
+  "audited_utc": "2026-11-26T04:15:17.581649+00:00",
+  "criteria": "reports\\a1_current\\official\\requestion\\criteria.json",
+  "protocol_sha256": "27c9e5f9b9ae2bb66d41689f8a49172bfc05bcd82c294634c77bab9b6211500d",
+  "condition": "Final full-signal official gpt-6.1-terra A1 operating allocations",
+  "companies": {
+    "HDMS": {
+      "source": "reports/a1_current/ranking/terra/HDMS.json",
+      "sha256": "82c7bd55fd660960da12f9028108494d6c9bc607186f7c2bf42c5332ff9947d0",
+      "selector_run": "reports/a1_current/live/HDMS/A1_SELECT/d55dd92601076b2d/20261126T040958Z_A1_SELECT_24ea3951",
+      "role_bundle": {
+        "path": "reports/a1_current/official/dev_labels.json",
+        "sha256": "5ed7ff8a475d4500486262de40597d7eb223e8fc0b015037b7a5d227f85fc1dc"
+      },
+      "action_partition": {
+        "actual_human_referrals": [
+          "H02"
+        ],
+        "waiting_for_human_review": [
+          "H03",
+          "H04",
+          "H05",
+          "H11"
+        ],
+        "document_requests": [
+          "H08"
+        ],
+        "archived": [
+          "H07",
+          "H06",
+          "H09",
+          "H01",
+          "H10"
+        ]
+      },
+      "routed_details": [
+        {
+          "item_id": "H02",
+          "question_type": "J2 사업 비교 적합성",
+          "registry_question": "후보 C63의 제품·공정·고객·매출 구조는 발행사의 PER 비교에 적합한가?",
+          "comparability_record": "비교 가능",
+          "scope_note": null,
+          "role_judgments": {
+            "a0": {
+              "state": "미확인",
+              "reason": "조선 중심이라는 후보 정보와 공시상 사업 연관성을 언급했다. 개별 사업 적합성의 수용·배제 판정은 붙이지 않았다. 순이익 표 차이는 H08에 연결한다.",
+              "source_ids": [
+                "H-P0251"
+              ],
+              "evidence_provided": null,
+              "comparable": null,
+              "scope": null,
+              "raw_proposal": null
+            },
+            "c": {
+              "state": "문제 제기",
+              "reason": "2023년 연결매출의 83.1%가 신조선 중심 조선으로, 운항선 서비스와 연료 공급 중심인 발행사와 차이가 크다. 운항선 부품·정비 매출도 별도 확인되지 않는다.",
+              "source_ids": [
+                "E11",
+                "E12",
+                "E63"
+              ],
+              "evidence_provided": null,
+              "comparable": null,
+              "scope": null,
+              "raw_proposal": null
+            }
+          },
+          "roles_comparable": true,
+          "mandatory": false,
+          "selector_reasons": "A0는 개별 적합성을 판정하지 않았고 C는 제외 의견이다. 발행사는 운항선 서비스와 연료 공급 중심인 반면 후보는 신조선 중심 조선 매출이 83.1%다. 다만 공시는 선박 엔진과 AM 수요의 연관성을 선정 근거로 제시한다. 사업범위 차이가 선정 판단을 바꿀 가능성이 있고 제외 민감도는 약 5.29%다.",
+          "actual_transfer_question": "신조선 중심 기업의 전사 PER을 운항선 서비스·연료 공급 기업에 적용할 때, 엔진 및 AM 수요의 연관성이 사업구조 차이를 보완하기에 충분한가?",
+          "selector_source_ids": [
+            "H-P0248",
+            "H-P0251",
+            "H-P0250",
+            "E11",
+            "E12",
+            "E63"
+          ],
+          "selector_priority": 94,
+          "role_scope": "회사의 선박 사후서비스와 조선·해양 장비를 대조하는 개발 편의 표본. 원본 대조 대상 4곳과 당시 독립 자체 자료를 확인한 추가 후보 3곳을 포함했다. 독립 전수 모집단이나 적격성은 아직 확정되지 않았다.",
+          "opposed_source_grounded_claims": false,
+          "dispute_qualification": "한쪽의 개별 결론 부재",
+          "substantive_check": "A0는 후보의 조선 중심 매출과 엔진·AM 연관성을 모두 언급하면서 개별 편입·배제는 판단하지 않았다. C는 신조선 매출 83.1%를 근거로 제외를 제안했다. 남은 질문은 엔진·AM 연관성이 주력 사업의 차이를 보완하는지다. A0의 출처가 밝힌 선정 사유를 A0 자신의 찬성 판단으로 해석할 수 없다."
+        }
+      ],
+      "raw_selector_response_id": "resp_0bf688d9decc9d36016b07b116b85887d0aa16c931b0003395",
+      "raw_selector_response_sha256": "5145c86b5f1b07ed4a150befb55f89872b387df55be69f942dabe398be9068fa"
+    },
+    "MELCON": {
+      "source": "reports/a1_current/ranking/terra/MELCON.json",
+      "sha256": "55000f7565a0ae47b568b4f348fe92eefa542ac7cea11a318f2505612c6518f5",
+      "selector_run": "reports/a1_current/live/MELCON/A1_SELECT/eeff9c58a9256bf7/20261126T040503Z_A1_SELECT_fe5a09bd",
+      "role_bundle": {
+        "path": "reports/a1_current/official/dev_labels.json",
+        "sha256": "5ed7ff8a475d4500486262de40597d7eb223e8fc0b015037b7a5d227f85fc1dc"
+      },
+      "action_partition": {
+        "actual_human_referrals": [
+          "M03"
+        ],
+        "waiting_for_human_review": [
+          "M06",
+          "M07",
+          "M04",
+          "M11"
+        ],
+        "document_requests": [
+          "M01",
+          "M02",
+          "M05"
+        ],
+        "archived": [
+          "M09",
+          "M08",
+          "M10"
+        ]
+      },
+      "routed_details": [
+        {
+          "item_id": "M03",
+          "question_type": "J2 사업 비교 적합성",
+          "registry_question": "후보 C88의 제품·공정·고객·매출 구조는 발행사의 PER 비교에 적합한가?",
+          "comparability_record": "비교 가능",
+          "scope_note": null,
+          "role_judgments": {
+            "a0": {
+              "state": "문제 제기",
+              "reason": "HPSP의 주력 장비와 발행사의 기능 차이가 사업 위험·수익성에 연결된다고 직접 지적했다. 배제 권고는 제시하지 않았다.",
+              "source_ids": [
+                "M-P0200"
+              ],
+              "evidence_provided": null,
+              "comparable": null,
+              "scope": null,
+              "raw_proposal": null
+            },
+            "c": {
+              "state": "문제 제기",
+              "reason": "반도체 제조사를 고객으로 한다는 공통점은 있으나, 매출의 89.2%가 소자 계면 개선용 고압 수소 어닐링 장비다. 확인된 발행사의 트랙·노광 연계 제품과 공정상 기능 및 매출원이 다르다.",
+              "source_ids": [
+                "E101",
+                "E188"
+              ],
+              "evidence_provided": null,
+              "comparable": null,
+              "scope": null,
+              "raw_proposal": null
+            }
+          },
+          "roles_comparable": true,
+          "mandatory": false,
+          "selector_reasons": "A0와 C 모두 공정 기능 차이를 지적했다. 2026년 반기 HPSP 매출의 89.2%는 소자 계면 개선용 어닐링 장비이고, 발행사는 포토공정 환경제어가 주력이다. 원문은 고객·주문제작 방식의 유사성도 제시한다. 또한 온도·습도 관련 매출 50% 기준에 HPSP를 적격으로 표시한 이유가 원문에서 분명하지 않다. HPSP 제외 가정의 영향은 약 33.4%이나 배제의 확정 근거는 아니다.",
+          "actual_transfer_question": "HPSP가 온도·습도 관련 매출 기준을 충족하는 판단 근거는 무엇이며, 공정 기능과 수익성·위험 차이에도 워트와 동등하게 비교할 수 있는가?",
+          "selector_source_ids": [
+            "M-P0197",
+            "M-P0200",
+            "M-P0202",
+            "M-P0203",
+            "M-P0207",
+            "E101",
+            "E188"
+          ],
+          "selector_priority": 99,
+          "role_scope": "반도체 공정 장비의 기능·공정·고객을 대조하는 개발 편의 표본. 원본 대조 대상 2곳과 독립 당시 사업 자료가 있는 추가 후보 2곳이다. 독립 전수 모집단의 결과는 확보되지 않았다.",
+          "opposed_source_grounded_claims": false,
+          "dispute_qualification": "두 역할의 같은 공정 차이 지적",
+          "substantive_check": "A0와 C 모두 고압 수소 어닐링과 포토공정 환경제어의 기능 차이를 확인했다. 심사자에게 넘어간 점은 온습도 관련 매출 기준 50% 충족 근거와 동일 배수 비교의 타당성이다. A0가 배제를 확정하지 않은 점은 C와 반대되는 포함 제안이 아니다."
+        }
+      ],
+      "raw_selector_response_id": "resp_0470d55a92132383016b07afefb6a487d0926747d510137fac",
+      "raw_selector_response_sha256": "42cd3cb7028b892dfa3953aa4865dce85a1ee3bfce880065c1df038c9d6e051b"
+    },
+    "GIGAVIS": {
+      "source": "reports/a1_current/ranking/terra/GIGAVIS.json",
+      "sha256": "9bcd276d8d4e3002065867b8adcaaa6d90f9b23f00f547b5bc8b2c6ea9b46a7f",
+      "selector_run": "reports/a1_current/live/GIGAVIS/A1_SELECT/0777b8508607d8c9/20261126T041318Z_A1_SELECT_85d0080f",
+      "role_bundle": {
+        "path": "reports/a1_current/validation_roles/official/labels_triz.json",
+        "sha256": "b3de9ad972278276c341dd912827576c962f1ba2a36b38afc3b030dd6b7b3f4f"
+      },
+      "action_partition": {
+        "actual_human_referrals": [
+          "GIGAVIS-08"
+        ],
+        "waiting_for_human_review": [
+          "GIGAVIS-10",
+          "GIGAVIS-09",
+          "GIGAVIS-11"
+        ],
+        "document_requests": [
+          "GIGAVIS-05"
+        ],
+        "archived": [
+          "GIGAVIS-12",
+          "GIGAVIS-04",
+          "GIGAVIS-02",
+          "GIGAVIS-06",
+          "GIGAVIS-07",
+          "GIGAVIS-01",
+          "GIGAVIS-03"
+        ]
+      },
+      "routed_details": [
+        {
+          "item_id": "GIGAVIS-08",
+          "question_type": "J1",
+          "registry_question": "주식보상비용 또는 파생상품 손익 조정",
+          "comparability_record": null,
+          "scope_note": null,
+          "role_judgments": {
+            "a0": {
+              "state": "문제 제기",
+              "reason": "일회성·비현금 비용이라는 조정 근거는 있으나, 임직원 보상비용을 당기순이익에 전액 가산하면 적용 이익이 크게 증가한다. 비교기업은 공시 순이익을 사용하므로 조정의 비대칭성과 법인세 효과를 함께 검토할 필요가 있다.",
+              "source_ids": [
+                "A08"
+              ],
+              "evidence_provided": null,
+              "comparable": true,
+              "scope": null,
+              "raw_proposal": null
+            },
+            "c": {
+              "state": "미확인",
+              "reason": "조정할 비용의 성격과 금액에 관한 자료가 없다. 비경상 항목과 조정의 지속가능성에 관한 자료가 필요하다.",
+              "source_ids": [
+                "E3"
+              ],
+              "evidence_provided": null,
+              "comparable": false,
+              "scope": "비경상 손익 조정",
+              "raw_proposal": "UNKNOWN"
+            }
+          },
+          "roles_comparable": false,
+          "mandatory": false,
+          "selector_reasons": "C의 자료 부족 판단과 달리 원문은 자기주식의 우리사주조합 무상증여에 따른 주식보상비용 100억 9,701만원을 2022년 순이익에 가산한 경위와 금액을 제시한다. 가산액은 적용 이익의 약 26.7%로 비중이 크며, 비교기업에는 공시 순이익을 사용해 조정의 대칭성과 세효과가 중요한 쟁점이다. 이것만으로 조정 오류를 확정하지는 않는다.",
+          "actual_transfer_question": "이 비용을 영업과 무관한 비경상 항목으로 전액 가산한 근거는 무엇이며, 비교기업의 유사 비용과 법인세 효과를 어떻게 고려했습니까?",
+          "selector_source_ids": [
+            "PDF-233",
+            "PDF-234"
+          ],
+          "selector_priority": 98,
+          "role_scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+          "opposed_source_grounded_claims": false,
+          "dispute_qualification": "가림 범위의 손익조정 자료 부족",
+          "substantive_check": "A0는 우리사주 관련 주식보상비용 전액 가산의 대칭성과 세효과를 문제 삼았다. C는 해당 비용 성격·금액을 받지 못해 일반적 자료 요청에 그쳤다. 원문으로 가산액·경위를 확인한 뒤에도 비교기업 조정과 법인세 효과는 남지만 C가 그 가산에 찬성한 것은 아니다."
+        }
+      ],
+      "raw_selector_response_id": "resp_0ada42b061493c44016b07b1dedd1087d0aba04f692ac5f477",
+      "raw_selector_response_sha256": "30fc479aa143d2b12f3062c56cac901c90a36378462ae9e5b7fa8ac93d34a9c8"
+    },
+    "TRUEN": {
+      "source": "reports/a1_current/ranking/terra/TRUEN.json",
+      "sha256": "08e517f1f27618116b335d824776c92c7c1a5b5d5a39a8a81989ce45906fae08",
+      "selector_run": "reports/a1_current/live/TRUEN/A1_SELECT/7a2dd17203e38969/20261126T041007Z_A1_SELECT_57cb49d1",
+      "role_bundle": {
+        "path": "reports/a1_current/validation_roles/official/labels_triz.json",
+        "sha256": "b3de9ad972278276c341dd912827576c962f1ba2a36b38afc3b030dd6b7b3f4f"
+      },
+      "action_partition": {
+        "actual_human_referrals": [
+          "TRUEN-10"
+        ],
+        "waiting_for_human_review": [
+          "TRUEN-03",
+          "TRUEN-08",
+          "TRUEN-09",
+          "TRUEN-06",
+          "TRUEN-07"
+        ],
+        "document_requests": [
+          "TRUEN-02"
+        ],
+        "archived": [
+          "TRUEN-04",
+          "TRUEN-05",
+          "TRUEN-01"
+        ]
+      },
+      "routed_details": [
+        {
+          "item_id": "TRUEN-10",
+          "question_type": "J2",
+          "registry_question": "위세아이텍의 사업 비교 적합성",
+          "comparability_record": null,
+          "scope_note": null,
+          "role_judgments": {
+            "a0": {
+              "state": "문제 제기",
+              "reason": "빅데이터와 AI라는 기술적 접점은 있으나 매출은 빅데이터 분석·품질과 AI 개발 플랫폼 중심입니다. 영상보안 카메라 중심 발행사와 제품·시장 유사성이 제한적입니다.",
+              "source_ids": [
+                "A10"
+              ],
+              "evidence_provided": null,
+              "comparable": true,
+              "scope": null,
+              "raw_proposal": null
+            },
+            "c": {
+              "state": "문제 제기",
+              "reason": "AI 개발·데이터 분석 소프트웨어 중심으로, IP 카메라가 매출의 대부분인 발행기업과 주력 제품 및 매출원이 다르다. 직접 비교기업으로 보기 어렵다.",
+              "source_ids": [
+                "E1",
+                "E2",
+                "E5"
+              ],
+              "evidence_provided": null,
+              "comparable": true,
+              "scope": "사업 비교 적합성",
+              "raw_proposal": "EXCLUDE"
+            }
+          },
+          "roles_comparable": true,
+          "mandatory": false,
+          "selector_reasons": "A0와 C 모두 사업 적합성에 문제를 제기했다. 발행사는 2022년 IP 카메라 매출이 81.94%인 반면, 위세아이텍은 데이터 분석·품질과 AI 개발 플랫폼 중심이어서 주력 제품과 매출원이 다르다. 원문의 선정 기준은 빅데이터·AI 사업도 포함하지만, 이것만으로 직접 비교의 적합성이 해소되지는 않는다. 위세아이텍의 PER 32.33배는 세 회사 평균 22.59배보다 높아 선정 판단이 적용 배수에 영향을 준다. 두 회사 평균 17.73배는 조건부 비교일 뿐 적격 대안이나 오류의 확정 근거는 아니다.",
+          "actual_transfer_question": "영상보안 카메라 중심 발행사와 제품·매출원이 다른 위세아이텍을 최종 비교기업에 포함한 구체적 이유는 무엇이며, 사업 차이가 PER 비교에 미치는 영향을 어떻게 평가했나요?",
+          "selector_source_ids": [
+            "E2",
+            "E5",
+            "A10",
+            "PDF-187",
+            "PDF-194"
+          ],
+          "selector_priority": 96,
+          "role_scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+          "opposed_source_grounded_claims": false,
+          "dispute_qualification": "두 역할의 같은 제품·매출원 차이 지적",
+          "substantive_check": "A0와 C 둘 다 IP 카메라와 AI 개발·데이터 분석 소프트웨어의 주된 제품·매출원 차이를 지적했다. 넓은 빅데이터·AI 선정 기준을 적용하고 배수를 유지한 근거가 검토 대상이다. 심사자의 질문은 양측 공통 문제제기에서 비롯됐다."
+        }
+      ],
+      "raw_selector_response_id": "resp_04ce055aa5ce2fca016b07b11f698087d0a72951b7f4b02d9e",
+      "raw_selector_response_sha256": "9c3241aa15c103a0445270a95b52c7a8a1903384a4763153638ffda428e071f6"
+    },
+    "MANYO": {
+      "source": "reports/a1_current/ranking/terra/MANYO.json",
+      "sha256": "c0a8e6135ffd2f79c259ed9092856749494b8e6973de4321afaf6514b8256455",
+      "selector_run": "reports/a1_current/live/MANYO/A1_SELECT/6d95f00e2a2d3f2c/20261126T041318Z_A1_SELECT_c372ac38",
+      "role_bundle": {
+        "path": "reports/a1_current/validation_roles/official/labels_triz.json",
+        "sha256": "b3de9ad972278276c341dd912827576c962f1ba2a36b38afc3b030dd6b7b3f4f"
+      },
+      "action_partition": {
+        "actual_human_referrals": [
+          "MANYO-11"
+        ],
+        "waiting_for_human_review": [
+          "MANYO-12",
+          "MANYO-09",
+          "MANYO-08"
+        ],
+        "document_requests": [],
+        "archived": [
+          "MANYO-04",
+          "MANYO-10",
+          "MANYO-02",
+          "MANYO-06",
+          "MANYO-01",
+          "MANYO-07",
+          "MANYO-03",
+          "MANYO-05"
+        ]
+      },
+      "routed_details": [
+        {
+          "item_id": "MANYO-11",
+          "question_type": "J2",
+          "registry_question": "애경산업의 사업 비교 적합성",
+          "comparability_record": null,
+          "scope_note": null,
+          "role_judgments": {
+            "a0": {
+              "state": "미확인",
+              "reason": "화장품 사업 기준을 통과했지만, 제공된 원문에는 애경산업의 세부 매출 구성이 없어 비화장품 사업과 발행사 주력 제품의 차이를 충분히 평가하기 어렵다.",
+              "source_ids": [
+                "A11"
+              ],
+              "evidence_provided": null,
+              "comparable": true,
+              "scope": null,
+              "raw_proposal": null
+            },
+            "c": {
+              "state": "문제 제기",
+              "reason": "생활용품이 매출의 64%로 주력이며, 자체 생산공장 등을 운영한다. 기초 화장품 브랜드이자 외부 OEM·ODM 생산을 활용하는 발행기업과 매출원 및 자산구조가 달라 배수 비교에 영향을 줄 수 있다.",
+              "source_ids": [
+                "E1",
+                "E2",
+                "E6"
+              ],
+              "evidence_provided": null,
+              "comparable": true,
+              "scope": "사업 비교 적합성",
+              "raw_proposal": "EXCLUDE"
+            }
+          },
+          "roles_comparable": true,
+          "mandatory": false,
+          "selector_reasons": "A0의 매출 구성 미확인은 E6으로 해소된다. 2022년 생활용품이 매출의 64%이고 직접 생산공장 등을 운영해 발행사의 주력 매출원 및 외부 생산 방식과 차이가 크다. 공시된 화장품 매출 30% 이상 선별 기준은 통과했지만 최종 비교 적합성에 관한 C의 제외 제안을 검토할 필요가 있다. 적격 대안의 가격 영향은 미산출이다.",
+          "actual_transfer_question": "생활용품 중심 매출과 직접 생산 구조에도 애경산업을 유지한 근거 및 배수 비교의 적절성을 검토해 주세요.",
+          "selector_source_ids": [
+            "E1",
+            "E2",
+            "E6",
+            "PDF-177",
+            "PDF-182"
+          ],
+          "selector_priority": 90,
+          "role_scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+          "opposed_source_grounded_claims": false,
+          "dispute_qualification": "한쪽 정보 부족이 원문 대조로 해소",
+          "substantive_check": "A0는 화장품 기준 통과 사실을 확인했지만 매출 구성을 확인하지 못해 수용을 확정하지 않았다. C의 E6으로 생활용품 64% 및 직접 생산을 확인하면서 매출 구성에 대한 차이는 해소되었다. 남은 질문은 화장품 기준을 통과한 이 회사를 외부 OEM·ODM 중심 브랜드의 비교기업으로 유지할지다."
+        }
+      ],
+      "raw_selector_response_id": "resp_026936c3b25f3e84016b07b1dec4e087d0bda1fa92d47e1e14",
+      "raw_selector_response_sha256": "9b374f7ec1759946d102952f5c60d72f9d0aee8fca249a63e42ed6dd64658ad4"
+    },
+    "PHILENERGY": {
+      "source": "reports/a1_current/ranking/terra/PHILENERGY.json",
+      "sha256": "8ab7838665d2f834911f964957df462c15c9f4712c4eb31a36f628ffd5c937e1",
+      "selector_run": "reports/a1_current/live/PHILENERGY/A1_SELECT/3851c59d91ec0e51/20261126T041318Z_A1_SELECT_fce90881",
+      "role_bundle": {
+        "path": "reports/a1_current/validation_roles/official/labels_triz.json",
+        "sha256": "b3de9ad972278276c341dd912827576c962f1ba2a36b38afc3b030dd6b7b3f4f"
+      },
+      "action_partition": {
+        "actual_human_referrals": [
+          "PHILENERGY-10"
+        ],
+        "waiting_for_human_review": [
+          "PHILENERGY-05",
+          "PHILENERGY-01"
+        ],
+        "document_requests": [
+          "PHILENERGY-08",
+          "PHILENERGY-09",
+          "PHILENERGY-11",
+          "PHILENERGY-03"
+        ],
+        "archived": [
+          "PHILENERGY-04",
+          "PHILENERGY-02",
+          "PHILENERGY-06",
+          "PHILENERGY-07"
+        ]
+      },
+      "routed_details": [
+        {
+          "item_id": "PHILENERGY-10",
+          "question_type": "J2",
+          "registry_question": "에이프로의 사업 비교 적합성",
+          "comparability_record": null,
+          "scope_note": null,
+          "role_judgments": {
+            "a0": {
+              "state": "문제 제기",
+              "reason": "에이프로는 같은 2차전지 장비 가치사슬에 있으나 주력은 발행사의 조립공정과 다른 화성공정이다. 더불어 2022년 지배순손실에서 LTM 흑자로 전환했고 2023년 1분기 이익이 LTM 이익을 웃돌아, 최근 이익의 지속성과 비교 가능성에 대한 검토가 중요하다.",
+              "source_ids": [
+                "A10"
+              ],
+              "evidence_provided": null,
+              "comparable": true,
+              "scope": null,
+              "raw_proposal": null
+            },
+            "c": {
+              "state": "미확인",
+              "reason": "이차전지 제조업체에 생산설비를 공급한다는 점은 유사하지만, 주력은 발행기업의 적층 공정과 다른 활성화공정 충방전 장비다. 재무조건과 배수가 없어 최종 포함 여부를 판단하기 어렵다.",
+              "source_ids": [
+                "E1",
+                "E5"
+              ],
+              "evidence_provided": null,
+              "comparable": true,
+              "scope": "사업 비교 적합성",
+              "raw_proposal": "REVIEW"
+            }
+          },
+          "roles_comparable": true,
+          "mandatory": false,
+          "selector_reasons": "A0와 C 모두 발행사의 적층 장비와 에이프로의 활성화공정 장비 사이 사업 차이를 지적한다. 원문에서 에이프로의 2022년 지배순손실과 LTM 흑자 전환도 확인되며, 2023년 1분기 순이익은 LTM 순이익보다 크다. 세 비교기업 중 하나이므로 선정과 이익 지속성 검토가 중요하지만, 제외가 확정된 것은 아니다.",
+          "actual_transfer_question": "공정 차이에도 비교기업으로 선정한 이유와 2023년 1분기 이익의 지속성, 해당 LTM PER을 비교에 사용하는 근거는 무엇인가?",
+          "selector_source_ids": [
+            "E1",
+            "E5",
+            "PDF-184",
+            "PDF-185"
+          ],
+          "selector_priority": 92,
+          "role_scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+          "opposed_source_grounded_claims": false,
+          "dispute_qualification": "공정 차이에 동의하고 이익 지속성은 한쪽 범위 밖",
+          "substantive_check": "A0와 C 모두 적층·조립 대 활성화·충방전 공정 차이를 언급했다. A0는 LTM 흑자와 1분기 이익의 집중도도 문제 삼았지만 C는 재무조건·배수를 받지 못했다. 사업·이익 지속성에 대한 판단을 서로 반대로 내린 사례가 아니다."
+        }
+      ],
+      "raw_selector_response_id": "resp_0eaa7dc0d7e82681016b07b1de83fc87d0ad4f366a6d875227",
+      "raw_selector_response_sha256": "1a6f1286e92eb4ecedea7174c51a5e0479796249b5fa3e616e3bd2b99b594f56"
+    }
+  },
+  "actual_action_totals": {
+    "actual_human_referrals": 6,
+    "waiting_for_human_review": 21,
+    "document_requests": 10,
+    "archived": 30
+  },
+  "all_cross_firm_pairs": [
+    {
+      "first": "H02",
+      "second": "M03",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "H02",
+      "second": "GIGAVIS-08",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "H02",
+      "second": "TRUEN-10",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "H02",
+      "second": "MANYO-11",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "H02",
+      "second": "PHILENERGY-10",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "M03",
+      "second": "GIGAVIS-08",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "M03",
+      "second": "TRUEN-10",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "M03",
+      "second": "MANYO-11",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "M03",
+      "second": "PHILENERGY-10",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "GIGAVIS-08",
+      "second": "TRUEN-10",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "GIGAVIS-08",
+      "second": "MANYO-11",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "GIGAVIS-08",
+      "second": "PHILENERGY-10",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "TRUEN-10",
+      "second": "MANYO-11",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "TRUEN-10",
+      "second": "PHILENERGY-10",
+      "both_have_source_grounded_opposition": false
+    },
+    {
+      "first": "MANYO-11",
+      "second": "PHILENERGY-10",
+      "both_have_source_grounded_opposition": false
+    }
+  ],
+  "similar_groups_examined": [
+    {
+      "items": [
+        "H02",
+        "MANYO-11"
+      ],
+      "finding": "둘 다 후보 매출 구성이 발행사와 다르고 C는 배제를 제안했다. H02의 A0는 개별 판단을 내리지 않았고, MANYO-11의 매출 구성 미확인은 E6로 해소됐다. 같은 양측의 상반된 사실 주장은 없다."
+    },
+    {
+      "items": [
+        "M03",
+        "TRUEN-10",
+        "PHILENERGY-10"
+      ],
+      "finding": "제품·공정이 다르다는 점을 두 역할이 공통으로 관찰했다. 반도체 온습도 매출 기준, 카메라·소프트웨어 제품 차이, 2차전지 공정과 이익 지속성은 각각 다른 후속 질문이다."
+    },
+    {
+      "items": [
+        "GIGAVIS-08",
+        "PHILENERGY-10"
+      ],
+      "finding": "이익 판단도 등장하지만 주식보상 조정 대칭성과 LTM 이익 지속성의 쟁점은 다르다. 어느 쪽도 C가 해당 재무 자료로 반대 결론을 제시하지 않았다."
+    }
+  ],
+  "eligible_repeated_groups": [],
+  "condition_met": false,
+  "additional_model_calls": 0,
+  "original_rankings_modified": false,
+  "reference_grades_opened_for_this_audit": false,
+  "conclusion": "6개 실제 이관 모두 미해결된 확인 질문이 있지만, 같은 구체적 쟁점에서 서로 비교 가능한 A0/C가 근거를 들어 반대 결론을 내린 두 기업은 없었다. 재질문 조건 미충족.",
+  "three_reviews": [
+    "공식 전수 순위와 역할 입력의 신호를 대조하고 모든 항목을 실제 이관·사람 대기·자료 요청·기록 보관으로 1회씩 분류했다.",
+    "실제 이관된 6개 질문과 이유를 보관된 API 원응답에서 대조하고, 두 역할의 근거와 가림 범위, 추가 원문으로 해소된 사실을 따로 기록했다.",
+    "15개 기업 쌍과 주제가 비슷한 3개 묶음을 대조했다. 공통 이견이 없는 이관, 한쪽 미확인, 자료 요청과 미선정 대기는 실험 트리거에서 제외했다."
+  ]
+}

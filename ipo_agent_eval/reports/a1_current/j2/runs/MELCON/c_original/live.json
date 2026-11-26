@@ -1,0 +1,53 @@
+{
+  "case_id": "MELCON",
+  "directory": "runs/MELCON/c_original/20261126T021124Z_A1_BLIND_B_47612493",
+  "packet_sha256": "a7f38c69b347c2ad0160f0b962342a3744242e7f92b0868dea931e61d7a4ba7b",
+  "summary": {
+    "run_id": "20261126T021124Z_A1_BLIND_B_47612493",
+    "condition": "A1_BLIND_B",
+    "mode": "LIVE",
+    "case_id": "MELCON",
+    "repeat": 1,
+    "config_version": "a1-blind-v1",
+    "contract_versions": [
+      "a1-blind-v1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 941,
+    "output_tokens": 1153,
+    "format_repairs": 0,
+    "elapsed_seconds": 20.76,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.006706,
+    "known_usage_cost_usd_standard_uncached": 0.006706,
+    "estimated_cost_krw_at_budget_fx": 9.39,
+    "cost_ceiling_usd": 0.006941,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.006941,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true,
+    "answer_status": "PENDING_INFO",
+    "citation_and_coverage_audit": {
+      "missing_candidates": [],
+      "unknown_candidates": [],
+      "duplicate_candidates": [],
+      "unknown_evidence_ids": [],
+      "candidates_without_citations": []
+    },
+    "response_id": "resp_00c7483211ada6ad016b07954dfdc487d08962c83bc9d22b09",
+    "variant": "B1",
+    "baseline_run_id": null
+  }
+}

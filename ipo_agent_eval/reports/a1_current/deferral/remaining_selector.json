@@ -1,0 +1,231 @@
+{
+  "case": "TRUEN",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "TRUEN-03",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-06",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-07",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-10",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-02",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-04",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-05",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-01",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "TRUEN-03"
+    ],
+    "operational": [
+      "TRUEN-03"
+    ],
+    "waiting": [
+      "TRUEN-06",
+      "TRUEN-07",
+      "TRUEN-10"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "TRUEN-10",
+        "action": "사람 검토",
+        "priority": 95,
+        "reason": "A0와 C가 지적한 주력 수익원의 차이는 원문에서 확인된다. 트루엔은 2022년 매출의 81.94%가 IP 카메라에서 발생했고, 위세아이텍은 빅데이터 분석·품질 비중이 67.3%이며 AI 개발 플랫폼을 공급한다. 공시된 사업 선정 기준은 빅데이터·AI 사업도 허용한다. 다만 이 기준을 충족하는 것과 최종 3개사 평균에 포함할 만큼 사업이 유사한지는 별도 판단이 필요하다. 제외 시 가격 영향은 산출되지 않았다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E5",
+          "A10",
+          "PDF-187",
+          "PDF-195"
+        ],
+        "question_or_request": "위세아이텍의 어떤 제품·고객군·매출 구조가 트루엔의 IP 카메라 사업과 비교 가능하며, 그 중첩이 최종 PER 표본에 포함할 만큼 중요한 근거는 무엇인가?",
+        "tie_key": "95",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-06",
+        "action": "사람 검토",
+        "priority": 84,
+        "reason": "C의 검토 범위 밖이지만 A0가 지적한 표 간 차이는 원문과 B 계산에서 확인된다. 평가 시가총액 172,471백만원을 10,999,650주로 나누면 약 15,679.68원으로 산출표의 15,680원이 재현된다. 같은 쪽 결정표와 본문은 15,578원을 제시한다. 차이는 102원으로 산출표 평가액의 약 0.65%이며, 두 값이 갈린 원인은 확인되지 않는다.",
+        "evidence_ids": [
+          "PDF-195",
+          "A06"
+        ],
+        "question_or_request": "결정표와 본문의 15,578원은 어떤 입력값과 산식에서 나온 값이며, 산출표의 15,680원과 차이가 난 이유는 무엇인가?",
+        "tie_key": "84",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-07",
+        "action": "사람 검토",
+        "priority": 83,
+        "reason": "C의 검토 범위 밖이지만 공시된 밴드 양 끝에서 할인율을 역산하면 A0의 분모 지적이 확인된다. 10,000원과 12,000원은 15,680원 대비 각각 36.22%와 23.47% 할인된 값이다. 본문이 기초로 명시한 15,578원 대비로는 약 35.81%와 22.97%다. TRUEN-06과 연결된 불일치로, 밴드 자체의 오류까지 확정되지는 않는다.",
+        "evidence_ids": [
+          "PDF-195",
+          "A07"
+        ],
+        "question_or_request": "희망공모가 밴드를 결정할 때 실제 사용한 기준가와 할인율은 무엇이며, 결정표와 본문에서 어느 수치를 정정해야 하는가?",
+        "tie_key": "83",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-03",
+        "action": "사람 검토",
+        "priority": 74,
+        "reason": "원문은 후보 중 가장 낮은 값을 적용했다고 명시한다. 따라서 A0가 제기한 최저값 선택의 타당성은 검토할 수 있다. C의 검토 범위에는 후보 가격이 없었고, 제공 원문에서도 각 관측기간과 가격을 확인할 수 없어 A0가 제시한 개별 가격 차이와 공모가 영향은 확정할 수 없다.",
+        "evidence_ids": [
+          "A03"
+        ],
+        "question_or_request": "각 후보 주가의 관측기간과 산식을 대조했을 때, 최저값을 각 비교기업의 대표 주가로 삼은 근거는 무엇인가?",
+        "tie_key": "74",
+        "eligible": true
+      },
+      {
+        "item_id": "TRUEN-02",
+        "action": "자료 요청",
+        "priority": 67,
+        "reason": "평가표의 7,633백만원은 C가 잠정 채택한 2022년 별도 순이익과 표시 단위에서 일치한다. 비교기업의 지배지분 순이익 기준도 확인된다. 다만 금액 일치만으로 발행사의 별도 순이익과 지배기업 소유주 귀속 순이익이 같은지는 판단할 수 없어 A0의 비교가능성 질문이 남는다.",
+        "evidence_ids": [
+          "E4",
+          "PDF-195",
+          "A02",
+          "PDF-187"
+        ],
+        "question_or_request": "발행사의 2022년 종속기업 및 연결재무제표 작성 여부를 확인할 수 있는 주석을 요청한다. 연결재무제표를 작성했다면 지배기업 소유주 귀속 순이익과 평가 적용액의 대조 내역도 요청한다.",
+        "tie_key": "67",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-04",
+        "action": "자료 요청",
+        "priority": 43,
+        "reason": "원문에서 최종 유사기업 3개사 평균 22.59배는 확인된다. 다만 회사별 적용 PER와 가중치가 없어 A0가 수용한 동일가중 산술평균을 독립적으로 재현할 수 없다. C가 지적한 자료 부족은 집계 오류를 입증하지 않는다.",
+        "evidence_ids": [
+          "A04",
+          "PDF-195"
+        ],
+        "question_or_request": "최종 3개사의 개별 적용 PER와 평균 산식, 반올림 기준이 표시된 산출표를 요청한다.",
+        "tie_key": "43",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-01",
+        "action": "기록 보관",
+        "priority": 15,
+        "reason": "A0와 C가 수용한 발행사 이익 기간은 원문과 일치한다. 평가표의 2022년 당기순이익 7,633백만원은 2022년 별도 연간 순이익 7,633,487천원과 표시 단위에서 맞는다. 비교기업 선정 기준도 2022년 온기 이익을 요구한다. 다만 선정 기준만으로 개별 PER 분모의 실제 적용 기간까지 확정할 수는 없다.",
+        "evidence_ids": [
+          "PDF-195",
+          "E3",
+          "E4",
+          "PDF-187"
+        ],
+        "question_or_request": "발행사 적용 기간을 2022년 연간으로 기록한다. 이익의 귀속 범위는 TRUEN-02에서 확인한다.",
+        "tie_key": "15",
+        "eligible": false
+      },
+      {
+        "item_id": "TRUEN-05",
+        "action": "기록 보관",
+        "priority": 8,
+        "reason": "C의 검토 범위 밖이지만 원문에서 A0의 합산을 재현할 수 있다. 공모 전 8,424,650주에 공모주식 2,500,000주와 주관사 의무인수분 75,000주를 더한 10,999,650주가 주당 평가가액의 분모와 일치한다.",
+        "evidence_ids": [
+          "PDF-195",
+          "A05"
+        ],
+        "question_or_request": "공모 후 주식 수의 구성과 평가표 분모가 일치한 근거를 보관한다.",
+        "tie_key": "8",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "TRUEN-10"
+    ],
+    "operational": [
+      "TRUEN-10"
+    ],
+    "waiting": [
+      "TRUEN-06",
+      "TRUEN-07",
+      "TRUEN-03"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-195"
+  ],
+  "lookup_run": "reports/a1_current/proxy/TRUEN/A1_LOOK/fd7c2b00e55f841e",
+  "decision_run": "reports/a1_current/proxy/TRUEN/A1_SELECT/e9055d715cbdf904",
+  "triz": [
+    {
+      "item_id": "TRUEN-08",
+      "status": "원본 근거 재현",
+      "signal": "양 역할의 원본 제품 중첩 판단이 재현되어 이 항목에 추가 검토 신호를 부여하지 않는다."
+    },
+    {
+      "item_id": "TRUEN-09",
+      "status": "원본 근거 재현",
+      "signal": "양 역할의 원본 제품 중첩 판단이 재현되어 이 항목에 추가 검토 신호를 부여하지 않는다."
+    }
+  ],
+  "common_item_count": 8,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "PDF-187",
+    "PDF-195"
+  ],
+  "selector_seconds": 119.65,
+  "selector_condition": "CODEX_PROXY",
+  "held_items": [
+    "TRUEN-08",
+    "TRUEN-09"
+  ]
+}

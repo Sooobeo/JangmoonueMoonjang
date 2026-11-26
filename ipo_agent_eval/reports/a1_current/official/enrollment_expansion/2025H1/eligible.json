@@ -1,0 +1,1120 @@
+{
+  "window_kst": [
+    "2025-01-01",
+    "2025-06-30"
+  ],
+  "rows": [
+    {
+      "receipt": "20250107000412",
+      "corp_code": "01747977",
+      "issuer": "엘케이켐",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250107000412",
+      "quarter_position": 11,
+      "quarter": "2025Q1",
+      "position": 11,
+      "date_kst": "2025-01-07",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "엘케이켐/증권신고서(지분증권)/2025.01.07",
+      "family_metadata": [
+        {
+          "receipt": "20250212000695",
+          "caption": "2025.02.12 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250203000266",
+          "caption": "2025.02.03 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250107000412",
+          "caption": "2025.01.07 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250107000412&dcm_no=10256135",
+      "pdf_sha256": "61f6a3e14993936d72fba6f757996a823f202fc85e73419768bdb459722c2474",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 3분기 기준 최근 12개월 순이익, 실적 PER 23.42배",
+      "per_multiple": 23.42,
+      "ipo_status_anchor": {
+        "page": 28,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 154,
+        "quote": "2024년 3분기 기준 최근 12개월(LTM) 순이익 (①) x 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 154,
+        "quote": "유사기업 PER 23.42x"
+      },
+      "offer_band_anchor": {
+        "page": 155,
+        "quote": "주당 공모희망가액 18,000원 ~ 21,000원"
+      },
+      "pdf_pages": 385,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250107000412.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250107&textCrpCik=01747977&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "b9476df7a66a7bd0cf192217698e82443673b064b034aba8b834ff92db21bfbd",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 28,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 154,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 154,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 155,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250120000464",
+      "corp_code": "01563667",
+      "issuer": "더즌",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250120000464",
+      "quarter_position": 85,
+      "quarter": "2025Q1",
+      "position": 85,
+      "date_kst": "2025-01-20",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "더즌/증권신고서(지분증권)/2025.01.20",
+      "family_metadata": [
+        {
+          "receipt": "20250311000714",
+          "caption": "2025.03.11 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250221001682",
+          "caption": "2025.02.21 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250212000943",
+          "caption": "2025.02.12 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250212000121",
+          "caption": "2025.02.12 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250120000464",
+          "caption": "2025.01.20 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250120000464&dcm_no=10270513",
+      "pdf_sha256": "2da47315e47c22c3f12279434c104a43b240eab8aa3f9154598b6d1ad4c83dbd",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 3분기말 최근 4개분기 지배기업 소유주 지분 연결당기순이익, 실적 PER 33.70배",
+      "per_multiple": 33.7,
+      "ipo_status_anchor": {
+        "page": 24,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 141,
+        "quote": "2024년 3분기말 기준 최근 4개분기(LTM) 지배기업 소유주 지분 연결당기순이익(①) × 비교대상회사 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 141,
+        "quote": "비교대상회사 PER 33.70배"
+      },
+      "offer_band_anchor": {
+        "page": 141,
+        "quote": "주당 희망 공모가격 10,500원 ~ 12,500원"
+      },
+      "pdf_pages": 357,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250120000464.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250120&textCrpCik=01563667&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "d0d7d6908750d2207dd8349fd1c93a7041cf742f48ff138285e94211b4bf4ab6",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 24,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 141,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 141,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 141,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250207000496",
+      "corp_code": "01803927",
+      "issuer": "에이유브랜즈",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250207000496",
+      "quarter_position": 138,
+      "quarter": "2025Q1",
+      "position": 138,
+      "date_kst": "2025-02-07",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "에이유브랜즈/증권신고서(지분증권)/2025.02.07",
+      "family_metadata": [
+        {
+          "receipt": "20250321000213",
+          "caption": "2025.03.21 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250320000060",
+          "caption": "2025.03.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250221001808",
+          "caption": "2025.02.21 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250207000496",
+          "caption": "2025.02.07 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250207000496&dcm_no=10291039",
+      "pdf_sha256": "61d7c935c18f50fc2d653b7fd12d6e7f1cbd029547c885b7566f972660891437",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 3분기 LTM 지배주주 당기순이익, 실적 PER 23.21배",
+      "per_multiple": 23.21,
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 152,
+        "quote": "2024년 3분기 LTM 당기순이익(①) × 비교대상회사 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 152,
+        "quote": "비교대상회사 PER 23.21배"
+      },
+      "offer_band_anchor": {
+        "page": 153,
+        "quote": "주당 희망 공모가격 14,000원 ~ 16,000원"
+      },
+      "pdf_pages": 345,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250207000496.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250207&textCrpCik=01803927&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "1e9043e5739b0bb302186fce07efc3c105a759ca2afc22b6089dac0539245d50",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 27,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 152,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 152,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 153,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250320001180",
+      "corp_code": "00488244",
+      "issuer": "원일티엔아이",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001180",
+      "quarter_position": 268,
+      "quarter": "2025Q1",
+      "position": 268,
+      "date_kst": "2025-03-20",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "원일티엔아이/증권신고서(지분증권)/2025.03.20",
+      "family_metadata": [
+        {
+          "receipt": "20250423000260",
+          "caption": "2025.04.23 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250416000014",
+          "caption": "2025.04.16 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250331001752",
+          "caption": "2025.03.31 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250320001180",
+          "caption": "2025.03.20 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250320001180&dcm_no=10437906",
+      "pdf_sha256": "88c1e459a06dac3a3d7e3fe804cadbd53e974566d9bdf0e271d18f022f83bc83",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 24.42배",
+      "per_multiple": 24.42,
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 188,
+        "quote": "2024년 온기 기준 당기순이익 (①) x 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 188,
+        "quote": "유사기업 PER 24.42배"
+      },
+      "offer_band_anchor": {
+        "page": 188,
+        "quote": "주당 희망공모가액 11,500원 ~ 13,500원"
+      },
+      "pdf_pages": 440,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250320001180.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250320&textCrpCik=00488244&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "f2cf928208e6a36cb708b8fb10f6689c151821ba0478daacf058ad4b1d48d653",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 31,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 188,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 188,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 188,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250324000841",
+      "corp_code": "01657197",
+      "issuer": "바이오비쥬",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250324000841",
+      "quarter_position": 284,
+      "quarter": "2025Q1",
+      "position": 284,
+      "date_kst": "2025-03-24",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "바이오비쥬/증권신고서(지분증권)/2025.03.24",
+      "family_metadata": [
+        {
+          "receipt": "20250502000293",
+          "caption": "2025.05.02 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250418000269",
+          "caption": "2025.04.18 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250407004322",
+          "caption": "2025.04.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250324000841",
+          "caption": "2025.03.24 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250324000841&dcm_no=10454843",
+      "pdf_sha256": "f9127ebb3caef6d417cbdfa71ca744efe4451434db90e91da5c07c5483c2ff13",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 25.48배",
+      "per_multiple": 25.48,
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 176,
+        "quote": "2024년 온기 기준 당기순이익(①) x 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 176,
+        "quote": "유사기업 PER 25.48배"
+      },
+      "offer_band_anchor": {
+        "page": 177,
+        "quote": "주당 공모희망가액 8,000원 ~ 9,100원"
+      },
+      "pdf_pages": 507,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250324000841.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250324&textCrpCik=01657197&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "573e74b1d5248a04c4c119e073db5a760772c8d8a08ffcfc1863a14f907fb80d",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 27,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 176,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 176,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 177,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250325000608",
+      "corp_code": "01649204",
+      "issuer": "달바글로벌",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250325000608",
+      "quarter_position": 286,
+      "quarter": "2025Q1",
+      "position": 286,
+      "date_kst": "2025-03-25",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "달바글로벌/증권신고서(지분증권)/2025.03.25",
+      "family_metadata": [
+        {
+          "receipt": "20250508000634",
+          "caption": "2025.05.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250425000805",
+          "caption": "2025.04.25 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250410002680",
+          "caption": "2025.04.10 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250325000608",
+          "caption": "2025.03.25 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250325000608&dcm_no=10457045",
+      "pdf_sha256": "5e0535a6142193321ccd5a58193fff319fc391564cd5e6a11a87f23da25ac721",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 온기 지배주주 순이익, 실적 PER 20.99배",
+      "per_multiple": 20.99,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "본 주식은 유가증권시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 167,
+        "quote": "2024년 온기 기준 지배주주 순이익(①) × 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 168,
+        "quote": "유사기업 PER 배 20.99"
+      },
+      "offer_band_anchor": {
+        "page": 168,
+        "quote": "주당 희망공모가액 54,500원 ~ 66,300원"
+      },
+      "pdf_pages": 439,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250325000608.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250325&textCrpCik=01649204&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "2d3623a20301aeab5af7f7581c0385ab0a168f674ffa3956252c97957d0ff991",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 30,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 167,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 168,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 168,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250328002012",
+      "corp_code": "00204323",
+      "issuer": "키스트론",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250328002012",
+      "quarter_position": 298,
+      "quarter": "2025Q1",
+      "position": 298,
+      "date_kst": "2025-03-28",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "키스트론/증권신고서(지분증권)/2025.03.28",
+      "family_metadata": [
+        {
+          "receipt": "20250520000280",
+          "caption": "2025.05.20 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250509000738",
+          "caption": "2025.05.09 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250416000366",
+          "caption": "2025.04.16 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250328002012",
+          "caption": "2025.03.28 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250328002012&dcm_no=10475490",
+      "pdf_sha256": "4ea6034d73524e9807eea063cd878d4a6d63b16ab0475f8fcfd223a540e53d5e",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 11.55배",
+      "per_multiple": 11.55,
+      "ipo_status_anchor": {
+        "page": 34,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 190,
+        "quote": "2024년 온기 기준 당기순이익(①) x 유사기업의 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 190,
+        "quote": "유사기업의 PER 11.55배"
+      },
+      "offer_band_anchor": {
+        "page": 191,
+        "quote": "주당 공모희망가액 3,100원 ~ 3,600원"
+      },
+      "pdf_pages": 494,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250328002012.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250328&textCrpCik=00204323&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "194773bc53432d388dcf6526cd71959f59c96a2e522b6d95fb2a08a8a56177b0",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 34,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 190,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 190,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 191,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250502000339",
+      "corp_code": "00874168",
+      "issuer": "싸이닉솔루션",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250502000339",
+      "quarter_position": 135,
+      "quarter": "2025Q2",
+      "position": 436,
+      "date_kst": "2025-05-02",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "싸이닉솔루션/증권신고서(지분증권)/2025.05.02",
+      "family_metadata": [
+        {
+          "receipt": "20250624000255",
+          "caption": "2025.06.24 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250617000161",
+          "caption": "2025.06.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250526000171",
+          "caption": "2025.05.26 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250502000339",
+          "caption": "2025.05.02 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250502000339&dcm_no=10627871",
+      "pdf_sha256": "90634fddec6a49cf95721643c4b740a2f711f92ff5556249727731d66d01f748",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 30.32배",
+      "per_multiple": 30.32,
+      "ipo_status_anchor": {
+        "page": 33,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 194,
+        "quote": "2024년 온기 기준 당기순이익(①) x 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 195,
+        "quote": "유사기업 PER 30.32 배"
+      },
+      "offer_band_anchor": {
+        "page": 195,
+        "quote": "주당 공모희망가액 4,300원 ~ 5,100원"
+      },
+      "pdf_pages": 522,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250502000339.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250502&textCrpCik=00874168&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "93637dc2aa8b8fe182a648954aff09486815660fb4e815a359ad70c23fc9d2e9",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 33,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 194,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 195,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 195,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250616000353",
+      "corp_code": "00141583",
+      "issuer": "삼양컴텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 3,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250616000353",
+      "quarter_position": 296,
+      "quarter": "2025Q2",
+      "position": 597,
+      "date_kst": "2025-06-16",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "삼양컴텍/증권신고서(지분증권)/2025.06.16",
+      "family_metadata": [
+        {
+          "receipt": "20250801000255",
+          "caption": "2025.08.01 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250730000053",
+          "caption": "2025.07.30 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250718000446",
+          "caption": "2025.07.18 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250703000309",
+          "caption": "2025.07.03 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250616000353",
+          "caption": "2025.06.16 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250616000353&dcm_no=10687143",
+      "pdf_sha256": "34b24fb1b0a898e196722db3d7fa019c97442ebb93bc1185a25933db6a5f22f2",
+      "classification": "historical_PER",
+      "period_or_method": "2024년 온기 지배주주 당기순이익과 2025년 1분기 연환산 지배주주 당기순이익의 평균, 두 기간 비교회사 PER 30.91배와 22.61배의 평균 26.76배",
+      "per_multiple": 26.76,
+      "ipo_status_anchor": {
+        "page": 34,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 206,
+        "quote": "2024년 온기 당기순이익과 2025년 1분기 연환산 당기순이익의 평균"
+      },
+      "applied_multiple_anchor": {
+        "page": 207,
+        "quote": "2025년 1분기 비교회사 PER 배 30.91X 22.61X"
+      },
+      "offer_band_anchor": {
+        "page": 207,
+        "quote": "희망공모가액 6,600원 ~ 7,700원"
+      },
+      "pdf_pages": 412,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250616000353.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250616&textCrpCik=00141583&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "a57fe339501164c302d6d8bf9b43732ad9c557b06a32e07d9239103b53613d21",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 34,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 206,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 207,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 207,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250625000450",
+      "corp_code": "01294110",
+      "issuer": "에스엔시스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250625000450",
+      "quarter_position": 344,
+      "quarter": "2025Q2",
+      "position": 645,
+      "date_kst": "2025-06-25",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "에스엔시스/증권신고서(지분증권)/2025.06.25",
+      "family_metadata": [
+        {
+          "receipt": "20250805000193",
+          "caption": "2025.08.05 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250728000262",
+          "caption": "2025.07.28 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250722000074",
+          "caption": "2025.07.22 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250708000328",
+          "caption": "2025.07.08 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250625000450",
+          "caption": "2025.06.25 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250625000450&dcm_no=10698401",
+      "pdf_sha256": "dec234b0239aff89fe315e4b13c1737cd2f7c45ba9ca4d67f5e49412afc21cdd",
+      "classification": "historical_PER",
+      "period_or_method": "2025년 1분기 기준 과거 12개월 당기순이익, 실적 PER 21.60배",
+      "per_multiple": 21.6,
+      "ipo_status_anchor": {
+        "page": 32,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 180,
+        "quote": "2025년 1분기 기준 과거 12개월(LTM) 당기순이익(①) x 유사기업의 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 180,
+        "quote": "유사기업의 PER 21.60배"
+      },
+      "offer_band_anchor": {
+        "page": 181,
+        "quote": "주당 공모희망가액 27,000원 ~ 30,000원"
+      },
+      "pdf_pages": 465,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250625000450.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250625&textCrpCik=01294110&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "4d536b696485e4e0fd21cf0354cf1946825c9dad8db39b9cc3862b48fc1ab7cc",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 32,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 180,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 180,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 181,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250627000439",
+      "corp_code": "00185301",
+      "issuer": "제이피아이헬스케어",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250627000439",
+      "quarter_position": 361,
+      "quarter": "2025Q2",
+      "position": 662,
+      "date_kst": "2025-06-27",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "제이피아이헬스케어/증권신고서(지분증권)/2025.06.27",
+      "family_metadata": [
+        {
+          "receipt": "20250808000280",
+          "caption": "2025.08.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250731000193",
+          "caption": "2025.07.31 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250714000188",
+          "caption": "2025.07.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250627000439",
+          "caption": "2025.06.27 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250627000439&dcm_no=10702756",
+      "pdf_sha256": "cddd699e6424a164868fbd33d97c36cdc244389a0556ec7c6e0695ce9a6acb9f",
+      "classification": "historical_PER",
+      "period_or_method": "2025년 1분기 기준 최근 12개월 순이익, 실적 PER 21.37배",
+      "per_multiple": 21.37,
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 187,
+        "quote": "2025년 1분기 기준 최근 12개월(LTM) 순이익(①) × 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 188,
+        "quote": "유사기업 PER 21.37배"
+      },
+      "offer_band_anchor": {
+        "page": 188,
+        "quote": "주당 희망공모가액 16,500원 ~ 20,000원"
+      },
+      "pdf_pages": 449,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250627000439.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250627&textCrpCik=00185301&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "7a03b803af8b84b06acbfd42a8449f858073579f08d17049db996472dae540ac",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 31,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 187,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 188,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 188,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250630000790",
+      "corp_code": "00683061",
+      "issuer": "한라캐스트",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 4,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250630000790",
+      "quarter_position": 373,
+      "quarter": "2025Q2",
+      "position": 674,
+      "date_kst": "2025-06-30",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "한라캐스트/증권신고서(지분증권)/2025.06.30",
+      "family_metadata": [
+        {
+          "receipt": "20250808000359",
+          "caption": "2025.08.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250723000376",
+          "caption": "2025.07.23 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250717000363",
+          "caption": "2025.07.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250714000332",
+          "caption": "2025.07.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250701000367",
+          "caption": "2025.07.01 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250630000790",
+          "caption": "2025.06.30 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250630000790&dcm_no=10706412",
+      "pdf_sha256": "9847e7688ac0b445be66b3bdf11fc53d00ce4ab96b657f1194209483c07a22dc",
+      "classification": "historical_PER",
+      "period_or_method": "2025년 1분기 LTM 당기순이익, 실적 PER 25.61배",
+      "per_multiple": 25.61,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 156,
+        "quote": "2025년 1분기 LTM 당기순이익(①) × 비교대상회사 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 156,
+        "quote": "비교대상회사 PER 25.61배"
+      },
+      "offer_band_anchor": {
+        "page": 157,
+        "quote": "주당 희망공모가액 5,100원 ~5,800원"
+      },
+      "pdf_pages": 390,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250630000790.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250630&textCrpCik=00683061&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "5c5b06912180d148a79beece61e5c73193fbc162ee063b290d150ff864472603",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 30,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 156,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 156,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 157,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    }
+  ],
+  "count": 12,
+  "cache_dir": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1",
+  "outcomes_opened": 0,
+  "model_calls": 0
+}

@@ -29,6 +29,42 @@ dist/
 /reports/*_verification.json
 /reports/**/*_STOP
 
+# A1 pilot transcripts, source copies, and per-call evidence caches
+/reports/a1_current/live/
+/reports/a1_current/**/*.pdf
+/reports/a1_current/**/events.jsonl
+/reports/a1_current/proxy/*/*/
+/reports/a1_current/j2/runs/**/20*/
+/reports/a1_current/j2/runs/**/live-*.json
+/reports/a1_current/j2/source_snapshots/
+/reports/a1_current/official/excerpt_feasibility/runs/
+/reports/a1_current/validation_roles/sources/
+/reports/a1_current/validation_roles/proxy/*/*/
+/reports/a1_current/validation_roles/official/triz/runs/
+
+# A1 per-company copies already represented in rankings.json
+/reports/a1_current/formats/*/*.json
+/reports/a1_current/official/formats/*/*.json
+
+# Enrollment collection intermediates. Retain the roster, final screens and eligibility evidence.
+/reports/a1_current/official/enrollment/document_screen_first_gate.json
+/reports/a1_current/official/enrollment/inventory_initial_queue.json
+/reports/a1_current/official/enrollment_expansion/2024Q3/
+/reports/a1_current/official/enrollment_expansion/*/decisions/
+/reports/a1_current/official/enrollment_expansion/*/document_screen/
+/reports/a1_current/official/enrollment_expansion/*/locator/
+/reports/a1_current/official/enrollment_expansion/*/method/
+
 # Private grading data and links between anonymous IDs and runs
 /data/private/
 /data/cases/*/private/
+
+# Main evaluation inputs contain original extracts and private blind mappings.
+/reports/a1_main/v1/issuers/
+/reports/a1_main/v1/c_source/
+/reports/a1_main/v1/blind/
+/reports/a1_main/v1/terra/
+/reports/a1_main/v1/timing/
+/reports/a1_main/v1/freeze.json
+/reports/a1_main/v1/role_source_review/
+/reports/a1_main/v1/analysis/citation_review/

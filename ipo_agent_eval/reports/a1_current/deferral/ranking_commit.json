@@ -1,0 +1,161 @@
+{
+  "case": "TRUEN",
+  "frozen_utc": "2026-11-26T02:34:50.921286+00:00",
+  "freeze_sha256": "5c0c2df40db27eb3f66e4459b9643752c5c12a4866c47e8f3461a7120b18d944",
+  "source_sha256": {
+    "reports/a1_current/ranking/proxy_without_triz/TRUEN.json": "bd036db2fe4b26a3547e594710702b11e85a9fc19cdf51646edcd89e4a3958ad",
+    "reports/a1_current/ranking/proxy/TRUEN.json": "29c29f17b7efd12c7eafb24c0059d0be34f76121aafce4f67188875e01524193",
+    "reports/a1_current/deferral/remaining_selector.json": "fdcad29b94e8078fdcf6781f11514854cb9b0599a2a9acefb5d7020898aeeeac"
+  },
+  "reference_visible_to_compiler": false,
+  "arms": {
+    "full_without_signal": {
+      "source": "reports/a1_current/ranking/proxy_without_triz/TRUEN.json",
+      "rank_nonmandatory": [
+        "TRUEN-10",
+        "TRUEN-06",
+        "TRUEN-07",
+        "TRUEN-02",
+        "TRUEN-03",
+        "TRUEN-04",
+        "TRUEN-08",
+        "TRUEN-09",
+        "TRUEN-01",
+        "TRUEN-05"
+      ],
+      "tie": {
+        "TRUEN-10": "AI-95",
+        "TRUEN-06": "AI-84",
+        "TRUEN-07": "AI-81",
+        "TRUEN-02": "AI-68",
+        "TRUEN-03": "AI-61",
+        "TRUEN-04": "AI-44",
+        "TRUEN-08": "AI-29",
+        "TRUEN-09": "AI-29",
+        "TRUEN-01": "AI-17",
+        "TRUEN-05": "AI-10"
+      },
+      "mandatory": [],
+      "fixed_k": [
+        "TRUEN-10"
+      ],
+      "operational": [
+        "TRUEN-10"
+      ],
+      "waiting": [
+        "TRUEN-06",
+        "TRUEN-07"
+      ],
+      "selector_row_count": 10,
+      "deferred_tail": []
+    },
+    "full_with_signal": {
+      "source": "reports/a1_current/ranking/proxy/TRUEN.json",
+      "rank_nonmandatory": [
+        "TRUEN-10",
+        "TRUEN-06",
+        "TRUEN-07",
+        "TRUEN-02",
+        "TRUEN-03",
+        "TRUEN-04",
+        "TRUEN-08",
+        "TRUEN-09",
+        "TRUEN-01",
+        "TRUEN-05"
+      ],
+      "tie": {
+        "TRUEN-10": "AI-95",
+        "TRUEN-06": "AI-79",
+        "TRUEN-07": "AI-76",
+        "TRUEN-02": "AI-65",
+        "TRUEN-03": "AI-54",
+        "TRUEN-04": "AI-35",
+        "TRUEN-08": "AI-22",
+        "TRUEN-09": "AI-22",
+        "TRUEN-01": "AI-15",
+        "TRUEN-05": "AI-10"
+      },
+      "mandatory": [],
+      "fixed_k": [
+        "TRUEN-10"
+      ],
+      "operational": [
+        "TRUEN-10"
+      ],
+      "waiting": [
+        "TRUEN-06",
+        "TRUEN-07"
+      ],
+      "selector_row_count": 10,
+      "deferred_tail": []
+    },
+    "hold_with_signal": {
+      "source": "reports/a1_current/deferral/remaining_selector.json",
+      "rank_nonmandatory": [
+        "TRUEN-10",
+        "TRUEN-06",
+        "TRUEN-07",
+        "TRUEN-03",
+        "TRUEN-02",
+        "TRUEN-04",
+        "TRUEN-01",
+        "TRUEN-05",
+        "TRUEN-08",
+        "TRUEN-09"
+      ],
+      "tie": {
+        "TRUEN-10": "AI-95",
+        "TRUEN-06": "AI-84",
+        "TRUEN-07": "AI-83",
+        "TRUEN-03": "AI-74",
+        "TRUEN-02": "AI-67",
+        "TRUEN-04": "AI-43",
+        "TRUEN-01": "AI-15",
+        "TRUEN-05": "AI-8",
+        "TRUEN-08": "L3-(2, True, Decimal('0'))",
+        "TRUEN-09": "L3-(2, True, Decimal('0'))"
+      },
+      "mandatory": [],
+      "fixed_k": [
+        "TRUEN-10"
+      ],
+      "operational": [
+        "TRUEN-10"
+      ],
+      "waiting": [
+        "TRUEN-06",
+        "TRUEN-07",
+        "TRUEN-03"
+      ],
+      "selector_row_count": 8,
+      "deferred_tail": [
+        "TRUEN-08",
+        "TRUEN-09"
+      ]
+    }
+  },
+  "sent_request_comparison": {
+    "lookup_run": {
+      "matched_model": "gpt-6.2-astra",
+      "same_schema_and_instructions": true,
+      "same_original_source_count": 20,
+      "shared_page_catalog": true,
+      "all_request_sha256": {
+        "full_without_signal": "c497c563411eebcc73f89944e296370e018e9eb95d85ae4e047e0c5710fed9cf",
+        "full_with_signal": "c55873beaa8014d6399504f82caa9a7c919565ecdd45dac5dc4a617490f7f764",
+        "hold_with_signal": "05b2329ca1853b28ae427c6226a7fe60adfcc35040729ed63676f192c78d0df5"
+      }
+    },
+    "decision_run": {
+      "matched_model": "gpt-6.2-astra",
+      "same_schema_and_instructions": true,
+      "same_original_source_count": 20,
+      "shared_page_catalog": false,
+      "all_request_sha256": {
+        "full_without_signal": "727887a84429de7e130bc76e9ed5c514ddb8cd5a09be728a502eacec12be9324",
+        "full_with_signal": "96e3ea5bf1c4987a58b831adfade38138dfe2e31e1b621a584aefc5e31b24f7a",
+        "hold_with_signal": "dee61da122df2eb89b9c301b4026e9abb8bf49de6aa71b00c3739a676b1d4102"
+      }
+    }
+  }
+}

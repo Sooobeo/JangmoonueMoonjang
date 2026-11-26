@@ -1,0 +1,47 @@
+{
+  "case": "GIGAVIS",
+  "item_id": "GIGAVIS-05",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:07:14.230+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "33b70f1a8b2cde67c3a7204bf5f5d501706611501f75615a2b02a440ee0c4266",
+  "source_pdf_sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    233,
+    234
+  ],
+  "packet_prep_seconds": 3.890709,
+  "evidence_dir": "reports/a1_current/proxy/GIGAVIS/PERSONA_33b70f1a8b2cde67c3/e9c436e0638457a1",
+  "review_call_wrapper_seconds": 17.497313,
+  "quote_and_boundary_verification_seconds": 0.017591,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "기가비스는 증권신고서 제출일 현재 보통주식수에 공모주식수를 더한 12,675,758주를 주당 평가가액 산정의 분모로 적용했다고 기재했다.",
+    "checked_basis_or_arithmetic": "평가 시가총액 824,968백만원을 원으로 환산해 적용 주식수로 나누면 824,968,000,000원 ÷ 12,675,758주 ≈ 65,082.34원이다. 원 단위 반올림값은 공시된 주당 평가가액 65,082원과 일치한다.",
+    "outcome": "판단 유보",
+    "finding": "12,675,758주를 분모로 사용한 계산은 확인된다. 다만 제공된 쪽에는 제출일 현재 보통주식수와 공모주식수의 개별 수량 및 신주모집·구주매출 내역이 없어, 합계의 정확성과 기존 주식의 중복 산입 여부는 판단을 유보한다.",
+    "follow_up": "제출일 기준 발행주식 총수 현황과 공모주식의 신주모집·구주매출 수량표를 확보해 기존 보통주식수에 신주모집 수량을 더한 값이 12,675,758주와 일치하는지 대조한다.",
+    "citations": [
+      {
+        "physical_page": 234,
+        "locator": "쪽 첫머리 적용주식수 산정 기준",
+        "quote": "※ 적용주식수는 보수적인 관점에서 증권신고서 제출일 기준일 현재 보통주식수에 공모주식수를 합\n산하여 적용하였습니다."
+      },
+      {
+        "physical_page": 234,
+        "locator": "(나) 「PER 적용 주당 평가가액의 산정」 표의 (C)~(E) 행",
+        "quote": "평가 시가총액                      (C)=(A)X(B)                824,968\n\n         적용 주식수(주)                          (D)                 12,675,758\n\n        주당 평가가액(원)                    (E)=(C)÷(D)                 65,082"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:07:35.636+09:00",
+  "original_review_service_seconds": 17.36,
+  "actual_end_to_end_seconds": 21.406402,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

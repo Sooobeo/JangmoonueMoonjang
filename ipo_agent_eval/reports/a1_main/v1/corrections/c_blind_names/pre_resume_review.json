@@ -1,0 +1,73 @@
+{
+  "utc": "2026-11-26T17:52:52.160905+00:00",
+  "freeze_sha256": "76bebfd3ac75ea2ce5fdb3a8e135e62f5cd5b7497fdad2d7a62c2880f6823c0d",
+  "amendment": "90722ed014b685d1f6d6834ba3f5033628bd62bd1f237871f6ee68106b630831",
+  "replacements_sha256": "fe07bf57c76ada7dc3736af91dd36eb0ea10316a239909a6e2f093c3be6eb763",
+  "identity_audit_sha256": "fd48021acad0a8c20884ad4d00f9a300ece1c11935e5481faddb804a6631d02f",
+  "budget_cap_usd": 15,
+  "attempts": 45,
+  "confirmed_input_output": [
+    45,
+    434651,
+    80767
+  ],
+  "reviews": [
+    {
+      "contract": "37 preflighted; default marker, candidate length limit, actual public/private equality and frozen original checks",
+      "prospectively_changed": [
+        "20250120000464",
+        "20250908000329",
+        "20240621000344",
+        "20250207000496",
+        "20250930000546",
+        "20230912000404",
+        "20250320001180",
+        "20251001000684",
+        "20230915000263",
+        "20250324000841",
+        "20250325000608",
+        "20251223000517"
+      ],
+      "all_bound_inputs": 36
+    },
+    {
+      "boundary": "45 prior requests; no C retransmission; original raw C checked equality for all 17 previous C admissions",
+      "actual_C_issuers": 17,
+      "citations": 550,
+      "retained_identifiers": [
+        "20230925000332",
+        "20230822000424",
+        "20231222000680",
+        "20240621000553",
+        "20241018000518",
+        "20241205000577",
+        "20241213000457",
+        "20230823000258",
+        "20250107000412"
+      ]
+    },
+    {
+      "regression": "two regression tests passed for excerpt-length handling, prior/fresh mixing, request version in selector/repair, original bytes, raw response hashes and intentional tamper failures",
+      "limit_exception": {
+        "case": "20250320001180",
+        "evidence_id": "E18",
+        "aliases": [
+          {
+            "literal": "포스코",
+            "replacement": "○○",
+            "count": 1
+          },
+          {
+            "literal": "한전",
+            "replacement": "○○",
+            "count": 1
+          }
+        ],
+        "before": "당사는 발전소공정 및 제철공정에 필요한 발전용 기자재를 설계, 제작, 설치, 시공하는 발전기자재 전문기업입니다. 주된 고객으로는 한전을 비롯한 전력회사 및 발전사업자, 국내외 대형건설사, 포스코를 포함한 제철회사 등이 있습니다. 발전용 기자재는 주기기와 보조기기(Balance of Plant)로 나뉘어지는데, 열을 발생시키는 연료에 따라 발전형태와 주기기가 정해지며, 보조기기류는 발전형태와 상관없이 공통적으로 적용이 되고 있습니다. 주기기는 원자로(원자력), 보일러(화력), 가스터빈·HRSG(복합화력)등으로 나뉘며, 그에 따른 보조기기류는 크게 복수기, 급수가열기, CCW 쿨러, 탈기기 등이 있습니다. 이 중 당사가 생",
+        "after": "당사는 발전소공정 및 제철공정에 필요한 발전용 기자재를 설계, 제작, 설치, 시공하는 발전기자재 전문기업입니다. 주된 고객으로는 ○○을 비롯한 전력회사 및 발전사업자, 국내외 대형건설사, ○○를 포함한 제철회사 등이 있습니다. 발전용 기자재는 주기기와 보조기기(Balance of Plant)로 나뉘어지는데, 열을 발생시키는 연료에 따라 발전형태와 주기기가 정해지며, 보조기기류는 발전형태와 상관없이 공통적으로 적용이 되고 있습니다. 주기기는 원자로(원자력), 보일러(화력), 가스터빈·HRSG(복합화력)등으로 나뉘며, 그에 따른 보조기기류는 크게 복수기, 급수가열기, CCW 쿨러, 탈기기 등이 있습니다. 이 중 당사가 생",
+        "before_length": 350,
+        "after_length": 349
+      }
+    }
+  ]
+}

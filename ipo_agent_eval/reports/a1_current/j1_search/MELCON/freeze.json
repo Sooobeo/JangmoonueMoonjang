@@ -1,0 +1,74 @@
+{
+  "case_id": "MELCON",
+  "filing_sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+  "receipt": "20260821000368",
+  "baseline_sha256": "f26c3339cf29af3085feb53c27c5c0571f3eebb78f4174bb25bcbb5fab9dcc7e",
+  "review_item_ids": [
+    "M01",
+    "M02",
+    "M05"
+  ],
+  "whole_document_page_count": 433,
+  "anchor_pages": {
+    "annual_parent_profit": 324,
+    "current_prior_interim_parent_profit": 350,
+    "annual_and_current_adjustment_rows": 325,
+    "comparative_interim_adjustment_rows": 348
+  },
+  "new_pages": [
+    324,
+    350,
+    325,
+    348
+  ],
+  "search_candidates": {
+    "annual_parent_profit": [
+      [
+        324,
+        14
+      ]
+    ],
+    "current_prior_interim_parent_profit": [
+      [
+        350,
+        12
+      ]
+    ],
+    "annual_and_current_adjustment_rows": [
+      [
+        325,
+        15
+      ]
+    ],
+    "comparative_interim_adjustment_rows": [
+      [
+        348,
+        11
+      ],
+      [
+        382,
+        11
+      ],
+      [
+        389,
+        11
+      ]
+    ],
+    "seasonality_supplement": [
+      [
+        163,
+        11
+      ],
+      [
+        26,
+        10
+      ],
+      [
+        131,
+        10
+      ]
+    ]
+  },
+  "input_sha256": "33a8adeec61a50199698ad19d27cdb49e9016b281b6a996c4239b062a42ab26b",
+  "prompt_sha256": "1f1d2b6b2fe7f5134796df06ada0e8a592fdda16b546dcc5d686ed03e7b6bb7d"
+}

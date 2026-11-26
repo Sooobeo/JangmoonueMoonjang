@@ -1,0 +1,656 @@
+{
+  "protocol": "a1-main-v1",
+  "freeze_sha256": "76bebfd3ac75ea2ce5fdb3a8e135e62f5cd5b7497fdad2d7a62c2880f6823c0d",
+  "boundary_sha256": "956f802debbbad48ae9a0547d4fcfa5565d4866f0125d582d9c49dad8115394d",
+  "replacement_sha256": "fe07bf57c76ada7dc3736af91dd36eb0ea10316a239909a6e2f093c3be6eb763",
+  "identity_audit_sha256": "fd48021acad0a8c20884ad4d00f9a300ece1c11935e5481faddb804a6631d02f",
+  "correction_policy_sha256": "126ba9d1eca5813a9895071e0373f059e3a3b3b85711e8aefb9cd7b4568081de",
+  "correction_runtime_sha256": "9e2687396bc7a174e91e369f581a6b206e483faf26bc37c844aadcedfe7efa3a",
+  "records": {
+    "20230818000362": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "9c40e80a3c6e50d615c01c5fabebd555328f587c3c1f47608176071bc3da8903",
+      "effective_C_sha256": "9c40e80a3c6e50d615c01c5fabebd555328f587c3c1f47608176071bc3da8903",
+      "original_private_sha256": "998d3329e64ae32860dcaa4602461a579351668723e14d6d22f3ea3a5041ad97",
+      "effective_private_sha256": "998d3329e64ae32860dcaa4602461a579351668723e14d6d22f3ea3a5041ad97"
+    },
+    "20230925000332": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E12"
+      ],
+      "original_C_sha256": "e8b85c2e96cc69a2e892f59dc83b3b44a5fe9eb5a840e91a0f4946260cb2a939",
+      "effective_C_sha256": "e8b85c2e96cc69a2e892f59dc83b3b44a5fe9eb5a840e91a0f4946260cb2a939",
+      "original_private_sha256": "af149048f6045c2ff7e2adddc2891ebb3dc9cb38a4dd08e6dd6c20192cd0403e",
+      "effective_private_sha256": "af149048f6045c2ff7e2adddc2891ebb3dc9cb38a4dd08e6dd6c20192cd0403e"
+    },
+    "20230822000424": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E17"
+      ],
+      "original_C_sha256": "150595576b35607736bffe16b1fbf19d66231ca2efdcfb78bd8329279f119ac6",
+      "effective_C_sha256": "150595576b35607736bffe16b1fbf19d66231ca2efdcfb78bd8329279f119ac6",
+      "original_private_sha256": "2c7c0f263b78068e1bd2ab239e52d4f256001063b2851f95b4a9f4aa5e810fa1",
+      "effective_private_sha256": "2c7c0f263b78068e1bd2ab239e52d4f256001063b2851f95b4a9f4aa5e810fa1"
+    },
+    "20230728000416": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "bb8d7ab2c99d22d4259395471a14850ab45b3bb3cb028dd08f785e298ed666b1",
+      "effective_C_sha256": "bb8d7ab2c99d22d4259395471a14850ab45b3bb3cb028dd08f785e298ed666b1",
+      "original_private_sha256": "b107a62ca22a31b874d6f69d3297b4f3a39560e2810411e3410d1c5eaf3da7c7",
+      "effective_private_sha256": "b107a62ca22a31b874d6f69d3297b4f3a39560e2810411e3410d1c5eaf3da7c7"
+    },
+    "20230927000587": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "28e74049ae3d6dc8eea03ce1e7be00ce54b4cf945beede91b3cee6427434ee6c",
+      "effective_C_sha256": "28e74049ae3d6dc8eea03ce1e7be00ce54b4cf945beede91b3cee6427434ee6c",
+      "original_private_sha256": "60d7a8377291c668907a47ee9db4a31830507c9feb052d6c8c20c5504af53e4e",
+      "effective_private_sha256": "60d7a8377291c668907a47ee9db4a31830507c9feb052d6c8c20c5504af53e4e"
+    },
+    "20231222000680": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": true,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E15",
+        "E23",
+        "E30",
+        "E6",
+        "E8"
+      ],
+      "original_C_sha256": "272d9d74925b549b4e10e7a4149e4b4e7a742c58d6c53e2b48552fb1122d3d38",
+      "effective_C_sha256": "272d9d74925b549b4e10e7a4149e4b4e7a742c58d6c53e2b48552fb1122d3d38",
+      "original_private_sha256": "0d18015d20a65ed3de0a8fd15de97704321c33999a729f5e4abe5c84a472deb8",
+      "effective_private_sha256": "0d18015d20a65ed3de0a8fd15de97704321c33999a729f5e4abe5c84a472deb8"
+    },
+    "20240621000553": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": true,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E16",
+        "E17",
+        "E6"
+      ],
+      "original_C_sha256": "049ee5870257853ad09811e2e798afb89d9e5171ce956b811996b5a05fa0ebd6",
+      "effective_C_sha256": "049ee5870257853ad09811e2e798afb89d9e5171ce956b811996b5a05fa0ebd6",
+      "original_private_sha256": "98d96fac98e03e39e1a16731c10fd7f7aa39720c2494f9435d3e41c48c0288b7",
+      "effective_private_sha256": "98d96fac98e03e39e1a16731c10fd7f7aa39720c2494f9435d3e41c48c0288b7"
+    },
+    "20240710000686": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "9fd90d2de586fcdfd8806b60d9b33f704df32399958fbbafd64c1a6c7ce1fd77",
+      "effective_C_sha256": "9fd90d2de586fcdfd8806b60d9b33f704df32399958fbbafd64c1a6c7ce1fd77",
+      "original_private_sha256": "d40b5f4cd84e800999ae8a18813338c4a62e3537552a7f04963bb4befe1e66a2",
+      "effective_private_sha256": "d40b5f4cd84e800999ae8a18813338c4a62e3537552a7f04963bb4befe1e66a2"
+    },
+    "20241010000504": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "751e7fbbda42be40919a944cbe64b8861f19df236aed6791cd0589fbfe33fb05",
+      "effective_C_sha256": "751e7fbbda42be40919a944cbe64b8861f19df236aed6791cd0589fbfe33fb05",
+      "original_private_sha256": "ccabbe4cd88af3974d9e38ba95ef7b748bd960f117c99b408ff68fcbdf0464b5",
+      "effective_private_sha256": "ccabbe4cd88af3974d9e38ba95ef7b748bd960f117c99b408ff68fcbdf0464b5"
+    },
+    "20241018000518": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": true,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E1",
+        "E11",
+        "E12",
+        "E13",
+        "E2"
+      ],
+      "original_C_sha256": "b4c65e92e59bfbf7936243fbb15d9bedda904096ba452efc064bfa8e0086ca99",
+      "effective_C_sha256": "b4c65e92e59bfbf7936243fbb15d9bedda904096ba452efc064bfa8e0086ca99",
+      "original_private_sha256": "39bace19c2ddd1b4e764ffcbb3b308b7154e38114b2faff23e15b2a84a18617d",
+      "effective_private_sha256": "39bace19c2ddd1b4e764ffcbb3b308b7154e38114b2faff23e15b2a84a18617d"
+    },
+    "20241118000273": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "bb1340d7f12e21ff7f85099216f0e08608bd5917519e4feef6153352b1257b44",
+      "effective_C_sha256": "bb1340d7f12e21ff7f85099216f0e08608bd5917519e4feef6153352b1257b44",
+      "original_private_sha256": "034c0caf1f06ba58708b1f6bfdef49f97cc9f0b56a1af17d7dff19ba96763c81",
+      "effective_private_sha256": "034c0caf1f06ba58708b1f6bfdef49f97cc9f0b56a1af17d7dff19ba96763c81"
+    },
+    "20241129001313": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "df9be34b3aae028518ab2fb22c10d998fb0d7f275cb11be4ab9d635069e4fcf6",
+      "effective_C_sha256": "df9be34b3aae028518ab2fb22c10d998fb0d7f275cb11be4ab9d635069e4fcf6",
+      "original_private_sha256": "02410fd76b67bbc9c71f8ae9fd808f9205467c8fafd7ec5422415ce682e21adf",
+      "effective_private_sha256": "02410fd76b67bbc9c71f8ae9fd808f9205467c8fafd7ec5422415ce682e21adf"
+    },
+    "20241205000577": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E16"
+      ],
+      "original_C_sha256": "311d0b1e39595a4ae0471914856d7b4a6b52d2cbdcd60f63a628095d8be9e337",
+      "effective_C_sha256": "311d0b1e39595a4ae0471914856d7b4a6b52d2cbdcd60f63a628095d8be9e337",
+      "original_private_sha256": "0a7dfad09effbe797ab1a60ac5f73a44663ce7b8861b6f4f14b804d666d72722",
+      "effective_private_sha256": "0a7dfad09effbe797ab1a60ac5f73a44663ce7b8861b6f4f14b804d666d72722"
+    },
+    "20241213000457": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E18",
+        "E5"
+      ],
+      "original_C_sha256": "e9331c294fe663f7e8c17dcc5a324a92da30877d318d7af4df51993129290762",
+      "effective_C_sha256": "e9331c294fe663f7e8c17dcc5a324a92da30877d318d7af4df51993129290762",
+      "original_private_sha256": "39da57fa36cf847665aea9712d2763321dfcdf3034b5687a28b7a22ea63bc716",
+      "effective_private_sha256": "39da57fa36cf847665aea9712d2763321dfcdf3034b5687a28b7a22ea63bc716"
+    },
+    "20230823000258": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": true,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E13",
+        "E14",
+        "E15"
+      ],
+      "original_C_sha256": "bb5a101491b0caafb7aaa66d5dee44221873cb91cc58a053ac4c41e7d696f33e",
+      "effective_C_sha256": "bb5a101491b0caafb7aaa66d5dee44221873cb91cc58a053ac4c41e7d696f33e",
+      "original_private_sha256": "a0c191279fb5e0bcabefb58f3f76f8cbe83e4bbb1d26fe76bc47cb31e6d1dad1",
+      "effective_private_sha256": "a0c191279fb5e0bcabefb58f3f76f8cbe83e4bbb1d26fe76bc47cb31e6d1dad1"
+    },
+    "20250107000412": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": true,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": true,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E21"
+      ],
+      "original_C_sha256": "e2c93130d9b2d283e874190f45e63c6e50d58a79cbeb584fd11b87e6897f86af",
+      "effective_C_sha256": "e2c93130d9b2d283e874190f45e63c6e50d58a79cbeb584fd11b87e6897f86af",
+      "original_private_sha256": "a1e41da09415f7d41d24913edf49d7ef0699732cec8d019d5cc81477e48ec4f5",
+      "effective_private_sha256": "a1e41da09415f7d41d24913edf49d7ef0699732cec8d019d5cc81477e48ec4f5"
+    },
+    "20250908000140": {
+      "prior_C_admission": true,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "2ec2629d30a5065b80d7843d9c73be15b8687bd5113ed17a88662ad7b3a98e08",
+      "effective_C_sha256": "2ec2629d30a5065b80d7843d9c73be15b8687bd5113ed17a88662ad7b3a98e08",
+      "original_private_sha256": "d21fccad03e0833661c30e39d8f9df7fd0d58d4efea0024c4bf77a6aef92355c",
+      "effective_private_sha256": "d21fccad03e0833661c30e39d8f9df7fd0d58d4efea0024c4bf77a6aef92355c"
+    },
+    "20230906000217": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "e90bc1444b2da7bb1c472eb33a918cebf90322e50aecfd7e3986feee8caa4258",
+      "effective_C_sha256": "e90bc1444b2da7bb1c472eb33a918cebf90322e50aecfd7e3986feee8caa4258",
+      "original_private_sha256": "d2070247ae4f7c9cd9fccdb85dda6d63d3b145ae135ffcf56db2291db04f4ddd",
+      "effective_private_sha256": "d2070247ae4f7c9cd9fccdb85dda6d63d3b145ae135ffcf56db2291db04f4ddd"
+    },
+    "20240520000263": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "c839a49d14c49d94632e3446d3d08190b39ac9aff5e9cc56d0da40051e235102",
+      "effective_C_sha256": "c839a49d14c49d94632e3446d3d08190b39ac9aff5e9cc56d0da40051e235102",
+      "original_private_sha256": "eabca28586c7b18d3c42ee888a1d62cdda880dd54b96d149649ca2f1b5bbf7c8",
+      "effective_private_sha256": "eabca28586c7b18d3c42ee888a1d62cdda880dd54b96d149649ca2f1b5bbf7c8"
+    },
+    "20250120000464": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E14"
+      ],
+      "original_C_sha256": "a63a8807b8f7b7f4d8238d3363537730a8da25eda34d2912870c0606e1c44105",
+      "effective_C_sha256": "f182ae312160bbc1dda59ecb88963cc06bb0339936a17ff834189df5e6ccee4d",
+      "original_private_sha256": "386f90bb9374f20f9d5ec8b3347f3de5e8026af9ea41371188e3a457611c0e62",
+      "effective_private_sha256": "8008a4b2c630871717a63b319a26b873903e19d1f311379fdd9739f8822dca64"
+    },
+    "20250908000329": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E1",
+        "E13",
+        "E14"
+      ],
+      "original_C_sha256": "4eba263aeead6e4f8b2f09c5472ad79db40d9100b3ee850ca86070413fcc622b",
+      "effective_C_sha256": "ed116a1891ae2006f1d59b7e1a69995ecdb0bd1aebaa4beb43b4ee184081f897",
+      "original_private_sha256": "ddfdb4b8af873c94b1270a3477dadd6eb884d3257515d97e5f7dd3d7dac07c76",
+      "effective_private_sha256": "66740ba1aca71b6404b0a2508c0a4adeb1f9a8f370a347a216e6ebb126bb6af6"
+    },
+    "20230911000405": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "abada901d09f15993dbfed2048be6f32e2f23d04dfba43bd55fdfa4e971d6453",
+      "effective_C_sha256": "abada901d09f15993dbfed2048be6f32e2f23d04dfba43bd55fdfa4e971d6453",
+      "original_private_sha256": "6e8e36680780a3e019c45af4058f82a5b243a90d130104f0bb90cb036c98c5c4",
+      "effective_private_sha256": "6e8e36680780a3e019c45af4058f82a5b243a90d130104f0bb90cb036c98c5c4"
+    },
+    "20240621000344": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E11"
+      ],
+      "original_C_sha256": "28ba7773377eafdbd732ad60340c1a5fd178dc99cf22035764c3cdc7bd1c46f4",
+      "effective_C_sha256": "09db95a044891a0502d62b03de4c5b1542c614e461ad863ebf49c4390228d96a",
+      "original_private_sha256": "60eaf91867b72f8cd2c9a0b35fbd5d404f1d29ca7461aba864ea051437292bfd",
+      "effective_private_sha256": "fbd33fb88e9db190f7ccc2e48520c1b5778f28ce5961dbb117c278e5f7740413"
+    },
+    "20250207000496": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E1",
+        "E19",
+        "E21"
+      ],
+      "original_C_sha256": "52ebd3ea96e35146b10c0f229b4c5849614ba9902842240d7af3c43007d7701c",
+      "effective_C_sha256": "6e3ad9466a2c4a283333cf856c22bd1d53e4c68b976ae27b062114209f47ea56",
+      "original_private_sha256": "22442103789706fcc738d3871362a58c8c7ef583b5fbe19d099ee93e49dbce14",
+      "effective_private_sha256": "b6f37e44d394ba11da3f6e56e589c3dff43c4ca18c105036b54696fb45faf6c4"
+    },
+    "20250930000546": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E11",
+        "E14",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E7",
+        "E8"
+      ],
+      "original_C_sha256": "1fba16406fa7137bb7fcb74297d923341123b98770209a88269e5103f2b79bb0",
+      "effective_C_sha256": "7b8dc230e1ab6bb79d6ba7e4ce0643ff5cfef973cff71f2bb56c936b5127fd82",
+      "original_private_sha256": "d8c4a4092827f7522c9d5de52e0413d69e4550b4ced4378d2f10f84023f689f1",
+      "effective_private_sha256": "0903bb7d53645b77b69b9df16a51b84536ff0e4908f167ced5270257560df130"
+    },
+    "20230912000404": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E1",
+        "E10",
+        "E11",
+        "E12",
+        "E16"
+      ],
+      "original_C_sha256": "d7ae891b29a11f0647c0b453a8fd9acebb22df5c47cb19b257bd6809b65a88b8",
+      "effective_C_sha256": "8f16d9a42426ca1962bdb6a2c3bf53997ef259d696c6e228c2d1e0d5b380d155",
+      "original_private_sha256": "da40ef6347645659584aac9ae2b0327ffdc8bd26dc82b11535f3407c269d2c4a",
+      "effective_private_sha256": "8b70ead94803c28031ec0f5f69294610a33197a71cf29b0c688b8b6481721852"
+    },
+    "20250320001180": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E18"
+      ],
+      "original_C_sha256": "f0dad9595e4105c3f04f3a16321068bff1099aca025b0fcd5741572379f502e4",
+      "effective_C_sha256": "5a2f13924173f83f5a931840bb15db4ce28927372d00f4e246ded62529d03f76",
+      "original_private_sha256": "e579fd4af5284c0688bc3bd13980b457f0df1fbc60229450308c2ed338886afb",
+      "effective_private_sha256": "cfef9d1243d78915a8f866e63c3d8e5ead4a8b6a9e7a0b3c0915857c2597aaa7"
+    },
+    "20251001000684": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E15",
+        "E16",
+        "E9"
+      ],
+      "original_C_sha256": "6f9ff3a2c0886d83dae55ac0ba9aca172a3f44e93a74b4a6eef498bb2870e68c",
+      "effective_C_sha256": "ba97f02abf727e374d2192160b822ac83f20bccb6df65b23a7a4bf1d0232ef82",
+      "original_private_sha256": "a885d6b06e981dc09d35934ef60adf6f58c06504e7c8fe864e7792517d340e24",
+      "effective_private_sha256": "c988b70b71568bdaf61b7e569b500a1bf2ef667c9298ca32a4d2f9cff03d4eb1"
+    },
+    "20230915000263": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E11"
+      ],
+      "original_C_sha256": "b4e1d7b47d2e03a26b02e632dcc44cc9b9a5ed2e58b59df237ae7ffe4322b13b",
+      "effective_C_sha256": "1ce893736fd4cded6e83e8687d44a3d234a674989442fd392758e514e976e086",
+      "original_private_sha256": "bb80ba56cf30fa6d6f562a566305718fa45333bb56a7c778438db2d9ba621418",
+      "effective_private_sha256": "40dfc1a408f145f47d09a72d1968d67ee35ddc3842fc4a693efd3c933717d557"
+    },
+    "20250324000841": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E22"
+      ],
+      "original_C_sha256": "1e82aaed80b24b65ce20b5725233af73c54873d123533f0aa976e1b07872d53e",
+      "effective_C_sha256": "d1553e28b205efe65248c00a80b5567fa8df2a6e5d1652628af46f988a3c38f2",
+      "original_private_sha256": "e4ebd3cd5b0dfe38c0720d48e180d3a6a88ad3a38db3467509c35fe36b0b1ffd",
+      "effective_private_sha256": "8fbecff5474a257b00f1037eecce38862f7fd09b59e60404f088497a21f560ab"
+    },
+    "20251103000252": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "dc6f5b580a4998a15c5d8c0447103b1ae388382aad684509bc6dcc72470275a9",
+      "effective_C_sha256": "dc6f5b580a4998a15c5d8c0447103b1ae388382aad684509bc6dcc72470275a9",
+      "original_private_sha256": "102c5b6154c2f5307762f9179fbe304d639670186f316e12be595dc6d79fb549",
+      "effective_private_sha256": "102c5b6154c2f5307762f9179fbe304d639670186f316e12be595dc6d79fb549"
+    },
+    "20230915000281": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "6108d51e41ebcb43879ce68280af242d59d2e12dce79343b849d5abd0968c613",
+      "effective_C_sha256": "6108d51e41ebcb43879ce68280af242d59d2e12dce79343b849d5abd0968c613",
+      "original_private_sha256": "67d61fe7d5c8912e524c08faa667a076fd2afe4e9653c793eb5873c086dd13bd",
+      "effective_private_sha256": "67d61fe7d5c8912e524c08faa667a076fd2afe4e9653c793eb5873c086dd13bd"
+    },
+    "20250325000608": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E10",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E6"
+      ],
+      "original_C_sha256": "c2d3c231a2b297a7c76fbf3c7794796274aaf0ef78ea895f94a38324e506d91b",
+      "effective_C_sha256": "f4483f3242b2ea18ffa5819a3296a92d7829ca7f5ac0973cf55e5dba10493b9b",
+      "original_private_sha256": "e4af4b472f299f7a3803cace9e0088ed971276dccf1e204dce40a4ffd5e14e26",
+      "effective_private_sha256": "0cfcee66bf2a3be3bf298096ebcbe0e4d40c0f49b6813ddd3e97424a69f05d64"
+    },
+    "20251223000517": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": true,
+      "apply_prospectively": true,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [
+        "E13",
+        "E14",
+        "E6"
+      ],
+      "original_C_sha256": "3e1ec3f2cb83e143bb46b51c5f0f6a936987d381bba50f2d7922aed2b9d479b0",
+      "effective_C_sha256": "d7258e39d24832791602ced4c98ed2a0fc247d41dfbc37fc32770178065b00fc",
+      "original_private_sha256": "5930a120420e173cad551cd6a1a3be8942cc917f8cf0c598967e12cc16f4a5e6",
+      "effective_private_sha256": "4aceb2a56eaede8fa926c0baeea70bef1406eb0d3a588d885194e9b018cfcb63"
+    },
+    "20230918000204": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "cba5621e03c61e002b6a408a081f2134166db19a0879ca7e5a8f5dfe6051839e",
+      "effective_C_sha256": "cba5621e03c61e002b6a408a081f2134166db19a0879ca7e5a8f5dfe6051839e",
+      "original_private_sha256": "3ee98733d23f6328ba34b44352dcdae48ee94318a93c331b58afd3cf8138adb6",
+      "effective_private_sha256": "3ee98733d23f6328ba34b44352dcdae48ee94318a93c331b58afd3cf8138adb6"
+    },
+    "20250328002012": {
+      "prior_C_admission": false,
+      "direct_identifiers_found": false,
+      "apply_prospectively": false,
+      "effective_flags": {
+        "direct_self_or_issuer": false,
+        "direct_third_party": false,
+        "indirect_only_or_also": true
+      },
+      "evidence_ids": [],
+      "original_C_sha256": "54168b15e621abfebd77428e80c7ab0a28a41d9dc616a1c072bb0b3c9cfeab64",
+      "effective_C_sha256": "54168b15e621abfebd77428e80c7ab0a28a41d9dc616a1c072bb0b3c9cfeab64",
+      "original_private_sha256": "a815f89199cdea9beba59ffed90b4b9ac0ca47b2c785f6e748af45f1768a58e2",
+      "effective_private_sha256": "a815f89199cdea9beba59ffed90b4b9ac0ca47b2c785f6e748af45f1768a58e2"
+    }
+  },
+  "applied": [
+    "20250120000464",
+    "20250908000329",
+    "20240621000344",
+    "20250207000496",
+    "20250930000546",
+    "20230912000404",
+    "20250320001180",
+    "20251001000684",
+    "20230915000263",
+    "20250324000841",
+    "20250325000608",
+    "20251223000517"
+  ],
+  "already_exposed_with_identifiers": [
+    "20230925000332",
+    "20230822000424",
+    "20231222000680",
+    "20240621000553",
+    "20241018000518",
+    "20241205000577",
+    "20241213000457",
+    "20230823000258",
+    "20250107000412"
+  ]
+}

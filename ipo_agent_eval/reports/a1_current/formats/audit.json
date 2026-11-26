@@ -1,0 +1,201 @@
+{
+  "case_count": 6,
+  "cohorts": {
+    "development": [
+      "HDMS",
+      "MELCON"
+    ],
+    "validation": [
+      "GIGAVIS",
+      "MANYO",
+      "PHILENERGY",
+      "TRUEN"
+    ]
+  },
+  "cases": {
+    "HDMS": {
+      "completed_conditions": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "top_k1_extra": {
+        "L3-rule": [
+          "H02"
+        ],
+        "L1": [
+          "H01"
+        ],
+        "L2": [
+          "H02"
+        ],
+        "L3": [
+          "H02"
+        ]
+      },
+      "usage": {
+        "attempts": 3,
+        "input_tokens": 80123,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7047,
+        "reasoning_output_tokens": 54
+      },
+      "sum_session_seconds": 155.75
+    },
+    "MELCON": {
+      "completed_conditions": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "top_k1_extra": {
+        "L3-rule": [
+          "M03"
+        ],
+        "L1": [
+          "M03"
+        ],
+        "L2": [
+          "M03"
+        ],
+        "L3": [
+          "M03"
+        ]
+      },
+      "usage": {
+        "attempts": 3,
+        "input_tokens": 81790,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7298,
+        "reasoning_output_tokens": 0
+      },
+      "sum_session_seconds": 162.99
+    },
+    "GIGAVIS": {
+      "completed_conditions": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "top_k1_extra": {
+        "L3-rule": [
+          "GIGAVIS-05"
+        ],
+        "L1": [
+          "GIGAVIS-10"
+        ],
+        "L2": [
+          "GIGAVIS-08"
+        ],
+        "L3": [
+          "GIGAVIS-08"
+        ]
+      },
+      "usage": {
+        "attempts": 3,
+        "input_tokens": 77264,
+        "cached_input_tokens": 20480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7171,
+        "reasoning_output_tokens": 88
+      },
+      "sum_session_seconds": 164.18
+    },
+    "TRUEN": {
+      "completed_conditions": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "top_k1_extra": {
+        "L3-rule": [
+          "TRUEN-03"
+        ],
+        "L1": [
+          "TRUEN-07"
+        ],
+        "L2": [
+          "TRUEN-10"
+        ],
+        "L3": [
+          "TRUEN-10"
+        ]
+      },
+      "usage": {
+        "attempts": 3,
+        "input_tokens": 75205,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5941,
+        "reasoning_output_tokens": 24
+      },
+      "sum_session_seconds": 136.92
+    },
+    "MANYO": {
+      "completed_conditions": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "top_k1_extra": {
+        "L3-rule": [
+          "MANYO-04"
+        ],
+        "L1": [
+          "MANYO-04"
+        ],
+        "L2": [
+          "MANYO-11"
+        ],
+        "L3": [
+          "MANYO-11"
+        ]
+      },
+      "usage": {
+        "attempts": 3,
+        "input_tokens": 78293,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6780,
+        "reasoning_output_tokens": 30
+      },
+      "sum_session_seconds": 155.51
+    },
+    "PHILENERGY": {
+      "completed_conditions": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "top_k1_extra": {
+        "L3-rule": [
+          "PHILENERGY-01"
+        ],
+        "L1": [
+          "PHILENERGY-01"
+        ],
+        "L2": [
+          "PHILENERGY-08"
+        ],
+        "L3": [
+          "PHILENERGY-08"
+        ]
+      },
+      "usage": {
+        "attempts": 3,
+        "input_tokens": 76622,
+        "cached_input_tokens": 20480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6809,
+        "reasoning_output_tokens": 0
+      },
+      "sum_session_seconds": 153.63
+    }
+  },
+  "H2": {
+    "status": "NOT_STARTED",
+    "reason": "verified TRIZ signals and a separately frozen hold threshold required"
+  }
+}

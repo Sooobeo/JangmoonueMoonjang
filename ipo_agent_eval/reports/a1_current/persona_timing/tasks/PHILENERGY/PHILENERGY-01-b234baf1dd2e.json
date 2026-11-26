@@ -1,0 +1,52 @@
+{
+  "case": "PHILENERGY",
+  "item_id": "PHILENERGY-01",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:06:18.178+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "b234baf1dd2e17770b27e838c08c6d2f31fad6b8e7c8bb24e2dc8a102691a1b1",
+  "source_pdf_sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    184,
+    185
+  ],
+  "packet_prep_seconds": 12.197556,
+  "evidence_dir": "reports/a1_current/proxy/PHILENERGY/PERSONA_b234baf1dd2e17770b/9e41ef763b59127c",
+  "review_call_wrapper_seconds": 18.328228,
+  "quote_and_boundary_verification_seconds": 0.031075,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "필에너지는 PER 평가에 2023년 1분기 말 기준 최근 12개월(2022년 2분기~2023년 1분기)의 조정 당기순이익 15,745,462,646원을 적용했다고 공시했다.",
+    "checked_basis_or_arithmetic": "2022년 연간 조정 당기순이익 11,857,478,410원에서 2022년 1분기 지배주주 당기순이익 1,771,770,012원을 빼고 2023년 1분기 지배주주 당기순이익 5,659,754,248원을 더하면 15,745,462,646원으로 공시액과 일치한다. 연간 금액에는 전환사채 전환권 파생상품평가손실 8,134백만원을 가산했고, 두 분기에는 전환권을 별도로 평가하지 않아 각 분기의 지배주주 당기순이익을 그대로 사용했다.",
+    "outcome": "근거 확인",
+    "finding": "184쪽 산출방법의 ‘최근 사업연도 실적’이라는 표현은 적용 기간을 정확히 나타내지 않는다. 185쪽 발행사 산출표와 주1)의 산식에서 2022년 2분기부터 2023년 1분기까지 네 분기를 반영한 사실이 확인된다.",
+    "follow_up": "적용 기간 확인에 추가 자료는 필요 없다. 184쪽 산출방법의 기간 표기를 185쪽과 같이 ‘2023년 1분기 말 기준 최근 12개월’로 맞추는 것이 적절하다.",
+    "citations": [
+      {
+        "physical_page": 184,
+        "locator": "「PER 평가방법 적용 상대가치 산출 의의, 방법 및 한계점」 ② 산출방법",
+        "quote": "PER 배수에 동사의 최근 사업연도 실적을 적용하여 산출하였습니다."
+      },
+      {
+        "physical_page": 185,
+        "locator": "「㈜필에너지 PER에 의한 평가가치」 주1) 적용 순이익의 기간",
+        "quote": "적용 순이익은 2023년 1분기 LTM(최종 12개월, 2022년 2분기~2023년 1분기)기준 실적으로, 그 계산 내역은 다음과 같습니다."
+      },
+      {
+        "physical_page": 185,
+        "locator": "같은 주1) 계산 내역 표, 적용 당기순이익 행 (단위 원)",
+        "quote": "적용 당기순이익    11,857,478,410    1,771,770,012     5,659,754,248     15,745,462,646"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:06:48.736+09:00",
+  "original_review_service_seconds": 18.27,
+  "actual_end_to_end_seconds": 30.558515,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

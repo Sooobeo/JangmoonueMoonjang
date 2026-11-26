@@ -1,0 +1,52 @@
+{
+  "case": "GIGAVIS",
+  "item_id": "GIGAVIS-08",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:06:18.185+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "2569ff7b84240e23c6115c163554ce0385890ae029bf11b2e10477e29ee808f4",
+  "source_pdf_sha256": "0fb5886e67791613447f23ff202475f28c5de455840ea3ba78c1ea6b2c8d3e5f",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    233,
+    234
+  ],
+  "packet_prep_seconds": 12.09443,
+  "evidence_dir": "reports/a1_current/proxy/GIGAVIS/PERSONA_2569ff7b84240e23c6/8ea04ad0c040dd6f",
+  "review_call_wrapper_seconds": 21.837792,
+  "quote_and_boundary_verification_seconds": 0.013412,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "기가비스는 2022년 자기주식을 우리사주조합에 무상증여하면서 인식한 주식보상비용을 현금 유출이 없는 비경상 비용으로 보아, 전액을 2022년 온기 당기순이익에 가산한 뒤 비교기업 PER을 적용했다.",
+    "checked_basis_or_arithmetic": "2022년 온기 당기순이익 27,750,571천원 + 주식보상비용 10,097,010천원 = 적용 당기순이익 37,847,581천원이다. 이를 백만원 단위로 반올림하면 37,848백만원으로 주당 평가가액 산정표의 입력값과 일치한다. 가산액은 조정 전 당기순이익의 36.4%다.",
+    "outcome": "근거 확인",
+    "finding": "주식보상비용의 발생 사유, 계상 항목과 전액 가산 산식은 확인된다. 다만 비용은 임직원 소속에 따라 제조원가·CS원가·판관비에 계상됐다. 자기주식 증여에 현금 유출이 없었다는 설명만으로는 임직원 보상이 영업과 무관하거나 비경상적이라는 판단까지 확인하기 어렵다.",
+    "follow_up": "비경상성 판단을 위해 과거 연도별 자기주식 증여 및 주식보상 내역, 2022년 증여 관련 이사회 의사록과 향후 보상계획을 확인할 필요가 있다. 세후 당기순이익에 비용 전액을 가산한 처리의 적정성은 해당 비용의 손금산입 여부와 법인세 효과를 세무조정명세서에서 대조해야 한다.",
+    "citations": [
+      {
+        "physical_page": 233,
+        "locator": "③ 산출 방법, 첫 문단",
+        "quote": "이는 현금의 유출이 없는 회계적이며 비경상적인 비용이기 때문에 이를 당기순이익에 가산하여 적용하였습니다."
+      },
+      {
+        "physical_page": 234,
+        "locator": "「PER 적용 주당 평가가액의 산정」 주1), 적용 당기순이익",
+        "quote": "적용 당기순이익은 2022년 온기 당기순이익(27,750,571천원)에서 주식보상비용 (10,097,010천원)을 가산한 금액(37,847,581천원)입니다."
+      },
+      {
+        "physical_page": 234,
+        "locator": "같은 표 주1), 비용 계상 항목",
+        "quote": "소속 부서에 따라 제조원가, CS원가(용역원가), 판관비의 상여 및 판관비의 연구개발비로 인식되었습니다."
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:06:52.132+09:00",
+  "original_review_service_seconds": 21.69,
+  "actual_end_to_end_seconds": 33.94762,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

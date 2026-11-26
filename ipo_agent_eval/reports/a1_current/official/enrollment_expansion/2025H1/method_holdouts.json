@@ -1,0 +1,211 @@
+{
+  "window_kst": [
+    "2025-01-01",
+    "2025-06-30"
+  ],
+  "rows": [
+    {
+      "receipt": "20250113000179",
+      "corp_code": "00404941",
+      "issuer": "한텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 1,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250113000179",
+      "quarter_position": 39,
+      "quarter": "2025Q1",
+      "position": 39,
+      "date_kst": "2025-01-13",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "한텍/증권신고서(지분증권)/2025.01.13",
+      "family_metadata": [
+        {
+          "receipt": "20250305000408",
+          "caption": "2025.03.05 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250219000955",
+          "caption": "2025.02.19 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250206000360",
+          "caption": "2025.02.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250113000179",
+          "caption": "2025.01.13 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250113000179&dcm_no=10262742",
+      "pdf_sha256": "4092993252a87de56d1bb51e5793e52a3cc97466707ca2c5bb9fdb01c8d03b9b",
+      "classification": "historical_adjusted_pretax_PER_held",
+      "period_or_method": "2024년 3분기 연환산 기준 외환효과 제거 법인세차감전이익, 공모가 산정에 PER 14.07배 적용. 순이익 PER 모수에서 보류.",
+      "per_multiple": 14.07,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집 및 매출하는"
+      },
+      "issuer_valuation_anchor": {
+        "page": 183,
+        "quote": "2024년 3분기 연환산 기준 외환효과 제거한 법인세차감전이익(①) x 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 183,
+        "quote": "유사기업 PER 14.07배"
+      },
+      "offer_band_anchor": {
+        "page": 184,
+        "quote": "주당 공모희망가액 9,200원 ~ 10,800원"
+      },
+      "pdf_pages": 443,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250113000179.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250113&textCrpCik=00404941&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "d1e758d013697d595e330f224b85649e0d6bf7058d56f949a7076006d18a5293",
+        "reported_total": 1,
+        "earlier_initial_or_withdrawal_titles": []
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 30,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 183,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 183,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 184,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    },
+    {
+      "receipt": "20250204000251",
+      "corp_code": "01210677",
+      "issuer": "씨케이솔루션",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 2,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250204000251",
+      "quarter_position": 124,
+      "quarter": "2025Q1",
+      "position": 124,
+      "date_kst": "2025-02-04",
+      "inventory_status": "source_check",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "official_title": "씨케이솔루션/증권신고서(지분증권)/2025.02.04",
+      "family_metadata": [
+        {
+          "receipt": "20250228005603",
+          "caption": "2025.02.28 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250224003605",
+          "caption": "2025.02.24 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20250204000251",
+          "caption": "2025.02.04 증권신고서(지분증권)"
+        }
+      ],
+      "family_earliest_confirmed": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250204000251&dcm_no=10283220",
+      "pdf_sha256": "77e78d69767d5acd2fdfe514619cf36a2d687ba29bc3f3070b5794dca9edb609",
+      "classification": "historical_PER_refiling_held",
+      "period_or_method": "2024년 3분기 기준 최근 4개 분기 순이익, 실적 PER 10.15배. 2024-11-12 앞선 가족 철회 후 재신고로 보류.",
+      "per_multiple": 10.15,
+      "ipo_status_anchor": {
+        "page": 34,
+        "quote": "본 주식은 유가증권시장 상장을 목적으로 모집하는 것으로"
+      },
+      "issuer_valuation_anchor": {
+        "page": 227,
+        "quote": "2024년 3분기 기준 최근 4개 분기(LTM) 순이익(①) × 유사기업 PER(②)"
+      },
+      "applied_multiple_anchor": {
+        "page": 227,
+        "quote": "유사기업 PER 배 10.15"
+      },
+      "offer_band_anchor": {
+        "page": 227,
+        "quote": "희망공모가액 13,500원 ~ 15,000원"
+      },
+      "pdf_pages": 600,
+      "cache_file": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_enrollment_2025H1\\20250204000251.pdf",
+      "earlier_same_corp_history": {
+        "state": "verified",
+        "url": "https://dart.fss.or.kr/dsab001/search.ax?publicType=C001&startDate=20200101&endDate=20250204&textCrpCik=01210677&maxResults=100&sort=date&series=asc&currentPage=1",
+        "response_sha256": "bc43e70ff3a8c50a557853e02381a3925ccfecd4c83c9eeb80c3012751effe0d",
+        "reported_total": 5,
+        "earlier_initial_or_withdrawal_titles": [
+          {
+            "receipt": "20241016000133",
+            "title": "증권신고서(지분증권)",
+            "withdrawal_notice": true,
+            "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000133"
+          },
+          {
+            "receipt": "20241101000386",
+            "title": "[기재정정] 증권신고서(지분증권)",
+            "withdrawal_notice": true,
+            "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241101000386"
+          },
+          {
+            "receipt": "20241106000006",
+            "title": "투자설명서",
+            "withdrawal_notice": true,
+            "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000006"
+          },
+          {
+            "receipt": "20241112000372",
+            "title": "철회신고서",
+            "withdrawal_notice": false,
+            "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000372"
+          }
+        ]
+      },
+      "anchor_checks": [
+        {
+          "field": "ipo_status_anchor",
+          "page": 34,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "issuer_valuation_anchor",
+          "page": 227,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "applied_multiple_anchor",
+          "page": 227,
+          "mupdf": true,
+          "pypdf": true
+        },
+        {
+          "field": "offer_band_anchor",
+          "page": 227,
+          "mupdf": true,
+          "pypdf": true
+        }
+      ]
+    }
+  ]
+}

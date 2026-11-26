@@ -1,0 +1,58 @@
+{
+  "protocol": "a1-main-v1",
+  "scope": "Terra execution and ranking, offline",
+  "real_model_requests_in_these_checks": 0,
+  "checks": [
+    {
+      "round": 1,
+      "basis": "Protocol §§2, 5, 6 and the four official prompt/schema fingerprints",
+      "command": "python -m scripts.a1_main_terra --preflight",
+      "observed": "All four UTF-8 prompt and all four canonical schema SHA-256 values matched. The lookup uses an empty triz array and the compact item catalog. The tenets of the pilot entry point that hardcoded six company IDs were replaced with frozen receipt, role-readiness and input hashes."
+    },
+    {
+      "round": 2,
+      "basis": "Stage and global reservations, provider failure/retry and restart",
+      "tests": [
+        "test_concurrent_reservation_and_unknown_reopen",
+        "test_global_and_stage_caps",
+        "test_retry_replay_and_unknown_usage",
+        "test_no_retry_on_missing_usage_or_lookup_contract",
+        "test_billing_pause_resume_without_reset",
+        "test_invalid_select_repair_and_preserve_pre_repair_request"
+      ],
+      "observed": "Simultaneous attempts for one slot produced a single reservation. Unconfirmed requests continued to count against both caps after reopening. Already accepted outputs replayed without additional sends. Insufficient quota suspended the whole batch. The same-transaction accounting retained the pending cost across billing recovery. Byte-for-byte retry and the one-repair limit were verified. Transport inspection identified non-string SDK metadata placeholders; only real HTTP header values are forwarded."
+    },
+    {
+      "round": 3,
+      "basis": "Item-level blinding, source validity, independent role availability and allocation",
+      "tests": [
+        "test_roundtrip_locked_roles_semantic_audit_ranks_and_replay",
+        "test_reject_forged_sources_cross_item_pages_and_blind_leak",
+        "test_empty_optional_and_all_unassigned",
+        "test_partial_manifest_executes_only_the_eligible_role",
+        "test_common_failure_still_attempts_other_independent_role"
+      ],
+      "observed": "All four requests and the entire ranking were reproduced with mock responses and frozen inputs. A tied top-ranked material-request row entered the fixed-K set while the first eligible reviewer action entered the operational set. Mandatory rows survived both allocations. The blinded J1 source review suppressed a conditional comparison and its reviewer rationale remained outside both selector payloads. Preparation failure for one role still permits the other independent role. A partial case has no paired ranking."
+    }
+  ],
+  "regression_command": "python -m pytest -q tests/test_a1_main_terra.py",
+  "regression_result": "15 passed",
+  "static_check": "python -m ruff check ipo_eval/a1_main_ledger.py scripts/a1_main_terra.py tests/test_a1_main_terra.py: passed",
+  "concurrency_release_checks": [
+    {
+      "round": 1,
+      "focus": "Ordering and single operator",
+      "result": "One exclusive batch lock, one process, one worker per distinct issuer at a time. The next roster entry may start only after the previous first new reservation was committed or the issuer had no new transmissions; cached requests alone never release the next entry. Per-issuer role and ranking stages preserve the sequential frozen contracts."
+    },
+    {
+      "round": 2,
+      "focus": "Caps and replay",
+      "result": "Real SQLite ledger and synthetic transport: two different issuer requests overlapped, initial reservations retained all four roster IDs in order, a replay with four workers added no attempts, and a duplicate receipt was rejected. The existing concurrent-same-slot and pending-budget regressions also passed."
+    },
+    {
+      "round": 3,
+      "focus": "Billing and failure",
+      "result": "Synthetic HTTP 429 while a second request was in flight stopped the remaining two issuers. Only the two authorized reservations existed, and the unknown usage retained the reservation. The substantive billing cause survived downstream stops and new reservations remained forbidden."
+    }
+  ]
+}

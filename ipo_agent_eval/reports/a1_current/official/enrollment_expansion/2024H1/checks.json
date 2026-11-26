@@ -1,0 +1,460 @@
+{
+  "window": {
+    "startDate": "20240101",
+    "endDate": "20240630"
+  },
+  "counts": {
+    "ipo_other_multiple": 4,
+    "ipo_forecast_PER": 22,
+    "not_domestic_IPO": 33,
+    "ipo_historical_PER": 3
+  },
+  "three_reviews": [
+    {
+      "round": 1,
+      "verification": "Reconcile pagination and corporate identity metadata; earliest DART registration family and prior C001 corporate queries for every inclusion."
+    },
+    {
+      "round": 2,
+      "verification": "Tie historical issuer earnings and actual PER price table to initial domestic offering; independent checks of PBR reference-only PER (Oh Sang) and peer historical vs issuer forecast calculations."
+    },
+    {
+      "round": 3,
+      "verification": "Re-read every disposition's cited original physical page and hash of every downloaded PDF; separately verify three independent source anchors per inclusion with pypdf."
+    }
+  ],
+  "disposition_hash_and_quote_checks": [
+    {
+      "receipt": "20240111000282",
+      "issuer": "오상헬스케어",
+      "verified_document_sha256": "23e32d9cfe1f0cb5f1f4b9d345a2495b5cfbbffc6a32a6a9a053b7dfc8539159",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240117000212",
+      "issuer": "디앤디파마텍",
+      "verified_document_sha256": "d68feb98513d681148de267654a68d3152304cc228ed866afcb31381aac13b86",
+      "verified_primary_anchors": 3
+    },
+    {
+      "receipt": "20240119000564",
+      "issuer": "판타지오",
+      "verified_document_sha256": "087cb9329999025492d6cc9704d0181be53649f3ce77e96a12294a5a6fb1fe51",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240125000666",
+      "issuer": "후성",
+      "verified_document_sha256": "bd710d1d3186dbbf6c24a0086adeff330d7117a3a6270f9d509902077958889a",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240126000434",
+      "issuer": "다이나맥",
+      "verified_document_sha256": "f2e9e87caf00ce153773c29b7fc487b8b78fba813de710d7451333fd817a7f03",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240129000170",
+      "issuer": "케이엔알시스템",
+      "verified_document_sha256": "26f8bd4c8bbc42ee084eba508e25036be24dca2412e2d362fa0b0f5980c891f1",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240129000246",
+      "issuer": "엔젤로보틱스",
+      "verified_document_sha256": "33898801ce822d1aabedff0cd029a3070aa79e9d7d8a0d6d7b3e64df5367a922",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240130000322",
+      "issuer": "삼현",
+      "verified_document_sha256": "6a424434e5d2486f62054463688ecbc61a8e9c9b676c0d97c054a83e52dc26ec",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240206000514",
+      "issuer": "아이엠비디엑스",
+      "verified_document_sha256": "71c40b85b379db504639b25116cd2f590863ac269a425f984c0c65c4755e7097",
+      "verified_primary_anchors": 3
+    },
+    {
+      "receipt": "20240207001082",
+      "issuer": "다원시스",
+      "verified_document_sha256": "4c91a7824b98c356028489223cf662bd62bbf9a49adcc08367f0d5c7d9e5baa2",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240213001179",
+      "issuer": "코칩",
+      "verified_document_sha256": "57cae6413ef3d0345e1022c2a9cc3a445437ca875be1845baaa1bdb6e78d9cfb",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240215001213",
+      "issuer": "유니슨",
+      "verified_document_sha256": "57f2e0d28c21549fcfd95b9a301a39b8e0539d04db55c3a91d2f37c381801bc2",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240216000456",
+      "issuer": "민테크",
+      "verified_document_sha256": "8dad675f45cff3c076eb6a2dfcdea17689e45d08a994737e84cf8e5aa0a4e615",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240228008416",
+      "issuer": "에이프로젠바이오로직스",
+      "verified_document_sha256": "19debd2f9d086e721f91b57a70676b75cecca88e7ff4eba912ca94b1042748c8",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240228008773",
+      "issuer": "윈팩",
+      "verified_document_sha256": "824939fe0df44db70510f54953a086c8292001f79363259e90fe748576807067",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240305000170",
+      "issuer": "노브랜드",
+      "verified_document_sha256": "f28a34931d7bcdc66ec3c746a886a89bf8023cced4a6641d2bca2bf524830cab",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240306000725",
+      "issuer": "윙입푸드",
+      "verified_document_sha256": "c962883219ff6d4b97ebb4daf082ccb534f971b35401af2e935fa612097555a1",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240319000582",
+      "issuer": "제일엠앤에스",
+      "verified_document_sha256": "cba10064a64d3159abaa3a7eba13420b7e5197cd96c834f7991d19baf5c34499",
+      "verified_primary_anchors": 3
+    },
+    {
+      "receipt": "20240321001651",
+      "issuer": "HLB생명과학",
+      "verified_document_sha256": "1efccae701d4bd341ddd1b8a3dde2c2028b077148b751b345f510ef8f4521902",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240321001952",
+      "issuer": "아이씨티케이",
+      "verified_document_sha256": "fa8317d2b96965e181b53f1410aa727d525d659f809b238f483230c7d479414e",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240322001037",
+      "issuer": "신라젠",
+      "verified_document_sha256": "f6605feb45c7e046888fe50333c17f38fd52cc786abe6a3f18782bb00c611087",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240401003665",
+      "issuer": "삼보산업",
+      "verified_document_sha256": "4aca626c13b556a7948ec48c5f5c122f0dc85a91b87ec55e0c9648cfb4fd3180",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240404002973",
+      "issuer": "캐스텍코리아",
+      "verified_document_sha256": "6e212eb9b23a4841e47c3c45c4cacb02bedfa5f37b3feab9cb8ac9a199cd0871",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240405002873",
+      "issuer": "씨어스",
+      "verified_document_sha256": "9e6e99b7354f277ea447e1d8e447824fae1446368df1f5992c78791ce39049c5",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240405003075",
+      "issuer": "한주라이트메탈",
+      "verified_document_sha256": "1fdca7936a675144e597d9c59e93f3c132d187acef5785b3c97367ee5d56a8d2",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240405003351",
+      "issuer": "SG",
+      "verified_document_sha256": "61e65322b6edbb485d8c3a4e3fb580b3b56da8defab1fc675a6d9d3f35cf4e98",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240405003360",
+      "issuer": "하스",
+      "verified_document_sha256": "06c0f8d4e6bf22e03ac987bfb392d7345a4a11bd5df0e05533a15f6c7ada6718",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240405003603",
+      "issuer": "인성정보",
+      "verified_document_sha256": "f01f4570b25fde464ae7657f5ad6cf28af97c6c67bd02d1a372f6f59b67f6850",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240412003304",
+      "issuer": "에스오에스랩",
+      "verified_document_sha256": "13d109183f36ad85ac2413764f63fffde59fee13525ab99c91581652d4ec66a4",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240412003993",
+      "issuer": "샤페론",
+      "verified_document_sha256": "17ec951d1b2f12ede86a0452609d933fe463f115c407ae79eda1b5cceaaab925",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240416000463",
+      "issuer": "엘에스아이앤디",
+      "verified_document_sha256": "da9a7f3cabe780b9a634ce4aa3cd7c7d963aca8e23cddf8ff32e2f722736d8bc",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240419000699",
+      "issuer": "한중엔시에스",
+      "verified_document_sha256": "2d13a6f42035e1100c8330cdc6e7b8f73f36fde0609ff679cfed0ec74860ecdb",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240419000742",
+      "issuer": "이렘",
+      "verified_document_sha256": "4c051964a5089517975b260ac9b5eedf36cad89cd59faae2f9cc18dfc53807d3",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240423000637",
+      "issuer": "엑시콘",
+      "verified_document_sha256": "b4586e5f7351bc0648a0d922c3e43251058dea5becba8618d1ad74d2c723a377",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240424000491",
+      "issuer": "파라택시스코리아",
+      "verified_document_sha256": "ea99c75039d28fb0b83ac77316c456f54f5db2ddd4d438f237432cbad1ac00b0",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240429001107",
+      "issuer": "케이디비생명보험",
+      "verified_document_sha256": "8ffb69e3ddee8ea6db80ec264f8af5198cf7baed42e359442a4c4ddb42e657ea",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240430001148",
+      "issuer": "하이젠알앤엠",
+      "verified_document_sha256": "1b6a05a719bdf0742e98da5af003677710dd831bbaa612e81a1326e178ead1fa",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240430001188",
+      "issuer": "에코앤드림",
+      "verified_document_sha256": "e7032ea1bf026d520ccb46423b4f3703c7b39a3372e69d6f6a7778078d5eff71",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240502000419",
+      "issuer": "에이치브이엠",
+      "verified_document_sha256": "347768cb1b5acf54e517c47a0bc0becaeb7ba547d8b2c71820cc5e788cfb7528",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240503000344",
+      "issuer": "그리드위즈",
+      "verified_document_sha256": "1cce4e68f6801b277114000c55c510c285fde9d9272b650928854f0eca972c58",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240503000406",
+      "issuer": "이노스페이스",
+      "verified_document_sha256": "2d4fc4384ee9d69c40d7c74decd09776a8751c4d35fbbcdc597a750940972656",
+      "verified_primary_anchors": 3
+    },
+    {
+      "receipt": "20240507000566",
+      "issuer": "퀄리타스반도체",
+      "verified_document_sha256": "32361ad240ab696f92306d2b52375acb60bd0d3d40d40ccb70742bc3d56e4ce3",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240508000373",
+      "issuer": "라메디텍",
+      "verified_document_sha256": "5ebfe0f2bf3126df72faf0cdac2e1808ba8f35599f80577b370143baafa34df8",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240513000886",
+      "issuer": "엑셀세라퓨틱스",
+      "verified_document_sha256": "9584f145a2fb08b5165b87255f3e35e95fbe9151158c15ff93890be9c856f05f",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240517000365",
+      "issuer": "신세계톰보이",
+      "verified_document_sha256": "1b1dd55ae6374776069333845a27170d758ea3ebb476ff92cb11869bbcef021a",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240517000404",
+      "issuer": "하나마이크론",
+      "verified_document_sha256": "f1bd032aacfd09426d72481ed51ee8dc79cd75cae54c5f155c673e44efc9fa4a",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240520000263",
+      "issuer": "시프트업",
+      "verified_document_sha256": "150a3f1ca69bb017e4ea07fac8f0ec45a14e5d7cf72a49cb54fe3fc673716549",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240523000440",
+      "issuer": "이엔셀",
+      "verified_document_sha256": "be6b96b84b10cc22b82efb4c3e56468c4698b17229a328c89d12df15e7e6bb88",
+      "verified_primary_anchors": 3
+    },
+    {
+      "receipt": "20240527000294",
+      "issuer": "셀리드",
+      "verified_document_sha256": "9394da1f0cb044838eebc02dcfa4b18c187a2dc3211ecd138f492dca4542959a",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240529000580",
+      "issuer": "자연과환경",
+      "verified_document_sha256": "a7e20e32180791cff14c922a38e6422ac56373659dda5f332b6b3bc9c57b4815",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240529000584",
+      "issuer": "DXVX",
+      "verified_document_sha256": "2d88fa5601f5e552fd0cd188825616b9989f7bb3fd38c841ee4e259e46f46477",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240530000961",
+      "issuer": "아이빔테크놀로지",
+      "verified_document_sha256": "e08e01854653d6c6ed619f6bf4e0875facde91bb4bb2aabdb04d3f1a348b869c",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240603000012",
+      "issuer": "WEBTOONENTERTAINMENTINC.",
+      "verified_document_sha256": "5349a3aafd3dd274c2eab345fb5be59a9e611a663df386a8150c8dcda9e6cd88",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240605000334",
+      "issuer": "피앤에스로보틱스",
+      "verified_document_sha256": "b46271985bfc071ed4a9b5f06e039a8661b6aa36fe3293a1922a7745f845b142",
+      "verified_primary_anchors": 3
+    },
+    {
+      "receipt": "20240610000370",
+      "issuer": "넥스트바이오메디컬",
+      "verified_document_sha256": "a426aab4b2d5270b7b5d3b539d975950a9a4892c04df5d9fd5b857bb9b7921d5",
+      "verified_primary_anchors": 2
+    },
+    {
+      "receipt": "20240611000483",
+      "issuer": "휴림로봇",
+      "verified_document_sha256": "e00dab574d792f8edb414f1b0c4730cc0c9d8d004495762e9fb81f7fdaec5e46",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240614000294",
+      "issuer": "뱅크웨어글로벌",
+      "verified_document_sha256": "a706486560628925d567f4e95e50bf0a21532b0d23e63328fae3a7b2e6867617",
+      "verified_primary_anchors": 3
+    },
+    {
+      "receipt": "20240619000298",
+      "issuer": "뉴보텍",
+      "verified_document_sha256": "01f8c27349919c66f30399a590ba18e49f2292bf8047de636cc95e86f97ca5df",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240621000344",
+      "issuer": "티디에스팜",
+      "verified_document_sha256": "c0d2682247178d87b635fc89b58e95ddad98373d31452d39f4e58db286cd1520",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240621000452",
+      "issuer": "한화오션",
+      "verified_document_sha256": "de8d4832125d4d1ccd0b781b8f5cc665f53b3f24dddbad14cae17ee25e292782",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240621000465",
+      "issuer": "SKAI",
+      "verified_document_sha256": "6fe42edddd8b3bc1f414ac04c380b1b47998fc53e8fa63ad41feea6654388c3c",
+      "verified_primary_anchors": 1
+    },
+    {
+      "receipt": "20240624000113",
+      "issuer": "케이쓰리아이",
+      "verified_document_sha256": "6141083ca2bf708409c3c2d2c48850f6b73a688bc9c8a9f7233efddc903f0112",
+      "verified_primary_anchors": 1
+    }
+  ],
+  "independent_positive_rechecks": [
+    {
+      "receipt": "20240305000170",
+      "field": "ipo_status_anchor",
+      "page": 33,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240305000170",
+      "field": "issuer_valuation_anchor",
+      "page": 297,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240305000170",
+      "field": "per_table_anchor",
+      "page": 297,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240520000263",
+      "field": "ipo_status_anchor",
+      "page": 33,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240520000263",
+      "field": "issuer_valuation_anchor",
+      "page": 279,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240520000263",
+      "field": "per_table_anchor",
+      "page": 279,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240621000344",
+      "field": "ipo_status_anchor",
+      "page": 26,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240621000344",
+      "field": "issuer_valuation_anchor",
+      "page": 250,
+      "matched": "pypdf and PyMuPDF"
+    },
+    {
+      "receipt": "20240621000344",
+      "field": "per_table_anchor",
+      "page": 250,
+      "matched": "pypdf and PyMuPDF"
+    }
+  ],
+  "no_outcome_inputs": true,
+  "model_api_calls": 0,
+  "eligible_sha256": "4c37dd7ba67117b7b32dfbf026b0b64370d0aaa71b740c17df290ed4e016e314",
+  "screening_sha256": "382d61fddd0a8c603ceeb4274939f8ce3a9bd0a9123b0fb1f655a6741cab4246"
+}

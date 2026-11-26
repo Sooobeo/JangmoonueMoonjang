@@ -1,0 +1,43 @@
+{
+  "case_id": "HDMS",
+  "items": [
+    {
+      "item_id": "H01",
+      "status": "부분 확인",
+      "action": "자료 요청",
+      "confirmed": "신고서가 공모가 산정에 ‘2023년 온기 지배주주지분 기준 순이익’ 실적치를 적용했다는 근거는 충분하다. 공모가 산정 요약표와 평가시가총액 산출표에 기재된 적용 순이익은 모두 151,116백만원이다. 발행사의 연결포괄손익계산서에서 2023년 1월 1일부터 12월 31일까지 지배기업 소유주에게 귀속된 당기순이익은 151,116,175,331원으로, 백만원 단위로 반올림하면 공시액과 일치한다. 비교회사 4곳의 PER 산출표도 분모를 2023년 온기 지배주주지분 기준 순이익으로 명시하고 금액을 백만원 단위로 표시한다.",
+      "remaining": "추가로 제공된 최초 신고서 원문 쪽은 없다. 비교회사별 실제 결산기간, 연결 범위와 지배주주 귀속액까지 대조하려면 주관사에 회사별 연결손익계산서의 기간·귀속 행, Bloomberg 추출 원자료, 원통화 금액에서 공시 백만원 금액까지의 환산·조정 내역을 요청한다. B의 최근 12개월 대안은 같은 가정에서 비교하는 시나리오다. 동일 기준의 온기와 두 반기 귀속순이익 및 조정행이 함께 확인되지 않아 미산출이므로 온기 기준 선택의 상대적 타당성은 판단할 수 없다.",
+      "evidence_ids": [
+        "PDF-237",
+        "H-P0269",
+        "H-P0270",
+        "H-P0358",
+        "H-P0359"
+      ]
+    }
+  ],
+  "new_pages": [],
+  "ltm": {
+    "status": "미산출",
+    "reason": "같은 기준 온기·두 반기 귀속순이익 및 조정행이 함께 확인되지 않음"
+  },
+  "evidence_dir": "reports/a1_current/proxy/HDMS/J1_WHOLE_FILING/f3bde06bf83f09b0",
+  "summary": {
+    "run_id": "HDMS/J1_WHOLE_FILING/f3bde06bf83f09b0",
+    "execution_status": "SUBMITTED",
+    "condition": "CODEX_PROXY",
+    "elapsed_seconds": 13.59,
+    "model": "gpt-6.2-astra",
+    "turn_usage": [
+      {
+        "input_tokens": 27227,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 439,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "estimated_cost_usd_standard_uncached": null
+  },
+  "attempts": 1
+}

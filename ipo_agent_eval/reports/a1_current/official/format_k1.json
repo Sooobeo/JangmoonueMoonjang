@@ -1,0 +1,573 @@
+{
+  "scope": "Exploratory separate from H1",
+  "k": 1,
+  "ranks_sha256": "5401cb01d6ecddc702836da504e9caa26dabce2aee56414feb6a772ec6650152",
+  "source_scope": "grade-free rankings frozen before independent secondary scoring",
+  "model_calls_submitted": {
+    "L1": 6,
+    "L2": 6,
+    "L3": 6
+  },
+  "rows": [
+    {
+      "case": "HDMS",
+      "status": "COMPARED",
+      "reference_sha256": "5bcbe6ae7374a71862863cff5e3757876b15e2562b1b4a89b362942107ad9a05",
+      "known_material": [
+        "H02"
+      ],
+      "pending": [
+        "H03"
+      ],
+      "items": 11,
+      "L1": {
+        "items": [
+          "H01"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [
+          "H02"
+        ],
+        "pending_outside": [
+          "H03"
+        ],
+        "recall": 0.0,
+        "miss_count_bounds": [
+          1,
+          2
+        ]
+      },
+      "L2": {
+        "items": [
+          "H02"
+        ],
+        "count": 1,
+        "material_found": [
+          "H02"
+        ],
+        "material_missed": [],
+        "pending_outside": [
+          "H03"
+        ],
+        "recall": 1.0,
+        "miss_count_bounds": [
+          0,
+          1
+        ]
+      },
+      "L3": {
+        "items": [
+          "H02"
+        ],
+        "count": 1,
+        "material_found": [
+          "H02"
+        ],
+        "material_missed": [],
+        "pending_outside": [
+          "H03"
+        ],
+        "recall": 1.0,
+        "miss_count_bounds": [
+          0,
+          1
+        ]
+      },
+      "L3-rule": {
+        "items": [
+          "H02"
+        ],
+        "count": 1,
+        "material_found": [
+          "H02"
+        ],
+        "material_missed": [],
+        "pending_outside": [
+          "H03"
+        ],
+        "recall": 1.0,
+        "miss_count_bounds": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "case": "MELCON",
+      "status": "COMPARED",
+      "reference_sha256": "5bcbe6ae7374a71862863cff5e3757876b15e2562b1b4a89b362942107ad9a05",
+      "known_material": [
+        "M01",
+        "M03"
+      ],
+      "pending": [],
+      "items": 11,
+      "L1": {
+        "items": [
+          "M03"
+        ],
+        "count": 1,
+        "material_found": [
+          "M03"
+        ],
+        "material_missed": [
+          "M01"
+        ],
+        "pending_outside": [],
+        "recall": 0.5,
+        "miss_count_bounds": [
+          1,
+          1
+        ]
+      },
+      "L2": {
+        "items": [
+          "M03"
+        ],
+        "count": 1,
+        "material_found": [
+          "M03"
+        ],
+        "material_missed": [
+          "M01"
+        ],
+        "pending_outside": [],
+        "recall": 0.5,
+        "miss_count_bounds": [
+          1,
+          1
+        ]
+      },
+      "L3": {
+        "items": [
+          "M03"
+        ],
+        "count": 1,
+        "material_found": [
+          "M03"
+        ],
+        "material_missed": [
+          "M01"
+        ],
+        "pending_outside": [],
+        "recall": 0.5,
+        "miss_count_bounds": [
+          1,
+          1
+        ]
+      },
+      "L3-rule": {
+        "items": [
+          "M03"
+        ],
+        "count": 1,
+        "material_found": [
+          "M03"
+        ],
+        "material_missed": [
+          "M01"
+        ],
+        "pending_outside": [],
+        "recall": 0.5,
+        "miss_count_bounds": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "case": "GIGAVIS",
+      "status": "COMPARED",
+      "reference_sha256": "47ba4b103de26e130c985c2c8e08c3a512803d1ad96c75b1dcbf517c4190812d",
+      "known_material": [
+        "GIGAVIS-08"
+      ],
+      "pending": [
+        "GIGAVIS-02"
+      ],
+      "items": 12,
+      "L1": {
+        "items": [
+          "GIGAVIS-05"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [
+          "GIGAVIS-08"
+        ],
+        "pending_outside": [
+          "GIGAVIS-02"
+        ],
+        "recall": 0.0,
+        "miss_count_bounds": [
+          1,
+          2
+        ]
+      },
+      "L2": {
+        "items": [
+          "GIGAVIS-08"
+        ],
+        "count": 1,
+        "material_found": [
+          "GIGAVIS-08"
+        ],
+        "material_missed": [],
+        "pending_outside": [
+          "GIGAVIS-02"
+        ],
+        "recall": 1.0,
+        "miss_count_bounds": [
+          0,
+          1
+        ]
+      },
+      "L3": {
+        "items": [
+          "GIGAVIS-08"
+        ],
+        "count": 1,
+        "material_found": [
+          "GIGAVIS-08"
+        ],
+        "material_missed": [],
+        "pending_outside": [
+          "GIGAVIS-02"
+        ],
+        "recall": 1.0,
+        "miss_count_bounds": [
+          0,
+          1
+        ]
+      },
+      "L3-rule": {
+        "items": [
+          "GIGAVIS-05"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [
+          "GIGAVIS-08"
+        ],
+        "pending_outside": [
+          "GIGAVIS-02"
+        ],
+        "recall": 0.0,
+        "miss_count_bounds": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "case": "TRUEN",
+      "status": "COMPARED",
+      "reference_sha256": "8af8a8e4bd2c6dbc7ede9dec8d3854a4220697895699f5f882adb497a2d787a3",
+      "known_material": [
+        "TRUEN-10"
+      ],
+      "pending": [
+        "TRUEN-02"
+      ],
+      "items": 10,
+      "L1": {
+        "items": [
+          "TRUEN-02"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [
+          "TRUEN-10"
+        ],
+        "pending_outside": [],
+        "recall": 0.0,
+        "miss_count_bounds": [
+          1,
+          1
+        ]
+      },
+      "L2": {
+        "items": [
+          "TRUEN-10"
+        ],
+        "count": 1,
+        "material_found": [
+          "TRUEN-10"
+        ],
+        "material_missed": [],
+        "pending_outside": [
+          "TRUEN-02"
+        ],
+        "recall": 1.0,
+        "miss_count_bounds": [
+          0,
+          1
+        ]
+      },
+      "L3": {
+        "items": [
+          "TRUEN-10"
+        ],
+        "count": 1,
+        "material_found": [
+          "TRUEN-10"
+        ],
+        "material_missed": [],
+        "pending_outside": [
+          "TRUEN-02"
+        ],
+        "recall": 1.0,
+        "miss_count_bounds": [
+          0,
+          1
+        ]
+      },
+      "L3-rule": {
+        "items": [
+          "TRUEN-03"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [
+          "TRUEN-10"
+        ],
+        "pending_outside": [
+          "TRUEN-02"
+        ],
+        "recall": 0.0,
+        "miss_count_bounds": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "case": "MANYO",
+      "status": "COMPARED",
+      "reference_sha256": "305965ee23c3d7f1e494e430b0d53a5ccdf53d2f305eb122b10a6609842d69ad",
+      "known_material": [],
+      "pending": [
+        "MANYO-09",
+        "MANYO-10",
+        "MANYO-11",
+        "MANYO-12"
+      ],
+      "items": 12,
+      "L1": {
+        "items": [
+          "MANYO-01"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [
+          "MANYO-09",
+          "MANYO-10",
+          "MANYO-11",
+          "MANYO-12"
+        ],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          4
+        ]
+      },
+      "L2": {
+        "items": [
+          "MANYO-11"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [
+          "MANYO-09",
+          "MANYO-10",
+          "MANYO-12"
+        ],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          3
+        ]
+      },
+      "L3": {
+        "items": [
+          "MANYO-11"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [
+          "MANYO-09",
+          "MANYO-10",
+          "MANYO-12"
+        ],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          3
+        ]
+      },
+      "L3-rule": {
+        "items": [
+          "MANYO-08"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [
+          "MANYO-09",
+          "MANYO-10",
+          "MANYO-11",
+          "MANYO-12"
+        ],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "case": "PHILENERGY",
+      "status": "COMPARED",
+      "reference_sha256": "68caef2cdade5c3dbf54a516b55f8e90990cf115f8185909e70eec992b84b126",
+      "known_material": [],
+      "pending": [],
+      "items": 11,
+      "L1": {
+        "items": [
+          "PHILENERGY-01"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          0
+        ]
+      },
+      "L2": {
+        "items": [
+          "PHILENERGY-08"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          0
+        ]
+      },
+      "L3": {
+        "items": [
+          "PHILENERGY-08"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          0
+        ]
+      },
+      "L3-rule": {
+        "items": [
+          "PHILENERGY-01"
+        ],
+        "count": 1,
+        "material_found": [],
+        "material_missed": [],
+        "pending_outside": [],
+        "recall": null,
+        "miss_count_bounds": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "cohorts": {
+    "development": {
+      "paired_cases": 2,
+      "expected_cases": 2,
+      "known_material": 3,
+      "L1": {
+        "known_material_found": 1,
+        "known_material_missed": 2,
+        "known_material_recall_micro": 0.3333333333333333,
+        "known_material_recall_equal_issuer": 0.25,
+        "pending_selected": 0,
+        "pending_outside": 1
+      },
+      "L2": {
+        "known_material_found": 2,
+        "known_material_missed": 1,
+        "known_material_recall_micro": 0.6666666666666666,
+        "known_material_recall_equal_issuer": 0.75,
+        "pending_selected": 0,
+        "pending_outside": 1
+      },
+      "L3": {
+        "known_material_found": 2,
+        "known_material_missed": 1,
+        "known_material_recall_micro": 0.6666666666666666,
+        "known_material_recall_equal_issuer": 0.75,
+        "pending_selected": 0,
+        "pending_outside": 1
+      },
+      "L3-rule": {
+        "known_material_found": 2,
+        "known_material_missed": 1,
+        "known_material_recall_micro": 0.6666666666666666,
+        "known_material_recall_equal_issuer": 0.75,
+        "pending_selected": 0,
+        "pending_outside": 1
+      }
+    },
+    "validation": {
+      "paired_cases": 4,
+      "expected_cases": 4,
+      "known_material": 2,
+      "L1": {
+        "known_material_found": 0,
+        "known_material_missed": 2,
+        "known_material_recall_micro": 0.0,
+        "known_material_recall_equal_issuer": 0.0,
+        "pending_selected": 1,
+        "pending_outside": 5
+      },
+      "L2": {
+        "known_material_found": 2,
+        "known_material_missed": 0,
+        "known_material_recall_micro": 1.0,
+        "known_material_recall_equal_issuer": 1.0,
+        "pending_selected": 1,
+        "pending_outside": 5
+      },
+      "L3": {
+        "known_material_found": 2,
+        "known_material_missed": 0,
+        "known_material_recall_micro": 1.0,
+        "known_material_recall_equal_issuer": 1.0,
+        "pending_selected": 1,
+        "pending_outside": 5
+      },
+      "L3-rule": {
+        "known_material_found": 0,
+        "known_material_missed": 2,
+        "known_material_recall_micro": 0.0,
+        "known_material_recall_equal_issuer": 0.0,
+        "pending_selected": 0,
+        "pending_outside": 6
+      }
+    }
+  }
+}

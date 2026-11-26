@@ -1,0 +1,569 @@
+{
+  "case": "TRUEN",
+  "scope": "Exploratory isolated Codex proxy, one enterprise and two targeted J2 items.",
+  "ranking_commit_sha256": "cff2a4da61007b86ceb7813d136d7a7eeccd500872cb28df7e59d0b4f4fa3173",
+  "reference": "reports/a1_current/validation/codex/TRUEN.json",
+  "reference_sha256": "8af8a8e4bd2c6dbc7ede9dec8d3854a4220697895699f5f882adb497a2d787a3",
+  "reference_mtime_utc": "2026-11-26T02:22:14.545960+00:00",
+  "rank_commit_utc": "2026-11-26T02:34:50.921286+00:00",
+  "score_utc": "2026-11-26T02:36:06.771905+00:00",
+  "held_references": {
+    "TRUEN-08": {
+      "item_id": "TRUEN-08",
+      "grade": "수용 가능",
+      "reason": "포커스에이치엔에스는 AI 카메라에서 매출의 46.1%를 올리고, 네트워크 영상녹화기에서도 29.6%를 올린다. 트루엔의 Edge AI 영상보안 사업과 핵심 제품 및 용도가 직접 겹친다. 녹화기 매출 비중과 고객 구성까지 두 회사가 같다고 볼 자료는 없다.",
+      "physical_page": 188,
+      "quote": "AI CAM 46.1%, NVR 29.6%"
+    },
+    "TRUEN-09": {
+      "item_id": "TRUEN-09",
+      "grade": "수용 가능",
+      "reason": "아이디스의 매출 중 카메라가 47.7%, 영상보안 녹화기가 25.1%다. 트루엔의 보안용 CCTV 제조·유통과 제품 및 수요 시장이 직접 겹쳐 비교기업 선정 근거가 있다. 다만 카메라 매출에서 Edge AI 제품이 차지하는 비중은 확인되지 않는다.",
+      "physical_page": 188,
+      "quote": "영상보안Recorder 25.1%, Camera 47.7%"
+    }
+  },
+  "reference_totals": {
+    "major": 1,
+    "other": 8,
+    "pending": 1
+  },
+  "graded_arms": {
+    "full_without_signal": {
+      "pair_concordance": 1.0,
+      "positive_vs_other_pairs": 8,
+      "strict_wins": 8,
+      "ties": 0,
+      "common_k": {
+        "1": {
+          "selected": [
+            "TRUEN-10"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        },
+        "2": {
+          "selected": [
+            "TRUEN-10",
+            "TRUEN-06"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        },
+        "3": {
+          "selected": [
+            "TRUEN-10",
+            "TRUEN-06",
+            "TRUEN-07"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        }
+      },
+      "operational": {
+        "selected": [
+          "TRUEN-10"
+        ],
+        "confirmed_major_missed": [],
+        "confirmed_major_caught": [
+          "TRUEN-10"
+        ],
+        "miss_bounds_if_pending_regraded": [
+          0,
+          1
+        ],
+        "pending_outside_selection": [
+          "TRUEN-02"
+        ],
+        "observed_major_recall": 1.0
+      }
+    },
+    "full_with_signal": {
+      "pair_concordance": 1.0,
+      "positive_vs_other_pairs": 8,
+      "strict_wins": 8,
+      "ties": 0,
+      "common_k": {
+        "1": {
+          "selected": [
+            "TRUEN-10"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        },
+        "2": {
+          "selected": [
+            "TRUEN-10",
+            "TRUEN-06"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        },
+        "3": {
+          "selected": [
+            "TRUEN-10",
+            "TRUEN-06",
+            "TRUEN-07"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        }
+      },
+      "operational": {
+        "selected": [
+          "TRUEN-10"
+        ],
+        "confirmed_major_missed": [],
+        "confirmed_major_caught": [
+          "TRUEN-10"
+        ],
+        "miss_bounds_if_pending_regraded": [
+          0,
+          1
+        ],
+        "pending_outside_selection": [
+          "TRUEN-02"
+        ],
+        "observed_major_recall": 1.0
+      }
+    },
+    "hold_with_signal": {
+      "pair_concordance": 1.0,
+      "positive_vs_other_pairs": 8,
+      "strict_wins": 8,
+      "ties": 0,
+      "common_k": {
+        "1": {
+          "selected": [
+            "TRUEN-10"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        },
+        "2": {
+          "selected": [
+            "TRUEN-10",
+            "TRUEN-06"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        },
+        "3": {
+          "selected": [
+            "TRUEN-10",
+            "TRUEN-06",
+            "TRUEN-07"
+          ],
+          "confirmed_major_missed": [],
+          "confirmed_major_caught": [
+            "TRUEN-10"
+          ],
+          "miss_bounds_if_pending_regraded": [
+            0,
+            1
+          ],
+          "pending_outside_selection": [
+            "TRUEN-02"
+          ],
+          "observed_major_recall": 1.0
+        }
+      },
+      "operational": {
+        "selected": [
+          "TRUEN-10"
+        ],
+        "confirmed_major_missed": [],
+        "confirmed_major_caught": [
+          "TRUEN-10"
+        ],
+        "miss_bounds_if_pending_regraded": [
+          0,
+          1
+        ],
+        "pending_outside_selection": [
+          "TRUEN-02"
+        ],
+        "observed_major_recall": 1.0
+      }
+    }
+  },
+  "miss_changes_hold_minus_full": {
+    "full_without_signal": {
+      "fixed_k": {
+        "previously_caught_major_lost": [],
+        "new_major_caught": [],
+        "newly_missed_pending": [],
+        "change_in_number_of_missed_majors": 0
+      },
+      "operational": {
+        "previously_caught_major_lost": [],
+        "new_major_caught": [],
+        "newly_missed_pending": [],
+        "change_in_number_of_missed_majors": 0
+      }
+    },
+    "full_with_signal": {
+      "fixed_k": {
+        "previously_caught_major_lost": [],
+        "new_major_caught": [],
+        "newly_missed_pending": [],
+        "change_in_number_of_missed_majors": 0
+      },
+      "operational": {
+        "previously_caught_major_lost": [],
+        "new_major_caught": [],
+        "newly_missed_pending": [],
+        "change_in_number_of_missed_majors": 0
+      }
+    }
+  },
+  "selector_rows": {
+    "full_without_signal": 10,
+    "full_with_signal": 10,
+    "hold_with_signal": 8
+  },
+  "mandatory_all_retained": true,
+  "cost": {
+    "selector_runs": {
+      "full_without_signal": {
+        "calls": 2,
+        "observed_budget_checks": {
+          "selector_elapsed_at_most_180_seconds": true,
+          "two_stages_plus_at_most_one_total_repair": true,
+          "at_most_four_lookup_pages": true,
+          "output_tokens_at_most_12000": true,
+          "usd_limit_measurable": false
+        },
+        "tokens": {
+          "input_tokens": 56785,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2571,
+          "reasoning_output_tokens": 113
+        },
+        "selector_elapsed_seconds": 63.98,
+        "selected_pages": [
+          "PDF-195"
+        ],
+        "stages": [
+          {
+            "source": "reports/a1_current/proxy/TRUEN/A1_LOOK/7031833050b8095e",
+            "model": "gpt-6.2-astra",
+            "calls": 1,
+            "rejected_extra_item_ids": [],
+            "elapsed_seconds": 13.23,
+            "tokens": {
+              "input_tokens": 27973,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 259,
+              "reasoning_output_tokens": 61
+            }
+          },
+          {
+            "source": "reports/a1_current/proxy/TRUEN/A1_SELECT/8fb5f97113edd177",
+            "model": "gpt-6.2-astra",
+            "calls": 1,
+            "rejected_extra_item_ids": [],
+            "elapsed_seconds": 50.75,
+            "tokens": {
+              "input_tokens": 28812,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2312,
+              "reasoning_output_tokens": 52
+            }
+          }
+        ]
+      },
+      "full_with_signal": {
+        "calls": 2,
+        "observed_budget_checks": {
+          "selector_elapsed_at_most_180_seconds": true,
+          "two_stages_plus_at_most_one_total_repair": true,
+          "at_most_four_lookup_pages": true,
+          "output_tokens_at_most_12000": true,
+          "usd_limit_measurable": false
+        },
+        "tokens": {
+          "input_tokens": 57007,
+          "cached_input_tokens": 20480,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3506,
+          "reasoning_output_tokens": 12
+        },
+        "selector_elapsed_seconds": 83.2,
+        "selected_pages": [
+          "PDF-195"
+        ],
+        "stages": [
+          {
+            "source": "reports/a1_current/proxy/TRUEN/A1_LOOK/c15cf6a3ec7d43c3",
+            "model": "gpt-6.2-astra",
+            "calls": 1,
+            "rejected_extra_item_ids": [],
+            "elapsed_seconds": 32.34,
+            "tokens": {
+              "input_tokens": 28084,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1359,
+              "reasoning_output_tokens": 12
+            }
+          },
+          {
+            "source": "reports/a1_current/proxy/TRUEN/A1_SELECT/5dcf31dd37215d4e",
+            "model": "gpt-6.2-astra",
+            "calls": 1,
+            "rejected_extra_item_ids": [],
+            "elapsed_seconds": 50.86,
+            "tokens": {
+              "input_tokens": 28923,
+              "cached_input_tokens": 20480,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2147,
+              "reasoning_output_tokens": 0
+            }
+          }
+        ]
+      },
+      "hold_with_signal": {
+        "calls": 3,
+        "observed_budget_checks": {
+          "selector_elapsed_at_most_180_seconds": true,
+          "two_stages_plus_at_most_one_total_repair": true,
+          "at_most_four_lookup_pages": true,
+          "output_tokens_at_most_12000": true,
+          "usd_limit_measurable": false
+        },
+        "tokens": {
+          "input_tokens": 83775,
+          "cached_input_tokens": 40960,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4989,
+          "reasoning_output_tokens": 97
+        },
+        "selector_elapsed_seconds": 119.65,
+        "selected_pages": [
+          "PDF-195"
+        ],
+        "stages": [
+          {
+            "source": "reports/a1_current/proxy/TRUEN/A1_LOOK/fd7c2b00e55f841e",
+            "model": "gpt-6.2-astra",
+            "calls": 1,
+            "rejected_extra_item_ids": [],
+            "elapsed_seconds": 31.31,
+            "tokens": {
+              "input_tokens": 27352,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1209,
+              "reasoning_output_tokens": 12
+            }
+          },
+          {
+            "source": "reports/a1_current/proxy/TRUEN/A1_SELECT/e9055d715cbdf904",
+            "model": "gpt-6.2-astra",
+            "calls": 2,
+            "rejected_extra_item_ids": [
+              "TRUEN-08",
+              "TRUEN-09"
+            ],
+            "elapsed_seconds": 88.34,
+            "tokens": {
+              "input_tokens": 56423,
+              "cached_input_tokens": 40960,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3780,
+              "reasoning_output_tokens": 85
+            }
+          }
+        ]
+      }
+    },
+    "signal_generation": {
+      "actual_sessions": 12,
+      "sum_role_seconds": 117.543,
+      "observed_parallel_wall_seconds": 24.737,
+      "tokens": {
+        "input_tokens": 149376,
+        "cached_input_tokens": 10624,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3260,
+        "reasoning_output_tokens": 709
+      },
+      "known_usd": null
+    },
+    "comparable_totals": {
+      "full_without_signal": {
+        "calls": 2,
+        "wall_seconds": 63.98,
+        "cumulative_session_seconds": 63.98,
+        "tokens": {
+          "input_tokens": 56785,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2571,
+          "reasoning_output_tokens": 113
+        },
+        "usd": null
+      },
+      "full_with_signal": {
+        "calls": 14,
+        "wall_seconds": 107.937,
+        "cumulative_session_seconds": 200.743,
+        "tokens": {
+          "input_tokens": 206383,
+          "cached_input_tokens": 31104,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6766,
+          "reasoning_output_tokens": 721
+        },
+        "usd": null
+      },
+      "hold_with_signal": {
+        "calls": 15,
+        "wall_seconds": 144.387,
+        "cumulative_session_seconds": 237.193,
+        "tokens": {
+          "input_tokens": 233151,
+          "cached_input_tokens": 51584,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8249,
+          "reasoning_output_tokens": 806
+        },
+        "usd": null
+      }
+    },
+    "hold_minus_full_including_signal_acquisition": {
+      "full_without_signal": {
+        "calls": 13,
+        "wall_seconds": 80.407,
+        "cumulative_session_seconds": 173.213,
+        "tokens": {
+          "input_tokens": 176366,
+          "cached_input_tokens": 51584,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5678,
+          "reasoning_output_tokens": 693
+        },
+        "incremental_usd": null
+      },
+      "full_with_signal": {
+        "calls": 1,
+        "wall_seconds": 36.45,
+        "cumulative_session_seconds": 36.45,
+        "tokens": {
+          "input_tokens": 26768,
+          "cached_input_tokens": 20480,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1483,
+          "reasoning_output_tokens": 85
+        },
+        "incremental_usd": null
+      }
+    },
+    "scope": "Observed selector elapsed includes CLI overhead/repairs. Sequential stage durations plus observed parallel TRIZ batch wall time are stage-summed critical-path estimates, not single end-to-end stopwatch readings. Shared A0, B, C/source acquisition, human review and unmetered authoring/orchestration excluded; differential human time and signed-in subscription USD are unknown. Output reasoning tokens are a subset of output tokens."
+  },
+  "scientific_H2_eligible": false,
+  "enable_operational_holds": false,
+  "gate": "Official Terra H1/development prerequisite unmet; a single proxy case cannot establish the safety threshold, monetary savings or human review time. Two accepted J2 product overlaps do not establish issuer-wide valuation comparability.",
+  "three_reviews": [
+    {
+      "round": 1,
+      "check": "Outcome-blind hold freeze, 12 role tests and mandatory exemption.",
+      "remedy": "Only two agreed camera-product facts passed both role-specific invariance and directional gates. Excluded three other dual accepts."
+    },
+    {
+      "round": 2,
+      "check": "Shared selector contract, grade-free inputs, row partition and append order; frozen ranks before grade access.",
+      "remedy": "Paired same-signal full arm controls for signal acquisition. Retained common sources, budget and page catalog; held rows appended using full L3 keys."
+    },
+    {
+      "round": 3,
+      "check": "Every held reference, pending bounds, serious/other denominator, baseline delta and complete trial usage.",
+      "remedy": "Report undefined recall/concordance as null when no qualifying items; price and human minutes remain unknown. Show parallel wall and cumulative session times separately."
+    }
+  ]
+}

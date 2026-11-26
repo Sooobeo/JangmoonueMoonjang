@@ -1,0 +1,30 @@
+{
+  "version": "current-dev-1",
+  "date_kst": "2026-11-26",
+  "scope": "Development and feasibility. Independent Codex proxy references under operator instruction. Real human minutes and human agreement unavailable.",
+  "dev": [
+    "HDMS",
+    "MELCON"
+  ],
+  "validation_selection": "Four earliest original receipts among the previous 12 evaluation candidates, ordered by receipt_no. They are retired from subsequent evaluation.",
+  "final_evaluation": "Choose sample size from valid paired enterprises after validation. Reserve unopened firms. Only release effectiveness claims after preregistration and coverage checks.",
+  "model": "gpt-6.1-terra",
+  "reasoning": "medium",
+  "k": 1,
+  "materiality": "confirmed fact/missing counterevidence materially changes the selection or calculation, or supported alternative changes value by at least 5%; a sensitivity alone is insufficient",
+  "eligible_hold": false,
+  "required": "confirmed material deterministic errors remain mandatory for both arms",
+  "rank_order": "L3-rule: sourced challenge, unknown, remaining; supported original price impact descending (missing last), then item ID. Compare ties before ID.",
+  "operating_rule": "L3 sends supported challenges up to K plus mandatory. AI sends proposed human-review items up to K plus mandatory. Other states tracked individually.",
+  "metrics": "Within-company material versus nonmaterial pair concordance outside mandatory, same-K misses, recall, K=1, pending bounds, operating transfers and missed material items. Materiality determined by proxy panel in this run.",
+  "tolerance": "Development automation expansion requires zero additional material misses vs paired operational baseline. Never enable skip/requestion without observed trigger and subsequent validation.",
+  "source_access": "common page excerpts in context and at most 4 additional physical pages per company via one bounded lookup round, incl. adjacent pages when needed. Original PDF only. Same labels and price inputs in both H1 arms.",
+  "budgets": "selector 180 s per case, 2 model decision calls plus one invalid-format repair, max 4 transport attempts, 12k output tokens total, USD 1.25 upper bound. Raw requests, response IDs, tokens, lookup IDs, run time and costs retained.",
+  "quality_gates": [
+    "check source/scale/units and role boundaries",
+    "exercise normal, missing and false cases plus reference linkage",
+    "verify final arithmetic, artifacts and audit trail before dependent stage"
+  ],
+  "b_comparison": "Within-filing A0 focused supplementary B-input experiment, fixed item list, page excerpts and configuration. Log findings separately from full A0 baseline.",
+  "potential_followups": "Conditional H2 only if H1 and safe deferral candidates justify it. One re-question experiment only after repeated unresolved referral type. Historic v5 needs already-frozen eligible pair, do not change old assignments."
+}

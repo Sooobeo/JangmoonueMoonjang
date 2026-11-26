@@ -1,0 +1,119 @@
+{
+  "rows": [
+    {
+      "receipt": "20250908000140",
+      "corp_code": "01745173",
+      "issuer": "이노테크",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250908000140&dcm_no=10802756",
+      "pdf_sha256": "7acf86e8623d86af38d21314f46dffce82083dd5996471853ce425d309ca07d2",
+      "period_or_method": "2025년 반기 기준 LTM 당기순이익",
+      "ipo_status_anchor": {
+        "page": 25,
+        "quote": "코스닥시장상장을위한공모"
+      },
+      "issuer_valuation_anchor": {
+        "page": 217,
+        "quote": "2025년도 상반기 기준 과거 12개월(LTM) 당기순이익(①) × 비교회사 PER"
+      },
+      "price_table_page": 239,
+      "prior_relevant_title_records": [],
+      "history": "corporate_history/20250908000140.json"
+    },
+    {
+      "receipt": "20250908000329",
+      "corp_code": "01010615",
+      "issuer": "세나테크놀로지",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250908000329&dcm_no=10803396",
+      "pdf_sha256": "d12278a43d21bdb27dca0de5772222057c50efb573db35864c058108812f1569",
+      "period_or_method": "2025년 반기 LTM, 매출 컷오프 조정 당기순이익",
+      "ipo_status_anchor": {
+        "page": 34,
+        "quote": "코스닥시장상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 201,
+        "quote": "2025년 반기 LTM 기준 매출 컷오프 효과를 반영한 당기순이익(①) X 유사기업 PER"
+      },
+      "price_table_page": 225,
+      "prior_relevant_title_records": [],
+      "history": "corporate_history/20250908000329.json"
+    },
+    {
+      "receipt": "20250930000546",
+      "corp_code": "01381805",
+      "issuer": "아로마티카",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20250930000546&dcm_no=10829466",
+      "pdf_sha256": "315c61f145d739c16cdfa966d5e876954b62e165b6facc3f22da0e839757519a",
+      "period_or_method": "2025년 반기 LTM 당기순이익",
+      "ipo_status_anchor": {
+        "page": 26,
+        "quote": "코스닥시장상장을위한공모"
+      },
+      "issuer_valuation_anchor": {
+        "page": 239,
+        "quote": "2025년 반기 LTM 기준 당기순이익 (①) x 유사기업의 PER"
+      },
+      "price_table_page": 258,
+      "prior_relevant_title_records": [],
+      "history": "corporate_history/20250930000546.json"
+    },
+    {
+      "receipt": "20251001000684",
+      "corp_code": "01529982",
+      "issuer": "씨엠티엑스",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251001000684&dcm_no=10833117",
+      "pdf_sha256": "b0faffa27fe730904c8b406da3c667a4637457c1c985c4c312e26f9f96e79eac",
+      "period_or_method": "2025년 반기 연환산 조정 당기순이익",
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "코스닥시장상장을위한공모"
+      },
+      "issuer_valuation_anchor": {
+        "page": 209,
+        "quote": "2025년 반기 연환산 조정 당기순이익(①) x 유사기업 PER"
+      },
+      "price_table_page": 230,
+      "prior_relevant_title_records": [],
+      "history": "corporate_history/20251001000684.json"
+    },
+    {
+      "receipt": "20251103000252",
+      "corp_code": "01370322",
+      "issuer": "삼진식품",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251103000252&dcm_no=10863188",
+      "pdf_sha256": "10766ea68a0e26ca168dad36f493f463b389af9c8704e5ce5b6954402b6899a4",
+      "period_or_method": "2025년 반기 지배기업 당기순이익 연환산",
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "코스닥시장상장을위한공모"
+      },
+      "issuer_valuation_anchor": {
+        "page": 213,
+        "quote": "동사의 주당 평가가액은 동사의 2025년 반기 기준 지배기업 당기순이익을 연환산한 이익을"
+      },
+      "price_table_page": 227,
+      "prior_relevant_title_records": [],
+      "history": "corporate_history/20251103000252.json"
+    },
+    {
+      "receipt": "20251223000517",
+      "corp_code": "01554508",
+      "issuer": "액스비스",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20251223000517&dcm_no=10938011",
+      "pdf_sha256": "e233d4dedaf378660270bd523f70e50fd77e3c66777cc86e4f4474d779a299aa",
+      "period_or_method": "2025년 3분기 누적 순이익 연환산",
+      "ipo_status_anchor": {
+        "page": 39,
+        "quote": "코스닥시장상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 256,
+        "quote": "동사의 주당 평가가액은 동사의 2025년 3분기 순이익 연환산을 기준으로 PER를 적용하여"
+      },
+      "price_table_page": 279,
+      "prior_relevant_title_records": [],
+      "history": "corporate_history/20251223000517.json"
+    }
+  ],
+  "held_prior_history": []
+}

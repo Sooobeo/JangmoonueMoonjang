@@ -1,0 +1,179 @@
+{
+  "base_labels_sha256": "48b39695bc1e61e870b9b5768ddf57e89b31972380294676e0ee37a5fd5dacc9",
+  "eligibility": {
+    "GIGAVIS-09": [
+      false,
+      "A0 근거는 반도체 기판 외관검사 및 수출 구조이다. C가 확인한 3D 검사장비 매출에는 전자제품 생산라인도 포함되어 기판 검사 매출 비중과 수요주기 차이가 해소되지 않았다."
+    ],
+    "GIGAVIS-12": [
+      false,
+      "A0는 FC-BGA용 검사장비와 공통 고객을 근거로 삼았다. C의 패키지·SSD·메모리 합산 매출 및 플립칩 부문표는 FC-BGA·고객별 매출을 분리하지 않는다. 양쪽이 확인한 적용 범위와 반대 근거가 일치하지 않는다."
+    ],
+    "MANYO-10": [
+      false,
+      "A0는 자체 브랜드, 규모와 수익성을, C는 보습·기초 화장품 매출 96%를 중심 근거로 삼았다. C에 제기된 클렌징 구성·생산방식은 A0의 규모 비교로 확인할 수 없다."
+    ],
+    "TRUEN-08": [
+      true,
+      "두 역할 모두 보안 카메라 판매와 발행사 매출의 핵심인 IP 카메라의 제품 기능 중첩을 확인했다. A0가 언급하고 C에서 유보한 저장장치 등 사업 비중은 2022년 원본 및 후보 자체 사업보고서에서 AI 카메라 46.1%, IP 카메라 2.4%, NVR 29.6%, DVR 4.8%로 일치한다. 본 시험 범위는 사업 제품 중첩이며 재무·가격 결론은 유보한다."
+    ],
+    "TRUEN-09": [
+      true,
+      "두 역할 모두 보안 카메라의 판매를 공통 기능으로 삼았다. C가 확인을 요구한 저장장치 및 기타 비중은 A0 근거인 원본 표와 후보 자체 2022년 표에서 카메라 47.7%, 레코더 25.1%, 기타 27.2%로 일치한다. 고객별·제품별 이익률 등 가격 결론은 유보한다."
+    ]
+  },
+  "source_proof": {
+    "TRUEN-08": {
+      "A0": {
+        "issuer_page": 226,
+        "candidate_page": 188,
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230404002347"
+      },
+      "C": {
+        "issuer_page": 226,
+        "candidate_section": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230322000076&dcmNo=9086568&eleId=11&offset=79521&length=16271&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/331380/products.html",
+          "sha256": "d0116a2dd585aa1f63a989ed3f18b46eb2e52f97fec262fab1965881d5f9d0ca"
+        },
+        "candidate_receipt": "20230322000076",
+        "cutoff_exclusive": "20230404",
+        "available": "20230322",
+        "anchor_values": [
+          "46.1%",
+          "2.4%",
+          "29.6%",
+          "4.8%"
+        ]
+      }
+    },
+    "TRUEN-09": {
+      "A0": {
+        "issuer_page": 226,
+        "candidate_page": 188,
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230404002347"
+      },
+      "C": {
+        "issuer_page": 226,
+        "candidate_section": {
+          "key": "products",
+          "title": "2. 주요 제품 및 서비스",
+          "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000600&dcmNo=9080126&eleId=11&offset=90707&length=7184&dtd=dart3.xsd",
+          "snapshot": "reports/a1_current/validation_roles/sources/143160/products.html",
+          "sha256": "bc274cd91729c748c4171e98f3a2b37114d14a1b7c605c0781b8ead2acf933ce"
+        },
+        "candidate_receipt": "20230321000600",
+        "cutoff_exclusive": "20230404",
+        "available": "20230321",
+        "anchor_values": [
+          "47.7%",
+          "25.1%",
+          "27.2%"
+        ]
+      }
+    }
+  },
+  "expected": {
+    "original": {
+      "decision": "수용",
+      "product_overlap": "proven",
+      "evidence": "B"
+    },
+    "format": {
+      "same_decision_as_original": true,
+      "product_overlap": "proven",
+      "evidence": "B"
+    },
+    "directional": {
+      "product_overlap": "unknown",
+      "allowed_decisions": [
+        "수용",
+        "문제 제기",
+        "미확인"
+      ],
+      "evidence": "C",
+      "basis": "후보의 카메라 제품·매출 근거 전부를 제거한다. 저장장치와 영상보안에 따른 간접 유사성은 남는다. 원래 대상이 해당 제품을 판매하지 않는다고 단정할 근거도 없다."
+    }
+  },
+  "target": "사업 비교 적합성 및 동일 완제품의 실질적 매출원 중첩",
+  "task_order": [
+    {
+      "item": "TRUEN-08",
+      "role": "A0",
+      "form": "original",
+      "sha256": "28d6dee8ec32913f01a43281051a6ea10ae90a814159a43e2177725963d87246"
+    },
+    {
+      "item": "TRUEN-09",
+      "role": "A0",
+      "form": "directional",
+      "sha256": "901d9fbf348f454878ba060347b6118287577cff421799ac9869d6a089d56a4a"
+    },
+    {
+      "item": "TRUEN-08",
+      "role": "C",
+      "form": "directional",
+      "sha256": "82101bfb0e79703cbd93f88b0a07ec119336c3fa016c8cc687ba704a93f813dd"
+    },
+    {
+      "item": "TRUEN-08",
+      "role": "C",
+      "form": "original",
+      "sha256": "e7af3a85b3aa1ce5eef573c2170e9c168ce7be7714288bbabda81751b7fae868"
+    },
+    {
+      "item": "TRUEN-09",
+      "role": "A0",
+      "form": "format",
+      "sha256": "f2303e5e8f650179c64bc9f7b55f71aaf53b678dbd68dc75faac12f0567bf58b"
+    },
+    {
+      "item": "TRUEN-08",
+      "role": "A0",
+      "form": "directional",
+      "sha256": "49a31a5e70265323bbc7545be455d7f37275a6de86672767d0a7e802cee3c75d"
+    },
+    {
+      "item": "TRUEN-09",
+      "role": "C",
+      "form": "directional",
+      "sha256": "28e7dcc4c09982406a6e14b023648fbfe740127f58cb7d069a05d1d62137ff62"
+    },
+    {
+      "item": "TRUEN-08",
+      "role": "A0",
+      "form": "format",
+      "sha256": "15267da61268e706cbc4e05c0300d2c903aa57e89213e9fc3e1bdcf480511984"
+    },
+    {
+      "item": "TRUEN-09",
+      "role": "C",
+      "form": "format",
+      "sha256": "6a0dbbff024994086d6c46af5ba9a9195b6b3df7cb802200f499dca55ae926f1"
+    },
+    {
+      "item": "TRUEN-09",
+      "role": "A0",
+      "form": "original",
+      "sha256": "09cdb0b7d633252e422b68f934bbe74ab598d6db601aa2b0cca3674e14398187"
+    },
+    {
+      "item": "TRUEN-09",
+      "role": "C",
+      "form": "original",
+      "sha256": "8424398484675d643fc44e0cdf0efc9de590887af575713ddf29a023518a4c68"
+    },
+    {
+      "item": "TRUEN-08",
+      "role": "C",
+      "form": "format",
+      "sha256": "8cda40c5f3692524e262a22a6c867d750176ce2f5afa5ed0e2e4a0f220998e0b"
+    }
+  ],
+  "prompt_sha256": "8d09a237be35899decb2c5f206c43f8f2c6e80f0629ebb237a87c7a78fc13881",
+  "response_schema_sha256": "242859533152abeb2a35377f6c914551b50d0ee72144f3b148fb342903abecad",
+  "procedure": "최초 판정의 공통 근거를 시험하는 항목별 재검토. A0는 원본 회사명이 있는 최초 신고서 수치 발췌, C는 후보 자체의 동기간 사업보고서 및 발행사 중립 발췌를 받는다. 양 역할 모두 다른 형태·기대·가설은 볼 수 없다. 조건부 재무·가격 결론은 범위 밖이다.",
+  "frozen_utc": "2026-11-26T02:29:47.033533+00:00"
+}

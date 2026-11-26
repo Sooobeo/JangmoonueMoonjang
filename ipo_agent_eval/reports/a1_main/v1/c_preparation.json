@@ -1,0 +1,440 @@
+{
+  "issuers": 37,
+  "ready": 36,
+  "original_j2": 128,
+  "original_with_business": 127,
+  "rows": [
+    {
+      "receipt": "20230818000362",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "046120",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230925000332",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "022100",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230822000424",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "023770",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230728000416",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 5,
+      "original_with_business": 5,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "023770",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230927000587",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "006910",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20231222000680",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 9,
+      "original_with_business": 9,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "000390",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20240621000553",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 2,
+      "original_with_business": 2,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "007610",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20240710000686",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 2,
+      "original_with_business": 2,
+      "issuer_excerpts": 3,
+      "supplementary_ticker": "014200",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20241010000504",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "023770",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20241018000518",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 2,
+      "original_with_business": 2,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "017250",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20241118000273",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "024850",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20241129001313",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "008830",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20241205000577",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "007120",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20241213000457",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "027040",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230823000258",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 2,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "010470",
+      "excluded_j2": [
+        {
+          "item_id": "20230823000258-10",
+          "name": "커넥트웨이브",
+          "ticker": "119860",
+          "reason": "RemoteProtocolError: Server disconnected without sending a response.; OpenDART search proves the filing exists. It supplies no product/business excerpts.",
+          "source_checks": [
+            {
+              "snapshot": "c_source/reports/2023-08-23/119860/report.json",
+              "sha256": "e24d29cad3c2e170d471e2e7dac82856fd983d70a99ab7ac63cdf7ff8ab1cd93"
+            },
+            {
+              "snapshot": "c_source/opendart_xbrl/119860/provenance.json",
+              "sha256": "6d32f618d64a7526ef2246820d7dfe4a4fb6d47f01e37d9e73f902f3ff94004a",
+              "receipt": "20230814002024",
+              "published": "20230814"
+            }
+          ],
+          "origin": "domestic",
+          "c_assessment": "미확인·자료 부족",
+          "excluded_from_wire": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "receipt": "20240305000170",
+      "ready": false,
+      "j2_applicability": "applicable",
+      "original_j2": 7,
+      "original_with_business": 7,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": null,
+      "excluded_j2": [],
+      "reasons": [
+        "same and other domestic markets searched; no supplemental candidate with verified pre-filing business evidence",
+        "supplementary candidate not in blinded packet"
+      ]
+    },
+    {
+      "receipt": "20250107000412",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "017890",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250908000140",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "008830",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230906000217",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 2,
+      "original_with_business": 2,
+      "issuer_excerpts": 2,
+      "supplementary_ticker": "046120",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20240520000263",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "036570",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250120000464",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "023770",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250908000329",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "015710",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230911000405",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 2,
+      "original_with_business": 2,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "023770",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20240621000344",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 2,
+      "supplementary_ticker": "000250",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250207000496",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 2,
+      "supplementary_ticker": "033290",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250930000546",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "017890",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230912000404",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "008830",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250320001180",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "007820",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20251001000684",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "024850",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230915000263",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "032580",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250324000841",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 6,
+      "original_with_business": 6,
+      "issuer_excerpts": 3,
+      "supplementary_ticker": "006140",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20251103000252",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "003960",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230915000281",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "008830",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250325000608",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "000390",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20251223000517",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 2,
+      "original_with_business": 2,
+      "issuer_excerpts": 5,
+      "supplementary_ticker": "045390",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20230918000204",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 4,
+      "original_with_business": 4,
+      "issuer_excerpts": 3,
+      "supplementary_ticker": "008370",
+      "excluded_j2": [],
+      "reasons": []
+    },
+    {
+      "receipt": "20250328002012",
+      "ready": true,
+      "j2_applicability": "applicable",
+      "original_j2": 3,
+      "original_with_business": 3,
+      "issuer_excerpts": 4,
+      "supplementary_ticker": "010170",
+      "excluded_j2": [],
+      "reasons": []
+    }
+  ]
+}

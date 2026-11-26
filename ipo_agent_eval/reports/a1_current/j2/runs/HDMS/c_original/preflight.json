@@ -1,0 +1,18 @@
+{
+  "case_id": "HDMS",
+  "directory": "runs/HDMS/c_original/20261126T021740Z_A1_BLIND_B1_preflight_7e8bbfd571",
+  "packet_sha256": "3ade6677b91a603ec906f757211a25b3ad54579f942041324a3b7e8e21ff5e1e",
+  "summary": {
+    "run_id": "20261126T021740Z_A1_BLIND_B1_preflight_7e8bbfd571",
+    "variant": "B1",
+    "mode": "PREFLIGHT",
+    "baseline_run_id": null,
+    "contract_versions": [
+      "a1-blind-v1"
+    ],
+    "case_id": "HDMS",
+    "execution_status": "PREFLIGHT_COMPLETE",
+    "model_calls": 0,
+    "actual_model_answer": false
+  }
+}

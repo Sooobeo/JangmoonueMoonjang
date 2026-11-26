@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "HDMS": {
+      "input_roster": [
+        "H01"
+      ],
+      "same_model_prompt_and_common_sources": true,
+      "token_and_citation_scope_verified": true,
+      "new_pages": []
+    },
+    "MELCON": {
+      "input_roster": [
+        "M01",
+        "M02",
+        "M05"
+      ],
+      "same_model_prompt_and_common_sources": true,
+      "token_and_citation_scope_verified": true,
+      "new_pages": [
+        "PDF-324",
+        "PDF-325",
+        "PDF-348",
+        "PDF-350"
+      ]
+    }
+  },
+  "actual_attempts": 4,
+  "input_tokens": 34191,
+  "output_tokens": 3931,
+  "elapsed_seconds_sum": "57.908",
+  "standard_uncached_estimate_usd": "0.053846"
+}

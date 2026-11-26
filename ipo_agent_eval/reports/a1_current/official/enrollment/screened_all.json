@@ -1,0 +1,1073 @@
+{
+  "window_kst": [
+    "2024-10-01",
+    "2024-12-31"
+  ],
+  "listed_report_rows": 504,
+  "fully_screened_distinct_corporates": 39,
+  "screen_results": {
+    "ipo_forecast_PER": 7,
+    "ipo_historical_PER": 7,
+    "ipo_other_multiple": 8,
+    "not_ipo": 17
+  },
+  "same_issuer_refiling_cases": [
+    "20241223000375"
+  ],
+  "new_historical_PER_without_known_prior_withdrawal_in_window": [
+    "20241010000504",
+    "20241018000518",
+    "20241118000273",
+    "20241129001313",
+    "20241205000577",
+    "20241213000457"
+  ],
+  "previous_reserved_still_unopened": 8,
+  "conservative_legacy_plus_new_eligible_filings": 14,
+  "possible_with_flagged_refiling": 15,
+  "paired_validity_has_not_been_opened": true,
+  "known_model_calls": 0,
+  "new_eligibles_needed_if_refiling_held": {
+    "1.0": 1,
+    "0.8": 8,
+    "0.7": 11,
+    "0.5": 23
+  },
+  "rows": [
+    {
+      "receipt": "20241002000335",
+      "issuer": "파인메딕스",
+      "corp_code": "01455410",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241002000335",
+      "pdf_sha256": "34e7705cb5a7c769c068125e0474b3e0c402c243b01279d7f703acee98b2be76",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 520,
+      "ipo_status_anchor": {
+        "page": 23,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 199,
+        "quote": "2027년 추정 순이익의 현재가치                       4,754 백만원   C=A/[(1+B)^3.25]"
+      },
+      "period_or_method": "2027년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-02",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241002000335&dcm_no=10132944",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241004000133",
+      "issuer": "쓰리에이로직스",
+      "corp_code": "00870065",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241004000133",
+      "pdf_sha256": "65b63fecb57503a2ea28a1cc7b416b622206b1d6e7e9a9e43f40f64d27601d06",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 497,
+      "ipo_status_anchor": {
+        "page": 38,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 293,
+        "quote": "추정 당기순이익      2026년     백만원              17,272              (B)"
+      },
+      "period_or_method": "2026~2027년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-04",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241004000133&dcm_no=10134388",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241010000504",
+      "issuer": "사이냅소프트",
+      "corp_code": "01207901",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000504",
+      "pdf_sha256": "d3b8e0025e92d9d808c40dc06be9e7a6e9149c8e7e949e3f7545e7669a8bf558",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "document_pages": 407,
+      "ipo_status_anchor": {
+        "page": 26,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 180,
+        "quote": "적용산식                   2024년 반기 LTM 기준 당기순이익 (①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2024년 반기 말 LTM 실적",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-10",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241010000504&dcm_no=10140645",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241010000579",
+      "issuer": "DH오토웨어",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000579",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 13,
+      "quote": "금번 (주)디에이치오토웨어의 주주배정후 실권주 일반공모 유상증자",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "1ae46d4959b6a9d94dd47a08e328d64c5ea0bc13558342214d5c45b609c50478",
+      "classification": "not_ipo",
+      "corp_code": "00110583",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241010000579",
+      "ipo_status_anchor": {
+        "page": 13,
+        "quote": "금번 (주)디에이치오토웨어의 주주배정후 실권주 일반공모 유상증자"
+      },
+      "period_or_method": "기존 상장사 주주배정 후 실권주 일반공모",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-10",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241010000579&dcm_no=10140855",
+      "document_pages": 272,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241016000097",
+      "issuer": "온코닉테라퓨틱스",
+      "corp_code": "01632912",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000097",
+      "pdf_sha256": "279f0d3c6d7fad8f8b04ca57dc7b2678c53e705bc190bce819b2d072af552e7f",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 452,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 199,
+        "quote": "동사의 주당 평가가액은 동사의 2027년 추정 주당순이익의 현가를 기준으로 PER를 적용하"
+      },
+      "period_or_method": "2027년 추정 주당순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-16",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241016000097&dcm_no=10146381",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241016000264",
+      "issuer": "온코크로스",
+      "corp_code": "01423916",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241016000264",
+      "pdf_sha256": "7b422b9798eb85dc238a8652f7513a4f432d6f86c7619c3fde4abb20233dcbbd",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 430,
+      "ipo_status_anchor": {
+        "page": 33,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 219,
+        "quote": "2027년 추정 순이익                         10,447 백만원       A (주1), (주2)"
+      },
+      "period_or_method": "2027~2028년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-16",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241016000264&dcm_no=10147153",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241018000518",
+      "issuer": "벡트로보틱스",
+      "corp_code": "01453944",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241018000518",
+      "pdf_sha256": "dd4c8537b9b8aec15dbb8bc136cbfc7411b2fbff255226e24d4456c9515b65fe",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "document_pages": 368,
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 156,
+        "quote": "적용산식      2024년 반기 LTM 기준 당기순이익 (①) x 유사기업 PER(②) ÷ 주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2024년 반기 말 LTM 실적",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-18",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241018000518&dcm_no=10150563",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241025000552",
+      "issuer": "와이엠",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000552",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 16,
+      "quote": "금번 (주)와이엠 주주배정 유상증자의 모집주선회사는 현대차증권",
+      "kind": "기존 상장사 주주배정 유상증자",
+      "pdf_sha256": "97ed032f72b9e9a3c90939a13f507c8f0cf91fa4aac4fe4d0466836cd5c6eaa1",
+      "classification": "not_ipo",
+      "corp_code": "00140858",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241025000552",
+      "ipo_status_anchor": {
+        "page": 16,
+        "quote": "금번 (주)와이엠 주주배정 유상증자의 모집주선회사는 현대차증권"
+      },
+      "period_or_method": "기존 상장사 주주배정 유상증자",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-10-25",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241025000552&dcm_no=10158313",
+      "document_pages": 222,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241104000352",
+      "issuer": "데이원컴퍼니",
+      "corp_code": "01455492",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241104000352",
+      "pdf_sha256": "ba55323ac9b699e28ef0c35482b6947d2d4d07a3a526b117fb640d907f483514",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 408,
+      "ipo_status_anchor": {
+        "page": 32,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 176,
+        "quote": "적용산식                    2024년 2분기 매출액의 연환산(①) x 유사기업 PSR(②) ÷ 주식수(③)"
+      },
+      "period_or_method": "2024년 2분기 매출 연환산 PSR",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-04",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241104000352&dcm_no=10168684",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241106000175",
+      "issuer": "아이지넷",
+      "corp_code": "01728167",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000175",
+      "pdf_sha256": "7126df8352d008e1fe0b123ba3a08b92b9e8b98dcedc507ae55f5352331972ff",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 487,
+      "ipo_status_anchor": {
+        "page": 23,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 217,
+        "quote": "2026년 추정 당기순이익을 회계기준일 및 공모시점을 고려하여 연 할인율 20.00%를 적용"
+      },
+      "period_or_method": "2026년 추정 당기순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-06",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241106000175&dcm_no=10170485",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241106000331",
+      "issuer": "아스테라시스",
+      "corp_code": "01590528",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241106000331",
+      "pdf_sha256": "96c81b5473185e182b386944b676f9acfeb02ad7a6a19746b908368fa1b466ed",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 392,
+      "ipo_status_anchor": {
+        "page": 27,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 153,
+        "quote": "2024년 추정 당기순이익                        6,599 백만원            A (주1)"
+      },
+      "period_or_method": "2024년 추정 이익을 3분기말 현재가치로 할인",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-06",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241106000331&dcm_no=10171186",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241107000305",
+      "issuer": "엠앤씨솔루션",
+      "corp_code": "01519790",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241107000305",
+      "pdf_sha256": "ea9e6c2c2f1637de900562e7a6be18e478015c704efba741682aedec4453d590",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 487,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 198,
+        "quote": "적용산식                     {2024년 온기 추정 EBITDA(①) × 비교기업 평균 EV/EBITDA(②) - 순차입금(③)} ÷ 주식수(④) × {1-할인율(⑤)}"
+      },
+      "period_or_method": "온기 추정 EBITDA에 EV/EBITDA",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-07",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241107000305&dcm_no=10172380",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241108000555",
+      "issuer": "듀켐바이오",
+      "corp_code": "00867034",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241108000555",
+      "pdf_sha256": "1b6b3b5d3fd28ec256498ede24cef258f881faad61e07f2203eeb94feb655e81",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 522,
+      "ipo_status_anchor": {
+        "page": 31,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 200,
+        "quote": "적용산식                   2024년 3분기 LTM 기준 매출액(①) x 유사기업 PSR(②) ÷ 적용주식수(③) x {1 - 할인율(④)}"
+      },
+      "period_or_method": "2024년 3분기 LTM 매출 PSR",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-08",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241108000555&dcm_no=10174460",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241112000407",
+      "issuer": "렉스필드컨트리클럽",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000407",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 12,
+      "quote": "금번 유상증자는 주주배정 방식이며, 모집가액 3,050원은",
+      "kind": "비상장사 기존 주주배정 유상증자. 물리 13쪽에서 유가증권·코스닥에 상장되지 않은 회사라고 기재.",
+      "pdf_sha256": "2285b00be5cd33d5e204762ae18155ffdb9b15c08001be2ac67b4ea94381e364",
+      "classification": "not_ipo",
+      "corp_code": "00476939",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241112000407",
+      "ipo_status_anchor": {
+        "page": 12,
+        "quote": "금번 유상증자는 주주배정 방식이며, 모집가액 3,050원은"
+      },
+      "period_or_method": "비상장사 기존 주주배정 유상증자. 물리 13쪽에서 유가증권·코스닥에 상장되지 않은 회사라고 기재.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-12",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241112000407&dcm_no=10177131",
+      "document_pages": 152,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241114003009",
+      "issuer": "대한광통신",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114003009",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 13,
+      "quote": "당사는 금번 주주배정 후 실권주 일반공모 유상증자로 인해",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모. 기존 발행주식 대비 추가 상장.",
+      "pdf_sha256": "f9de75bceee9ee32f53fa46d7115c4aa615f2fa70f897f62ba8afe0494c5e314",
+      "classification": "not_ipo",
+      "corp_code": "00113261",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241114003009",
+      "ipo_status_anchor": {
+        "page": 13,
+        "quote": "당사는 금번 주주배정 후 실권주 일반공모 유상증자로 인해"
+      },
+      "period_or_method": "기존 상장사 주주배정 후 실권주 일반공모. 기존 발행주식 대비 추가 상장.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-14",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241114003009&dcm_no=10187276",
+      "document_pages": 246,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241115000279",
+      "issuer": "큐로홀딩스",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000279",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 22,
+      "quote": "주주배정후 실권주 일반공모",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "afc1ac46f5ebd843e67f72e2499446433e36b50d4d939fdda6ed268a78dc1a55",
+      "classification": "not_ipo",
+      "corp_code": "00296324",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000279",
+      "ipo_status_anchor": {
+        "page": 22,
+        "quote": "주주배정후 실권주 일반공모"
+      },
+      "period_or_method": "기존 상장사 주주배정 후 실권주 일반공모",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-15",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241115000279&dcm_no=10188282",
+      "document_pages": 328,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241115000345",
+      "issuer": "현대바이오",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000345",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 14,
+      "quote": "금번 현대바이오사이언스(주)의 주주배정후 실권주 일반공모 유상증",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "c6e9c2f42e632ab632d2b808408e04dbcc4b641a35d733dd6f6d1c6d2a49c339",
+      "classification": "not_ipo",
+      "corp_code": "00313649",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241115000345",
+      "ipo_status_anchor": {
+        "page": 14,
+        "quote": "금번 현대바이오사이언스(주)의 주주배정후 실권주 일반공모 유상증"
+      },
+      "period_or_method": "기존 상장사 주주배정 후 실권주 일반공모",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-15",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241115000345&dcm_no=10188486",
+      "document_pages": 299,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241118000129",
+      "issuer": "삼양엔씨켐",
+      "corp_code": "00863533",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000129",
+      "pdf_sha256": "0a5ea91073e50f4afc0386d391c5c1945b63f4c4fab9b95145b2fccd075902f5",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 358,
+      "ipo_status_anchor": {
+        "page": 30,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 178,
+        "quote": "적용산식                    [{2024년도 3분기 연환산 EBITDA (①) × 비교회사 EV/EBITDA(②) - 순차입금(③)}÷ 주식수(④)] × {1-할인율(⑤)}"
+      },
+      "period_or_method": "2024년 3분기 연환산 EBITDA에 EV/EBITDA",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-18",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241118000129&dcm_no=10189041",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241118000172",
+      "issuer": "이수페타시스",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000172",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 19,
+      "quote": "금번 (주)이수페타시스 주주배정후 실권주 일반공모 유상증자",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "2c9c7df7b4d205485441b10afe155b168326f550db03a7db056971528761ad11",
+      "classification": "not_ipo",
+      "corp_code": "00107613",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000172",
+      "ipo_status_anchor": {
+        "page": 19,
+        "quote": "금번 (주)이수페타시스 주주배정후 실권주 일반공모 유상증자"
+      },
+      "period_or_method": "기존 상장사 주주배정 후 실권주 일반공모",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-18",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241118000172&dcm_no=10189201",
+      "document_pages": 366,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241118000189",
+      "issuer": "알체라",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000189",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 28,
+      "quote": "당사의 금번 유상증자는 주주배정 방식으로 신주인수권증서가 발행",
+      "kind": "기존 상장사 주주배정 유상증자. 대표이사 대상 별도 제3자배정과 구분.",
+      "pdf_sha256": "d7f85dda9b35ed4dbf1a2b1eacbf565e876859e9f6892d7ae5d628c09a9b2a84",
+      "classification": "not_ipo",
+      "corp_code": "01405451",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000189",
+      "ipo_status_anchor": {
+        "page": 28,
+        "quote": "당사의 금번 유상증자는 주주배정 방식으로 신주인수권증서가 발행"
+      },
+      "period_or_method": "기존 상장사 주주배정 유상증자. 대표이사 대상 별도 제3자배정과 구분.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-18",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241118000189&dcm_no=10189274",
+      "document_pages": 426,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241118000273",
+      "issuer": "모티브링크",
+      "corp_code": "00367400",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241118000273",
+      "pdf_sha256": "d9bac816885dd8d9848d9dab2432420b214042fa65e1061128c84b4ec7a1b85f",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "document_pages": 344,
+      "ipo_status_anchor": {
+        "page": 28,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 152,
+        "quote": "적용 재무수치              실적치 (2024년 3분기 기준 연환산 지배기업지분 당기순이익)"
+      },
+      "period_or_method": "2024년 3분기 실적 연환산 지배기업 귀속",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-18",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241118000273&dcm_no=10189560",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241120000278",
+      "issuer": "알지노믹스",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000278",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 14,
+      "quote": "당사는 비상장회사로서 거래소 상장회사와 달리 금번 유상증자는 금융투자업자의 인수없이 당사의",
+      "kind": "비상장사 제3자배정 직접공모. 물리 19쪽에 기명식 우선주 318,471주로 기재.",
+      "pdf_sha256": "f30934fa9f8e015210c7e7ddcf2ae49656d64dd1ae3da1e8cffc722fc786af02",
+      "classification": "not_ipo",
+      "corp_code": "01596920",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241120000278",
+      "ipo_status_anchor": {
+        "page": 14,
+        "quote": "당사는 비상장회사로서 거래소 상장회사와 달리 금번 유상증자는 금융투자업자의 인수없이 당사의"
+      },
+      "period_or_method": "비상장사 제3자배정 직접공모. 물리 19쪽에 기명식 우선주 318,471주로 기재.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-20",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241120000278&dcm_no=10192122",
+      "document_pages": 216,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241121000487",
+      "issuer": "와이즈넛",
+      "corp_code": "00351427",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241121000487",
+      "pdf_sha256": "e919e308076aaf73b8e14d77bbb15c3b4da6c467baf97167c8f70eea69671c76",
+      "classification": "ipo_forecast_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "document_pages": 508,
+      "ipo_status_anchor": {
+        "page": 28,
+        "quote": "상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 198,
+        "quote": "2026년 추정 순이익                         18,569 백만원        A (주1) , (주2)"
+      },
+      "period_or_method": "2026년 추정 순이익 현가",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-21",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241121000487&dcm_no=10194466",
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241127000682",
+      "issuer": "현대차증권",
+      "title": "증권신고서(지분증권)",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000682",
+      "initial_listing_IPO": false,
+      "applied_issuer_historical_PER_IPO": false,
+      "physical_page": 14,
+      "quote": "금번 현대차증권(주)의 주주배정후 실권주 일반공모 유상증자",
+      "kind": "기존 상장사 주주배정 후 실권주 일반공모",
+      "pdf_sha256": "b4d86f17aedf10c17709a0749a9b9ef2279d18f2294880c9db3bef8def41d48e",
+      "classification": "not_ipo",
+      "corp_code": "00137997",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241127000682",
+      "ipo_status_anchor": {
+        "page": 14,
+        "quote": "금번 현대차증권(주)의 주주배정후 실권주 일반공모 유상증자"
+      },
+      "period_or_method": "기존 상장사 주주배정 후 실권주 일반공모",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-27",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241127000682&dcm_no=10201303",
+      "document_pages": 440,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241129001313",
+      "issuer": "피아이이",
+      "corp_code": "01429220",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001313",
+      "pdf_sha256": "77a3b3e953822271e054e19d6af2f1df9b2637a477c9762098766aa992463aec",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "ipo_status_anchor": {
+        "physical_page": 33,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로",
+        "page": 33
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 207,
+        "quote": "적용 당기순이익은 2024년 3분기말 기준 최근 12개월(LTM) 지배기업지분 당기순이익",
+        "page": 207
+      },
+      "period_or_method": "발행사 최근 12개월 지배기업지분 순이익 11,980,772,212원, PER 28.93배.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-29",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241129001313&dcm_no=10206601",
+      "document_pages": 445,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241129001734",
+      "issuer": "태성",
+      "corp_code": "01366000",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241129001734",
+      "pdf_sha256": "8a2809614d4ab9b6efc839360998144adb6cf898e9d5ca6bc6a91d816a5182a7",
+      "classification": "not_ipo",
+      "is_original_ipo_filing_in_this_family": false,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 19,
+        "quote": "주주배정후 실권주 일반공모",
+        "page": 19
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 27,
+        "quote": "예정발행가액 = [기준주가 × (1-할인율)]",
+        "page": 27
+      },
+      "period_or_method": "기존 상장사의 주주배정 유상증자. 기준주가와 할인율·증자비율로 산정.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-11-29",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241129001734&dcm_no=10207496",
+      "document_pages": 275,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241205000577",
+      "issuer": "LG씨엔에스",
+      "corp_code": "00139834",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241205000577",
+      "pdf_sha256": "6f1bf36ff37a27c9154d37a34596f8239b55faaa2cbf061fabe6cbdcb81e0992",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "ipo_status_anchor": {
+        "physical_page": 43,
+        "quote": "본 주식은 유가증권시장 상장을 목적으로 모집(매출)하는 것으로",
+        "page": 43
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 246,
+        "quote": "적용 순이익은 2024년 3분기 기준 최근 4개 분기(LTM) 지배주주순이익입니다.",
+        "page": 246
+      },
+      "period_or_method": "발행사 2023년 4분기~2024년 3분기 지배주주순이익 383,656백만원, PER 22.6배.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-05",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241205000577&dcm_no=10214371",
+      "document_pages": 606,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241206000379",
+      "issuer": "동방메디컬",
+      "corp_code": "01073261",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241206000379",
+      "pdf_sha256": "2f82a46add74b1d2f6ef21f18dc5ed813c8cce6cb9a5c5d6c0963cd102bfbca3",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 23,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로",
+        "page": 23
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 194,
+        "quote": "[EV/EBITDA에 의한 ㈜동방메디컬 평가가치]",
+        "page": 194
+      },
+      "period_or_method": "2024년 3분기 EBITDA를 연환산한 22,301,155천원에 EV/EBITDA 17.58배 적용. 앞선 철회신고서 20241107000337.",
+      "same_issuer_prior_withdrawal_titles_in_window": [
+        {
+          "receipt": "20241014000140",
+          "title": "[기재정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241101000364",
+          "title": "[기재정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241105000173",
+          "title": "투자설명서"
+        },
+        {
+          "receipt": "20241107000337",
+          "title": "철회신고서"
+        }
+      ],
+      "date_kst": "2024-12-06",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241206000379&dcm_no=10215433",
+      "document_pages": 497,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241212000508",
+      "issuer": "미트박스",
+      "corp_code": "01374717",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241212000508",
+      "pdf_sha256": "d2a553340c2a61436aba868c2596e0dd3577afd51da9afa231767078c1893982",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 33,
+        "quote": "본 주식은 한국거래소 내 코스닥시장 상장을 목적으로 모집(매출)하는 것으로",
+        "page": 33
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 211,
+        "quote": "매출액은 2024년 3분기 LTM 기준의 연결재무제표 상 매출액입니다",
+        "page": 211
+      },
+      "period_or_method": "발행사 2024년 3분기말 LTM 연결매출에 PSR 적용. 앞선 철회신고서 20241111000241.",
+      "same_issuer_prior_withdrawal_titles_in_window": [
+        {
+          "receipt": "20241015000409",
+          "title": "[기재정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241105000240",
+          "title": "[기재정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241106000005",
+          "title": "투자설명서"
+        },
+        {
+          "receipt": "20241111000241",
+          "title": "철회신고서"
+        }
+      ],
+      "date_kst": "2024-12-12",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241212000508&dcm_no=10223716",
+      "document_pages": 473,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241213000457",
+      "issuer": "위너스일렉",
+      "corp_code": "01137860",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000457",
+      "pdf_sha256": "e16a5310ba82eca2c68ebfbf4769edcda4493654b478ba499a514a212ab2d89b",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "ipo_status_anchor": {
+        "physical_page": 27,
+        "quote": "본 주식은 한국거래소 내 코스닥시장 상장을 목적으로 모집(매출)하는 것으로",
+        "page": 27
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 220,
+        "quote": "적용 당기순이익은 2024년 3분기 말 기준 최근 4개 분기 누적(LTM) 당기순이익에 해당합니다.",
+        "page": 220
+      },
+      "period_or_method": "최초 신고서 명칭 ㈜위너스. 발행사 2024년 3분기말 LTM 순이익 2,881,965,231원, PER 24.4배.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-13",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241213000457&dcm_no=10226733",
+      "document_pages": 363,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241213000597",
+      "issuer": "E8",
+      "corp_code": "01516890",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213000597",
+      "pdf_sha256": "415ace2519a5da22a840e4d850199c5bd081203933126aef40362341d4edd306",
+      "classification": "not_ipo",
+      "is_original_ipo_filing_in_this_family": false,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 23,
+        "quote": "금번 이에이트(주)의 주주배정후 실권주 일반공모 유상증자",
+        "page": 23
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 29,
+        "quote": "2차 발행가액 = 기준주가 ×【1 - 할인율(25%)】",
+        "page": 29
+      },
+      "period_or_method": "기존 상장사 이에이트의 주주배정 유상증자. 시가 할인 방식.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-13",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241213000597&dcm_no=10227470",
+      "document_pages": 300,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241216000242",
+      "issuer": "동국생명과학",
+      "corp_code": "01233465",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241216000242",
+      "pdf_sha256": "59826d8144c0f3acd28d8a9b4ccfc32d16662f70d10522a5cdf7f27829e547d0",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 33,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로",
+        "page": 33
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 212,
+        "quote": "적용 EBITDA는 2024년 3분기말 기준 연환산 실적입니다.",
+        "page": 212
+      },
+      "period_or_method": "발행사 분기 누계 EBITDA 연환산, EV/EBITDA 15.09배.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-16",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241216000242&dcm_no=10229750",
+      "document_pages": 424,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241220000674",
+      "issuer": "차바이오텍",
+      "corp_code": "00525679",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000674",
+      "pdf_sha256": "c3286a811eeccc6f4b2f152ee4e8e2e78e1f74d805d83557f1adc8568ed14bd8",
+      "classification": "not_ipo",
+      "is_original_ipo_filing_in_this_family": false,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 20,
+        "quote": "금번 주주배정 후 실권주 일반공모 유상증자",
+        "page": 20
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 30,
+        "quote": "기준주가 ×【 1 - 할인율(23%)】",
+        "page": 30
+      },
+      "period_or_method": "기존 상장사 주주배정 유상증자, 기준주가 23% 할인.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-20",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241220000674&dcm_no=10238245",
+      "document_pages": 616,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241220000731",
+      "issuer": "지아이이노베이션",
+      "corp_code": "01351080",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000731",
+      "pdf_sha256": "09e0087775c443b8252c0cd99d65c2f9b30d14fc09330266f71cf860b4fc4914",
+      "classification": "not_ipo",
+      "is_original_ipo_filing_in_this_family": false,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 25,
+        "quote": "금번 (주)지아이이노베이션의 주주배정후 실권주 일반공모 유상증",
+        "page": 25
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 26,
+        "quote": "기준주가 ×【 1 - 할인율(25%)】",
+        "page": 26
+      },
+      "period_or_method": "기존 상장사 주주배정 유상증자, 기준주가 25% 할인.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-20",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241220000731&dcm_no=10238445",
+      "document_pages": 331,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241223000375",
+      "issuer": "오름테라퓨틱",
+      "corp_code": "01658831",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000375",
+      "pdf_sha256": "01546cd097373c70d3b366cfa9288a9898396d82efdecdb6327623b76d733c4f",
+      "classification": "ipo_historical_PER",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": true,
+      "ipo_status_anchor": {
+        "physical_page": 29,
+        "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로",
+        "page": 29
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 210,
+        "quote": "적용 순이익은 2024년 3분기 기준 최근 4개분기의 당기순이익의 합계",
+        "page": 210
+      },
+      "period_or_method": "발행사 2024년 3분기말 최근 4개 분기 순이익 99,290,116,898원에 PER 19.26배. 기술이전 일시수입 포함 실적. 앞선 원본 20241002000253은 20241129001360에 철회된 별도 공모 시도.",
+      "same_issuer_prior_withdrawal_titles_in_window": [
+        {
+          "receipt": "20241002000253",
+          "title": "증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241105000229",
+          "title": "[기재정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241114002779",
+          "title": "[기재정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241120000179",
+          "title": "[기재정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20241127000088",
+          "title": "투자설명서"
+        },
+        {
+          "receipt": "20241129001360",
+          "title": "철회신고서"
+        }
+      ],
+      "date_kst": "2024-12-23",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241223000375&dcm_no=10240041",
+      "document_pages": 479,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241223000405",
+      "issuer": "손오공",
+      "corp_code": "00306870",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241223000405",
+      "pdf_sha256": "45ca8b4a7f61bded55d87d8d7013101a1fc323d52819eb4b4c896e2c10fa1f36",
+      "classification": "not_ipo",
+      "is_original_ipo_filing_in_this_family": false,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 18,
+        "quote": "당사는 코스닥시장 상장법인으로써, 이번 유상증자로 발행되는 신주",
+        "page": 18
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 22,
+        "quote": "예정발행가액 = [기준주가 × (1- 할인율) ]",
+        "page": 22
+      },
+      "period_or_method": "기존 상장사의 주주배정 유상증자. 기준주가·할인율·증자비율로 계산.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-23",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241223000405&dcm_no=10240162",
+      "document_pages": 262,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241224000430",
+      "issuer": "애드바이오텍",
+      "corp_code": "01022902",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241224000430",
+      "pdf_sha256": "b91654c113ea0f8d64560d52e7c7574b9c8817941e8815eaf6bdf787d44f9370",
+      "classification": "not_ipo",
+      "is_original_ipo_filing_in_this_family": false,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 22,
+        "quote": "당사의 금번 일반공모 유상증자",
+        "page": 22
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 28,
+        "quote": "기준주가 × (1 - 할인율)",
+        "page": 28
+      },
+      "period_or_method": "기존 상장사 일반공모 유상증자. 청약 전 시가 할인 방식.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-24",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241224000430&dcm_no=10241828",
+      "document_pages": 363,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241226000073",
+      "issuer": "오스템바스큘라",
+      "corp_code": "01723366",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241226000073",
+      "pdf_sha256": "2c41c257b7b579628c1f42131be4c4c710955017e7d16e0786081f220b4d54eb",
+      "classification": "not_ipo",
+      "is_original_ipo_filing_in_this_family": false,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 16,
+        "quote": "직접공모 아니오 해당없음 해당없음",
+        "page": 16
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 18,
+        "quote": "금번 유상증자는 직접공모 방식이며, 모집가액 3,000원은",
+        "page": 18
+      },
+      "period_or_method": "제3자배정 직접공모 유상증자, 회계법인 평가 참고로 2024년 12월 18일 이사회 결정.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-26",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241226000073&dcm_no=10242758",
+      "document_pages": 228,
+      "family_earliest_confirmed": true
+    },
+    {
+      "receipt": "20241227000443",
+      "issuer": "대진첨단소재",
+      "corp_code": "01549472",
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241227000443",
+      "pdf_sha256": "bc7262d373970aaa728fda4b6e97d5c1dbcac2fd5a1955af1f3d5d71bfd17168",
+      "classification": "ipo_other_multiple",
+      "is_original_ipo_filing_in_this_family": true,
+      "historical_issuer_earnings_PER": false,
+      "ipo_status_anchor": {
+        "physical_page": 21,
+        "quote": "본 주식은 한국거래소 내 코스닥시장 상장을 목적으로 모집(매출)하는 것으로",
+        "page": 21
+      },
+      "issuer_valuation_anchor": {
+        "physical_page": 184,
+        "quote": "[EV/EBITDA에 의한대진첨단소재㈜ 평가가치]",
+        "page": 184
+      },
+      "period_or_method": "2024년 3분기 EBITDA 연환산 10,311,180천원에 EV/EBITDA 31.54배 적용.",
+      "same_issuer_prior_withdrawal_titles_in_window": [],
+      "date_kst": "2024-12-27",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20241227000443&dcm_no=10245716",
+      "document_pages": 442,
+      "family_earliest_confirmed": true
+    }
+  ]
+}

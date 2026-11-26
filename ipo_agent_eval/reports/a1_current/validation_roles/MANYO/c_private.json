@@ -1,0 +1,213 @@
+{
+  "case": "MANYO",
+  "receipt": "20230407002556",
+  "sha256": "32beb97cfebfadb3b7126eeec04e26a65b7fc1830cb7a16ddda0038559d2d3d0",
+  "published_cutoff": "2023-04-07T15:51+09:00",
+  "sources": {
+    "E1": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+      "source_group": "20230407002556",
+      "physical_page": 214,
+      "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+      "published": "2023-04-07",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "기초 스킨케어와 클렌징을 주력으로 하는 화장품 브랜드이며 외부 OEM·ODM과 협력하여 생산한다.",
+      "verbatim_anchors": [
+        "기초 스킨케어, 클렌징",
+        "OEM/ODM사와"
+      ]
+    },
+    "E2": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+      "source_group": "20230407002556",
+      "physical_page": 217,
+      "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+      "published": "2023-04-07",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "2022년 앰플·세럼 36.72%, 클렌징 35.47%, 스킨케어 21.53%의 매출 비중을 기록했다.",
+      "verbatim_anchors": [
+        "36.72%",
+        "35.47%",
+        "21.53%"
+      ]
+    },
+    "E3": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+      "source_group": "20230407002556",
+      "physical_page": 238,
+      "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+      "published": "2023-04-07",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "2022년 연간 매출은 101,835,609,615원, 영업이익은 24,494,754,918원, 당기순이익은 17,297,237,363원이었다.",
+      "verbatim_anchors": [
+        "101,835,609,615",
+        "24,494,754,918",
+        "17,297,237,363"
+      ]
+    },
+    "E4": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230407002556&dcm_no=9185882",
+      "source_group": "20230407002556",
+      "physical_page": 239,
+      "sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+      "published": "2023-04-07",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "2022년 연결 자본은 지배기업 소유주에 귀속되며 비지배지분 표시액은 없다.",
+      "verbatim_anchors": [
+        "지배기업 소유주에게 귀속되는 자본",
+        "비지배지분"
+      ]
+    },
+    "E5": {
+      "key": "products",
+      "title": "2. 주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230315000761&dcmNo=9058555&eleId=11&offset=62596&length=8808&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/092730/products.html",
+      "sha256": "3979c76e6e19128c6e4b2e465c0c08ca9d7b9b0cdb97adc6f9167294ba61bee5",
+      "source_group": "20230315000761",
+      "published": "20230315",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230315000761",
+      "excerpt": "2022년 보습·기초 화장품은 매출의 96.0%였다. 화장품 원료와 건강기능식품도 취급했다.",
+      "verbatim_anchors": [
+        "보습/기초",
+        "80,870 96.0%",
+        "화장품원료",
+        "건강기능식품"
+      ]
+    },
+    "E6": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230315001190&dcmNo=9060403&eleId=10&offset=62717&length=2426&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/018250/business.html",
+      "sha256": "eaac708916cbc262d25f49a80d7099ac9a91293255c459ca7fe6c3abb7c8de63",
+      "source_group": "20230315001190",
+      "published": "20230315",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230315001190",
+      "excerpt": "2022년 화장품과 생활용품의 매출 비중은 각각 36%, 64%였다. 화장품 연구소, 생산공장, 물류센터를 직접 운영하며 국내외 온·오프라인에 판매한다.",
+      "verbatim_anchors": [
+        "화장품 부문이 36%, 생활용품 부문이 64%",
+        "홈쇼핑, 드럭스토어, 온라인, 수출",
+        "생산공장 및 물류센터 등을 자체적으로 운영"
+      ]
+    },
+    "E7": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230316000856&dcmNo=9064656&eleId=10&offset=105902&length=999&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/237880/business.html",
+      "sha256": "92fd7ecc38b613efc255fcda4597538f9714fbb9c88d7b02c7d3567b30c86a39",
+      "source_group": "20230316000856",
+      "published": "20230316",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230316000856",
+      "excerpt": "2022년 매출은 포인트 메이크업 52%, 베이스 메이크업 26%, 스킨케어 19%였다. 온라인과 H&B 매장 등을 통해 판매하며 외부 OEM·ODM 업체에서 생산한다.",
+      "verbatim_anchors": [
+        "포인트 메이크업 52%, 베이스 메이크업 26%, 스킨케어 19%",
+        "국내 및 글로벌 온라인 채널",
+        "국내외 OEM/ODM업체를 활용"
+      ]
+    },
+    "E8": {
+      "key": "products",
+      "title": "2. 주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230323001132&dcmNo=9097557&eleId=11&offset=42447&length=6531&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/114840/products.html",
+      "sha256": "a1691bc13013e052034710588435784782b4d4f9d36fdf62dcf92aca6935972e",
+      "source_group": "20230323001132",
+      "published": "20230323",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230323001132",
+      "excerpt": "2022년 립틴트가 매출 43%, 아이섀도가 31%였고, 웨딩·리빙·앱 등 화장품 외 사업은 5%였다.",
+      "verbatim_anchors": [
+        "립틴트 43%",
+        "아이섀도 31%",
+        "화장품사업부 외 (웨딩/리빙/App)",
+        "5% 7%"
+      ]
+    },
+    "E9": {
+      "key": "products",
+      "title": "2. (제조서비스업)주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230323001247&dcmNo=9098175&eleId=11&offset=74975&length=8680&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/214420/products.html",
+      "sha256": "c820393033a7d4030a0d1e47aa86c443a9a04d795791e0ddfcb984b517d43b56",
+      "source_group": "20230323001247",
+      "published": "20230323",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230323001247",
+      "excerpt": "2022년 연결 매출 중 스킨케어는 47.37%, 메이크업은 14.26%, 기타제품은 25.92%였다. 반려동물 간식 등도 판매했다.",
+      "verbatim_anchors": [
+        "스킨케어",
+        "60,041 47.37",
+        "18,080 14.26",
+        "32,846 25.92",
+        "반려동물 간식"
+      ]
+    },
+    "E10": {
+      "key": "products",
+      "title": "2. 주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000980&dcmNo=9082312&eleId=11&offset=136524&length=10031&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/018290/products.html",
+      "sha256": "8ca2bc6d35f2d9042e1a4ae83599b64b1687554555d674b8f9d0a2e227d92161",
+      "source_group": "20230321000980",
+      "published": "20230321",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321000980",
+      "excerpt": "2022년 매출의 54.37%가 화장품, 15.71%가 라미네이팅 기계·필름, 25.02%가 음반·음원 기획이었다.",
+      "verbatim_anchors": [
+        "37,749 15.71%",
+        "130,608 54.37%",
+        "60,105 25.02%"
+      ]
+    }
+  },
+  "links": {
+    "C1": {
+      "name": "네오팜",
+      "item_id": "MANYO-10",
+      "ticker": "092730",
+      "supplementary": false
+    },
+    "C2": {
+      "name": "애경산업",
+      "item_id": "MANYO-11",
+      "ticker": "018250",
+      "supplementary": false
+    },
+    "C3": {
+      "name": "클리오",
+      "item_id": "MANYO-08",
+      "ticker": "237880",
+      "supplementary": false
+    },
+    "C4": {
+      "name": "아이패밀리에스씨",
+      "item_id": "MANYO-09",
+      "ticker": "114840",
+      "supplementary": false
+    },
+    "C5": {
+      "name": "토니모리",
+      "item_id": null,
+      "ticker": "214420",
+      "supplementary": true
+    },
+    "C6": {
+      "name": "브이티지엠피",
+      "item_id": "MANYO-12",
+      "ticker": "018290",
+      "supplementary": false
+    }
+  },
+  "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+  "control_basis": "동종 제품·공정·고객군을 기준으로 추가한 실재 상장사. 최초 신고서의 최종 선정·제외 여부 및 결론은 가린다. 독립 시장 전수 탐색은 수행하지 않았다.",
+  "checks": [
+    "원본 PDF와 후보 자체 사업보고서의 발행일·문서 해시 및 실제 연속된 근거 문구 대조",
+    "기업 ID 무작위 배정, 후보명·발행사명·공시번호·선정/배제 표시·URL 검사, 전 후보 동일 필드 사용",
+    "동결 항목 J2 전부와 회사별 추가 후보 1곳의 중복/누락 확인, 실제 C 전송물만 묶어 SHA-256·스키마 확인"
+  ]
+}

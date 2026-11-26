@@ -1,0 +1,743 @@
+{
+  "freeze_sha256": "76bebfd3ac75ea2ce5fdb3a8e135e62f5cd5b7497fdad2d7a62c2880f6823c0d",
+  "identity_audit_sha256": "fd48021acad0a8c20884ad4d00f9a300ece1c11935e5481faddb804a6631d02f",
+  "boundary_sha256": "956f802debbbad48ae9a0547d4fcfa5565d4866f0125d582d9c49dad8115394d",
+  "manifest_sha256": "90722ed014b685d1f6d6834ba3f5033628bd62bd1f237871f6ee68106b630831",
+  "post_send_identity_appendix_sha256": "6625fd7427097521a9e1572be44acf3ce524bc841de0aa6c9f39463c1fafe11a",
+  "method": "All and only C requests were read from the Terra ledger. The response HTTP status, full request SHA-256 and equality of the decoded C payload to its registered effective version were checked for each attempt.",
+  "rows": [
+    {
+      "case": "20230818000362",
+      "issuer": "에스엘에스바이오",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 4,
+          "request_sha256": "c5081a345a78fc4db081d62912dda46f5a5d7ca20cfa90f3cb8c60e3e0dcdcf6",
+          "http_status": 200,
+          "canonical_C_sha256": "9c40e80a3c6e50d615c01c5fabebd555328f587c3c1f47608176071bc3da8903"
+        }
+      ],
+      "original_file_sha256": "526cd526fbffbf4e970a2330f79b239fffd90a93e6cbe585b5fd397980f81f43",
+      "canonical_effective_C_sha256": "9c40e80a3c6e50d615c01c5fabebd555328f587c3c1f47608176071bc3da8903"
+    },
+    {
+      "case": "20230925000332",
+      "issuer": "에코아이",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 5,
+          "request_sha256": "30be9e852be4862b79f59f2bb11405d206701d8e0fba0a6044f1e8ae12e331e1",
+          "http_status": 200,
+          "canonical_C_sha256": "e8b85c2e96cc69a2e892f59dc83b3b44a5fe9eb5a840e91a0f4946260cb2a939"
+        }
+      ],
+      "original_file_sha256": "cb208a9027ac2d322a454a5a3f0e9a09081c596c5154826e1dbbeb50a0daabb0",
+      "canonical_effective_C_sha256": "e8b85c2e96cc69a2e892f59dc83b3b44a5fe9eb5a840e91a0f4946260cb2a939"
+    },
+    {
+      "case": "20230822000424",
+      "issuer": "한싹",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 9,
+          "request_sha256": "7c693c52a8207b9b813380b3e8b435ea4719a567451800a84343aba9fbe32159",
+          "http_status": 200,
+          "canonical_C_sha256": "150595576b35607736bffe16b1fbf19d66231ca2efdcfb78bd8329279f119ac6"
+        }
+      ],
+      "original_file_sha256": "38df53d6bd1712237c487f9b5dcafc09ba312d7f6e66aaaa948edd8696aef3c6",
+      "canonical_effective_C_sha256": "150595576b35607736bffe16b1fbf19d66231ca2efdcfb78bd8329279f119ac6"
+    },
+    {
+      "case": "20230728000416",
+      "issuer": "인스웨이브시스템즈",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 13,
+          "request_sha256": "955b2f65919dafd12e22e79dfdc53d5aa720805319ee1fdb22cbcbf37569c912",
+          "http_status": 200,
+          "canonical_C_sha256": "bb8d7ab2c99d22d4259395471a14850ab45b3bb3cb028dd08f785e298ed666b1"
+        }
+      ],
+      "original_file_sha256": "383153e347a089c43def2b8be2ba319282a947f4cdb575d72721af9e89878908",
+      "canonical_effective_C_sha256": "bb8d7ab2c99d22d4259395471a14850ab45b3bb3cb028dd08f785e298ed666b1"
+    },
+    {
+      "case": "20230927000587",
+      "issuer": "에스와이스틸텍",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 10,
+          "request_sha256": "f947f36860f22a40563134c6e84f783c65b1704f32324122d8cafe4535f81a44",
+          "http_status": 200,
+          "canonical_C_sha256": "28e74049ae3d6dc8eea03ce1e7be00ce54b4cf945beede91b3cee6427434ee6c"
+        }
+      ],
+      "original_file_sha256": "b74d0ccd55953114d5b68b6fee53380c319ea3ffefa3a2cd58c0cb291cceb12c",
+      "canonical_effective_C_sha256": "28e74049ae3d6dc8eea03ce1e7be00ce54b4cf945beede91b3cee6427434ee6c"
+    },
+    {
+      "case": "20231222000680",
+      "issuer": "에이피알",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 20,
+          "request_sha256": "b850c69cb90de98c47a1178cb31699dacfed457f3d1cf8ac0d2c0c2136a044fa",
+          "http_status": 200,
+          "canonical_C_sha256": "272d9d74925b549b4e10e7a4149e4b4e7a742c58d6c53e2b48552fb1122d3d38"
+        }
+      ],
+      "original_file_sha256": "edae9482c6da6e975677a2b2f906721fb6c89113c63f2b119c802a083f75ebee",
+      "canonical_effective_C_sha256": "272d9d74925b549b4e10e7a4149e4b4e7a742c58d6c53e2b48552fb1122d3d38"
+    },
+    {
+      "case": "20240621000553",
+      "issuer": "산일전기",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 19,
+          "request_sha256": "ea36f1bc402feb524e745d87a6454bff234321fd46a767662d3fb558cef6f997",
+          "http_status": 200,
+          "canonical_C_sha256": "049ee5870257853ad09811e2e798afb89d9e5171ce956b811996b5a05fa0ebd6"
+        }
+      ],
+      "original_file_sha256": "55c2a75e075398975fde9ecad83e1d9aa2494310c34d6b5b3e93cea45a7b16d2",
+      "canonical_effective_C_sha256": "049ee5870257853ad09811e2e798afb89d9e5171ce956b811996b5a05fa0ebd6"
+    },
+    {
+      "case": "20240710000686",
+      "issuer": "전진건설로봇",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 18,
+          "request_sha256": "b19530c28fd5f823bdcd4ce171bcbe1a3c900443f5e4180e679548e166047879",
+          "http_status": 200,
+          "canonical_C_sha256": "9fd90d2de586fcdfd8806b60d9b33f704df32399958fbbafd64c1a6c7ce1fd77"
+        }
+      ],
+      "original_file_sha256": "f20f872f7c143313ef8a17b5fbe54e57a1d6ecacac0faa4b6219524eb83ffd6c",
+      "canonical_effective_C_sha256": "9fd90d2de586fcdfd8806b60d9b33f704df32399958fbbafd64c1a6c7ce1fd77"
+    },
+    {
+      "case": "20241010000504",
+      "issuer": "사이냅소프트",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 24,
+          "request_sha256": "9fb9bca773327e99a411dec9e475ce7e486eb43597a967d91dd25f5b1807ef03",
+          "http_status": 200,
+          "canonical_C_sha256": "751e7fbbda42be40919a944cbe64b8861f19df236aed6791cd0589fbfe33fb05"
+        }
+      ],
+      "original_file_sha256": "52afdb6081b168665b566519860cd1b4a1bdbb3d4f5f8a6df391c28d25f126ff",
+      "canonical_effective_C_sha256": "751e7fbbda42be40919a944cbe64b8861f19df236aed6791cd0589fbfe33fb05"
+    },
+    {
+      "case": "20241018000518",
+      "issuer": "벡트로보틱스",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 28,
+          "request_sha256": "8f73dc69fd63b19f92c3c4f2efa7becf306d695dc516da3554c77dac3094e23e",
+          "http_status": 200,
+          "canonical_C_sha256": "b4c65e92e59bfbf7936243fbb15d9bedda904096ba452efc064bfa8e0086ca99"
+        }
+      ],
+      "original_file_sha256": "f64d19fb3984897e0f5914a142ccfbc3e0e7410f0bce9dee5122f23b80dcc9c3",
+      "canonical_effective_C_sha256": "b4c65e92e59bfbf7936243fbb15d9bedda904096ba452efc064bfa8e0086ca99"
+    },
+    {
+      "case": "20241118000273",
+      "issuer": "모티브링크",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 26,
+          "request_sha256": "5cbe2099db26e01c0daec816f1dfbd23544b6de0b500c878b052ee0d9be6e81c",
+          "http_status": 200,
+          "canonical_C_sha256": "bb1340d7f12e21ff7f85099216f0e08608bd5917519e4feef6153352b1257b44"
+        }
+      ],
+      "original_file_sha256": "09987ae4a4ba4713c1de08ce9f6f8e6f0b246c402fe7f3be23c28e024d1c2edf",
+      "canonical_effective_C_sha256": "bb1340d7f12e21ff7f85099216f0e08608bd5917519e4feef6153352b1257b44"
+    },
+    {
+      "case": "20241129001313",
+      "issuer": "피아이이",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 33,
+          "request_sha256": "a666f9241ea58210a1a991e7141c304dbb78a1b815f5aa1914e4bb626c8a4e77",
+          "http_status": 200,
+          "canonical_C_sha256": "df9be34b3aae028518ab2fb22c10d998fb0d7f275cb11be4ab9d635069e4fcf6"
+        }
+      ],
+      "original_file_sha256": "eac9166cef69492c9136ce79efd6a82a81b32a5ec9534be380cba25d8de654f4",
+      "canonical_effective_C_sha256": "df9be34b3aae028518ab2fb22c10d998fb0d7f275cb11be4ab9d635069e4fcf6"
+    },
+    {
+      "case": "20241205000577",
+      "issuer": "LG씨엔에스",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 35,
+          "request_sha256": "bb6f99a88a168b33dc108b3c1025ffd59dab2c500c2278e8e60a3eecbbe4ff0f",
+          "http_status": 200,
+          "canonical_C_sha256": "311d0b1e39595a4ae0471914856d7b4a6b52d2cbdcd60f63a628095d8be9e337"
+        }
+      ],
+      "original_file_sha256": "ad4790ce8bffe241bcee3aa61631b649c36b1affab57ac9a89cb9bb9efb8a2ce",
+      "canonical_effective_C_sha256": "311d0b1e39595a4ae0471914856d7b4a6b52d2cbdcd60f63a628095d8be9e337"
+    },
+    {
+      "case": "20241213000457",
+      "issuer": "위너스일렉",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 34,
+          "request_sha256": "31e2b61c869c3c93e2a1f3a8e9efc81e01a27a5d7bb2d6805db0904aa571c986",
+          "http_status": 200,
+          "canonical_C_sha256": "e9331c294fe663f7e8c17dcc5a324a92da30877d318d7af4df51993129290762"
+        }
+      ],
+      "original_file_sha256": "f127c8638868dae1967b48147acfc377b52a67ba638207aec292ccb1eb1083ac",
+      "canonical_effective_C_sha256": "e9331c294fe663f7e8c17dcc5a324a92da30877d318d7af4df51993129290762"
+    },
+    {
+      "case": "20230823000258",
+      "issuer": "레뷰코퍼레이션",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": true,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 39,
+          "request_sha256": "882bbe5595431a4e0fee5511b6a0bcb49b33a566c90b51f8c0cfdda4b6d6b8db",
+          "http_status": 200,
+          "canonical_C_sha256": "bb5a101491b0caafb7aaa66d5dee44221873cb91cc58a053ac4c41e7d696f33e"
+        }
+      ],
+      "original_file_sha256": "dc88b5a8c0b2754fb707e9aadec7df1ff534243a1e5d3a15aa8aad0264b128d7",
+      "canonical_effective_C_sha256": "bb5a101491b0caafb7aaa66d5dee44221873cb91cc58a053ac4c41e7d696f33e"
+    },
+    {
+      "case": "20240305000170",
+      "issuer": "노브랜드",
+      "sent": false,
+      "sent_before_pause": false,
+      "version": "not_sent",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": false,
+      "requests": [],
+      "original_file_sha256": null,
+      "canonical_effective_C_sha256": null
+    },
+    {
+      "case": "20250107000412",
+      "issuer": "엘케이켐",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": true,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 44,
+          "request_sha256": "7bacf012be36e47bdddeecfe2e9e28fd3123b33813037db319a6a3130463a0e7",
+          "http_status": 200,
+          "canonical_C_sha256": "e2c93130d9b2d283e874190f45e63c6e50d58a79cbeb584fd11b87e6897f86af"
+        }
+      ],
+      "original_file_sha256": "1514936573e243143abb1ebe7beedf246ddf216e7c44b728f35f84d62bd32f97",
+      "canonical_effective_C_sha256": "e2c93130d9b2d283e874190f45e63c6e50d58a79cbeb584fd11b87e6897f86af"
+    },
+    {
+      "case": "20250908000140",
+      "issuer": "이노테크",
+      "sent": true,
+      "sent_before_pause": true,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 43,
+          "request_sha256": "0dd648602d340adfdd42f87acfe3d095b8bba731999420770c8454272094068a",
+          "http_status": 200,
+          "canonical_C_sha256": "2ec2629d30a5065b80d7843d9c73be15b8687bd5113ed17a88662ad7b3a98e08"
+        }
+      ],
+      "original_file_sha256": "080f1befb0e07ffaa3e3d22c4bb73f36a47c0bc2760265dd902d94c189be4ba3",
+      "canonical_effective_C_sha256": "2ec2629d30a5065b80d7843d9c73be15b8687bd5113ed17a88662ad7b3a98e08"
+    },
+    {
+      "case": "20230906000217",
+      "issuer": "유투바이오",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 46,
+          "request_sha256": "c23dbe8fab04f5b4fc519599c5dd814249c66ee0612378b1201ca34618c27fb0",
+          "http_status": 200,
+          "canonical_C_sha256": "e90bc1444b2da7bb1c472eb33a918cebf90322e50aecfd7e3986feee8caa4258"
+        }
+      ],
+      "original_file_sha256": "bcaf589ca57ef3fcf527419bc7f7c6716a2bf7631104a1abe8dbaaa93d522dba",
+      "canonical_effective_C_sha256": "e90bc1444b2da7bb1c472eb33a918cebf90322e50aecfd7e3986feee8caa4258"
+    },
+    {
+      "case": "20240520000263",
+      "issuer": "시프트업",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 52,
+          "request_sha256": "6b722d6e36809a219158a61b98f80121e574023befb3111b631396851aa40efb",
+          "http_status": 200,
+          "canonical_C_sha256": "c839a49d14c49d94632e3446d3d08190b39ac9aff5e9cc56d0da40051e235102"
+        }
+      ],
+      "original_file_sha256": "bf8414936731f8f1b03f96649a3dce901a7666017cde403679ec65a9810a01bc",
+      "canonical_effective_C_sha256": "c839a49d14c49d94632e3446d3d08190b39ac9aff5e9cc56d0da40051e235102"
+    },
+    {
+      "case": "20250120000464",
+      "issuer": "더즌",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 54,
+          "request_sha256": "32d6e2daba990679e72e81f5fe2078bd532bebff9b3a503da6a7e4c8261961a3",
+          "http_status": 200,
+          "canonical_C_sha256": "f182ae312160bbc1dda59ecb88963cc06bb0339936a17ff834189df5e6ccee4d"
+        }
+      ],
+      "original_file_sha256": "cd5caf4cc94946ffd27e0206f005f3eb5bb1475d6a14d60d08606be88cea2155",
+      "canonical_effective_C_sha256": "f182ae312160bbc1dda59ecb88963cc06bb0339936a17ff834189df5e6ccee4d"
+    },
+    {
+      "case": "20250908000329",
+      "issuer": "세나테크놀로지",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 53,
+          "request_sha256": "fa22012d33e2dc4eee9e8ca5593770b5214a93fd49f4ef39890119817a150ff5",
+          "http_status": 200,
+          "canonical_C_sha256": "ed116a1891ae2006f1d59b7e1a69995ecdb0bd1aebaa4beb43b4ee184081f897"
+        }
+      ],
+      "original_file_sha256": "5cef9b6481c6bae1bec7920732613eb64d5d214e49ec07ab8f9d14942c883388",
+      "canonical_effective_C_sha256": "ed116a1891ae2006f1d59b7e1a69995ecdb0bd1aebaa4beb43b4ee184081f897"
+    },
+    {
+      "case": "20230911000405",
+      "issuer": "비아이매트릭스",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 62,
+          "request_sha256": "c20b825146d9483adc369577a2b22b8695a14e522d966c53784eb13224a3a5a0",
+          "http_status": 200,
+          "canonical_C_sha256": "abada901d09f15993dbfed2048be6f32e2f23d04dfba43bd55fdfa4e971d6453"
+        }
+      ],
+      "original_file_sha256": "5abf0bace6d55fe2b0803f3e7d010920097483239d20cd029e32ee0755f834be",
+      "canonical_effective_C_sha256": "abada901d09f15993dbfed2048be6f32e2f23d04dfba43bd55fdfa4e971d6453"
+    },
+    {
+      "case": "20240621000344",
+      "issuer": "티디에스팜",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 58,
+          "request_sha256": "322ad6033990b0f85f3e08d060ec101480dfbe8de133ec20d824547f6054b425",
+          "http_status": 200,
+          "canonical_C_sha256": "09db95a044891a0502d62b03de4c5b1542c614e461ad863ebf49c4390228d96a"
+        }
+      ],
+      "original_file_sha256": "7a706b8f35162d1c3d6471ea2b82f1de277746a0bdc6e8176f6001a5a851729a",
+      "canonical_effective_C_sha256": "09db95a044891a0502d62b03de4c5b1542c614e461ad863ebf49c4390228d96a"
+    },
+    {
+      "case": "20250207000496",
+      "issuer": "에이유브랜즈",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 64,
+          "request_sha256": "c5d6c34003bae09cea6e3692aa287b3b7702eca1d0d5f6452fd20e60a3f8bf1c",
+          "http_status": 200,
+          "canonical_C_sha256": "6e3ad9466a2c4a283333cf856c22bd1d53e4c68b976ae27b062114209f47ea56"
+        }
+      ],
+      "original_file_sha256": "bc3f79cee5543774a599283e2d6da78032a724a57b9bd2a4dba6e681c864799b",
+      "canonical_effective_C_sha256": "6e3ad9466a2c4a283333cf856c22bd1d53e4c68b976ae27b062114209f47ea56"
+    },
+    {
+      "case": "20250930000546",
+      "issuer": "아로마티카",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 63,
+          "request_sha256": "f1cd1477bf8f172fc75cb9c1ed0344d3fe4e3dada702505698708d9aabbcbfdc",
+          "http_status": 200,
+          "canonical_C_sha256": "7b8dc230e1ab6bb79d6ba7e4ce0643ff5cfef973cff71f2bb56c936b5127fd82"
+        }
+      ],
+      "original_file_sha256": "bfb11452e747d0238a937d49323f623479623d73e0fd246d4b6d2748f3c05447",
+      "canonical_effective_C_sha256": "7b8dc230e1ab6bb79d6ba7e4ce0643ff5cfef973cff71f2bb56c936b5127fd82"
+    },
+    {
+      "case": "20230912000404",
+      "issuer": "워트",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 69,
+          "request_sha256": "ed02a43799398c757415bc7add21c2b2a013c1075f8748d6df9c41da6e89b569",
+          "http_status": 200,
+          "canonical_C_sha256": "8f16d9a42426ca1962bdb6a2c3bf53997ef259d696c6e228c2d1e0d5b380d155"
+        }
+      ],
+      "original_file_sha256": "e2f2381211412e546beea5554a8e3be6939a066af2133c5ebf4660670c3efe05",
+      "canonical_effective_C_sha256": "8f16d9a42426ca1962bdb6a2c3bf53997ef259d696c6e228c2d1e0d5b380d155"
+    },
+    {
+      "case": "20250320001180",
+      "issuer": "원일티엔아이",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 68,
+          "request_sha256": "85b390905838f7389d5b6652e125bbe03b607b83e7dcd6ef7c8d632c04699908",
+          "http_status": 200,
+          "canonical_C_sha256": "5a2f13924173f83f5a931840bb15db4ce28927372d00f4e246ded62529d03f76"
+        }
+      ],
+      "original_file_sha256": "48a2c8da071622f90abec2678387fad7e245a1cceae8e09351fabd4ecd499f29",
+      "canonical_effective_C_sha256": "5a2f13924173f83f5a931840bb15db4ce28927372d00f4e246ded62529d03f76"
+    },
+    {
+      "case": "20251001000684",
+      "issuer": "씨엠티엑스",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 75,
+          "request_sha256": "f657680f9710726d0316a0b7a023ab57c505e39eb9ce91b6dd0d583742fecfb5",
+          "http_status": 200,
+          "canonical_C_sha256": "ba97f02abf727e374d2192160b822ac83f20bccb6df65b23a7a4bf1d0232ef82"
+        }
+      ],
+      "original_file_sha256": "7b218df2a14b450a1c6f95cb5fb6f21b5c016b921d6337e08dc349089d446c21",
+      "canonical_effective_C_sha256": "ba97f02abf727e374d2192160b822ac83f20bccb6df65b23a7a4bf1d0232ef82"
+    },
+    {
+      "case": "20230915000263",
+      "issuer": "에이직랜드",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 73,
+          "request_sha256": "e937b8673ab50befc25603a4bff08c3bea57f707ff8e9a3dc24fb069e42c29b1",
+          "http_status": 200,
+          "canonical_C_sha256": "1ce893736fd4cded6e83e8687d44a3d234a674989442fd392758e514e976e086"
+        }
+      ],
+      "original_file_sha256": "5e42285c27ad296a58396e1437eca6f3f66c12e03bdd2656536ecd4259c653ca",
+      "canonical_effective_C_sha256": "1ce893736fd4cded6e83e8687d44a3d234a674989442fd392758e514e976e086"
+    },
+    {
+      "case": "20250324000841",
+      "issuer": "바이오비쥬",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 74,
+          "request_sha256": "882e2a224b5f65d177100bf4bcf0d45bd68d96bbb02eec1c90b2ce6884e8e5e4",
+          "http_status": 200,
+          "canonical_C_sha256": "d1553e28b205efe65248c00a80b5567fa8df2a6e5d1652628af46f988a3c38f2"
+        }
+      ],
+      "original_file_sha256": "a8adcc5b62adc4acc97e1f59b6388c49f4c7f0fdf873624f03b51b2b2df7bd4d",
+      "canonical_effective_C_sha256": "d1553e28b205efe65248c00a80b5567fa8df2a6e5d1652628af46f988a3c38f2"
+    },
+    {
+      "case": "20251103000252",
+      "issuer": "삼진식품",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 82,
+          "request_sha256": "ad53c524b4cc9c3ad72e056e7004c7b63b745482fe9269211614cc0056e5422c",
+          "http_status": 200,
+          "canonical_C_sha256": "dc6f5b580a4998a15c5d8c0447103b1ae388382aad684509bc6dcc72470275a9"
+        }
+      ],
+      "original_file_sha256": "c45687247112e4bc6fece88bd6166399cce28318e7a16b1b4e6949f525226823",
+      "canonical_effective_C_sha256": "dc6f5b580a4998a15c5d8c0447103b1ae388382aad684509bc6dcc72470275a9"
+    },
+    {
+      "case": "20230915000281",
+      "issuer": "유진테크놀로지",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 85,
+          "request_sha256": "3d9f1a4bbe4817dfb05893ecf74312beaa9428e08d0816d8350eba95ed43ecda",
+          "http_status": 200,
+          "canonical_C_sha256": "6108d51e41ebcb43879ce68280af242d59d2e12dce79343b849d5abd0968c613"
+        }
+      ],
+      "original_file_sha256": "5615591520df0761f361a6b316c733da857f04c1f605ceb7694b5d8010e9c096",
+      "canonical_effective_C_sha256": "6108d51e41ebcb43879ce68280af242d59d2e12dce79343b849d5abd0968c613"
+    },
+    {
+      "case": "20250325000608",
+      "issuer": "달바글로벌",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": true,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 83,
+          "request_sha256": "e194c3b45fe1d3e62c746dada7b1b2bcfa064b25f152b511009538ea9d08a849",
+          "http_status": 200,
+          "canonical_C_sha256": "f4483f3242b2ea18ffa5819a3296a92d7829ca7f5ac0973cf55e5dba10493b9b"
+        }
+      ],
+      "original_file_sha256": "db23d0d8bbb7f263088a59558ce5ee6cb09da7cf81a11337bdcf4feb4de047da",
+      "canonical_effective_C_sha256": "f4483f3242b2ea18ffa5819a3296a92d7829ca7f5ac0973cf55e5dba10493b9b"
+    },
+    {
+      "case": "20251223000517",
+      "issuer": "액스비스",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "prospective_redaction",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 87,
+          "request_sha256": "ea87a7129a482f51837f1b1f360ef8e4934914ac0cbe65dae505a812b6995369",
+          "http_status": 200,
+          "canonical_C_sha256": "d7258e39d24832791602ced4c98ed2a0fc247d41dfbc37fc32770178065b00fc"
+        }
+      ],
+      "original_file_sha256": "336520ed7a1138d631139666c517e049ed19745e768f77844b5f8558f56bb89f",
+      "canonical_effective_C_sha256": "d7258e39d24832791602ced4c98ed2a0fc247d41dfbc37fc32770178065b00fc"
+    },
+    {
+      "case": "20230918000204",
+      "issuer": "스톰테크",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 91,
+          "request_sha256": "54eee09a52f0267cabc6a46c5488ad0b57220a19fa1a5b1db115b577a161fb07",
+          "http_status": 200,
+          "canonical_C_sha256": "cba5621e03c61e002b6a408a081f2134166db19a0879ca7e5a8f5dfe6051839e"
+        }
+      ],
+      "original_file_sha256": "ccebcb9f0f3e253191b54cea1b35d4ac3ae285ecf02c328ed1fbe727299c8a06",
+      "canonical_effective_C_sha256": "cba5621e03c61e002b6a408a081f2134166db19a0879ca7e5a8f5dfe6051839e"
+    },
+    {
+      "case": "20250328002012",
+      "issuer": "키스트론",
+      "sent": true,
+      "sent_before_pause": false,
+      "version": "original",
+      "direct_self_or_issuer": false,
+      "direct_third_party": false,
+      "indirect_only_or_also": true,
+      "requests": [
+        {
+          "id": 90,
+          "request_sha256": "bd3a1cb8813a18f849eca074bfac1512df2447da2209d854b4528b728f3ccd9f",
+          "http_status": 200,
+          "canonical_C_sha256": "54168b15e621abfebd77428e80c7ab0a28a41d9dc616a1c072bb0b3c9cfeab64"
+        }
+      ],
+      "original_file_sha256": "f81d70889f2543de59c168f78043ce67cee76e1b7ad193f755e9fda774cef7ff",
+      "canonical_effective_C_sha256": "54168b15e621abfebd77428e80c7ab0a28a41d9dc616a1c072bb0b3c9cfeab64"
+    }
+  ]
+}

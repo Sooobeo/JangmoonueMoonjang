@@ -1,0 +1,160 @@
+{
+  "case": "TRUEN",
+  "receipt": "20230404002347",
+  "sha256": "01a4fcc811fd0c5021304dfb209758a75c64723edd93e5be0757d4fd2ae81398",
+  "published_cutoff": "2023-04-04T15:44+09:00",
+  "sources": {
+    "E1": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+      "source_group": "20230404002347",
+      "physical_page": 219,
+      "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+      "published": "2023-04-04",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "디지털 영상감시시스템과 IoT를 영위한다. IP 카메라, 영상 압축·전송과 스트리밍 제품을 개발한다.",
+      "verbatim_anchors": [
+        "디지털 영상감시시스템 사업과 IoT",
+        "IP 카메라",
+        "영상스트리밍솔루션"
+      ]
+    },
+    "E2": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+      "source_group": "20230404002347",
+      "physical_page": 226,
+      "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+      "published": "2023-04-04",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "2022년 매출에서 IP 카메라는 81.94%, 영상 스트리밍 솔루션은 7.97%, IoT 기기는 8.46%였다.",
+      "verbatim_anchors": [
+        "81.94%",
+        "7.97%",
+        "8.46%"
+      ]
+    },
+    "E3": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+      "source_group": "20230404002347",
+      "physical_page": 263,
+      "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+      "published": "2023-04-04",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "K-IFRS 별도 요약재무정보에서 2022년 12월 연간 매출 38,831,801천원, 영업이익 9,009,324천원을 제시했다.",
+      "verbatim_anchors": [
+        "요약별도재무정보",
+        "38,831,801",
+        "9,009,324"
+      ]
+    },
+    "E4": {
+      "url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230404002347&dcm_no=9156227",
+      "source_group": "20230404002347",
+      "physical_page": 264,
+      "sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+      "published": "2023-04-04",
+      "origin": "initial_filing_business_or_financials",
+      "excerpt": "2022년 별도 당기순이익은 7,633,487천원이었다.",
+      "verbatim_anchors": [
+        "당기순이익 7,633,487"
+      ]
+    },
+    "E5": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230316000868&dcmNo=9064702&eleId=10&offset=65441&length=1413&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/065370/business.html",
+      "sha256": "e6eff4a95c542d83fcb4aebc7df40c8984f6fffce69ccd1c2da39e5475973f7c",
+      "source_group": "20230316000868",
+      "published": "20230316",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230316000868",
+      "excerpt": "코딩 없이 다양한 산업 데이터를 학습시키는 AI 개발 플랫폼, 빅데이터의 품질관리 및 분석 소프트웨어를 공급한다.",
+      "verbatim_anchors": [
+        "코딩없이 AI 프로젝트를 수행",
+        "빅데이터 분야는 빅데이터 품질관리와 분석",
+        "토탈 소프트웨어(SW)"
+      ]
+    },
+    "E6": {
+      "key": "products",
+      "title": "2. 주요 제품 및 서비스",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230316000688&dcmNo=9063882&eleId=11&offset=69189&length=3520&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/303530/products.html",
+      "sha256": "f535e4611f7790196e125332a606dd0399484f05547fb7ebe8a69aeaea2c74e6",
+      "source_group": "20230316000688",
+      "published": "20230316",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230316000688",
+      "excerpt": "공공기관에 보안용 하드웨어·소프트웨어의 통합 영상관제 플랫폼을 공급한다. 2022년 매출 구성표에서 영상인식은 80.43%, 데이터 플랫폼은 12.50%였다.",
+      "verbatim_anchors": [
+        "주로 보안 관련 솔루션을 공공부문에 제공",
+        "영상인식 61,459 80.43",
+        "데이터 플랫폼 9,554 12.50"
+      ]
+    },
+    "E7": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230322000076&dcmNo=9086568&eleId=10&offset=78045&length=1472&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/331380/business.html",
+      "sha256": "b316f56bce00180be3196492041be21e39b1806f2b7feb6355ad291bdbebac48",
+      "source_group": "20230322000076",
+      "published": "20230322",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230322000076",
+      "excerpt": "보안용 카메라와 영상저장장치를 제조하고 물리보안 솔루션을 개발·판매한다. 영상저장장치와 네트워크·인공지능 카메라 등을 취급한다.",
+      "verbatim_anchors": [
+        "보안용 카메라 제조, 보안용 저장장치 제조",
+        "영상저장장치(DVR, NVR), 카메라(Analog, IP, AI)"
+      ]
+    },
+    "E8": {
+      "key": "business",
+      "title": "1. 사업의 개요",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230321000600&dcmNo=9080126&eleId=10&offset=89185&length=1518&dtd=dart3.xsd",
+      "snapshot": "reports/a1_current/validation_roles/sources/143160/business.html",
+      "sha256": "1c5f0a52c91218c2860990923f18af57deb6d76b62bf0635e7de798775ceb6e2",
+      "source_group": "20230321000600",
+      "published": "20230321",
+      "origin": "candidate_own_2022_annual",
+      "cover_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230321000600",
+      "excerpt": "IP 기반 영상보안용 레코더, 고해상도 IP 카메라와 영상관리 소프트웨어를 개발·생산·판매한다.",
+      "verbatim_anchors": [
+        "레코더 및 고해상도 IP 카메라와 VMS를 포함한 영상보안 토탈 솔루션을 개발, 생산, 판매"
+      ]
+    }
+  },
+  "links": {
+    "C1": {
+      "name": "위세아이텍",
+      "item_id": "TRUEN-10",
+      "ticker": "065370",
+      "supplementary": false
+    },
+    "C2": {
+      "name": "이노뎁",
+      "item_id": null,
+      "ticker": "303530",
+      "supplementary": true
+    },
+    "C3": {
+      "name": "포커스에이치엔에스",
+      "item_id": "TRUEN-08",
+      "ticker": "331380",
+      "supplementary": false
+    },
+    "C4": {
+      "name": "아이디스",
+      "item_id": "TRUEN-09",
+      "ticker": "143160",
+      "supplementary": false
+    }
+  },
+  "scope": "원본 선정기업 15곳과 별도로 추가한 업종 내 후보 4곳을 합한 제한 표본. 산업 전수·재무 적격 여부 또는 공개시장 가격 포괄성은 확인하지 않았다. 후보별 자기 사업보고서의 사업·품목 근거 하나와 발행사 사업·재무정보를 제공한다. 일부 사업 묘사로 기업을 추정할 수 있다.",
+  "control_basis": "동종 제품·공정·고객군을 기준으로 추가한 실재 상장사. 최초 신고서의 최종 선정·제외 여부 및 결론은 가린다. 독립 시장 전수 탐색은 수행하지 않았다.",
+  "checks": [
+    "원본 PDF와 후보 자체 사업보고서의 발행일·문서 해시 및 실제 연속된 근거 문구 대조",
+    "기업 ID 무작위 배정, 후보명·발행사명·공시번호·선정/배제 표시·URL 검사, 전 후보 동일 필드 사용",
+    "동결 항목 J2 전부와 회사별 추가 후보 1곳의 중복/누락 확인, 실제 C 전송물만 묶어 SHA-256·스키마 확인"
+  ]
+}

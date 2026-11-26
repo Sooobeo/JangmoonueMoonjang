@@ -1,0 +1,180 @@
+{
+  "additional_lookup": false,
+  "reviewer": "gpt-6.2-astra / Codex CLI",
+  "effort": "medium",
+  "prompt_sha256": "d9acca79573550bde57ec061c45f6c880ad007f5080b004f672e455b737dc097",
+  "additional_k": 1,
+  "input_contract": {
+    "HDMS": {
+      "common_sha256": "a0d6a7a2b734cbbf76b53cb4425913bc84052231a8e3b35608945ffc56e8eb9d",
+      "role_citation_ids": [
+        "E11",
+        "E12",
+        "E22",
+        "E43",
+        "E63",
+        "E79",
+        "H-P0251",
+        "H-P0256",
+        "H-P0258",
+        "H-P0259",
+        "H-P0269",
+        "H-P0270",
+        "H-P0358",
+        "H-P0359"
+      ],
+      "condition_sha256": {
+        "L1": "f5bdfa0f1014b4368e8c3ddc4ff4a763472e2f44b2d3394532007222d52b97df",
+        "L2": "c5b3c93546d1730b5b63ca224a0549997536614609347a3082a5865ab2ce740b",
+        "L3": "249a992be6ec6d76592d549e1b8638d92d81b408843109e6afeb212dca64b28d"
+      },
+      "source_location_and_fact_roundtrip": "pass"
+    },
+    "MELCON": {
+      "common_sha256": "32e24218422abb482244da4163a1465b072a0694d1abe0705452c2e7b0c98fb8",
+      "role_citation_ids": [
+        "E101",
+        "E121",
+        "E122",
+        "E123",
+        "E124",
+        "E188",
+        "M-P0039",
+        "M-P0051",
+        "M-P0196",
+        "M-P0200",
+        "M-P0201",
+        "M-P0207",
+        "M-P0208"
+      ],
+      "condition_sha256": {
+        "L1": "1d71f964bf2e6289bd2b53ef1b1fed0b277a7211021b162b48300292a014ff22",
+        "L2": "eac0d119e59ef0282b24dbd741acdaa1e22a7a6b52bd591e34bec9e6c8e43848",
+        "L3": "1f708a77663c2f9c74cb7583d10d41d2c9d71eb29aeec8f86549ce028f78b6cc"
+      },
+      "source_location_and_fact_roundtrip": "pass"
+    },
+    "GIGAVIS": {
+      "common_sha256": "517ccadc5971189268b10d1b65b490615677dc2c7f2f81682d0651a72aa43690",
+      "role_citation_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8"
+      ],
+      "condition_sha256": {
+        "L1": "2696f8bcfca91bfa143145e6fb5d028f0d59fa8ffdf6594942afffb9bcdf6919",
+        "L2": "e324266ecfda8aef2bbbc6e40d5804ee357c0245f806458ccdb86b5dac2863fb",
+        "L3": "1afd47cf5b24d089b353d4e92b024afed1e6e3a6fbf270fa5e4468bc7754265f"
+      },
+      "source_location_and_fact_roundtrip": "pass"
+    },
+    "TRUEN": {
+      "common_sha256": "82cdb53ef75eab9faca3bd8c53744dbe11f4d9bfc85fb1916188afe4d1022d26",
+      "role_citation_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8"
+      ],
+      "condition_sha256": {
+        "L1": "6909a1ce0ddd1c0149d49b4801ce3793218acee0bb3ead6272efd789fcda0549",
+        "L2": "55dd9a3fbf1c4daaf337ae8e70cd44ed733a30145b5ac983383e08d26d6d601d",
+        "L3": "eb2c1d955693e9549f7658a9b215a23e762a415309ee5fb9bb9c0f0719e81d33"
+      },
+      "source_location_and_fact_roundtrip": "pass"
+    },
+    "MANYO": {
+      "common_sha256": "222b4d5db68282adc0bd5663ffc6f9d4444579882273962953d624280ecde524",
+      "role_citation_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "E1",
+        "E10",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ],
+      "condition_sha256": {
+        "L1": "ec78f925627dc1f201df870af9697a257d4308a413e590a5c3797b6aa5930aa9",
+        "L2": "1b0329f31977d376e23ad229bce038d408961bc2b9cf3bbf36fd670ede75537b",
+        "L3": "0153a2af2e54149778d0b2ce548bed2125a69f0027dc3e270bc4d890be034f6b"
+      },
+      "source_location_and_fact_roundtrip": "pass"
+    },
+    "PHILENERGY": {
+      "common_sha256": "669c327a0411f80102e0e26de397ab4dbe611ede0da48407f312c811b0ae9fe6",
+      "role_citation_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ],
+      "condition_sha256": {
+        "L1": "3a92e6fdc36b2d1c8808d079e2ee6863fb45267675be8ef78acfd219df55a14b",
+        "L2": "98673116791fb0f4f559dd9c60eedfe49891783d96bd4294ee43f6ad47c5d30f",
+        "L3": "6e8773f66ab814d8684e33334ead00daf004a43e06e59efc698680978198d851"
+      },
+      "source_location_and_fact_roundtrip": "pass"
+    }
+  }
+}

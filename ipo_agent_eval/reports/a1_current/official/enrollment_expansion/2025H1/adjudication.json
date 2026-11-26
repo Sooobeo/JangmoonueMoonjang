@@ -1,0 +1,131 @@
+{
+  "source": "2025H1 DART initial issuer public offering price schedules. All anchors are physical main-PDF pages, whitespace normalized.",
+  "rows": [
+    {
+      "receipt": "20250107000412", "classification": "historical_PER",
+      "period_or_method": "2024년 3분기 기준 최근 12개월 순이익, 실적 PER 23.42배",
+      "per_multiple": 23.42,
+      "ipo_status_anchor": {"page": 28, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 154, "quote": "2024년 3분기 기준 최근 12개월(LTM) 순이익 (①) x 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 154, "quote": "유사기업 PER 23.42x"},
+      "offer_band_anchor": {"page": 155, "quote": "주당 공모희망가액 18,000원 ~ 21,000원"}
+    },
+    {
+      "receipt": "20250113000179", "classification": "historical_adjusted_pretax_PER_held",
+      "period_or_method": "2024년 3분기 연환산 기준 외환효과 제거 법인세차감전이익, 공모가 산정에 PER 14.07배 적용. 순이익 PER 모수에서 보류.",
+      "per_multiple": 14.07,
+      "ipo_status_anchor": {"page": 30, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집 및 매출하는"},
+      "issuer_valuation_anchor": {"page": 183, "quote": "2024년 3분기 연환산 기준 외환효과 제거한 법인세차감전이익(①) x 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 183, "quote": "유사기업 PER 14.07배"},
+      "offer_band_anchor": {"page": 184, "quote": "주당 공모희망가액 9,200원 ~ 10,800원"}
+    },
+    {
+      "receipt": "20250120000464", "classification": "historical_PER",
+      "period_or_method": "2024년 3분기말 최근 4개분기 지배기업 소유주 지분 연결당기순이익, 실적 PER 33.70배",
+      "per_multiple": 33.70,
+      "ipo_status_anchor": {"page": 24, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 141, "quote": "2024년 3분기말 기준 최근 4개분기(LTM) 지배기업 소유주 지분 연결당기순이익(①) × 비교대상회사 PER(②)"},
+      "applied_multiple_anchor": {"page": 141, "quote": "비교대상회사 PER 33.70배"},
+      "offer_band_anchor": {"page": 141, "quote": "주당 희망 공모가격 10,500원 ~ 12,500원"}
+    },
+    {
+      "receipt": "20250204000251", "classification": "historical_PER_refiling_held",
+      "period_or_method": "2024년 3분기 기준 최근 4개 분기 순이익, 실적 PER 10.15배. 2024-11-12 앞선 가족 철회 후 재신고로 보류.",
+      "per_multiple": 10.15,
+      "ipo_status_anchor": {"page": 34, "quote": "본 주식은 유가증권시장 상장을 목적으로 모집하는 것으로"},
+      "issuer_valuation_anchor": {"page": 227, "quote": "2024년 3분기 기준 최근 4개 분기(LTM) 순이익(①) × 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 227, "quote": "유사기업 PER 배 10.15"},
+      "offer_band_anchor": {"page": 227, "quote": "희망공모가액 13,500원 ~ 15,000원"}
+    },
+    {
+      "receipt": "20250207000496", "classification": "historical_PER",
+      "period_or_method": "2024년 3분기 LTM 지배주주 당기순이익, 실적 PER 23.21배",
+      "per_multiple": 23.21,
+      "ipo_status_anchor": {"page": 27, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 152, "quote": "2024년 3분기 LTM 당기순이익(①) × 비교대상회사 PER(②)"},
+      "applied_multiple_anchor": {"page": 152, "quote": "비교대상회사 PER 23.21배"},
+      "offer_band_anchor": {"page": 153, "quote": "주당 희망 공모가격 14,000원 ~ 16,000원"}
+    },
+    {
+      "receipt": "20250320001180", "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 24.42배",
+      "per_multiple": 24.42,
+      "ipo_status_anchor": {"page": 31, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 188, "quote": "2024년 온기 기준 당기순이익 (①) x 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 188, "quote": "유사기업 PER 24.42배"},
+      "offer_band_anchor": {"page": 188, "quote": "주당 희망공모가액 11,500원 ~ 13,500원"}
+    },
+    {
+      "receipt": "20250324000841", "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 25.48배",
+      "per_multiple": 25.48,
+      "ipo_status_anchor": {"page": 27, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"},
+      "issuer_valuation_anchor": {"page": 176, "quote": "2024년 온기 기준 당기순이익(①) x 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 176, "quote": "유사기업 PER 25.48배"},
+      "offer_band_anchor": {"page": 177, "quote": "주당 공모희망가액 8,000원 ~ 9,100원"}
+    },
+    {
+      "receipt": "20250325000608", "classification": "historical_PER",
+      "period_or_method": "2024년 온기 지배주주 순이익, 실적 PER 20.99배",
+      "per_multiple": 20.99,
+      "ipo_status_anchor": {"page": 30, "quote": "본 주식은 유가증권시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 167, "quote": "2024년 온기 기준 지배주주 순이익(①) × 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 168, "quote": "유사기업 PER 배 20.99"},
+      "offer_band_anchor": {"page": 168, "quote": "주당 희망공모가액 54,500원 ~ 66,300원"}
+    },
+    {
+      "receipt": "20250328002012", "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 11.55배",
+      "per_multiple": 11.55,
+      "ipo_status_anchor": {"page": 34, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 190, "quote": "2024년 온기 기준 당기순이익(①) x 유사기업의 PER(②)"},
+      "applied_multiple_anchor": {"page": 190, "quote": "유사기업의 PER 11.55배"},
+      "offer_band_anchor": {"page": 191, "quote": "주당 공모희망가액 3,100원 ~ 3,600원"}
+    },
+    {
+      "receipt": "20250502000339", "classification": "historical_PER",
+      "period_or_method": "2024년 온기 당기순이익, 실적 PER 30.32배",
+      "per_multiple": 30.32,
+      "ipo_status_anchor": {"page": 33, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 194, "quote": "2024년 온기 기준 당기순이익(①) x 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 195, "quote": "유사기업 PER 30.32 배"},
+      "offer_band_anchor": {"page": 195, "quote": "주당 공모희망가액 4,300원 ~ 5,100원"}
+    },
+    {
+      "receipt": "20250616000353", "classification": "historical_PER",
+      "period_or_method": "2024년 온기 지배주주 당기순이익과 2025년 1분기 연환산 지배주주 당기순이익의 평균, 두 기간 비교회사 PER 30.91배와 22.61배의 평균 26.76배",
+      "per_multiple": 26.76,
+      "ipo_status_anchor": {"page": 34, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 206, "quote": "2024년 온기 당기순이익과 2025년 1분기 연환산 당기순이익의 평균"},
+      "applied_multiple_anchor": {"page": 207, "quote": "2025년 1분기 비교회사 PER 배 30.91X 22.61X"},
+      "offer_band_anchor": {"page": 207, "quote": "희망공모가액 6,600원 ~ 7,700원"}
+    },
+    {
+      "receipt": "20250625000450", "classification": "historical_PER",
+      "period_or_method": "2025년 1분기 기준 과거 12개월 당기순이익, 실적 PER 21.60배",
+      "per_multiple": 21.60,
+      "ipo_status_anchor": {"page": 32, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 180, "quote": "2025년 1분기 기준 과거 12개월(LTM) 당기순이익(①) x 유사기업의 PER(②)"},
+      "applied_multiple_anchor": {"page": 180, "quote": "유사기업의 PER 21.60배"},
+      "offer_band_anchor": {"page": 181, "quote": "주당 공모희망가액 27,000원 ~ 30,000원"}
+    },
+    {
+      "receipt": "20250627000439", "classification": "historical_PER",
+      "period_or_method": "2025년 1분기 기준 최근 12개월 순이익, 실적 PER 21.37배",
+      "per_multiple": 21.37,
+      "ipo_status_anchor": {"page": 31, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+      "issuer_valuation_anchor": {"page": 187, "quote": "2025년 1분기 기준 최근 12개월(LTM) 순이익(①) × 유사기업 PER(②)"},
+      "applied_multiple_anchor": {"page": 188, "quote": "유사기업 PER 21.37배"},
+      "offer_band_anchor": {"page": 188, "quote": "주당 희망공모가액 16,500원 ~ 20,000원"}
+    },
+    {
+      "receipt": "20250630000790", "classification": "historical_PER",
+      "period_or_method": "2025년 1분기 LTM 당기순이익, 실적 PER 25.61배",
+      "per_multiple": 25.61,
+      "ipo_status_anchor": {"page": 30, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"},
+      "issuer_valuation_anchor": {"page": 156, "quote": "2025년 1분기 LTM 당기순이익(①) × 비교대상회사 PER(②)"},
+      "applied_multiple_anchor": {"page": 156, "quote": "비교대상회사 PER 25.61배"},
+      "offer_band_anchor": {"page": 157, "quote": "주당 희망공모가액 5,100원 ~5,800원"}
+    }
+  ]
+}

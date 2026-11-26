@@ -1,0 +1,59 @@
+{
+  "case": "PHILENERGY",
+  "item_id": "PHILENERGY-10",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:14:19.037+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "28c67856923f09baeb39da1f0dd9bc0371ba6e93c34fb58071c84be668a1eac7",
+  "source_pdf_sha256": "242bdce2d217e53239ca5d676e84c46be3b3b7deba0ca5897c9a035e9165e706",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "packet_prep_seconds": 8.451406,
+  "evidence_dir": "reports/a1_current/proxy/PHILENERGY/PERSONA_28c67856923f09baeb/d08b320a11ea2513",
+  "review_call_wrapper_seconds": 20.597543,
+  "quote_and_boundary_verification_seconds": 0.026643,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "신고서는 에이프로의 2022년 매출 중 이차전지 화성공정 장비 비중이 97.8%로 이차전지 제조공정 장비 매출 비중 기준인 50% 이상을 충족한다고 보아, 에이프로를 필에너지의 최종 유사기업 3개사에 포함했다.",
+    "checked_basis_or_arithmetic": "에이프로의 2022년 전체 매출을 분모로 한 공시 비중은 화성공정 장비 97.8%와 기타 2.2%로 합계 100.0%다. 화성공정 장비만으로 선정 기준을 47.8%p 웃돈다. 필에너지가 기술을 개발하는 스태킹은 양극·음극과 분리막을 쌓는 조립공정이고, 에이프로의 주력인 화성공정은 조립된 셀을 충·방전해 활성화하고 성능을 검사하는 단계다.",
+    "outcome": "판단 유보",
+    "finding": "두 회사가 이차전지 제조장비 사업을 영위한다는 점과 에이프로가 공시된 매출 비중 기준을 충족한다는 점은 확인된다. 다만 장비가 쓰이는 공정과 기능이 다르고, 제공된 쪽에는 양사의 공정별 매출 구성과 수익성을 대조한 자료가 없다. 에이프로의 PER 32.0배를 필에너지의 상대가치 평가에 포함할 만큼 사업이 유사한지는 판단을 유보한다.",
+    "follow_up": "양사의 2022년 제품별 매출액과 전체 매출액을 확보해 조립·화성공정별 비중을 같은 기준으로 산출하고, 공정별 주요 고객, 수주·검수 조건과 장비별 매출총이익률을 대조할 필요가 있다.",
+    "citations": [
+      {
+        "physical_page": 179,
+        "locator": "【유사기업 선정 내역】 직전 선정 기준 문단",
+        "quote": "결론적으로, 2022년 기준 상기 2차 전지 제조 공정 장비[전극공정, 조립공정, 화성공정, 기\n타공정(자동화, 검사)] 관련 매출 비중이 50% 이상인 기업 12개 사를 선정하였습니다."
+      },
+      {
+        "physical_page": 180,
+        "locator": "【유사기업 선정 내역】 에이프로 행",
+        "quote": "에이프로      2차전지 장비(화성) 97.8%,기타 2.2%, %                            선정"
+      },
+      {
+        "physical_page": 178,
+        "locator": "나) 스태킹(Stacking), [ 와인딩, 스태킹 비교 ]의 Stacking 행",
+        "quote": "생산성을 높이기\n                      위해 기술 개발을 진행하고 있으며 필에\n          스태킹\n                      너지가 선도하고 있습니다."
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:14:48.115+09:00",
+  "original_review_service_seconds": 20.49,
+  "actual_end_to_end_seconds": 29.077501,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

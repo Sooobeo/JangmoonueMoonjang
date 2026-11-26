@@ -1,0 +1,56 @@
+{
+  "case": "MELCON",
+  "item": "M01",
+  "scope": "post-hoc development sensitivity",
+  "frozen_ranking_changed": false,
+  "prior_action": "자료 요청",
+  "sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+  "retrieved": [
+    {
+      "physical_page": 163,
+      "search": "반기 계절성"
+    },
+    {
+      "physical_page": 133,
+      "search": "지배주주 손익 기간표"
+    },
+    {
+      "physical_page": 325,
+      "search": "금융자산 조정 구성"
+    },
+    {
+      "physical_page": 327,
+      "search": "주당이익 비교기간"
+    }
+  ],
+  "result": {
+    "answer": {
+      "action": "자료 요청",
+      "findings": "M01의 계절성과 그 원인은 확인된다. 2025년 상반기는 연간 매출의 41.1%, 영업이익의 20.6%를 차지했다. 신고서는 하반기 매출 집중으로 고정비 부담이 분산된다고 설명한다(163쪽). 2025년 중 금융업 종속기업 매각으로 연결 범위도 달라졌다(133쪽). 발행사의 2026년 상반기 조정이익 3,447백만원을 두 배 한 6,894백만원은 재현된다. 325쪽에는 상반기 금융자산 평가이익 309,500,000원, 처분이익 609,385,890원과 평가손실 16,900,000원이 제시되지만, 현금흐름표의 비현금조정 내역만으로는 분기별 세후 지배주주 귀속 조정액을 확정할 수 없다. 따라서 비교기업과 같은 기간의 실제 네 분기 조정이익이 6,894백만원과 얼마나 다른지, 그 차이가 주당 평가액에 미치는 영향은 확인되지 않는다.",
+      "cited_pages": [
+        133,
+        163,
+        325
+      ],
+      "remaining_request": "2025년 3분기부터 2026년 2분기까지 각 분기의 지배주주순이익에서 조정이익까지 연결되는 표를 요청한다. 반기 조정이익 3,447백만원에 적용한 기준에 따라 제외 항목별 세전 손익, 법인세 효과, 세후 지배주주 귀속액과 가감 부호를 표시해 달라. 이 표로 2025년 하반기와 2026년 상반기의 차이를 항목별로 확인하고, 실제 네 분기 합계와 6,894백만원을 각각 같은 평가배수와 주식수에 적용해 주당 평가액 차이를 산출할 수 있어야 한다."
+    },
+    "evidence_dir": "reports/a1_current/proxy/MELCON/POSTHOC_PERIOD_LOOKUP/992ff04ff56a7120",
+    "summary": {
+      "run_id": "MELCON/POSTHOC_PERIOD_LOOKUP/992ff04ff56a7120",
+      "execution_status": "SUBMITTED",
+      "condition": "CODEX_PROXY",
+      "elapsed_seconds": 15.55,
+      "model": "gpt-6.2-astra",
+      "turn_usage": [
+        {
+          "input_tokens": 26231,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 462,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "estimated_cost_usd_standard_uncached": null
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "answer": {
+    "eligible": true,
+    "common_proposition": "발행사의 2022년 연간 실제 당기순이익을 적용 이익의 기간으로 검토한다.",
+    "a0_ground": "2022년 당기순이익을 적용했고, 유사회사의 실적 기준 PER도 2022년 이익을 사용했다.",
+    "c_ground": "2022년 연간 당기순이익을 최신 완료 회계연도 이익의 잠정 기준으로 제안했다.",
+    "counterevidence": "C의 자료만으로는 평가 기준일과 2022년 이후 완료된 회계연도의 존재 여부를 확인할 수 없다.",
+    "resolution_or_limit": "공통 검사는 2022년 연간 실제 당기순이익으로 한정한다. C가 제안한 최신 완료 회계연도인지 여부는 확정하지 않는다.",
+    "neutral_question": "발행사에 적용할 이익의 기간은 무엇인가?",
+    "A0": {
+      "context": [
+        {
+          "source": "A-p185",
+          "quote": "【㈜마녀공장 PER에 의한 평가가치】"
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "A-p185",
+          "quote": "주1)  적용 순이익은 2022년 당기순이익을 적용하여 계산하였습니다."
+        },
+        {
+          "source": "A-p238",
+          "quote": "2022년 1월 ~       2021년 1월 ~       2020년 1월 ~\n     구분\n                       2022년 12월        2021년 12월       2020년 12월\n\n매출액                        101,835,609,615      62,620,416,556       39,302,269,504\n\n영업이익                       24,494,754,918      17,707,605,109        6,530,194,463\n\n법인세비용차감전순이익          22,137,953,992      18,047,834,014        6,336,822,174\n\n당기순이익                     17,297,237,363      14,166,997,783        5,353,364,209"
+        }
+      ],
+      "retained": [
+        {
+          "source": "A-p185",
+          "quote": "주3)  적용 PER는 유사회사의 2022년 당기순이익(지배지분) 실적 기준 PER입니다."
+        },
+        {
+          "source": "A-p185",
+          "quote": "분석기준일로부터 1개월(2023.03.02~2023.03.31)"
+        }
+      ]
+    },
+    "C": {
+      "context": [
+        {
+          "source": "C-E1",
+          "quote": "기초 스킨케어와 클렌징을 주력으로 하는 화장품 브랜드이며 외부 OEM·ODM과 협력하여 생산한다."
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "C-E3",
+          "quote": "2022년 연간 매출은 101,835,609,615원, 영업이익은 24,494,754,918원, 당기순이익은 17,297,237,363원이었다."
+        }
+      ],
+      "retained": []
+    }
+  },
+  "summary": {
+    "run_id": "20261126T040723Z_OFFICIAL_ALIGNMENT_MANYO-01_ffd91fd9",
+    "condition": "OFFICIAL_ALIGNMENT_MANYO-01",
+    "mode": "LIVE",
+    "case_id": "MANYO",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra",
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 2,
+    "tool_calls": 0,
+    "input_tokens": 10927,
+    "output_tokens": 2471,
+    "format_repairs": 1,
+    "elapsed_seconds": 36.587,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.023282,
+    "known_usage_cost_usd_standard_uncached": 0.023282,
+    "estimated_cost_krw_at_budget_fx": 32.59,
+    "cost_ceiling_usd": 0.026014,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.026014,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  },
+  "evidence_dir": "reports/a1_current/live/MANYO/OFFICIAL_ALIGNMENT_MANYO-01/6b3be19b495cfa8c/20261126T040723Z_OFFICIAL_ALIGNMENT_MANYO-01_ffd91fd9",
+  "raw_response_id": "resp_0342d967a9e812c0016b07b093127487d0837e417b51168bad"
+}

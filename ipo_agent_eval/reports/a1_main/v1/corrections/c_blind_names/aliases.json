@@ -1,0 +1,1329 @@
+[
+  {
+    "case": "20240621000553",
+    "kind": "self",
+    "literal": "LS ELECTRIC",
+    "reason": "후보가 전력사업을 주어로 설명하는 영문 상호"
+  },
+  {
+    "case": "20230823000258",
+    "kind": "self",
+    "literal": "DearU",
+    "reason": "한국 상호 디어유에 대응하는 영문 상호 전체가 서비스명에 포함",
+    "corroboration": "https://dear-u.co/pages/aboutus_history.php"
+  },
+  {
+    "case": "20230823000258",
+    "kind": "indirect",
+    "literal": "레뷰",
+    "reason": "회사의 개요 p332는 RevuCorporation Inc.로 표기하고 전송문은 이 부분문자열을 개별 플랫폼명으로 사용",
+    "corroboration": "frozen IPO PDF p332"
+  },
+  {
+    "case": "20230823000258",
+    "kind": "indirect",
+    "literal": "REVU",
+    "reason": "회사의 개요 p332는 RevuCorporation Inc.로 표기하고 전송문은 이 부분문자열을 개별 플랫폼명으로 사용",
+    "corroboration": "frozen IPO PDF p332"
+  },
+  {
+    "case": "20230912000404",
+    "kind": "self",
+    "literal": "FST",
+    "reason": "후보 에프에스티/유니셈 영어 상호와 일치하는 주요상표",
+    "corroboration": "https://www.fstc.co.kr/bbs/content.php?co_id=history"
+  },
+  {
+    "case": "20230912000404",
+    "kind": "self",
+    "literal": "UNISEM",
+    "reason": "후보 에프에스티/유니셈 영어 상호와 일치하는 주요상표"
+  },
+  {
+    "case": "20230915000263",
+    "kind": "self",
+    "literal": "Fidelix",
+    "reason": "후보 피델릭스의 영문 상호와 일치하는 상표"
+  },
+  {
+    "case": "20241018000518",
+    "kind": "self",
+    "literal": "VECT",
+    "reason": "발행사가 직접 회사명으로 표기",
+    "corroboration": "frozen IPO PDF p216"
+  },
+  {
+    "case": "20241018000518",
+    "kind": "self",
+    "literal": "INTER-M",
+    "reason": "인터엠의 영문 상호와 동일한 상표",
+    "corroboration": "https://www.inter-m.com/en/company/overview.php"
+  },
+  {
+    "case": "20250908000329",
+    "kind": "self",
+    "literal": "SENA",
+    "reason": "세나테크놀로지가 신고서에 명시한 회사 약호",
+    "corroboration": "frozen IPO PDF p293"
+  },
+  {
+    "case": "20250908000329",
+    "kind": "self",
+    "literal": "KOCOM",
+    "reason": "코콤의 영문 상호와 동일한 상표"
+  },
+  {
+    "case": "20251001000684",
+    "kind": "self",
+    "literal": "KNJ",
+    "reason": "케이엔제이의 영문 상호와 동일한 상표",
+    "corroboration": "https://securities.miraeasset.com/bbs/download/2069034.pdf?attachmentId=2069034"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "self",
+    "literal": "KOSES",
+    "reason": "후보의 영문 상호 또는 현재 상호와 발음이 같은 공개 전신 개인사업자명",
+    "corroboration": "https://job.gg.go.kr/empmn/desEntDtl.do?bizrno=1308136434"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "self",
+    "literal": "엠.오.티",
+    "reason": "후보의 영문 상호 또는 현재 상호와 발음이 같은 공개 전신 개인사업자명"
+  },
+  {
+    "case": "20250207000496",
+    "kind": "self",
+    "literal": "09WOMEN",
+    "reason": "후보 공구우먼이 당시 사용한 영문 법인명 전체",
+    "corroboration": "https://securities.miraeasset.com/bbs/download/2091729.pdf?attachmentId=2091729"
+  },
+  {
+    "case": "20230918000204",
+    "kind": "indirect",
+    "literal": "CUCKOO",
+    "reason": "쿠쿠홈시스의 제품 표에 등장하는 그룹 공통 상표. 이 후보의 영문 법인명은 CUCKOO HOMESYS",
+    "corroboration": "https://www.cuckoo.co.kr/policy/privacyEn"
+  },
+  {
+    "case": "20250325000608",
+    "kind": "indirect",
+    "literal": "d'Alba",
+    "reason": "회사의 법적 영문상호는 d'Alba Global Co., Ltd., 인용은 독립 브랜드명으로만 사용",
+    "corroboration": "frozen IPO PDF p248"
+  },
+  {
+    "case": "20231222000680|20250930000546",
+    "kind": "self",
+    "literal": "GMP",
+    "reason": "브이티의 라미네이팅 사업에서 사용한 옛 법인 상호. 의약품 GMP 규격에는 적용하지 않음",
+    "evidence_ids": [
+      "E23",
+      "E11"
+    ],
+    "corroboration": "https://www.gmp.co.kr/company/history.php?category=49&code=history&code_page=company&pos=&ptype=list"
+  },
+  {
+    "case": "20230822000424",
+    "kind": "third",
+    "literal": "KT",
+    "reason": "공동 사업의 통신사 실명"
+  },
+  {
+    "case": "20230822000424",
+    "kind": "third",
+    "literal": "SK브로드밴드",
+    "reason": "공동 사업의 통신사 실명"
+  },
+  {
+    "case": "20230912000404",
+    "kind": "third",
+    "literal": "세메스",
+    "reason": "장비제조 고객사 명단의 회사명"
+  },
+  {
+    "case": "20230912000404",
+    "kind": "third",
+    "literal": "ATI",
+    "reason": "장비제조 고객사 명단의 회사명"
+  },
+  {
+    "case": "20230925000332",
+    "kind": "third",
+    "literal": "포스코 그룹",
+    "reason": "후보가 소속 그룹을 거래상대 문맥에서 명시. 후보 포스코DX와 직접 지칭 대상이 다름"
+  },
+  {
+    "case": "20231222000680",
+    "kind": "third",
+    "literal": "로손",
+    "reason": "편의점 사업자의 상호와 동일한 유통채널 상표"
+  },
+  {
+    "case": "20231222000680",
+    "kind": "third",
+    "literal": "LAWSON",
+    "reason": "편의점 사업자의 상호와 동일한 유통채널 상표"
+  },
+  {
+    "case": "20231222000680|20250325000608",
+    "kind": "third",
+    "literal": "[기업]투네트웍스",
+    "reason": "SP삼화 연결회사들의 현존 상호 및 명백히 특정되는 부분 가림 상호"
+  },
+  {
+    "case": "20231222000680|20250325000608",
+    "kind": "third",
+    "literal": "삼화로지텍",
+    "reason": "SP삼화 연결회사들의 현존 상호 및 명백히 특정되는 부분 가림 상호"
+  },
+  {
+    "case": "20231222000680|20250325000608",
+    "kind": "third",
+    "literal": "유씨에이치파트너스",
+    "reason": "SP삼화 연결회사들의 현존 상호 및 명백히 특정되는 부분 가림 상호"
+  },
+  {
+    "case": "20231222000680|20250325000608",
+    "kind": "third",
+    "literal": "UCH CREDIT MICROCREDIT COMPANY.,LLC",
+    "reason": "SP삼화 연결회사들의 현존 상호 및 명백히 특정되는 부분 가림 상호"
+  },
+  {
+    "case": "20240621000344",
+    "kind": "third",
+    "literal": "SCD US, INC",
+    "reason": "연결 종속기업 실명"
+  },
+  {
+    "case": "20240621000553",
+    "kind": "third",
+    "literal": "에스디벤처캐피탈",
+    "reason": "종속기업 실명"
+  },
+  {
+    "case": "20240621000553",
+    "kind": "third",
+    "literal": "에스디파트너스",
+    "reason": "종속기업 실명"
+  },
+  {
+    "case": "20240621000553",
+    "kind": "third",
+    "literal": "농업회사법인(주)전원",
+    "reason": "종속기업 실명"
+  },
+  {
+    "case": "20241018000518",
+    "kind": "third",
+    "literal": "JVC",
+    "reason": "OEM 고객 또는 인수대상 실명"
+  },
+  {
+    "case": "20241018000518",
+    "kind": "third",
+    "literal": "이솔정보통신",
+    "reason": "OEM 고객 또는 인수대상 실명"
+  },
+  {
+    "case": "20241213000457",
+    "kind": "third",
+    "literal": "이튼",
+    "reason": "미국 고객사의 한영 실명"
+  },
+  {
+    "case": "20241213000457",
+    "kind": "third",
+    "literal": "EATON",
+    "reason": "미국 고객사의 한영 실명"
+  },
+  {
+    "case": "20241205000577",
+    "kind": "third",
+    "literal": "하나",
+    "reason": "주요 거래처 목록에서 개별 은행을 지칭하는 약칭",
+    "evidence_ids": [
+      "E16"
+    ]
+  },
+  {
+    "case": "20250207000496",
+    "kind": "third",
+    "literal": "젠나",
+    "reason": "파트너사 영문/한글 실명"
+  },
+  {
+    "case": "20250207000496",
+    "kind": "third",
+    "literal": "ZENNAR LTD",
+    "reason": "파트너사 영문/한글 실명"
+  },
+  {
+    "case": "20250324000841",
+    "kind": "third",
+    "literal": "GE",
+    "reason": "제품 거래 관계에서 명시한 제3자 기업명",
+    "evidence_ids": [
+      "E22"
+    ]
+  },
+  {
+    "case": "20250324000841",
+    "kind": "third",
+    "literal": "SAMSUNG Medison",
+    "reason": "제품 거래 관계에서 명시한 제3자 기업명"
+  },
+  {
+    "case": "20250324000841",
+    "kind": "third",
+    "literal": "Hyundai Mobis",
+    "reason": "제품 거래 관계에서 명시한 제3자 기업명"
+  },
+  {
+    "case": "20250324000841",
+    "kind": "third",
+    "literal": "INFAC",
+    "reason": "제품 거래 관계에서 명시한 제3자 기업명"
+  },
+  {
+    "case": "20250107000412|20250930000546",
+    "kind": "third",
+    "literal": "퓨릿",
+    "reason": "주식을 취득한 기업명"
+  },
+  {
+    "case": "20250325000608",
+    "kind": "third",
+    "literal": "더샘인터내셔날",
+    "reason": "한국화장품 종속기업 실명"
+  },
+  {
+    "case": "20250930000546",
+    "kind": "third",
+    "literal": "토니인베스트먼트",
+    "reason": "사업 설명에 명시된 관계사명"
+  },
+  {
+    "case": "20250930000546",
+    "kind": "third",
+    "literal": "메가코스",
+    "reason": "사업 설명에 명시된 관계사명"
+  },
+  {
+    "case": "20250930000546",
+    "kind": "third",
+    "literal": "태성산업",
+    "reason": "사업 설명에 명시된 관계사명"
+  },
+  {
+    "case": "20251001000684",
+    "kind": "third",
+    "literal": "하나에스앤비인베스트먼트",
+    "reason": "종속기업 실명"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "third",
+    "literal": "대아인베스트먼트",
+    "reason": "연결회사명 또는 앞부분만 가린 채 남은 식별 가능한 상호"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "third",
+    "literal": "프렌드 스마트밸런스1호",
+    "reason": "연결회사명 또는 앞부분만 가린 채 남은 식별 가능한 상호"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "third",
+    "literal": "파빌리온남양주피에프브이",
+    "reason": "연결회사명 또는 앞부분만 가린 채 남은 식별 가능한 상호"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "third",
+    "literal": "[기업]제2호일반사모부동산투자유한회사",
+    "reason": "연결회사명 또는 앞부분만 가린 채 남은 식별 가능한 상호"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "third",
+    "literal": "[기업] TRANSPORTATION PHILIPPINES INC",
+    "reason": "연결회사명 또는 앞부분만 가린 채 남은 식별 가능한 상호"
+  },
+  {
+    "case": "20251223000517",
+    "kind": "third",
+    "literal": "PT. [기업] RAILWAY INDONESIA",
+    "reason": "연결회사명 또는 앞부분만 가린 채 남은 식별 가능한 상호"
+  },
+  {
+    "case": "20250120000464",
+    "kind": "third",
+    "literal": "더존ICT그룹",
+    "reason": "후보가 속한 기업집단명, 특정 계열사 상호로 사용하지 않음",
+    "corroboration": "https://www.douzone.com/html/down/Douzone_CompanyOverview_v.20231219.v01.pdf"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "WebSquare5",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "WebTop",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "iWorks",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "얼마에요",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Genian",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "SecureDB",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "로한",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "씰온라인",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "씰M",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "GPI",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "와이즈프로핏",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "bitnixOCS",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Medicheck",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "CLEMR",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "AUD플랫폼",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Stylekorean",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Lysn",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "20230823000258",
+    "kind": "self",
+    "literal": "everysing",
+    "reason": "후보의 종전 상호와 동일한 서비스·제품명. 실제 사명 변경 내역 교차 확인",
+    "corroboration": "https://dear-u.co/pages/aboutus_history.php"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "bubble",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Vogue",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Allure",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "돈톡",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "위비톡",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "페이스북",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "인스타그램",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "유튜브",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "GENI-SYS",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "TarpKOSKIN",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "인스퓨어",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "리네이쳐",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "PosFrame",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Verra",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Gold Standard",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "UNFCCC",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "메디큐브",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "에이지알",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "AGE-R",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "더후",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "설화수",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "라네즈",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "슈링크",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "클루덤",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "스케덤",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "롬앤",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "누즈",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "아이웨딩",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "아이브랜드플러스",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "호텔크랜베리",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "옌센",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "이자녹스",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "페리페라",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Peripera",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Goodal",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "hince",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "울트라포머",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "ULTRAFORMER",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Oligio",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Picocare",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "DOUBLO",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "PICOHI",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "LAMIMASTER",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "승리의 여신",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "스텔라 블레이드",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "리니지",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "아이온",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "블레이드앤소울",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "KSN160V2",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "KN1204EXL",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "chatGPT",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "eNisis",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "SafeWatch",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Summit",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "WEHAGO",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Amaranth10",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "iCUBE",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "bizboxcloud",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "스마트A",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "락피쉬",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Rockfish",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "핑(PING)",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "파리게이츠",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "MASTER BUNNY EDITION",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "FANTOM",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "JOCKEY",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "FootJoy",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Titleist",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Club Glove",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "강촌캠퍼스",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "보툴렉스",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "더채움",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "올쎄라",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "부스터프로",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "PDRN",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "20250930000546",
+    "kind": "self",
+    "literal": "잇츠스킨",
+    "reason": "후보의 종전 상호와 동일한 서비스·제품명. 실제 사명 변경 내역 교차 확인",
+    "corroboration": "https://itshanbul.com/company/잇츠한불의-역사/"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "튠나인",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "리쥬란",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "필름형 프로브 블록",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "임이빈",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "마점래",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "박종수",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "인천공항",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "한국철도시설공단",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Xscan",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "MOAI",
+    "reason": "사업·제품·모델·상표·개인·기관 등 고유 단서. 해당 문맥에서 기업 상호를 직접 표시하지 않음"
+  },
+  {
+    "case": "20241205000577",
+    "kind": "third",
+    "literal": "신한",
+    "evidence_ids": [
+      "E16"
+    ],
+    "reason": "주요 은행 거래처의 약칭"
+  },
+  {
+    "case": "20230823000258",
+    "kind": "self",
+    "literal": "에브리싱",
+    "reason": "디어유가 2020.03.31에 변경한 국문 법인 상호 전체",
+    "corroboration": "https://dear-u.co/pages/aboutus_history.php"
+  },
+  {
+    "case": "20231222000680|20250325000608|20250930000546",
+    "kind": "third",
+    "literal": "더페이스샵",
+    "reason": "브랜드명과 흡수합병한 제3자 법인 상호 전체가 일치",
+    "corroboration": "https://www.lghnh.com/ir/mergerEnd.pdf"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "케토톱",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "아마릴",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "마이녹실액",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "테놀민",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "설포라제",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "제포정",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "버물리",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "레보투스시럽",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "티어린프리",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "하메론",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "광동쌍화탕",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "과금형 충전콘센트",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "그린스마트 미래학교 전환",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "TG DECK",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "N.T DECK",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "스피드데크",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "에코데크",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "인슈데크",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "핑 골프웨어",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "호이스트",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "산형 소규모 수소생산기지",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "팀 커뮤니케이션",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Mesh Intercom",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "오휘",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "프레시안",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "파워10",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "체이싱래빗",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "빌리프",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "숨37˚",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "CNP",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "프레스티지",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "글린트",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "NUT",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "BELL",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "오버론",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "오플랑",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "라비오뜨",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "국내 유일한 회사로 성장",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "프리커서 및 리간드",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "1992년 설립 이후 전자부품용 와이어",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Tab Welding",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "액션 어드벤처",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "다양한 집적회로 설계",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "SRS 외",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "SiC 등",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "TELE-RX",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "*",
+    "kind": "indirect",
+    "literal": "Be uncommon",
+    "reason": "실제 제품·모델 또는 발행사의 특징적인 사업/이력 설명으로 소속 회사를 추정할 수 있음"
+  },
+  {
+    "case": "20240621000553",
+    "kind": "third",
+    "literal": "한국전력",
+    "reason": "수요처·주요 고객란의 구체적인 전력/제철/가전기업 상호 또는 공인 약칭"
+  },
+  {
+    "case": "20241213000457",
+    "kind": "third",
+    "literal": "세라젬",
+    "reason": "수요처·주요 고객란의 구체적인 전력/제철/가전기업 상호 또는 공인 약칭"
+  },
+  {
+    "case": "20241213000457",
+    "kind": "third",
+    "literal": "청호나이스",
+    "reason": "수요처·주요 고객란의 구체적인 전력/제철/가전기업 상호 또는 공인 약칭"
+  },
+  {
+    "case": "20250320001180",
+    "kind": "third",
+    "literal": "한전",
+    "reason": "수요처·주요 고객란의 구체적인 전력/제철/가전기업 상호 또는 공인 약칭"
+  },
+  {
+    "case": "20250320001180",
+    "kind": "third",
+    "literal": "포스코",
+    "reason": "수요처·주요 고객란의 구체적인 전력/제철/가전기업 상호 또는 공인 약칭"
+  }
+]

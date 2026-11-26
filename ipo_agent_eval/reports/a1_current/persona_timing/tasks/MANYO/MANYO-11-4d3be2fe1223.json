@@ -1,0 +1,59 @@
+{
+  "case": "MANYO",
+  "item_id": "MANYO-11",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:06:18.188+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "4d3be2fe1223fe2d6a4505cbeec14636d691e7cf9d845cf76039c8bae5b45abe",
+  "source_pdf_sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "packet_prep_seconds": 12.091011,
+  "evidence_dir": "reports/a1_current/proxy/MANYO/PERSONA_4d3be2fe1223fe2d6a/f800ebd266f5d7d5",
+  "review_call_wrapper_seconds": 24.29894,
+  "quote_and_boundary_verification_seconds": 0.017486,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "대표주관회사는 애경산업이 화장품 매출 비중 30% 이상과 자체 기초·색조화장품 브랜드 보유 등 사업 유사성 기준을 충족한다고 보아 마녀공장의 최종 유사회사 5개사에 포함했다.",
+    "checked_basis_or_arithmetic": "물리 179~180쪽의 2차 선정표에서 애경산업은 네 기준 모두 O다. 화장품 매출 비중이 30% 이상이고 자체 기초화장품 또는 색조화장품 브랜드를 보유하며, 마스크팩과 화장품 소재 어느 쪽도 생산·매출의 주업이 아니라는 판단이다. 다만 표에는 비중 산정기간과 화장품 매출액·전사 매출액이 함께 제시되지 않아 실제 비중을 재계산할 수 없다.",
+    "outcome": "판단 유보",
+    "finding": "자체 화장품 브랜드를 운영한다는 점은 두 회사의 사업 유사성을 뒷받침한다. 다만 마녀공장의 주력 제품은 앰플·세럼 등 기초 스킨케어와 클렌징 제품이고(물리 177쪽), 애경산업의 1차 선정 업종은 치약·비누 및 기타 세제 제조업이다. 화장품 매출 30% 기준은 색조화장품 매출로도 충족할 수 있다. 따라서 애경산업의 선정 경위는 확인되지만, 기초·클렌징 제품의 매출 및 이익 기여도가 마녀공장과 유사해 애경산업의 전사 PER을 적용하기에 적합한지는 판단을 유보한다.",
+    "follow_up": "대표주관회사의 30% 기준 산정표에서 대상 기간과 연결·별도 기준을 확인하고, 같은 기준의 애경산업 사업보고서상 화장품 부문 매출액을 전사 매출액으로 나눠 검산한다. 양사의 같은 기간 기초·클렌징·색조별 매출 내역과 애경산업의 화장품·생활용품 부문별 영업이익을 확보해 주력 제품의 매출 비중과 전사 이익 구성을 대조한다.",
+    "citations": [
+      {
+        "physical_page": 178,
+        "locator": "【1차 비교회사 선정】 치약, 비누 및 기타 세제 제조업(C20422) 행",
+        "quote": "애경산업, 케이엠제약, 메디앙스 등 3개사"
+      },
+      {
+        "physical_page": 179,
+        "locator": "[2차 선정기준 : 사업 유사성 판단] 기준 ①~④",
+        "quote": "① 화장품 사업 매출 비중이 30% 이상일 것\n② 자체 기초화장품 또는 색조화장품 브랜드를 보유하고 있을 것\n③ 마스크팩 생산 및 매출을 주업으로 하는 회사가 아닐 것\n④ 화장품 소재 생산 및 매출을 주업으로 하는 회사가 아닐 것"
+      },
+      {
+        "physical_page": 180,
+        "locator": "【2차 비교회사 선정】 애경산업 행, 네 기준 및 선정여부 순",
+        "quote": "애경산업           O              O              O             O           O"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:06:54.616+09:00",
+  "original_review_service_seconds": 24.18,
+  "actual_end_to_end_seconds": 36.427813,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

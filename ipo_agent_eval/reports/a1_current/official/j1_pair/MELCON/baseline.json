@@ -1,0 +1,84 @@
+{
+  "submitted": true,
+  "session": "reports/a1_current/live/MELCON/J1_OFFICIAL_BASELINE/e624a432ddd09d0c/20261126T040828Z_J1_OFFICIAL_BASELINE_74355433",
+  "summary": {
+    "run_id": "20261126T040828Z_J1_OFFICIAL_BASELINE_74355433",
+    "condition": "J1_OFFICIAL_BASELINE",
+    "mode": "LIVE",
+    "case_id": "MELCON",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 8343,
+    "output_tokens": 1057,
+    "format_repairs": 0,
+    "elapsed_seconds": 13.374,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.013628,
+    "known_usage_cost_usd_standard_uncached": 0.013628,
+    "estimated_cost_krw_at_budget_fx": 19.08,
+    "cost_ceiling_usd": 0.015714,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.015714,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  },
+  "items": [
+    {
+      "item_id": "M01",
+      "status": "부분 확인",
+      "action": "자료 요청",
+      "confirmed": "신고서는 발행사의 2026년 반기 이익을 연환산하고 비교기업에는 2025년 3분기~2026년 2분기 실적을 적용한다고 기재한다. 발행사 적용 이익은 3,447백만원을 연환산한 6,894백만원이다.",
+      "remaining": "기간 차이는 확인되지만 연환산 선택의 타당성과 계절성은 확정할 수 없다. 주관사에 발행사의 분기별·반기별 지배주주 이익 원자료와 연환산 선택 근거를 요청해 사람이 검토해야 한다. 동일 범위 회계 행이 부족해 B의 LTM 대안 계산은 미산출이다.",
+      "evidence_ids": [
+        "PDF-206",
+        "PDF-207",
+        "PDF-208"
+      ]
+    },
+    {
+      "item_id": "M02",
+      "status": "부분 확인",
+      "action": "자료 요청",
+      "confirmed": "신고서는 발행사의 2026년 2분기 지배주주 당기순이익 4,366백만원에서 유가증권 처분이익 919백만원을 제거해 3,447백만원을 산출하고 이를 연환산했다고 기재한다.",
+      "remaining": "기재된 산술은 확인되지만 조정의 세후 효과와 지배주주 귀속 범위는 확인되지 않아 조정 자체의 타당성을 확정할 수 없다. 주관사에 처분 거래 및 회계 분개, 관련 세효과와 지배주주 귀속 조정액의 산출 근거를 요청해 검토해야 한다.",
+      "evidence_ids": [
+        "PDF-206",
+        "PDF-208"
+      ]
+    },
+    {
+      "item_id": "M05",
+      "status": "부분 확인",
+      "action": "자료 요청",
+      "confirmed": "선정표 주석은 2025년 2분기 LTM을 기재하지만, PER 산정표와 산출방법은 2025년 3분기~2026년 2분기 LTM을 기재한다. 산정표는 연결재무제표 작성 법인의 경우 지배주주 귀속 당기순이익을 적용한다고 밝힌다. 표의 단위 머리글은 천원이지만 이익 행은 HPSP 85,727백만원, 워트 5,098백만원으로 명시되어 있다.",
+      "remaining": "두 기간 기재의 차이는 해소되지 않았으며 어느 문구가 잘못되었는지 추정할 수 없다. 주관사에 선정 단계와 PER 산정 단계별 적용 기간의 설명, 비교기업별 분기 이익·귀속 범위 원자료 및 단위 변환 산출표를 요청해 사람이 대조해야 한다. 추가로 제공된 원문 페이지는 없다.",
+      "evidence_ids": [
+        "PDF-201",
+        "PDF-206",
+        "PDF-207",
+        "PDF-208"
+      ]
+    }
+  ],
+  "new_pages": [],
+  "B_LTM_sensitivity": {
+    "status": "미산출",
+    "reason": "기존 제공 원문에 재계산에 필요한 동일 범위의 회계 행이 모두 들어 있지 않음"
+  }
+}

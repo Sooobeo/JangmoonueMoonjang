@@ -1,0 +1,142 @@
+{
+  "case_id": "HDMS",
+  "scope": "회사의 선박 사후서비스와 조선·해양 장비를 대조하는 개발 편의 표본. 원본 대조 대상 4곳과 당시 독립 자체 자료를 확인한 추가 후보 3곳을 포함했다. 독립 전수 모집단이나 적격성은 아직 확정되지 않았다.",
+  "packet_sha256": "3530d34f0b9968af8e1b77a13996baa00da24cc5834703d38755362e58502563",
+  "candidate_identity": {
+    "C14": "삼성중공업",
+    "C22": "Kongsberg Gruppen",
+    "C37": "Wilhelmsen",
+    "C43": "Wärtsilä",
+    "C58": "한화오션",
+    "C63": "HD한국조선해양",
+    "C79": "Alfa Laval"
+  },
+  "candidate_items": {
+    "C14": null,
+    "C22": "H04",
+    "C37": null,
+    "C43": "H05",
+    "C58": null,
+    "C63": "H02",
+    "C79": "H03"
+  },
+  "sources": {
+    "E11": {
+      "file": "data/a1_pilot/HDMS/filing/20240325000947.pdf",
+      "sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+      "receipt": "20240325000947",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240325000947",
+      "page": 284,
+      "published": "2024-03-25",
+      "published_before_cutoff": false,
+      "cutoff_basis": "initial_filing",
+      "section": "사업의 내용",
+      "excerpt": "발행사는 조선·해운사, 용선사 및 선박관리사에 운항선 부품·유지보수와 연료 공급 서비스를 제공한다.",
+      "source_group": "20240325000947"
+    },
+    "E12": {
+      "file": "data/a1_pilot/HDMS/filing/20240325000947.pdf",
+      "sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+      "receipt": "20240325000947",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240325000947",
+      "page": 285,
+      "published": "2024-03-25",
+      "published_before_cutoff": false,
+      "cutoff_basis": "initial_filing",
+      "section": "사업의 내용",
+      "excerpt": "2023년 총매출의 약 42.4%는 AM 부품·서비스, 41.4%는 선박 연료 공급, 11.8%는 개조, 4.4%는 선박 제어 기술이다. 엔진 서비스와 친환경 개조를 제공한다.",
+      "source_group": "20240325000947"
+    },
+    "E14": {
+      "file": "data/a1_pilot/HDMS/operator/candidate_sources/010140_business.html",
+      "sha256": "48d066f00cb76bce22c2902e37bdb6fb42ecb10f6f40d9d60033a7e2d1c9d7e9",
+      "receipt": "20240315000850",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240315000850",
+      "page": null,
+      "published": "2024-03-15",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "사업의 개요",
+      "excerpt": "조선·해양 사업은 선박 및 해양플랜트 신조를 주로 수행한다. 운항선 사후서비스 매출은 제시된 절에서 별도 확인되지 않는다.",
+      "source_group": "20240315000850"
+    },
+    "E22": {
+      "file": "reports/a1_current/j2/source_snapshots/HDMS/597352bb358793de.html",
+      "sha256": "b3f2c3a1b1352a883ea10bfc0d498b016978ed482f28c205839cca9d0e03a3cb",
+      "receipt": null,
+      "url": "https://www.kongsberg.com/news/news-archive/2024/kongsberg-secured-nok-65-billion-in-order-intake-and-achieved-28-per-cent-growth-in-revenues-in-2023/",
+      "page": null,
+      "published": "2024-02-09",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "Solid growth and strong order intake in Q4",
+      "excerpt": "해양 부문은 신조선 발주와 기존 선박 사후시장 수주를 구분해 공시했다. 2023년 말 회사 전체에는 방산·항공우주와 해양 등 여러 사업이 있다.",
+      "source_group": "b3f2c3a1b1352a88"
+    },
+    "E37": {
+      "file": "data/a1_pilot/HDMS/operator/foreign_evidence/euronext_20240215_fy23.pdf",
+      "sha256": "96515d479460090e793fac54f1023a4e020c8cecc79ef41338e0b96b9d864983",
+      "receipt": null,
+      "url": null,
+      "page": 2,
+      "published": "2024-02-15",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "2023 yearly performance",
+      "excerpt": "해운 계열사는 선박용 제품·공급 및 항만 서비스를 영위한다. 그룹 사업에는 해양 서비스 외에 투자 부문도 있다.",
+      "source_group": "96515d479460090e"
+    },
+    "E43": {
+      "file": "reports/a1_current/j2/source_snapshots/HDMS/6df05264f9b553a5.pdf",
+      "sha256": "f3e93183daa69b786c33fc607fdb22252ab2ffaab7e0bd96000c1b57860e54d8",
+      "receipt": null,
+      "url": "https://www.wartsila.com/docs/default-source/investors/financial-materials/interim-reports/2023-financial-statements-bulletin.pdf",
+      "page": 10,
+      "published": "2024-01-31",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "2023 Financial Statements Bulletin·Marine Power",
+      "excerpt": "선박 동력 부문은 선박 장비와 서비스를 공급한다. 2023년 4분기 서비스 매출은 늘었고 장비 매출은 저조했다. 부문은 선박 운용 효율과 연료 전환에 대한 제품 및 서비스를 개발한다.",
+      "source_group": "f3e93183daa69b78"
+    },
+    "E58": {
+      "file": "data/a1_pilot/HDMS/operator/candidate_sources/042660_business.html",
+      "sha256": "5534660c015fa6fce5092854c46d71516b1aa58eef72fdd56c61df50b8382866",
+      "receipt": "20240313001198",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240313001198",
+      "page": null,
+      "published": "2024-03-13",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "사업의 개요",
+      "excerpt": "상선·해양 및 특수선 사업을 영위한다. 특수선 관련 유지보수가 있더라도, 제시된 부문만으로 상업 운항선 사후서비스 매출 비중을 확인하기 어렵다.",
+      "source_group": "20240313001198"
+    },
+    "E63": {
+      "file": "reports/a1_current/j2/source_snapshots/HDMS/bb1e94de36daca76.html",
+      "sha256": "c5cb4779f759ccdb99d1b7658a92e1597bd5e0151496424911c74250911217b8",
+      "receipt": "20240321000061",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240321000061&dcmNo=9745662&eleId=11&offset=181157&length=13002&dtd=dart4.xsd",
+      "page": null,
+      "published": "2024-03-21",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "주요 제품 및 서비스·경영 부문 연결 외부매출",
+      "excerpt": "2023년 연결매출은 신조선 중심 조선 83.1%, 선박용 엔진 등을 포함한 엔진기계 7.7%, 해양플랜트 6.0%였다. 운항선 부품·정비 매출은 이 표에서 따로 표시되지 않는다.",
+      "source_group": "20240321000061"
+    },
+    "E79": {
+      "file": "reports/a1_current/j2/source_snapshots/HDMS/7afd666fbb9fc905.pdf",
+      "sha256": "b9fd55647c52d49747877392cb01b3d9a24e84f073b22284716844889f032c43",
+      "receipt": null,
+      "url": "https://www.alfalaval.com/globalassets/documents/investors/english/quarterly-publications/2023/2023-q4-presentationx.pdf",
+      "page": 6,
+      "published": "2024-02-06",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "Marine division",
+      "excerpt": "해양 부문은 선박용 펌핑 시스템과 서비스를 제공한다. 2023년 4분기 해당 부문은 서비스 성장을 보고했고, 회사는 해양과 별도로 에너지와 식품·물 부문도 운영한다.",
+      "source_group": "b9fd55647c52d497"
+    }
+  }
+}

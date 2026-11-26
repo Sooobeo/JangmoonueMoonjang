@@ -1,0 +1,59 @@
+{
+  "case": "TRUEN",
+  "item_id": "TRUEN-10",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:06:54.620+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "f413ee9fd09b0d9f8d03d270f8f0eca1da4c88bfc2c3580cb0ebca8d43a2f260",
+  "source_pdf_sha256": "196ace51644034e9cbfdf0ca588f8ba0deb490a595862f94751562197255e81f",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195
+  ],
+  "packet_prep_seconds": 4.528748,
+  "evidence_dir": "reports/a1_current/proxy/TRUEN/PERSONA_f413ee9fd09b0d9f8d/33b696a93bb2dbfd",
+  "review_call_wrapper_seconds": 42.290633,
+  "quote_and_boundary_verification_seconds": 0.021452,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "대표주관회사는 위세아이텍을 빅데이터 분석 및 AI 관련 사업을 영위하는 기업으로 분류해 트루엔의 최종 비교기업 3개사에 포함했다.",
+    "checked_basis_or_arithmetic": "사업 유사성 기준은 영상보안·스마트홈 사업과 특정 산업에 한정되지 않는 빅데이터 분석·AI 사업 중 하나를 충족하는 구조다. 위세아이텍의 2022년 전체 매출에서 빅데이터 분석·품질이 67.3%, AI 개발 플랫폼이 32.7%로 두 항목의 합계는 100.0%다. 위세아이텍을 포함한 공시 PER 평균은 (16.11 + 19.34 + 32.33) ÷ 3 ≈ 22.59배이며, 제외하면 (16.11 + 19.34) ÷ 2 ≈ 17.73배다.",
+    "outcome": "판단 유보",
+    "finding": "매출 구성은 위세아이텍을 AI·빅데이터 기업으로 분류한 근거를 뒷받침한다. 다만 두 매출 항목은 제품 유형별 구분이어서 고객 산업의 편중 여부나 영상보안·스마트홈에 적용된 매출 비중을 알 수 없다. 제공된 쪽만으로는 트루엔과 제품 용도 및 수요처가 얼마나 겹치는지 확인하기 어려워, 위세아이텍의 PER을 적용할 만큼 사업이 유사한지는 판단을 유보한다.",
+    "follow_up": "위세아이텍의 2022년 빅데이터·AI 제품별 고객 산업 및 적용 용도별 매출 명세와 트루엔의 같은 기간 제품·수요처별 매출 명세를 확보해, 양사 전체 매출 중 공통 용도와 고객 산업이 차지하는 비중을 대조한다.",
+    "citations": [
+      {
+        "physical_page": 188,
+        "locator": "② 2차 - 사업 유사성, 【유사기업 선정 기준】",
+        "quote": "영상보안 및 스마트홈 사업 혹은 인사, 금융, 헬스케어 등 특정 산업 제외한 빅데이터 분석 및 AI 관\n련 사업을 영위할 것"
+      },
+      {
+        "physical_page": 189,
+        "locator": "【유사기업 선정 내역】 위세아이텍 행, 2022년 기준 매출구성",
+        "quote": "빅데이터(분석과 품질) 67.3%, AI 개발 플랫폼\n   위세아이텍       AI/빅데이터\n                                    32.7%"
+      },
+      {
+        "physical_page": 194,
+        "locator": "【 2022년 실적을 적용한 PER 산출 】 비교기업 3개사 및 평균 행",
+        "quote": "포커스에이치엔에스           2,685       2,271      19,048,582      43,261     16.11\n\n    아이디스              12,166      21,960      10,716,390     235,332     19.34\n\n   위세아이텍               3,870      16,943       7,383,954     125,107     32.33\n\n                평균 P/E (주4)                                    22.59"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:07:41.462+09:00",
+  "original_review_service_seconds": 42.25,
+  "actual_end_to_end_seconds": 46.842813,
+  "recovered_from_existing_service": false,
+  "attempts": 2,
+  "timed_out_attempts": 0
+}

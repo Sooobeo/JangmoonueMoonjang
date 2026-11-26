@@ -1,0 +1,30 @@
+{
+  "case": "MELCON",
+  "official_roles": {
+    "a0_run": "20261126T020853Z_A0_1e3b7afd",
+    "c_run": "20261126T021124Z_A1_BLIND_B_47612493"
+  },
+  "official_model": "gpt-6.1-terra",
+  "prompt_sha256": "1f1d2b6b2fe7f5134796df06ada0e8a592fdda16b546dcc5d686ed03e7b6bb7d",
+  "J1_items": [
+    "M01",
+    "M02",
+    "M05"
+  ],
+  "order": [
+    "expanded",
+    "baseline"
+  ],
+  "input_hashes": {
+    "baseline": "d6afd45b76e2d81a692b1a769d49429c44614b47b226f7d681159c51daa5a2fa",
+    "expanded": "33a8adeec61a50199698ad19d27cdb49e9016b281b6a996c4239b062a42ab26b"
+  },
+  "common_baseline_excerpts": "975727038453f4a3ee8fe4ab0db3f30ebac939160df0d1d3bd0d7c6d61aa8f13",
+  "added_pages": [
+    "PDF-324",
+    "PDF-325",
+    "PDF-348",
+    "PDF-350"
+  ],
+  "scope": "same-prompt post-hoc development comparison of the expanded accounting coverage and scenario, not a new H1 outcome"
+}

@@ -1,0 +1,309 @@
+{
+  "case": "MANYO",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "MANYO-08",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-09",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-11",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-12",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-02",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-03",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-04",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-05",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-06",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-07",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-10",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-01",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "MANYO-08"
+    ],
+    "operational": [
+      "MANYO-08"
+    ],
+    "waiting": [
+      "MANYO-09",
+      "MANYO-11",
+      "MANYO-12"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "MANYO-11",
+        "action": "사람 검토",
+        "priority": 90,
+        "reason": "A0의 구성 미확인과 C의 제외 제안에 대해, 원문은 생활용품 매출 64%와 직접 생산공장 운영을 확인한다. 이는 화장품 브랜드이자 외부 생산을 활용하는 발행사와 사업·자산구조가 다르다. 화장품 30% 이상이라는 신고서 기준 충족과 별개로 최종 비교 적합성을 확인해야 한다. 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E6",
+          "PDF-177",
+          "PDF-182",
+          "PDF-184"
+        ],
+        "question_or_request": "생활용품 중심 매출과 직접 생산구조에도 애경산업을 포함한 근거는 무엇이며, 이 차이를 PER 비교에 어떻게 고려했는가?",
+        "tie_key": "90",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-12",
+        "action": "사람 검토",
+        "priority": 88,
+        "reason": "A0의 구성 미확인과 C의 제외 제안에 대해, 원문상 화장품은 54.37%, 기계·필름과 음반·음원 기획은 합계 40.73%다. 신고서의 화장품 30% 이상 기준은 충족하지만 비화장품 사업이 상당해 발행사와의 비교 적합성에 실질적 쟁점이 있다. 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E10",
+          "PDF-177",
+          "PDF-182",
+          "PDF-184"
+        ],
+        "question_or_request": "비화장품 사업 비중이 큰 브이티지엠피를 발행사의 비교기업으로 포함한 근거와 사업 구성 차이를 PER에 고려한 방법은 무엇인가?",
+        "tie_key": "88",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-08",
+        "action": "사람 검토",
+        "priority": 84,
+        "reason": "A0와 C 모두 제품 구성 차이를 지적한다. 발행사는 기초·클렌징 중심인 반면 클리오는 포인트·베이스 메이크업이 약 78%다. 외부 OEM·ODM 생산은 유사하지만 최종 비교기업이며 표시 PER이 35.82배여서 비교 적합성을 검토할 실질적 쟁점이 있다. 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E7",
+          "PDF-182",
+          "PDF-184"
+        ],
+        "question_or_request": "색조 중심의 제품 구성 차이에도 클리오를 포함한 근거와 해당 차이가 수익성·PER 비교에 미치는 영향을 설명할 수 있는가?",
+        "tie_key": "84",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-09",
+        "action": "사람 검토",
+        "priority": 82,
+        "reason": "A0는 세부 구성을 미확인했고 C는 제외를 제안했다. 원문상 립틴트와 아이섀도가 합계 74%로 발행사 주력과 다르지만, 신고서 선별 기준은 색조 사업도 허용한다. 최종 포함의 적합성은 검토할 가치가 있으나 차이만으로 오류나 제외를 확정할 수 없다. 가격 영향은 미산출이다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E8",
+          "PDF-177",
+          "PDF-182",
+          "PDF-184"
+        ],
+        "question_or_request": "아이패밀리에스씨의 색조 중심 구성과 화장품 외 사업을 고려해도 발행사의 비교기업으로 적합한 이유는 무엇인가?",
+        "tie_key": "82",
+        "eligible": true
+      },
+      {
+        "item_id": "MANYO-02",
+        "action": "자료 요청",
+        "priority": 70,
+        "reason": "신고서는 양측에 2022년 지배지분 이익을 적용한다고 명시하고, 적용액도 E3의 연간 당기순이익과 같다. 다만 E3에는 손익의 귀속이 표시되지 않고 E4의 자본 표시만으로 손익 귀속을 독립 확인할 수 없어 C의 우려가 완전히 해소되지는 않는다. 오류로 확정할 근거는 없다.",
+        "evidence_ids": [
+          "PDF-184",
+          "PDF-185",
+          "E3",
+          "E4"
+        ],
+        "question_or_request": "2022년 연결 손익계산서와 지배기업 소유주 귀속 당기순이익 내역을 제출해 적용액 17,297,237,363원의 귀속을 확인해 주십시오.",
+        "tie_key": "70",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-10",
+        "action": "기록 보관",
+        "priority": 30,
+        "reason": "A0의 구성 미확인은 원문으로 일부 해소된다. 네오팜은 보습·기초 화장품 비중이 96%로 발행사 주력과 가깝고 최종 선정됐다. 원료·건강기능식품 취급은 차이지만 제공된 내용만으로 중대한 부적합을 뒷받침하지 않는다. 최종 비교 적합성이 완전히 입증됐다는 뜻은 아니다.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E5",
+          "PDF-182"
+        ],
+        "question_or_request": "",
+        "tie_key": "30",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-04",
+        "action": "기록 보관",
+        "priority": 25,
+        "reason": "원문에서 최종 5사의 표시 PER 평균은 21.158배이고 공시치는 21.15배다. 코리아나의 83.89배는 50배 이상 제외 기준에 해당한다. 절사 여부는 확인되지 않지만 표시 차이는 작고, 평균 대신 다른 집계 방식을 택해야 한다는 근거도 부족하다.",
+        "evidence_ids": [
+          "PDF-177",
+          "PDF-184"
+        ],
+        "question_or_request": "",
+        "tie_key": "25",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-06",
+        "action": "기록 보관",
+        "priority": 20,
+        "reason": "C는 범위 밖이었다. 원문의 이익·주식 수·PER을 이용한 B 재계산은 22,336.72원으로 공시 22,337원과 인쇄 정밀도 내에서 일치한다. 평가표의 22.337 표기는 할인표의 22,337원과 표기 차이가 있다.",
+        "evidence_ids": [
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "20",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-03",
+        "action": "기록 보관",
+        "priority": 18,
+        "reason": "C는 범위 밖으로 판단하지 않았다. 원문에는 2023-03-02~03-31 평균과 분석기준일 종가가 있으며, 각 회사의 기준주가는 두 값 중 낮은 값과 일치한다. 특정 시점 의존이라는 한계도 공시돼 있다.",
+        "evidence_ids": [
+          "PDF-182",
+          "PDF-183"
+        ],
+        "question_or_request": "",
+        "tie_key": "18",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-01",
+        "action": "기록 보관",
+        "priority": 15,
+        "reason": "A0와 C 모두 완료 연도 이익 사용에 동의한다. 분석기준일은 2023-03-31이고 발행사와 비교기업에 모두 2022년 이익을 적용했으므로 기간상 갈림은 해소된다.",
+        "evidence_ids": [
+          "PDF-182",
+          "PDF-183",
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "15",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-05",
+        "action": "기록 보관",
+        "priority": 15,
+        "reason": "C는 범위 밖이었다. 원문에서 기존 14,318,260주에 모집 2,000,000주와 의무인수 60,000주를 더한 16,378,260주가 적용돼 공모 후 희석을 반영한다.",
+        "evidence_ids": [
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "15",
+        "eligible": false
+      },
+      {
+        "item_id": "MANYO-07",
+        "action": "기록 보관",
+        "priority": 15,
+        "reason": "C는 범위 밖이었다. 22,337원에 할인율 46.28%와 37.32%를 적용하면 각각 약 12,000원과 14,000원으로 희망밴드와 부합한다. 확정가는 수요예측 후 결정 예정이었다.",
+        "evidence_ids": [
+          "PDF-185"
+        ],
+        "question_or_request": "",
+        "tie_key": "15",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "MANYO-11"
+    ],
+    "operational": [
+      "MANYO-11"
+    ],
+    "waiting": [
+      "MANYO-12",
+      "MANYO-08",
+      "MANYO-09"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-182",
+    "PDF-183",
+    "PDF-184",
+    "PDF-185"
+  ],
+  "lookup_run": "reports/a1_current/live/MANYO/A1_LOOK/84598fbdd5a2d987/20261126T040957Z_A1_LOOK_99a05ec0",
+  "decision_run": "reports/a1_current/live/MANYO/A1_SELECT/dcb95576c58e520c/20261126T041005Z_A1_SELECT_4716443a",
+  "triz": [],
+  "common_item_count": 12,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "E1",
+    "E10",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "PDF-177",
+    "PDF-182",
+    "PDF-183",
+    "PDF-184",
+    "PDF-185"
+  ],
+  "selector_seconds": 36.129,
+  "lookup_method": "compact_catalog_recovery_v1",
+  "selector_condition": "TERRA"
+}

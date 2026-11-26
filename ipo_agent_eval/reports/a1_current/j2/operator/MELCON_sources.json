@@ -1,0 +1,123 @@
+{
+  "case_id": "MELCON",
+  "scope": "반도체 공정 장비의 기능·공정·고객을 대조하는 개발 편의 표본. 원본 대조 대상 2곳과 독립 당시 사업 자료가 있는 추가 후보 2곳이다. 독립 전수 모집단의 결과는 확보되지 않았다.",
+  "packet_sha256": "a7f38c69b347c2ad0160f0b962342a3744242e7f92b0868dea931e61d7a4ba7b",
+  "candidate_identity": {
+    "C12": "GST",
+    "C26": "워트",
+    "C54": "유니셈",
+    "C88": "HPSP"
+  },
+  "candidate_items": {
+    "C12": null,
+    "C26": "M04",
+    "C54": null,
+    "C88": "M03"
+  },
+  "sources": {
+    "E101": {
+      "file": "data/a1_pilot/MELCON/filing/20260821000368.pdf",
+      "sha256": "b2547615bb130d8b52558832546f94642d2e0c0d1cbe0ce8caeea5d95b7dec7d",
+      "receipt": "20260821000368",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000368",
+      "page": 317,
+      "published": "2026-08-21T14:42+09:00",
+      "published_before_cutoff": false,
+      "cutoff_basis": "initial_filing",
+      "section": "사업의 내용",
+      "excerpt": "발행사의 THC는 포토 전공정의 트랙과, XPS는 노광 장비와 연계된다. 주요 고객은 반도체 제조사 및 장비사이며 공정 조건에 따라 맞춤 제작하고 장비를 평가받는다.",
+      "source_group": "20260821000368"
+    },
+    "E112": {
+      "file": "data/a1_pilot/MELCON/operator/083450_half_products_20260814001221.html",
+      "sha256": "704dc69c31cafeeb02199ce9cd81e996ad8b480c83624db8c8762e14a1691735",
+      "receipt": "20260814001221",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001221",
+      "page": null,
+      "published": "2026-08-14",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "주요 제품 및 서비스",
+      "excerpt": "2026년 반기 제품군은 스크러버가 주력이고, 공정 온도 조절용 칠러는 해당 기간 총매출의 17.5%다.",
+      "source_group": "20260814001221"
+    },
+    "E121": {
+      "file": "reports/a1_current/j2/source_snapshots/MELCON/2344d2a53332b1ff.html",
+      "sha256": "cf022c10e766b7d558a5b28d90c214d00d2d430bce27ee3c7344d559d4503e34",
+      "receipt": "20260807000181",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=11&offset=63269&length=4310&dtd=dart4.xsd",
+      "page": null,
+      "published": "2026-08-07",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "주요 제품 및 서비스",
+      "excerpt": "주요 환경제어 제품은 THC, FFU, TCU다. 2026년 반기 총매출 12,036백만원 중 THC는 6,820백만원(56.67%)이다.",
+      "source_group": "20260807000181"
+    },
+    "E122": {
+      "file": "reports/a1_current/j2/source_snapshots/MELCON/0bcd604a8528a201.html",
+      "sha256": "11bd4885c2965902a2f6ed7e9795d7d42d9d34fe91eb80c709562c8bcbf75c5e",
+      "receipt": "20260807000181",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=10&offset=59280&length=3985&dtd=dart4.xsd",
+      "page": null,
+      "published": "2026-08-07",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "사업의 개요·주요 고객과 공급 방식",
+      "excerpt": "주요 고객은 반도체 제조사와 장비사다. 주문 사양에 맞춰 설계·제작하고 평가 및 설치 후 납품한다.",
+      "source_group": "20260807000181"
+    },
+    "E123": {
+      "file": "reports/a1_current/j2/source_snapshots/MELCON/0bcd604a8528a201.html",
+      "sha256": "11bd4885c2965902a2f6ed7e9795d7d42d9d34fe91eb80c709562c8bcbf75c5e",
+      "receipt": "20260807000181",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=10&offset=59280&length=3985&dtd=dart4.xsd",
+      "page": null,
+      "published": "2026-08-07",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "사업의 개요·THC 적용 공정",
+      "excerpt": "THC는 포토 전공정의 트랙 장비에 설치돼 코팅 및 현상 단계에 제어된 공기를 공급한다.",
+      "source_group": "20260807000181"
+    },
+    "E124": {
+      "file": "reports/a1_current/j2/source_snapshots/MELCON/0bcd604a8528a201.html",
+      "sha256": "11bd4885c2965902a2f6ed7e9795d7d42d9d34fe91eb80c709562c8bcbf75c5e",
+      "receipt": "20260807000181",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260807000181&dcmNo=11513714&eleId=10&offset=59280&length=3985&dtd=dart4.xsd",
+      "page": null,
+      "published": "2026-08-07",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "사업의 개요·HBM 공급과 성능 검증",
+      "excerpt": "HBM 후공정의 트랙 설비에 THC를 공급해 성능을 검증했으며 이후 관련 공정에 계속 공급했다.",
+      "source_group": "20260807000181"
+    },
+    "E154": {
+      "file": "data/a1_pilot/MELCON/operator/036200_half_products_20260814000905.html",
+      "sha256": "10af92c864fb78d67a390e8e48b42bbf8b858726ff701dd60eb69a5c2b9a71dd",
+      "receipt": "20260814000905",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000905",
+      "page": null,
+      "published": "2026-08-14",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "주요 제품 및 서비스",
+      "excerpt": "공정 장비로 가스 스크러버와 온도 조절용 칠러를 공급한다. 2026년 반기 칠러 매출은 전체의 38.7%이며 온도조절 부품 서비스 비중은 따로 식별되지 않는다.",
+      "source_group": "20260814000905"
+    },
+    "E188": {
+      "file": "reports/a1_current/j2/source_snapshots/MELCON/5344a94a01bf1833.html",
+      "sha256": "e58189510c93b7c96d8bd78bf017679fad2bd2d87d17ed53a72e220d00929da6",
+      "receipt": "20260814004015",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004015&dcmNo=11539409&eleId=11&offset=153533&length=9099&dtd=dart4.xsd",
+      "page": null,
+      "published": "2026-08-14",
+      "published_before_cutoff": true,
+      "cutoff_basis": "earlier_date",
+      "section": "주요 제품 및 서비스·매출실적",
+      "excerpt": "고압 수소 어닐링 장비는 반도체 전공정에서 소자 계면을 개선한다. 2026년 반기 매출의 89.2%가 해당 장비였고, 나머지는 부품·AS였다. 국내외 반도체 제조사가 고객이다.",
+      "source_group": "20260814004015"
+    }
+  }
+}

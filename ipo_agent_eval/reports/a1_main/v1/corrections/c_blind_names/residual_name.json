@@ -1,0 +1,74 @@
+{
+  "case": "20250325000608",
+  "candidate": "에이피알",
+  "candidate_id": "C3",
+  "classification": "direct_self_or_issuer",
+  "direct_self_or_issuer": true,
+  "discovered": "W13 review of the already-returned corrected C role",
+  "history": {
+    "source": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231222000680&dcm_no=9552788",
+    "pdf_sha256": "016d335b14ce55ac97be78079b37c1f82dea5203c4b839cd34ede50cb17e1fe8",
+    "physical_page": 283,
+    "quote": "2014.12.09 주식회사 에이프릴스킨 상호변경 2017.06.29 주식회사 에이피알 상호변경",
+    "company_history_url": "https://apr-blog.com/apr-youth-employment",
+    "company_history_snapshot_sha256": "44808fa1b00e8f0b47ebaa1fd42d7a0fa297361b027732627c227761c5d2ebc8",
+    "date_precision": "IPO filing records 2017-06-29. Issuer article summarises as July 2017."
+  },
+  "review": [
+    "36 frozen packets rechecked for Hangul and English variants",
+    "36 registered effective packets rechecked; only one packet and three evidence rows contained the former name",
+    "Actual outgoing C request independently matched to prospective packet; response already received and original request and response are retained"
+  ],
+  "matches": [
+    {
+      "case": "20250325000608",
+      "version": "original",
+      "evidence_id": "E14",
+      "literal": "에이프릴스킨",
+      "source": "1. 사업의 개요 / p 1"
+    },
+    {
+      "case": "20250325000608",
+      "version": "original",
+      "evidence_id": "E15",
+      "literal": "에이프릴스킨",
+      "source": "2. 주요 제품 및 서비스 / tr 8"
+    },
+    {
+      "case": "20250325000608",
+      "version": "original",
+      "evidence_id": "E17",
+      "literal": "에이프릴스킨",
+      "source": "4. 매출 및 수주상황 / tr 5"
+    },
+    {
+      "case": "20250325000608",
+      "version": "effective",
+      "evidence_id": "E14",
+      "literal": "에이프릴스킨",
+      "source": "1. 사업의 개요 / p 1"
+    },
+    {
+      "case": "20250325000608",
+      "version": "effective",
+      "evidence_id": "E15",
+      "literal": "에이프릴스킨",
+      "source": "2. 주요 제품 및 서비스 / tr 8"
+    },
+    {
+      "case": "20250325000608",
+      "version": "effective",
+      "evidence_id": "E17",
+      "literal": "에이프릴스킨",
+      "source": "4. 매출 및 수주상황 / tr 5"
+    }
+  ],
+  "manifest_sha256": "90722ed014b685d1f6d6834ba3f5033628bd62bd1f237871f6ee68106b630831",
+  "observed": [
+    {
+      "id": 83,
+      "request_sha256": "e194c3b45fe1d3e62c746dada7b1b2bcfa064b25f152b511009538ea9d08a849",
+      "http_status": 200
+    }
+  ]
+}

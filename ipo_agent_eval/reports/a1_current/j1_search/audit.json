@@ -1,0 +1,34 @@
+{
+  "cases": {
+    "HDMS": {
+      "j1_ids": [
+        "H01"
+      ],
+      "additional_pages": [],
+      "baseline_hash_matches": true,
+      "actual_submissions": 1,
+      "tool_events": 0,
+      "received_input_hash_matches": true
+    },
+    "MELCON": {
+      "j1_ids": [
+        "M01",
+        "M02",
+        "M05"
+      ],
+      "additional_pages": [
+        324,
+        350,
+        325,
+        348
+      ],
+      "baseline_hash_matches": true,
+      "actual_submissions": 1,
+      "tool_events": 0,
+      "received_input_hash_matches": true
+    }
+  },
+  "ltm_recomputed_krw": "5987356105",
+  "alternative_recomputed_krw": "12308.52",
+  "human_review_minutes": null
+}

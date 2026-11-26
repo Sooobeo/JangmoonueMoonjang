@@ -1,0 +1,78 @@
+{
+  "archived_six_error_index_sha256": "f72de0acd6eb59ec4716176e85d41cd88d52683bd8b854a71c41abfd7336dfac",
+  "old_freeze_file_sha256": "a0fe79f0950028f432008c8a3b5527a3ee53d8885487628a0473337c4cb6bd78",
+  "jobs": {
+    "A0": [
+      {
+        "order": 1,
+        "role": "A0",
+        "variant": "original",
+        "legacy": "reports/a1_current/j2/runs/MELCON/triz/A0/20261126T021249Z_J2_A0_ITEM_a849ab91",
+        "legacy_error_sha256": "0bdaf0bfe06473c5c06a32e748135099d01c2a7de928c2adac6b75dd0bd9bc23",
+        "payload_sha256": "9115cfda0f79aeffc746062cf63136f28ec783364dbde21d8dce94ded7adf377",
+        "request_file_sha256": "801fa18b21da605e39e4558325979b2c739f7d513a66b10403eee46acb434954",
+        "request_wire_sha256": "b04401fe22a7f318f1fdb6c299d09b65c7218204a41bea06b1677fac81341719"
+      },
+      {
+        "order": 2,
+        "role": "A0",
+        "variant": "process_evidence_withheld",
+        "legacy": "reports/a1_current/j2/runs/MELCON/triz/A0/20261126T021252Z_J2_A0_ITEM_81a7d477",
+        "legacy_error_sha256": "05c192edb4ca30eaf7edb24dcd1296eb7710f330d2ebdef471906e3132c947c3",
+        "payload_sha256": "9ad720115d2186ea5308b64c10170005a81eed3dd18a1ad8c4b3b08824a581ef",
+        "request_file_sha256": "6f00f6976b15a13a2eb278a7ed72cdaecac4b6ff20b3dcb5b9619e8341d6c89b",
+        "request_wire_sha256": "b2d838243d05e5398bf3857c0206ca27d4c2c2fe9be5e31b5ecb3743832a7ad4"
+      },
+      {
+        "order": 3,
+        "role": "A0",
+        "variant": "format_only",
+        "legacy": "reports/a1_current/j2/runs/MELCON/triz/A0/20261126T021253Z_J2_A0_ITEM_3d3ab146",
+        "legacy_error_sha256": "f3620bdb676924bdabaca45abebbe02152c0b98fb7303de6c00dc62196820536",
+        "payload_sha256": "497fdedcaf1407adb96a91957818c42d13ebf990c85c21cf4348b6f9ec5d8791",
+        "request_file_sha256": "0d1a7c63c1951bda9e6d9186e8614774264b1b42e4928fb36d864863aa654f4c",
+        "request_wire_sha256": "f8e098dbc78d228f2195c3f27d657637fdb5ae9c1fffbe698f748961891b2f1f"
+      }
+    ],
+    "C": [
+      {
+        "order": 1,
+        "role": "C",
+        "variant": "format_only",
+        "legacy": "reports/a1_current/j2/runs/MELCON/triz/C/20261126T021249Z_J2_C_ITEM_6005b983",
+        "legacy_error_sha256": "0dd7eb52efa475a6c326ac40d3d8c7ea887cd96c31a6ca8600df5460b6db2613",
+        "payload_sha256": "497fdedcaf1407adb96a91957818c42d13ebf990c85c21cf4348b6f9ec5d8791",
+        "request_file_sha256": "0d1a7c63c1951bda9e6d9186e8614774264b1b42e4928fb36d864863aa654f4c",
+        "request_wire_sha256": "f8e098dbc78d228f2195c3f27d657637fdb5ae9c1fffbe698f748961891b2f1f"
+      },
+      {
+        "order": 2,
+        "role": "C",
+        "variant": "process_evidence_withheld",
+        "legacy": "reports/a1_current/j2/runs/MELCON/triz/C/20261126T021251Z_J2_C_ITEM_85ae21bf",
+        "legacy_error_sha256": "70f28db05b4961ec1a32bfba57ea053fb7fc69d25f83fdcfd5f219074bd1c7f0",
+        "payload_sha256": "9ad720115d2186ea5308b64c10170005a81eed3dd18a1ad8c4b3b08824a581ef",
+        "request_file_sha256": "6f00f6976b15a13a2eb278a7ed72cdaecac4b6ff20b3dcb5b9619e8341d6c89b",
+        "request_wire_sha256": "b2d838243d05e5398bf3857c0206ca27d4c2c2fe9be5e31b5ecb3743832a7ad4"
+      },
+      {
+        "order": 3,
+        "role": "C",
+        "variant": "original",
+        "legacy": "reports/a1_current/j2/runs/MELCON/triz/C/20261126T021252Z_J2_C_ITEM_02a09ab9",
+        "legacy_error_sha256": "d820cdcc5fa880d3b5105c1444644d9f2499b3aed258d9397daa0536bc7f4ed6",
+        "payload_sha256": "9115cfda0f79aeffc746062cf63136f28ec783364dbde21d8dce94ded7adf377",
+        "request_file_sha256": "801fa18b21da605e39e4558325979b2c739f7d513a66b10403eee46acb434954",
+        "request_wire_sha256": "b04401fe22a7f318f1fdb6c299d09b65c7218204a41bea06b1677fac81341719"
+      }
+    ]
+  },
+  "expected": {
+    "original": "각 역할의 전체 원본 판정을 재현하는지 사후 확인",
+    "format_only": "제시 순서만 뒤집어 판정과 핵심 공정 근거 유지 확인",
+    "process_evidence_withheld": "후보의 포토 전공정 적용을 확인된 공통점에서 제거하고 필요 증빙을 밝힘. HBM 후공정·제품·고객 근거와 종합 수용을 유지할 수 있음"
+  },
+  "formal_TRIZ_eligible": false,
+  "scope": "Both runs use the identical neutral, standalone excerpt. Prior official roles did not jointly accept M04; this technical retry cannot supply formal H1, H2 or TRIZ signals.",
+  "frozen_after_funding_utc": "2026-11-26T04:20:33.714216+00:00"
+}

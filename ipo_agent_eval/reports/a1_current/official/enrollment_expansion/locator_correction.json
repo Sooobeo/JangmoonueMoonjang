@@ -1,0 +1,10 @@
+{
+  "receipt": "20251001000684",
+  "field": "price_table_page",
+  "previous_page": 231,
+  "corrected_page": 230,
+  "reason": "원문 230쪽에 조정 순이익, PER 19.2배와 주당 91,066원이 한 표에 있다. 231쪽에는 이 표의 주석이 이어진다.",
+  "previous_manifest_sha256": "a646496729c3ca08d24d6c0f2e39fb80f2f5c7157b9835fc995fd033b6328488",
+  "corrected_manifest_sha256": "438e093bf95505b2e00fd8a42b76c6b3c553eaeff5bfeb572c6eac5cfc35ab9f",
+  "membership_changed": false
+}

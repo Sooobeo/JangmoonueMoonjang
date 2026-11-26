@@ -1,0 +1,35 @@
+{
+  "checks": 6370,
+  "differences": [],
+  "pairs": 27,
+  "timing": {
+    "assigned": 47,
+    "observed": 44,
+    "missing": 3,
+    "cited_passages": 130
+  },
+  "flow": [
+    {
+      "grade": "first_failed",
+      "selection": "ranked",
+      "issuers": 5
+    },
+    {
+      "grade": "sealed",
+      "selection": "mandatory_only",
+      "issuers": 4
+    },
+    {
+      "grade": "sealed",
+      "selection": "ranked",
+      "issuers": 27
+    },
+    {
+      "grade": "second_failed",
+      "selection": "rule",
+      "issuers": 1
+    }
+  ],
+  "results_sha256": "236d44e250052d85e8b9ba34abb827140eaffb02c79051e977ffc0737c71efb7",
+  "freeze_sha256": "76bebfd3ac75ea2ce5fdb3a8e135e62f5cd5b7497fdad2d7a62c2880f6823c0d"
+}

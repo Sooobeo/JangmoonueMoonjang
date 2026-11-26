@@ -1,0 +1,159 @@
+{
+  "rows": [
+    {
+      "receipt": "20241002000335",
+      "issuer": "파인메딕스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241002000335&dcmNo=10132944&eleId=3&offset=26078&length=34660&dtd=dart4.xsd",
+      "method_lines": [
+        "주) 모집(매출)가액, 모집(매출)총액, 인수금액, 인수대가는 대표주관회사와 발행회사가 협의하여 제시한 희망공모가액인 9,000원 ~ 10,000원 중 최저가인 9,000원 기준입니다."
+      ]
+    },
+    {
+      "receipt": "20241004000133",
+      "issuer": "쓰리에이로직스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241004000133&dcmNo=10134388&eleId=3&offset=39499&length=67661&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241010000504",
+      "issuer": "사이냅소프트",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241010000504&dcmNo=10140645&eleId=3&offset=26366&length=42507&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241010000579",
+      "issuer": "DH오토웨어",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241010000579&dcmNo=10140855&eleId=3&offset=5256&length=32271&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241016000097",
+      "issuer": "온코닉테라퓨틱스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241016000097&dcmNo=10146381&eleId=3&offset=26599&length=46363&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241016000264",
+      "issuer": "온코크로스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241016000264&dcmNo=10147153&eleId=3&offset=22854&length=50341&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241018000518",
+      "issuer": "벡트로보틱스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241018000518&dcmNo=10150563&eleId=3&offset=30968&length=45215&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241025000552",
+      "issuer": "와이엠",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241025000552&dcmNo=10158313&eleId=3&offset=5269&length=32216&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241104000352",
+      "issuer": "데이원컴퍼니",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241104000352&dcmNo=10168684&eleId=3&offset=31172&length=46801&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241106000175",
+      "issuer": "아이지넷",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241106000175&dcmNo=10170485&eleId=3&offset=26163&length=36349&dtd=dart4.xsd",
+      "method_lines": [
+        "주1) 모집가액, 모집총액, 인수금액, 인수대가, 신주인수권 행사가격, 일반청약자 환매청구권 행사가격은 대표주관회사와 발행회사가 협의하여 제시한 희망공모가액인 6,000원 ~ 7,000원 중 최저가액인 6,000원 기준입니다.",
+        "주3) 일반청약자 환매청구권은 공모가격의 90%인 5,400원(희망공모가액 하단 6,000원 기준)을 권리행사가격으로 합니다. 다만, 일반청약자가 환매청구권을 행사한 날 직전 매매거래일의 코스닥지수가 상장일 직전 매매거래일의 코스닥지수에 비하여 10%를 초과하여 하락한 경우에는 다음 산식에 의하여 산출한 조정가격을 권리행사가격으로 합니다. ※ 조정가격 = 공모가격의 90% × [1.1 + (일반청약자가 환매청구권을 행사한 날 직전 매매거래일의 코스닥지수 - 상장일 직전 매매거래일의 코스닥지수) ÷ 상장일 직전 매매거래일의 코스닥지수]"
+      ]
+    },
+    {
+      "receipt": "20241106000331",
+      "issuer": "아스테라시스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241106000331&dcmNo=10171186&eleId=3&offset=16340&length=42254&dtd=dart4.xsd",
+      "method_lines": [
+        "주1) 모집(매출)가액, 모집(매출)총액, 인수금액 및 인수대가는 대표주관회사와 발행회사가 협의하여 제시한 희망공모가액인 4,000원 ~ 4,600원 중 최저가액인 4,000원 기준입니다.",
+        "주2) 인수대가는 공모금액 및 상장주선인의 추가 의무인수금액을 합산한 금액의 4.50%입니다. 상기 인수대가는 발행회사와 대표주관회사가 협의하여 제시한 희망공모가액 범위의 최저가액 기준이며, 향후 수요예측 이후 결정되는 확정가액에 따라 변동될 수 있습니다."
+      ]
+    },
+    {
+      "receipt": "20241107000305",
+      "issuer": "엠앤씨솔루션",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241107000305&dcmNo=10172380&eleId=3&offset=34314&length=48577&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241108000555",
+      "issuer": "듀켐바이오",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241108000555&dcmNo=10174460&eleId=3&offset=26633&length=51453&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241112000407",
+      "issuer": "렉스필드컨트리클럽",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241112000407&dcmNo=10177131&eleId=3&offset=5398&length=29081&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241114003009",
+      "issuer": "대한광통신",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241114003009&dcmNo=10187276&eleId=3&offset=5435&length=45979&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241115000279",
+      "issuer": "큐로홀딩스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241115000279&dcmNo=10188282&eleId=3&offset=5286&length=46775&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241115000345",
+      "issuer": "현대바이오",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241115000345&dcmNo=10188486&eleId=3&offset=5335&length=40148&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241118000129",
+      "issuer": "삼양엔씨켐",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241118000129&dcmNo=10189041&eleId=3&offset=31496&length=45707&dtd=dart4.xsd",
+      "method_lines": [
+        "주1) 모집(매출)가액, 모집(매출)총액, 인수금액, 인수대가, 신주인수권 행사가격 등은 대표주관회사와 발행회사가 협의하여 제시한 희망공모가액인 16,000원 ~ 18,000원 중 최저가액인 16,000원 기준으로 기재하였습니다.",
+        "주2) 총 인수대가는 총 발행금액(본 주식 및 추가 주식포함)의 3.0% 입니다. 상기 인수대가는 발행회사와 대표주관회사가 협의하여 제시한 희망공모가액 범위의 최저가액 기준이며, 향후 수요예측 이후 결정되는 확정가액에 따라 변동될 수 있습니다."
+      ]
+    },
+    {
+      "receipt": "20241118000172",
+      "issuer": "이수페타시스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241118000172&dcmNo=10189201&eleId=3&offset=5822&length=57588&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241118000189",
+      "issuer": "알체라",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241118000189&dcmNo=10189274&eleId=3&offset=5321&length=57979&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241118000273",
+      "issuer": "모티브링크",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241118000273&dcmNo=10189560&eleId=3&offset=22886&length=43503&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241120000278",
+      "issuer": "알지노믹스",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241120000278&dcmNo=10192122&eleId=3&offset=5258&length=41298&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241121000487",
+      "issuer": "와이즈넛",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241121000487&dcmNo=10194466&eleId=3&offset=17577&length=45947&dtd=dart4.xsd",
+      "method_lines": []
+    },
+    {
+      "receipt": "20241127000682",
+      "issuer": "현대차증권",
+      "summary_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20241127000682&dcmNo=10201303&eleId=3&offset=5431&length=42279&dtd=dart4.xsd",
+      "method_lines": []
+    }
+  ]
+}

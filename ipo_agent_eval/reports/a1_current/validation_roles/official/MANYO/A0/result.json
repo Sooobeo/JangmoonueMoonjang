@@ -1,0 +1,137 @@
+{
+  "role": "A0",
+  "case": "MANYO",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-6.1-terra",
+  "raw_response_id": "resp_0fe4351ca0c74c67016b07b013709887d099e54db15348f8ef",
+  "thread_id": "resp_0fe4351ca0c74c67016b07b013709887d099e54db15348f8ef",
+  "answer": {
+    "items": [
+      {
+        "item_id": "MANYO-01",
+        "state": "수용",
+        "reason": "미래 추정치가 아닌 2022년 실제 당기순이익을 적용해 비교기업의 이익 기간과 일치시켰다.",
+        "physical_page": 185,
+        "quote": "적용 순이익은 2022년 당기순이익을 적용하여 계산하였습니다."
+      },
+      {
+        "item_id": "MANYO-02",
+        "state": "수용",
+        "reason": "발행사와 비교기업 모두 2022년 지배지분 당기순이익을 기준으로 하여 귀속 범위를 맞췄다.",
+        "physical_page": 184,
+        "quote": "㈜마녀공장의 적용 당기순이익 = 2022년 당기순이익(지배지분)"
+      },
+      {
+        "item_id": "MANYO-03",
+        "state": "수용",
+        "reason": "1개월 평균 종가와 분석기준일 종가 중 낮은 가격을 택해 단기 주가 변동의 영향을 완화했다. 다만 특정 시점의 시장가격에 의존하는 한계는 남는다.",
+        "physical_page": 182,
+        "quote": "종가의 산술평균과 분석기준일 종가 중 낮은 가액을 기준주가로 적용"
+      },
+      {
+        "item_id": "MANYO-04",
+        "state": "수용",
+        "reason": "최종 선정된 5개사의 PER을 평균하고 50배 이상인 코리아나는 제외했다. 표시된 5개 수치의 평균은 21.158배로 공시된 21.15배와 소폭 차이가 있으나, 절사 여부는 명시되지 않았다.",
+        "physical_page": 184,
+        "quote": "평균 PER(배)                                                   21.15"
+      },
+      {
+        "item_id": "MANYO-05",
+        "state": "수용",
+        "reason": "기존 발행주식에 신주모집과 주선인 의무인수분을 합산한 공모 후 주식 수를 적용해 공모에 따른 희석을 반영했다.",
+        "physical_page": 185,
+        "quote": "발행주식총수 14,318,260주에 신주모집 주"
+      },
+      {
+        "item_id": "MANYO-06",
+        "state": "수용",
+        "reason": "2022년 이익을 공모 후 주식 수로 나눈 주당순이익에 비교기업 평균 PER을 적용했다. 표시된 EPS는 반올림 수치이므로 이를 그대로 곱한 값과 평가가액에 소폭 차이가 난다.",
+        "physical_page": 185,
+        "quote": "비교가치 주당 평가가액                         22,337원"
+      },
+      {
+        "item_id": "MANYO-07",
+        "state": "수용",
+        "reason": "평가가액 22,337원에 제시된 할인율을 적용하면 희망밴드 12,000~14,000원과 대체로 일치한다. 확정가는 수요예측 후 결정될 예정이었다.",
+        "physical_page": 185,
+        "quote": "평가액 대비 할인율                        46.28% ~ 37.32%"
+      },
+      {
+        "item_id": "MANYO-08",
+        "state": "문제 제기",
+        "reason": "자체 브랜드 화장품 회사라는 공통점은 있으나, 발행사의 주력은 기초 스킨케어와 클렌징인 반면 클리오는 색조·베이스 메이크업 비중이 높아 제품 구성의 차이가 크다.",
+        "physical_page": 188,
+        "quote": "포인트 메이크업 52.2%, 베이스 메이크업 26.29%"
+      },
+      {
+        "item_id": "MANYO-09",
+        "state": "미확인",
+        "reason": "사업 유사성 선별 기준은 통과했지만, 제공된 원문만으로는 아이패밀리에스씨의 세부 제품 구성과 발행사 주력 제품의 비교 적합성을 충분히 확인하기 어렵다.",
+        "physical_page": 180,
+        "quote": "아이패밀리에스씨        O              O              O             O           O"
+      },
+      {
+        "item_id": "MANYO-10",
+        "state": "미확인",
+        "reason": "사업 유사성 선별 기준은 통과했지만, 제공된 원문만으로는 네오팜의 세부 제품 구성과 발행사 주력 제품의 유사성을 충분히 확인하기 어렵다.",
+        "physical_page": 179,
+        "quote": "네오팜            O              O              O             O           O"
+      },
+      {
+        "item_id": "MANYO-11",
+        "state": "미확인",
+        "reason": "화장품 사업 기준을 통과했지만, 제공된 원문에는 애경산업의 세부 매출 구성이 없어 비화장품 사업과 발행사 주력 제품의 차이를 충분히 평가하기 어렵다.",
+        "physical_page": 180,
+        "quote": "애경산업           O              O              O             O           O"
+      },
+      {
+        "item_id": "MANYO-12",
+        "state": "미확인",
+        "reason": "화장품 사업 선별 기준을 통과했지만, 제공된 원문에는 브이티지엠피의 세부 사업·제품 비중이 없어 발행사와의 비교 적합성을 충분히 확인하기 어렵다.",
+        "physical_page": 180,
+        "quote": "브이티지엠피          O              O              O             O           O"
+      }
+    ]
+  },
+  "tool_item_types": [],
+  "packet_sha256": "2d5b966882cce3fce009f8b0aafea0945517e2d47fb7d614c63f0130ceb61626",
+  "method": "Independent initial assessment, stateless Responses request with no tools.",
+  "evidence_dir": "reports/a1_current/live/MANYO/V0/01e19cf77fed04fd/20261126T040539Z_V0_6103fa38",
+  "summary": {
+    "run_id": "20261126T040539Z_V0_6103fa38",
+    "condition": "V0",
+    "mode": "LIVE",
+    "case_id": "MANYO",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 22257,
+    "output_tokens": 2024,
+    "format_repairs": 0,
+    "elapsed_seconds": 26.595,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.032377,
+    "known_usage_cost_usd_standard_uncached": 0.032377,
+    "estimated_cost_krw_at_budget_fx": 45.33,
+    "cost_ceiling_usd": 0.037941,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.037941,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  }
+}

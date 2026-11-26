@@ -1,0 +1,59 @@
+{
+  "case": "MANYO",
+  "item_id": "MANYO-08",
+  "protocol": "ipo-persona-time-1",
+  "started_kst": "2026-11-26T13:14:19.036+09:00",
+  "human_minutes": null,
+  "active_human_seconds": null,
+  "active_model_reasoning_seconds": null,
+  "task_sha256": "fe9fb94e9d6795abfff4549bfbab5a78851301d74c678536806f5c16f363cc29",
+  "source_pdf_sha256": "0a240269ecf430436175c0e169f58315772259be3859f573687c18149cc690c4",
+  "source_registry_sha256": "d35398e09af7860973cd2e77e5609970217572c802344b78dd63c4c0912dc0d4",
+  "authorized_physical_pages": [
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "packet_prep_seconds": 8.352115,
+  "evidence_dir": "reports/a1_current/proxy/MANYO/PERSONA_fe9fb94e9d6795abff/0ff03a9f03678bf9",
+  "review_call_wrapper_seconds": 19.332577,
+  "quote_and_boundary_verification_seconds": 0.024921,
+  "status": "REVIEWED",
+  "source": "original_pdf_only",
+  "answer": {
+    "filing_claim": "대표주관회사는 클리오가 화장품 사업 매출 비중, 자체 브랜드 보유 등 사업 유사성 기준을 충족한다고 판단해 마녀공장의 최종 유사회사 5개사에 포함했다.",
+    "checked_basis_or_arithmetic": "2차 선정표에서 클리오는 화장품 매출 비중 30% 이상, 자체 기초 또는 색조화장품 브랜드 보유, 마스크팩과 화장품 소재 각각의 생산·매출이 주업이 아니라는 네 조건을 모두 충족한 것으로 표시됐다. 다만 30%는 선정 문턱이며, 제공된 쪽에는 클리오의 화장품 매출액과 품목별 매출액이 없어 실제 비중을 재계산할 수 없다.",
+    "outcome": "판단 유보",
+    "finding": "자체 화장품 브랜드를 보유한다는 점은 비교를 뒷받침한다. 다만 마녀공장의 주력 제품은 기초 스킨케어와 클렌징이고, 선정 기준은 색조 브랜드만 보유해도 충족한다. 클리오의 기초·클렌징·색조 매출 구성이 제시되지 않아 두 회사의 주력 제품이 어느 정도 겹치는지는 판단하기 어렵다.",
+    "follow_up": "양사의 2022년 사업보고서와 품목별 매출 명세에서 동일한 회계 범위의 총매출액 및 기초 스킨케어·클렌징·색조 매출액을 확보한다. 품목 분류를 맞춘 뒤 각 사 총매출액 대비 품목별 비중을 비교한다.",
+    "citations": [
+      {
+        "physical_page": 177,
+        "locator": "「1차 선정기준 : 업종 유사성 판단」 첫 문단",
+        "quote": "앰플, 세럼 등 기초 스킨케어와 클렌징 제품을 주요 제품 라인\n업으로 보유하고 있습니다."
+      },
+      {
+        "physical_page": 179,
+        "locator": "「2차 선정기준 : 사업 유사성 판단」 기준 ①·②",
+        "quote": "① 화장품 사업 매출 비중이 30% 이상일 것\n② 자체 기초화장품 또는 색조화장품 브랜드를 보유하고 있을 것"
+      },
+      {
+        "physical_page": 180,
+        "locator": "「2차 비교회사 선정」 클리오 행",
+        "quote": "클리오            O              O              O             O           O"
+      }
+    ]
+  },
+  "closed_kst": "2026-11-26T13:14:46.768+09:00",
+  "original_review_service_seconds": 19.16,
+  "actual_end_to_end_seconds": 27.731353,
+  "recovered_from_existing_service": false,
+  "attempts": 1,
+  "timed_out_attempts": 0
+}

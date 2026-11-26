@@ -1,0 +1,299 @@
+{
+  "case": "GIGAVIS",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "GIGAVIS-05",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-08",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-10",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-02",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-03",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-04",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-06",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-07",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-09",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-11",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-01",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-12",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "GIGAVIS-05"
+    ],
+    "operational": [
+      "GIGAVIS-05"
+    ],
+    "waiting": [
+      "GIGAVIS-08",
+      "GIGAVIS-10"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "GIGAVIS-08",
+        "action": "사람 검토",
+        "priority": 95,
+        "reason": "원문은 우리사주조합에 자기주식을 무상증여하면서 인식한 주식보상비용 10,097,010천원을 2022년 순이익 27,750,571천원에 가산했다고 밝힌다. 비교기업은 공시 순이익을 사용하므로 조정의 비대칭성과 세후 효과가 중요한 쟁점이다. 비현금·비경상이라는 설명만으로 조정의 적정성이 확정되지는 않는다.",
+        "evidence_ids": [
+          "PDF-233",
+          "PDF-234"
+        ],
+        "question_or_request": "해당 보상이 향후 반복될 가능성, 비교기업의 유사 비용 처리 및 가산액의 법인세 효과를 확인해 조정의 적정성을 검토해 주세요.",
+        "tie_key": "95",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-10",
+        "action": "사람 검토",
+        "priority": 94,
+        "reason": "신고서는 파크시스템스를 광학 검사장비 기업으로 선정했지만, 제공된 사업 설명은 원자현미경 중심이며 연결 누적 매출 중 연구용이 약 30%다. 발행사의 패키지 기판 결함 검사·수리 설비와 제품·용도 차이가 선정 기준에 중요한 영향을 줄 수 있다. 해당 기업의 표시 PER은 33.42배다.",
+        "evidence_ids": [
+          "PDF-226",
+          "E1",
+          "E5",
+          "A10",
+          "PDF-234"
+        ],
+        "question_or_request": "원자현미경 사업이 신고서의 광학 검사장비 선정 기준에 부합하는 근거와 연구용 매출을 포함한 사업 차이를 확인하고, 비교회사 유지 여부를 판단해 주세요.",
+        "tie_key": "94",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-05",
+        "action": "자료 요청",
+        "priority": 87,
+        "reason": "신고서는 기준일 보통주식수에 공모주식수를 합산한다고 설명하고 12,675,758주를 적용했다. 다만 제공 원문만으로는 A0가 제시한 발행주식총수 10,605,000주와 147,500주 차이를 독립 확인할 수 없다. 분모가 주당가액에 직접 영향을 주므로 차이를 오류로 확정하지 않고 확인해야 한다.",
+        "evidence_ids": [
+          "A05",
+          "PDF-234"
+        ],
+        "question_or_request": "신고서 제출일 기준 발행·보통주식수 내역과 공모주식수, 자기주식 등 포함·제외 내역을 제출하고 12,675,758주의 산출 과정을 설명해 주세요.",
+        "tie_key": "87",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-09",
+        "action": "사람 검토",
+        "priority": 65,
+        "reason": "고영과 발행사는 생산용 광학검사라는 공통점이 있으나 검사 대상과 사업 구성이 다르다. 고영의 2022년 연결 매출에서 3D 자동광학검사장비는 51.0%, 납도포검사장비는 39.6%다. A0의 수용과 C의 추가 검토 사이에서 사업 혼합의 영향을 판단할 필요가 있다.",
+        "evidence_ids": [
+          "E1",
+          "E6",
+          "A09",
+          "PDF-226",
+          "PDF-234"
+        ],
+        "question_or_request": "고영의 검사 대상·고객군과 발행사의 패키지 기판 사업을 비교할 때 납도포검사 등 사업 혼합 차이가 비교회사 선정에 미치는 영향을 확인해 주세요.",
+        "tie_key": "65",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-11",
+        "action": "사람 검토",
+        "priority": 60,
+        "reason": "넥스틴과 발행사는 광학 방식의 회로패턴 결함 검사라는 공통점이 있지만, 넥스틴은 전공정 웨이퍼, 발행사는 패키지 기판을 대상으로 한다. 공정과 고객 차이가 비교 적합성에 미치는 영향은 제공 자료만으로 확정하기 어렵다.",
+        "evidence_ids": [
+          "E1",
+          "E8",
+          "A11",
+          "PDF-226"
+        ],
+        "question_or_request": "전공정 웨이퍼와 패키지 기판의 고객군·매출 구성 및 재무조건 차이를 비교해 넥스틴의 선정 적합성을 확인해 주세요.",
+        "tie_key": "60",
+        "eligible": true
+      },
+      {
+        "item_id": "GIGAVIS-04",
+        "action": "기록 보관",
+        "priority": 25,
+        "reason": "C가 확보하지 못한 기업별 PER은 원문에 있다. 네 배수의 단순평균은 21.7975배로 표시된 21.80배와 부합한다. 배수 차이는 존재하지만 평균 사용 자체의 계산 오류는 확인되지 않는다.",
+        "evidence_ids": [
+          "PDF-234"
+        ],
+        "question_or_request": "",
+        "tie_key": "25",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-12",
+        "action": "기록 보관",
+        "priority": 22,
+        "reason": "사업 유사성에 관한 A0와 C의 잠정 수용은 원문으로 뒷받침된다. 인텍플러스는 패키지·기판 외관 광학검사와 FC-BGA용 장비 및 기판 고객군의 유사성이 있으나, 발행사의 내층 검사와 기술 차이 및 다른 장비 매출 혼합은 비교의 한계다.",
+        "evidence_ids": [
+          "PDF-231",
+          "E1",
+          "E4",
+          "PDF-234"
+        ],
+        "question_or_request": "",
+        "tie_key": "22",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-03",
+        "action": "기록 보관",
+        "priority": 18,
+        "reason": "C는 검토 범위 밖으로 두었으나 원문에는 관측기간, 일별 주가, 평균과 최저값이 제시돼 있다. 각 기업의 기준주가는 제시된 세 후보 중 최저값과 일치한다.",
+        "evidence_ids": [
+          "PDF-232",
+          "PDF-234"
+        ],
+        "question_or_request": "",
+        "tie_key": "18",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-07",
+        "action": "기록 보관",
+        "priority": 17,
+        "reason": "표의 주당 평가가액 65,082원과 밴드 34,400~39,700원에서 역산한 할인율은 약 47.14%와 39.00%로 A0의 수치와 근사한다. 다만 제공된 신고서 발췌에는 할인율 자체가 표시돼 있지 않다.",
+        "evidence_ids": [
+          "PDF-234",
+          "A07"
+        ],
+        "question_or_request": "",
+        "tie_key": "17",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-06",
+        "action": "기록 보관",
+        "priority": 15,
+        "reason": "표의 평가 시가총액을 적용 주식수로 나눈 B 계산은 65,082.34원으로 표시된 65,082원과 부합한다. 이는 기재된 분모를 전제로 한 산술 확인이며 주식수의 적정성은 별도 검토한다.",
+        "evidence_ids": [
+          "PDF-234",
+          "A06"
+        ],
+        "question_or_request": "",
+        "tie_key": "15",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-02",
+        "action": "기록 보관",
+        "priority": 12,
+        "reason": "발행사는 2022년 개별 재무제표를 제시하고 연결 요약재무정보는 해당사항이 없다. 비교기업은 2022년 온기 지배지분 순이익을 사용하므로, A0가 확인하지 못한 발행사의 연결·개별 범위는 해소된다.",
+        "evidence_ids": [
+          "E2",
+          "PDF-234"
+        ],
+        "question_or_request": "",
+        "tie_key": "12",
+        "eligible": false
+      },
+      {
+        "item_id": "GIGAVIS-01",
+        "action": "기록 보관",
+        "priority": 10,
+        "reason": "발행사와 비교기업 모두 2022년 온기 이익을 사용해 기간이 일치한다. 발행사 이익의 주식보상비용 조정은 별도 항목에서 검토한다.",
+        "evidence_ids": [
+          "PDF-233",
+          "PDF-234",
+          "E2"
+        ],
+        "question_or_request": "",
+        "tie_key": "10",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "GIGAVIS-08"
+    ],
+    "operational": [
+      "GIGAVIS-08"
+    ],
+    "waiting": [
+      "GIGAVIS-10",
+      "GIGAVIS-09",
+      "GIGAVIS-11"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-231",
+    "PDF-232",
+    "PDF-233",
+    "PDF-234"
+  ],
+  "lookup_run": "reports/a1_current/live/GIGAVIS/A1_LOOK/ed734f2d5f4bc3de/20261126T040957Z_A1_LOOK_15113a6f",
+  "decision_run": "reports/a1_current/live/GIGAVIS/A1_SELECT/c56a7551190247bf/20261126T041006Z_A1_SELECT_f8f3e7fc",
+  "triz": [],
+  "common_item_count": 12,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "PDF-226",
+    "PDF-231",
+    "PDF-232",
+    "PDF-233",
+    "PDF-234"
+  ],
+  "selector_seconds": 44.897000000000006,
+  "lookup_method": "compact_catalog_recovery_v1",
+  "selector_condition": "TERRA"
+}

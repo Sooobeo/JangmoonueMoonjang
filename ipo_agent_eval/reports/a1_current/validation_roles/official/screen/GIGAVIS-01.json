@@ -1,0 +1,90 @@
+{
+  "answer": {
+    "eligible": true,
+    "common_proposition": "발행사 적용 이익의 기간은 2022년 온기다.",
+    "a0_ground": "발행사와 비교기업의 2022년 온기 이익을 사용했으며, 발행사 이익에는 별도 조정이 적용됐다.",
+    "c_ground": "발행사의 가장 최근 완결 연간 자료로 2022년 개별 재무제표를 사용한다.",
+    "counterevidence": "2020·2021년 비교 수치는 재작성되어 감사받지 않았고, 발행사 적용 이익에는 주식보상비용이 가산됐다.",
+    "resolution_or_limit": "이 한계들은 발행사 이익의 2022년 온기라는 공통 기간을 뒤집지 않는다. 비교기업의 기간 일치나 이익 조정의 적절성까지 공통 판단으로 확장하지 않는다.",
+    "neutral_question": "발행사 적용 이익의 기간은 어떤 범위로 검토해야 하는가?",
+    "A0": {
+      "context": [
+        {
+          "source": "A-p233",
+          "quote": "PER(주가수익비율)는 특정주식의 주당 시가를 주당 순이익(EPS)으로 나눈 수치로, 주가가 1주당 수\n익의 몇 배인지를 나타내는 비율입니다."
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "A-p233",
+          "quote": "PER을 적용한 상대가치는 공시된 감사보고서 및 사업보고서 상의 재무수치를 기준으로 산출한 비교\n회사의 2022년 온기 당기순이익(지배지분)을 바탕으로 산출된 PER을 동사의 2022년 온기 당기순이\n익에 적용하였습니다."
+        }
+      ],
+      "retained": [
+        {
+          "source": "A-p233",
+          "quote": "다만, 동사는 2022년 영업과는 무관한 비용인 주식보상비용이 발생하였으며,\n이는 현금의 유출이 없는 회계적이며 비경상적인 비용이기 때문에 이를 당기순이익에 가산하여 적\n용하였습니다."
+        }
+      ]
+    },
+    "C": {
+      "context": [
+        {
+          "source": "C-E1",
+          "quote": "반도체 패키지 기판의 회로패턴 결함을 찾는 자동광학검사장비와 불량 수리 설비, 자동화 생산설비 및 소프트웨어를 제작해 판매한다."
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "C-E2",
+          "quote": "2022년 K-IFRS 개별 연간 재무제표가 있다."
+        }
+      ],
+      "retained": [
+        {
+          "source": "C-E2",
+          "quote": "연결 요약재무정보는 해당사항이 없으며"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "run_id": "20261126T040723Z_OFFICIAL_ALIGNMENT_GIGAVIS-01_bf4a5c96",
+    "condition": "OFFICIAL_ALIGNMENT_GIGAVIS-01",
+    "mode": "LIVE",
+    "case_id": "GIGAVIS",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 5404,
+    "output_tokens": 1357,
+    "format_repairs": 0,
+    "elapsed_seconds": 22.83,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.012189,
+    "known_usage_cost_usd_standard_uncached": 0.012189,
+    "estimated_cost_krw_at_budget_fx": 17.06,
+    "cost_ceiling_usd": 0.01354,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.01354,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  },
+  "evidence_dir": "reports/a1_current/live/GIGAVIS/OFFICIAL_ALIGNMENT_GIGAVIS-01/1225b87d46f5b6e6/20261126T040723Z_OFFICIAL_ALIGNMENT_GIGAVIS-01_bf4a5c96",
+  "raw_response_id": "resp_06753817d37b9ea0016b07b07f4d6087d09cb0fc3463006c8e"
+}

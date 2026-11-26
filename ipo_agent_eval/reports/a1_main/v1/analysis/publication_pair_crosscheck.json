@@ -1,0 +1,491 @@
+{
+  "sources": {
+    "terminal_index_sha256": "8d2ac855f8577f09579355083cb9b50f9aeda5d837e3e29f431bd97f3b0410de",
+    "outbound_mask_sha256": "25268a6ba5b65928d63092aa7aff0083db33bd8bc7762e85fec7fad833176db2",
+    "roster_sha256": "438e093bf95505b2e00fd8a42b76c6b3c553eaeff5bfeb572c6eac5cfc35ab9f"
+  },
+  "method": "독립 구현으로 운영 목록과 확정 중대 집합을 대조했다. 공통 필수와 유보를 제외하고 기업 내 중대×비중대 쌍을 전수 열거했다. 항목 ID 정렬 이전 우선순위가 같으면 반점을 부여하고 기업별 차이에 동일 가중치를 적용했다. 분수로 평균·표본분산을 계산하고 양측 t 분포로 구간을 구했다.",
+  "cohorts": {
+    "전체": {
+      "registered_in_scope": 37,
+      "complete": 27,
+      "valid": 6,
+      "valid_cases": [
+        "20230823000258",
+        "20230912000404",
+        "20230918000204",
+        "20240621000553",
+        "20250328002012",
+        "20251223000517"
+      ],
+      "equal_weight_delta": -0.027281746031746032,
+      "equal_weight_delta_exact": "-55/2016",
+      "descriptive_95_t_interval": [
+        -0.1590905524543751,
+        0.10452706039088301
+      ],
+      "two_sided_p": 0.6174689560350716,
+      "rule_mean": 0.9224537037037037,
+      "ai_mean": 0.8951719576719577,
+      "rank_superiority": null
+    },
+    "워트 제외": {
+      "registered_in_scope": 36,
+      "complete": 26,
+      "valid": 5,
+      "valid_cases": [
+        "20230823000258",
+        "20230918000204",
+        "20240621000553",
+        "20250328002012",
+        "20251223000517"
+      ],
+      "equal_weight_delta": -0.05496031746031746,
+      "equal_weight_delta_exact": "-277/5040",
+      "descriptive_95_t_interval": [
+        -0.201735991668215,
+        0.09181535674758007
+      ],
+      "two_sided_p": 0.35721672839557267,
+      "rule_mean": 0.9291666666666667,
+      "ai_mean": 0.8742063492063492,
+      "rank_superiority": null
+    },
+    "발행사·후보 본인 직접명 제외": {
+      "registered_in_scope": 32,
+      "complete": 23,
+      "valid": 4,
+      "valid_cases": [
+        "20230912000404",
+        "20230918000204",
+        "20250328002012",
+        "20251223000517"
+      ],
+      "equal_weight_delta": -0.005208333333333333,
+      "equal_weight_delta_exact": "-1/192",
+      "descriptive_95_t_interval": [
+        -0.23547894294575722,
+        0.22506227627909053
+      ],
+      "two_sided_p": 0.9471468015181392,
+      "rule_mean": 0.8836805555555556,
+      "ai_mean": 0.8784722222222222,
+      "rank_superiority": null
+    },
+    "제3자 포함 모든 직접명 제외": {
+      "registered_in_scope": 27,
+      "complete": 20,
+      "valid": 4,
+      "valid_cases": [
+        "20230912000404",
+        "20230918000204",
+        "20250328002012",
+        "20251223000517"
+      ],
+      "equal_weight_delta": -0.005208333333333333,
+      "equal_weight_delta_exact": "-1/192",
+      "descriptive_95_t_interval": [
+        -0.23547894294575722,
+        0.22506227627909053
+      ],
+      "two_sided_p": 0.9471468015181392,
+      "rule_mean": 0.8836805555555556,
+      "ai_mean": 0.8784722222222222,
+      "rank_superiority": null
+    }
+  },
+  "complete_case_detail": {
+    "20230818000362": {
+      "issuer": "에스엘에스바이오",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 8,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "a65de820a6bc443187f5eb21c77b26623f804794bb90fffb1fce50979dc92fee",
+      "sealed_grades_sha256": "5ec8c2ac97aacbbe06fcd173aa97a9800658fa34dd0e911c54aeee4ef15f46fd"
+    },
+    "20230925000332": {
+      "issuer": "에코아이",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 6,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "84a0b965549cea5a3f298a1933d2322cfcb7b4281854411ff07526f3b04baf22",
+      "sealed_grades_sha256": "1c0576cbab6101d406b31d22f32ca2811c7a6b83eb2601bb56b3d06069df6986"
+    },
+    "20230927000587": {
+      "issuer": "에스와이스틸텍",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "a21bb842e47c62428dac4cffd4b159456b195b8838b8f7945dc38de7101c8329",
+      "sealed_grades_sha256": "2d9c7c15bce18bc9809dc39e5d821179ce0f0c673d5c5c08c979c508f84cfbb5"
+    },
+    "20240621000553": {
+      "issuer": "산일전기",
+      "confirmed_material_outside_mandatory": 1,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 7,
+      "rule": "1",
+      "ai": "6/7",
+      "delta": "-1/7",
+      "ranking_sha256": "852ec2361dfefd08476303463361d343f5d46f141f41bbc6549c9d2e6b76bd72",
+      "sealed_grades_sha256": "1a7b4ed043df8ec78920208061bc187d87691278bd90f690a3a457a9857abaad"
+    },
+    "20240710000686": {
+      "issuer": "전진건설로봇",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "aa67db484cace1b81e4b85f9e05f6fd1bf21c1d562a21a022a8a32c8fefe6ace",
+      "sealed_grades_sha256": "40e4c0d8152946322e1742073f77757c7708ac281c4a2598820f8c2c8f7d232b"
+    },
+    "20241010000504": {
+      "issuer": "사이냅소프트",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "cae7492b36167dd81213bf667f2c92071d2c9bbdbad12e889b4f5207927ed298",
+      "sealed_grades_sha256": "65f7102199df217dbdf29ccc12ea505dd93e54f332fe39d2f4103c7298b80c9e"
+    },
+    "20241018000518": {
+      "issuer": "벡트로보틱스",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 8,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "03aa936126ed0720052d7050a52cd04a16c3d17a51851efcdb9fdd83e4a61b90",
+      "sealed_grades_sha256": "253e3266a8d6f93c710ae92564f9f30a1b9a31b35f39eee134f696cdfae912fa"
+    },
+    "20241118000273": {
+      "issuer": "모티브링크",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "16033c4c3d4b8a41a1f3596a72be55c8463b4106e2862132b9fb3297f5fb5581",
+      "sealed_grades_sha256": "2f8e761f942462332664f0fc9a3db0b0b57a9c7e1b7739d994010693389b32c9"
+    },
+    "20241213000457": {
+      "issuer": "위너스일렉",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "47e8ff94ea38b197c6056c794493ff7f022f893b2e980cd225b52ca546b8e741",
+      "sealed_grades_sha256": "43f39e848611d943f17dfc1239987ad14beefa5f6ae5781c7203301cef13c3eb"
+    },
+    "20230823000258": {
+      "issuer": "레뷰코퍼레이션",
+      "confirmed_material_outside_mandatory": 1,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 7,
+      "rule": "1",
+      "ai": "1",
+      "delta": "0",
+      "ranking_sha256": "6cdbe7ef8b7269e30ffe8540298cccd518820d403ffce00a4cf861725efe4e1d",
+      "sealed_grades_sha256": "2a2a4eacdb3ee57ce0b4d2073ba8375659d95d8bcdf2e31b98686b9537f8bf30"
+    },
+    "20250107000412": {
+      "issuer": "엘케이켐",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 9,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "7383cd4c644b064cb04bb35b0b76fa9700ce66d8312ec5bd53c25a55653f1ecd",
+      "sealed_grades_sha256": "ff303485786f7d4e02cbd9dedc3328346d6862ee20bbe4c1bf4a5cf2ba43cc9b"
+    },
+    "20250908000140": {
+      "issuer": "이노테크",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 10,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "f16e593c1a362fce8053e0ee5059e9487847d6c4f81c1caaee784ddf6a139a1e",
+      "sealed_grades_sha256": "5f898b70479972f25063fbad0f2251f746a25018cce16fd6ce2c4fa5a6ca68d5"
+    },
+    "20230906000217": {
+      "issuer": "유투바이오",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 8,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "5edc65324fa85f279ac5f9cec8a66086ef941c3031c1ef737b04a1804d571fc6",
+      "sealed_grades_sha256": "e935ecfc1403fc6a374426a63893bfc5682fba6854eeb92085f6d13d74c67ee0"
+    },
+    "20240520000263": {
+      "issuer": "시프트업",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "c46023d185cdf0d66b20647c746fba33db8634453ec532d8c09981b77fe7e71f",
+      "sealed_grades_sha256": "c18a94a154f52de0f67a962ff8fe381ba1baa68fd8b563b05f3229094167ade3"
+    },
+    "20250908000329": {
+      "issuer": "세나테크놀로지",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 10,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "dc74fb4a9eee218a6ade2f7a8890dddba00be9a4a556a1770b45745e5465f645",
+      "sealed_grades_sha256": "b0eabedd2ad52dceaf750acad84fba87c15e81172a086c3af81768de23a75455"
+    },
+    "20240621000344": {
+      "issuer": "티디에스팜",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "6843e67175ed978833e6b5e929a9bb9ba9d0ddc15430da1dd390230810b093b0",
+      "sealed_grades_sha256": "b2939a7cf473ab56e325dcfd3587195d7e82f4155cf9910ed70dab2db8ee2328"
+    },
+    "20250207000496": {
+      "issuer": "에이유브랜즈",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 11,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "e8b64f07874284c26988362d9146436deed3d8e139d1a730454478db4de0ccbf",
+      "sealed_grades_sha256": "d1e5379a1169518d032286e0ddfff7151bfe97f8e792cd69419ba01d5d5b49b9"
+    },
+    "20250930000546": {
+      "issuer": "아로마티카",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 7,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "7cb40899d72f976543b467c4ad6b23a62c1a2d44e414c779d9aef8f173b4336e",
+      "sealed_grades_sha256": "e4ed90f175806ce9789b3f3314808a20288ef3bbb4d072ea0a8d01b4db9e644d"
+    },
+    "20230912000404": {
+      "issuer": "워트",
+      "confirmed_material_outside_mandatory": 2,
+      "confirmed_nonmaterial_outside_mandatory": 9,
+      "within_issuer_pairs": 18,
+      "rule": "8/9",
+      "ai": "1",
+      "delta": "1/9",
+      "ranking_sha256": "b2b6a31d9b85b7dc2fc8fd0df300e24ab9640aec7a0ccfcf4997778307677622",
+      "sealed_grades_sha256": "b96916157afd966fa85cfde414764e9c8ba5e818027d5cd8c62bcad170585a2b"
+    },
+    "20250320001180": {
+      "issuer": "원일티엔아이",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 6,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "fc33b918d01030ddafcf131244c99f80f7847c5181d8d906022392c03e940bc6",
+      "sealed_grades_sha256": "83202e1c7d7ccd6870231c655a5ee69f943954ab785284702e664663d4282c8b"
+    },
+    "20251001000684": {
+      "issuer": "씨엠티엑스",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 9,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "0852907254033dc38071cf2fb8e697fbfce071ec683e891dca6711aee44d3c1b",
+      "sealed_grades_sha256": "c54cd699d1f14257aa7d04020e1fa5c3b1a7cf3d518d2016a9b4532d0b21c9cc"
+    },
+    "20230915000263": {
+      "issuer": "에이직랜드",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 12,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "8272818ad77b11cba4f1315b847682067b2e4260e4a9084d258be74f92c1f98c",
+      "sealed_grades_sha256": "263b3f4990a4b283b9bacfdb4c45995bbc3ee4d86d5014cbda8695e356799aee"
+    },
+    "20250324000841": {
+      "issuer": "바이오비쥬",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 8,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "19288ad431dcd94cb248f6bfb56cbf68669a9b82516f047db287f8a31f7d4694",
+      "sealed_grades_sha256": "75c0546497b86fb3092316284b9419b9ba7c3eaa35afd1c62a80964bfda07c65"
+    },
+    "20250325000608": {
+      "issuer": "달바글로벌",
+      "confirmed_material_outside_mandatory": 0,
+      "confirmed_nonmaterial_outside_mandatory": 8,
+      "within_issuer_pairs": 0,
+      "rule": null,
+      "ai": null,
+      "delta": null,
+      "ranking_sha256": "8cae734e13c7c82ac99453c92e1dbe9ca5ea42cf1ad70fc9cad626b4959e0552",
+      "sealed_grades_sha256": "0678b4b8e56b855ac6ad57267a969e448f8a2ff222171443bfccfd3038e86e7e"
+    },
+    "20251223000517": {
+      "issuer": "액스비스",
+      "confirmed_material_outside_mandatory": 1,
+      "confirmed_nonmaterial_outside_mandatory": 8,
+      "within_issuer_pairs": 8,
+      "rule": "13/16",
+      "ai": "5/8",
+      "delta": "-3/16",
+      "ranking_sha256": "2fa2b5a2f237b3287f079bbce38842025c591db0bbede359cb52bcced65b4ad5",
+      "sealed_grades_sha256": "351a0d1f106269d9b3a34f1d6e66dcbecc9d217b12d704125ede1b2ae248bfd7"
+    },
+    "20230918000204": {
+      "issuer": "스톰테크",
+      "confirmed_material_outside_mandatory": 2,
+      "confirmed_nonmaterial_outside_mandatory": 9,
+      "within_issuer_pairs": 18,
+      "rule": "17/18",
+      "ai": "8/9",
+      "delta": "-1/18",
+      "ranking_sha256": "771a4ddcc1f60e4636b40e6b62f684ceec26fb8bd20bda173f8e5015c063db62",
+      "sealed_grades_sha256": "ff5965482127be483ab7128e9d10b874d5bbf7592c708bd9329b770f9fd36514"
+    },
+    "20250328002012": {
+      "issuer": "키스트론",
+      "confirmed_material_outside_mandatory": 1,
+      "confirmed_nonmaterial_outside_mandatory": 9,
+      "within_issuer_pairs": 9,
+      "rule": "8/9",
+      "ai": "1",
+      "delta": "1/9",
+      "ranking_sha256": "cbe76ae593c80da6d7828486139c149c0ec5e20a24a01603597e635f413d56a1",
+      "sealed_grades_sha256": "3d30b5e33dea4ece881f87c694fc06d9443ae6295a0ce88fefddcaf0d51fb6fd"
+    }
+  },
+  "operating_exclusive_confirmed_material": {
+    "rule": [
+      {
+        "issuer": "산일전기",
+        "case": "20240621000553",
+        "item": "20240621000553-08"
+      }
+    ],
+    "ai": [
+      {
+        "issuer": "워트",
+        "case": "20230912000404",
+        "item": "20230912000404-11"
+      },
+      {
+        "issuer": "키스트론",
+        "case": "20250328002012",
+        "item": "20250328002012-10"
+      }
+    ]
+  },
+  "operating_material_counts_on_complete_pairs": {
+    "rule_caught": 2,
+    "ai_caught": 3,
+    "both": 1,
+    "neither": 4,
+    "material_universe": 8
+  },
+  "registered": 37,
+  "complete_pairs": 27,
+  "incomplete_pairs": 10,
+  "incomplete_cases": [
+    {
+      "case": "20230822000424",
+      "issuer": "한싹",
+      "selection": "failure",
+      "grading": "sealed"
+    },
+    {
+      "case": "20230728000416",
+      "issuer": "인스웨이브시스템즈",
+      "selection": "failure",
+      "grading": "sealed"
+    },
+    {
+      "case": "20231222000680",
+      "issuer": "에이피알",
+      "selection": "failure",
+      "grading": "second_failed"
+    },
+    {
+      "case": "20241129001313",
+      "issuer": "피아이이",
+      "selection": "ranking",
+      "grading": "first_failed"
+    },
+    {
+      "case": "20241205000577",
+      "issuer": "LG씨엔에스",
+      "selection": "ranking",
+      "grading": "first_failed"
+    },
+    {
+      "case": "20240305000170",
+      "issuer": "노브랜드",
+      "selection": "preparation",
+      "grading": "sealed"
+    },
+    {
+      "case": "20250120000464",
+      "issuer": "더즌",
+      "selection": "ranking",
+      "grading": "first_failed"
+    },
+    {
+      "case": "20230911000405",
+      "issuer": "비아이매트릭스",
+      "selection": "ranking",
+      "grading": "first_failed"
+    },
+    {
+      "case": "20251103000252",
+      "issuer": "삼진식품",
+      "selection": "ranking",
+      "grading": "first_failed"
+    },
+    {
+      "case": "20230915000281",
+      "issuer": "유진테크놀로지",
+      "selection": "failure",
+      "grading": "sealed"
+    }
+  ],
+  "rank_conclusion": "유효 6곳으로 사전 기준 15곳에 미달한다. 순위 우위 판정은 유보하고 점추정치와 기술적 구간을 보고한다.",
+  "operating_conclusion": "완료 27곳에서는 규칙만 이관한 확정 중대 1건, A1만 이관한 확정 중대 2건이다. 프로토콜은 전체 37곳의 기준표·양쪽 운영 목록·공통 필수 보존 확인을 판정 요건으로 둔다. 결측을 포함한 전체 운영 기준 판정은 미확정이며, 관측된 추가 누락은 따로 보고한다."
+}

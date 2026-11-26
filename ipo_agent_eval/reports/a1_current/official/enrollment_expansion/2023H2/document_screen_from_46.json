@@ -1,0 +1,1556 @@
+{
+  "scope": "original public filing methods and listing purpose only",
+  "cache_name": "ipo_a1_enrollment_2023h2",
+  "rows": [
+    {
+      "receipt": "20230926000349",
+      "corp_code": "00923516",
+      "issuer": "메가터치",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230926000349",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-09-26",
+      "time_precision": "date",
+      "official_title": "메가터치/증권신고서(지분증권)/2023.09.26",
+      "family_metadata": [
+        {
+          "receipt": "20231030000175",
+          "caption": "2023.10.30 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231017000257",
+          "caption": "2023.10.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230926000349",
+          "caption": "2023.09.26 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230926000349&dcm_no=9443101",
+      "pdf_sha256": "d39389c0ff76b7548e60b19cf4e318a65eee3137592fb676a14e7f78ffde9fc6",
+      "pdf_pages": 387,
+      "ipo_purpose_locators": [
+        {
+          "page": 31,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집(매출)하는것으로상장예비심사신청서를제출(2023년6월08일)하여한국거래소로부터상장예비심사승인(2023년9월14일)을받았습니다.그결과금번공모완료후,신"
+        }
+      ],
+      "underwriter_physical_range": [
+        191,
+        278
+      ],
+      "method_tables": [
+        {
+          "physical_page": 250,
+          "historical_markers": [
+            "2023년상반기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 264,
+          "historical_markers": [
+            "2022년3분기",
+            "2022년반기",
+            "2023년1분기",
+            "2023년2분기",
+            "2023년반기",
+            "LTM",
+            "최근4개분기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "상기에서 산출한 기준주가 및 비교기업의 2023년 2분기 기준 LTM(2022년 3분기 ~",
+            "2023년 2분기)의 (지배주주)순이익을 비교하여 아래와 같이 적용 PER을 산출하였습니다.",
+            "(가) 적용 PER 배수 산출",
+            "[2023년 반기 기준 LTM (22년 3분기~23년 2분기) 실적을 적용 한 비교기업 PER 산출]",
+            "적용 당기순이익9,303,157,708 4,926,828,682 5,687,396,606 14,066,537,077 2,604,979,130",
+            "적용 PER 30.79",
+            "주1) 적용 순이익은 2023년 반기말 기준 최근 4개 분기(2022년 3분기~2023년 2분기) 당기순이익(연결재무제표 작성법인의 경우 지배주주 귀속 당기순이익",
+            "(나) 주당 평가가액 산출"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20230926000603",
+      "corp_code": "00129280",
+      "issuer": "삼화전자공업",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 5,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230926000603",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2023-09-26",
+      "time_precision": "date",
+      "official_title": "삼화전자공업/증권신고서(지분증권)/2023.09.26",
+      "family_metadata": [
+        {
+          "receipt": "20231205000051",
+          "caption": "2023.12.05 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231121000315",
+          "caption": "2023.11.21 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231113000544",
+          "caption": "2023.11.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231101000006",
+          "caption": "2023.11.01 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231031000314",
+          "caption": "2023.10.31 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231017000224",
+          "caption": "2023.10.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20230926000603",
+          "caption": "2023.09.26 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20230926000603&dcm_no=9443933",
+      "pdf_sha256": "c08e7039df6e545e8f5dec7dc56e8a8b55394bd0ad7ca9a4e75d421d08a02c2c",
+      "pdf_pages": 353,
+      "ipo_purpose_locators": [],
+      "underwriter_physical_range": [
+        115,
+        121
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231005000251",
+      "corp_code": "01226234",
+      "issuer": "와이바이오로직스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231005000251",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-10-05",
+      "time_precision": "date",
+      "official_title": "와이바이오로직스/증권신고서(지분증권)/2023.10.05",
+      "family_metadata": [
+        {
+          "receipt": "20231121000049",
+          "caption": "2023.11.21 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231103000365",
+          "caption": "2023.11.03 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231023000188",
+          "caption": "2023.10.23 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231005000251",
+          "caption": "2023.10.05 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231005000251&dcm_no=9449190",
+      "pdf_sha256": "4c5a4d549ab603f0b829afdc903ae9243797c18a60ea4c2c4e1e535d76ac8ae0",
+      "pdf_pages": 584,
+      "ipo_purpose_locators": [
+        {
+          "page": 22,
+          "brief_anchor": "당사는기준을충족하는총4개사(동아에스티,HK이노엔,JW중외제약,삼진제약)를최종비교기업으로선정하였습니다.그러나비교참고회사선정기준의임의성및기타주식가치에영향을미칠수있는사항의차이점으로인해비"
+        },
+        {
+          "page": 31,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집하는것으로2023년03월16일상장예비심사신청서를제출하여2023년09월21일한국거래소로부터신규상장예비심사승인을받았습니다.신규상장신청주7)전주식의분산요"
+        }
+      ],
+      "underwriter_physical_range": [
+        194,
+        339
+      ],
+      "method_tables": [
+        {
+          "physical_page": 246,
+          "historical_markers": [
+            "2023년2분기"
+          ],
+          "forecast_markers": [
+            "순이익추정"
+          ],
+          "row_anchors": [
+            "동사의 주당 평가가액은 동사의 2024년과 2025년 추정 주당순이익의 현가를 기준으로",
+            "또한, 동사의 주당순이익 추정을 위한 여러 가정 및 추정 주당순이익을 사업위험을 감안한",
+            "상회사의 주가변동에 의하여 동사의 주당 평가가액도 변화할 수 있습니다."
+          ]
+        },
+        {
+          "physical_page": 258,
+          "historical_markers": [
+            "2022년3분기",
+            "2023년2분기",
+            "2023년반기",
+            "최근4개분기"
+          ],
+          "forecast_markers": [
+            "추정당기순이익"
+          ],
+          "row_anchors": [
+            "상기에서 산출한 기준주가 및 비교기업의 최근 4개 분기 (지배주주)순이익 수치를 비교하여",
+            "아래와 같이 적용 PER을 산출하였습니다.",
+            "[최근 4개 분기 실적 기준 PER 산출]",
+            "적용 PER 22.46",
+            "적용 순이익은 2023년 반기말 기준 최근 4개분기(2022년 3분기 ~ 2023년 2분기) 당기순",
+            "(다) 주당 평가가액 산출"
+          ]
+        },
+        {
+          "physical_page": 259,
+          "historical_markers": [
+            "2022년3분기",
+            "2023년2분기",
+            "2023년반기",
+            "최근4개분기"
+          ],
+          "forecast_markers": [
+            "추정당기순이익"
+          ],
+          "row_anchors": [
+            "2024년 추정 당기순이익 (A) 7,957 백만원 주1)",
+            "2025년 추정 당기순이익 (B) 24,702 백만원 주1)",
+            "2024년 및 2025년 추정 당기순이익의 현 C = [A / (1.25^1.5) +",
+            "2023년 반기말 기준 주당순이익 (D) 619 원 D = B / C",
+            "적용 PER (E) 22.46 배 -",
+            "주당 평가가액 (F) 13,910 원 F= D X E",
+            "추정 당기순이익 산정 내역은 '다. 추정 당기순이익 산정 내역'을 참고하시기 바랍니다. 금번",
+            "공모가격 산정을 위하여 2024년 및 2025년 추정 당기순이익을 적용한 이유는 동사의 주요"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231005000503",
+      "corp_code": "01370863",
+      "issuer": "그린리소스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231005000503",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-10-05",
+      "time_precision": "date",
+      "official_title": "그린리소스/증권신고서(지분증권)/2023.10.05",
+      "family_metadata": [
+        {
+          "receipt": "20231110000300",
+          "caption": "2023.11.10 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231017000143",
+          "caption": "2023.10.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231016000295",
+          "caption": "2023.10.16 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231005000503",
+          "caption": "2023.10.05 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231005000503&dcm_no=9450283",
+      "pdf_sha256": "795b1a12cda804790b35114e9957d296976d61c1cda2d660ce59e70e4df866bb",
+      "pdf_pages": 505,
+      "ipo_purpose_locators": [
+        {
+          "page": 23,
+          "brief_anchor": "금번공모는「코스닥시장상장규정」제28조제1항제1호에서규정하고있는주식의분산요건을충족할목적"
+        },
+        {
+          "page": 29,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집(매출)하는것으로상장예비심사신청서를제출(2023년4월20일)하여한국거래소로부터상장예비심사승인(2023년8월13일)을받았습니다.그결과금번공모완료후,신"
+        },
+        {
+          "page": 36,
+          "brief_anchor": "금번공모는「증권인수업무등에관한규정」제10조의3제1항에해당하지않으므로일반청약자에대한환매청구권을부여하주6)지않습니다.다.매출의방법등금번㈜그린리소스의코스닥시장상장을위한공모는100%신주모"
+        }
+      ],
+      "underwriter_physical_range": [
+        201,
+        305
+      ],
+      "method_tables": [
+        {
+          "physical_page": 256,
+          "historical_markers": [],
+          "forecast_markers": [],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 278,
+          "historical_markers": [
+            "2022년3분기",
+            "2023년반기",
+            "최근12개월",
+            "최근4개분기"
+          ],
+          "forecast_markers": [
+            "추정당기순이익",
+            "추정순이익"
+          ],
+          "row_anchors": [
+            "(나) 미래 추정순이익 기준 주당 평가가액 산출",
+            "2024년 추정 당기순이익 11,954백만원 A (주1)",
+            "2024년 추정 당기순이익의 2023년 반기말 현가 9,093백만원 B = A ÷ (1.20^1.50)",
+            "2025년 추정 당기순이익 21,611백만원 C (주1)",
+            "2025년 추정 당기순이익의 2023년 반기말 현가 13,700백만원 D = C ÷ (1.20^2.50)",
+            "2024년 및 2025년 추정 당기순이익의 2023년 반기말",
+            "2023년 반기말 기준 적용 주당순이익 1,368원 G = E ÷ F",
+            "적용 PER 13.80배 H (주4)"
+          ]
+        },
+        {
+          "physical_page": 281,
+          "historical_markers": [
+            "2023년반기",
+            "최근4개분기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "주4) 적용 PER은 비교기업의 2023년 반기 기준 최근 4개분기 (지배지분)당기순이익 기준 PER입니다.",
+            "주당 평가가액 18,882원 -"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231006000410",
+      "corp_code": "01444380",
+      "issuer": "에이텀",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231006000410",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-10-06",
+      "time_precision": "date",
+      "official_title": "에이텀/증권신고서(지분증권)/2023.10.06",
+      "family_metadata": [
+        {
+          "receipt": "20231117000115",
+          "caption": "2023.11.17 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231023000120",
+          "caption": "2023.10.23 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231006000410",
+          "caption": "2023.10.06 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231006000410&dcm_no=9451789",
+      "pdf_sha256": "5852da172be0bf33373393e242f4acec76f546061faae9c1a3e6802e763c0bda",
+      "pdf_pages": 433,
+      "ipo_purpose_locators": [
+        {
+          "page": 17,
+          "brief_anchor": "당사는금번코스닥시장상장을통해650,000주및상장주선인의무인수분19,500주를감안할시공모"
+        },
+        {
+          "page": 19,
+          "brief_anchor": "금번공모는「코스닥시장상장규정」제28조제1항제1호에서규정하고있는주식의분산요건을충족할목적"
+        },
+        {
+          "page": 25,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집하는것으로2023년06월13일상장예비심사주7)신청"
+        },
+        {
+          "page": 31,
+          "brief_anchor": "금번공모는「증권인수업무등에관한규정」제10조의3제1항에해당하지않으므로일반청약자에대한환매청구권을부여하지주9)않습니다.다.매출의방법등금번㈜에이텀의코스닥시장상장공모는100%신주모집"
+        },
+        {
+          "page": 66,
+          "brief_anchor": "상장예비심사승인"
+        },
+        {
+          "page": 70,
+          "brief_anchor": "당사는금번코스닥시장상장을위한공모"
+        }
+      ],
+      "underwriter_physical_range": [
+        135,
+        194
+      ],
+      "method_tables": [
+        {
+          "physical_page": 164,
+          "historical_markers": [],
+          "forecast_markers": [
+            "순이익추정"
+          ],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 165,
+          "historical_markers": [
+            "2022년반기",
+            "2023년반기",
+            "2023년상반기",
+            "온기",
+            "최근12개월"
+          ],
+          "forecast_markers": [
+            "순이익추정"
+          ],
+          "row_anchors": [
+            "동사의 주당 평가가액은 동사의 전기차용 트랜스 부문 매출액이 본격적으로 상승될 것으로",
+            "또한, 동사의 2026년 말의 주당순이익 추정을 위한 여러 가정 및 추정 주당순이익을 사업위",
+            "있는 비교대상회사의 주가변동에 의하여 동사의 주당 평가가액도 변화할 수 있습니다."
+          ]
+        },
+        {
+          "physical_page": 178,
+          "historical_markers": [
+            "2022년3분기",
+            "2023년2분기",
+            "2023년상반기",
+            "LTM",
+            "최근4개분기"
+          ],
+          "forecast_markers": [
+            "추정당기순이익"
+          ],
+          "row_anchors": [
+            "적용 순이익은 2023년 상반기말 기준 최근 4개분기(2022년 3분기 ~ 2023년 2분기) 당기순",
+            "(다) 주당 평가가액 산출",
+            "추정 당기순이익",
+            "추정 당기순이익 현가",
+            "적용 PER 19.46배 (E)",
+            "주당 평가가액 40,043원 (F) = (D) × (E)",
+            "2025년 7월 ~ 2026년 6월 추정 당기순이익 산정내역은 하기 \"다. 추정 당기순이익 산정내",
+            "준을 달성할 것으로 예상되는 시점의 추정 당기순이익에 PER을 적용하는 것이 가장 타당할"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231006000573",
+      "corp_code": "00110884",
+      "issuer": "엠젠솔루션",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231006000573",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2023-10-06",
+      "time_precision": "date",
+      "official_title": "엠젠솔루션/증권신고서(지분증권)/2023.10.06",
+      "family_metadata": [
+        {
+          "receipt": "20231211000279",
+          "caption": "2023.12.11 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231115000308",
+          "caption": "2023.11.15 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231107000072",
+          "caption": "2023.11.07 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231023000066",
+          "caption": "2023.10.23 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231006000573",
+          "caption": "2023.10.06 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231006000573&dcm_no=9452500",
+      "pdf_sha256": "c2b3cc1d48ac14a6061e4e7cad115418882520a302387f994810e539ba413231",
+      "pdf_pages": 340,
+      "ipo_purpose_locators": [],
+      "underwriter_physical_range": [
+        116,
+        121
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231013000344",
+      "corp_code": "01559637",
+      "issuer": "블루엠텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231013000344",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER 산정표 미확인",
+      "date_kst": "2023-10-13",
+      "time_precision": "date",
+      "official_title": "블루엠텍/증권신고서(지분증권)/2023.10.13",
+      "family_metadata": [
+        {
+          "receipt": "20231130001738",
+          "caption": "2023.11.30 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231130001727",
+          "caption": "2023.11.30 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231130001637",
+          "caption": "2023.11.30 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231123000493",
+          "caption": "2023.11.23 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231117000263",
+          "caption": "2023.11.17 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231116000029",
+          "caption": "2023.11.16 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231103000194",
+          "caption": "2023.11.03 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231030000306",
+          "caption": "2023.10.30 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231013000344",
+          "caption": "2023.10.13 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231013000344&dcm_no=9458715",
+      "pdf_sha256": "b451de7ea1ac8974ce3f0b12eed31429732e6252e2f7cf8de90f8797b3dadac5",
+      "pdf_pages": 443,
+      "ipo_purpose_locators": [
+        {
+          "page": 21,
+          "brief_anchor": "금번공모는「코스닥시장상장규정」제28조제1항제1호에서규정하고있는주식의분산요건을충족할목적"
+        },
+        {
+          "page": 30,
+          "brief_anchor": "본주식은한국거래소내코스닥시장상장을목적으로모집하는것으로2023년06월09일상장예비심사신청"
+        }
+      ],
+      "underwriter_physical_range": [
+        212,
+        277
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231013000470",
+      "corp_code": "00367710",
+      "issuer": "동인기연",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231013000470",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-10-13",
+      "time_precision": "date",
+      "official_title": "동인기연/증권신고서(지분증권)/2023.10.13",
+      "family_metadata": [
+        {
+          "receipt": "20231108000361",
+          "caption": "2023.11.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231102000208",
+          "caption": "2023.11.02 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231013000470",
+          "caption": "2023.10.13 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231013000470&dcm_no=9459267",
+      "pdf_sha256": "b5d39375e290a45cb3e0a79ef3c293fa7ebf60f63a26887402f895bbc8c18cb9",
+      "pdf_pages": 581,
+      "ipo_purpose_locators": [
+        {
+          "page": 31,
+          "brief_anchor": "당사는금번유가증권시장상장을위한공모"
+        },
+        {
+          "page": 33,
+          "brief_anchor": "당사는2023년8월01일한국거래소에상장예비심사신청서를제출하여2023년10월11일상장예비심사승인을통지받았으며,유가증권시장에상장하기위해서는「유가증권시장상장규정」에따라2023년4월10일"
+        },
+        {
+          "page": 37,
+          "brief_anchor": "본주식은유가증권시장상장을목적으로모집(매출)하는것으로상장예비심사신청서를제출(2023년08월01일)하여한국거래소로부터상장예비심사승인(2023년10월11일)을받았습니다.그결과금번공모완료"
+        }
+      ],
+      "underwriter_physical_range": [
+        253,
+        342
+      ],
+      "method_tables": [
+        {
+          "physical_page": 325,
+          "historical_markers": [
+            "2022년3분기",
+            "2022년반기",
+            "2023년2분기",
+            "2023년반기",
+            "LTM",
+            "최근4개분기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "2) 주당 평가가액 산출",
+            "적용 당기순이익 26,803,963,724 A, 주1)",
+            "적용 PER 12.22 D, 주3)",
+            "주당 평가가액 50,310 E = C × D",
+            "적용순이익은 동사의 2023년 반기 LTM 기준의 적용 순이익으로, 다음과 같습니다.",
+            "2023년 반기 당기순 2022년 당기순이 2022년 반기순이 2023년 반기 LTM 순"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231016000118",
+      "corp_code": "00958451",
+      "issuer": "한선엔지니어링",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231016000118",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-10-16",
+      "time_precision": "date",
+      "official_title": "한선엔지니어링/증권신고서(지분증권)/2023.10.16",
+      "family_metadata": [
+        {
+          "receipt": "20231110000103",
+          "caption": "2023.11.10 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231027000171",
+          "caption": "2023.10.27 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231016000118",
+          "caption": "2023.10.16 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231016000118&dcm_no=9460002",
+      "pdf_sha256": "62a71a81e7245bccfd13baea2419ab83d92628c1728e6dc03c1e1b0fe8a4b4a1",
+      "pdf_pages": 381,
+      "ipo_purpose_locators": [
+        {
+          "page": 23,
+          "brief_anchor": "당사는금번코스닥시장상장을위한공모"
+        },
+        {
+          "page": 26,
+          "brief_anchor": "당사는금번공모를통해조달한신주모집금액에서발행제비용을차감한순수입금의사용계획을결정함에있어상당한재량권을보유하고있으며,투자자는당사의결정사항에반드시동의하지않을수있습니다.퍼.상장주선인의의무인수"
+        },
+        {
+          "page": 31,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집하는것으로2023년5월3일상장예비심사신청서를제출하여2023년10월12일한국거래소로부터신규상장예비심사승인을받았습니다.신규상장신청전주7)주식의분산요건("
+        },
+        {
+          "page": 38,
+          "brief_anchor": "금번공모는「증권인수업무등에관한규정」제10조의3제1항에해당하지않으므로일반청약자에주6)대한환매청구권을부여하지않습니다.다.매출의방법등금번한선엔지니어링주식회사의코스닥시장상장을위한공모는10"
+        }
+      ],
+      "underwriter_physical_range": [
+        182,
+        245
+      ],
+      "method_tables": [
+        {
+          "physical_page": 225,
+          "historical_markers": [],
+          "forecast_markers": [],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 235,
+          "historical_markers": [
+            "2023년반기",
+            "2023년상반기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "1) 적용 PER 배수 산출",
+            "적용 PER(배) 29.68 12.54 15.99",
+            "적용 순이익은 2023년 상반기 당기순이익을 연환산한 금액입니다. 연결재무제표 작성법인의 경우 지배주주 귀속순",
+            "2) 주당 평가가액 산출",
+            "적용 당기순이익 6,804,669,270 A, 주1)"
+          ]
+        },
+        {
+          "physical_page": 236,
+          "historical_markers": [
+            "2023년상반기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "적용 PER 19.40 D, 주3)",
+            "주당 평가가액 7,760 E = C × D",
+            "주1) 적용 순이익은 2023년 상반기 당기순이익을 연환산한 금액입니다.",
+            "적용 PER는 유사회사의 2023년 상반기 당기순이익(지배지분)을 연환산한 실적 기준으로",
+            "비교가치 주당 평가가액 7,760원"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231018000371",
+      "corp_code": "00104768",
+      "issuer": "가온전선",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231018000371",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2023-10-18",
+      "time_precision": "date",
+      "official_title": "가온전선/증권신고서(지분증권)/2023.10.18",
+      "family_metadata": [
+        {
+          "receipt": "20231214000052",
+          "caption": "2023.12.14 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231120000794",
+          "caption": "2023.11.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231108000047",
+          "caption": "2023.11.08 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231018000371",
+          "caption": "2023.10.18 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231018000371&dcm_no=9463461",
+      "pdf_sha256": "89284b920d107b7b24e1d667c32f13c500c4a710b8ee2caa4841c36ad8badc07",
+      "pdf_pages": 333,
+      "ipo_purpose_locators": [],
+      "underwriter_physical_range": [
+        120,
+        120
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231019000296",
+      "corp_code": "00138297",
+      "issuer": "STX",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231019000296",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2023-10-19",
+      "time_precision": "date",
+      "official_title": "STX/증권신고서(지분증권)/2023.10.19",
+      "family_metadata": [
+        {
+          "receipt": "20231206000052",
+          "caption": "2023.12.06 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231114002949",
+          "caption": "2023.11.14 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231103000266",
+          "caption": "2023.11.03 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231030000470",
+          "caption": "2023.10.30 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231019000296",
+          "caption": "2023.10.19 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231019000296&dcm_no=9464432",
+      "pdf_sha256": "c21cf2488a57d0ac504a860d5ef102e004dc29d3127e4fc0297e8ac0370312a1",
+      "pdf_pages": 316,
+      "ipo_purpose_locators": [],
+      "underwriter_physical_range": [
+        142,
+        147
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231020000398",
+      "corp_code": "01538528",
+      "issuer": "에이에스텍",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231020000398",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-10-20",
+      "time_precision": "date",
+      "official_title": "에이에스텍/증권신고서(지분증권)/2023.10.20",
+      "family_metadata": [
+        {
+          "receipt": "20231115000157",
+          "caption": "2023.11.15 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231031000337",
+          "caption": "2023.10.31 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231020000398",
+          "caption": "2023.10.20 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231020000398&dcm_no=9466136",
+      "pdf_sha256": "f264536746043e823239d76a62b6f0d040edecf07ae0746e348e66a6866a872b",
+      "pdf_pages": 321,
+      "ipo_purpose_locators": [
+        {
+          "page": 19,
+          "brief_anchor": "금번공모는코스닥시장상장규정에서규정하고있는주식의분산요건충족할목적"
+        },
+        {
+          "page": 22,
+          "brief_anchor": "당사는금번공모를통해조달한신주모집금액에서발행제비용을차감한순수입금의사용계획을결정함에있어상당한재량권을보유하고있으며,투자자가당사의결정사항에동의하지않는목적으로사용할수있으며,투자자께서는이점을"
+        },
+        {
+          "page": 27,
+          "brief_anchor": "본주식은한국거래소내코스닥시장상장을목적으로모집(매출)하는것으로2023년05월26일상장예비심사신청"
+        }
+      ],
+      "underwriter_physical_range": [
+        147,
+        190
+      ],
+      "method_tables": [
+        {
+          "physical_page": 175,
+          "historical_markers": [
+            "2023년반기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 184,
+          "historical_markers": [
+            "2023년당기순이익",
+            "2023년반기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "PER 평가방법을 적용한 상대가치는 최근 사업연도 반기 연환산 실적을 기준으로 산출한 비교기업들",
+            "의 산술평균 PER 배수에 동사의 2023년 반기순이익을 2023년 기말 기준으로 환산한 수치를 적용하",
+            "동사의 2023년 당기순이익을 반기기준의 순이익을 연환산하여 상대가치를 산정하기 때문에 동사 미",
+            "[ 2023년 반기 기준 연환산 실적을 적용한 PER 산출 ]",
+            "연환산 당기 순이익 (B) 15,151,732 8,638,050 4,264,562 4,081,793",
+            "적용 PER 배수는 유사기업의 2023년 반기 기준 연환산 실적(연결재무제표 작성 기업의 경우 지배지분 당기순이",
+            "② 주당 평가가액 산출"
+          ]
+        },
+        {
+          "physical_page": 185,
+          "historical_markers": [
+            "2023년당기순이익",
+            "2023년반기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "2023년 반기 순이익 4,463,073 천원 A",
+            "2023년 반기 조정순이익 (주1) 5,681,733 천원 B",
+            "적용 당기순이익 (주2) 11,363,466 천원 C = B × 2",
+            "적용 PER 배수 (주3) 16.05 D",
+            "주당 평가가액 32,033 원 G = E ÷ F",
+            "* 2023년 반기 순이익 4,463,073천원 (+) 파생상품평가손실 2,901,075천원 (-) 전환상환우선주전환이익",
+            "1,682,415천원= 2023년 반기 조정순이익 5,681,733천원",
+            "주2) 2023년도 반기 조정순이익을 연환산한 수치입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231023000060",
+      "corp_code": "01528141",
+      "issuer": "LS머트리얼즈",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 6,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231023000060",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER 산정표 미확인",
+      "date_kst": "2023-10-23",
+      "time_precision": "date",
+      "official_title": "LS머트리얼즈/증권신고서(지분증권)/2023.10.23",
+      "family_metadata": [
+        {
+          "receipt": "20231130001608",
+          "caption": "2023.11.30 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231121000344",
+          "caption": "2023.11.21 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231113000272",
+          "caption": "2023.11.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231106000310",
+          "caption": "2023.11.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231102000251",
+          "caption": "2023.11.02 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231023000060",
+          "caption": "2023.10.23 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231023000060&dcm_no=9467078",
+      "pdf_sha256": "8349d1f635f36e6ddaba2d42084deaaf5c0de59e8a5df7b19543ea75f81bb163",
+      "pdf_pages": 548,
+      "ipo_purpose_locators": [
+        {
+          "page": 30,
+          "brief_anchor": "당사는금번유가증권시장상장을위한공모에서\"초과배정옵션\"에관한계약을체결하지않았습니다.러.코스닥시장상장요건미충족위험금번공모는「코스닥시장상장규정」에서규정하고있는주식의분산요건을충족할목적"
+        },
+        {
+          "page": 32,
+          "brief_anchor": "상장예비심사신청서를제출"
+        },
+        {
+          "page": 36,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집하는것으로2023년07월18일상장예비심사신청"
+        }
+      ],
+      "underwriter_physical_range": [
+        196,
+        279
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231030000238",
+      "corp_code": "01402995",
+      "issuer": "케이엔에스",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 7,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231030000238",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-10-30",
+      "time_precision": "date",
+      "official_title": "케이엔에스/증권신고서(지분증권)/2023.10.30",
+      "family_metadata": [
+        {
+          "receipt": "20231124000347",
+          "caption": "2023.11.24 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231113000388",
+          "caption": "2023.11.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231030000238",
+          "caption": "2023.10.30 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231030000238&dcm_no=9475882",
+      "pdf_sha256": "b7c9730c933bab6538291c57bef0ce864f4e6c498c09a2e16289b16dc2ebc749",
+      "pdf_pages": 422,
+      "ipo_purpose_locators": [
+        {
+          "page": 25,
+          "brief_anchor": "금번공모는「코스닥시장상장규정」에서규정하고있는주식의분산요건을충족할목적"
+        },
+        {
+          "page": 29,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집(매출)하는것으로상장예비심사신청서를제출(2023년6월21일)하여한국거래소로부터상장예비심사승인(2023년10월27일)을받았습니다.그결과금번공모완료후,"
+        },
+        {
+          "page": 34,
+          "brief_anchor": "금번공모는「증권인수업무등에관한규정」제10조의3제1항에해당하지않으므로일반청약자에대한환매청주9)구권을부여하지않습니다.다.매출의방법등금번㈜케이엔에스의코스닥시장상장을위한공모는100%신주모"
+        },
+        {
+          "page": 66,
+          "brief_anchor": "당사는코스닥시장상장을목적으로모집(매출)하는것으로상장예비심사신청"
+        },
+        {
+          "page": 69,
+          "brief_anchor": "당사는금번공모와관련하여대표주관회사인신영증권㈜와체결한총액인수계약일로부터코스닥시장상장후6개월동안대표주관회사인신영증권㈜의사전서면동의없이는주식또는전환사채등주식과연결된증권을발행하거나직ㆍ간접"
+        }
+      ],
+      "underwriter_physical_range": [
+        167,
+        219
+      ],
+      "method_tables": [
+        {
+          "physical_page": 202,
+          "historical_markers": [
+            "2022년3분기",
+            "2023년2분기",
+            "2023년반기",
+            "실적치",
+            "최근12개월"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "적용 재무수치 실적치",
+            "(①2023년 반기 기준 최근 12개월(2022년 3분기~2023년 2분기) 지배기업 당기순이익 x",
+            "2023년 반기 기준 최근 4. 공모가격에 대한 의견 - 나. 희망공모가액의",
+            "12개월 지배기업 당기순이익 산출방법 - (4) 주당 평가가액 산출 참고",
+            "산출방법 - (4) 주당 평가가액 산출 참고",
+            "주당 평가 가액 28,327원 ① x ② ÷③",
+            "④ 주당 평가가액에 대한 할인율"
+          ]
+        },
+        {
+          "physical_page": 204,
+          "historical_markers": [
+            "2023년반기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 209,
+          "historical_markers": [
+            "2022년3분기",
+            "2022년반기",
+            "2023년1분기",
+            "2023년2분기",
+            "2023년반기",
+            "최근4개분기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "주1) ④PER은 최근 4개분기(2022년 3분기~2023년 2분기) (지배기업) 당기순이익을 적용하여 산출하였습니",
+            "주2) (주)필에너지의 경우 2023년 반기 및 2022년 반기 데이터가 존재하지 않아, 2022년 지배기업순이익을",
+            "후 발생할 수 있는 유사회사의 주가 변동에 따라서 동사의 주당 평가가액도 변동될 수 있습",
+            "등을 고려하면, 동사의 주당 평가가액은 동사와 유사회사의 과거 경영실적을 활용하고 있다"
+          ]
+        },
+        {
+          "physical_page": 212,
+          "historical_markers": [
+            "2022년3분기",
+            "2023년2분기",
+            "2023년반기",
+            "최근4개분기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "(4) 주당 평가가액 산출",
+            "적용 당기순이익 5,729 백만원 A (주1)",
+            "적용 PER 21.96배 B (주2)",
+            "주당 평가가액 28,327원 E = C / D",
+            "적용 당기순이익은 발행회사 (주)케이엔에스의 최근 4개분기(2022년 3분기~2023년 2분기",
+            "적용 PER는 유사회사의 최근 4개분기(2022년 3분기~2023년 2분기) (지배기업) 당기순이",
+            "주당 평가가액 28,327원 PER에 의한 평가가치 산출"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231114002579",
+      "corp_code": "00170442",
+      "issuer": "하나에프앤아이",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 8,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231114002579",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER 산정표 미확인",
+      "date_kst": "2023-11-14",
+      "time_precision": "date",
+      "official_title": "하나에프앤아이/증권신고서(지분증권)/2023.11.14",
+      "family_metadata": [
+        {
+          "receipt": "20231121000364",
+          "caption": "2023.11.21 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231114002579",
+          "caption": "2023.11.14 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231114002579&dcm_no=9499487",
+      "pdf_sha256": "76471a48c2430f7a716b2cd02e80448492e30c3e77ca20c106e9d80a1ebe483a",
+      "pdf_pages": 337,
+      "ipo_purpose_locators": [
+        {
+          "page": 13,
+          "brief_anchor": "당사는한국거래소의유가증권시장또는코스닥시장에상장되어있지않은비상장회사이며,금번공모"
+        }
+      ],
+      "underwriter_physical_range": [
+        77,
+        112
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231116000509",
+      "corp_code": "00108612",
+      "issuer": "DS단석",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 8,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231116000509",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-11-16",
+      "time_precision": "date",
+      "official_title": "DS단석/증권신고서(지분증권)/2023.11.16",
+      "family_metadata": [
+        {
+          "receipt": "20231213000419",
+          "caption": "2023.12.13 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231207000357",
+          "caption": "2023.12.07 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231206000540",
+          "caption": "2023.12.06 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231116000509",
+          "caption": "2023.11.16 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231116000509&dcm_no=9503524",
+      "pdf_sha256": "581a5bfb36c0d054d51a3cafc100143826ee6b2e1826c0a9b9b73bbf454566c2",
+      "pdf_pages": 485,
+      "ipo_purpose_locators": [
+        {
+          "page": 29,
+          "brief_anchor": "당사는금번유가증권시장상장을위한공모"
+        },
+        {
+          "page": 32,
+          "brief_anchor": "당사는2023년09월06일한국거래소에상장예비심사신청서를제출하여2023년11월10일상장예비심사승인을통지받았으며,유가증권시장에상장하기위해서는「유가증권시장상장규정」에따라2024년05월0"
+        },
+        {
+          "page": 35,
+          "brief_anchor": "본주식은유가증권시장상장을목적으로모집(매출)하는것으로상장예비심사신청서를제출(2023년09월06일)하여한국거래소로부터상장예비심사승인(2023년11월10일)을받았습니다.그결과금번공모완료"
+        }
+      ],
+      "underwriter_physical_range": [
+        217,
+        282
+      ],
+      "method_tables": [
+        {
+          "physical_page": 257,
+          "historical_markers": [
+            "2023년3분기",
+            "실적치",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "적용 재무수치 실적치",
+            "적용산식 ∑((각 부문별 2023년 3분기(누적) 연환산 지배기업 당기순이익 x 각 부문별 유사기업 PER) ÷ 주식수 x (1 - 할인율))",
+            "2023년 3분기(누적)",
+            "① 연환산 지배기업 20,016백만원",
+            "법 - (다) 평가모형의 적용 - 3) PER 거래배수를 적용한 주당 평가가액 산출",
+            "2023년 3분기(누적)",
+            "③ 연환산 지배기업 26,862백만원",
+            "법 - (다) 평가모형의 적용 - 3) PER 거래배수를 적용한 주당 평가가액 산출"
+          ]
+        },
+        {
+          "physical_page": 271,
+          "historical_markers": [],
+          "forecast_markers": [],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 274,
+          "historical_markers": [
+            "2023년3분기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "[2023년 3분기(누적) 기준 실적을 연환산하여 적용한 PER 산정]",
+            "적용 PER(배) 13.69 5.92 22.17 8.92 9.94 6.40",
+            "(주1) 적용 순이익은 2023년 3분기 기준 연결당기순이익(지배지분)을 연환산하여 적용하였습니다.",
+            "상기 주당순이익(EPS)는 증권신고서 제출일 현재 기준 비교회사의 발행주식총수 및 적용 순이익(2023년 3분기(누",
+            "적) 기준 연결당기순이익을 연환산하여 적용한 수치)를 바탕으로 산출되었으며, 『다. 기상장기업과의 비교참고 정",
+            "3) PER 거래배수를 적용한 주당 평가가액 산출"
+          ]
+        },
+        {
+          "physical_page": 275,
+          "historical_markers": [
+            "2023년3분기",
+            "2023년반기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "주당 평가가액 104,953원 (F) = (D) ÷ (E)",
+            "동사에서 자체적으로 구분 및 제공한 사업부문 별 2023년 3분기(누적) 기준 기준 연결당기",
+            "순이익(지배지분)을 연환산하여 적용하였습니다.",
+            "[2023년 3분기(누적) 기준 재무현황]",
+            "판관비의 경우, 2023년 3분기(누적) 기준 각 사업부별로 직접적으로 연관되는 비용(약"
+          ]
+        },
+        {
+          "physical_page": 276,
+          "historical_markers": [
+            "2023년3분기",
+            "2023년반기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "2023년 반기말 기준 관계기업으로 분류되었으나, 2023년 8월 29일 지분을 추가 취득함에",
+            "적용 PER는 사업부문 별 유사회사의 2023년 3분기(누적) 기준 연결당기순이익(지배지분)을",
+            "연환산하여 적용한 실적 기준 PER입니다.",
+            "평가가액을 104,953원으로 산출하였습니다. 상기 주당 평가가액은 공동대표주관회사의 주"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231117000275",
+      "corp_code": "00126414",
+      "issuer": "삼성제약",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 8,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231117000275",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2023-11-17",
+      "time_precision": "date",
+      "official_title": "삼성제약/증권신고서(지분증권)/2023.11.17",
+      "family_metadata": [
+        {
+          "receipt": "20240207000284",
+          "caption": "2024.02.07 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240103000097",
+          "caption": "2024.01.03 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231215000369",
+          "caption": "2023.12.15 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231201000311",
+          "caption": "2023.12.01 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231117000275",
+          "caption": "2023.11.17 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231117000275&dcm_no=9504580",
+      "pdf_sha256": "362b54d5d5705c6a1e2ed08ecedca6327f0836212c54f53e719eaa3dc037bc2e",
+      "pdf_pages": 230,
+      "ipo_purpose_locators": [],
+      "underwriter_physical_range": [
+        115,
+        120
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231117000289",
+      "corp_code": "00683469",
+      "issuer": "일진전기",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 8,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231117000289",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "신규상장 근거 미확인",
+      "date_kst": "2023-11-17",
+      "time_precision": "date",
+      "official_title": "일진전기/증권신고서(지분증권)/2023.11.17",
+      "family_metadata": [
+        {
+          "receipt": "20240118000014",
+          "caption": "2024.01.18 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240103000429",
+          "caption": "2024.01.03 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231213000038",
+          "caption": "2023.12.13 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231213000009",
+          "caption": "2023.12.13 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231117000289",
+          "caption": "2023.11.17 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231117000289&dcm_no=9504658",
+      "pdf_sha256": "36a657ea8e9b33c6612718f788bf634cfc62fcec684fadafda1f3afb673fcd3c",
+      "pdf_pages": 273,
+      "ipo_purpose_locators": [],
+      "underwriter_physical_range": [
+        104,
+        110
+      ],
+      "method_tables": []
+    },
+    {
+      "receipt": "20231129001317",
+      "corp_code": "00862312",
+      "issuer": "포스뱅크",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 9,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231129001317",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-11-29",
+      "time_precision": "date",
+      "official_title": "포스뱅크/증권신고서(지분증권)/2023.11.29",
+      "family_metadata": [
+        {
+          "receipt": "20240115000358",
+          "caption": "2024.01.15 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231220000382",
+          "caption": "2023.12.20 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231219000314",
+          "caption": "2023.12.19 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231129001317",
+          "caption": "2023.11.29 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231129001317&dcm_no=9519943",
+      "pdf_sha256": "bf3bfede22396b91ea270cf325b81e7dade15eda0d5afa68fdcb6f6e67da0bd4",
+      "pdf_pages": 553,
+      "ipo_purpose_locators": [
+        {
+          "page": 24,
+          "brief_anchor": "당사는2023년6월21일한국거래소에상장예비심사신청서를제출하여2023년10월27일상장예비심사승인을통지받았으며,코스닥시장에상장하기위해서는「코스닥시장상장규정」에따라상장예비심사결과를통보받"
+        },
+        {
+          "page": 34,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집하는것으로2023년06월21일상장예비심사신청서를제출하여2023년10월27일한국거래소로부터신규상장예비심사승인을받았습니다.그결과금번공모완료후,신규상장신"
+        },
+        {
+          "page": 39,
+          "brief_anchor": "금번공모는「증권인수업무등에관한규정」제10조의3제1항에해당하지않으므로일반청약자에대한환매청주10)구권을부여하지않습니다.다.매출의방법등금번㈜포스뱅크의코스닥시장상장공모는100%신주모집"
+        }
+      ],
+      "underwriter_physical_range": [
+        229,
+        309
+      ],
+      "method_tables": [
+        {
+          "physical_page": 287,
+          "historical_markers": [],
+          "forecast_markers": [],
+          "row_anchors": []
+        },
+        {
+          "physical_page": 301,
+          "historical_markers": [
+            "2023년3분기",
+            "연환산"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "(5) 주당 평가가액 산출",
+            "1. 2023년 3분기 누적 지배주주 순이익의",
+            "백만원 10,359 (A) = 2023년 3분기 누적 지배주주 순이익 ÷ 3 × 4",
+            "연환산 수치",
+            "5. 주당 평가가액 원 18,122 (E) = (C) x (D)",
+            "주1) ㈜포스뱅크의 2023년 3분기 누적 지배주주 순이익은 7,769,366,120원입니다.",
+            "상기 주당 평가가액은 대표주관회사인 하나증권㈜의 주관적인 판단요소(유사회사 선정, 가"
+          ]
+        }
+      ]
+    },
+    {
+      "receipt": "20231204000266",
+      "corp_code": "00309460",
+      "issuer": "HB인베스트먼트",
+      "title": "증권신고서(지분증권)",
+      "withdrawal_notice": false,
+      "listing_page": 9,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20231204000266",
+      "status": "DOCUMENT_QUEUE",
+      "download_status": "공식 PDF 확인",
+      "screen_status": "PER표 발견·적용 기간 검토 대기",
+      "date_kst": "2023-12-04",
+      "time_precision": "date",
+      "official_title": "HB인베스트먼트/증권신고서(지분증권)/2023.12.04",
+      "family_metadata": [
+        {
+          "receipt": "20240115000371",
+          "caption": "2024.01.15 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240115000350",
+          "caption": "2024.01.15 [발행조건확정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20240104000340",
+          "caption": "2024.01.04 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231215000479",
+          "caption": "2023.12.15 [정정] 증권신고서(지분증권)"
+        },
+        {
+          "receipt": "20231204000266",
+          "caption": "2023.12.04 증권신고서(지분증권)"
+        }
+      ],
+      "exact_title_and_earliest_family": true,
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20231204000266&dcm_no=9525977",
+      "pdf_sha256": "15bb07dc6384afd087c4373b0bf5d9095aa867b414e6ec216a22abd37d99a50c",
+      "pdf_pages": 319,
+      "ipo_purpose_locators": [
+        {
+          "page": 21,
+          "brief_anchor": "금번공모는코스닥시장상장규정에서규정하고있는주식의분산요건충족할목적"
+        },
+        {
+          "page": 27,
+          "brief_anchor": "본주식은코스닥시장상장을목적으로모집(매출)하는것으로상장예비심사신청서를제출(2023년9월7일)하여한국거래소로부터상장예비심사승인(2023년11월16일)을받았습니다.그결과금번공모완료후,신"
+        }
+      ],
+      "underwriter_physical_range": [
+        144,
+        189
+      ],
+      "method_tables": [
+        {
+          "physical_page": 181,
+          "historical_markers": [
+            "2023년3분기",
+            "LTM",
+            "최근4개분기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "금번 공모가액 산정을 위한 유사회사의 PER 배수는 2023년 3분기(2023년 9월 30일) 기준",
+            "LTM(2022.4Q~2023.3Q) 실적을 적용하여 산출하였습니다.",
+            "(가) 적용 PER 배수 산출",
+            "[2023년 3분기 LTM기준 유사회사 평균 PER]",
+            "적용 당기순이익 8,762,604,195 6,455,634,592 7,441,428,114",
+            "주1) 당기순이익은 각 사 최근 4개 분기(2022.4Q~2023.3Q) 합계 기준입니다.",
+            "(나) PER을 적용한 주당 평가가액 산출"
+          ]
+        },
+        {
+          "physical_page": 182,
+          "historical_markers": [
+            "2023년3분기",
+            "LTM",
+            "최근4개분기"
+          ],
+          "forecast_markers": [],
+          "row_anchors": [
+            "적용 PER 11.34배 B",
+            "적용 기업가치 평가액 계산시 적용 당기순이익은 원단위, 적용 PER은 소수점 절사하지 않은",
+            "대표주관회사인 NH투자증권㈜는 에이치비인베스트먼트㈜의 주당 평가가액을 산출함에 있",
+            "어 2023년 3분기(2023년 9월 30일) 기준 LTM(2022.4Q~2023.3Q) 당기순이익 9,511백",
+            "한편, 상기 주당 평가가액은 대표주관회사의 주관적인 판단요소들(비교기업 선정, 가치평가"
+          ]
+        }
+      ]
+    }
+  ]
+}

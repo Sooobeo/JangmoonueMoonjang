@@ -1,0 +1,66 @@
+{
+  "issuer_evidence": [
+    {
+      "evidence_id": "E1",
+      "text": "디지털 영상감시시스템과 IoT를 영위한다. IP 카메라, 영상 압축·전송과 스트리밍 제품을 개발한다."
+    },
+    {
+      "evidence_id": "E2",
+      "text": "2022년 매출에서 IP 카메라는 81.94%, 영상 스트리밍 솔루션은 7.97%, IoT 기기는 8.46%였다."
+    },
+    {
+      "evidence_id": "E3",
+      "text": "K-IFRS 별도 요약재무정보에서 2022년 12월 연간 매출 38,831,801천원, 영업이익 9,009,324천원을 제시했다."
+    },
+    {
+      "evidence_id": "E4",
+      "text": "2022년 별도 당기순이익은 7,633,487천원이었다."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "C1",
+      "business": [
+        {
+          "evidence_id": "E5",
+          "text": "코딩 없이 다양한 산업 데이터를 학습시키는 AI 개발 플랫폼, 빅데이터의 품질관리 및 분석 소프트웨어를 공급한다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C2",
+      "business": [
+        {
+          "evidence_id": "E6",
+          "text": "공공기관에 보안용 하드웨어·소프트웨어의 통합 영상관제 플랫폼을 공급한다. 2022년 매출 구성표에서 영상인식은 80.43%, 데이터 플랫폼은 12.50%였다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C3",
+      "business": [
+        {
+          "evidence_id": "E7",
+          "text": "보안용 카메라와 영상저장장치를 제조하고 물리보안 솔루션을 개발·판매한다. 영상저장장치와 네트워크·인공지능 카메라 등을 취급한다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    },
+    {
+      "candidate_id": "C4",
+      "business": [
+        {
+          "evidence_id": "E8",
+          "text": "IP 기반 영상보안용 레코더, 고해상도 IP 카메라와 영상관리 소프트웨어를 개발·생산·판매한다."
+        }
+      ],
+      "financials": [],
+      "multiples": []
+    }
+  ]
+}

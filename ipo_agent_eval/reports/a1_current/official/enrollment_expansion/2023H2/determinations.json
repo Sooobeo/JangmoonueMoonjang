@@ -1,0 +1,158 @@
+{
+  "20230703000377": {"status": "NOT_IPO", "reason": "기상장 법인의 이번 발행은 제3자배정 유상증자다.", "reason_anchor": {"page": 13, "quote": "최대주주 및 특수관계인 2인에 대한 제3자배정 유상증자 결의를 완료하"}},
+  "20230705000287": {"status": "NOT_IPO", "reason": "기상장 SK이노베이션 보통주 8,190,000주의 주주배정 후 실권주 일반공모다.", "reason_anchor": {"page": 212, "quote": "기명식 보통주식 8,190,000주에 대한 주주배정후 실권주"}},
+  "20230717000372": {"status": "FORECAST_ISSUER_EARNINGS", "reason": "비교사 과거 PER의 발행사 적용값은 미래 2023년 추정 당기순이익 3,649백만원의 현가다.", "reason_anchor": {"page": 202, "quote": "2023년 추정 당기순이익 3,649백만원"}},
+  "20230721000479": {"status": "NOT_IPO", "reason": "딥노이드 기존 주주배정 뒤 실권주 일반공모 유상증자다.", "reason_anchor": {"page": 13, "quote": "금번 주주배정 후 실권주 일반공모"}},
+  "20230802000277": {"status": "NOT_IPO", "reason": "주주배정 유상증자다.", "reason_anchor": {"page": 16, "quote": "공모방법은 주주배정이고"}},
+  "20230821000526": {"status": "FORECAST_ISSUER_EARNINGS", "reason": "발행사 2025년 추정 순이익 12,544백만원을 할인해 PER를 적용했다.", "reason_anchor": {"page": 221, "quote": "2025년 추정 당기순이익 (A) 12,544 백만원"}},
+  "20230823000258": {
+    "status": "ELIGIBLE", "period_or_method": "2023년 반기 기준 최근 12개월 지배주주 순이익에 무형자산상각비를 가산한 과거 실적 PER",
+    "reason": "발행사 적용이익 5,941백만원과 적용 PER 32.61배로 주당 17,016원을 산정했다.",
+    "ipo_status_anchor": {"page": 27, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 317, "quote": "적용 순이익은 2023년 반기 기준 최근 12개월 (지배주주) 순이익 5,255,631,730원"},
+    "adopted_per_anchor": {"page": 317, "quote": "적용 PER(배) (D) 32.61 배"},
+    "adopted_price_anchor": {"page": 317, "quote": "17,016 원"}
+  },
+  "20230823000324": {"status": "FORECAST_ISSUER_EARNINGS", "reason": "발행사 2026년 추정 순이익 942억원의 현가를 적용했다.", "reason_anchor": {"page": 231, "quote": "2026년 추정 당기순이익 (A) 942 억원"}},
+  "20230825000493": {"status": "MIXED_EV_EBITDA_PER", "reason": "과거 발행사 순이익 PER은 실제 비교의 한 축이지만 공모가액의 기초는 EV/EBITDA와 P/E의 산술평균이다. 단일 PER 비교 코호트에서 제외한다.", "reason_anchor": {"page": 215, "quote": "비교가치 주당 평가가액은 EV/EBITDA 평가가액 및 P/E 평가가액을 산술평균한 수치입니다."}},
+  "20230825000627": {"status": "NOT_IPO", "reason": "기존 IPO를 언급하는 기상장 법인의 주주배정 후 실권주 일반공모 유상증자다.", "reason_anchor": {"page": 13, "quote": "금번 주주배정 후 실권주 일반공모 유상증자"}},
+  "20230906000217": {
+    "status": "ELIGIBLE", "issuer": "유투바이오", "dart_index_issuer": "지구홀딩스", "issuer_name_anchor": {"page": 3, "quote": "주식회사 유투바이오"},
+    "period_or_method": "2023년 반기 실제 순이익의 2배 연환산 PER",
+    "reason": "발행사 반기 연환산 순이익 2,472,060천원에 20.50배를 적용했다. 인수 산정표와 밴드가 모두 주당 4,490원을 기준으로 한다.",
+    "ipo_status_anchor": {"page": 26, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"},
+    "issuer_valuation_anchor": {"page": 219, "quote": "당기순이익은 2023년 반기순이익을 연환산(2배)한 기준으로 산정하였습니다."},
+    "adopted_per_anchor": {"page": 219, "quote": "적용 PER(C) 20.50배"},
+    "adopted_price_anchor": {"page": 219, "quote": "비교가치 주당 평가가액 4,490원"}
+  },
+  "20230906000327": {"status": "FORECAST_ISSUER_EARNINGS", "reason": "발행사의 2025년 및 2026년 추정 당기순이익으로 주당 평가액을 산정했다.", "reason_anchor": {"page": 216, "quote": "주당 평가가액 산출을 위하여 동사의 2025년 및 2026년 추정 당기순이익을 적용한 이유는"}},
+  "20230911000405": {
+    "status": "ELIGIBLE",
+    "reason": "발행사의 2023년 반기 말 최근 4개 분기 실적을 조정한 순이익에 PER을 적용하고, 그 방법의 주당 평가가액을 희망공모가액에 적용했다.",
+    "period_or_method": "2022년 3분기~2023년 2분기 실제 지배기업 순이익 2,607,249,836원에 파생상품평가손실을 가산한 3,543백만원에 PER 26.49배를 적용. 공모가액 산출표의 기준은 12,915원.",
+    "ipo_status_anchor": {"page": 24, "quote": "본 주식은 한국거래소 내 코스닥시장 상장을 목적으로 모집하는 것으로"},
+    "issuer_valuation_anchor": {"page": 182, "quote": "적용 당기순이익은 발행회사 (주)비아이매트릭스의 최근 4개분기"},
+    "adopted_per_anchor": {"page": 182, "quote": "26.49배"},
+    "adopted_price_anchor": {"page": 182, "quote": "12,915 원"}
+  },
+  "20230912000303": {
+    "status": "FORECAST_ISSUER_EARNINGS",
+    "reason": "2023년 반기 연환산 이익은 비교회사 배수 입력이다. 발행사의 평가에는 2025년 추정 이익 현가를 적용했다.",
+    "reason_anchor": {"page": 222, "quote": "2025년 추정 당기순이익의 현재가치"}
+  },
+  "20230912000404": {
+    "status": "ELIGIBLE",
+    "reason": "워트의 2023년 2분기 기준 LTM 당기순이익에 PER 23.19배를 적용해 희망 공모가액 산정의 기준을 정했다.",
+    "period_or_method": "2023년 2분기 기준 과거 12개월 실제 순이익 4,500,303천원 × 23.19배. 주당 평가가격 6,395원.",
+    "ipo_status_anchor": {"page": 25, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"},
+    "issuer_valuation_anchor": {"page": 180, "quote": "적용 순이익은 2023년 2분기 기준 과거 12개월(LTM) 당기순이익입니다."},
+    "adopted_per_anchor": {"page": 180, "quote": "23.19 배"},
+    "adopted_price_anchor": {"page": 181, "quote": "6,395원"}
+  },
+  "20230912000407": {
+    "status": "NOT_IPO",
+    "reason": "2019년 IPO를 언급하지만 이번 발행은 주주배정 후 실권주 일반공모 유상증자다.",
+    "reason_anchor": {"page": 14, "quote": "실권주 일반공모 유상증자"}
+  },
+  "20230913000400": {
+    "status": "FORECAST_ISSUER_EARNINGS",
+    "reason": "주당 평가가액 51,100원의 발행사 이익 입력은 2026년 추정 당기순이익(66,430백만원)의 현가다.",
+    "reason_anchor": {"page": 258, "quote": "2026년 추정 당기순이익(66,430백만원)"}
+  },
+  "20230915000263": {
+    "status": "ELIGIBLE",
+    "reason": "2023년 반기 기준 과거 12개월의 실제 발행사 순이익에서 평가손익을 조정했다. 해당 PER 산정치를 희망 공모가액에 적용했다.",
+    "period_or_method": "2023년 반기 기준 과거 12개월 지배기업 소유주 귀속 실제 당기순이익을 조정한 6,175백만원 × 53.7배. 주당 30,998원으로 밴드 19,100~21,400원 산정.",
+    "ipo_status_anchor": {"page": 36, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 352, "quote": "적용 순이익은 2023년 반기 기준 과거 12개월의 지배기업 소유주 귀속 당기순이익입니다."},
+    "adopted_per_anchor": {"page": 352, "quote": "53.7 배"},
+    "adopted_price_anchor": {"page": 352, "quote": "상기 PER Valuation 결과를 적용한 ㈜에이직랜드의 희망 공모가액은 아래와 같습니다."}
+  },
+  "20230915000281": {
+    "status": "ELIGIBLE",
+    "reason": "유진테크놀로지의 2023년 반기 말 최근 4개 분기 실제 지배기업 귀속 이익과 PER 27.03배로 산정된 주당 평가가액을 희망공모가액에 썼다.",
+    "period_or_method": "2022년 3분기~2023년 2분기 실적 5,386,034,982원 × 27.03배. 주당 20,879원으로 밴드 12,800~14,500원 산정.",
+    "ipo_status_anchor": {"page": 31, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 221, "quote": "지배기업 당기순이익 5,386,034,982원 기준입니다."},
+    "adopted_per_anchor": {"page": 221, "quote": "27.03배"},
+    "adopted_price_anchor": {"page": 222, "quote": "20,879원"}
+  },
+  "20230915000450": {
+    "status": "NOT_IPO",
+    "reason": "상장법인의 유상증자 신주 추가상장이다.",
+    "reason_anchor": {"page": 70, "quote": "당사는 코스닥시장 상장법인으로서 이번 유상증자로 발행되는 신주는"}
+  },
+  "20230918000204": {
+    "status": "ELIGIBLE",
+    "reason": "발행사의 반기 말 최근 12개월 당기순이익과 PER 18.28배를 활용한 주당 평가가액이 희망 공모가액의 기준이다.",
+    "period_or_method": "2023년 반기 기준 과거 12개월 실제 당기순이익 9,515백만원 × 18.28배. 주당 평가가액 12,934원으로 밴드 8,000~9,500원 산정.",
+    "ipo_status_anchor": {"page": 27, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"},
+    "issuer_valuation_anchor": {"page": 188, "quote": "적용순이익은 2023년반기기준 최근 12개월 당기순이익을 적용하였습니다."},
+    "adopted_per_anchor": {"page": 188, "quote": "18.28"},
+    "adopted_price_anchor": {"page": 190, "quote": "주당평가가액은 12,934원으로 산정하였으며"}
+  },
+  "20230918000269": {
+    "status": "ELIGIBLE",
+    "reason": "두 개의 발행사 실적 기간별 PER 평가액을 산술평균했고, 그 주당액을 공모가액 밴드에 반영했다. 두 구성 값 모두 과거 실적에서 산출했다.",
+    "period_or_method": "2022년 실제 당기순이익 6,124백만원 × 14.45배와 2023년 반기 실제 이익 연환산 1,881백만원 × 17.67배의 기업가치 산술평균. 주당 4,229원으로 밴드 3,200~3,600원 산정.",
+    "ipo_status_anchor": {"page": 28, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 183, "quote": "2023년 반기는 연환산 순이익"},
+    "adopted_per_anchor": {"page": 183, "quote": "인 17.67배를 적용한 기업가치평가액 33,238백만원을 산술평균하여 산출한 60,856백만원"},
+    "adopted_price_anchor": {"page": 184, "quote": "4,229원"}
+  },
+  "20230921000185": {
+    "status": "FORECAST_ISSUER_EARNINGS",
+    "reason": "2024~2025년 발행사 추정 당기순이익의 현가로 주당 가액을 산정했다.",
+    "reason_anchor": {"page": 254, "quote": "금번 공모가격 산정을 위하여 2024년 및 2025년 추정 당기순이익을 적용한 이유는"}
+  },
+  "20230925000346": {
+    "status": "NO_ADOPTED_HISTORICAL_PER",
+    "reason": "발행사의 과거 실적을 썼으나 공모가액의 주당 가치는 EV/EBITDA로 산출했다.",
+    "reason_anchor": {"page": 256, "quote": "비교회사의 적용 EV/EBITDA 거래배수를 통해 산출한 ㈜에코프로머티리얼즈의 적정 시가"}
+  },
+  "20230926000349": {
+    "status": "ELIGIBLE", "period_or_method": "2023년 반기 기준 최근 네 분기 실제 발행사 순이익 PER",
+    "reason": "발행사 순이익 3,366백만원과 30.79배로 주당 4,989원을 구하고 희망 밴드 출발값으로 사용했다.",
+    "ipo_status_anchor": {"page": 31, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 264, "quote": "적용순이익은 동사의 2023년 반기 LTM 기준의 적용 순이익으로"},
+    "adopted_per_anchor": {"page": 264, "quote": "적용 PER 30.79배"},
+    "adopted_price_anchor": {"page": 265, "quote": "주당 평가가액 4,989원"}
+  },
+  "20231005000251": {"status": "FORECAST_ISSUER_EARNINGS", "reason": "2024년 및 2025년 발행사 추정 순이익을 적용한 가격을 공모가 산정에 썼다.", "reason_anchor": {"page": 259, "quote": "공모가격 산정을 위하여 2024년 및 2025년 추정 당기순이익을 적용한 이유는"}},
+  "20231005000503": {"status": "FORECAST_ISSUER_EARNINGS", "reason": "2024년과 2025년 발행사 추정 순이익의 할인 현가를 적용했다.", "reason_anchor": {"page": 278, "quote": "2025년 추정 당기순이익 21,611백만원"}},
+  "20231006000410": {"status": "FORECAST_ISSUER_EARNINGS", "reason": "2026년 6월 말 발행사 추정 주당순이익 현가가 PER 주당 평가의 기초다.", "reason_anchor": {"page": 165, "quote": "2026년 6월 말 기준 추정 주당순이익의 현가를 기준으로 PER를 적용"}},
+  "20231013000344": {"status": "NO_ADOPTED_HISTORICAL_PER", "reason": "신규상장 가격 산정에 매출액 기준 PSR을 적용했다.", "reason_anchor": {"page": 269, "quote": "상기 PSR 상대가치 산출 결과를 적용한 ㈜블루엠텍의 희망공모가액은 아래와 같습니다"}},
+  "20231013000470": {
+    "status": "ELIGIBLE", "period_or_method": "2023년 반기 기준 최근 네 분기 실제 발행사 순이익 PER",
+    "reason": "발행사 적용이익 26,803,963,724원에 12.22배를 적용한 주당 50,310원이 실제 밴드의 기준이다.",
+    "ipo_status_anchor": {"page": 37, "quote": "본 주식은 유가증권시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 325, "quote": "적용순이익은 동사의 2023년 반기 LTM 기준의 적용 순이익으로"},
+    "adopted_per_anchor": {"page": 325, "quote": "적용 PER 12.22"},
+    "adopted_price_anchor": {"page": 326, "quote": "주당 평가가액 50,310 원"}
+  },
+  "20231016000118": {
+    "status": "ELIGIBLE", "period_or_method": "2023년 상반기 실제 발행사 당기순이익 연환산 PER",
+    "reason": "발행사 상반기 순이익 연환산에 19.40배를 적용한 7,760원을 밴드 출발값으로 썼다. 이전 v5 정상 대조 후보 조사에서 원본 방법을 본 발행사로, 기존 18곳이나 Q4 39곳에는 포함되지 않으며 평가 결과를 만든 이력은 없다.",
+    "ipo_status_anchor": {"page": 31, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로"},
+    "issuer_valuation_anchor": {"page": 236, "quote": "적용 순이익은 2023년 상반기 당기순이익을 연환산한 금액입니다."},
+    "adopted_per_anchor": {"page": 236, "quote": "적용 PER 19.40"},
+    "adopted_price_anchor": {"page": 236, "quote": "비교가치 주당 평가가액 7,760원"}
+  },
+  "20231020000398": {
+    "status": "ELIGIBLE", "period_or_method": "2023년 반기 실제 순이익에서 일회성 전환 관련 손익을 제거한 후 연환산 PER",
+    "reason": "반기 조정 순이익의 2배와 적용 PER 16.05배로 주당 32,033원을 산정했다.",
+    "ipo_status_anchor": {"page": 27, "quote": "본 주식은 한국거래소 내 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 185, "quote": "2023년도 반기 조정순이익을 연환산한 수치입니다."},
+    "adopted_per_anchor": {"page": 185, "quote": "적용 PER 배수 (주3) 16.05"},
+    "adopted_price_anchor": {"page": 185, "quote": "상대가치 주당 평가가액 32,033 원"}
+  },
+  "20231023000060": {"status": "NO_ADOPTED_HISTORICAL_PER", "reason": "신규상장은 확인했으나 발행사 실제 순이익으로 공모가를 결정한 PER 산정표는 확인되지 않았다."},
+  "20231030000238": {
+    "status": "ELIGIBLE", "period_or_method": "2022년 3분기~2023년 2분기 실제 지배기업 당기순이익에서 전환사채 관련 손실을 조정한 PER",
+    "reason": "발행사 적용이익 5,729백만원에 21.96배를 적용했다. 희망공모가 표는 PER 평가 주당 28,327원을 출발값으로 쓴다.",
+    "ipo_status_anchor": {"page": 29, "quote": "본 주식은 코스닥시장 상장을 목적으로 모집(매출)하는 것으로"},
+    "issuer_valuation_anchor": {"page": 212, "quote": "적용 당기순이익은 발행회사 (주)케이엔에스의 최근 4개분기(2022년 3분기~2023년 2분기"},
+    "adopted_per_anchor": {"page": 212, "quote": "적용 PER 21.96배"},
+    "adopted_price_anchor": {"page": 212, "quote": "28,327원 PER에 의한 평가가치 산출"}
+  }
+}

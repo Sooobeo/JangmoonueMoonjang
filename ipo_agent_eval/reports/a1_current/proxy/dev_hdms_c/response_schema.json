@@ -1,0 +1,100 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "READY",
+        "PENDING_INFO"
+      ]
+    },
+    "earnings": {
+      "type": "object",
+      "properties": {
+        "proposal": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "proposal",
+        "reason",
+        "evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "aggregation": {
+      "type": "object",
+      "properties": {
+        "proposal": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "proposal",
+        "reason",
+        "evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "INCLUDE",
+              "REVIEW",
+              "EXCLUDE"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "candidate_id",
+          "decision",
+          "reason",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "status",
+    "earnings",
+    "aggregation",
+    "candidates"
+  ],
+  "additionalProperties": false
+}

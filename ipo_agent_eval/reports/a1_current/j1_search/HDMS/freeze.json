@@ -1,0 +1,28 @@
+{
+  "case_id": "HDMS",
+  "filing_sha256": "3d1665eefc62b65a58591d862b081f5d69a8cd0c619c2bc0b4407f5437a042e1",
+  "receipt": "20240325000947",
+  "baseline_sha256": "3d88def0f36461aa4da771aff3da6a25011ac129d5f3daa84622fe4427525d38",
+  "review_item_ids": [
+    "H01"
+  ],
+  "whole_document_page_count": 572,
+  "anchor_pages": {
+    "annual_parent_profit": 359
+  },
+  "new_pages": [],
+  "search_candidates": {
+    "annual_parent_profit": [
+      [
+        359,
+        14
+      ]
+    ],
+    "current_prior_interim_parent_profit": [],
+    "annual_and_current_adjustment_rows": [],
+    "comparative_interim_adjustment_rows": [],
+    "seasonality_supplement": []
+  },
+  "input_sha256": "4636fe48e68c0c6fdc246fca6535396e0d82d5ec5fb6029c09782673fbf9994d",
+  "prompt_sha256": "1f1d2b6b2fe7f5134796df06ada0e8a592fdda16b546dcc5d686ed03e7b6bb7d"
+}

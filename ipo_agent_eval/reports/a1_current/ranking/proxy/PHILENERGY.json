@@ -1,0 +1,274 @@
+{
+  "case": "PHILENERGY",
+  "mandatory": [],
+  "rule": {
+    "items": [
+      {
+        "item_id": "PHILENERGY-01",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-03",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-05",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-08",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-10",
+        "tie_key": "(0, True, Decimal('0'))",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-04",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-06",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-07",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-09",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-11",
+        "tie_key": "(1, True, Decimal('0'))",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-02",
+        "tie_key": "(2, True, Decimal('0'))",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "PHILENERGY-01"
+    ],
+    "operational": [
+      "PHILENERGY-01"
+    ],
+    "waiting": [
+      "PHILENERGY-03",
+      "PHILENERGY-05",
+      "PHILENERGY-08",
+      "PHILENERGY-10"
+    ]
+  },
+  "ai": {
+    "items": [
+      {
+        "item_id": "PHILENERGY-08",
+        "action": "사람 검토",
+        "priority": 98,
+        "reason": "A0가 지적한 조정 규모는 원문에서 확인된다. 2022년 전환권 평가손실 8,134백만원을 가산하면서 최근 12개월 적용 순이익이 약 76.1억원에서 157.5억원으로 늘었다. 신고서는 비현금 손실과 전환 시 자본 재분류를 근거로 들었고, 두 1분기에는 전환권을 별도로 평가하지 않았다. C가 확인하지 못한 항목의 성격과 금액은 해소되지만, 전액 가산의 세후 근거와 비교기업에 적용한 조정 기준은 남는다.",
+        "evidence_ids": [
+          "PDF-185",
+          "A08"
+        ],
+        "question_or_request": "전액 가산액은 지배주주 귀속 세후이익과 어떻게 대사되며, 분모의 전환 가정 및 비교기업의 유사 손익 처리와 일관되는가?",
+        "tie_key": "98",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-10",
+        "action": "사람 검토",
+        "priority": 92,
+        "reason": "A0와 C가 지적한 공정 차이가 매출 구성에서도 확인된다. 에이프로는 화성장비 비중이 97.8%이고 필에너지는 2022년 적층장비 비중이 94.5%다. 에이프로의 지배순이익은 2022년 연간 약 15.3억원 적자에서 평가에 쓴 최근 12개월 약 72.1억원 흑자로 바뀌었고, 2023년 1분기 이익만 약 74.3억원이다. 고객 산업의 공통점과 함께 이 차이를 고려하면 비교군 포함 여부를 재검토할 근거가 있다.",
+        "evidence_ids": [
+          "A10",
+          "E5",
+          "E1",
+          "PDF-185"
+        ],
+        "question_or_request": "활성화용 충방전장비와 적층장비의 수익 구조가 어떻게 유사하며, 한 분기의 이익이 최근 12개월 이익을 웃도는 에이프로에 동일 가중치를 줄 근거는 무엇인가?",
+        "tie_key": "92",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-09",
+        "action": "자료 요청",
+        "priority": 83,
+        "reason": "피엔티가 노칭장비를 취급한다는 A0의 포함 근거는 유효하다. 다만 2022년 매출의 74.82%는 양극·음극재 및 분리막 제조장비까지 포함한 사업부 비중이다. 약 61%라는 별도 발췌도 노칭 매출을 분리하지 않는다. 필에너지의 같은 해 매출 94.5%를 차지한 적층장비와 사업 범위를 맞추면 C의 유보 사유가 남는다.",
+        "evidence_ids": [
+          "E6",
+          "E1",
+          "A09",
+          "PDF-177"
+        ],
+        "question_or_request": "피엔티의 2022년 연결매출을 분모로 노칭·적층 등 조립장비 매출을 구분한 명세와 해당 장비의 수익성을 확인할 자료를 요청한다.",
+        "tie_key": "83",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-11",
+        "action": "자료 요청",
+        "priority": 80,
+        "reason": "두 검토자가 유보한 핵심은 검사장비와 적층 생산장비의 수익 구조다. 엔시스의 이차전지 검사장비 비중 64.14%와 최근 12개월 지배순이익 흑자는 확인된다. 다만 검사장비는 전극부터 팩까지 여러 공정에 공급되므로 64.14% 전체를 조립공정 매출로 볼 수 없다. 태양전지 설비도 취급한다.",
+        "evidence_ids": [
+          "A11",
+          "E4",
+          "E1",
+          "PDF-185"
+        ],
+        "question_or_request": "64.14%의 대상 기간과 매출 분모를 명시하고, 같은 기간 이차전지·태양전지 매출 구분 및 조립공정용 검사장비의 매출과 수익성을 제출해 달라.",
+        "tie_key": "80",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-05",
+        "action": "사람 검토",
+        "priority": 76,
+        "reason": "C의 검토 범위 밖이지만 A0가 지적한 분모 차이는 직접 확인된다. 평가표는 10,611,793주, 공모 후 주식수를 적용했다는 설명은 10,613,051주로 차이는 1,258주(약 0.012%)다. 이 차이 자체는 작지만 전환권 손실을 이익에 가산한 만큼 전환 가정과 분모의 일치 여부는 중요하다. A0가 언급한 미행사 선택권 수량과 반영 여부는 제공 원문에서 확인되지 않는다.",
+        "evidence_ids": [
+          "PDF-185",
+          "A05"
+        ],
+        "question_or_request": "두 주식수를 공모주·전환가능주식·주식매수선택권별로 대사하면 1,258주 차이는 어디에서 생기며, 실제 적용 분모에는 어떤 희석 항목이 포함됐는가?",
+        "tie_key": "76",
+        "eligible": true
+      },
+      {
+        "item_id": "PHILENERGY-03",
+        "action": "기록 보관",
+        "priority": 39,
+        "reason": "C는 검토하지 않았다. 제공 원문 두 곳은 월 20영업일·주 5영업일로 일치하고 일별 표에도 20개 관측치가 있다. 월평균 행과 기준일 종가 행의 값은 서로 뒤바뀌어 있지만 최솟값은 그대로다. 피엔티의 실제 5월 12일 시가총액 1,148,430,499,000원은 주평균 1,166,168,633,440원보다 낮다. 에이프로와 엔시스도 실제 최솟값인 주평균을 적용했다.",
+        "evidence_ids": [
+          "PDF-183",
+          "PDF-185",
+          "A03"
+        ],
+        "question_or_request": "월평균·종가 행의 표기 정정 사항을 기록한다. 세 회사 모두 선택값이 재현되어 평가 입력값에 관한 추가 질문은 없다.",
+        "tie_key": "39",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-01",
+        "action": "기록 보관",
+        "priority": 32,
+        "reason": "발행사와 세 비교기업 모두 2022년 연간에서 같은 해 1분기를 빼고 2023년 1분기를 더했다. A0의 기간 일치 판단이 확인된다. C가 지적한 발행사의 2023년 1분기 연결순이익이 2022년 연간보다 크다는 사실은 이익의 지속성에 관한 쟁점이다. 발행사만 연간 실적으로 바꾸면 비교기업과 기간이 달라진다.",
+        "evidence_ids": [
+          "PDF-185",
+          "A01",
+          "E2"
+        ],
+        "question_or_request": "2022년 2분기부터 2023년 1분기까지의 기간 일치를 기록한다. 해당 기간의 이익 조정은 PHILENERGY-08에서 검토한다.",
+        "tie_key": "32",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-07",
+        "action": "자료 요청",
+        "priority": 29,
+        "reason": "C는 밴드를 검토하지 않았다. 원문에서 주당 평가액 41,404원과 할인율 36.48%~27.54%는 확인된다. 제공된 발췌에는 희망공모가 양 끝 금액과 비교 표본의 할인율 분포가 없어 A0의 역산 결과와 표본 범위 판단을 독립적으로 확인하기 어렵다.",
+        "evidence_ids": [
+          "A07",
+          "PDF-185"
+        ],
+        "question_or_request": "희망공모가 하단·상단과 각각의 할인율을 함께 표시한 원표 및 A0가 비교한 신규상장 표본의 할인율 표를 요청한다.",
+        "tie_key": "29",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-04",
+        "action": "기록 보관",
+        "priority": 21,
+        "reason": "C가 확인하지 못한 개별 배수는 각 회사의 기준시가총액을 같은 회사의 최근 12개월 지배순이익으로 나누어 확인할 수 있다. 피엔티 17.4배, 에이프로 32.0배, 엔시스 34.2배이며 표시 배수의 단순평균은 27.87배로 공시 27.9배와 일치한다. A0의 집계 판단이 재현된다.",
+        "evidence_ids": [
+          "PDF-183",
+          "PDF-185",
+          "A04"
+        ],
+        "question_or_request": "세 기업의 동일 가중 평균이 재현되어 집계 산식에 관한 추가 질문은 없다.",
+        "tie_key": "21",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-02",
+        "action": "기록 보관",
+        "priority": 17,
+        "reason": "두 검토자가 수용한 귀속 기준을 원문과 대조했다. 비교기업 표는 지배지분 순이익을 명시하고, 발행사 주석도 2022년 연간 조정의 출발액과 두 1분기 적용액을 지배주주 순이익으로 명시한다. C가 유보한 발행사 2023년 1분기 적용액은 5,659,754,248원이다. E3에서는 귀속 항목을 별도로 표시한다는 점까지 확인된다.",
+        "evidence_ids": [
+          "PDF-185",
+          "A02",
+          "E3"
+        ],
+        "question_or_request": "귀속 기준과 평가표 적용액을 기록한다. 연간 손실 가산의 적정성은 PHILENERGY-08에서 검토한다.",
+        "tie_key": "17",
+        "eligible": false
+      },
+      {
+        "item_id": "PHILENERGY-06",
+        "action": "기록 보관",
+        "priority": 10,
+        "reason": "C는 검토하지 않았고 A0의 표시값 산식은 재현된다. 주당순이익 1,484원에 27.9배를 곱하면 41,403.6원으로 원 단위 반올림값은 41,404원이다. B가 적용 순이익과 주식수에서 직접 계산한 값은 41,397.19원으로 공시액과 약 6.81원 차이가 나며 표시 정밀도 검사를 통과했다.",
+        "evidence_ids": [
+          "PDF-185",
+          "A06"
+        ],
+        "question_or_request": "표시 정밀도에서 산식이 재현되어 곱셈과 반올림에 관한 추가 질문은 없다.",
+        "tie_key": "10",
+        "eligible": false
+      }
+    ],
+    "fixed_k": [
+      "PHILENERGY-08"
+    ],
+    "operational": [
+      "PHILENERGY-08"
+    ],
+    "waiting": [
+      "PHILENERGY-10",
+      "PHILENERGY-05"
+    ]
+  },
+  "lookup_pages": [
+    "PDF-183"
+  ],
+  "lookup_run": "reports/a1_current/proxy/PHILENERGY/A1_LOOK/4c7679b1398a00d9",
+  "decision_run": "reports/a1_current/proxy/PHILENERGY/A1_SELECT/74b7e5e02141b661",
+  "triz": [],
+  "common_item_count": 11,
+  "presented_refs": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "PDF-177",
+    "PDF-183",
+    "PDF-185"
+  ],
+  "selector_seconds": 76.05,
+  "selector_condition": "CODEX_PROXY"
+}

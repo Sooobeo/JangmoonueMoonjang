@@ -1,0 +1,115 @@
+{
+  "period": {
+    "startDate": "20240101",
+    "endDate": "20240630"
+  },
+  "rows": [
+    {
+      "receipt": "20240305000170",
+      "issuer": "노브랜드",
+      "corp_code": "00305941",
+      "date_kst": "2024-03-05",
+      "pdf_sha256": "f28a34931d7bcdc66ec3c746a886a89bf8023cced4a6641d2bca2bf524830cab",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240305000170&dcm_no=9685925",
+      "pdf_pages": 498,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240305000170",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240305000170",
+      "original_pdf_cache": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_initial_registrations\\20240305000170.pdf",
+      "family_earliest_confirmed": true,
+      "ipo_status_anchor": {
+        "page": 33,
+        "physical_page": 33,
+        "quote": "본주식은코스닥시장상장을목적으로모집"
+      },
+      "issuer_valuation_anchor": {
+        "page": 297,
+        "physical_page": 297,
+        "quote": "적용순이익은 동사의 2023년 3분기 연환산 기준의 적용 순이익"
+      },
+      "per_table_anchor": {
+        "page": 297,
+        "physical_page": 297,
+        "quote": "적용 PER 11.33배"
+      },
+      "period_or_method": "2023년 3분기 지배순이익 4,820백만원에 세무조사 법인세 3,511백만원을 더한 조정이익 8,331백만원을 연환산, 11,107,927,455원에 PER 11.33배 적용.",
+      "classification": "ipo_historical_PER",
+      "historical_issuer_earnings_PER": true,
+      "is_original_ipo_filing_in_this_family": true,
+      "corporate_history_file": "reports/a1_current/official/enrollment_expansion/2024H1/corporate_history/20240305000170.json",
+      "prior_withdrawals_or_earlier_originals": []
+    },
+    {
+      "receipt": "20240520000263",
+      "issuer": "시프트업",
+      "corp_code": "01384787",
+      "date_kst": "2024-05-20",
+      "pdf_sha256": "150a3f1ca69bb017e4ea07fac8f0ec45a14e5d7cf72a49cb54fe3fc673716549",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240520000263&dcm_no=9954588",
+      "pdf_pages": 428,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240520000263",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240520000263",
+      "original_pdf_cache": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_initial_registrations\\20240520000263.pdf",
+      "family_earliest_confirmed": true,
+      "ipo_status_anchor": {
+        "page": 33,
+        "physical_page": 33,
+        "quote": "당사는금번유가증권시장상장을위한공모"
+      },
+      "issuer_valuation_anchor": {
+        "page": 279,
+        "physical_page": 279,
+        "quote": "적용순이익은 2024년 1분기 기준 최근 4개분기의 당기순이익의 합계"
+      },
+      "per_table_anchor": {
+        "page": 279,
+        "physical_page": 279,
+        "quote": "적용 PER (D) 39.25 배"
+      },
+      "period_or_method": "2024년 1분기말 LTM 순이익 106,595백만원에 PER 39.25배 적용.",
+      "classification": "ipo_historical_PER",
+      "historical_issuer_earnings_PER": true,
+      "is_original_ipo_filing_in_this_family": true,
+      "corporate_history_file": "reports/a1_current/official/enrollment_expansion/2024H1/corporate_history/20240520000263.json",
+      "prior_withdrawals_or_earlier_originals": []
+    },
+    {
+      "receipt": "20240621000344",
+      "issuer": "티디에스팜",
+      "corp_code": "01232192",
+      "date_kst": "2024-06-21",
+      "pdf_sha256": "c0d2682247178d87b635fc89b58e95ddad98373d31452d39f4e58db286cd1520",
+      "pdf_url": "https://dart.fss.or.kr/pdf/download/pdf.do?rcp_no=20240621000344&dcm_no=9996234",
+      "pdf_pages": 382,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240621000344",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240621000344",
+      "original_pdf_cache": "C:\\Users\\Insun\\AppData\\Local\\Temp\\ipo_a1_initial_registrations\\20240621000344.pdf",
+      "family_earliest_confirmed": true,
+      "ipo_status_anchor": {
+        "page": 26,
+        "physical_page": 26,
+        "quote": "당사는금번코스닥시장상장을위한공모"
+      },
+      "issuer_valuation_anchor": {
+        "page": 250,
+        "physical_page": 250,
+        "quote": "적용 순이익은 2024년 1분기 기준 최근 4개분기의 당기순이익의 합계"
+      },
+      "per_table_anchor": {
+        "page": 250,
+        "physical_page": 250,
+        "quote": "적용 PER (D) 17.27"
+      },
+      "period_or_method": "2024년 1분기말 LTM 순이익 4,392,286천원에 PER 17.27배 적용.",
+      "classification": "ipo_historical_PER",
+      "historical_issuer_earnings_PER": true,
+      "is_original_ipo_filing_in_this_family": true,
+      "corporate_history_file": "reports/a1_current/official/enrollment_expansion/2024H1/corporate_history/20240621000344.json",
+      "prior_withdrawals_or_earlier_originals": []
+    }
+  ],
+  "three_checks": [
+    "DART exact-title earliest family and separately corporate C001 history queried 1999 to receipt inclusive, with original as positive control.",
+    "Confirmed listing purpose and issuer's actual historical earnings plus applied PER multiple on the priced offering, reviewed alternate/reference tables and compared issuer against peer periods.",
+    "Rechecked exact physical-page anchors and SHA256 and excluded original 18 and prior Q4 39 corporations before dispatch."
+  ]
+}

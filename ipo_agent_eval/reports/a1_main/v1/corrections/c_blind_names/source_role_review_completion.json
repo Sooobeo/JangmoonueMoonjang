@@ -1,0 +1,218 @@
+{
+  "scope": "짝수 18개 회사의 W13 원문·역할 심사 완료. 독립 기준표와 순위·등급을 열람하지 않음.",
+  "rows": [
+    {
+      "case": "20230925000332",
+      "issuer": "에코아이",
+      "original_index": 2,
+      "source_audit_sha256": "a0888356ac54ad352e647e72fa73112e65e47c32a1e0dc48a4b3e192c973a1a9",
+      "population": {
+        "original_items": 10,
+        "submitted_A0": 10,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20230728000416",
+      "issuer": "인스웨이브시스템즈",
+      "original_index": 4,
+      "source_audit_sha256": "40077e586da44148b3005dcc612da9e170c8d66400978e587ccb95c2276b5d92",
+      "population": {
+        "original_items": 13,
+        "submitted_A0": 0,
+        "comparable_C": 7
+      }
+    },
+    {
+      "case": "20231222000680",
+      "issuer": "에이피알",
+      "original_index": 6,
+      "source_audit_sha256": "8b1eaa0b8a081ea8c91f3d042e1830a60c6901c0dbd4f84057bf1685678b83a2",
+      "population": {
+        "original_items": 16,
+        "submitted_A0": 16,
+        "comparable_C": 11
+      }
+    },
+    {
+      "case": "20240710000686",
+      "issuer": "전진건설로봇",
+      "original_index": 8,
+      "source_audit_sha256": "9b4aee60fcca9dbab722e6cf90ff82f92755a04f6820bc10f7ae32101596add2",
+      "population": {
+        "original_items": 9,
+        "submitted_A0": 9,
+        "comparable_C": 4
+      }
+    },
+    {
+      "case": "20241018000518",
+      "issuer": "벡트로보틱스",
+      "original_index": 10,
+      "source_audit_sha256": "f5a45bb397c086223972d5715a56f69e4a7bd59377eb1c60fb78c2e7218b98fc",
+      "population": {
+        "original_items": 9,
+        "submitted_A0": 9,
+        "comparable_C": 4
+      }
+    },
+    {
+      "case": "20241129001313",
+      "issuer": "피아이이",
+      "original_index": 12,
+      "source_audit_sha256": "b9e6901556b573c128b13015167609f71f69a183398e7c02ad6f4941c48e5790",
+      "population": {
+        "original_items": 10,
+        "submitted_A0": 10,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20241213000457",
+      "issuer": "위너스일렉",
+      "original_index": 14,
+      "source_audit_sha256": "accea976676cfe63797d06d91ce8aa1edeecab9bcc41e710df357054d4819bfb",
+      "population": {
+        "original_items": 10,
+        "submitted_A0": 10,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20240305000170",
+      "issuer": "노브랜드",
+      "original_index": 16,
+      "source_audit_sha256": "abfe28bf23bc7fd68fd355c923c4e3762b7032bea92bc1bdb5a7c53e00a62987",
+      "population": {
+        "original_items": 15,
+        "submitted_A0": 15,
+        "comparable_C": 0
+      }
+    },
+    {
+      "case": "20250908000140",
+      "issuer": "이노테크",
+      "original_index": 18,
+      "source_audit_sha256": "4b2da1ec28824d4592c79289dac2c2057a362cfa5b8060a5e879d2119c1c8117",
+      "population": {
+        "original_items": 11,
+        "submitted_A0": 11,
+        "comparable_C": 6
+      }
+    },
+    {
+      "case": "20240520000263",
+      "issuer": "시프트업",
+      "original_index": 20,
+      "source_audit_sha256": "fd4dcf119ad1019fe7c2441a7f4180ea0b7910806c86f8195fa0ddac59d1369b",
+      "population": {
+        "original_items": 10,
+        "submitted_A0": 10,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20250908000329",
+      "issuer": "세나테크놀로지",
+      "original_index": 22,
+      "source_audit_sha256": "d31ebc0ee200578adef690dd03bae87dd98ca411ec8e21ce59025ad7a52420de",
+      "population": {
+        "original_items": 14,
+        "submitted_A0": 14,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20240621000344",
+      "issuer": "티디에스팜",
+      "original_index": 24,
+      "source_audit_sha256": "631bb1f815d0dec97271521cdcb1125906dbefca425868e743b4a5df5e59016f",
+      "population": {
+        "original_items": 10,
+        "submitted_A0": 10,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20250930000546",
+      "issuer": "아로마티카",
+      "original_index": 26,
+      "source_audit_sha256": "2085deb410a43c00235137b9ed52a6660c87c9fbf3001038b263464444543053",
+      "population": {
+        "original_items": 11,
+        "submitted_A0": 11,
+        "comparable_C": 6
+      }
+    },
+    {
+      "case": "20250320001180",
+      "issuer": "원일티엔아이",
+      "original_index": 28,
+      "source_audit_sha256": "63e56b3f41afd7fbd808b6ede2773c1a085983252763e965b7e262a2cec7dfba",
+      "population": {
+        "original_items": 10,
+        "submitted_A0": 10,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20230915000263",
+      "issuer": "에이직랜드",
+      "original_index": 30,
+      "source_audit_sha256": "21f49ff2f1dd8644c637385035be85c7ce064ce9d687a8441ac4c878d966b696",
+      "population": {
+        "original_items": 12,
+        "submitted_A0": 12,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20251103000252",
+      "issuer": "삼진식품",
+      "original_index": 32,
+      "source_audit_sha256": "3e72e09750b8dd277e9a54ed9ee1a1173f1e1c658ebd1cfc9bc338bc7bd7f6cd",
+      "population": {
+        "original_items": 10,
+        "submitted_A0": 10,
+        "comparable_C": 5
+      }
+    },
+    {
+      "case": "20250325000608",
+      "issuer": "달바글로벌",
+      "original_index": 34,
+      "source_audit_sha256": "7ef19514c97145754bcc096fa57b2b1903e5d2d470d51e2a3a3716a18391d91d",
+      "population": {
+        "original_items": 12,
+        "submitted_A0": 12,
+        "comparable_C": 6
+      }
+    },
+    {
+      "case": "20230918000204",
+      "issuer": "스톰테크",
+      "original_index": 36,
+      "source_audit_sha256": "0f948f750fb162cac0edec6bfc7900af022fdddf88fcf1cf15991f4d667c60e8",
+      "population": {
+        "original_items": 11,
+        "submitted_A0": 11,
+        "comparable_C": 6
+      }
+    }
+  ],
+  "role_status_counts": {
+    "A0": {
+      "verified": 122,
+      "conditional": 7,
+      "insufficient": 59,
+      "citation_mismatch": 2
+    },
+    "C": {
+      "conditional": 37,
+      "insufficient": 21,
+      "verified": 37
+    }
+  },
+  "actual_exposure_sha256": "25268a6ba5b65928d63092aa7aff0083db33bd8bc7762e85fec7fad833176db2",
+  "residual_name_sha256": "6625fd7427097521a9e1572be44acf3ce524bc841de0aa6c9f39463c1fafe11a"
+}

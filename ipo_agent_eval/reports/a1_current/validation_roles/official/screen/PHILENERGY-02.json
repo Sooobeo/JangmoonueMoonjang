@@ -1,0 +1,84 @@
+{
+  "answer": {
+    "eligible": true,
+    "common_proposition": "발행사 이익의 귀속 범위를 지배기업 소유주 기준으로 살펴볼 수 있다.",
+    "a0_ground": "발행사 평가에 지배주주 당기순이익을 기초로 사용했다. 2022년 금액에는 파생상품평가손실을 가산했다.",
+    "c_ground": "지배기업 소유주 귀속 순이익을 제안했고, 연결포괄손익계산서의 별도 귀속 표기를 확인했다.",
+    "counterevidence": "C 자료에는 지배기업 소유주 귀속 금액이 제공되지 않는다. 또한 A의 2022년 적용 이익은 귀속 순이익에 조정을 가한 금액이다.",
+    "resolution_or_limit": "금액의 일치나 비교기업까지 포함한 귀속 범위의 일치는 확인할 수 없다. 검사는 발행사 이익의 귀속 기준에 관한 방향으로 한정한다.",
+    "neutral_question": "발행사 이익의 회계상 귀속 범위는 어떻게 검토할 수 있는가?",
+    "A0": {
+      "context": [
+        {
+          "source": "A-p185",
+          "quote": "[㈜필에너지 PER에 의한 평가가치]"
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "A-p185",
+          "quote": "2022년 지배주주 당기순이익 3,723백만원에 전환사채 전환권에 대한 파생상품평가손실인 8,134백만원을 가산하여"
+        },
+        {
+          "source": "A-p185",
+          "quote": "2022년 1분기 및 2023년 1분기의 경우, 전환사채 전환권에 대한 별도 평가를 수행하지 않아 지배주주 당기순\n\n   이익을 적용 당기순이익으로 사용하였습니다."
+        }
+      ],
+      "retained": []
+    },
+    "C": {
+      "context": [
+        {
+          "source": "C-E2",
+          "quote": "K-IFRS 연결 자료에서 2022년 영업이익은 16,812,053천원, 연결순이익은 3,723,211천원이었다."
+        }
+      ],
+      "pivotal": [
+        {
+          "source": "C-E3",
+          "quote": "연결포괄손익계산서는 2023년 1분기와 2022년 연간을 함께 제시하고 지배기업 소유주 귀속을 별도로 표기한다."
+        }
+      ],
+      "retained": []
+    }
+  },
+  "summary": {
+    "run_id": "20261126T040723Z_OFFICIAL_ALIGNMENT_PHILENERGY-02_97c8f9e3",
+    "condition": "OFFICIAL_ALIGNMENT_PHILENERGY-02",
+    "mode": "LIVE",
+    "case_id": "PHILENERGY",
+    "repeat": 1,
+    "config_version": "current-dev-1",
+    "contract_versions": [
+      "current-dev-1"
+    ],
+    "execution_status": "SUBMITTED",
+    "model": "gpt-6.1-terra",
+    "returned_models": [
+      "gpt-6.1-terra"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 4648,
+    "output_tokens": 1087,
+    "format_repairs": 0,
+    "elapsed_seconds": 19.759,
+    "usage_unknown": false,
+    "estimated_cost_usd_standard_uncached": 0.010083,
+    "known_usage_cost_usd_standard_uncached": 0.010083,
+    "estimated_cost_krw_at_budget_fx": 14.12,
+    "cost_ceiling_usd": 0.011245,
+    "transient_retries": 0,
+    "unknown_usage_reservation": {
+      "input_tokens_estimated": 0,
+      "output_tokens_max": 0,
+      "cost_ceiling_usd": 0.0,
+      "attempts": []
+    },
+    "accounted_cost_ceiling_usd": 0.011245,
+    "cost_note": "Usage estimate, not invoice; unknown usage is never counted as zero.",
+    "actual_model_answer": true
+  },
+  "evidence_dir": "reports/a1_current/live/PHILENERGY/OFFICIAL_ALIGNMENT_PHILENERGY-02/1ffc319a15141e47/20261126T040723Z_OFFICIAL_ALIGNMENT_PHILENERGY-02_97c8f9e3",
+  "raw_response_id": "resp_086ee1c0cf47cf38016b07b07f4a2487d0bc41b05c423b5d38"
+}
